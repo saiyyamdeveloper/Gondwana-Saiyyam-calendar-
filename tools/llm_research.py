@@ -23,45 +23,66 @@ def fetch_text(u, n=300000):
     except Exception:
         return ''
 
-def _free_fallback():
-    """OpenRouter की लाइव सूची से कोई जीवित :free मॉडल चुनो (404-स्वतःउपचार)"""
+def _free_fallbacks(limit=4):
+    """OpenRouter की लाइव सूची से जीवित :free मॉडल (पसंद-क्रम में) — 404/400-स्वतःउपचार"""
     try:
         req = urllib.request.Request('https://openrouter.ai/api/v1/models',
                                      headers={'User-Agent': 'GondwanaCalendarBot/1.0'})
         d = json.load(urllib.request.urlopen(req, timeout=30))
         ids = [m['id'] for m in d.get('data', []) if str(m.get('id', '')).endswith(':free')]
-        for pref in ('meta-llama/llama-3.3-70b-instruct:free', 'google/gemma-3-27b-it:free',
-                     'qwen/', 'mistralai/', 'deepseek/'):
+        out = []
+        for pref in ('meta-llama/', 'google/gemma', 'qwen/', 'mistralai/', 'deepseek/', 'nvidia/'):
             for i in ids:
-                if i == pref or i.startswith(pref):
-                    return i
-        return ids[0] if ids else None
+                if i.startswith(pref) and i not in out: out.append(i)
+        for i in ids:
+            if i not in out: out.append(i)
+        return out[:limit]
     except Exception:
-        return None
+        return []
 
 def _chat(url, key, model, prompt, extra=None):
-    hdr = {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key}
+    hdr = {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key,
+           'X-Title': 'Gondwana-Satyapan-Panel', 'HTTP-Referer': 'https://saiyyamdeveloper.github.io/'}
     if extra: hdr.update(extra)
     base = {'temperature': 0.2, 'messages': [{'role': 'user', 'content': prompt}]}
 
     def attempt(mod):
+        last = None
         for with_rf in (True, False):   # कुछ मॉडल response_format नहीं लेते → fallback
             p = dict(base)
             p['model'] = mod
             if with_rf: p['response_format'] = {'type': 'json_object'}
             req = urllib.request.Request(url, data=json.dumps(p).encode(), headers=hdr)
-            with urllib.request.urlopen(req, timeout=120) as r:
-                d = json.load(r)
-            return d['choices'][0]['message']['content']
+            try:
+                with urllib.request.urlopen(req, timeout=120) as r:
+                    d = json.load(r)
+                return d['choices'][0]['message']['content']
+            except urllib.error.HTTPError as e:
+                last = e
+                if with_rf and e.code in (400, 422): continue
+                raise
 
     try:
         return attempt(model)
     except urllib.error.HTTPError as e:
-        if e.code != 404 or 'openrouter' not in url: raise
-        fb = _free_fallback()
-        if not fb or fb == model: raise
-        print('llm: सेट मॉडल 404 — लाइव सूची से स्वतः फ़ॉलबैक:', fb)
-        return attempt(fb)
+        body = ''
+        try: body = e.read(300).decode('utf-8', 'replace')
+        except Exception: pass
+        if e.code not in (400, 404) or 'openrouter' not in url:
+            print(f'llm: HTTP {e.code} — {body[:200]}')
+            raise
+        for fb in _free_fallbacks():
+            if fb == model: continue
+            print(f'llm: मॉडल {model} HTTP {e.code} — अगला जीवित free मॉडल आज़माया: {fb} | कारण: {body[:120]}')
+            try:
+                return attempt(fb)
+            except urllib.error.HTTPError as e2:
+                try: body = e2.read(300).decode('utf-8', 'replace')
+                except Exception: pass
+                e = e2
+                continue
+        print(f'llm: सभी फ़ॉलबैक विफल — अंतिम: HTTP {e.code} {body[:200]}')
+        raise
 
 def ask_llm(prompt):
     prov = os.environ.get('LLM_PROVIDER', 'gemini').lower()
