@@ -1,0 +1,65 @@
+{
+ "id": "person:nirmala-putul",
+ "checked_at": "2026-09-12T12:34:07.314254+00:00",
+ "score": 20,
+ "verdict": "conflict",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: निर्मला पुतुल; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%B2%E0%A4%BE%20%E0%A4%AA%E0%A5%81%E0%A4%A4%E0%A5%81%E0%A4%B2"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Adivasi",
+   "link": "https://en.wikipedia.org/wiki/Adivasi"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q61103718",
+   "link": "https://www.wikidata.org/wiki/Q61103718"
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "साहित्यिक मीडिया"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "field": "birth",
+   "ours": 1981,
+   "theirs": 1972,
+   "source": "wikidata"
+  }
+ ],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "निर्मला पुतुल: स्कोर 20/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1981 बनाम wikidata=1972 — मानव-निर्णय आवश्यक।",
+ "llm": null
+}

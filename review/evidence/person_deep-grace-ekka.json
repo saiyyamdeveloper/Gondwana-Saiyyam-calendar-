@@ -1,0 +1,65 @@
+{
+ "id": "person:deep-grace-ekka",
+ "checked_at": "2026-09-12T12:33:51.543227+00:00",
+ "score": 60,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: दीप ग्रेस एक्का; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%A6%E0%A5%80%E0%A4%AA%20%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%B8%20%E0%A4%8F%E0%A4%95%E0%A5%8D%E0%A4%95%E0%A4%BE"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Deep Grace Ekka; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Deep%20Grace%20Ekka"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q26207997",
+   "link": "https://www.wikidata.org/wiki/Q26207997"
+  },
+  {
+   "name": "wd-birth-match",
+   "ok": true,
+   "pts": 10,
+   "detail": "हमारा 1994 ↔ विकिडेटा 1994",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "ओलंपिक रिकॉर्ड (सत्यापन)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "दीप ग्रेस एक्का: स्कोर 60/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
+ "llm": null
+}

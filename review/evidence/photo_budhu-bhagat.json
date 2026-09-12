@@ -1,0 +1,50 @@
+{
+ "id": "photo:budhu-bhagat",
+ "checked_at": "2026-09-12T12:34:16.294471+00:00",
+ "score": 30,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: बुधू भगत; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A5%81%E0%A4%A7%E0%A5%82%20%E0%A4%AD%E0%A4%97%E0%A4%A4"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Budhu Bhagat",
+   "link": "https://en.wikipedia.org/wiki/Budhu%20Bhagat"
+  },
+  {
+   "name": "wikidata",
+   "ok": false,
+   "pts": 0,
+   "detail": "विकिडेटा आइटम नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org"
+ ],
+ "summary_hi": "फ़ोटो: वीर बुधु भगत: स्कोर 30/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en।",
+ "llm": null
+}

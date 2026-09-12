@@ -1,0 +1,78 @@
+{
+ "id": "person:tantya-bhil",
+ "checked_at": "2026-09-12T12:33:24.530479+00:00",
+ "score": 55,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Tantia Bhil; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Tantia%20Bhil"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q13117690",
+   "link": "https://www.wikidata.org/wiki/Q13117690"
+  },
+  {
+   "name": "wd-birth-match",
+   "ok": true,
+   "pts": 10,
+   "detail": "हमारा 1840 ↔ विकिडेटा 1840",
+   "link": ""
+  },
+  {
+   "name": "wd-death-match",
+   "ok": true,
+   "pts": 10,
+   "detail": "हमारा 1889 ↔ विकिडेटा 1890",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "vskbharat (2024)"
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "प्रभात खबर (2025)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "टांट्या भील (टांट्या मामा): स्कोर 55/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category।",
+ "llm": null
+}

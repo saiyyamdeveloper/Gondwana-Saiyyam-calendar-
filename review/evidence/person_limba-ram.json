@@ -1,0 +1,65 @@
+{
+ "id": "person:limba-ram",
+ "checked_at": "2026-09-12T12:33:57.272231+00:00",
+ "score": 60,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: सत्यदेव प्रसाद; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%A6%E0%A5%87%E0%A4%B5%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%A6"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Limba Ram; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Limba%20Ram"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q468366",
+   "link": "https://www.wikidata.org/wiki/Q468366"
+  },
+  {
+   "name": "wd-birth-match",
+   "ok": true,
+   "pts": 10,
+   "detail": "हमारा 1972 ↔ विकिडेटा 1972",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "मीडिया रिपोर्ट"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "लिम्बा राम: स्कोर 60/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
+ "llm": null
+}

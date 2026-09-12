@@ -1,0 +1,65 @@
+{
+ "id": "person:jamuna-tudu",
+ "checked_at": "2026-09-12T12:33:47.152373+00:00",
+ "score": 60,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: जमुना टुडू; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%AE%E0%A5%81%E0%A4%A8%E0%A4%BE%20%E0%A4%9F%E0%A5%81%E0%A4%A1%E0%A5%82"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Jamuna Tudu; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Jamuna%20Tudu"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q61045705",
+   "link": "https://www.wikidata.org/wiki/Q61045705"
+  },
+  {
+   "name": "wd-birth-match",
+   "ok": true,
+   "pts": 10,
+   "detail": "हमारा 1980 ↔ विकिडेटा 1980",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "मीडिया रिपोर्ट"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "जमुना टुडू: स्कोर 60/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
+ "llm": null
+}

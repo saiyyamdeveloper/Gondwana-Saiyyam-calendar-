@@ -1,0 +1,65 @@
+{
+ "id": "person:kartik-uraon",
+ "checked_at": "2026-09-12T12:33:41.073289+00:00",
+ "score": 60,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: कार्तिक उरांव; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%20%E0%A4%89%E0%A4%B0%E0%A4%BE%E0%A4%82%E0%A4%B5"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Kartik Oraon; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Kartik%20Oraon"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q6373550",
+   "link": "https://www.wikidata.org/wiki/Q6373550"
+  },
+  {
+   "name": "wd-death-match",
+   "ok": true,
+   "pts": 10,
+   "detail": "हमारा 1981 ↔ विकिडेटा 1981",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "प्रभात खबर (2025)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "कार्तिक उराँव: स्कोर 60/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, internal-sources, internal-category।",
+ "llm": null
+}

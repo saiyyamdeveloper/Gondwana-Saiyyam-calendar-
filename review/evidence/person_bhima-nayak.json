@@ -1,0 +1,58 @@
+{
+ "id": "person:bhima-nayak",
+ "checked_at": "2026-09-12T12:33:26.288068+00:00",
+ "score": 50,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: भीमा नायक; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%AD%E0%A5%80%E0%A4%AE%E0%A4%BE%20%E0%A4%A8%E0%A4%BE%E0%A4%AF%E0%A4%95"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Bhima Nayak; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Bhima%20Nayak"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q25541503",
+   "link": "https://www.wikidata.org/wiki/Q25541503"
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "vskbharat (2024)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "भीमा नायक: स्कोर 50/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category।",
+ "llm": null
+}

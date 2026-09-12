@@ -1,0 +1,64 @@
+{
+ "id": "person:nilam-sanjeep-xess",
+ "checked_at": "2026-09-12T12:33:53.945686+00:00",
+ "score": 5,
+ "verdict": "conflict",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Nilam Sanjeep Xess; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Nilam%20Sanjeep%20Xess"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q58459070",
+   "link": "https://www.wikidata.org/wiki/Q58459070"
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "हॉकी इंडिया (सत्यापन)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "field": "birth",
+   "ours": 2000,
+   "theirs": 1998,
+   "source": "wikidata"
+  }
+ ],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "नीलम संजीप खैस: स्कोर 5/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=2000 बनाम wikidata=1998 — मानव-निर्णय आवश्यक।",
+ "llm": null
+}

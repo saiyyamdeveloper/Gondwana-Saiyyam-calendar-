@@ -1,0 +1,64 @@
+{
+ "id": "person:dharanidhar-bhuyan",
+ "checked_at": "2026-09-12T12:33:32.427396+00:00",
+ "score": 5,
+ "verdict": "conflict",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Dharanidhar Naik; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Dharanidhar%20Naik"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q15632459",
+   "link": "https://www.wikidata.org/wiki/Q15632459"
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "ओडिशा इतिहास स्रोत"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "field": "death",
+   "ours": 1868,
+   "theirs": 1914,
+   "source": "wikidata"
+  }
+ ],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "धरणीधर भुइयाँ: स्कोर 5/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category। विरोध: death हमारा=1868 बनाम wikidata=1914 — मानव-निर्णय आवश्यक।",
+ "llm": null
+}

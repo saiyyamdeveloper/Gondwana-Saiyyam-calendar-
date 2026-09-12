@@ -1,0 +1,78 @@
+{
+ "id": "person:jangarh-singh-shyam",
+ "checked_at": "2026-09-12T12:33:58.845053+00:00",
+ "score": 55,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Jangarh Singh Shyam; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Jangarh%20Singh%20Shyam"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q18402444",
+   "link": "https://www.wikidata.org/wiki/Q18402444"
+  },
+  {
+   "name": "wd-birth-match",
+   "ok": true,
+   "pts": 10,
+   "detail": "हमारा 1962 ↔ विकिडेटा 1962",
+   "link": ""
+  },
+  {
+   "name": "wd-death-match",
+   "ok": true,
+   "pts": 10,
+   "detail": "हमारा 2001 ↔ विकिडेटा 2001",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "गोंड आर्ट साहित्य"
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "Caravan (2019)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "जंगारह सिंह श्याम: स्कोर 55/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category।",
+ "llm": null
+}

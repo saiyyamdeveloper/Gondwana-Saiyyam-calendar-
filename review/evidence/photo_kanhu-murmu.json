@@ -1,0 +1,51 @@
+{
+ "id": "photo:kanhu-murmu",
+ "checked_at": "2026-09-12T12:34:10.625381+00:00",
+ "score": 40,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: सिदो कान्हू मुर्मू विश्वविद्यालय; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BF%E0%A4%A6%E0%A5%8B%20%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B9%E0%A5%82%20%E0%A4%AE%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A5%82%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Sido Kanhu Murmu University",
+   "link": "https://en.wikipedia.org/wiki/Sido%20Kanhu%20Murmu%20University"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q65285304",
+   "link": "https://www.wikidata.org/wiki/Q65285304"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "फ़ोटो: कान्हू मुर्मू: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata।",
+ "llm": null
+}

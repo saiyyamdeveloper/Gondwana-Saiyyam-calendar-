@@ -1,0 +1,65 @@
+{
+ "id": "person:veer-narayan-singh",
+ "checked_at": "2026-09-12T12:33:27.476971+00:00",
+ "score": 60,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: वीर नारायण सिंह; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A5%80%E0%A4%B0%20%E0%A4%A8%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%AF%E0%A4%A3%20%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%B9"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Veer Narayan Singh; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Veer%20Narayan%20Singh"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q19662789",
+   "link": "https://www.wikidata.org/wiki/Q19662789"
+  },
+  {
+   "name": "wd-death-match",
+   "ok": true,
+   "pts": 10,
+   "detail": "हमारा 1857 ↔ विकिडेटा 1857",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "प्रभात खबर (2025)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "वीर नारायण सिंह: स्कोर 60/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, internal-sources, internal-category।",
+ "llm": null
+}

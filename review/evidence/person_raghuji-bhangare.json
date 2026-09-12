@@ -1,0 +1,57 @@
+{
+ "id": "person:raghuji-bhangare",
+ "checked_at": "2026-09-12T12:33:37.592498+00:00",
+ "score": 40,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: राघोजी भांगरे; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%B0%E0%A4%BE%E0%A4%98%E0%A5%8B%E0%A4%9C%E0%A5%80%20%E0%A4%AD%E0%A4%BE%E0%A4%82%E0%A4%97%E0%A4%B0%E0%A5%87"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Raghoji Bhangare",
+   "link": "https://en.wikipedia.org/wiki/Raghoji%20Bhangare"
+  },
+  {
+   "name": "wikidata",
+   "ok": false,
+   "pts": 0,
+   "detail": "विकिडेटा आइटम नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "प्रभात खबर (2025)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org"
+ ],
+ "summary_hi": "राघोजी भांगरे: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en, internal-sources, internal-category।",
+ "llm": null
+}

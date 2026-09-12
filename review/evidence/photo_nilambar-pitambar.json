@@ -1,0 +1,51 @@
+{
+ "id": "photo:nilambar-pitambar",
+ "checked_at": "2026-09-12T12:34:14.506107+00:00",
+ "score": 40,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: नीलाम्बर पीताम्बर विश्वविद्यालय; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%A8%E0%A5%80%E0%A4%B2%E0%A4%BE%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%B0%20%E0%A4%AA%E0%A5%80%E0%A4%A4%E0%A4%BE%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%B0%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Nilamber and Pitamber",
+   "link": "https://en.wikipedia.org/wiki/Nilamber%20and%20Pitamber"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q14957032",
+   "link": "https://www.wikidata.org/wiki/Q14957032"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "फ़ोटो: नीलाम्बर-पीताम्बर: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata।",
+ "llm": null
+}
