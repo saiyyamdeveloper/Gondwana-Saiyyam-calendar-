@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: साप्ताहिक तिथि-समृद्धि (जन्म/मृत्यु दिन)
+        if: github.event.schedule == '30 21 * * 1'
+        run: python3 tools/auto_verify.py --dates
       - name: नया-डेटा खोज (विकिडेटा जनजाति-माइनिंग)
         run: python3 tools/discover_new.py
       - name: परत 1 — विकिपीडिया/विकिडेटा/स्रोत cross-जाँच + हाइब्रिड नीति

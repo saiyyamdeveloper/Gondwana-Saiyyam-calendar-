@@ -274,6 +274,10 @@ def enrich_dates():
                 if c == 'sources': v = ' | '.join(v or [])
                 row.append('' if v is None else v)
             w.writerow(row)
+    djp = os.path.join(APP, 'data.js')
+    lines = open(djp, encoding='utf-8').read().split('\n')
+    open(djp, 'w', encoding='utf-8').write('\n'.join(
+        ('window.GW_HEROES = ' + json.dumps(db, ensure_ascii=False) + ';') if l.startswith('window.GW_HEROES = ') else l for l in lines))
     print(f'enrich-dates: {got} व्यक्तियों में दिन-सटीक तिथियाँ दर्ज (स्रोत: विकिडेटा); {skipped} छोड़े')
     return 0
 
