@@ -113,24 +113,6 @@
    "verified_by": null,
    "verified_at": null,
    "note": "URL रिक्त"
-  },
-  {
-   "id": "media-inbox-c2f8e4ad44",
-   "type": "other",
-   "title": "test-notify.txt",
-   "desc": "इनबॉक्स से स्वचालित विवरण: प्रकार=other, आकार=208B, SHA-256=c2f8e4ad44760009…, प्राप्त=2026-09-12। शीर्षक/स्रोत/license पैनल में सत्यापित करें।",
-   "path": "media/inbox/test-notify.txt",
-   "url": null,
-   "source": "media/inbox (automation)",
-   "license": "unknown",
-   "size": 208,
-   "added": "2026-09-12",
-   "added_by": "automation:media-scan",
-   "status": "candidate",
-   "attach_to": null,
-   "verified_by": null,
-   "verified_at": null,
-   "note": "⏳ एडमिन-सत्यापन प्रतीक्षित"
   }
  ]
 }
