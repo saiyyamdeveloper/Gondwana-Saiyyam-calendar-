@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-12T14:11:09.014648+00:00"
+  "updated": "2026-09-12T14:27:35.826606+00:00"
  },
  "queue": [
   {
@@ -4712,6 +4712,200 @@
     ],
     "verify": true,
     "verify_note": "स्वतः-खोज: विकिडेटा P172=Ho people"
+   },
+   "status": "pending",
+   "added": "2026-09-12",
+   "added_by": "automation:discover",
+   "isNew": true,
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "person:wd-Q116546852",
+   "kind": "person",
+   "subtype": "auto-discovered",
+   "title": "Ganesh Birua",
+   "subtitle": "Ho people · विकिडेटा से स्वतः खोज",
+   "reason": "विकिडेटा जनजाति-माइनिंग (P172) से नई खोज — प्रकाशन पूर्व सत्यापन आवश्यक",
+   "source_file": "mahapurush_database.json",
+   "record_id": "wd-Q116546852",
+   "payload": {
+    "id": "wd-Q116546852",
+    "name_hi": "Ganesh Birua",
+    "name_en": "Ganesh Birua",
+    "birth": null,
+    "death": null,
+    "tribe_hi": "Ho people",
+    "category": "auto-discovered",
+    "sources": [
+     "https://www.wikidata.org/wiki/Q116546852"
+    ],
+    "verify": true,
+    "verify_note": "स्वतः-खोज: विकिडेटा P172=Ho people"
+   },
+   "status": "pending",
+   "added": "2026-09-12",
+   "added_by": "automation:discover",
+   "isNew": true,
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "person:wd-Q117464770",
+   "kind": "person",
+   "subtype": "auto-discovered",
+   "title": "जानुम सिंह सोय",
+   "subtitle": "Ho people · विकिडेटा से स्वतः खोज",
+   "reason": "विकिडेटा जनजाति-माइनिंग (P172) से नई खोज — प्रकाशन पूर्व सत्यापन आवश्यक",
+   "source_file": "mahapurush_database.json",
+   "record_id": "wd-Q117464770",
+   "payload": {
+    "id": "wd-Q117464770",
+    "name_hi": "जानुम सिंह सोय",
+    "name_en": "Janum Singh Soy",
+    "birth": "1950",
+    "death": null,
+    "tribe_hi": "Ho people",
+    "category": "auto-discovered",
+    "sources": [
+     "https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A5%81%E0%A4%AE_%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%B9_%E0%A4%B8%E0%A5%8B%E0%A4%AF",
+     "https://en.wikipedia.org/wiki/Janum_Singh_Soy",
+     "https://www.wikidata.org/wiki/Q117464770"
+    ],
+    "verify": true,
+    "verify_note": "स्वतः-खोज: विकिडेटा P172=Ho people"
+   },
+   "status": "pending",
+   "added": "2026-09-12",
+   "added_by": "automation:discover",
+   "isNew": true,
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "person:wd-Q121462767",
+   "kind": "person",
+   "subtype": "auto-discovered",
+   "title": "Gangaram Bankira",
+   "subtitle": "Ho people · विकिडेटा से स्वतः खोज",
+   "reason": "विकिडेटा जनजाति-माइनिंग (P172) से नई खोज — प्रकाशन पूर्व सत्यापन आवश्यक",
+   "source_file": "mahapurush_database.json",
+   "record_id": "wd-Q121462767",
+   "payload": {
+    "id": "wd-Q121462767",
+    "name_hi": "Gangaram Bankira",
+    "name_en": "Gangaram Bankira",
+    "birth": null,
+    "death": null,
+    "tribe_hi": "Ho people",
+    "category": "auto-discovered",
+    "sources": [
+     "https://www.wikidata.org/wiki/Q121462767"
+    ],
+    "verify": true,
+    "verify_note": "स्वतः-खोज: विकिडेटा P172=Ho people"
+   },
+   "status": "pending",
+   "added": "2026-09-12",
+   "added_by": "automation:discover",
+   "isNew": true,
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "person:wd-Q121462784",
+   "kind": "person",
+   "subtype": "auto-discovered",
+   "title": "Ashish Birulee",
+   "subtitle": "Ho people · विकिडेटा से स्वतः खोज",
+   "reason": "विकिडेटा जनजाति-माइनिंग (P172) से नई खोज — प्रकाशन पूर्व सत्यापन आवश्यक",
+   "source_file": "mahapurush_database.json",
+   "record_id": "wd-Q121462784",
+   "payload": {
+    "id": "wd-Q121462784",
+    "name_hi": "Ashish Birulee",
+    "name_en": "Ashish Birulee",
+    "birth": null,
+    "death": null,
+    "tribe_hi": "Ho people",
+    "category": "auto-discovered",
+    "sources": [
+     "https://www.wikidata.org/wiki/Q121462784"
+    ],
+    "verify": true,
+    "verify_note": "स्वतः-खोज: विकिडेटा P172=Ho people"
+   },
+   "status": "pending",
+   "added": "2026-09-12",
+   "added_by": "automation:discover",
+   "isNew": true,
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "person:wd-Q125746675",
+   "kind": "person",
+   "subtype": "auto-discovered",
+   "title": "Fileona Dkhar",
+   "subtitle": "Khasi people · विकिडेटा से स्वतः खोज",
+   "reason": "विकिडेटा जनजाति-माइनिंग (P172) से नई खोज — प्रकाशन पूर्व सत्यापन आवश्यक",
+   "source_file": "mahapurush_database.json",
+   "record_id": "wd-Q125746675",
+   "payload": {
+    "id": "wd-Q125746675",
+    "name_hi": "Fileona Dkhar",
+    "name_en": "Fileona Dkhar",
+    "birth": null,
+    "death": null,
+    "tribe_hi": "Khasi people",
+    "category": "auto-discovered",
+    "sources": [
+     "https://www.wikidata.org/wiki/Q125746675"
+    ],
+    "verify": true,
+    "verify_note": "स्वतः-खोज: विकिडेटा P172=Khasi people"
+   },
+   "status": "pending",
+   "added": "2026-09-12",
+   "added_by": "automation:discover",
+   "isNew": true,
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "person:wd-Q131295751",
+   "kind": "person",
+   "subtype": "auto-discovered",
+   "title": "M. Keivom",
+   "subtitle": "Mizo people · विकिडेटा से स्वतः खोज",
+   "reason": "विकिडेटा जनजाति-माइनिंग (P172) से नई खोज — प्रकाशन पूर्व सत्यापन आवश्यक",
+   "source_file": "mahapurush_database.json",
+   "record_id": "wd-Q131295751",
+   "payload": {
+    "id": "wd-Q131295751",
+    "name_hi": "M. Keivom",
+    "name_en": "M. Keivom",
+    "birth": "1967",
+    "death": null,
+    "tribe_hi": "Mizo people",
+    "category": "auto-discovered",
+    "sources": [
+     "https://www.wikidata.org/wiki/Q131295751"
+    ],
+    "verify": true,
+    "verify_note": "स्वतः-खोज: विकिडेटा P172=Mizo people"
    },
    "status": "pending",
    "added": "2026-09-12",
