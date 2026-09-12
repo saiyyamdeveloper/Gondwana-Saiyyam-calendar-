@@ -1,11 +1,9 @@
 # 🪔 गोंडवाना कैलेंडर — Gondwana Calendar PWA
 
-<!-- CI badge — workflow फ़ाइल जोड़ने के बाद यह लाइन uncomment करें:
 [![Gondwana CI — स्वचालित निरीक्षण](https://github.com/saiyyamdeveloper/Gondwana-Saiyyam-calendar-/actions/workflows/ci.yml/badge.svg)](https://github.com/saiyyamdeveloper/Gondwana-Saiyyam-calendar-/actions/workflows/ci.yml)
--->
+[![Pages](https://img.shields.io/badge/GitHub_Pages-live-brightgreen)](https://saiyyamdeveloper.github.io/Gondwana-Saiyyam-calendar-/)
 
-**🌐 लाइव ऐप (Live):** <https://saiyyamdeveloper.github.io/Gondwana-Saiyyam-calendar-/>
-*(Pages सक्रिय होने पर — सेटअप-नोट नीचे देखें)*
+**🌐 लाइव ऐप (Live):** <https://saiyyamdeveloper.github.io/Gondwana-Saiyyam-calendar-/> — *फ़ोन में खोलें → Chrome मेनू → "Install app" / "Add to Home screen" → ऑफ़लाइन चलेगा*
 
 गोंडी माह, दृक्-पंचांग, पर्व, देवस्थल-नक्शा, मसराम गोंडी लिपि-कन्वर्टर, **आदिवासी महापुरुष डेटाबेस (60)** और **स्थल-कोश GPS सहित (45)** — एक ही ऑफ़लाइन ऐप में।
 
@@ -64,7 +62,7 @@
 **परत 3 — समीक्षा-चक्र** ([`tools/make_review_checklist.py`](tools/make_review_checklist.py))
 [`REVIEW_CHECKLIST.md`](REVIEW_CHECKLIST.md) auto-generate होती है: कौन-से तथ्य verify-बाकी हैं, कितनी फ़ोटो जोड़नी हैं, किन समुदाय-घोषित जतरों की तिथि-पुष्टि करनी है। सत्यापन होते ही सूची छोटी होती जाती है।
 
-> ⚙️ **सेटअप-नोट (एक बार):** परत 2 की workflow फ़ाइल [`ci.yml`](https://github.com/saiyyamdeveloper/Gondwana-Saiyyam-calendar-/actions) इस repo में जोड़नी बाकी है — PAT में `workflow` scope न होने के कारण वह push नहीं हो सकी। GitHub → *Add file → Create new file* → नाम `.github/workflows/ci.yml` → सामग्री paste → commit. उसके बाद यह badge अपने आप हरा हो जाएगा।
+> ✅ **स्थिति:** परत 1 (runtime self-check) ऐप में सक्रिय · परत 2 (CI) [`Actions`](https://github.com/saiyyamdeveloper/Gondwana-Saiyyam-calendar-/actions) में हरा — हर push पर 1051 जाँच + smoke test + CSV-sync · परत 3 [`REVIEW_CHECKLIST.md`](REVIEW_CHECKLIST.md) तैयार · GitHub Pages लाइव।
 
 > 🐛 **इसने पकड़ा हुआ पहला बग:** `monthInfoAtJD` में अधिक-मास की जाँच *पिछली* अमावस्या से तुलना करती थी — असली अधिक माह सामान्य दिखता था और अगला निज-माह "अधिक" बन जाता। FIX: अगली अमावस्या से तुलना। अब अधिक श्रावण 2023 (18 जुलाई–16 अगस्त) और अधिक ज्येष्ठ 2026 (17 मई–15 जून) दोनों सही पहचाने जाते हैं।
 

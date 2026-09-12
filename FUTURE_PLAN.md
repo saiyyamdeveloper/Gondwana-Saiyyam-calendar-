@@ -23,8 +23,8 @@
 | **Automation परत 2 — CI फ़ाइलें (GitHub Actions)** | ✅ READY — `.github/workflows/ci.yml`; GitHub push होते ही सक्रिय |
 | **Automation परत 3 — समीक्षा-सूची जनरेटर** | ✅ DONE — `tools/make_review_checklist.py` → REVIEW_CHECKLIST.md |
 | **GitHub hosting — repo push** | ✅ DONE — [saiyyamdeveloper/Gondwana-Saiyyam-calendar-](https://github.com/saiyyamdeveloper/Gondwana-Saiyyam-calendar-), branch `main`, 28 फ़ाइलें, README तैयार |
-| GitHub Pages चालू करना | ⏳ USER-कार्य — Settings → Pages → Branch: main / (root) → Save (PAT में `pages` अनुमति नहीं थी) |
-| CI workflow जोड़ना (`.github/workflows/ci.yml`) | ⏳ USER-कार्य — PAT में `workflow` scope नहीं; फ़ाइल लोकल/ZIP में तैयार, Web UI से paste करें |
+| **GitHub Pages** | ✅ DONE — https://saiyyamdeveloper.github.io/Gondwana-Saiyyam-calendar- लाइव (built, सभी asset 200) |
+| **CI workflow (परत 2)** | ✅ DONE — push हुआ, पहला रन सफल (validate+smoke+CSV-sync हरा) |
 | फ़ोटो पाइपलाइन (लाइसेंस-जाँच) | ⏳ PENDING — सभी `photo:null` |
 | **स्थल-कोश पेज (धार्मिक/शहीदी/स्मारक + GPS)** | ✅ DONE v1.2 — 45 स्थल, टैब "स्थल" लाइव (`notes/gondwana_places.json`) |
 | स्थल-कोश विस्तार: सटीक सर्वे-GPS (फ़ील्ड-जाँच), +स्मारक-डेटाबेस विस्तार, नक्शे पर नए पिन | ⏳ PENDING |
