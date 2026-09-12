@@ -1,6 +1,11 @@
 /* ============ Gondwana Calendar App — app.js ============ */
 (function () {
   'use strict';
+  function fmtDateHi(iso) {
+    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+    return m ? (+m[3] + ' ' + HI_MONTHS[+m[2] - 1] + ' ' + m[1]) : (iso || '');
+  }
+
   const D = window.GW_DATA, X = window.GW_EXTRA, E = window.GWEngine, G = window.Gondi, H = window.GW_HEROES, PL = window.GW_PLACES;
   const $ = s => document.querySelector(s);
   const $$ = s => Array.from(document.querySelectorAll(s));
@@ -606,8 +611,8 @@
       ['श्रेणी', `<b style="color:${cm.c}">${cm.hi}</b>`],
       ['जनजाति', esc(p.tribe_hi || '') + (p.tribe ? ` (${esc(p.tribe)})` : '')],
       ['राज्य / जिला', esc(p.state || '') + (p.district ? ' — ' + esc(p.district) : '')],
-      ['जन्म', esc(p.birth || 'अज्ञात')],
-      ['निधन', p.death ? esc(p.death) : '—']
+      ['जन्म', p.birth_date ? '🎂 ' + esc(fmtDateHi(p.birth_date)) + (p.date_source ? ' · स्रोत: विकिडेटा' : '') : esc(p.birth || 'अज्ञात')],
+      ['निधन', p.death_date ? '🕊️ ' + esc(fmtDateHi(p.death_date)) : (p.death ? esc(p.death) : '—')]
     ];
     let extra = '';
     if (p.medals) extra += `<p><b>पदक:</b> ${esc(p.medals)}</p>`;

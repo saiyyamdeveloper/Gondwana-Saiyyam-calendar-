@@ -140,7 +140,7 @@
       <div class="q-card" data-id="${esc(q.id)}">
         <span class="kind-badge k-${q.kind}">${KIND_HI[q.kind] || q.kind}${q.subtype && q.subtype !== q.kind ? ' · ' + esc(q.subtype) : ''}</span>${evBadge(q)}
         <span class="q-title">${esc(q.title)}</span>
-        <div class="q-sub">${esc(q.subtitle || '')} · जोड़ा: ${esc(q.added)} (${esc(q.added_by || '')})</div>
+        <div class="q-sub">${esc(q.subtitle || '')}${q.payload && q.payload.birth_date ? ' · 🎂 ' + esc(q.payload.birth_date) : ''} · जोड़ा: ${esc(q.added)} (${esc(q.added_by || '')})</div>
         <div class="q-reason">⚠ ${esc(q.reason || '')}</div>
         <div class="q-actions">
           <button class="btn ok sm" data-act="approve">✓ स्वीकृत</button>
@@ -189,6 +189,7 @@
       const e = await fetch('review/evidence/' + safe + '.json', { cache: 'no-store' }).then(r => r.json());
       box.innerHTML = `<p class="small"><b>${e.score}/100 · ${e.verdict}</b> · जाँचा: ${String(e.checked_at).slice(0, 16).replace('T', ' ')} · डोमेन: ${esc((e.sources_domains || []).join(', '))}</p>
         <p class="small">${esc(e.summary_hi || '')}</p>
+        ${e.dates && (e.dates.birth || e.dates.death) ? `<p class="small">🎂 जन्म: <b>${esc(e.dates.birth || '—')}</b> · 🕊️ निधन: <b>${esc(e.dates.death || '—')}</b> <span class="muted">(${esc(e.dates.source || '')})</span></p>` : ''}
         <table style="width:100%;font-size:.72rem;border-collapse:collapse">${(e.checks || []).map(c => `<tr><td style="border-bottom:1px dashed var(--line);padding:3px;white-space:nowrap">${c.ok ? '✓' : '✗'} ${esc(c.name)} (+${c.pts})</td><td style="border-bottom:1px dashed var(--line);padding:3px">${esc(c.detail)}${c.link ? ` <a href="${esc(c.link)}" target="_blank" rel="noopener">↗</a>` : ''}</td></tr>`).join('')}</table>
         ${(e.conflicts || []).length ? `<div class="q-reason">⚠ विरोध: ${e.conflicts.map(c => `${esc(c.field)}: हमारा ${esc(c.ours)} बनाम ${esc(c.source)} ${esc(c.theirs)}`).join('; ')} — अंतिम निर्णय आपका</div>` : ''}
         ${e.llm ? `<p class="small" style="margin-top:6px">🤖 LLM (${esc(e.llm.provider || '')}): <b>${esc(e.llm.verdict || '')}</b> · विश्वास ${e.llm.confidence ?? '-'}<br>${esc(e.llm.summary_hi || '')}</p>${(e.llm.claims || []).map(cl => `<p class="small" style="margin:3px 0">• ${esc(cl.claim)} ${(cl.shield || []).map(sh => `<a href="${esc(sh.url)}" target="_blank" rel="noopener">${sh.shield === 'verified' ? '🛡✓' : '🛡?'}↗</a> (${Math.round((sh.claim_support_ratio || 0) * 100)}%)`).join(' ')}</p>`).join('')}${(e.llm.red_flags || []).length ? `<div class="q-reason">🚩 ${e.llm.red_flags.map(esc).join('; ')}</div>` : ''}` : '<p class="muted small">🤖 LLM-परत अभी नहीं चली — repo secrets (LLM_PROVIDER/LLM_API_KEY) जुड़ते ही गहरी research जुड़ जाएगी।</p>'}`;
@@ -306,7 +307,7 @@
     return { heroes, places, extra, dataJs, changes };
   }
   function csvHeroes(heroes) {
-    const cols = ['id', 'name_hi', 'name_en', 'gender', 'tribe_hi', 'state', 'district', 'birth', 'death', 'category', 'tags', 'first_achievement', 'medals', 'awards', 'verify', 'verify_note', 'sources', 'memorial'];
+    const cols = ['id', 'name_hi', 'name_en', 'gender', 'tribe_hi', 'state', 'district', 'birth', 'death', 'birth_date', 'death_date', 'category', 'tags', 'first_achievement', 'medals', 'awards', 'verify', 'verify_note', 'sources', 'memorial', 'date_source'];
     const q = v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"';
     const lines = [cols.join(',')];
     heroes.persons.forEach(p => lines.push(cols.map(c => q(c === 'tags' ? (p.tags || []).join(';') : c === 'sources' ? (p.sources || []).join(' | ') : p[c])).join(',')));

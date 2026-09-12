@@ -47,6 +47,10 @@
       ok(Array.isArray(p.sources) && p.sources.length > 0, 'HERO_NO_SOURCE', p.id + ': स्रोत खाली (नीति-उल्लंघन)');
       const by = yearOf(p.birth), dy = yearOf(p.death);
       ok(!(by && dy && dy < by), 'HERO_DATES', p.id + ': निधन-वर्ष जन्म-वर्ष से पहले');
+      if (p.birth_date) ok(/^\d{4}-\d{2}-\d{2}$/.test(p.birth_date), 'HERO_BDATE_ISO', p.id + ': birth_date ISO-स्वरूप नहीं');
+      if (p.death_date) ok(/^\d{4}-\d{2}-\d{2}$/.test(p.death_date), 'HERO_DDATE_ISO', p.id + ': death_date ISO-स्वरूप नहीं');
+      if (p.birth_date && by) ok(+p.birth_date.slice(0, 4) === by, 'HERO_BDATE_YR', p.id + ': birth_date का वर्ष birth से असंगत');
+      if (p.death_date && dy) ok(+p.death_date.slice(0, 4) === dy, 'HERO_DDATE_YR', p.id + ': death_date का वर्ष death से असंगत');
       ok(!p.photo || !!p.photo_source, 'HERO_PHOTO_LICENSE', p.id + ': फ़ोटो है पर photo_source/लाइसेंस नहीं');
       ok(p.verify === true || p.verify === false || p.verify == null, 'HERO_VERIFY_TYPE', p.id + ': verify फ़्लैग अमान्य');
       warn(!p.verify || !!p.verify_note, 'HERO_VERIFY_NOTE', p.id + ': verify:true पर verify_note खाली');

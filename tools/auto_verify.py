@@ -49,9 +49,12 @@ def wd_entity(qid):
     for key, pid in (('birth', 'P569'), ('death', 'P570')):
         cs = ent.get(pid) or []
         if cs:
-            t = cs[0].get('mainsnak', {}).get('datavalue', {}).get('value', {}).get('time', '')
+            v = cs[0].get('mainsnak', {}).get('datavalue', {}).get('value', {})
+            t = v.get('time', '')
             m = YEAR.search(t)
             if m: out[key] = int(m.group(1))
+            if v.get('precision') == 11 and re.match(r'\+\d{4}-\d{2}-\d{2}', t):
+                out[key + '_date'] = t[1:11]
     cs = ent.get('P625') or []
     if cs:
         v = cs[0].get('mainsnak', {}).get('datavalue', {}).get('value', {})
@@ -134,6 +137,10 @@ def verify(item):
         ev.add('source-url', alive, 10 + (5 if (alive and tok_hit) else 0),
                ('ज़िंदा' + ('; शीर्षक में नाम ✓' if tok_hit else '')) if alive else 'मृत/अगम्य', u)
         if alive: ev.domains.add(dom(u))
+    for fld, hi in (('birth_date', 'जन्म-तिथि'), ('death_date', 'मृत्यु-तिथि')):
+        if wd.get(fld):
+            ev.add('wd-' + fld, True, 0, f'{hi} (विकिडेटा, दिन-सटीक): {wd[fld]}')
+    ev.dates = {'birth': wd.get('birth_date'), 'death': wd.get('death_date'), 'source': ('wikidata:' + qid) if qid else None}
     # आंतरिक
     ev.add('internal-sources', bool(p.get('sources')), 5, 'sources[] भरा है' if p.get('sources') else 'sources[] खाली')
     ev.add('internal-category', bool(p.get('category') or p.get('type')), 5, 'श्रेणी लेबल मौजूद' if p.get('category') or p.get('type') else 'श्रेणी नहीं')
@@ -166,6 +173,7 @@ def summary_hi(item, ev, verdict):
 def main():
     args = sys.argv[1:]
     if '--digest' in args: return digest()
+    if '--dates' in args: return enrich_dates()
     limit = 40
     if '--limit' in args: limit = int(args[args.index('--limit') + 1])
     os.makedirs(EV_DIR, exist_ok=True)
@@ -179,7 +187,7 @@ def main():
     for item in pending:
         ev, verdict = verify(item)
         safe = re.sub(r'[^A-Za-z0-9._-]', '_', item['id'])
-        rec = {'id': item['id'], 'checked_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        rec = {'id': item['id'], 'dates': getattr(ev, 'dates', None), 'checked_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
                'score': ev.score, 'verdict': verdict, 'checks': ev.checks, 'conflicts': ev.conflicts,
                'sources_domains': sorted(ev.domains), 'summary_hi': summary_hi(item, ev, verdict), 'llm': None}
         old = os.path.join(EV_DIR, safe + '.json')
@@ -205,6 +213,68 @@ def main():
               open(QUEUE_F, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     json.dump(dec, open(DEC_F, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('auto-verify:', counts or 'कुछ नहीं (कतार खाली/सीमा)')
+    return 0
+
+def enrich_dates():
+    """गहरी research: विकिडेटा से दिन-सटीक जन्म/मृत्यु तिथियाँ मास्टर DB + CSV में दर्ज"""
+    import csv as _csv
+    nrm = lambda x: re.sub(r'\s+', '', str(x or '').lower())
+    dbp = os.path.join(APP, 'mahapurush_database.json')
+    db = json.load(open(dbp, encoding='utf-8'))
+    got = skipped = 0
+    for p in db['persons']:
+        if p.get('birth_date') and p.get('death_date'):
+            continue
+        qid = wd_search(p.get('name_en') or p.get('name_hi')) or wd_search(p.get('name_hi'))
+        if not qid:
+            skipped += 1; continue
+        d = get(f'https://www.wikidata.org/w/api.php?action=wbgetentities&ids={qid}&props=claims|labels&format=json')
+        ent = ((d or {}).get('entities', {}) or {}).get(qid, {})
+        claims = ent.get('claims', {})
+        dates = {}
+        for k, pid in (('birth', 'P569'), ('death', 'P570')):
+            cs = claims.get(pid) or []
+            if cs:
+                v = cs[0].get('mainsnak', {}).get('datavalue', {}).get('value', {})
+                t = v.get('time', '')
+                if v.get('precision') == 11 and re.match(r'\+\d{4}-\d{2}-\d{2}', t):
+                    dates[k] = t[1:11]
+        labels = [l.get('value', '') for l in (ent.get('labels') or {}).values()]
+        lab_ok = nrm(p.get('name_hi')) in {nrm(v) for v in labels} or nrm(p.get('name_en') or '') in {nrm(v) for v in labels}
+        yr_ok = True
+        for k in ('birth', 'death'):
+            ours, theirs = yr(p.get(k)), (int(dates[k][:4]) if k in dates else None)
+            if ours and theirs and abs(ours - theirs) > 1: yr_ok = False
+        if not (lab_ok or yr_ok) or not dates:
+            skipped += 1; continue
+        ch = False
+        for k, fld in (('birth', 'birth_date'), ('death', 'death_date')):
+            if k in dates and not p.get(fld):
+                ours = yr(p.get(k))
+                if ours and ours != int(dates[k][:4]): continue   # वर्ष-विरोध → मानव-निर्णय
+                p[fld] = dates[k]; ch = True
+                if not p.get(k): p[k] = dates[k][:4]
+        if ch:
+            p['date_source'] = 'wikidata:' + qid; got += 1
+        else:
+            skipped += 1
+    json.dump(db, open(dbp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    csvp = os.path.join(APP, 'Aadivasi_Mahapurush_Starter_Database.csv')
+    cols = ['id', 'name_hi', 'name_en', 'gender', 'tribe_hi', 'state', 'district', 'birth', 'death',
+            'birth_date', 'death_date', 'category', 'tags', 'first_achievement', 'medals', 'awards',
+            'verify', 'verify_note', 'sources', 'memorial', 'date_source']
+    with open(csvp, 'w', encoding='utf-8-sig', newline='') as f:
+        w = _csv.writer(f, lineterminator='\r\n')
+        w.writerow(cols)
+        for p in db['persons']:
+            row = []
+            for c in cols:
+                v = p.get(c)
+                if c == 'tags': v = ';'.join(v or [])
+                if c == 'sources': v = ' | '.join(v or [])
+                row.append('' if v is None else v)
+            w.writerow(row)
+    print(f'enrich-dates: {got} व्यक्तियों में दिन-सटीक तिथियाँ दर्ज (स्रोत: विकिडेटा); {skipped} छोड़े')
     return 0
 
 def digest():

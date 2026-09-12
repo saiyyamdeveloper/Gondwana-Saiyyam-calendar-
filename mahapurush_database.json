@@ -85,7 +85,10 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "उलिहातु स्मारक, राँची में बिरसा संग्रहालय"
+   "memorial": "उलिहातु स्मारक, राँची में बिरसा संग्रहालय",
+   "birth_date": "1875-11-15",
+   "death_date": "1900-06-09",
+   "date_source": "wikidata:Q2721975"
   },
   {
    "id": "sidhu-murmu",
@@ -259,7 +262,9 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "झारखंड में स्मारक; डाक टिकट (2023? सत्यापन)"
+   "memorial": "झारखंड में स्मारक; डाक टिकट (2023? सत्यापन)",
+   "death_date": "1832-02-13",
+   "date_source": "wikidata:Q12442290"
   },
   {
    "id": "telanga-kharia",
@@ -287,7 +292,9 @@
    ],
    "verify": true,
    "verify_note": "जन्म-मृत्यु वर्ष सत्यापन आवश्यक",
-   "memorial": "गुमला क्षेत्र में स्मारक"
+   "memorial": "गुमला क्षेत्र में स्मारक",
+   "birth_date": "1806-02-09",
+   "date_source": "wikidata:Q26266161"
   },
   {
    "id": "telangi-munda",
@@ -375,7 +382,10 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "बलिदान स्थल स्मारक (जबलपुर-मंडला), रानी दुर्गावती संग्रहालय जबलपुर"
+   "memorial": "बलिदान स्थल स्मारक (जबलपुर-मंडला), रानी दुर्गावती संग्रहालय जबलपुर",
+   "birth_date": "1524-10-05",
+   "death_date": "1564-06-24",
+   "date_source": "wikidata:Q3181537"
   },
   {
    "id": "shankar-shah",
@@ -491,7 +501,9 @@
    ],
    "verify": true,
    "verify_note": "जीवन-विवरण विस्तार हेतु गैजेटियर-स्रोत आवश्यक",
-   "memorial": "निमाड़ क्षेत्र"
+   "memorial": "निमाड़ क्षेत्र",
+   "death_date": "1876-12-29",
+   "date_source": "wikidata:Q25541503"
   },
   {
    "id": "veer-narayan-singh",
@@ -520,7 +532,9 @@
    ],
    "verify": true,
    "verify_note": "जनजाति-वर्गीकरण पर विद्वानों में मतभेद",
-   "memorial": "वीर नारायण सिंह स्मारक, रायपुर"
+   "memorial": "वीर नारायण सिंह स्मारक, रायपुर",
+   "death_date": "1857-12-10",
+   "date_source": "wikidata:Q19662789"
   },
   {
    "id": "gunda-dhur",
@@ -635,7 +649,9 @@
    ],
    "verify": true,
    "verify_note": "अंतिम नियति अनिश्चित",
-   "memorial": "केओंझर"
+   "memorial": "केओंझर",
+   "birth_date": "1864-05-05",
+   "date_source": "wikidata:Q15632459"
   },
   {
    "id": "govind-guru",
@@ -665,7 +681,9 @@
    ],
    "verify": true,
    "verify_note": "जन्म-मृत्यु वर्ष सत्यापन",
-   "memorial": "मांगढ धाम राष्ट्रीय स्मारक (बाँसवाड़ा)"
+   "memorial": "मांगढ धाम राष्ट्रीय स्मारक (बाँसवाड़ा)",
+   "death_date": "1931-10-30",
+   "date_source": "wikidata:Q31942009"
   },
   {
    "id": "mangadh-martyrs",
@@ -752,7 +770,10 @@
    ],
    "verify": true,
    "verify_note": "ST-वर्गीकरण नहीं; आदिवासी-नायक के रूप में समावेश (टिप्पणी सहित)",
-   "memorial": "विशाखापट्नम प्रतिमा; कॉयूर स्मारक"
+   "memorial": "विशाखापट्नम प्रतिमा; कॉयूर स्मारक",
+   "birth_date": "1897-07-04",
+   "death_date": "1924-05-07",
+   "date_source": "wikidata:Q3633008"
   },
   {
    "id": "komaram-bheem",
@@ -783,7 +804,9 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "कोमरम भीम स्मारक, आसिफाबाद; तेलुगु फिल्म 'कोमरम पुली'? (सत्यापन)"
+   "memorial": "कोमरम भीम स्मारक, आसिफाबाद; तेलुगु फिल्म 'कोमरम पुली'? (सत्यापन)",
+   "death_date": "1940-10-19",
+   "date_source": "wikidata:Q6428141"
   },
   {
    "id": "jadonang",
@@ -812,7 +835,10 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "तामेंगलोंग स्मारक"
+   "memorial": "तामेंगलोंग स्मारक",
+   "birth_date": "1905-07-30",
+   "death_date": "1931-08-29",
+   "date_source": "wikidata:Q16029915"
   },
   {
    "id": "gaidinliu",
@@ -842,7 +868,10 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "इम्फाल/कोहिमा स्मारक; ₹ डाक टिकट 2015"
+   "memorial": "इम्फाल/कोहिमा स्मारक; ₹ डाक टिकट 2015",
+   "birth_date": "1915-01-26",
+   "death_date": "1993-02-17",
+   "date_source": "wikidata:Q7292969"
   },
   {
    "id": "tirot-sing",
@@ -926,7 +955,9 @@
    ],
    "verify": true,
    "verify_note": "जनजाति-वर्गीकरण भिन्न",
-   "memorial": "अकोले क्षेत्र स्मारक"
+   "memorial": "अकोले क्षेत्र स्मारक",
+   "birth_date": "1805-11-08",
+   "date_source": "wikidata:Q63014382"
   },
   {
    "id": "albert-ekka",
@@ -956,7 +987,10 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "गुमला स्मारक; राँची में प्रतिमा"
+   "memorial": "गुमला स्मारक; राँची में प्रतिमा",
+   "birth_date": "1942-12-27",
+   "death_date": "1971-12-03",
+   "date_source": "wikidata:Q4710138"
   },
   {
    "id": "draupadi-murmu",
@@ -986,7 +1020,9 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "—"
+   "memorial": "—",
+   "birth_date": "1958-06-20",
+   "date_source": "wikidata:Q19901232"
   },
   {
    "id": "jaipal-singh-munda",
@@ -1016,7 +1052,10 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "राँची/खूंटी स्मारक; 'मारंग गोमेके जयपाल सिंह मुंडा' विश्वविद्यालय? (नामांकन सत्यापन)"
+   "memorial": "राँची/खूंटी स्मारक; 'मारंग गोमेके जयपाल सिंह मुंडा' विश्वविद्यालय? (नामांकन सत्यापन)",
+   "birth_date": "1903-01-03",
+   "death_date": "1970-03-20",
+   "date_source": "wikidata:Q1806284"
   },
   {
    "id": "pa-sangma",
@@ -1045,7 +1084,10 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "तुरा स्मारक"
+   "memorial": "तुरा स्मारक",
+   "birth_date": "1947-09-01",
+   "death_date": "2016-03-04",
+   "date_source": "wikidata:Q2741772"
   },
   {
    "id": "shibu-soren",
@@ -1074,7 +1116,9 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "दुमका"
+   "memorial": "दुमका",
+   "death_date": "2025-08-04",
+   "date_source": "wikidata:Q3630358"
   },
   {
    "id": "arjun-munda",
@@ -1101,7 +1145,9 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "—"
+   "memorial": "—",
+   "birth_date": "1968-01-05",
+   "date_source": "wikidata:Q3520052"
   },
   {
    "id": "kartik-uraon",
@@ -1127,7 +1173,9 @@
    ],
    "verify": true,
    "verify_note": "जन्म-मृत्यु व मंत्रालय-विवरण सत्यापन",
-   "memorial": "लोहरदगा"
+   "memorial": "लोहरदगा",
+   "birth_date": "1924-10-29",
+   "date_source": "wikidata:Q6373550"
   },
   {
    "id": "ram-dayal-munda",
@@ -1157,7 +1205,10 @@
    ],
    "verify": true,
    "verify_note": "पद्म-वर्ष सत्यापन (2000 या 1984 स्रोत-भेद)",
-   "memorial": "राँची विवि परिसर"
+   "memorial": "राँची विवि परिसर",
+   "birth_date": "1939-08-23",
+   "death_date": "2011-09-30",
+   "date_source": "wikidata:Q7288457"
   },
   {
    "id": "chuni-kotal",
@@ -1243,7 +1294,9 @@
    ],
    "verify": true,
    "verify_note": "जनजाति/कैडर/बैच विवरण सत्यापन",
-   "memorial": null
+   "memorial": null,
+   "birth_date": "1980-12-19",
+   "date_source": "wikidata:Q61045705"
   },
   {
    "id": "mary-kom",
@@ -1308,7 +1361,9 @@
    ],
    "verify": true,
    "verify_note": "पेरिस-2024 स्क्वाड सदस्यता की पुष्टि करें",
-   "memorial": null
+   "memorial": null,
+   "birth_date": "1994-06-03",
+   "date_source": "wikidata:Q26207997"
   },
   {
    "id": "dilip-tirkey",
@@ -1338,7 +1393,9 @@
    ],
    "verify": true,
    "verify_note": "पुरस्कार-वर्ष सत्यापन",
-   "memorial": null
+   "memorial": null,
+   "birth_date": "1977-11-25",
+   "date_source": "wikidata:Q5276819"
   },
   {
    "id": "nilam-sanjeep-xess",
@@ -1396,7 +1453,9 @@
    ],
    "verify": true,
    "verify_note": "जनजाति/राज्य/पुरस्कार-वर्ष सत्यापन",
-   "memorial": null
+   "memorial": null,
+   "birth_date": "1972-01-30",
+   "date_source": "wikidata:Q468366"
   },
   {
    "id": "jangarh-singh-shyam",
@@ -1426,7 +1485,9 @@
    ],
    "verify": true,
    "verify_note": "जन्मस्थान/तिथि विवरण स्रोतानुसार भिन्न",
-   "memorial": "भोपाल/पटनागढ़ में कला-स्मृति"
+   "memorial": "भोपाल/पटनागढ़ में कला-स्मृति",
+   "death_date": "2001-07-06",
+   "date_source": "wikidata:Q18402444"
   },
   {
    "id": "bhajju-shyam",
@@ -1574,7 +1635,9 @@
    ],
    "verify": true,
    "verify_note": "पद्म-वर्ष स्रोतों में भिन्न",
-   "memorial": null
+   "memorial": null,
+   "birth_date": "1934-05-19",
+   "date_source": "wikidata:Q937436"
   },
   {
    "id": "bhuri-bai",
@@ -1634,7 +1697,10 @@
    ],
    "verify": false,
    "verify_note": null,
-   "memorial": "रायरंगपुर स्मारक; अनेक संस्थाओं के नाम"
+   "memorial": "रायरंगपुर स्मारक; अनेक संस्थाओं के नाम",
+   "birth_date": "1905-05-18",
+   "death_date": "1982-02-01",
+   "date_source": "wikidata:Q2127253"
   },
   {
    "id": "masram",
@@ -1752,7 +1818,9 @@
    ],
    "verify": true,
    "verify_note": "जीवन-विवरण संक्षिप्त; विस्तार सत्यापन",
-   "memorial": null
+   "memorial": null,
+   "birth_date": "2003-06-29",
+   "date_source": "wikidata:Q108492062"
   },
   {
    "id": "nirmala-putul",
@@ -1810,7 +1878,9 @@
    ],
    "verify": true,
    "verify_note": "पुरस्कार/जन्म-विवरण सत्यापन",
-   "memorial": null
+   "memorial": null,
+   "birth_date": "1985-03-11",
+   "date_source": "wikidata:Q62765085"
   }
  ],
  "tribes_covered": [
