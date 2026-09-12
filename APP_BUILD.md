@@ -1,4 +1,4 @@
-# Gondwana Calendar App — Build Dossier v1.3 (MVP + महापुरुष + स्थल-कोश + Automation)
+# Gondwana Calendar App — Build Dossier v2.0 (UI Blueprint संस्करण)
 
 तारीख़: 12 सितंबर 2026 · स्थान: `/home/user/gondwana-app/` · Live preview: port 8000
 
@@ -115,3 +115,31 @@ Phase 2: राज्य-वार शहीद (1000+) · Phase 3: खेल-�
 
 ### 8.4 GitHub Pages तैयारी
 - `.nojekyll` ✓ · `README.md` ✓ · सभी paths relative ✓ (project-page `/repo-name/` पर चलेगा) · sw cache `gondwana-v4`
+
+
+## 9. UI Blueprint v2.0 (screen-by-screen संरचना लागू)
+
+### 9.1 नई/बदली स्क्रीन
+| स्क्रीन | स्थिति | विवरण |
+|---|---|---|
+| 🏠 होम | ✅ नया | आज-कार्ड (तारीख़+वार मसराम सहित, गोंडी चंद्र माह, ऋतु, चंद्र-कला SVG), आज का पर्व (न हो तो अगला पर्व), संक्षिप्त पंचांग, **आज का ज्ञान** (सत्यापित पूल से दैनिक घूर्णन — कोई गढ़ंत सामग्री नहीं), आज का नायक, quick-actions |
+| 📅 वर्ष दृश्य | ✅ नया | 12 माह-कार्ड, प्रति माह पर्व-संख्या + अमावस/पूनम संकेत; tap → माह दृश्य |
+| 𑴀 गोंडी लिपि | ✅ अलग टैब | कन्वर्टर, स्वर/व्यंजन/मात्रा, अंक, वार, माह, शब्दावली, खगोल-शब्दावली (Learn से विभाजित) |
+| 📚 सीखें | ✅ संकीर्ण | संस्कृति, टाइमलाइन, नमूना वाक्य |
+| ⚙️ सेटिंग्स | ✅ नया | क्षेत्र (header से sync), **थीम (लाइट/डार्क/सिस्टम)**, फ़ॉन्ट आकार (14/16/18px), सूचना-टॉगल (पर्व/पूनम-अमावस → localStorage), भाषा-स्थिति (ईमानदार: English/गोंडी UI = future), ऑफ़लाइन-डेटा स्थिति (caches), बारे में (repo/लाइव/नीति/स्रोत) |
+| ☰ और (More) | ✅ नया | मोबाइल bottom-nav 5 आइटम (होम·कैलेंडर·पर्व·नक्शा·और); More में शेष सभी स्क्रीन |
+| 🖥️ डेस्कटॉप साइडबार | ✅ नया | ≥900px पर left sidebar में सभी 10 स्क्रीन; bottom-nav छिपता है |
+| 🔍 ग्लोबल खोज | ✅ नया | header 🔍 → sheet; पर्व+महापुरुष+स्थल+नक्शा-पिन+गोंडी शब्द एक साथ; परिणाम → संबंधित detail-sheet (cross-linked flow) |
+| 🌑 डार्क थीम | ✅ नया | CSS-variable override; system-preference listener सहित |
+
+### 9.2 ब्लूप्रिंट से जान-बूझकर भिन्न (ईमानदारी)
+- "Festival Image/Gallery/Audio-Play/Moonrise-Moonset/Mini-map" — डेटा/लाइसेंस उपलब्ध नहीं → placeholder नहीं बनाए (नीति-उल्लंघन होता)। फ़ोटो-पाइपलाइन व audio FUTURE_PLAN में।
+- भाषा-सेटिंग्स में English/गोंडी UI अभी नहीं (आंशिक i18n भ्रामक होता) — सेटिंग्स में साफ़ लिखा।
+- 365-दिन ज्ञान: 365 अलग लेख लिखने के बजाय **सत्यापित डेटासेट-पूल** (संस्कृति-परत, टाइमलाइन, शब्दावली, खगोल-शब्द) का दैनिक घूर्णन — हर कार्ड पर स्रोत-टैग।
+- Historical Reference map-layer: ऐतिहासिक सीमाओं का प्रमाणित स्रोत चाहिए → PENDING (FUTURE_PLAN)।
+
+### 9.3 Automation कनेक्शन (ब्लूप्रिंट की अंतिम शर्त)
+- validator में 15 नई जाँच (weekdays=7, numerals, nakshatra=27, rashi=12, गोंडी माह=12, culture-pool dhemsa=16/vadya=18, timeline-पंक्तियाँ…) → कुल **1066**
+- smoke test में नई स्क्रीन कवरेज (renderHome/renderLipi/drawYearView/renderSettings/renderMore/openSearch)
+- बग पकड़े गए और ठीक हुए: DOM-stub में documentElement/classList缺失 → app-side guard + stub update; 𑴀 (U+11D00) h2 में बिना .gon-class → wrapped
+- sw cache `gondwana-v5`

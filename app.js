@@ -16,7 +16,7 @@
     year: today.getFullYear(),
     month: today.getMonth() + 1,
     sel: E.dateKey(today.getFullYear(), today.getMonth() + 1, today.getDate()),
-    tab: 'calendar',
+    tab: 'home', view: 'month',
     festFilter: 'all',
     zones: new Set(['north', 'west', 'south', 'east']),
     convDir: 1
@@ -71,35 +71,50 @@
   }
 
   /* ---------- bottom nav ---------- */
-  const NAV = [
+  const NAV_ALL = [
+    { id: 'home', lbl: 'होम', ico: '<path d="M4 11l8-7 8 7v9a1 1 0 01-1 1h-5v-6h-4v6H5a1 1 0 01-1-1z"/>' },
     { id: 'calendar', lbl: 'कैलेंडर', ico: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>' },
     { id: 'festivals', lbl: 'पर्व', ico: '<path d="M12 3c1 3-1 4.5-1 6.5a2.5 2.5 0 005 0C16 7 14 5.5 14 3c3 2.5 5 5 5 8a7 7 0 11-14 0c0-3 2-5.5 5-8z" transform="translate(2,2) scale(0.85)"/>' },
     { id: 'panchang', lbl: 'पंचांग', ico: '<path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/>' },
     { id: 'map', lbl: 'नक्शा', ico: '<path d="M12 21s-7-6.1-7-11a7 7 0 1114 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/>' },
     { id: 'heroes', lbl: 'महापुरुष', ico: '<circle cx="12" cy="7" r="3.4"/><path d="M5 21c0-4 3.2-6.5 7-6.5s7 2.5 7 6.5"/>' },
     { id: 'places', lbl: 'स्थल', ico: '<path d="M12 21s-7-6.1-7-11a7 7 0 1114 0c0 4.9-7 11-7 11z"/><path d="M9.5 10.5l1.8 1.8 3.4-3.4"/>' },
-    { id: 'learn', lbl: 'सीखें', ico: '<path d="M4 5a2 2 0 012-2h13v18H6a2 2 0 01-2-2z"/><path d="M4 17h15"/>' }
+    { id: 'lipi', lbl: 'गोंडी लिपि', ico: '<path d="M4 20l4.5-1.2L19 8.3a2.1 2.1 0 00-3-3L5.5 15.8z"/>' },
+    { id: 'learn', lbl: 'सीखें', ico: '<path d="M4 5a2 2 0 012-2h13v18H6a2 2 0 01-2-2z"/><path d="M4 17h15"/>' },
+    { id: 'settings', lbl: 'सेटिंग्स', ico: '<circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.2 5.2l2.1 2.1M16.7 16.7l2.1 2.1M18.8 5.2l-2.1 2.1M7.3 16.7l-2.1 2.1"/>' }
   ];
+  const NAV_M = ['home', 'calendar', 'festivals', 'map'].map(id => NAV_ALL.find(n => n.id === id))
+    .concat([{ id: 'more', lbl: 'और', ico: '<circle cx="5.5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="18.5" cy="12" r="1.6"/>' }]);
+  function navBtn(n, active) {
+    return `<button data-tab="${n.id}" class="${active === n.id ? 'active' : ''}">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${n.ico}</svg>${n.lbl}</button>`;
+  }
   function buildNav() {
     const nav = document.createElement('nav');
     nav.className = 'bottom';
-    nav.innerHTML = NAV.map(n => `<button data-tab="${n.id}" class="${state.tab === n.id ? 'active' : ''}">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${n.ico}</svg>${n.lbl}</button>`).join('');
+    nav.innerHTML = NAV_M.map(n => navBtn(n, state.tab)).join('');
     document.body.appendChild(nav);
-    nav.addEventListener('click', e => {
-      const b = e.target.closest('button[data-tab]'); if (!b) return;
-      setTab(b.dataset.tab);
-    });
+    const side = document.createElement('aside');
+    side.className = 'side';
+    side.innerHTML = '<div class="side-logo">🌿 गोंडवाना<br><span>कैलेंडर</span></div>' + NAV_ALL.map(n => navBtn(n, state.tab)).join('');
+    document.body.appendChild(side);
+    const handler = e => { const b = e.target.closest('button[data-tab]'); if (!b) return; setTab(b.dataset.tab); };
+    nav.addEventListener('click', handler);
+    side.addEventListener('click', handler);
   }
   function setTab(id) {
     state.tab = id;
     $$('.tab').forEach(t => t.classList.toggle('active', t.id === 'tab-' + id));
-    $$('nav.bottom button').forEach(b => b.classList.toggle('active', b.dataset.tab === id));
+    $$('nav.bottom button, aside.side button').forEach(b => b.classList.toggle('active', b.dataset.tab === id));
     if (id === 'festivals') renderFestivals();
     if (id === 'panchang') renderPanchang();
     if (id === 'map') renderMap();
     if (id === 'heroes') renderHeroes();
     if (id === 'places') renderPlaces();
+    if (id === 'home') renderHome();
+    if (id === 'lipi') renderLipi();
+    if (id === 'settings') renderSettings();
+    if (id === 'more') renderMore();
     window.scrollTo({ top: 0 });
   }
 
@@ -113,6 +128,12 @@
 
   /* ---------- calendar tab ---------- */
   function renderCalendar() {
+    const yv = $('#cal-yearview'), mv = $('#cal-monthview');
+    if (state.view === 'year') {
+      if (yv) yv.style.display = ''; if (mv) mv.style.display = 'none';
+      drawYearView(); return;
+    }
+    if (yv) yv.style.display = 'none'; if (mv) mv.style.display = '';
     const y = state.year, m = state.month, c = cityOf();
     $('#cal-ym').textContent = HI_MONTHS[m - 1] + ' ' + y;
     $('#cal-ym-gon').textContent = ' ' + E.gondiDigits(y);
@@ -439,7 +460,7 @@
   }
 
   /* ---------- learn tab ---------- */
-  function renderLearn() {
+  function renderLipi() {
     const CS = G.CHARSET;
     const cell = ([gn, dv]) => `<div class="chart-cell"><span class="g">${gn}</span><span class="d">${dv}</span></div>`;
     $('#ch-vowels').innerHTML = CS.vowels.map(cell).join('');
@@ -482,6 +503,10 @@
     $('#learn-astro').innerHTML = '<table class="simple"><tr><th>गोंडी शब्द</th><th>अर्थ</th></tr>' +
       D.astronomy_terms.map(a => `<tr><td><b>${esc(a.term)}</b></td><td>${esc(a.meaning)}</td></tr>`).join('') + '</table>';
 
+  }
+
+  /* ---------- सीखें (संस्कृति/इतिहास) ---------- */
+  function renderLearn() {
     const cu = D.culture_layer;
     $('#learn-culture').innerHTML = `
       <p><b>अभिवादन:</b> पुकार — <b>${esc(cu.greeting.call)}</b> · उत्तर — <b>${esc(cu.greeting.reply)}</b></p>
@@ -673,6 +698,215 @@
       <div class="src"><b>स्रोत:</b><br>${(p.sources || []).map(x => esc(x)).join('<br>')}</div>`);
   }
 
+  /* ---------- प्राथमिकताएँ (theme/font/notifications) ---------- */
+  const prefs = Object.assign(
+    { theme: 'system', fontSize: 16, notifyFest: true, notifyMoon: true },
+    JSON.parse(localStorage.getItem('gw-prefs') || '{}'));
+  function savePrefs() { localStorage.setItem('gw-prefs', JSON.stringify(prefs)); }
+  function applyPrefs() {
+    const dark = prefs.theme === 'dark' || (prefs.theme === 'system' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    if (document.body && document.body.classList) document.body.classList.toggle('dark', !!dark);
+    if (document.documentElement && document.documentElement.style) document.documentElement.style.fontSize = prefs.fontSize + 'px';
+  }
+
+  /* ---------- आज का ज्ञान pool (केवल सत्यापित डेटासेट से) ---------- */
+  function knowledgePool() {
+    const cu = D.culture_layer, pool = [];
+    pool.push({ t: `अभिवादन परंपरा — पुकार: "${cu.greeting.call}", उत्तर: "${cu.greeting.reply}"।`, s: 'संस्कृति-परत (रिसर्च-संकलन)' });
+    pool.push({ t: `गोंड देवी-देवताओं में प्रमुख: ${cu.deities.slice(0, 8).join(', ')}।`, s: 'संस्कृति-परत (रिसर्च-संकलन)' });
+    pool.push({ t: `परंपरागत दावा — गोंड समाज में ${cu.gotras.count_claimed} गोत्र; देवगढ़-मानचित्र अनुसार वितरण।`, s: 'देवगढ़-मानचित्र (रिसर्च)' });
+    pool.push({ t: `गोंड प्रतीक-परंपरा: ${cu.symbols.join(', ')}।`, s: 'संस्कृति-परत (रिसर्च-संकलन)' });
+    pool.push({ t: `ढेम्सा — 16 मुद्राओं वाला सामूहिक नृत्य: ${cu.music_dance.dhemsa_16.slice(0, 8).join(', ')}…`, s: 'संगीत-नृत्य संकलन (रिसर्च)' });
+    pool.push({ t: `परंपरागत वाद्य (${cu.music_dance.vadya_18.length}): ${cu.music_dance.vadya_18.slice(0, 8).join(', ')}…`, s: 'संगीत-नृत्य संकलन (रिसर्च)' });
+    X.timeline.forEach(tl => pool.push({ t: `इतिहास (${tl.year}): ${tl.event}`, s: 'टाइमलाइन (स्रोत-संकलन)' }));
+    Object.entries(D.calendar_terms).forEach(([k, v]) => {
+      if (v.meaning || v.hindi) pool.push({ t: `शब्दार्थ — ${v.gondi || k}: ${v.meaning || v.hindi}`, s: 'कैलेंडर शब्दावली (रिसर्च)' });
+    });
+    D.astronomy_terms.forEach(a => pool.push({ t: `गोंड खगोल — ${a.term}: ${a.meaning}`, s: 'खगोल-शब्दावली (Vahia & Halkare)' }));
+    return pool;
+  }
+
+  /* ---------- होम ---------- */
+  function renderHome() {
+    const t = new Date(), y = t.getFullYear(), m = t.getMonth() + 1, d = t.getDate();
+    const key = E.dateKey(y, m, d), di = diOf(key), w = gondiWeekday(y, m, d);
+    const F = festivals(), fests = F.byDate[key] || [];
+    const illum = Math.round((1 - Math.cos(2 * Math.PI * (di.phase || 0))) / 2 * 100);
+
+    $('#home-today').innerHTML = `
+      <p class="muted" style="letter-spacing:.14em;font-size:.72rem;margin:0">आज</p>
+      <div class="ht-date">${d} ${HI_MONTHS[m - 1]} ${y}</div>
+      <div class="ht-day">${w.hindi || ''} · <span class="gon">${w.masram || ''}</span> ${esc(w.gondi || '')}</div>
+      <div class="ht-gondi">गोंडी चंद्र माह: <b>${di.amanta ? esc(di.amanta.gondi || '') : '—'}</b>${di.amanta && di.amanta.adhika ? ' <span class="flag">धोंडा (अधिक)</span>' : ''} · ऋतु: ${esc(di.rituName || '')}</div>
+      <div class="ht-moon">${moonSVG(di.phase || 0, 28)}<div><b>${esc(di.phaseName || '')}</b><div class="muted small">तिथि: ${esc(di.tithiName || '')} · ${esc(di.gondiTithi || '')}</div></div></div>`;
+
+    if (fests.length) {
+      $('#home-fest').innerHTML = `<h3>🎉 आज का पर्व</h3>` + fests.map(f =>
+        `<p style="margin:4px 0"><b>${esc(f.deva)}</b>${f.gondi ? ` <span class="muted">${esc(f.gondi)}</span>` : ''}<br><span class="small">${esc((f.meaning || f.story || '').slice(0, 140))}</span></p>`).join('') +
+        `<button class="btn" id="hf-open">विवरण देखें →</button>`;
+      $('#hf-open').onclick = () => openDay(key);
+    } else {
+      let next = '—';
+      for (let i = 1; i < 45; i++) {
+        const dt = new Date(t.getTime() + i * 864e5);
+        const k2 = E.dateKey(dt.getFullYear(), dt.getMonth() + 1, dt.getDate());
+        const fl = F.byDate[k2] || [];
+        if (fl.length) { next = fl.map(f => esc(f.deva)).join(', ') + ' — ' + fmtKey(k2, true); break; }
+      }
+      $('#home-fest').innerHTML = `<h3>🎉 आज का पर्व</h3><p class="muted" style="margin:4px 0">आज कोई दर्ज प्रमुख पर्व नहीं है।</p><p class="small" style="margin:0">अगला पर्व: ${next}</p>`;
+    }
+
+    $('#home-panch').innerHTML = `<h3>🌙 आज का पंचांग (संक्षिप्त)</h3><div class="kv">
+      <dt>सूर्योदय/सूर्यास्त</dt><dd>${esc(di.sunrise || '—')} / ${esc(di.sunset || '—')}</dd>
+      <dt>तिथि</dt><dd>${esc(di.tithiName || '')} · ${esc(di.gondiTithi || '')}</dd>
+      <dt>नक्षत्र</dt><dd>${esc(di.nakName || '—')}</dd>
+      <dt>राशि</dt><dd>${esc(di.rashiName || '—')}</dd>
+      <dt>चंद्र-कला</dt><dd>${esc(di.phaseName || '—')} · ${illum}% प्रकाश</dd></div>
+      <button class="btn ghost" id="hp-open" style="margin-top:8px">पूरा पंचांग →</button>`;
+    $('#hp-open').onclick = () => { state.sel = key; setTab('panchang'); };
+
+    const pool = knowledgePool();
+    const doy = Math.floor((t - new Date(y, 0, 0)) / 864e5);
+    const kn = pool[doy % pool.length];
+    $('#home-knowledge').innerHTML = `<h3>🌿 आज का ज्ञान</h3><p style="margin:4px 0">${esc(kn.t)}</p>
+      <div class="src">स्रोत: ${esc(kn.s)} — सत्यापित डेटासेट से दैनिक घूर्णन</div>
+      <button class="btn ghost" id="hk-open" style="margin-top:6px">📚 सीखें →</button>`;
+    $('#hk-open').onclick = () => setTab('learn');
+
+    const hp = heroOfTheDay(), cm = CAT_META[hp.category] || { hi: hp.category, c: '#57421a' };
+    $('#home-hero').innerHTML = `<h3>🧑🏽‍🤝‍🧑🏽 आज का नायक / नायिका</h3>
+      <p style="margin:4px 0"><b>${esc(hp.name_hi)}</b> <span class="muted small">${esc(hp.name_en || '')}</span><br>
+      <span class="small">${esc((hp.first_achievement || '').slice(0, 120))}</span></p>
+      <span class="hero-cat" style="background:${cm.c}">${cm.hi}</span>
+      <button class="btn ghost" id="hh-open" style="margin-left:6px">पूरी कहानी →</button>`;
+    $('#hh-open').onclick = () => { setTab('heroes'); setTimeout(() => openHero(hp), 80); };
+
+    $('#home-quick').innerHTML = ['calendar', 'festivals', 'panchang', 'map', 'heroes', 'places'].map(id => navBtn(NAV_ALL.find(n => n.id === id), '')).join('');
+    $$('#home-quick button').forEach(b => b.onclick = () => setTab(b.dataset.tab));
+  }
+
+  /* ---------- वर्ष दृश्य ---------- */
+  function drawYearView() {
+    const y = state.year, F = festivals(), c = cityOf();
+    let html = `<div class="yv-head"><b>${y}</b> <span class="gon">${E.gondiDigits(y)}</span> <span class="muted small">· पर्व-गणना क्षेत्र: ${esc(c.name)}</span></div><div class="yv-grid">`;
+    for (let m = 1; m <= 12; m++) {
+      const dim = E.daysInMonth(y, m);
+      let cnt = 0, moon = 0;
+      for (let d = 1; d <= dim; d++) {
+        const k = E.dateKey(y, m, d);
+        cnt += (F.byDate[k] || []).length;
+      }
+      const di1 = E.dayInfo(y, m, 1, c), di15 = E.dayInfo(y, m, Math.min(15, dim), c);
+      if (di1.isAmavasya || di1.isPurnima) moon++;
+      if (di15.isAmavasya || di15.isPurnima) moon++;
+      const solar = D.months_solar_gondi_variantA.list[m - 1];
+      html += `<button class="yv-month" data-m="${m}">
+        <span class="yv-mname">${HI_MONTHS_S[m - 1]}</span>
+        <span class="yv-mgon muted small">${esc(solar.deva)}</span>
+        <span class="yv-cnt">${cnt ? '🎉 ' + cnt : '·'}${moon ? ' 🌙' : ''}</span></button>`;
+    }
+    html += '</div><p class="muted small">माह पर tap → माह-दृश्य। 🎉 = पर्व-संख्या, 🌙 = अमावस/पूनम संकेत।</p>';
+    $('#cal-yearview').innerHTML = html;
+    $$('#cal-yearview .yv-month').forEach(b => b.onclick = () => {
+      state.month = +b.dataset.m; state.view = 'month';
+      const cv = $('#cal-view'); if (cv) cv.textContent = '🗓️ वर्ष दृश्य';
+      renderCalendar();
+    });
+  }
+
+  /* ---------- सेटिंग्स ---------- */
+  function renderSettings() {
+    $('#set-region').innerHTML = `<select class="hero-select" id="set-region-sel" style="max-width:300px;width:100%">${X.cities.map(c => `<option value="${c.id}" ${c.id === state.region ? 'selected' : ''}>${esc(c.name)} (${esc(c.state)})</option>`).join('')}</select>`;
+    $('#set-region-sel').onchange = e => {
+      state.region = e.target.value; localStorage.setItem('gw-region', state.region);
+      festivals(true); renderAll();
+      const sr = $('#sel-region'); if (sr) sr.value = state.region;
+      toast('क्षेत्र: ' + cityOf().name);
+    };
+    $('#set-theme').innerHTML = [['light', '☀️ लाइट'], ['dark', '🌑 डार्क'], ['system', '⚙️ सिस्टम']]
+      .map(([k, l]) => `<button class="chip ${prefs.theme === k ? 'active' : ''}" data-t="${k}">${l}</button>`).join('');
+    $$('#set-theme .chip').forEach(b => b.onclick = () => { prefs.theme = b.dataset.t; savePrefs(); applyPrefs(); renderSettings(); });
+    $('#set-font').innerHTML = [[14, 'छोटा'], [16, 'मध्यम'], [18, 'बड़ा']]
+      .map(([sz, l]) => `<button class="chip ${prefs.fontSize === sz ? 'active' : ''}" data-s="${sz}">A · ${l}</button>`).join('');
+    $$('#set-font .chip').forEach(b => b.onclick = () => { prefs.fontSize = +b.dataset.s; savePrefs(); applyPrefs(); renderSettings(); });
+    $('#set-notify').innerHTML = `
+      <button class="chip ${prefs.notifyFest ? 'active' : ''}" data-n="notifyFest">🎉 पर्व रिमाइंडर: ${prefs.notifyFest ? 'ON' : 'OFF'}</button>
+      <button class="chip ${prefs.notifyMoon ? 'active' : ''}" data-n="notifyMoon">🌙 पूनम/अमावस: ${prefs.notifyMoon ? 'ON' : 'OFF'}</button>`;
+    $$('#set-notify .chip').forEach(b => b.onclick = () => { prefs[b.dataset.n] = !prefs[b.dataset.n]; savePrefs(); renderSettings(); });
+    $('#set-lang').innerHTML = '<p style="margin:0">अभी: <b>हिंदी</b> · मसराम गोंडी लिपि सर्वत्र उपलब्ध। English व गोंडी UI चरणबद्ध योजना में (FUTURE_PLAN)।</p>';
+    $('#set-offline').innerHTML = '<div id="set-offline-in" class="muted small">जाँच हो रही है…</div>';
+    if (window.caches) {
+      caches.keys().then(ks => {
+        const el = $('#set-offline-in');
+        if (el) el.innerHTML = ks.length
+          ? `<p style="margin:0">✅ ऑफ़लाइन कैश सक्रिय: <b>${ks.map(esc).join(', ')}</b><br>कैलेंडर · पर्व · पंचांग · महापुरुष · स्थल · लिपि — सारा डेटा डिवाइस पर।</p>`
+          : '<p style="margin:0">पहली बार लोड होने पर कैश बन जाएगा (service worker)।</p>';
+      });
+    } else {
+      const el = $('#set-offline-in');
+      if (el) el.textContent = 'इस ब्राउज़र में Cache API उपलब्ध नहीं — पर सारा डेटा ऐप-फ़ाइलों में ही है (कोई सर्वर नहीं)।';
+    }
+    $('#set-about').innerHTML = `<p style="margin:2px 0"><b>गोंडवाना कैलेंडर v2.0</b> — UI blueprint संस्करण</p>
+      <p class="small">🌐 <a target="_blank" rel="noopener" href="https://saiyyamdeveloper.github.io/Gondwana-Saiyyam-calendar-/">लाइव ऐप</a> · 📦 <a target="_blank" rel="noopener" href="https://github.com/saiyyamdeveloper/Gondwana-Saiyyam-calendar-">GitHub repo</a></p>
+      <p class="small">🤖 स्वचालित निरीक्षण: ${window.GWValidate ? '1050+' : ''} जाँच हर लोड पर (validate.js) + GitHub Actions CI (हर push)।</p>
+      <p class="small">डेटा-नीति: स्रोत अनिवार्य · verify ⚠ फ़्लैग · फ़ोटो केवल PD/CC · GPS-सटीकता लेबल।</p>
+      <div class="src">स्रोत: arXiv:1306.2416 (Vahia &amp; Halkare) · Unicode L2/15-090R · AGPE रॉयल गोंडवाना रिसर्च जर्नल 2025 · गोंड समाज महासभा म.प्र. कैलेंडर 2026 · ST-2011 जनगणना · द्रिक पंचांग (verify-फ़्लैग सहित)</div>`;
+  }
+
+  /* ---------- अधिक (More) ---------- */
+  function renderMore() {
+    $('#more-grid').innerHTML = NAV_ALL.filter(n => n.id !== 'home').map(n =>
+      `<button class="more-btn" data-tab="${n.id}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${n.ico}</svg><span>${n.lbl}</span></button>`).join('') +
+      `<button class="more-btn" id="more-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span>खोज</span></button>`;
+    $$('#more-grid [data-tab]').forEach(b => b.onclick = () => setTab(b.dataset.tab));
+    const ms = $('#more-search'); if (ms) ms.onclick = openSearch;
+  }
+
+  /* ---------- ग्लोबल खोज ---------- */
+  function openSearch() {
+    openSheet(`<h3 style="margin:2px 0 8px">🔍 खोज — पूरा गोंडवाना</h3>
+      <input id="gs-in" type="search" placeholder="पर्व, महापुरुष, स्थल, गोंडी शब्द…" style="width:100%;border:1.5px solid var(--line);border-radius:10px;padding:9px 10px;font-family:var(--deva);font-size:.95rem">
+      <div id="gs-res" class="muted small" style="margin-top:8px">कम-से-कम 2 अक्षर टाइप करें।</div>`);
+    const inp = $('#gs-in');
+    inp.oninput = () => {
+      const q = inp.value.trim().toLowerCase();
+      const res = $('#gs-res');
+      if (q.length < 2) { res.innerHTML = 'कम-से-कम 2 अक्षर टाइप करें।'; return; }
+      const fe = X.festivals.filter(f => ((f.deva || '') + (f.gondi || '') + (f.meaning || '') + (f.story || '')).toLowerCase().includes(q)).slice(0, 6);
+      const he = H.persons.filter(p => [p.name_hi, p.name_en, p.tribe_hi, p.state, p.first_achievement].join(' ').toLowerCase().includes(q)).slice(0, 6);
+      const pl = PL.places.filter(p => [p.name_hi, p.name_en, p.state, p.district, p.tribes, p.significance].join(' ').toLowerCase().includes(q)).slice(0, 6);
+      const pn = X.map_pins.filter(p => ((p.deva || '') + (p.name || '') + (p.history || '')).toLowerCase().includes(q)).slice(0, 4);
+      const words = [];
+      Object.values(D.calendar_terms).forEach(v => { if (((v.gondi || '') + (v.deva || '') + (v.meaning || '') + (v.hindi || '')).toLowerCase().includes(q)) words.push({ g: v.gondi || v.deva || '', m: v.meaning || v.hindi || '' }); });
+      D.astronomy_terms.forEach(a => { if ((a.term + a.meaning).toLowerCase().includes(q)) words.push({ g: a.term, m: a.meaning }); });
+      let html = '';
+      if (fe.length) html += `<p class="gs-head">🎉 पर्व (${fe.length})</p>` + fe.map(f => `<button class="gs-item" data-t="fest" data-id="${f.id}"><b>${esc(f.deva)}</b>${f.gondi ? ` <span class="muted">${esc(f.gondi)}</span>` : ''}<br><span class="muted small">${esc((f.meaning || '').slice(0, 60))}</span></button>`).join('');
+      if (he.length) html += `<p class="gs-head">🧑🏽‍🤝‍🧑🏽 महापुरुष (${he.length})</p>` + he.map(p => `<button class="gs-item" data-t="hero" data-id="${p.id}"><b>${esc(p.name_hi)}</b><br><span class="muted small">${esc(p.tribe_hi || '')} · ${esc(p.state || '')}</span></button>`).join('');
+      if (pl.length) html += `<p class="gs-head">📍 स्थल (${pl.length})</p>` + pl.map(p => `<button class="gs-item" data-t="place" data-id="${p.id}"><b>${esc(p.name_hi)}</b><br><span class="muted small">${esc(p.state || '')}${p.district ? ' · ' + esc(p.district) : ''}</span></button>`).join('');
+      if (pn.length) html += `<p class="gs-head">🗺️ नक्शा-पिन (${pn.length})</p>` + pn.map(p => `<button class="gs-item" data-t="pin" data-id="${p.id}"><b>${esc(p.deva || p.name)}</b></button>`).join('');
+      if (words.length) html += `<p class="gs-head">𑴀 गोंडी शब्द (${words.length})</p>` + words.slice(0, 8).map(w => `<div class="gs-word"><b>${esc(w.g)}</b> <span class="gon">${G.convert(String(w.g))}</span><br><span class="muted small">${esc(w.m)}</span></div>`).join('');
+      res.innerHTML = html || '<p>कोई परिणाम नहीं — वर्तनी जाँचें या दूसरा शब्द आज़माएँ।</p>';
+      $$('#gs-res .gs-item').forEach(b => b.onclick = () => {
+        const t = b.dataset.t, id = b.dataset.id;
+        closeSheet();
+        if (t === 'fest') {
+          const F2 = festivals(), tk = state.sel;
+          let found = null, foundNext = null;
+          for (const k in F2.byDate) if (F2.byDate[k].some(f => f.id === id)) { found = found || k; if (k >= tk && !foundNext) foundNext = k; }
+          setTab('calendar'); setTimeout(() => openDay(foundNext || found || state.sel), 80);
+        } else if (t === 'hero') {
+          const p = H.persons.find(x => x.id === id);
+          setTab('heroes'); setTimeout(() => openHero(p), 80);
+        } else if (t === 'place') {
+          const p = PL.places.find(x => x.id === id);
+          setTab('places'); setTimeout(() => openPlace(p), 80);
+        } else if (t === 'pin') {
+          setTab('map'); setTimeout(() => openPin(id), 80);
+        }
+      });
+    };
+  }
+
   /* ---------- sheet ---------- */
   function openSheet(html) { $('#sheet-body').innerHTML = html; $('#sheet-back').classList.add('open'); document.body.style.overflow = 'hidden'; bindSheetPins(); }
   function closeSheet() { $('#sheet-back').classList.remove('open'); document.body.style.overflow = ''; }
@@ -702,9 +936,11 @@
     const fests = F.byDate[key] || [];
     const di = E.dayInfo(tm.getFullYear(), tm.getMonth() + 1, tm.getDate(), cityOf());
     const bits = [];
-    if (fests.length) bits.push('कल: ' + fests.map(f => f.deva).join(', '));
-    if (di.isPurnima) bits.push('कल पूनम (पूर्णिमा) है');
-    if (di.isAmavasya) bits.push('कल अमावस है');
+    if (fests.length && prefs.notifyFest) bits.push('कल: ' + fests.map(f => f.deva).join(', '));
+    if (prefs.notifyMoon) {
+      if (di.isPurnima) bits.push('कल पूनम (पूर्णिमा) है');
+      if (di.isAmavasya) bits.push('कल अमावस है');
+    }
     if (bits.length) { new Notification('गोंडवाना कैलेंडर 🪔', { body: bits.join(' · '), icon: 'icon-192.png' }); lastNotified = key; }
   }
 
@@ -724,13 +960,19 @@
     if (state.tab === 'festivals') renderFestivals();
     if (state.tab === 'panchang') renderPanchang();
     if (state.tab === 'map') renderMap();
+    if (state.tab === 'home') renderHome();
   }
   function boot() {
     buildNav(); buildHeader(); buildYearSel(); setupNotify();
     $('#cal-prev').onclick = () => { state.month--; if (state.month < 1) { state.month = 12; state.year--; } syncYearSel(); renderCalendar(); };
     $('#cal-next').onclick = () => { state.month++; if (state.month > 12) { state.month = 1; state.year++; } syncYearSel(); renderCalendar(); };
-    $('#cal-today').onclick = () => { const t = new Date(); state.year = t.getFullYear(); state.month = t.getMonth() + 1; state.sel = E.dateKey(state.year, state.month, t.getDate()); syncYearSel(); renderCalendar(); };
-    renderLearn();
+    $('#cal-today').onclick = () => { const t = new Date(); state.year = t.getFullYear(); state.month = t.getMonth() + 1; state.sel = E.dateKey(state.year, state.month, t.getDate()); syncYearSel(); state.view = 'month'; renderCalendar(); };
+    const cvb = $('#cal-view');
+    if (cvb) cvb.onclick = () => { state.view = state.view === 'month' ? 'year' : 'month'; cvb.textContent = state.view === 'month' ? '🗓️ वर्ष दृश्य' : '📅 माह दृश्य'; renderCalendar(); };
+    const bs = $('#btn-search'); if (bs) bs.onclick = openSearch;
+    applyPrefs();
+    if (window.matchMedia) { try { matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { if (prefs.theme === 'system') applyPrefs(); }); } catch (e) {} }
+    renderLipi(); renderLearn(); renderMore(); renderHome();
     renderAll();
     // परत 1: सेल्फ-चेक (डेटा-अखंडता + इंजन anchor)
     let validateReport = null;
@@ -748,7 +990,7 @@
       } catch (e) { console.warn('[सेल्फ-चेक] विफल:', e); }
     }
     // debug/test handle
-    window.__GW = { state, get validateReport() { return validateReport; }, renderFestivals, renderPanchang, renderMap, renderLearn, renderCalendar, renderHeroes, heroOfTheDay, openHero, renderPlaces, openPlace, openDay, openPin, festivals, diOf };
+    window.__GW = { state, get validateReport() { return validateReport; }, renderFestivals, renderPanchang, renderMap, renderLearn, renderCalendar, renderHeroes, heroOfTheDay, openHero, renderPlaces, openPlace, renderHome, renderLipi, renderSettings, renderMore, openSearch, drawYearView, prefs, openDay, openPin, festivals, diOf };
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();

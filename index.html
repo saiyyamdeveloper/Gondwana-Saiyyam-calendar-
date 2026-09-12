@@ -21,14 +21,25 @@
         <div class="sub"><span class="masram-name" id="hero-masram"></span> · ग्रेगोरियन + गोंडी + पंचांग — तीनों परतें एक साथ</div>
       </div>
       <div class="hero-right">
+        <button class="icon-btn" id="btn-search" title="खोज">🔍</button>
         <button class="icon-btn" id="btn-notify" title="पर्व-रिमाइंडर">🔔</button>
         <select class="hero-select" id="sel-region" title="क्षेत्र चुनें"></select>
       </div>
     </div>
   </header>
 
+  <!-- ============ होम ============ -->
+  <section class="tab active" id="tab-home">
+    <div class="card home-today" id="home-today"></div>
+    <div class="card" id="home-fest"></div>
+    <div class="card" id="home-panch"></div>
+    <div class="card" id="home-knowledge"></div>
+    <div class="card" id="home-hero"></div>
+    <div class="quick-grid" id="home-quick"></div>
+  </section>
+
   <!-- ============ कैलेंडर ============ -->
-  <section class="tab active" id="tab-calendar">
+  <section class="tab" id="tab-calendar">
     <div class="cal-head">
       <button class="icon-btn" id="cal-prev" style="background:#f3e8cf;color:#7c2d12;border-color:var(--line)">◀</button>
       <div class="ym">
@@ -39,13 +50,17 @@
       <button class="icon-btn" id="cal-next" style="background:#f3e8cf;color:#7c2d12;border-color:var(--line)">▶</button>
     </div>
     <div style="text-align:center;margin-bottom:4px"><button class="chip" id="cal-today">⦿ आज</button>
+      <button class="chip" id="cal-view">🗓️ वर्ष दृश्य</button>
       <select class="chip" id="cal-year" style="border:1px solid var(--line)"></select></div>
+    <div id="cal-yearview" style="display:none"></div>
+    <div id="cal-monthview">
     <div class="monthband" id="monthband"></div>
     <div class="wk-grid" id="wk-head"></div>
     <div class="wk-grid" id="cal-grid" style="margin-top:4px"></div>
     <div class="legend">
       <span class="lg">गोंड पर्व</span><span class="lp">पंचांग पर्व</span><span class="lc">स्मृति दिवस</span>
       <span style="color:var(--ink2)">🌑 अमावस · 🌕 पूनम</span>
+    </div>
     </div>
     <div class="card" id="upcoming-card"><h3>आगामी पर्व</h3><div id="upcoming"></div></div>
   </section>
@@ -89,8 +104,8 @@
   </section>
 
   <!-- ============ सीखें ============ -->
-  <section class="tab" id="tab-learn">
-    <h2 class="sec">मसराम गोंडी लिपि</h2>
+  <section class="tab" id="tab-lipi">
+    <h2 class="sec"><span class="gon" style="font-size:1.3rem">𑴀</span> मसराम गोंडी लिपि</h2>
     <div class="card conv-box">
       <h3>देवनागरी → मसराम कन्वर्टर</h3>
       <input id="conv-in" type="text" placeholder="हिंदी में लिखें… (जैसे: जय सेवा, गोंडवाना)" value="जय सेवा — गोंडवाना कैलेंडर">
@@ -118,6 +133,11 @@
       <div id="learn-solar-months"></div></div>
     <div class="card"><h3>कैलेंडर शब्दावली</h3><div id="learn-terms"></div></div>
     <div class="card"><h3>खगोल शब्दावली (गोंड खगोल-परंपरा)</h3><div id="learn-astro"></div></div>
+  </section>
+
+  <!-- ============ सीखें ============ -->
+  <section class="tab" id="tab-learn">
+    <h2 class="sec">📚 सीखें — संस्कृति एवं इतिहास</h2>
     <div class="card"><h3>देवी-देवता एवं संस्कृति</h3><div id="learn-culture"></div></div>
     <div class="card"><h3>इतिहास टाइमलाइन</h3><div class="tl" id="learn-timeline"></div></div>
     <div class="card"><h3>नमूना वाक्य एवं अभिवादन</h3><div id="learn-sentences"></div></div>
@@ -158,8 +178,28 @@
     <p class="muted small" style="padding:0 6px">📍 GPS नीति: अधिकांश निर्देशांक अनुमानित/शहर-स्तरीय हैं (कार्ड पर सटीकता-बैज देखें)। ⚠ चिह्नित स्थलों का फ़ील्ड-सत्यापन शेष। हर कार्ड पर Google Maps लिंक — वहाँ से नेविगेशन करें।</p>
   </section>
 
+  <!-- ============ सेटिंग्स ============ -->
+  <section class="tab" id="tab-settings">
+    <h2 class="sec">⚙️ सेटिंग्स</h2>
+    <div class="card"><h3>🌍 क्षेत्र (Region)</h3><div id="set-region"></div>
+      <p class="muted small">क्षेत्र बदलने पर सूर्योदय, पर्व-तिथियाँ और दूरियाँ स्थानीय गणना से बदलती हैं।</p></div>
+    <div class="card"><h3>🎨 थीम (Appearance)</h3><div id="set-theme"></div></div>
+    <div class="card"><h3>🔤 फ़ॉन्ट आकार</h3><div id="set-font"></div></div>
+    <div class="card"><h3>🔔 सूचनाएँ</h3><div id="set-notify"></div>
+      <p class="muted small">सूचनाएँ केवल ऐप खुला रहने पर मिलती हैं (MVP सीमा)।</p></div>
+    <div class="card"><h3>🌐 भाषा</h3><div id="set-lang"></div></div>
+    <div class="card"><h3>📦 ऑफ़लाइन डेटा</h3><div id="set-offline"></div></div>
+    <div class="card"><h3>ℹ️ बारे में</h3><div id="set-about"></div></div>
+  </section>
+
+  <!-- ============ अधिक (More) ============ -->
+  <section class="tab" id="tab-more">
+    <h2 class="sec">☰ सभी स्क्रीन</h2>
+    <div class="more-grid" id="more-grid"></div>
+  </section>
+
   <footer style="text-align:center;padding:18px 10px 30px" class="muted small">
-    गोंडवाना कैलेंडर ऐप v1.3 (+ स्वचालित निरीक्षण) · डेटा-स्रोत: Vahia &amp; Halkare (arXiv:1306.2416), AGPE रॉयल गोंडवाना रिसर्च जर्नल 2025, गोंड समाज महासभा म.प्र. कैलेंडर 2026, यूनीकोड L2/15-090R<br>
+    गोंडवाना कैलेंडर ऐप v2.0 (UI blueprint: होम · वर्ष-दृश्य · गोंडी लिपि · सेटिंग्स · खोज) · डेटा-स्रोत: Vahia &amp; Halkare (arXiv:1306.2416), AGPE रॉयल गोंडवाना रिसर्च जर्नल 2025, गोंड समाज महासभा म.प्र. कैलेंडर 2026, यूनीकोड L2/15-090R<br>
     तिथियाँ दृक्-सन्निकट गणना से — सीमांत दिनों में ±1 भेद संभव; सामुदायिक घोषणा मान्य।
   </footer>
 </div>

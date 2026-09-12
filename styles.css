@@ -279,3 +279,88 @@ table.simple th { background: var(--goldbg); }
 /* ---------- स्थल-कोश (places) ---------- */
 .gps-mono { font-family: ui-monospace, 'SF Mono', Consolas, monospace; font-size: .82rem; background: #f6efdd; padding: 1px 6px; border-radius: 6px; }
 @media (max-width: 430px) { nav.bottom button { font-size: .58rem; padding: 3px 1px; } nav.bottom button svg { width: 19px; height: 19px; } }
+
+/* ============ v2.0 — UI blueprint ============ */
+/* ---------- dark theme ---------- */
+body.dark {
+  --paper: #14180f; --paper2: #1c2116; --ink: #ece5d4; --ink2: #a89d87;
+  --line: #3a4130; --card: #20261a; --goldbg: #3a2f14; --greenbg: #1c3323;
+}
+body.dark header.hero { background: linear-gradient(135deg, #1f2a12 0%, #2d3a18 55%, #3a2c10 100%); }
+body.dark .day-cell, body.dark .chip, body.dark input, body.dark select { background: var(--paper2); color: var(--ink); }
+body.dark nav.bottom, body.dark aside.side { background: #1a1f14; }
+
+/* ---------- font size prefs ---------- */
+html { font-size: 16px; }
+
+/* ---------- desktop sidebar ---------- */
+aside.side { display: none; }
+@media (min-width: 900px) {
+  aside.side {
+    display: flex; flex-direction: column; gap: 2px;
+    position: fixed; left: 0; top: 0; bottom: 0; width: 218px; z-index: 60;
+    background: #fffaf0; border-right: 2px solid var(--line); padding: 14px 10px;
+    overflow-y: auto;
+  }
+  aside.side .side-logo { font-family: var(--deva); font-weight: 800; color: var(--saffron); font-size: 1.15rem; padding: 4px 10px 12px; line-height: 1.2; }
+  aside.side .side-logo span { color: var(--ink2); font-size: .78rem; font-weight: 600; }
+  aside.side button {
+    display: flex; align-items: center; gap: 10px; background: none; border: 0;
+    padding: 9px 12px; border-radius: 10px; cursor: pointer; color: var(--ink2);
+    font-family: var(--deva); font-size: .92rem; text-align: left; width: 100%;
+  }
+  aside.side button svg { width: 20px; height: 20px; flex: 0 0 20px; }
+  aside.side button.active { background: var(--goldbg); color: var(--saffron); font-weight: 700; }
+  aside.side button:hover { background: #f3ead4; }
+  nav.bottom { display: none; }
+  #app { margin-left: 218px; max-width: 940px; }
+  body { padding-bottom: 0 !important; }
+}
+
+/* ---------- home ---------- */
+.home-today { text-align: center; border-top: 5px solid var(--saffron); }
+.ht-date { font-size: 1.55rem; font-weight: 800; margin: 2px 0; color: var(--ink); }
+.ht-day { font-size: .95rem; color: var(--saffron); font-weight: 600; }
+.ht-gondi { font-size: .88rem; margin-top: 6px; }
+.ht-moon { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 10px; text-align: left; }
+.quick-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; margin: 12px 0; }
+.quick-grid button {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 10px 4px;
+  font-family: var(--deva); font-size: .72rem; color: var(--ink2);
+}
+.quick-grid button svg { width: 22px; height: 22px; stroke: var(--saffron); }
+.quick-grid button:hover { border-color: var(--saffron); }
+@media (max-width: 640px) { .quick-grid { grid-template-columns: repeat(3, 1fr); } }
+
+/* ---------- year view ---------- */
+.yv-head { text-align: center; margin: 8px 0; font-size: 1.1rem; }
+.yv-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.yv-month {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 12px 6px;
+  font-family: var(--deva);
+}
+.yv-month:hover { border-color: var(--saffron); }
+.yv-mname { font-weight: 700; font-size: .95rem; }
+.yv-cnt { font-size: .72rem; color: var(--green); font-weight: 600; }
+@media (max-width: 640px) { .yv-grid { grid-template-columns: repeat(3, 1fr); } }
+
+/* ---------- more ---------- */
+.more-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 10px 0; }
+.more-btn {
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 16px 6px;
+  font-family: var(--deva); font-size: .82rem; color: var(--ink);
+}
+.more-btn svg { width: 26px; height: 26px; stroke: var(--saffron); }
+.more-btn:hover { border-color: var(--saffron); }
+
+/* ---------- global search ---------- */
+.gs-head { font-weight: 700; font-size: .8rem; letter-spacing: .04em; margin: 10px 0 4px; color: var(--saffron); }
+.gs-item {
+  display: block; width: 100%; text-align: left; background: var(--paper2); border: 1px solid var(--line);
+  border-radius: 10px; padding: 8px 10px; margin-bottom: 6px; cursor: pointer; font-family: var(--deva); font-size: .88rem;
+}
+.gs-item:hover { border-color: var(--saffron); }
+.gs-word { background: var(--paper2); border: 1px dashed var(--line); border-radius: 10px; padding: 7px 10px; margin-bottom: 6px; font-size: .88rem; }

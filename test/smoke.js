@@ -36,7 +36,8 @@ global.document = {
   querySelector: getEl,
   querySelectorAll: () => [],
   createElement: t => mkEl('created-' + t),
-  body: { appendChild() {}, style: {} },
+  body: { appendChild() {}, style: {}, classList: mkClassList() },
+  documentElement: { style: {} },
   addEventListener() {}
 };
 global.scrollTo = () => {};
@@ -93,6 +94,36 @@ console.log('renderPlaces OK; cards =', placeCards, '| count-txt =', getEl('plac
 GW.openPlace(global.GW_PLACES.places[0]);
 if (!getEl('sheet-body').innerHTML.includes('google.com/maps')) throw new Error('place sheet missing maps link');
 console.log('openPlace OK; sheet len =', getEl('sheet-body').innerHTML.length);
+
+// v2.0 blueprint screens
+GW.renderHome();
+if (!getEl('home-today').innerHTML.includes('ht-date')) throw new Error('home today card fail');
+if (!getEl('home-panch').innerHTML.includes('सूर्योदय')) throw new Error('home panchang fail');
+if (!getEl('home-quick').innerHTML.includes('data-tab')) throw new Error('home quick actions fail');
+console.log('renderHome OK; fest-card len =', getEl('home-fest').innerHTML.length, '| knowledge len =', getEl('home-knowledge').innerHTML.length, '| hero len =', getEl('home-hero').innerHTML.length);
+
+GW.renderLipi();
+if (getEl('ch-vowels').innerHTML.length < 100) throw new Error('lipi vowels fail');
+console.log('renderLipi OK; digits len =', getEl('ch-digits').innerHTML.length);
+
+GW.state.year = 2026; GW.state.view = 'year';
+GW.drawYearView();
+const yvMonths = (getEl('cal-yearview').innerHTML.match(/class="yv-month"/g) || []).length;
+if (yvMonths !== 12) throw new Error('year view months: ' + yvMonths);
+console.log('drawYearView OK; months =', yvMonths);
+GW.state.view = 'month';
+
+GW.renderSettings();
+if (!getEl('set-about').innerHTML.includes('v2.0')) throw new Error('settings about fail');
+console.log('renderSettings OK; theme btns =', (getEl('set-theme').innerHTML.match(/class="chip/g) || []).length, '| notify =', JSON.stringify(GW.prefs.notifyFest) + '/' + JSON.stringify(GW.prefs.notifyMoon));
+
+GW.renderMore();
+const moreBtns = (getEl('more-grid').innerHTML.match(/class="more-btn"/g) || []).length;
+if (moreBtns < 10) throw new Error('more grid: ' + moreBtns);
+console.log('renderMore OK; buttons =', moreBtns);
+
+GW.openSearch();
+console.log('openSearch OK; sheet len =', getEl('sheet-body').innerHTML.length);
 
 GW.openDay('2026-11-09');
 console.log('openDay(Diwali) OK; sheet len =', getEl('sheet-body').innerHTML.length);

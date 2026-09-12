@@ -88,6 +88,24 @@
       ok(!!f.source, 'FEST_NO_SRC', f.id + ': source टैग खाली (नीति-उल्लंघन)');
     });
 
+    /* ---- 4b. होम/लिपि डेटा-पूल (v2.0 UI) ---- */
+    ok(Array.isArray(D.weekdays) && D.weekdays.length === 7, 'WEEKDAYS_7', 'weekdays 7 नहीं');
+    ok(D.numerals && Array.isArray(D.numerals.words_1_to_10) && D.numerals.words_1_to_10.length === 10, 'NUMERALS_10', 'numerals 1-10 अधूरे');
+    ok(Array.isArray(X.nakshatras) && X.nakshatras.length === 27, 'NAK_27', 'नक्षत्र 27 नहीं');
+    ok(Array.isArray(X.rashis) && X.rashis.length === 12, 'RASHI_12', 'राशि 12 नहीं');
+    ok(X.gondi_month_map && Array.isArray(X.gondi_month_map.map) && X.gondi_month_map.map.length === 12, 'GONDI_MONTHS_12', 'गोंडी माह-मानचित्र 12 नहीं');
+    ok(D.months_solar_gondi_variantA && D.months_solar_gondi_variantA.list.length === 12, 'SOLAR_GONDI_12', 'गोंडी सौर माह 12 नहीं');
+    const cu = D.culture_layer;
+    ok(!!(cu && cu.greeting && cu.greeting.call && cu.greeting.reply), 'CULT_GREET', 'अभिवादन डेटा अधूरा');
+    ok(cu && Array.isArray(cu.deities) && cu.deities.length >= 1, 'CULT_DEITIES', 'देवी-देवता सूची खाली');
+    ok(cu && cu.music_dance && cu.music_dance.dhemsa_16 && cu.music_dance.dhemsa_16.length === 16, 'CULT_DHEMSA16', 'ढेम्सा 16 मुद्राएँ अधूरी');
+    ok(cu && cu.music_dance && cu.music_dance.vadya_18 && cu.music_dance.vadya_18.length === 18, 'CULT_VADYA18', 'वाद्य 18 सूची अधूरी');
+    ok(cu && Array.isArray(cu.sample_sentences) && cu.sample_sentences.length >= 1, 'CULT_SENT', 'नमूना वाक्य खाली');
+    ok(cu && cu.gotras && cu.gotras.count_claimed > 0, 'CULT_GOTRA', 'गोत्र-डेटा अधूरा');
+    ok(Array.isArray(X.timeline) && X.timeline.every(t2 => t2.year && t2.event), 'TIMELINE_ROWS', 'टाइमलाइन पंक्ति में year/event खाली');
+    ok(Object.keys(D.calendar_terms || {}).length >= 5, 'CAL_TERMS', 'कैलेंडर शब्दावली बहुत छोटी');
+    ok(Array.isArray(D.astronomy_terms) && D.astronomy_terms.length >= 3, 'ASTRO_TERMS', 'खगोल शब्दावली बहुत छोटी');
+
     /* ---- 5. इंजन anchor self-test (Bhopal — सत्यापित तिथियाँ) ---- */
     const bhopal = X.cities.find(c => c.id === 'bhopal');
     if (bhopal) {
