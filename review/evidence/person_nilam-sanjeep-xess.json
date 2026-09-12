@@ -1,6 +1,6 @@
 {
  "id": "person:nilam-sanjeep-xess",
- "checked_at": "2026-09-12T14:43:50.174329+00:00",
+ "checked_at": "2026-09-12T14:52:28.859294+00:00",
  "score": 15,
  "verdict": "conflict",
  "checks": [
@@ -60,5 +60,46 @@
   "wikidata.org"
  ],
  "summary_hi": "नीलम संजीप खैस: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=2000 बनाम wikidata=1998 — मानव-निर्णय आवश्यक।",
- "llm": null
+ "llm": {
+  "checked_at": "2026-09-12T15:08:27.120472+00:00",
+  "provider": "openrouter",
+  "verdict": "inconclusive",
+  "confidence": 45,
+  "summary_hi": "विकिपीडिया पर नाम मौजूद है, लेकिन ओलंपिक टीम सदस्यता, जनजाति विवरण और जिला विवरण सत्यापित नहीं; हॉकी इंडिया स्रोत मृत।",
+  "claims": [
+   {
+    "claim": "नीलम संजीप खैस का विकिपीडिया पृष्ठ मौजूद है।",
+    "urls": [
+     "https://en.wikipedia.org/wiki/Nilam%20Sanjeep%20Xess"
+    ],
+    "shield": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Nilam%20Sanjeep%20Xess",
+      "reachable": true,
+      "claim_support_ratio": 0.0,
+      "shield": "unverified"
+     }
+    ]
+   },
+   {
+    "claim": "नीलम संजीप खैस विकिदेटा पर सूचीबद्ध एक व्यक्ति हैं।",
+    "urls": [
+     "https://www.wikidata.org/wiki/Q58459070"
+    ],
+    "shield": [
+     {
+      "url": "https://www.wikidata.org/wiki/Q58459070",
+      "reachable": true,
+      "claim_support_ratio": 0.0,
+      "shield": "unverified"
+     }
+    ]
+   }
+  ],
+  "red_flags": [
+   "हॉकी इंडिया स्रोत मृत/अगम्य",
+   "जनजाति व दल विवरण सत्यापनाधीन",
+   "ओलंपिक पदक व टीम चयन की पुष्टि शेष"
+  ]
+ }
 }

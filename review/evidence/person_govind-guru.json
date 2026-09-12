@@ -1,6 +1,6 @@
 {
  "id": "person:govind-guru",
- "checked_at": "2026-09-12T14:43:44.399224+00:00",
+ "checked_at": "2026-09-12T14:52:21.140557+00:00",
  "score": 48,
  "verdict": "conflict",
  "checks": [
@@ -15,8 +15,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Govind Guru Tribal University; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Govind%20Guru%20Tribal%20University"
+   "detail": "पृष्ठ मिला: Govindgiri; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Govindgiri"
   },
   {
    "name": "wikidata",
@@ -75,5 +75,61 @@
   "wikidata.org"
  ],
  "summary_hi": "गोविंद गुरु: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, internal-sources, internal-category। विरोध: birth हमारा=1850 बनाम wikidata=1858 — मानव-निर्णय आवश्यक।",
- "llm": null
+ "llm": {
+  "checked_at": "2026-09-12T15:06:03.656984+00:00",
+  "provider": "openrouter",
+  "verdict": "inconclusive",
+  "confidence": 55,
+  "summary_hi": "विकिपीडिया के हिंदी पृष्ठ ने नाम गलत व्यक्ति (गुरु गोबिंद सिंह) से मिलाया है, source-links (TV9 2025, PIB रिपोर्ट) मृत/अनुपलब्ध हैं, और जन्म-वर्ष केवल '≈1850s' है। अतिरिक्त सत्यापन की आवश्यकता।",
+  "claims": [
+   {
+    "claim": "गोविंद गुरु भील जन नेता थे और स्वतंत्रता संग्राम से जुड़े थे",
+    "urls": [
+     "https://en.wikipedia.org/wiki/Govind_Guru"
+    ],
+    "shield": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Govind_Guru",
+      "reachable": true,
+      "claim_support_ratio": 0.5,
+      "shield": "unverified"
+     }
+    ]
+   },
+   {
+    "claim": "17 नवंबर 1913 को मांगढ घटना हुई जहाँ ब्रिटिश सेना ने भील सभा पर गोलीबारी की थी",
+    "urls": [
+     "https://en.wikipedia.org/wiki/Mangarh_massacre"
+    ],
+    "shield": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Mangarh_massacre",
+      "reachable": true,
+      "claim_support_ratio": 0.0,
+      "shield": "unverified"
+     }
+    ]
+   },
+   {
+    "claim": "गोविंद गुरु ने साम्प सभा की स्थापना की और शाकाहार, नशामुक्ति और कर बहिष्कार का प्रचार किया",
+    "urls": [
+     "https://en.wikipedia.org/wiki/Govind_Guru"
+    ],
+    "shield": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Govind_Guru",
+      "reachable": true,
+      "claim_support_ratio": 0.0,
+      "shield": "unverified"
+     }
+    ]
+   }
+  ],
+  "red_flags": [
+   "विकिपीडिया हिंदी पृष्ठ नाम गलत व्यक्ति (गुरु गोबिंद सिंह) से मिलाया गया",
+   "दिया गया source-url (TV9 2025, PIB स्मारक रिपोर्ट) मृत/अनुपलब्ध है",
+   "जन्म-वर्ष ≈1850s है जो सटीक सत्यापित नहीं है",
+   "मृत्यु-वर्ष विकिडेटा के साथ मिलान करता है लेकिन स्रोत स्पष्ट नहीं"
+  ]
+ }
 }

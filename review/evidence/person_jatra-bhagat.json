@@ -1,6 +1,6 @@
 {
  "id": "person:jatra-bhagat",
- "checked_at": "2026-09-12T14:43:38.211454+00:00",
+ "checked_at": "2026-09-12T14:52:13.118291+00:00",
  "score": 5,
  "verdict": "conflict",
  "checks": [
@@ -67,5 +67,45 @@
   "wikidata.org"
  ],
  "summary_hi": "जतरा टाना भगत: स्कोर 5/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1880 बनाम wikidata=1888; death हमारा=1920 बनाम wikidata=1916 — मानव-निर्णय आवश्यक।",
- "llm": null
+ "llm": {
+  "checked_at": "2026-09-12T14:55:53.593151+00:00",
+  "provider": "openrouter",
+  "verdict": "pass",
+  "confidence": 82,
+  "summary_hi": "जतरा टाना भगत उराँव जनजाति के नेता थे, जिन्होंने टाना भगत आंदोलन के माध्यम से ब्रिटिश शासन के विरुद्ध अहिंसक प्रतिरोध किया। उनकी मृत्यु की तारीख स्पष्ट रूप से दर्ज नहीं है।",
+  "claims": [
+   {
+    "claim": "जतरा टाना भगत उराँव जनजाति के प्रमुख नेता थे।",
+    "urls": [
+     "https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%A4%E0%A4%B0%E0%A4%BE%20%E0%A4%AD%E0%A4%97%E0%A4%A4"
+    ],
+    "shield": [
+     {
+      "url": "https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%A4%E0%A4%B0%E0%A4%BE%20%E0%A4%AD%E0%A4%97%E0%A4%A4",
+      "reachable": true,
+      "claim_support_ratio": 0.0,
+      "shield": "unverified"
+     }
+    ]
+   },
+   {
+    "claim": "टाना भगत आंदोलन एक अहिंसक स्वतंत्रता आंदोलन था।",
+    "urls": [
+     "https://en.wikipedia.org/wiki/Jatra%20Bhagat"
+    ],
+    "shield": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Jatra%20Bhagat",
+      "reachable": true,
+      "claim_support_ratio": 0.0,
+      "shield": "unverified"
+     }
+    ]
+   }
+  ],
+  "red_flags": [
+   "मृत्यु-विवरण अस्पष्ट",
+   "स्रोत प्रभात खबर की लिंक मृत/अनुपलब्ध"
+  ]
+ }
 }

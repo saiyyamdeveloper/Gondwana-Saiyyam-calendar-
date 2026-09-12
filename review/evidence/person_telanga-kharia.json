@@ -1,6 +1,6 @@
 {
  "id": "person:telanga-kharia",
- "checked_at": "2026-09-12T14:43:36.826810+00:00",
+ "checked_at": "2026-09-12T14:52:10.772100+00:00",
  "score": 48,
  "verdict": "conflict",
  "checks": [
@@ -68,5 +68,60 @@
   "wikidata.org"
  ],
  "summary_hi": "तेलंगा खड़िया: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category। विरोध: death हमारा=1914 बनाम wikidata=1880 — मानव-निर्णय आवश्यक।",
- "llm": null
+ "llm": {
+  "checked_at": "2026-09-12T14:54:40.645600+00:00",
+  "provider": "openrouter",
+  "verdict": "inconclusive",
+  "confidence": 45,
+  "summary_hi": "तेलंगा खड़िया खड़िया जनजाति के स्वतंत्रता सेनानी थे, जन्म ≈1806 और मृत्यु ≈1914 (फाँसी) माना जाता है, लेकिन मृत्यु वर्ष और फांसी की पुष्टि के लिए पर्याप्त प्रमाण उपलब्ध न होने के कारण स्थिति अनिश्चित है।",
+  "claims": [
+   {
+    "claim": "तेलंगा खड़िया खड़िया जनजाति के नेता थे और अंग्रेजों के विरुद्ध विद्रोह नेतृत्व किया",
+    "urls": [
+     "https://en.wikipedia.org/wiki/Telanga%20Kharia"
+    ],
+    "shield": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Telanga%20Kharia",
+      "reachable": true,
+      "claim_support_ratio": 0.6,
+      "shield": "verified"
+     }
+    ]
+   },
+   {
+    "claim": "उनका जन्म लगभग 1806 में हुआ था",
+    "urls": [
+     "https://www.wikidata.org/wiki/Q26266161"
+    ],
+    "shield": [
+     {
+      "url": "https://www.wikidata.org/wiki/Q26266161",
+      "reachable": true,
+      "claim_support_ratio": 0,
+      "shield": "unverified"
+     }
+    ]
+   },
+   {
+    "claim": "उनकी मृत्यु लगभग 1914 में हुई और उन्हें अंग्रेजों द्वारा फांसी दी गई",
+    "urls": [
+     "https://hi.wikipedia.org/wiki/%E0%A4%A4%E0%A5%87%E0%A4%B2%E0%A4%82%E0%A4%97%E0%A4%BE%20%E0%A4%96%E0%A4%A1%E0%A4%BC%E0%A4%BF%E0%A4%AF%E0%A4%BE"
+    ],
+    "shield": [
+     {
+      "url": "https://hi.wikipedia.org/wiki/%E0%A4%A4%E0%A5%87%E0%A4%B2%E0%A4%82%E0%A4%97%E0%A4%BE%20%E0%A4%96%E0%A4%A1%E0%A4%BC%E0%A4%BF%E0%A4%AF%E0%A4%BE",
+      "reachable": true,
+      "claim_support_ratio": 0.8,
+      "shield": "verified"
+     }
+    ]
+   }
+  ],
+  "red_flags": [
+   "मूल स्रोत 'प्रभात खबर (2023)' मृत/अगम्य है",
+   "मृत्यु वर्ष और फांसी की पुष्टि शेष है",
+   "स्रोतों में वर्ष को लेकर विवाद संभावित"
+  ]
+ }
 }

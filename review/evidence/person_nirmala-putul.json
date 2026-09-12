@@ -1,6 +1,6 @@
 {
  "id": "person:nirmala-putul",
- "checked_at": "2026-09-12T14:43:55.586044+00:00",
+ "checked_at": "2026-09-12T14:52:35.649914+00:00",
  "score": 35,
  "verdict": "conflict",
  "checks": [
@@ -61,5 +61,30 @@
   "wikidata.org"
  ],
  "summary_hi": "निर्मला पुतुल: स्कोर 35/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1981 बनाम wikidata=1972 — मानव-निर्णय आवश्यक।",
- "llm": null
+ "llm": {
+  "checked_at": "2026-09-12T15:13:38.883880+00:00",
+  "provider": "openrouter",
+  "verdict": "inconclusive",
+  "confidence": 55,
+  "summary_hi": "विकिपीडिया हिन्दी पृष्ठ मौजूद है, पर डेटाबेस का source-url मृत/अगम्य होने से जन्म-स्थान सत्यापन पूर्ण रूप से पुष्टि नहीं हो सका।",
+  "claims": [
+   {
+    "claim": "निर्मला पुतुल संथाली भाषा की प्रसिद्ध कवयित्री हैं।",
+    "urls": [
+     "https://hi.wikipedia.org/wiki/%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%B2%E0%A4%BE%20%E0%A4%AA%E0%A5%81%E0%A4%A4%E0%A5%81%E0%A4%B2"
+    ],
+    "shield": [
+     {
+      "url": "https://hi.wikipedia.org/wiki/%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%B2%E0%A4%BE%20%E0%A4%AA%E0%A5%81%E0%A4%A4%E0%A5%81%E0%A4%B2",
+      "reachable": true,
+      "claim_support_ratio": 0.8,
+      "shield": "verified"
+     }
+    ]
+   }
+  ],
+  "red_flags": [
+   "source-url मृत/अगम्य"
+  ]
+ }
 }

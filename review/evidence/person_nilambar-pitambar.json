@@ -1,6 +1,6 @@
 {
  "id": "person:nilambar-pitambar",
- "checked_at": "2026-09-12T14:43:36.070861+00:00",
+ "checked_at": "2026-09-12T14:52:09.749857+00:00",
  "score": 65,
  "verdict": "partial",
  "checks": [
@@ -15,8 +15,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Garhwa",
-   "link": "https://en.wikipedia.org/wiki/Garhwa"
+   "detail": "पृष्ठ मिला: Nilamber and Pitamber",
+   "link": "https://en.wikipedia.org/wiki/Nilamber%20and%20Pitamber"
   },
   {
    "name": "wikidata",

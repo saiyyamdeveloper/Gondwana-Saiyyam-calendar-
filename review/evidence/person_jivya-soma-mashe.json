@@ -1,6 +1,6 @@
 {
  "id": "person:jivya-soma-mashe",
- "checked_at": "2026-09-12T14:43:52.725606+00:00",
+ "checked_at": "2026-09-12T14:52:31.900764+00:00",
  "score": 48,
  "verdict": "conflict",
  "checks": [
@@ -75,5 +75,59 @@
   "wikidata.org"
  ],
  "summary_hi": "जीव्या सोमा माशे: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category। विरोध: death हमारा=2020 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
- "llm": null
+ "llm": {
+  "checked_at": "2026-09-12T15:11:18.661507+00:00",
+  "provider": "openrouter",
+  "verdict": "inconclusive",
+  "confidence": 65,
+  "summary_hi": "जीव्या सोमा माशे, वारली जनजाति के प्रमुख कलाकार थे, जिन्होंने वारली कला को पारंपरिक दीवार चित्रों से निकालकर समकालीन कैनवास पर स्थापित किया और उन्हें पद्म श्री से सम्मानित किया गया। हालांकि, पद्म श्री प्रदान किए जाने के वर्ष को लेकर विभिन्न स्रोतों में 1998 और 2011 का उल्लेख मिलता है, जिससे सत्यापन में असमंजस है।",
+  "claims": [
+   {
+    "claim": "वारली चित्रकला को अनुष्ठान-दीवारों से कैनवास तक लाने वाले 'आधुनिक वारली कला के जनक' माने जाते हैं।",
+    "urls": [
+     "https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BF%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%B8%E0%A5%8B%E0%A4%AE%E0%A4%BE%20%E0%A4%AE%E0%A5%8D%E0%A4%B9%E0%A4%B8%E0%A5%87"
+    ],
+    "shield": [
+     {
+      "url": "https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BF%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%B8%E0%A5%8B%E0%A4%AE%E0%A4%BE%20%E0%A4%AE%E0%A5%8D%E0%A4%B9%E0%A4%B8%E0%A5%87",
+      "reachable": true,
+      "claim_support_ratio": 0.4,
+      "shield": "unverified"
+     }
+    ]
+   },
+   {
+    "claim": "पद्म श्री पुरस्कार से सम्मानित।",
+    "urls": [
+     "https://en.wikipedia.org/wiki/Jivya%20Soma%20Mashe"
+    ],
+    "shield": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Jivya%20Soma%20Mashe",
+      "reachable": true,
+      "claim_support_ratio": 0.0,
+      "shield": "unverified"
+     }
+    ]
+   },
+   {
+    "claim": "जन्म ≈1934 और मृत्यु 2020।",
+    "urls": [
+     "https://www.wikidata.org/wiki/Q937436"
+    ],
+    "shield": [
+     {
+      "url": "https://www.wikidata.org/wiki/Q937436",
+      "reachable": true,
+      "claim_support_ratio": 0.0,
+      "shield": "unverified"
+     }
+    ]
+   }
+  ],
+  "red_flags": [
+   "पद्म वर्ष स्रोतों में भिन्नता",
+   "कला-स्रोत और पद्म सूची के URL मृत/अगम्य"
+  ]
+ }
 }
