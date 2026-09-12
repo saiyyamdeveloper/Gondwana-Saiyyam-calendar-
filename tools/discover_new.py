@@ -18,6 +18,7 @@ SELECT ?p ?nameHi ?nameEn ?birth ?death ?tribeLabel ?hiwiki ?enwiki WHERE {
   VALUES ?tl { %s }
   ?tribe rdfs:label ?tl .
   ?p wdt:P31 wd:Q5 ; wdt:P172 ?tribe .
+  FILTER(EXISTS { ?p wdt:P27 wd:Q668 } || EXISTS { ?p wdt:P19 ?bpl . ?bpl wdt:P17 wd:Q668 })
   ?tribe rdfs:label ?tribeLabel FILTER(LANG(?tribeLabel)="en")
   OPTIONAL { ?p rdfs:label ?nameHi FILTER(LANG(?nameHi)="hi") }
   OPTIONAL { ?p rdfs:label ?nameEn FILTER(LANG(?nameEn)="en") }
