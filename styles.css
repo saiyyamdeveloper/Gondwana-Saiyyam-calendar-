@@ -1,0 +1,281 @@
+/* ============ Gondwana Calendar App — styles ============ */
+@font-face {
+  font-family: 'Masram Gondi';
+  src: url('NotoSansMasaramGondi.woff2') format('woff2');
+  unicode-range: U+11D00-11D5F, U+25CC;
+}
+:root {
+  --paper: #fdf6e3;
+  --paper2: #fffdf5;
+  --ink: #2b2118;
+  --ink2: #6b5d4d;
+  --saffron: #c2410c;
+  --saffron2: #ea580c;
+  --gold: #d97706;
+  --goldbg: #fef3c7;
+  --green: #166534;
+  --greenbg: #dcfce7;
+  --line: #e7d9bc;
+  --card: #ffffff;
+  --red: #b91c1c;
+  --blue: #1d4ed8;
+  --purple: #7c3aed;
+  --deva: 'Noto Sans Devanagari', 'Mangal', system-ui, sans-serif;
+  --gon: 'Masram Gondi', var(--deva);
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: var(--deva);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.6;
+  padding-bottom: 78px;
+}
+.gon { font-family: var(--gon); }
+#app { max-width: 860px; margin: 0 auto; padding: 0 12px; }
+
+/* ---------- header ---------- */
+header.hero {
+  background: linear-gradient(135deg, #7c2d12 0%, #9a3412 55%, #b45309 100%);
+  color: #fff7e6;
+  border-radius: 0 0 18px 18px;
+  padding: 14px 16px 12px;
+  position: relative;
+  overflow: hidden;
+}
+header.hero::after {
+  content: '';
+  position: absolute; left: 0; right: 0; bottom: 0; height: 8px;
+  background: repeating-linear-gradient(90deg, #fbbf24 0 14px, #166534 14px 28px, #dc2626 28px 42px, #1d4ed8 42px 56px, #7c3aed 56px 70px, #f59e0b 70px 84px, #0d9488 84px 98px);
+  opacity: .9;
+}
+.hero-top { display: flex; align-items: center; gap: 10px; }
+.hero h1 { font-size: 1.32rem; margin: 0; line-height: 1.25; }
+.hero .sub { font-size: .78rem; opacity: .85; margin-top: 2px; }
+.hero .masram-name { font-family: var(--gon); font-size: 1.15rem; opacity: .95; }
+.hero-right { margin-left: auto; display: flex; gap: 8px; }
+.icon-btn {
+  background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.3);
+  color: #fff7e6; border-radius: 10px; padding: 6px 10px; font-size: 1rem; cursor: pointer;
+}
+.icon-btn:active { transform: scale(.95); }
+select.hero-select {
+  background: rgba(255,255,255,.92); color: var(--ink); border: 0; border-radius: 10px;
+  padding: 6px 8px; font-family: var(--deva); font-size: .82rem; max-width: 150px;
+}
+
+/* ---------- bottom nav ---------- */
+nav.bottom {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+  background: #fffaf0; border-top: 2px solid var(--line);
+  display: flex; justify-content: space-around;
+  padding: 4px 4px calc(4px + env(safe-area-inset-bottom));
+  box-shadow: 0 -4px 18px rgba(120, 80, 20, .12);
+}
+nav.bottom button {
+  flex: 1; background: none; border: 0; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; gap: 1px;
+  color: #9a8b74; font-family: var(--deva); font-size: .68rem; padding: 4px 2px; border-radius: 10px;
+}
+nav.bottom button svg { width: 22px; height: 22px; }
+nav.bottom button.active { color: var(--saffron); background: var(--goldbg); font-weight: 700; }
+
+/* ---------- generic ---------- */
+.tab { display: none; animation: fadein .22s ease; }
+.tab.active { display: block; }
+@keyframes fadein { from { opacity: 0; transform: translateY(6px);} to { opacity: 1; transform: none;} }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+  padding: 12px 14px; margin: 12px 0; box-shadow: 0 2px 8px rgba(140,100,40,.06);
+}
+.card h3 { margin: 0 0 8px; font-size: 1rem; color: var(--saffron); }
+h2.sec { font-size: 1.05rem; color: #7c2d12; margin: 18px 4px 6px; border-left: 5px solid var(--gold); padding-left: 10px; }
+.muted { color: var(--ink2); font-size: .8rem; }
+.small { font-size: .78rem; }
+.chip {
+  display: inline-block; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--line);
+  background: #fff; font-size: .8rem; cursor: pointer; margin: 3px 3px 3px 0; font-family: var(--deva);
+}
+.chip.active { background: var(--saffron); border-color: var(--saffron); color: #fff; font-weight: 600; }
+.btn {
+  background: var(--saffron); color: #fff; border: 0; border-radius: 10px;
+  padding: 8px 16px; font-family: var(--deva); font-size: .88rem; cursor: pointer; font-weight: 600;
+}
+.btn.ghost { background: #fff; color: var(--saffron); border: 1.5px solid var(--saffron); }
+.btn:active { transform: scale(.97); }
+.flag {
+  display: inline-block; font-size: .68rem; background: #fef9c3; color: #854d0e;
+  border: 1px dashed #ca8a04; border-radius: 6px; padding: 1px 7px; margin-left: 6px;
+}
+.src { font-size: .7rem; color: var(--ink2); border-top: 1px dashed var(--line); margin-top: 8px; padding-top: 6px; }
+.badge { font-size: .66rem; border-radius: 6px; padding: 1px 7px; font-weight: 700; }
+.badge.gond { background: var(--goldbg); color: #92400e; }
+.badge.gen { background: var(--greenbg); color: #166534; }
+.badge.comm { background: #dbeafe; color: #1e40af; }
+.badge.season { background: #fae8ff; color: #86198f; }
+
+/* ---------- calendar ---------- */
+.cal-head { display: flex; align-items: center; gap: 8px; margin: 12px 2px 6px; }
+.cal-head .ym { flex: 1; text-align: center; }
+.cal-head .ym b { font-size: 1.15rem; color: #7c2d12; }
+.cal-head .ym .gon-year { font-family: var(--gon); font-size: 1rem; color: var(--gold); }
+.monthband {
+  display: flex; gap: 6px; overflow-x: auto; padding: 8px 2px; scrollbar-width: thin;
+}
+.monthband .mb-cell {
+  min-width: 128px; background: linear-gradient(160deg, #fff7e0, #fdeecd);
+  border: 1px solid var(--line); border-radius: 12px; padding: 7px 10px; text-align: center;
+}
+.mb-cell .mas { font-family: var(--gon); font-size: 1.02rem; color: #7c2d12; }
+.mb-cell .dev { font-size: .8rem; font-weight: 700; }
+.mb-cell .pair { font-size: .68rem; color: var(--ink2); }
+.wk-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+.wk-head {
+  text-align: center; font-size: .66rem; color: #fff; background: var(--green);
+  border-radius: 8px; padding: 5px 2px; line-height: 1.25;
+}
+.wk-head .gon { font-family: var(--gon); font-size: .82rem; display: block; }
+.day-cell {
+  background: var(--paper2); border: 1px solid var(--line); border-radius: 10px;
+  min-height: 64px; padding: 4px 3px 3px; text-align: center; cursor: pointer; position: relative;
+  transition: transform .08s;
+}
+.day-cell:active { transform: scale(.96); }
+.day-cell.empty { background: transparent; border: 0; cursor: default; }
+.day-cell .dnum { font-weight: 700; font-size: .95rem; }
+.day-cell .dgon { font-family: var(--gon); font-size: .72rem; color: var(--gold); display: block; line-height: 1.1; }
+.day-cell .dtithi { font-size: .58rem; color: var(--ink2); display: block; line-height: 1.15; margin-top: 1px; }
+.day-cell.today { outline: 2.5px solid var(--saffron2); background: #fff3e0; }
+.day-cell.sel { outline: 2.5px solid var(--green); }
+.day-cell.sun .dnum { color: var(--red); }
+.day-cell .fest-dots { position: absolute; bottom: 3px; left: 0; right: 0; display: flex; justify-content: center; gap: 3px; }
+.fdot { width: 7px; height: 7px; border-radius: 50%; }
+.fdot.gond { background: var(--gold); }
+.fdot.gen { background: var(--green); }
+.fdot.comm { background: var(--blue); }
+.moon-mark { position: absolute; top: 3px; right: 4px; font-size: .7rem; }
+.legend { display: flex; gap: 12px; flex-wrap: wrap; font-size: .7rem; color: var(--ink2); margin: 8px 4px; }
+.legend span::before { content: '●'; margin-right: 4px; }
+.legend .lg::before { color: var(--gold); }
+.legend .lp::before { color: var(--green); }
+.legend .lc::before { color: var(--blue); }
+
+/* ---------- day detail sheet ---------- */
+.sheet-back {
+  position: fixed; inset: 0; background: rgba(30,20,10,.45); z-index: 90;
+  display: none; align-items: flex-end; justify-content: center;
+}
+.sheet-back.open { display: flex; }
+.sheet {
+  background: var(--paper); width: 100%; max-width: 860px; max-height: 88vh; overflow-y: auto;
+  border-radius: 18px 18px 0 0; padding: 14px 16px 26px; animation: slideup .25s ease;
+}
+@keyframes slideup { from { transform: translateY(40px); opacity: 0;} to { transform: none; opacity: 1;} }
+.sheet-grip { width: 44px; height: 5px; border-radius: 3px; background: #d6c7a8; margin: 0 auto 10px; }
+.kv { display: grid; grid-template-columns: 128px 1fr; gap: 4px 10px; font-size: .85rem; }
+.kv dt { color: var(--ink2); }
+.kv dd { margin: 0; font-weight: 600; }
+.kv dd .gon { font-family: var(--gon); color: #7c2d12; }
+.fest-card { border: 1px solid var(--line); border-radius: 12px; background: #fff; padding: 10px 12px; margin-top: 10px; }
+.fest-card h4 { margin: 0 0 4px; color: var(--saffron); font-size: .98rem; }
+
+/* ---------- festivals tab ---------- */
+.fest-item { display: flex; gap: 10px; align-items: flex-start; padding: 10px 4px; border-bottom: 1px dashed var(--line); cursor: pointer; }
+.fest-item:last-child { border-bottom: 0; }
+.fest-date { min-width: 58px; text-align: center; background: var(--goldbg); border-radius: 10px; padding: 4px 6px; }
+.fest-date .dd { font-size: 1.25rem; font-weight: 800; color: #92400e; line-height: 1.1; }
+.fest-date .mm { font-size: .62rem; color: #92400e; }
+.fest-t { flex: 1; }
+.fest-t b { font-size: .95rem; }
+.fest-t .rule { font-size: .72rem; color: var(--ink2); }
+.fest-detail { display: none; background: #fffbeF; border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; margin: 4px 0 8px; font-size: .82rem; }
+.fest-detail.open { display: block; }
+
+/* ---------- panchang ---------- */
+.moon-big { display: flex; align-items: center; gap: 16px; }
+.panch-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.panch-cell { background: var(--paper2); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; }
+.panch-cell .lbl { font-size: .68rem; color: var(--ink2); }
+.panch-cell .val { font-weight: 700; font-size: .92rem; }
+.panch-cell .val .gon { font-family: var(--gon); color: var(--saffron); }
+table.simple { width: 100%; border-collapse: collapse; font-size: .8rem; }
+table.simple th, table.simple td { border: 1px solid var(--line); padding: 5px 8px; text-align: left; }
+table.simple th { background: var(--goldbg); }
+
+/* ---------- map ---------- */
+.map-wrap { position: relative; background: #fdf3d8; border-radius: 14px; border: 1px solid var(--line); overflow: hidden; }
+.map-wrap svg { width: 100%; height: auto; display: block; }
+.pin { cursor: pointer; }
+.pin circle.hit { fill: transparent; }
+.pin .pin-dot { transition: r .1s; }
+.pin:hover .pin-dot { r: 9; }
+.zone-toggle { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 2px; }
+.zone-toggle .chip .sw { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; }
+
+/* ---------- learn ---------- */
+.chart-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 6px; }
+.chart-cell { background: var(--paper2); border: 1px solid var(--line); border-radius: 10px; text-align: center; padding: 6px 2px; }
+.chart-cell .g { font-family: var(--gon); font-size: 1.5rem; color: #7c2d12; display: block; line-height: 1.3; }
+.chart-cell .d { font-size: .72rem; color: var(--ink2); }
+.conv-box input, .conv-box textarea {
+  width: 100%; border: 1.5px solid var(--line); border-radius: 10px; padding: 9px 10px;
+  font-family: var(--deva); font-size: 1rem; background: #fff; color: var(--ink);
+}
+.conv-out { font-family: var(--gon); font-size: 1.5rem; color: #7c2d12; min-height: 44px; word-break: break-word; }
+.tl { border-left: 3px solid var(--gold); margin-left: 6px; padding-left: 14px; }
+.tl-item { position: relative; margin-bottom: 14px; }
+.tl-item::before { content: ''; position: absolute; left: -21px; top: 5px; width: 11px; height: 11px; border-radius: 50%; background: var(--saffron); border: 2px solid #fff; }
+.tl-item .yr { font-weight: 800; color: var(--saffron); font-size: .82rem; }
+.tl-item .ev { font-size: .84rem; }
+
+/* ---------- toast ---------- */
+#toast {
+  position: fixed; bottom: 92px; left: 50%; transform: translateX(-50%) translateY(20px);
+  background: #2b2118; color: #ffe9c2; padding: 9px 18px; border-radius: 999px;
+  font-size: .84rem; opacity: 0; pointer-events: none; transition: .25s; z-index: 120; max-width: 92%;
+  text-align: center;
+}
+#toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* ---------- desktop ---------- */
+@media (min-width: 700px) {
+  .hero h1 { font-size: 1.5rem; }
+  .day-cell { min-height: 78px; }
+  .day-cell .dtithi { font-size: .64rem; }
+}
+
+/* ---------- महापुरुष (heroes) ---------- */
+.hero-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; margin: 10px 0; }
+.hero-card {
+  display: flex; gap: 10px; text-align: left; width: 100%;
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+  padding: 12px; cursor: pointer; font-family: var(--deva);
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.hero-card:active { transform: scale(.985); }
+.hero-card:hover { box-shadow: 0 3px 12px #00000014; }
+.hero-init {
+  flex: 0 0 46px; width: 46px; height: 46px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; font-weight: 700;
+}
+.hero-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.hero-name { font-weight: 700; font-size: .98rem; line-height: 1.25; }
+.hero-sub { font-size: .72rem; color: var(--ink2); }
+.hero-tribe { font-size: .78rem; color: var(--saffron-dark, #8a5a10); font-weight: 600; }
+.hero-ach { font-size: .8rem; color: var(--ink); line-height: 1.45; }
+.hero-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px; }
+.hero-cat { color: #fff; font-size: .66rem; padding: 2.5px 9px; border-radius: 999px; font-weight: 600; }
+.htag {
+  font-size: .66rem; padding: 2.5px 9px; border-radius: 999px;
+  background: #fff7e6; border: 1px solid var(--line); color: #6b5518;
+}
+.warn-dot { color: #b45309; font-size: .85rem; }
+.warn { color: #b45309; background: #fff7e6; border: 1px solid #f3ddb0; border-radius: 10px; padding: 7px 10px; }
+#hero-filters { display: flex; flex-wrap: wrap; gap: 6px; }
+@media (max-width: 640px) { .hero-grid { grid-template-columns: 1fr; } }
+
+/* ---------- स्थल-कोश (places) ---------- */
+.gps-mono { font-family: ui-monospace, 'SF Mono', Consolas, monospace; font-size: .82rem; background: #f6efdd; padding: 1px 6px; border-radius: 6px; }
+@media (max-width: 430px) { nav.bottom button { font-size: .58rem; padding: 3px 1px; } nav.bottom button svg { width: 19px; height: 19px; } }

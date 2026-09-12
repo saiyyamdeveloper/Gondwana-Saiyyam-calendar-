@@ -1,0 +1,1848 @@
+{
+ "meta": {
+  "title": "भारत के आदिवासी महापुरुष एवं महांगनाएँ — Starter Database v1.0",
+  "project": "Gondwana Calendar App / Masram Gondi AI / MGboard हेतु साझा ज्ञानकोश",
+  "compiled": "2026-09-12",
+  "count_note": "स्टार्टर चरण: 60 सत्यापित प्रविष्टियाँ। लक्ष्य: 1000–3000 (15 भागों में विस्तार)।",
+  "field_spec": "id, name_hi, name_en, gender, tribe, tribe_hi, state, district, birth, death, category, tags, first_achievement, bio, medals, awards, photo, photo_source, sources, verify, verify_note, memorial",
+  "photo_policy": "photo फ़ील्ड अभी null — केवल विकिमीडिया कॉमन्स/पब्लिक-डोमेन चित्र लाइसेंस-जाँच के बाद जोड़े जाएँगे; आधुनिक व्यक्तियों हेतु परिवार/संस्था अनुमति आवश्यक",
+  "data_honesty": "जिन तथ्यों की पुष्टि एक से अधिक स्रोत से नहीं हुई, वहाँ verify=true है। अनिश्चित तिथियाँ '?' सहित हैं।"
+ },
+ "categories": [
+  {
+   "id": "freedom",
+   "hi": "स्वतंत्रता सेनानी / शहीद",
+   "icon": "✊"
+  },
+  {
+   "id": "collective",
+   "hi": "सामूहिक शहीद स्मारक",
+   "icon": "🕯"
+  },
+  {
+   "id": "military",
+   "hi": "सेना के वीर (PVC/अशोक चक्र)",
+   "icon": "🎖"
+  },
+  {
+   "id": "governance",
+   "hi": "राष्ट्रपति/राज्यपाल/CM/सांसद/IAS-IPS",
+   "icon": "🏛"
+  },
+  {
+   "id": "education",
+   "hi": "शिक्षा एवं विज्ञान",
+   "icon": "📚"
+  },
+  {
+   "id": "literature",
+   "hi": "लेखक एवं कवि",
+   "icon": "✒"
+  },
+  {
+   "id": "art",
+   "hi": "कलाकार (गोंड/वारली/भील/संथाल)",
+   "icon": "🎨"
+  },
+  {
+   "id": "language",
+   "hi": "भाषा एवं लिपि निर्माता",
+   "icon": "𑴀"
+  },
+  {
+   "id": "sports",
+   "hi": "खिलाड़ी (ओलंपिक/एशियाई/कॉमनवेल्थ)",
+   "icon": "🏅"
+  }
+ ],
+ "persons": [
+  {
+   "id": "birsa-munda",
+   "name_hi": "भगवान बिरसा मुंडा",
+   "name_en": "Birsa Munda",
+   "gender": "M",
+   "tribe": "Munda",
+   "tribe_hi": "मुंडा",
+   "state": "झारखंड",
+   "district": "खूंटी (उलिहातु)",
+   "birth": "1875-11-15",
+   "death": "1900-06-09",
+   "category": "freedom",
+   "tags": [
+    "shahid",
+    "icon"
+   ],
+   "first_achievement": "उलगुलान (1899-1900) के नायक; 'जल-जंगल-जमीन' के रक्षक; जनजातीय गौरव दिवस (15 नव.) इन्हीं की जयंती पर",
+   "bio": "अंग्रेजी शासन, जमींदारों और महाजनों के शोषण के विरुद्ध मुंडा उलगुलान के प्रणेता। समाज-सुधार एवं आत्म-शासन की माँग; 9 जून 1900 को राँची जेल में बलिदान (आधिकारिक कारण हैजा; विवादित)। आदिवासी समाज में 'भगवान बिरसा' के रूप में पूजित।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": "विकिमीडिया पर अनेक चित्र उपलब्ध (PD/CC जाँच आवश्यक)",
+   "sources": [
+    "प्रभात खबर (2023-2025)",
+    "विकिपीडिया",
+    "भारत सरकार (जनजातीय गौरव दिवस घोषणा 2021)"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "उलिहातु स्मारक, राँची में बिरसा संग्रहालय"
+  },
+  {
+   "id": "sidhu-murmu",
+   "name_hi": "सिदो मुर्मू",
+   "name_en": "Sidhu Murmu",
+   "gender": "M",
+   "tribe": "Santhal",
+   "tribe_hi": "संथाल",
+   "state": "झारखंड",
+   "district": "साहिबगंज (भोगनाडीह)",
+   "birth": "?",
+   "death": "1855",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "संथाल हुल (1855-56) के प्रमुख नायक",
+   "bio": "चार भाइयों (सिदो, कान्हू, चांद, भैरव) सहित संथाल परगना में 1855 का महाविद्रोह — 'हुल' — जिसने अंग्रेजी राज की नींव हिला दी। हुल दिवस हर वर्ष मनाया जाता है।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "प्रभात खबर (2025)",
+    "विकिपीडिया"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "भोगनाडीह स्मारक, दुमका"
+  },
+  {
+   "id": "kanhu-murmu",
+   "name_hi": "कान्हू मुर्मू",
+   "name_en": "Kanhu Murmu",
+   "gender": "M",
+   "tribe": "Santhal",
+   "tribe_hi": "संथाल",
+   "state": "झारखंड",
+   "district": "साहिबगंज",
+   "birth": "?",
+   "death": "1855",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "संथाल हुल के सह-नायक",
+   "bio": "सिदो के भाई; हुल के सैनिक संगठनकर्ता। 'चांद-भैरव' सहित चारों भाई शहीद माने जाते हैं।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "प्रभात खबर (2025)"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "भोगनाडीह स्मारक"
+  },
+  {
+   "id": "phulo-jhano",
+   "name_hi": "फुलो-झानो मुर्मू",
+   "name_en": "Phulo-Jhano Murmu",
+   "gender": "F",
+   "tribe": "Santhal",
+   "tribe_hi": "संथाल",
+   "state": "झारखंड",
+   "district": "साहिबगंज/दुमका क्षेत्र",
+   "birth": "?",
+   "death": "1855",
+   "category": "freedom",
+   "tags": [
+    "shahid",
+    "women"
+   ],
+   "first_achievement": "संथाल हुल की वीरांगनाएँ — आदिवासी महिला प्रतिरोध का प्रतीक",
+   "bio": "हुल में महिला मोर्चे की अगुवाई; झारखंड सरकार इनके नाम पर 'फुलो-झानो आशीर्वाद अभियान' चलाती है।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "प्रभात खबर (2023)"
+   ],
+   "verify": true,
+   "verify_note": "जीवन-विवरण लोक-स्मृति आधारित; अकादमिक स्रोत-जाँच आवश्यक",
+   "memorial": "झारखंड में अनेक स्मारक"
+  },
+  {
+   "id": "tilka-manjhi",
+   "name_hi": "तिलका मांझी",
+   "name_en": "Tilka Manjhi",
+   "gender": "M",
+   "tribe": "Paharia/Santhal (manjhi परंपरा)",
+   "tribe_hi": "पहाड़िया/संथाल (मांझी परंपरा)",
+   "state": "बिहार",
+   "district": "भागलपुर",
+   "birth": "≈1750",
+   "death": "1784",
+   "category": "freedom",
+   "tags": [
+    "shahid",
+    "first"
+   ],
+   "first_achievement": "अंग्रेजों के विरुद्ध प्रथम सशस्त्र आदिवासी विद्रोह (1778-84); 1784 में भागलपुर में फाँसी",
+   "bio": "1770 के दशक के अकाल और अंग्रेजी अत्याचारों के विरुद्ध संघर्ष; 1784 में सार्वजनिक फाँसी — 'प्रथम स्वतंत्रता सेनानी' के रूप में स्मृत। भागलपुर विश्वविद्यालय व चौक इन्हीं के नाम पर।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": "भागलपुर की प्रतिमा (PD संभव)",
+   "sources": [
+    "प्रभात खबर (2025)",
+    "विकिपीडिया"
+   ],
+   "verify": true,
+   "verify_note": "जनजाति-वर्गीकरण स्रोतों में भिन्न (पहाड़िया/संथाल)",
+   "memorial": "तिलका मांझी चौक व प्रतिमा, भागलपुर"
+  },
+  {
+   "id": "nilambar-pitambar",
+   "name_hi": "नीलाम्बर-पीताम्बर",
+   "name_en": "Nilambar-Pitambar",
+   "gender": "M",
+   "tribe": "Chero",
+   "tribe_hi": "चेरो",
+   "state": "झारखंड",
+   "district": "पलामू",
+   "birth": "?",
+   "death": "≈1858",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "1857-58 पलामू विद्रोह के नायक",
+   "bio": "पलामू के चेरो-खरवार शासक-परिवार से; अंग्रेजों के विरुद्ध गुरिल्ला युद्ध; बलिदान।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "स्वादेश न्यूज़ (2024)",
+    "विकिपीडिया"
+   ],
+   "verify": true,
+   "verify_note": "मृत्यु-विवरण स्रोतानुसार भिन्न",
+   "memorial": "पलामू स्मारक"
+  },
+  {
+   "id": "budhu-bhagat",
+   "name_hi": "वीर बुधु भगत",
+   "name_en": "Budhu Bhagat",
+   "gender": "M",
+   "tribe": "Oraon",
+   "tribe_hi": "उराँव",
+   "state": "झारखंड",
+   "district": "राँची/लोहरदगा क्षेत्र",
+   "birth": "≈1790s",
+   "death": "1832",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "कोल विद्रोह (1831-32) के सेनापति; 1832 में फाँसी",
+   "bio": "कोल-भूमि पर अतिक्रमण के विरुद्ध विद्रोह; अंग्रेजों ने धोखे से पकड़कर फाँसी दी।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "प्रभात खबर (2023)",
+    "विकिपीडिया"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "झारखंड में स्मारक; डाक टिकट (2023? सत्यापन)"
+  },
+  {
+   "id": "telanga-kharia",
+   "name_hi": "तेलंगा खड़िया",
+   "name_en": "Telanga Kharia",
+   "gender": "M",
+   "tribe": "Kharia",
+   "tribe_hi": "खड़िया",
+   "state": "झारखंड",
+   "district": "गुमला/सिमडेगा",
+   "birth": "≈1806",
+   "death": "≈1914 (फाँसी — सत्यापन)",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "खड़िया विद्रोह के नायक",
+   "bio": "जमींदारी अत्याचार व बंधुआ मजदूरी के विरुद्ध दशकों तक संघर्ष; अंत में अंग्रेजों द्वारा फाँसी (वर्ष स्रोतों में भिन्न)।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "प्रभात खबर (2023)"
+   ],
+   "verify": true,
+   "verify_note": "जन्म-मृत्यु वर्ष सत्यापन आवश्यक",
+   "memorial": "गुमला क्षेत्र में स्मारक"
+  },
+  {
+   "id": "telangi-munda",
+   "name_hi": "तेलंगी मुंडा",
+   "name_en": "Telangi Munda",
+   "gender": "F",
+   "tribe": "Munda",
+   "tribe_hi": "मुंडा",
+   "state": "झारखंड",
+   "district": "राँची",
+   "birth": "?",
+   "death": "?",
+   "category": "freedom",
+   "tags": [
+    "shahid",
+    "women"
+   ],
+   "first_achievement": "उलगुलान-काल की खड़िया-मुंडा वीरांगना",
+   "bio": "बिरसा आंदोलन के समानांतर महिला संगठनकर्ता; जन-स्मृति में 'तेलंगी' के नाम से जीवित।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "प्रभात खबर (2023)"
+   ],
+   "verify": true,
+   "verify_note": "अकादमिक दस्तावेजीकरण सीमित",
+   "memorial": "राँची क्षेत्र"
+  },
+  {
+   "id": "jatra-bhagat",
+   "name_hi": "जतरा टाना भगत",
+   "name_en": "Jatra Bhagat",
+   "gender": "M",
+   "tribe": "Oraon",
+   "tribe_hi": "उराँव",
+   "state": "झारखंड",
+   "district": "गुमला/राँची",
+   "birth": "≈1880s",
+   "death": "≈1920s?",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "टाना भगत आंदोलन (1914–) के प्रवर्तक — अहिंसक कर-बहिष्कार",
+   "bio": "'टाना भगत' संप्रदाय-आंदोलन: शराब-निषेध, कर-बहिष्कार, अहिंसक प्रतिरोध; गांधीवादी आंदोलन से भी पूर्व।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "प्रभात खबर (2025)"
+   ],
+   "verify": true,
+   "verify_note": "मृत्यु-विवरण अस্পष्ट",
+   "memorial": "टाना भगत समुदाय स्मारक"
+  },
+  {
+   "id": "rani-durgavati",
+   "name_hi": "वीरांगना रानी दुर्गावती",
+   "name_en": "Rani Durgavati",
+   "gender": "F",
+   "tribe": "Gond (गढ़ा-मंडला राजवंश)",
+   "tribe_hi": "गोंड",
+   "state": "मध्य प्रदेश",
+   "district": "जबलपुर/मंडला (गढ़ा-मंडला)",
+   "birth": "1524",
+   "death": "1564-06-24",
+   "category": "freedom",
+   "tags": [
+    "shahid",
+    "women",
+    "gond"
+   ],
+   "first_achievement": "गोंडवाना की रानी; 24 जून 1564 को अकबरी सेना से लड़ते हुए बलिदान",
+   "bio": "चंदेल राजपुत कुल में जन्म, गढ़ा-मंडला गोंड राजवंश (दलपत शाह) में विवाह; पति की मृत्यु के बाद 15 वर्ष शासन। आसफ खान की मुगल सेना के विरुद्ध नरबदाई नदी तट पर वीरगति। बलिदान दिवस 24 जून को गोंड समाज श्रद्धांजलि-जुलूस निकालता है।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": "अनेक सार्वजनिक चित्र/पेंटिंग उपलब्ध",
+   "sources": [
+    "शोध-डोसियर §7",
+    "etvbharat/bhaskar रिपोर्टें"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "बलिदान स्थल स्मारक (जबलपुर-मंडला), रानी दुर्गावती संग्रहालय जबलपुर"
+  },
+  {
+   "id": "shankar-shah",
+   "name_hi": "शंकर शाह (गोंडवाना)",
+   "name_en": "Shankar Shah",
+   "gender": "M",
+   "tribe": "Gond (रामगढ़ राजवंश)",
+   "tribe_hi": "गोंड",
+   "state": "मध्य प्रदेश",
+   "district": "जबलपुर",
+   "birth": "≈1790s",
+   "death": "1857-09-18",
+   "category": "freedom",
+   "tags": [
+    "shahid",
+    "gond"
+   ],
+   "first_achievement": "1857 में गोंडवाना के अंतिम गोंड शासक; पुत्र रघुनाथ शाह सहित तोप से बलिदान",
+   "bio": "रामगढ़-छिंदवाड़ा क्षेत्र के गोंड राजा; 1857 के प्रथम स्वतंत्रता संग्राम में अंग्रेजों के विरुद्ध खड़े हुए; 18 सितंबर 1857 को जबलपुर में पुत्र कुंवर रघुनाथ शाह के साथ तोप के मुँह से बलिदान। गोंड समाज इसे 'बलिदान दिवस' के रूप में मनाता है।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "शोध-डोसियर §7",
+    "opindia/abplive/etvbharat"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "जबलपुर स्मारक; 18 सितंबर बलिदान दिवस"
+  },
+  {
+   "id": "raghunath-shah",
+   "name_hi": "कुंवर रघुनाथ शाह",
+   "name_en": "Kunwar Raghunath Shah",
+   "gender": "M",
+   "tribe": "Gond (रामगढ़ राजवंश)",
+   "tribe_hi": "गोंड",
+   "state": "मध्य प्रदेश",
+   "district": "जबलपुर",
+   "birth": "?",
+   "death": "1857-09-18",
+   "category": "freedom",
+   "tags": [
+    "shahid",
+    "gond"
+   ],
+   "first_achievement": "पिता शंकर शाह के साथ 1857 का बलिदान",
+   "bio": "1857 विद्रोह में गोंडवाना के युवराज; जबलपुर में शहीद।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "शोध-डोसियर §7"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "जबलपुर स्मारक"
+  },
+  {
+   "id": "tantya-bhil",
+   "name_hi": "टांट्या भील (टांट्या मामा)",
+   "name_en": "Tantia Bhil",
+   "gender": "M",
+   "tribe": "Bhil",
+   "tribe_hi": "भील",
+   "state": "मध्य प्रदेश",
+   "district": "खंडवा (निमाड़)",
+   "birth": "≈1840s",
+   "death": "≈1889 (जबलपुर में फाँसी — वर्ष स्रोतानुसार भिन्न)",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "निमाड़ के भील नायक — 'भीलों का रॉबिनहुड'",
+   "bio": "अंग्रेजी शासन व साहूकारों के विरुद्ध 1878-89 तक छापामार संघर्ष; गरीबों में लूट बाँटने के कारण 'मामा' कहलाए; अंततः विश्वासघात से पकड़े गए।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "vskbharat (2024)",
+    "प्रभात खबर (2025)"
+   ],
+   "verify": true,
+   "verify_note": "मृत्यु-वर्ष 1889/1900 स्रोत-भेद",
+   "memorial": "खंडवा-बुरहानपुर में स्मारक; मराठी फिल्म 'टांट्या' (1980 के दशक)"
+  },
+  {
+   "id": "bhima-nayak",
+   "name_hi": "भीमा नायक",
+   "name_en": "Bhima Nayak",
+   "gender": "M",
+   "tribe": "Bhil (कोरकू पड़ोस)",
+   "tribe_hi": "भील",
+   "state": "मध्य प्रदेश",
+   "district": "खंडवा/बुरहानपुर (निमाड़)",
+   "birth": "?",
+   "death": "19वीं सदी अंत",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "निमाड़ के भील-कोरकू विद्रोह के नेता",
+   "bio": "19वीं सदी के अंत में निमाड़ में आदिवासी प्रतिरोध के संगठनकर्ता; अंग्रेजों द्वारा कैद।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "vskbharat (2024)"
+   ],
+   "verify": true,
+   "verify_note": "जीवन-विवरण विस्तार हेतु गैजेटियर-स्रोत आवश्यक",
+   "memorial": "निमाड़ क्षेत्र"
+  },
+  {
+   "id": "veer-narayan-singh",
+   "name_hi": "वीर नारायण सिंह",
+   "name_en": "Veer Narayan Singh",
+   "gender": "M",
+   "tribe": "सोनाखान जमींदार (आदिवासी नायक के रूप में सम्मानित)",
+   "tribe_hi": "—",
+   "state": "छत्तीसगढ़",
+   "district": "रायपुर (सोनाखान)",
+   "birth": "?",
+   "death": "1857 (फाँसी)",
+   "category": "freedom",
+   "tags": [
+    "shahid",
+    "first"
+   ],
+   "first_achievement": "छत्तीसगढ़ के प्रथम शहीद (1856-57)",
+   "bio": "1856-57 के दुर्भिक्ष में अंग्रेजी अनाज-गोदाम लूटकर गरीबों में बाँटा; 1857 विद्रोह में शामिल; रायपुर में फाँसी।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "प्रभात खबर (2025)"
+   ],
+   "verify": true,
+   "verify_note": "जनजाति-वर्गीकरण पर विद्वानों में मतभेद",
+   "memorial": "वीर नारायण सिंह स्मारक, रायपुर"
+  },
+  {
+   "id": "gunda-dhur",
+   "name_hi": "गूंदा धूर",
+   "name_en": "Gunda Dhur",
+   "gender": "M",
+   "tribe": "Muria",
+   "tribe_hi": "मुरिया",
+   "state": "छत्तीसगढ़",
+   "district": "बस्तर (जगदलपुर क्षेत्र)",
+   "birth": "?",
+   "death": "≈1910 के बाद (कैद में)",
+   "category": "freedom",
+   "tags": [
+    "shahid",
+    "gond"
+   ],
+   "first_achievement": "भूमकल विद्रोह (1910) के नायक — बस्तर का उलगुलान",
+   "bio": "बस्तर में अंग्रेजी वन-कानूनों और बाहरी ठेकेदारों के विरुद्ध मुरिया विद्रोह; अंग्रेज इन्हें कभी पकड़ नहीं सके; बाद के दिनों में कैद/मृत्यु के विवरण भिन्न। बस्तर दशहरा क्षेत्र में इनकी स्मृति जीवित।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "प्रभात खबर (2025)",
+    "बस्तर इतिहास स्रोत"
+   ],
+   "verify": true,
+   "verify_note": "मृत्यु-विवरण अनिश्चित",
+   "memorial": "जगदलपुर में प्रतिमा"
+  },
+  {
+   "id": "laxman-naik",
+   "name_hi": "लक्ष्मण नायक ('देशनायक')",
+   "name_en": "Laxman Naik",
+   "gender": "M",
+   "tribe": "जनजाति-स्रोत भिन्न (भूमिया/परजा)",
+   "tribe_hi": "—",
+   "state": "ओडिशा",
+   "district": "कोरापुट (बोरीगुम्मा)",
+   "birth": "1899?",
+   "death": "1943-03-29 (फाँसी)",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "भारत छोड़ो आंदोलन में फाँसी पाने वाले प्रमुख आदिवासी शहीद",
+   "bio": "कोरापुट के आदिवासी नेता; गांधीवादी; 1942-43 के आंदोलन में पुलिस-गोलीबारी मामले में फाँसी (29 मार्च 1943); ओडिशा में 'देशनायक' के नाम से स्मृत।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "विकिपीडिया",
+    "ओडिशा स्रोत"
+   ],
+   "verify": true,
+   "verify_note": "जनजाति-वर्गीकरण स्रोतों में भिन्न",
+   "memorial": "बोरीगुम्मा स्मारक; ओडिशा विधानसभा में प्रतिमा"
+  },
+  {
+   "id": "chakra-bisoi",
+   "name_hi": "चक्रा बिसोई",
+   "name_en": "Chakra Bisoi",
+   "gender": "M",
+   "tribe": "Kandha",
+   "tribe_hi": "कंध",
+   "state": "ओडिशा",
+   "district": "घुमुसर (कंधमाल)",
+   "birth": "?",
+   "death": "1850 के दशक (अनिश्चित)",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "कंध विद्रोह (1835-50s) के नायक",
+   "bio": "अंग्रेजी हस्तक्षेप और 'मेरिया' (मानव-बलि) निषेध-अभियानों के विरुद्ध कंधों का सशस्त्र प्रतिरोध; अंतिम वर्ष अनिश्चित।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "विकिपीडिया/ओडिशा इतिहास"
+   ],
+   "verify": true,
+   "verify_note": "मृत्यु-तिथि अस्पष्ट",
+   "memorial": "कंधमाल में स्मारक"
+  },
+  {
+   "id": "dharanidhar-bhuyan",
+   "name_hi": "धरणीधर भुइयाँ",
+   "name_en": "Dharanidhar Bhuyan",
+   "gender": "M",
+   "tribe": "Bhuyan",
+   "tribe_hi": "भुइयाँ",
+   "state": "ओडिशा",
+   "district": "केओंझर",
+   "birth": "?",
+   "death": "1868 के बाद",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "केओंझर विद्रोह (1868) के नायक (रत्न नायक सहयोगी)",
+   "bio": "भुइयाँ विद्रोह; अंग्रेजी राजस्व-प्रणाली के विरुद्ध; पकड़े गए/निर्वासन — विवरण स्रोतानुसार भिन्न।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "ओडिशा इतिहास स्रोत"
+   ],
+   "verify": true,
+   "verify_note": "अंतिम नियति अनिश्चित",
+   "memorial": "केओंझर"
+  },
+  {
+   "id": "govind-guru",
+   "name_hi": "गोविंद गुरु",
+   "name_en": "Govind Guru",
+   "gender": "M",
+   "tribe": "Bhil",
+   "tribe_hi": "भील",
+   "state": "राजस्थान (बाँसवाड़ा) / गुजरात सीमा",
+   "district": "मांगढ",
+   "birth": "≈1850s",
+   "death": "≈1931 (सत्यापन)",
+   "category": "freedom",
+   "tags": [
+    "shahid",
+    "icon"
+   ],
+   "first_achievement": "17 नवंबर 1913 मांगढ हत्याकांड — भील समागम पर अंग्रेजी गोलीबारी में ≈1500 शहीद",
+   "bio": "भील-संप्रदाय सुधारक ('संप सभा'); शाकाहार, नशामुक्ति, कर-बहिष्कार; मांगढ पहाड़ी पर विशाल समागम में अंग्रेजी सेना की गोलीबारी; गोविंद गुरु आजीवन कारावास के बाद रिहा। आज 'मांगढ धाम' राष्ट्रीय स्मारक।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": "मांगढ धाम स्मारक चित्र",
+   "sources": [
+    "TV9 (2025)",
+    "PIB स्मारक रिपोर्ट"
+   ],
+   "verify": true,
+   "verify_note": "जन्म-मृत्यु वर्ष सत्यापन",
+   "memorial": "मांगढ धाम राष्ट्रीय स्मारक (बाँसवाड़ा)"
+  },
+  {
+   "id": "mangadh-martyrs",
+   "name_hi": "मांगढ के ≈1500 अनाम भील शहीद",
+   "name_en": "Mangadh Martyrs",
+   "gender": "—",
+   "tribe": "Bhil",
+   "tribe_hi": "भील",
+   "state": "राजस्थान",
+   "district": "बाँसवाड़ा (मांगढ)",
+   "birth": null,
+   "death": "1913-11-17",
+   "category": "collective",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "17 नवंबर 1913 — भारत के आदिवासी इतिहास का सबसे बड़ा नरसंहार-स्थल",
+   "bio": "गोविंद गुरु के संप-समागम पर अंग्रेजी गोलीबारी; जलियाँवाला बाग से पहले का सबसे बड़ा शांतिपूर्ण-समागम हत्याकांड।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "PIB/TV9 (2022-25)"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "मांगढ धाम"
+  },
+  {
+   "id": "bhumkal-martyrs",
+   "name_hi": "भूमकल के अनाम मुरिया-मड़िया शहीद",
+   "name_en": "Bhumkal Martyrs",
+   "gender": "—",
+   "tribe": "Muria/Maria",
+   "tribe_hi": "मुरिया/मड़िया",
+   "state": "छत्तीसगढ़",
+   "district": "बस्तर",
+   "birth": null,
+   "death": "1910",
+   "category": "collective",
+   "tags": [
+    "shahid",
+    "gond"
+   ],
+   "first_achievement": "भूमकल विद्रोह (1910) में सैकड़ों शहीद",
+   "bio": "गूंदा धूर के नेतृत्व में बस्तर विद्रोह में अंग्रेजी दमन के शिकार ग्रामीण; बस्तर की लोक-स्मृति में जीवित।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "बस्तर इतिहास स्रोत"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "बस्तर स्मारक"
+  },
+  {
+   "id": "alluri-sitarama-raju",
+   "name_hi": "अल्लूरी सीताराम राजू",
+   "name_en": "Alluri Sitarama Raju",
+   "gender": "M",
+   "tribe": "गैर-ST जन्म; आदिवासी (कोया/खोंड) आंदोलन के नायक — समुदाय द्वारा अपना वीर मान्य",
+   "tribe_hi": "—",
+   "state": "आंध्र प्रदेश",
+   "district": "अल्लूरी सीताराम राजू जिला (पूर्व विशाखा एजेंसी)",
+   "birth": "1897-07-04",
+   "death": "1924-05-07",
+   "category": "freedom",
+   "tags": [
+    "shahid",
+    "icon"
+   ],
+   "first_achievement": "रामपा विद्रोह (1922-24); 'रामपपा'; 150वीं जयंती पर राष्ट्रीय स्मारक",
+   "bio": "आंध्र एजेंसी क्षेत्र के आदिवासियों को संघटित कर अंग्रेजों के विरुद्ध गुरिल्ला युद्ध; 1924 में पकड़े जाकर फाँसी। 2022 में जिले का नामकरण; प्रधानमंत्री द्वारा विशाखापट्नम में 30 मीटर प्रतिमा (2022)।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": "विकिमीडिया (PD संभव)",
+   "sources": [
+    "प्रभात खबर (2025)",
+    "विकिपीडिया"
+   ],
+   "verify": true,
+   "verify_note": "ST-वर्गीकरण नहीं; आदिवासी-नायक के रूप में समावेश (टिप्पणी सहित)",
+   "memorial": "विशाखापट्नम प्रतिमा; कॉयूर स्मारक"
+  },
+  {
+   "id": "komaram-bheem",
+   "name_hi": "कोमरम भीम",
+   "name_en": "Komaram Bheem",
+   "gender": "M",
+   "tribe": "Gond",
+   "tribe_hi": "गोंड",
+   "state": "तेलंगाना",
+   "district": "कोमरम भीम आसिफाबाद",
+   "birth": "≈1900",
+   "death": "1940",
+   "category": "freedom",
+   "tags": [
+    "shahid",
+    "icon",
+    "gond"
+   ],
+   "first_achievement": "'जल-जंगल-जमीन' नारे के जनक; हैदराबाद निजाम व जमींदारों के विरुद्ध गोंड प्रतिरोध",
+   "bio": "आसिफाबाद के गोंड नायक; वन-भूमि पर आदिवासी अधिकार हेतु सशस्त्र संघर्ष; 1940 में पुलिस-मुठभेड़ में शहीद। तेलंगाना राज्य निर्माण के बाद इनका नाम जिले को मिला; आदिलाबाद क्षेत्र में जयंती-उत्सव।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": "विकिमीडिया पर प्रतिमा-चित्र",
+   "sources": [
+    "प्रभात खबर (2025)",
+    "तेलंगाना स्रोत"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "कोमरम भीम स्मारक, आसिफाबाद; तेलुगु फिल्म 'कोमरम पुली'? (सत्यापन)"
+  },
+  {
+   "id": "jadonang",
+   "name_hi": "हाइपो जदोनांग",
+   "name_en": "Haipou Jadonang",
+   "gender": "M",
+   "tribe": "Rongmei Naga",
+   "tribe_hi": "रोंगमेई नागा",
+   "state": "मणिपुर",
+   "district": "तामेंगलोंग",
+   "birth": "1905",
+   "death": "1931-08-29 (फाँसी)",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "'हेरकाचोंदी' (आत्म-शासन) आंदोलन; 1931 में फाँसी",
+   "bio": "रोंगमेई नागा आध्यात्मिक-राजनीतिक नायक; ब्रिटिश विरोधी आंदोलन; रानी गाइदिन्ल्यू के गुरु-तुल्य; इम्फाल में फाँसी।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "विकिपीडिया",
+    "स्वादेश न्यूज़"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "तामेंगलोंग स्मारक"
+  },
+  {
+   "id": "gaidinliu",
+   "name_hi": "रानी गाइदिन्ल्यू",
+   "name_en": "Rani Gaidinliu",
+   "gender": "F",
+   "tribe": "Rongmei Naga",
+   "tribe_hi": "रोंगमेई नागा",
+   "state": "मणिपुर/नागालैंड",
+   "district": "तामेंगलोंग (जन्म: नुन्गबाँग)",
+   "birth": "1915-01-26",
+   "death": "1993-02-17",
+   "category": "freedom",
+   "tags": [
+    "women",
+    "icon"
+   ],
+   "first_achievement": "13 वर्ष की आयु में आंदोलन नेतृत्व; 1932-47 तक कारावास; 'रानी माँ'",
+   "bio": "जदोनांग के बाद हेरकाचोंदी आंदोलन की अगुवाई; आजीवन कारावास की सजा (1947 में रिहा); पद्म भूषण (1982); भारत रत्न? (नहीं — सत्यापित: पद्म भूषण 1982, विवेकानंद सेवा-सम्मान आदि)। 2015 में डाक टिकट।",
+   "medals": null,
+   "awards": "पद्म भूषण (1982)",
+   "photo": null,
+   "photo_source": "विकिमीडिया (PD संभव)",
+   "sources": [
+    "विकिपीडिया",
+    "डाक विभाग"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "इम्फाल/कोहिमा स्मारक; ₹ डाक टिकट 2015"
+  },
+  {
+   "id": "tirot-sing",
+   "name_hi": "ऊ तिरॉत सिंह",
+   "name_en": "U Tirot Sing",
+   "gender": "M",
+   "tribe": "Khasi",
+   "tribe_hi": "खासी",
+   "state": "मेघालय",
+   "district": "पूर्वी खासी पहाड़ियाँ",
+   "birth": "≈1802",
+   "death": "1854 (निर्वासन में, ढाका)",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "प्रथम आंग्ल-खासी युद्ध (1829-33) के सेनापति",
+   "bio": "खासी सिएम (Syiem) राज्य के सेनापति-राजा; ब्रिटिश सड़क-निर्माण व हस्तक्षेप के विरुद्ध 4 वर्ष गुरिल्ला युद्ध; धोखे से पकड़े गए; ढाका निर्वासन में मृत्यु। मेघालय में 17 जुलाई को 'ऊ तिरॉत सिंह दिवस'।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "विकिपीडिया"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "शिलाँग/मावफलंग स्मारक"
+  },
+  {
+   "id": "jhinya-bhil",
+   "name_hi": "झिन्या भिल",
+   "name_en": "Jhinya Bhil",
+   "gender": "M",
+   "tribe": "Bhil",
+   "tribe_hi": "भील",
+   "state": "महाराष्ट्र",
+   "district": "कोल्हापुर-सातारा सीमा क्षेत्र",
+   "birth": "?",
+   "death": "1851 (फाँसी)",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "मराठी लोक-गाथाओं के अमर भील बागी",
+   "bio": "अंग्रेजी कानूनों के विरुद्ध लड़ा; लोकाख्यान 'झिन्या' मराठी साहित्य-सिनेमा में अमर।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "मराठी लोक-स्रोत"
+   ],
+   "verify": true,
+   "verify_note": "तिथियाँ लोक-परंपरा आधारित",
+   "memorial": "कोल्हापुर क्षेत्र"
+  },
+  {
+   "id": "raghuji-bhangare",
+   "name_hi": "राघोजी भांगरे",
+   "name_en": "Raghuji Bhangare",
+   "gender": "M",
+   "tribe": "Bhil (कुछ स्रोत: कोली)",
+   "tribe_hi": "भील",
+   "state": "महाराष्ट्र",
+   "district": "अहमदनगर (अकोले तालुका)",
+   "birth": "?",
+   "death": "1879 (फाँसी)",
+   "category": "freedom",
+   "tags": [
+    "shahid"
+   ],
+   "first_achievement": "1876-79 के भील विद्रोह के नायक ('राघू')",
+   "bio": "वनवासी भीलों के अधिकारों हेतु अंग्रेजों व साहूकारों से संघर्ष; 1879 में फाँसी।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "प्रभात खबर (2025)"
+   ],
+   "verify": true,
+   "verify_note": "जनजाति-वर्गीकरण भिन्न",
+   "memorial": "अकोले क्षेत्र स्मारक"
+  },
+  {
+   "id": "albert-ekka",
+   "name_hi": "अल्बर्ट एक्का",
+   "name_en": "Albert Ekka",
+   "gender": "M",
+   "tribe": "Oraon",
+   "tribe_hi": "उराँव",
+   "state": "झारखंड",
+   "district": "गुमला (चैनपुर)",
+   "birth": "1942-12-27",
+   "death": "1971-12",
+   "category": "military",
+   "tags": [
+    "pvc",
+    "shahid"
+   ],
+   "first_achievement": "परमवीर चक्र (मरणोपरांत, 1971) — आदिवासी समुदाय से एकमात्र PVC विजेता",
+   "bio": "1971 के भारत-पाक युद्ध में गंगासागर (पूर्वी पाकिस्तान) की लड़ाई में अदम्य साहस; शहीद। गार्ड्स रेजिमेंट। झारखंड में अनेक स्मारक।",
+   "medals": "परमवीर चक्र (मरणोपरांत)",
+   "awards": null,
+   "photo": null,
+   "photo_source": "परमवीर चक्र पुस्तिका (PD)",
+   "sources": [
+    "गैलंट्री अवॉर्ड्स आधिकारिक सूची",
+    "विकिपीडिया"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "गुमला स्मारक; राँची में प्रतिमा"
+  },
+  {
+   "id": "draupadi-murmu",
+   "name_hi": "द्रौपदी मुर्मू",
+   "name_en": "Draupadi Murmu",
+   "gender": "F",
+   "tribe": "Santhal",
+   "tribe_hi": "संथाल",
+   "state": "ओडिशा",
+   "district": "मयूरभंज (उपरबेड़ा)",
+   "birth": "1958-06-20",
+   "death": null,
+   "category": "governance",
+   "tags": [
+    "first_woman",
+    "icon"
+   ],
+   "first_achievement": "भारत की प्रथम आदिवासी राष्ट्रपति (2022–); पूर्व राज्यपाल (झारखंड)",
+   "bio": "मयूरभंज के संथाल परिवार में जन्म; शिक्षिका से राजनीति तक; ओडिशा मंत्री, झारखंड की प्रथम महिला राज्यपाल; 2022 में राष्ट्रपति निर्वाचित — भारत के सर्वोच्च पद पर पहुँचने वाली प्रथम आदिवासी महिला।",
+   "medals": null,
+   "awards": "नीलकंठ पुरस्कार? (सत्यापन), अन्य अनेक सम्मान",
+   "photo": null,
+   "photo_source": "राष्ट्रपति भवन सचिवालय (PD-सरकारी)",
+   "sources": [
+    "प्रभात खबर (2025)",
+    "राष्ट्रपति भवन वेबसाइट"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "—"
+  },
+  {
+   "id": "jaipal-singh-munda",
+   "name_hi": "जयपाल सिंह मुंडा ('मारंग गोमेके')",
+   "name_en": "Jaipal Singh Munda",
+   "gender": "M",
+   "tribe": "Munda",
+   "tribe_hi": "मुंडा",
+   "state": "झारखंड",
+   "district": "खूंटी (खुर्पाई/राँची क्षेत्र)",
+   "birth": "1903-01-03",
+   "death": "1970-03-20",
+   "category": "governance",
+   "tags": [
+    "olympic_gold",
+    "icon"
+   ],
+   "first_achievement": "1928 एम्स्टर्डम ओलंपिक हॉकी स्वर्ण पदक विजेता टीम के कप्तान; संविधान सभा में 'आदिवासी' शब्द प्रतिष्ठित करने वाले नेता",
+   "bio": "ऑक्सफ़ोर्ड-शिक्षित; 1928 ओलंपिक स्वर्ण की भारतीय हॉकी टीम के कप्तान; आदिवासी महासभा के अध्यक्ष; संविधान सभा में ST अधिकारों की आवाज़; 'झारखंड' राज्य की माँग के जनक; 'मारंग गोमेके' (महान नायक) उपाधि।",
+   "medals": "ओलंपिक स्वर्ण (1928, कप्तान)",
+   "awards": null,
+   "photo": null,
+   "photo_source": "विकिमीडिया (PD संभव)",
+   "sources": [
+    "प्रभात खबर (2025)",
+    "ओलंपिक रिकॉर्ड"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "राँची/खूंटी स्मारक; 'मारंग गोमेके जयपाल सिंह मुंडा' विश्वविद्यालय? (नामांकन सत्यापन)"
+  },
+  {
+   "id": "pa-sangma",
+   "name_hi": "पी.ए. संगमा",
+   "name_en": "P. A. Sangma",
+   "gender": "M",
+   "tribe": "Garo",
+   "tribe_hi": "गारो",
+   "state": "मेघालय",
+   "district": "पश्चिम गारो पहाड़ी (तुरा)",
+   "birth": "1947-09-01",
+   "death": "2016-03-04",
+   "category": "governance",
+   "tags": [
+    "icon"
+   ],
+   "first_achievement": "लोकसभा अध्यक्ष (1996-98); मेघालय के मुख्यमंत्री",
+   "bio": "गारो आदिवासी परिवार से; लोकसभा अध्यक्ष बने प्रथम आदिवासी; राष्ट्रपति चुनाव (2002) में उम्मीदवार; NCP संस्थापक-नेताओं में।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": "संसद वेबसाइट (PD-सरकारी संभव)",
+   "sources": [
+    "विकिपीडिया",
+    "संसद रिकॉर्ड"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "तुरा स्मारक"
+  },
+  {
+   "id": "shibu-soren",
+   "name_hi": "शिबू सोरेन ('गुरुजी')",
+   "name_en": "Shibu Soren",
+   "gender": "M",
+   "tribe": "Santhal",
+   "tribe_hi": "संथाल",
+   "state": "झारखंड",
+   "district": "दुमका",
+   "birth": "1934-01-11",
+   "death": "2025",
+   "category": "governance",
+   "tags": [
+    "icon"
+   ],
+   "first_achievement": "झारखंड आंदोलन के 'गुरुजी'; झारखंड के मुख्यमंत्री; JMM संस्थापक-अध्यक्ष",
+   "bio": "बिरसा परंपरा में झारखंड मुक्ति मोर्चा का नेतृत्व; जमींदार-मुक्ति व वन-अधिकार संघर्ष; 2000 के बाद झारखंड के मुख्यमंत्री (तीन कार्यकाल); पुत्र हेमंत सोरेन भी CM रहे। निधन 2025।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": "सरकारी स्रोत",
+   "sources": [
+    "प्रभात खबर (2025)",
+    "समाचार (2025)"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "दुमका"
+  },
+  {
+   "id": "arjun-munda",
+   "name_hi": "अर्जुन मुंडा",
+   "name_en": "Arjun Munda",
+   "gender": "M",
+   "tribe": "Munda",
+   "tribe_hi": "मुंडा",
+   "state": "झारखंड",
+   "district": "खरसावाँ/सेरायकेला",
+   "birth": "1968-05-03",
+   "death": null,
+   "category": "governance",
+   "tags": [],
+   "first_achievement": "झारखंड के सबसे युवा मुख्यमंत्री (2003); पूर्व केंद्रीय जनजातीय कार्य मंत्री",
+   "bio": "मुंडा समुदाय से; कई बार झारखंड CM; 2019-2024 केंद्रीय जनजातीय कार्य मंत्री।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": "सरकारी स्रोत",
+   "sources": [
+    "विकिपीडिया",
+    "mtribal.tribal.nic.in"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "—"
+  },
+  {
+   "id": "kartik-uraon",
+   "name_hi": "कार्तिक उराँव",
+   "name_en": "Kartik Oraon",
+   "gender": "M",
+   "tribe": "Oraon",
+   "tribe_hi": "उराँव",
+   "state": "झारखंड (तत्कालीन बिहार)",
+   "district": "लोहरदगा",
+   "birth": "?",
+   "death": "≈1981 (सत्यापन)",
+   "category": "governance",
+   "tags": [],
+   "first_achievement": "केंद्रीय मंत्री रहे आदिवासी नेता",
+   "bio": "लोहरदगा से कांग्रेस नेता; केंद्रीय मंत्रिपरिषद में दायित्व; आदिवासी राजनीति के स्तंभ।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "प्रभात खबर (2025)"
+   ],
+   "verify": true,
+   "verify_note": "जन्म-मृत्यु व मंत्रालय-विवरण सत्यापन",
+   "memorial": "लोहरदगा"
+  },
+  {
+   "id": "ram-dayal-munda",
+   "name_hi": "डॉ. राम दयाल मुंडा",
+   "name_en": "Ram Dayal Munda",
+   "gender": "M",
+   "tribe": "Munda",
+   "tribe_hi": "मुंडा",
+   "state": "झारखंड",
+   "district": "राँची",
+   "birth": "1939",
+   "death": "2011",
+   "category": "education",
+   "tags": [
+    "padma",
+    "scholar"
+   ],
+   "first_achievement": "मुंडारी भाषा-साहित्य के प्रतिष्ठापक विद्वान; राँची विश्वविद्यालय के कुलपति",
+   "bio": "पद्म श्री; 'मुंडारि व्याकरण' व आदिवासी साहित्य पर अग्रणी कार्य; UGC/ललित कला अकादमी दायित्व; आदिवासी भाषाओं के अकादमिक अध्ययन को राष्ट्रीय पहचान दिलाई।",
+   "medals": null,
+   "awards": "पद्म श्री (वर्ष सत्यापन)",
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "प्रभात खबर (2025)",
+    "पद्म पुरस्कार सूची"
+   ],
+   "verify": true,
+   "verify_note": "पद्म-वर्ष सत्यापन (2000 या 1984 स्रोत-भेद)",
+   "memorial": "राँची विवि परिसर"
+  },
+  {
+   "id": "chuni-kotal",
+   "name_hi": "चुनी कोटाल",
+   "name_en": "Chuni Kotal",
+   "gender": "F",
+   "tribe": "Lodha (PVTG)",
+   "tribe_hi": "लोधा",
+   "state": "पश्चिम बंगाल",
+   "district": "पश्चिम मेदिनीपुर",
+   "birth": "≈1965",
+   "death": "1993",
+   "category": "education",
+   "tags": [
+    "first_woman",
+    "tragic"
+   ],
+   "first_achievement": "लोधा समुदाय की प्रथम महिला स्नातक",
+   "bio": "अपमान व उत्पीड़न के विरुद्ध आदिवासी छात्रा-संघर्ष का प्रतीक; 1993 में आत्महत्या ने राष्ट्रीय बहस छेड़ी; कोलकाता में 'चुनी कोटाल मेमोरियल' वार्षिक स्मृति। (संवेदनशील प्रविष्टि — सम्मानपूर्वक प्रस्तुति आवश्यक)",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "अकादमिक/सक्रियता-स्रोत"
+   ],
+   "verify": true,
+   "verify_note": "विवरण स्रोत-आधारित पुष्टि आवश्यक",
+   "memorial": "कोलकाता स्मृति-व्याख्यान"
+  },
+  {
+   "id": "sonajharia-sahu",
+   "name_hi": "सोनझड़िया साहू",
+   "name_en": "Sonajharia Sahu",
+   "gender": "F",
+   "tribe": "ST (ओडिशा) — विवरण सत्यापन",
+   "tribe_hi": "—",
+   "state": "ओडिशा",
+   "district": "कलाहांडी/बलांगीर क्षेत्र (सत्यापन)",
+   "birth": "?",
+   "death": null,
+   "category": "education",
+   "tags": [
+    "first_woman"
+   ],
+   "first_achievement": "ओडिशा सरकार के अभियांत्रिकी संस्थान की प्रमुख बनने वाली प्रथम आदिवासी महिला (मीडिया-रिपोर्ट अनुसार)",
+   "bio": "तकनीकी शिक्षा क्षेत्र में आदिवासी महिलाओं की मिसाल; विस्तृत जीवनी फील्ड-सत्यापन में।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "मीडिया रिपोर्ट"
+   ],
+   "verify": true,
+   "verify_note": "संपूर्ण प्रविष्टि अतिरिक्त स्रोत-सत्यापन अपेक्षित",
+   "memorial": null
+  },
+  {
+   "id": "jamuna-tudu",
+   "name_hi": "जमुना टुडू",
+   "name_en": "Jamuna Tudu",
+   "gender": "F",
+   "tribe": "Santhal/Munda (टुडू वंशनाम)",
+   "tribe_hi": "संथाल",
+   "state": "झारखंड",
+   "district": "—",
+   "birth": "≈1980",
+   "death": null,
+   "category": "governance",
+   "tags": [
+    "first_woman",
+    "ips"
+   ],
+   "first_achievement": "झारखंड की प्रथम आदिवासी महिला IPS अधिकारी (मीडिया-रिपोर्ट अनुसार)",
+   "bio": "'दबंग' अधिकारी के रूप में ख्यात; आदिवासी महिलाओं हेतु प्रेरणा-स्रोत।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "मीडिया रिपोर्ट"
+   ],
+   "verify": true,
+   "verify_note": "जनजाति/कैडर/बैच विवरण सत्यापन",
+   "memorial": null
+  },
+  {
+   "id": "mary-kom",
+   "name_hi": "मैरी कॉम",
+   "name_en": "Mary Kom",
+   "gender": "F",
+   "tribe": "Kom",
+   "tribe_hi": "कॉम",
+   "state": "मणिपुर",
+   "district": "चुराचांदपुर (कांगथेई)",
+   "birth": "1983-03-01",
+   "death": null,
+   "category": "sports",
+   "tags": [
+    "olympic_medal",
+    "asian_gold",
+    "cwg_gold",
+    "padma_vibhushan",
+    "women",
+    "icon"
+   ],
+   "first_achievement": "ओलंपिक कांस्य (लंदन 2012); 6-बार विश्व मुक्केबाजी चैंपियन; पद्म विभूषण (2020)",
+   "bio": "'मैग्निफिशेंट मैरी'; विश्व चैंपियनशिप में सर्वाधिक पदक (8); एशियाई खेल स्वर्ण (2014); कॉमनवेल्थ स्वर्ण (2018); पद्म श्री (2006), पद्म भूषण (2013), पद्म विभूषण (2020), खेल रत्न (2009); राज्यसभा सांसद (2016-)।",
+   "medals": "ओलंपिक कांस्य 2012; एशियाई स्वर्ण 2014; CWG स्वर्ण 2018; विश्व चैंपियनशिप 6 स्वर्ण",
+   "awards": "पद्म विभूषण 2020; पद्म भूषण 2013; पद्म श्री 2006; खेल रत्न 2009",
+   "photo": null,
+   "photo_source": "विकिमीडिया (CC — लाइसेंस जाँच)",
+   "sources": [
+    "ओलंपिक रिकॉर्ड",
+    "विकिपीडिया",
+    "पद्म पुरस्कार सूची"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "इम्फाल में मैरी कॉम बॉक्सिंग अकादमी"
+  },
+  {
+   "id": "deep-grace-ekka",
+   "name_hi": "दीप ग्रेस एक्का",
+   "name_en": "Deep Grace Ekka",
+   "gender": "F",
+   "tribe": "Oraon (सत्यापन)",
+   "tribe_hi": "उराँव",
+   "state": "ओडिशा",
+   "district": "सुंदरगढ़ (लुलकिडिही)",
+   "birth": "1994-06-03",
+   "death": null,
+   "category": "sports",
+   "tags": [
+    "olympic_medal",
+    "hockey",
+    "women"
+   ],
+   "first_achievement": "पेरिस 2024 ओलंपिक हॉकी कांस्य पदक विजेता भारतीय महिला टीम की सदस्य (सत्यापन)",
+   "bio": "सुंदरगढ़ की आदिवासी हॉकी परंपरा की प्रतिनिधि; टोक्यो 2020 में ऐतिहासिक चौथे स्थान वाली टीम में भी; पेरिस 2024 कांस्य।",
+   "medals": "ओलंपिक कांस्य 2024 (टीम — सत्यापन)",
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "ओलंपिक रिकॉर्ड (सत्यापन)"
+   ],
+   "verify": true,
+   "verify_note": "पेरिस-2024 स्क्वाड सदस्यता की पुष्टि करें",
+   "memorial": null
+  },
+  {
+   "id": "dilip-tirkey",
+   "name_hi": "दिलीप टिर्की",
+   "name_en": "Dilip Tirkey",
+   "gender": "M",
+   "tribe": "Oraon",
+   "tribe_hi": "उराँव",
+   "state": "ओडिशा",
+   "district": "सुंदरगढ़",
+   "birth": "1977-11-25",
+   "death": null,
+   "category": "sports",
+   "tags": [
+    "hockey",
+    "captain"
+   ],
+   "first_achievement": "भारतीय हॉकी टीम के कप्तान; 400+ अंतर्राष्ट्रीय मैच; 'पेनल्टी कॉर्नर विशेषज्ञ'",
+   "bio": "सुंदरगढ़ से; भारतीय हॉकी के कप्तान रहे; खेल रत्न? (अर्जुन अवॉर्ड 2002? सत्यापन); वर्तमान में राज्यसभा सांसद (बीजद)।",
+   "medals": null,
+   "awards": "अर्जुन पुरस्कार (सत्यापन)",
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "विकिपीडिया",
+    "हॉकी इंडिया"
+   ],
+   "verify": true,
+   "verify_note": "पुरस्कार-वर्ष सत्यापन",
+   "memorial": null
+  },
+  {
+   "id": "nilam-sanjeep-xess",
+   "name_hi": "नीलम संजीप खैस",
+   "name_en": "Nilam Sanjeep Xess",
+   "gender": "F",
+   "tribe": "ST ओडिशा (विवरण सत्यापन)",
+   "tribe_hi": "—",
+   "state": "ओडिशा",
+   "district": "सुंदरगढ़/केओंझर (सत्यापन)",
+   "birth": "≈2000",
+   "death": null,
+   "category": "sports",
+   "tags": [
+    "olympic_medal",
+    "hockey",
+    "women"
+   ],
+   "first_achievement": "पेरिस 2024 ओलंपिक हॉकी कांस्य टीम की सदस्य (सत्यापन)",
+   "bio": "ओडिशा की आदिवासी हॉकी प्रतिभा; एशियाई खेल 2023 स्वर्ण टीम में भी।",
+   "medals": "ओलंपिक कांस्य 2024 (सत्यापन)",
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "हॉकी इंडिया (सत्यापन)"
+   ],
+   "verify": true,
+   "verify_note": "स्क्वाड-सदस्यता व जनजाति-विवरण पुष्टि आवश्यक",
+   "memorial": null
+  },
+  {
+   "id": "limba-ram",
+   "name_hi": "लिम्बा राम",
+   "name_en": "Limba Ram",
+   "gender": "M",
+   "tribe": "Bhil (सत्यापन)",
+   "tribe_hi": "भील",
+   "state": "राजस्थान/मध्य प्रदेश सीमा क्षेत्र (सत्यापन)",
+   "district": "—",
+   "birth": "≈1972",
+   "death": null,
+   "category": "sports",
+   "tags": [
+    "archery"
+   ],
+   "first_achievement": "अर्जुन पुरस्कार (तीरंदाजी); पतंग पर निशाना लगा देने वाली किंवदंती",
+   "bio": "वनवासी बालक से विश्व-स्तरीय तीरंदाज; 1990 के दशक में अंतर्राष्ट्रीय पदक; गिनीज-रिकॉर्ड? (सत्यापन)।",
+   "medals": null,
+   "awards": "अर्जुन पुरस्कार (वर्ष सत्यापन)",
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "मीडिया रिपोर्ट"
+   ],
+   "verify": true,
+   "verify_note": "जनजाति/राज्य/पुरस्कार-वर्ष सत्यापन",
+   "memorial": null
+  },
+  {
+   "id": "jangarh-singh-shyam",
+   "name_hi": "जंगारह सिंह श्याम",
+   "name_en": "Jangarh Singh Shyam",
+   "gender": "M",
+   "tribe": "Pardhan Gond",
+   "tribe_hi": "पर्धान गोंड",
+   "state": "मध्य प्रदेश",
+   "district": "डिंडोरी/पटनागढ़ क्षेत्र",
+   "birth": "≈1962",
+   "death": "2001",
+   "category": "art",
+   "tags": [
+    "gond",
+    "first"
+   ],
+   "first_achievement": "अंतर्राष्ट्रीय ख्याति प्राप्त प्रथम गोंड चित्रकार — 'जंगारह कला-शैली' के जनक",
+   "bio": "भारत भवन (भोपाल) में जगदीश स्वामीनाथन द्वारा खोज; पारंपरिक पर्धान-गोंड कथा-चित्रण को समकालीन कला में बदला; 1998 में 'द लंडन जंगल बुक'? (सहयोग); 2001 में ओकिनावा में निधन। इनका परिवार (भाई भज्जू, पुत्री मयंक आदि) आज गोंड आर्ट के अग्रणी।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": "कलाकृतियाँ संग्रहालयों में",
+   "sources": [
+    "गोंड आर्ट साहित्य",
+    "Caravan (2019)"
+   ],
+   "verify": true,
+   "verify_note": "जन्मस्थान/तिथि विवरण स्रोतानुसार भिन्न",
+   "memorial": "भोपाल/पटनागढ़ में कला-स्मृति"
+  },
+  {
+   "id": "bhajju-shyam",
+   "name_hi": "भज्जू श्याम",
+   "name_en": "Bhajju Shyam",
+   "gender": "M",
+   "tribe": "Pardhan Gond",
+   "tribe_hi": "पर्धान गोंड",
+   "state": "मध्य प्रदेश",
+   "district": "भोपाल (मूल: डिंडोरी क्षेत्र)",
+   "birth": "≈1971",
+   "death": null,
+   "category": "art",
+   "tags": [
+    "gond",
+    "padma"
+   ],
+   "first_achievement": "पद्म श्री (2018); 'द लंडन जंगल बुक' — गोंड कला को विश्व-मंच तक ले जाने वाले अग्रणी",
+   "bio": "जंगारह सिंह श्याम के भाई; लंदन-यात्रा पर आधारित प्रसिद्ध कला-पुस्तक; राष्ट्रीय व अंतर्राष्ट्रीय प्रदर्शनियाँ।",
+   "medals": null,
+   "awards": "पद्म श्री 2018",
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "पद्म पुरस्कार सूची",
+    "गोंड आर्ट साहित्य"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": null
+  },
+  {
+   "id": "durga-bai-vyam",
+   "name_hi": "दुर्गा बाई व्याम",
+   "name_en": "Durga Bai Vyam",
+   "gender": "F",
+   "tribe": "Pardhan Gond",
+   "tribe_hi": "पर्धान गोंड",
+   "state": "मध्य प्रदेश",
+   "district": "भोपाल (मूल: डिंडोरी)",
+   "birth": "≈1973",
+   "death": null,
+   "category": "art",
+   "tags": [
+    "gond",
+    "padma",
+    "women"
+   ],
+   "first_achievement": "पद्म श्री (2022); गोंड चित्रकला की प्रमुख महिला हस्ताक्षर",
+   "bio": "पति सुभाष व्याम के साथ संयुक्त कला-कार्य; 'भीम की कहानी'? व अनेक कला-पुस्तकें; अंतर्राष्ट्रीय प्रदर्शनी-यात्राएँ।",
+   "medals": null,
+   "awards": "पद्म श्री 2022",
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "पद्म पुरस्कार सूची 2022"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": null
+  },
+  {
+   "id": "subhash-vyam",
+   "name_hi": "सुभाष व्याम",
+   "name_en": "Subhash Vyam",
+   "gender": "M",
+   "tribe": "Pardhan Gond",
+   "tribe_hi": "पर्धान गोंड",
+   "state": "मध्य प्रदेश",
+   "district": "भोपाल (मूल: डिंडोरी)",
+   "birth": "?",
+   "death": null,
+   "category": "art",
+   "tags": [
+    "gond",
+    "padma"
+   ],
+   "first_achievement": "पद्म श्री (2022, दुर्गा बाई व्याम सहित)",
+   "bio": "गोंड पेंटिंग शैली के अग्रणी दंपति में से एक; 'सिरियल/भीमयान' जैसी कला-पुस्तकों में सहयोग।",
+   "medals": null,
+   "awards": "पद्म श्री 2022",
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "पद्म पुरस्कार सूची 2022"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": null
+  },
+  {
+   "id": "venkat-raman-singh",
+   "name_hi": "वेंकट रमन सिंह (गोंड कलाकार)",
+   "name_en": "Venkat Raman Singh",
+   "gender": "M",
+   "tribe": "Pardhan Gond",
+   "tribe_hi": "पर्धान गोंड",
+   "state": "मध्य प्रदेश",
+   "district": "भोपाल",
+   "birth": "≈1971",
+   "death": null,
+   "category": "art",
+   "tags": [
+    "gond",
+    "padma"
+   ],
+   "first_achievement": "पद्म श्री (2022); गोंड चित्रकला के अंतर्राष्ट्रीय हस्ताक्षर",
+   "bio": "जंगारह-परंपरा के प्रमुख चित्रकार; 'द नाइट लाइफ ऑफ ट्रीज़' में सहयोग; वैश्विक प्रदर्शनियाँ।",
+   "medals": null,
+   "awards": "पद्म श्री 2022",
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "पद्म पुरस्कार सूची 2022"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": null
+  },
+  {
+   "id": "jivya-soma-mashe",
+   "name_hi": "जीव्या सोमा माशे",
+   "name_en": "Jivya Soma Mashe",
+   "gender": "M",
+   "tribe": "Warli",
+   "tribe_hi": "वारली",
+   "state": "महाराष्ट्र",
+   "district": "पालघर (दहानु)",
+   "birth": "≈1934",
+   "death": "2020",
+   "category": "art",
+   "tags": [
+    "warli",
+    "padma"
+   ],
+   "first_achievement": "वारली चित्रकला को अनुष्ठान-दीवारों से कैनवास तक लाने वाले 'आधुनिक वारली कला के जनक'; पद्म श्री",
+   "bio": "परंपरागत वारली (चौक) कला को समकालीन रूप दिया; महाराष्ट्र सरकार पुरस्कार; पद्म श्री (वर्ष सत्यापन — 1998/2011 स्रोत-भेद)।",
+   "medals": null,
+   "awards": "पद्म श्री (वर्ष सत्यापन)",
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "कला-स्रोत",
+    "पद्म सूची"
+   ],
+   "verify": true,
+   "verify_note": "पद्म-वर्ष स्रोतों में भिन्न",
+   "memorial": null
+  },
+  {
+   "id": "bhuri-bai",
+   "name_hi": "भूरी बाई",
+   "name_en": "Bhuri Bai",
+   "gender": "F",
+   "tribe": "Bhil",
+   "tribe_hi": "भील",
+   "state": "मध्य प्रदेश",
+   "district": "झाबुआ",
+   "birth": "≈1956",
+   "death": null,
+   "category": "art",
+   "tags": [
+    "bhil",
+    "padma",
+    "women"
+   ],
+   "first_achievement": "पद्म श्री (2021); भील कला की अग्रणी महिला चित्रकार",
+   "bio": "झाबुआ के भील आर्ट संग्रहालय-कार्य से जुड़ी; मिट्टी की दीवार से कैनवास तक — भील कला की यात्रा की अगुआ।",
+   "medals": null,
+   "awards": "पद्म श्री 2021",
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "पद्म पुरस्कार सूची 2021"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": null
+  },
+  {
+   "id": "raghunath-murmu",
+   "name_hi": "पंडित रघुनाथ मुर्मू",
+   "name_en": "Raghunath Murmu",
+   "gender": "M",
+   "tribe": "Santhal",
+   "tribe_hi": "संथाल",
+   "state": "ओडिशा",
+   "district": "मयूरभंज (रायरंगपुर क्षेत्र)",
+   "birth": "1905-05-05",
+   "death": "1982-02-01",
+   "category": "language",
+   "tags": [
+    "script_creator",
+    "icon"
+   ],
+   "first_achievement": "ओल चिकि लिपि के आविष्कारक (1925) — संथाली भाषा की अपनी लिपि",
+   "bio": "'गुरु गोमके' के नाम से पूजित; ओल चिकि के साथ संथाली साहित्य, नाटक ('करम दर'), गीत रचे; झारखंड-ओडिशा-बंगाल में विद्यालयों तक लिपि पहुँचाई; ओडिशा साहित्य अकादमी सम्मान।",
+   "medals": null,
+   "awards": "ओडिशा साहित्य अकादमी? (सत्यापन); 'गुरु गोमके' उपाधि",
+   "photo": null,
+   "photo_source": "विकिमीडिया (PD संभव)",
+   "sources": [
+    "विकिपीडिया",
+    "संथाली साहित्य स्रोत"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": "रायरंगपुर स्मारक; अनेक संस्थाओं के नाम"
+  },
+  {
+   "id": "masram",
+   "name_hi": "मुंशी मंगल सिंह मसराम",
+   "name_en": "Munshi Mangal Singh Masram",
+   "gender": "M",
+   "tribe": "Gond",
+   "tribe_hi": "गोंड",
+   "state": "मध्य प्रदेश",
+   "district": "बालाघाट (कोचेवाड़ा)",
+   "birth": "≈1890s",
+   "death": "?",
+   "category": "language",
+   "tags": [
+    "script_creator",
+    "gond",
+    "icon"
+   ],
+   "first_achievement": "मसराम गोंडी लिपि के रचयिता (1918); 'गोंड सभ्यता दर्पण' (1928) के लेखक",
+   "bio": "गोंडी भाषा-गौरव आंदोलन के प्रणेता; स्व-रचित लिपि में गोंडी व्याकरण व धार्मिक-सांस्कृतिक साहित्य; पुत्र भावसिंह ने 1957 में 'आदिवासी गोंडी लिपि बोध' (4 खंड) प्रकाशित किया; 2017 में यूनीकोड में लिपि शामिल (U+11D00–U+11D5F)।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": "Adivasi Gondi Lipi Bodh पुनर्मुद्रणों में चित्र",
+   "sources": [
+    "L2/15-090R",
+    "Caravan (2019)",
+    "शोध-डोसियर §3"
+   ],
+   "verify": true,
+   "verify_note": "जन्म-मृत्यु तिथियाँ अस्पष्ट — कोचेवाड़ा में फील्ड-सत्यापन सूची में",
+   "memorial": "कोचेवाड़ा स्मारक (प्रस्तावित); मसराम स्मृति दिवस तिथि फील्ड-कार्य"
+  },
+  {
+   "id": "bhavsinh-masram",
+   "name_hi": "भावसिंह मसराम",
+   "name_en": "Bhavsinh Masram",
+   "gender": "M",
+   "tribe": "Gond",
+   "tribe_hi": "गोंड",
+   "state": "मध्य प्रदेश",
+   "district": "बालाघाट",
+   "birth": "?",
+   "death": "?",
+   "category": "language",
+   "tags": [
+    "gond"
+   ],
+   "first_achievement": "'आदिवासी गोंडी लिपि बोध' 4 खंड (1957) के प्रकाशक — पिता की विरासत के वाहक",
+   "bio": "मुंशी मंगल सिंह के पुत्र; लिपि व गोंडी शिक्षण-सामग्री का प्रकाशन-प्रसार।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "L2/15-090R",
+    "शोध-डोसियर §3"
+   ],
+   "verify": true,
+   "verify_note": "जीवन-तिथियाँ अस्पष्ट",
+   "memorial": null
+  },
+  {
+   "id": "hari-marwai",
+   "name_hi": "हरि मरावी",
+   "name_en": "Hari Marawai",
+   "gender": "M",
+   "tribe": "Gond समुदाय",
+   "tribe_hi": "गोंड",
+   "state": "मध्य प्रदेश",
+   "district": "इंदौर",
+   "birth": "?",
+   "death": null,
+   "category": "language",
+   "tags": [
+    "gond"
+   ],
+   "first_achievement": "1999 से प्रथम गोंडी कैलेंडर प्रकाशक — 30,000+ प्रतियाँ/वर्ष",
+   "bio": "गोंडी भाषा-पुनरुद्धार के व्यावहारिक वाहक; कैलेंडर के जरिए गोंडी माह-पर्व-भाषा को घर-घर पहुँचाया।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "Hindustan Times (इंदौर)"
+   ],
+   "verify": false,
+   "verify_note": null,
+   "memorial": null
+  },
+  {
+   "id": "ruby-hembrom",
+   "name_hi": "रुबी हेम्ब्रम",
+   "name_en": "Ruby Hembrom",
+   "gender": "F",
+   "tribe": "Santhal",
+   "tribe_hi": "संथाल",
+   "state": "पश्चिम बंगाल",
+   "district": "कोलकाता",
+   "birth": "?",
+   "death": null,
+   "category": "literature",
+   "tags": [
+    "women",
+    "publisher"
+   ],
+   "first_achievement": "'आदिवाणी' प्रकाशन की संस्थापक — आदिवासी लेखन-अभिलेखन की अग्रणी",
+   "bio": "संथाली-अंग्रेजी लेखिका; संग्रहालय-क्यूरेटर; आदिवासी मौखिक इतिहास व प्रलेखन हेतु आदिवाणी आर्काइव।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "आदिवाणी वेबसाइट"
+   ],
+   "verify": true,
+   "verify_note": "जीवन-विवरण संक्षिप्त; विस्तार सत्यापन",
+   "memorial": null
+  },
+  {
+   "id": "nirmala-putul",
+   "name_hi": "निर्मला पुतुल",
+   "name_en": "Nirmala Putul",
+   "gender": "F",
+   "tribe": "Santhal",
+   "tribe_hi": "संथाल",
+   "state": "झारखंड",
+   "district": "पश्चिमी सिंहभूम (चाईबासा क्षेत्र — सत्यापन)",
+   "birth": "≈1981",
+   "death": null,
+   "category": "literature",
+   "tags": [
+    "women",
+    "poet"
+   ],
+   "first_achievement": "संथाली की चर्चित कवयित्री — 'सुपारी' आदि संग्रह; पद्म-नामांकन अभियान से ख्यात",
+   "bio": "प्रकृति-स्त्री-आदिवासी जीवन की कविताएँ; अनेक भाषाओं में अनूदित; जन-आंदोलनों में सक्रिय।",
+   "medals": null,
+   "awards": null,
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "साहित्यिक मीडिया"
+   ],
+   "verify": true,
+   "verify_note": "जन्म-स्थान सत्यापन",
+   "memorial": null
+  },
+  {
+   "id": "maina-tudu",
+   "name_hi": "मइना टुडू",
+   "name_en": "Maina Tudu",
+   "gender": "F",
+   "tribe": "Santhal",
+   "tribe_hi": "संथाल",
+   "state": "ओडिशा",
+   "district": "मयूरभंज/बारीपदा क्षेत्र (सत्यापन)",
+   "birth": "≈1985",
+   "death": null,
+   "category": "literature",
+   "tags": [
+    "women",
+    "poet"
+   ],
+   "first_achievement": "संथाली-ओडिया लेखिका; साहित्य अकादमी युवा पुरस्कार (सत्यापन)",
+   "bio": "आदिवासी महिला-अनुभव की कविता/कथा; ओडिशा के संथाली साहित्य में सक्रिय।",
+   "medals": null,
+   "awards": "साहित्य अकादमी युवा पुरस्कार (सत्यापन)",
+   "photo": null,
+   "photo_source": null,
+   "sources": [
+    "साहित्यिक स्रोत"
+   ],
+   "verify": true,
+   "verify_note": "पुरस्कार/जन्म-विवरण सत्यापन",
+   "memorial": null
+  }
+ ],
+ "tribes_covered": [
+  "Munda",
+  "Santhal",
+  "Gond",
+  "Bhil",
+  "Oraon",
+  "Kharia",
+  "Chero",
+  "Paharia",
+  "Kandha",
+  "Bhuyan",
+  "Kom",
+  "Garo",
+  "Khasi",
+  "Rongmei Naga",
+  "Muria",
+  "Maria",
+  "Koya",
+  "Pardhan Gond",
+  "Warli",
+  "Lodha",
+  "Halba (सत्यापन)",
+  "बहिष्कृत: 680+ अन्य (Phase-2)"
+ ],
+ "expansion_plan": {
+  "phase_2": "स्वतंत्रता-सेनानी पूर्ण सूची (राज्यवार गैजेटियर से) — +200 प्रविष्टियाँ",
+  "phase_3": "खेल (अर्जुन/द्रोणाचार्य/पदक विजेता ST सूची SAI रिकॉर्ड से) — +100",
+  "phase_4": "साहित्य-कला (साहित्य अकादमी/ललित कला पुरस्कार ST सूची) — +150",
+  "phase_5": "शासन-प्रशासन (ST IAS/IPS/न्यायाधीश/सांसद निर्देशिका) — +200",
+  "phase_6": "जनजातिवार 700+ सूची (जनगणना ST सूची + PVTG 75) — संदर्भ-परत",
+  "photo_pipeline": "विकिमीडिया कॉमन्स लाइसेंस-जाँच → स्थानीय बंडल → फ़ॉलबैक सिलूट; आधुनिक व्यक्तियों हेतु अनुमति-पत्र"
+ }
+}

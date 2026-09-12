@@ -1,0 +1,12 @@
+# build / package artifacts
+*.zip
+node_modules/
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# local scratch
+*.tmp.js
+.places_module.tmp.js

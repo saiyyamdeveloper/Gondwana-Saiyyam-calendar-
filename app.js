@@ -1,0 +1,754 @@
+/* ============ Gondwana Calendar App — app.js ============ */
+(function () {
+  'use strict';
+  const D = window.GW_DATA, X = window.GW_EXTRA, E = window.GWEngine, G = window.Gondi, H = window.GW_HEROES, PL = window.GW_PLACES;
+  const $ = s => document.querySelector(s);
+  const $$ = s => Array.from(document.querySelectorAll(s));
+
+  const HI_MONTHS = ['जनवरी','फ़रवरी','मार्च','अप्रैल','मई','जून','जुलाई','अगस्त','सितंबर','अक्टूबर','नवंबर','दिसंबर'];
+  const HI_MONTHS_S = ['जन','फ़र','मार्च','अप्र','मई','जून','जुल','अग','सित','अक्टू','नव','दिस'];
+  const HI_DAYS = ['रविवार','सोमवार','मंगलवार','बुधवार','गुरुवार','शुक्रवार','शनिवार'];
+  const EN_DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+  const today = new Date();
+  const state = {
+    region: localStorage.getItem('gw-region') || 'balaghat',
+    year: today.getFullYear(),
+    month: today.getMonth() + 1,
+    sel: E.dateKey(today.getFullYear(), today.getMonth() + 1, today.getDate()),
+    tab: 'calendar',
+    festFilter: 'all',
+    zones: new Set(['north', 'west', 'south', 'east']),
+    convDir: 1
+  };
+  const cityOf = () => X.cities.find(c => c.id === state.region) || X.cities[0];
+
+  let FEST = null, FEST_YEAR = null, FEST_CITY = null;
+  function festivals(force) {
+    const c = cityOf();
+    if (!force && FEST && FEST_YEAR === state.year && FEST_CITY === c.id) return FEST;
+    FEST = E.festivalsForYear(state.year, X.festivals, X.commemorative, c);
+    FEST_YEAR = state.year; FEST_CITY = c.id;
+    return FEST;
+  }
+  const festById = id => X.festivals.find(f => f.id === id);
+  const isGond = f => /Vahia|AGPE|कैलेंडर|Sahapedia|लोक-परंपरा|समुदाय/.test(f.source || '') || ['punal-saal','madai','bastar-dussehra','keslapur-jatra','medaram-jatra','karma','hareli','holi','diwali'].includes(f.id);
+
+  function toast(msg) {
+    const t = $('#toast'); t.textContent = msg; t.classList.add('show');
+    clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('show'), 2200);
+  }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+  function fmtKey(key, short) {
+    if (!key) return '—';
+    const [y, m, d] = key.split('-').map(Number);
+    return d + ' ' + (short ? HI_MONTHS_S[m - 1] : HI_MONTHS[m - 1]) + ' ' + y;
+  }
+  function diOf(key) { const [y, m, d] = key.split('-').map(Number); return E.dayInfo(y, m, d, cityOf()); }
+  function weekdayOf(y, m, d) {
+    const dt = new Date(Date.UTC(y, m - 1, d));
+    return dt.getUTCDay();
+  }
+  function gondiWeekday(y, m, d) {
+    const wd = weekdayOf(y, m, d);
+    const w = (D.weekdays || []).find(x => x.english === EN_DAYS[wd]) || (D.weekdays || [])[wd];
+    return w || { gondi: '', deva: '', masram: '', hindi: HI_DAYS[wd] };
+  }
+
+  /* ---------- moon SVG ---------- */
+  function moonSVG(phase, r) {
+    r = r || 40;
+    const k = Math.cos(2 * Math.PI * phase), rx = Math.max(0.4, Math.abs(k) * r);
+    const wax = phase < 0.5;
+    const outer = wax ? `M0,${-r} A${r},${r} 0 0 1 0,${r}` : `M0,${-r} A${r},${r} 0 0 0 0,${r}`;
+    const inner = (wax === (k > 0)) ? `A${rx},${r} 0 0 0 0,${-r}` : `A${rx},${r} 0 0 1 0,${-r}`;
+    return `<svg width="${r * 2 + 6}" height="${r * 2 + 6}" viewBox="${-r - 3} ${-r - 3} ${r * 2 + 6} ${r * 2 + 6}">
+      <circle r="${r}" fill="#3b3226" stroke="#c9a86a" stroke-width="1.5"/>
+      <path d="${outer} ${inner} Z" fill="#ffe9a8"/>
+      <circle cx="${-r * 0.35}" cy="${-r * 0.25}" r="${r * 0.13}" fill="#00000012"/>
+      <circle cx="${r * 0.3}" cy="${r * 0.35}" r="${r * 0.1}" fill="#00000010"/>
+    </svg>`;
+  }
+
+  /* ---------- bottom nav ---------- */
+  const NAV = [
+    { id: 'calendar', lbl: 'कैलेंडर', ico: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>' },
+    { id: 'festivals', lbl: 'पर्व', ico: '<path d="M12 3c1 3-1 4.5-1 6.5a2.5 2.5 0 005 0C16 7 14 5.5 14 3c3 2.5 5 5 5 8a7 7 0 11-14 0c0-3 2-5.5 5-8z" transform="translate(2,2) scale(0.85)"/>' },
+    { id: 'panchang', lbl: 'पंचांग', ico: '<path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/>' },
+    { id: 'map', lbl: 'नक्शा', ico: '<path d="M12 21s-7-6.1-7-11a7 7 0 1114 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/>' },
+    { id: 'heroes', lbl: 'महापुरुष', ico: '<circle cx="12" cy="7" r="3.4"/><path d="M5 21c0-4 3.2-6.5 7-6.5s7 2.5 7 6.5"/>' },
+    { id: 'places', lbl: 'स्थल', ico: '<path d="M12 21s-7-6.1-7-11a7 7 0 1114 0c0 4.9-7 11-7 11z"/><path d="M9.5 10.5l1.8 1.8 3.4-3.4"/>' },
+    { id: 'learn', lbl: 'सीखें', ico: '<path d="M4 5a2 2 0 012-2h13v18H6a2 2 0 01-2-2z"/><path d="M4 17h15"/>' }
+  ];
+  function buildNav() {
+    const nav = document.createElement('nav');
+    nav.className = 'bottom';
+    nav.innerHTML = NAV.map(n => `<button data-tab="${n.id}" class="${state.tab === n.id ? 'active' : ''}">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${n.ico}</svg>${n.lbl}</button>`).join('');
+    document.body.appendChild(nav);
+    nav.addEventListener('click', e => {
+      const b = e.target.closest('button[data-tab]'); if (!b) return;
+      setTab(b.dataset.tab);
+    });
+  }
+  function setTab(id) {
+    state.tab = id;
+    $$('.tab').forEach(t => t.classList.toggle('active', t.id === 'tab-' + id));
+    $$('nav.bottom button').forEach(b => b.classList.toggle('active', b.dataset.tab === id));
+    if (id === 'festivals') renderFestivals();
+    if (id === 'panchang') renderPanchang();
+    if (id === 'map') renderMap();
+    if (id === 'heroes') renderHeroes();
+    if (id === 'places') renderPlaces();
+    window.scrollTo({ top: 0 });
+  }
+
+  /* ---------- header ---------- */
+  function buildHeader() {
+    $('#hero-masram').textContent = G.convert('गोंडवाना कैलेंडर');
+    const sel = $('#sel-region');
+    sel.innerHTML = X.cities.map(c => `<option value="${c.id}" ${c.id === state.region ? 'selected' : ''}>${c.name} (${c.state})</option>`).join('');
+    sel.onchange = () => { state.region = sel.value; localStorage.setItem('gw-region', sel.value); festivals(true); renderAll(); toast('क्षेत्र: ' + cityOf().name + ' — सूर्योदय व पर्व स्थानीय गणना अनुसार'); };
+  }
+
+  /* ---------- calendar tab ---------- */
+  function renderCalendar() {
+    const y = state.year, m = state.month, c = cityOf();
+    $('#cal-ym').textContent = HI_MONTHS[m - 1] + ' ' + y;
+    $('#cal-ym-gon').textContent = ' ' + E.gondiDigits(y);
+    const mid = E.dayInfo(y, m, Math.min(15, E.daysInMonth(y, m)), c);
+    $('#cal-ym-sub').textContent = 'गोंडी माह: ' + (mid.amanta ? mid.amanta.gondi : '—') + (mid.amanta && mid.amanta.adhika ? ' · धोंडा (अधिक मास)' : '');
+
+    // month band: solar gondi + hindi pairing + lunar gondi
+    const solar = D.months_solar_gondi_variantA.list[m - 1];
+    const pairKey = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'][m - 1];
+    const pair = (D.hindi_lunar_months_pairing[pairKey] || []).join(' · ');
+    $('#monthband').innerHTML = `
+      <div class="mb-cell"><div class="mas">${solar.masram || ''}</div><div class="dev">${solar.deva} (सौर)</div><div class="pair">${solar.gondi}</div></div>
+      <div class="mb-cell"><div class="dev">${mid.amanta ? mid.amanta.gondi : ''}</div><div class="pair">गोंडी चंद्र माह</div></div>
+      <div class="mb-cell"><div class="dev">${mid.amanta ? mid.amanta.deva + ' (अमांत)' : ''}</div><div class="pair">पंचांग माह · ${esc(pair)}</div></div>`;
+
+    // weekday heads
+    $('#wk-head').innerHTML = EN_DAYS.map(en => {
+      const w = (D.weekdays || []).find(x => x.english === en) || {};
+      return `<div class="wk-head"><span class="gon">${w.masram || ''}</span>${w.deva || ''}</div>`;
+    }).join('');
+
+    const F = festivals();
+    const first = weekdayOf(y, m, 1), n = E.daysInMonth(y, m);
+    let html = '';
+    for (let i = 0; i < first; i++) html += '<div class="day-cell empty"></div>';
+    for (let d = 1; d <= n; d++) {
+      const key = E.dateKey(y, m, d);
+      const di = E.dayInfo(y, m, d, c);
+      const fests = F.byDate[key] || [];
+      const wd = weekdayOf(y, m, d);
+      const dots = fests.slice(0, 3).map(f => `<span class="fdot ${f.comm ? 'comm' : (isGond(f) ? 'gond' : 'gen')}"></span>`).join('');
+      const moon = di.isAmavasya ? '🌑' : (di.isPurnima ? '🌕' : '');
+      html += `<div class="day-cell ${wd === 0 ? 'sun' : ''} ${key === E.dateKey(today.getFullYear(), today.getMonth() + 1, today.getDate()) ? 'today' : ''} ${key === state.sel ? 'sel' : ''}" data-k="${key}">
+        <span class="dnum">${d}</span><span class="dgon">${E.gondiDigits(d)}</span>
+        <span class="dtithi">${di.isAmavasya ? 'अमावस' : di.isPurnima ? 'पूनम' : (di.paksha === 'S' ? 'शु' : 'कृ') + di.tnum}</span>
+        ${moon ? `<span class="moon-mark">${moon}</span>` : ''}
+        <span class="fest-dots">${dots}</span></div>`;
+    }
+    $('#cal-grid').innerHTML = html;
+    $$('#cal-grid .day-cell[data-k]').forEach(cell => cell.onclick = () => { state.sel = cell.dataset.k; openDay(cell.dataset.k); renderCalendar(); });
+
+    // upcoming
+    const todayKey = E.dateKey(today.getFullYear(), today.getMonth() + 1, today.getDate());
+    const up = F.list.filter(x => x.date >= todayKey && x.date.slice(0, 4) == state.year).slice(0, 6);
+    $('#upcoming').innerHTML = up.length ? up.map(x => `
+      <div class="fest-item" data-open="${x.date}">
+        <div class="fest-date"><div class="dd">${x.d}</div><div class="mm">${HI_MONTHS_S[x.m - 1]}</div></div>
+        <div class="fest-t"><b>${esc(x.fest.deva)}</b> ${x.fest.comm ? '<span class="badge comm">स्मृति</span>' : (isGond(x.fest) ? '<span class="badge gond">गोंड</span>' : '<span class="badge gen">पंचांग</span>')}
+        <div class="rule">${esc(x.fest.meaning || '')}</div></div></div>`).join('') : '<p class="muted">इस वर्ष की सूची पूर्ण — वर्ष बदलकर देखें।</p>';
+    $$('#upcoming .fest-item').forEach(elx => elx.onclick = () => openDay(elx.dataset.open));
+  }
+
+  /* ---------- day sheet ---------- */
+  function openDay(key) {
+    const [y, m, d] = key.split('-').map(Number);
+    const c = cityOf();
+    const di = E.dayInfo(y, m, d, c);
+    const w = gondiWeekday(y, m, d);
+    const F = festivals();
+    const fests = F.byDate[key] || [];
+    const solar = D.months_solar_gondi_variantA.list[di.solarGondiIdx];
+    // pada/chirdur din (day lengthening/shortening): winter solstice → summer solstice = longer
+    const md = m * 100 + d;
+    const pada = (md >= 1222 || md <= 621);
+    const dayLen = (di.sunrise && di.sunset) ? (() => {
+      const [rh, rm] = di.sunrise.split(':').map(Number), [sh, sm] = di.sunset.split(':').map(Number);
+      const mins = (sh * 60 + sm) - (rh * 60 + rm); return Math.floor(mins / 60) + ' घं ' + (mins % 60) + ' मि';
+    })() : '—';
+
+    let html = `
+      <div style="display:flex;align-items:center;gap:12px">
+        ${moonSVG(di.phase, 30)}
+        <div><div style="font-size:1.15rem;font-weight:800;color:#7c2d12">${d} ${HI_MONTHS[m - 1]} ${y}</div>
+        <div class="small"><span class="gon">${w.masram || ''}</span> ${w.deva || w.gondi} · ${HI_DAYS[weekdayOf(y, m, d)]} · ${EN_DAYS[weekdayOf(y, m, d)]}</div></div>
+        <div style="margin-left:auto;text-align:right"><div class="gon" style="font-size:1.2rem;color:var(--gold)">${E.gondiDigits(y)}</div>
+        <div class="muted" style="font-size:.64rem">गोंडी अंक वर्ष</div></div>
+      </div>
+      <hr style="border:0;border-top:1px dashed var(--line);margin:10px 0">
+      <dl class="kv">
+        <dt>तिथि</dt><dd>${di.tithi} <span class="muted">(${di.tithiName})</span></dd>
+        <dt>गोंडी तिथि</dt><dd><span class="gon" style="font-size:.95rem"></span>${di.gondiTithi}</dd>
+        <dt>पक्ष</dt><dd>${di.paksha === 'S' ? 'शुक्ल (उजिया/उज्जि)' : 'कृष्ण (अधि/अंधियारा)'}</dd>
+        <dt>गोंडी चंद्र माह</dt><dd>${di.amanta ? di.amanta.gondi : '—'} ${di.amanta && di.amanta.adhika ? '<span class="flag">धोंडा (अधिक मास)</span>' : ''}</dd>
+        <dt>हिंदी माह</dt><dd>${di.amanta ? di.amanta.deva : ''} (अमांत) · ${di.purnimanta.deva} (पूर्णिमांत)</dd>
+        <dt>गोंडी सौर माह</dt><dd><span class="gon">${solar ? solar.masram : ''}</span> ${solar ? solar.deva : ''} <span class="muted">(${solar ? solar.gondi : ''})</span></dd>
+        <dt>नक्षत्र</dt><dd>${di.nakName}</dd>
+        <dt>राशि (सूर्य)</dt><dd>${di.rashiName} ${(() => { const zz = X.rashis[di.rashi]; return zz && zz.gondi ? '· गोंडी: ' + zz.gondi : ''; })()}</dd>
+        <dt>ऋतु</dt><dd>${di.rituName}</dd>
+        <dt>चंद्र अवस्था</dt><dd>${di.phaseName}</dd>
+        <dt>सूर्योदय / सूर्यास्त</dt><dd>${di.sunrise || '—'} / ${di.sunset || '—'} <span class="muted">(दिन: ${dayLen}) — ${c.name}</span></dd>
+        <dt>दिन-मान</dt><dd>${pada ? 'पद दिन (दिन बढ़ते हैं)' : 'चिरदुर दिन (दिन घटते हैं)'}</dd>
+      </dl>`;
+    if (fests.length) {
+      html += '<h3 style="color:var(--saffron);margin:14px 0 4px">आज के पर्व 🪔</h3>' + fests.map(f => festCardHTML(f, y)).join('');
+    } else {
+      html += '<p class="muted" style="margin-top:12px">इस दिन कोई सूचीबद्ध पर्व नहीं।</p>';
+    }
+    html += `<div style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap">
+      <button class="btn" id="day-share">📋 विवरण कॉपी करें</button>
+      <button class="btn ghost" id="day-panch">🌙 पंचांग में खोलें</button></div>`;
+    openSheet(html);
+    $('#day-share').onclick = () => {
+      const txt = `${d} ${HI_MONTHS[m - 1]} ${y} | ${w.deva || ''} | ${di.tithi} | गोंडी माह: ${di.amanta ? di.amanta.gondi : ''} | नक्षत्र: ${di.nakName} | सूर्योदय ${di.sunrise}` + (fests.length ? ' | पर्व: ' + fests.map(f => f.deva).join(', ') : '');
+      (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => toast('कॉपी हो गया')).catch(() => toast(txt));
+    };
+    $('#day-panch').onclick = () => { state.sel = key; closeSheet(); setTab('panchang'); };
+  }
+
+  function festCardHTML(f, year) {
+    const ruleTxt = f.comm ? 'स्मृति दिवस' : f.fixed ? f.fixed[1] + ' ' + HI_MONTHS[f.fixed[0] - 1]
+      : f.month ? ({ S: 'शुक्ल', K: 'कृष्ण' })[f.paksha] + ' ' + f.tithi + ' · ' + (E.LUNAR_DEVA[E.LUNAR.indexOf(f.month)]) : (f.greg_hint || '');
+    const pin = (X.map_pins || []).find(p => f.id === 'maha-shivratri' && p.id === 'kachargarh' || f.id === 'keslapur-jatra' && p.id === 'keslapur' || f.id === 'medaram-jatra' && p.id === 'medaram' || f.id === 'bastar-dussehra' && p.id === 'jagdalpur' || f.id === 'garha' && p.id === 'garha-mandla');
+    let h = `<div class="fest-card">
+      <h4>${esc(f.deva)} ${f.comm ? '<span class="badge comm">स्मृति</span>' : (isGond(f) ? '<span class="badge gond">गोंड पर्व</span>' : '<span class="badge gen">पंचांग</span>')}</h4>
+      <div class="muted small">${esc(f.meaning || f.note || '')}</div>
+      <div class="small" style="margin-top:4px"><b>तिथि-नियम:</b> ${esc(ruleTxt)}${f.greg_hint ? ' · ' + esc(f.greg_hint) : ''}</div>`;
+    if (f.story) h += `<div class="small" style="margin-top:4px"><b>कथा/विवरण:</b> ${esc(f.story)}</div>`;
+    if (f.ritual) h += `<div class="small" style="margin-top:4px"><b>अनुष्ठान:</b> ${esc(f.ritual)}</div>`;
+    if (f.region) h += `<div class="small" style="margin-top:4px"><b>क्षेत्र:</b> ${esc(f.region)}</div>`;
+    if (f.variants && f.variants.length) h += f.variants.map(v => `<div class="small" style="margin-top:4px;color:#86198f"><b>क्षेत्रीय रूप:</b> ${esc(v.note)}${v.month ? ' (' + v.month + ' ' + (v.paksha === 'S' ? 'शुक्ल' : 'कृष्ण') + ' ' + v.tithi + ')' : ''}</div>`).join('');
+    if (f.verify) h += `<div class="small" style="margin-top:4px"><span class="flag">फील्ड-सत्यापन</span> ${esc(f.verify_note || 'समुदाय से पुष्टि आवश्यक')}</div>`;
+    if (f.source) h += `<div class="src">स्रोत: ${esc(f.source)}</div>`;
+    if (pin) h += `<button class="btn ghost small" data-pin="${pin.id}" style="margin-top:8px">📍 नक्शे पर देखें — ${esc(pin.deva)}</button>`;
+    h += '</div>';
+    return h;
+  }
+
+  /* ---------- festivals tab ---------- */
+  function renderFestivals() {
+    const F = festivals();
+    $('#fest-title').innerHTML = `पर्व एवं त्योहार — ${state.year} <button class="chip" id="fest-prev">◀</button><button class="chip" id="fest-next">▶</button>`;
+    $('#fest-prev').onclick = () => { state.year--; syncYearSel(); renderAll(); };
+    $('#fest-next').onclick = () => { state.year++; syncYearSel(); renderAll(); };
+
+    const filters = [['all', 'सभी'], ['gond', 'गोंड पर्व'], ['gen', 'पंचांग'], ['comm', 'स्मृति दिवस']];
+    $('#fest-filters').innerHTML = filters.map(([k, l]) => `<button class="chip ${state.festFilter === k ? 'active' : ''}" data-f="${k}">${l}</button>`).join('');
+    $$('#fest-filters .chip').forEach(b => b.onclick = () => { state.festFilter = b.dataset.f; renderFestivals(); });
+
+    // seasons
+    $('#fest-seasons').innerHTML = '<h3>मौसमी पर्व-चक्र</h3>' + F.seasons.map(s => `
+      <div class="fest-item" style="cursor:default">
+        <div class="fest-date" style="background:#fae8ff"><div class="dd">🎪</div><div class="mm">मौसम</div></div>
+        <div class="fest-t"><b>${esc(s.fest.deva)}</b> <span class="badge season">मौसमी</span>
+        <div class="rule">${fmtKey(s.start)} → ${fmtKey(s.end)}</div>
+        <div class="small" style="margin-top:3px">${esc(s.fest.story || '')}</div>
+        ${s.fest.source ? `<div class="src">स्रोत: ${esc(s.fest.source)}</div>` : ''}</div></div>`).join('');
+
+    // list
+    const f = state.festFilter;
+    const items = F.list.filter(x => f === 'all' ? true : f === 'comm' ? x.fest.comm : f === 'gond' ? (!x.fest.comm && isGond(x.fest)) : (!x.fest.comm && !isGond(x.fest)));
+    let html = '', lastM = '';
+    for (const it of items) {
+      if (it.m !== lastM) { html += `<h3 style="color:#7c2d12;margin:10px 0 2px">${HI_MONTHS[it.m - 1]} ${it.y !== state.year ? it.y : ''}</h3>`; lastM = it.m; }
+      html += `<div class="fest-item" data-i="${items.indexOf(it)}">
+        <div class="fest-date"><div class="dd">${it.d}</div><div class="mm">${HI_MONTHS_S[it.m - 1]}</div></div>
+        <div class="fest-t"><b>${esc(it.fest.deva)}</b> ${it.fest.comm ? '<span class="badge comm">स्मृति</span>' : (isGond(it.fest) ? '<span class="badge gond">गोंड</span>' : '<span class="badge gen">पंचांग</span>')}
+          ${it.fest.verify ? '<span class="flag">सत्यापन</span>' : ''}
+          <div class="rule">${esc(it.fest.meaning || '')}</div></div></div>
+        <div class="fest-detail" id="fd-${items.indexOf(it)}">${festCardHTML(it.fest, it.y)}
+          <button class="btn ghost small" data-cal="${it.date}">📅 कैलेंडर में देखें</button></div>`;
+    }
+    $('#fest-list').innerHTML = html || '<p class="muted">कोई पर्व नहीं।</p>';
+    $$('#fest-list .fest-item').forEach(elx => elx.onclick = e => {
+      if (e.target.closest('button')) return;
+      const det = $('#fd-' + elx.dataset.i);
+      det.classList.toggle('open');
+    });
+    $$('#fest-list [data-cal]').forEach(b => b.onclick = () => { state.sel = b.dataset.cal; const [yy, mm] = b.dataset.cal.split('-').map(Number); state.year = yy; state.month = mm; syncYearSel(); setTab('calendar'); openDay(b.dataset.cal); });
+    $$('#fest-list [data-pin], #fest-seasons [data-pin]').forEach(b => b.onclick = () => { setTab('map'); setTimeout(() => openPin(b.dataset.pin), 60); });
+
+    // announce
+    const ann = X.festivals.filter(x => x.type === 'announce');
+    $('#fest-announce').innerHTML = ann.map(a => `
+      <div class="fest-item" style="cursor:default"><div class="fest-date" style="background:#e0f2fe"><div class="dd">📣</div><div class="mm">घोषित</div></div>
+      <div class="fest-t"><b>${esc(a.deva)}</b> ${a.verify ? '<span class="flag">सत्यापन</span>' : ''}
+      <div class="rule">${esc(a.greg_hint || '')}</div>
+      <div class="small" style="margin-top:3px">${esc(a.story || '')}</div>
+      <div class="src">स्रोत: ${esc(a.source || '')}</div></div></div>`).join('');
+  }
+
+  /* ---------- panchang tab ---------- */
+  function renderPanchang() {
+    const di = diOf(state.sel);
+    const c = cityOf();
+    $('#panch-date-lbl').textContent = '· ' + fmtKey(state.sel) + ' · ' + c.name;
+    $('#moon-svg').innerHTML = moonSVG(di.phase, 44);
+    $('#panch-tithi').textContent = di.tithi === di.tithiName ? di.tithi : di.tithi + ' (' + di.tithiName + ')';
+    $('#panch-phase').textContent = di.phaseName;
+    $('#panch-gondi-tithi').innerHTML = 'गोंडी: ' + di.gondiTithi + ' · ' + (di.amanta ? di.amanta.gondi : '');
+    const solar = D.months_solar_gondi_variantA.list[di.solarGondiIdx];
+    const cells = [
+      ['गोंडी चंद्र माह', (di.amanta ? di.amanta.gondi : '—') + (di.amanta && di.amanta.adhika ? ' <span class="flag">धोंडा</span>' : '')],
+      ['अमांत / पूर्णिमांत', (di.amanta ? di.amanta.deva : '') + ' / ' + di.purnimanta.deva],
+      ['गोंडी सौर माह', `<span class="gon">${solar.masram}</span> ${solar.deva}`],
+      ['नक्षत्र', di.nakName],
+      ['सूर्य राशि', di.rashiName + (X.rashis[di.rashi].gondi ? ' · ' + X.rashis[di.rashi].gondi : '')],
+      ['ऋतु', di.rituName],
+      ['सूर्योदय', di.sunrise || '—'],
+      ['सूर्यास्त', di.sunset || '—']
+    ];
+    $('#panch-grid').innerHTML = cells.map(([l, v]) => `<div class="panch-cell"><div class="lbl">${l}</div><div class="val">${v}</div></div>`).join('');
+
+    const evs = E.lunarEventsForYear(state.year, c);
+    $('#lunar-events').innerHTML = '<table class="simple"><tr><th>तिथि</th><th>माह (अमांत)</th><th>गोंडी माह</th></tr>' +
+      evs.map(e => { const [y, m, d] = e.key.split('-').map(Number); return `<tr><td>${d} ${HI_MONTHS_S[m - 1]} — ${e.type === 'अमावस्या' ? '🌑 अमावस' : '🌕 पूनम'}</td><td>${e.month ? e.month.deva : ''}</td><td>${e.month ? e.month.gondi : ''}</td></tr>`; }).join('') + '</table>';
+
+    const ecl = X.eclipses;
+    $('#eclipse-list').innerHTML = ecl.map(e => {
+      const past = e.date < E.dateKey(today.getFullYear(), today.getMonth() + 1, today.getDate());
+      return `<div class="fest-item" style="cursor:default;${past ? 'opacity:.45' : ''}">
+        <div class="fest-date" style="background:#e0e7ff"><div class="dd">${e.date.slice(8)}</div><div class="mm">${HI_MONTHS_S[+e.date.slice(5, 7) - 1]} ${e.date.slice(0, 4)}</div></div>
+        <div class="fest-t"><b>${esc(e.type)}</b><div class="rule">${esc(e.visible)} · स्रोत: ${esc(e.source)}</div></div></div>`;
+    }).join('');
+  }
+
+  /* ---------- map tab ---------- */
+  const MAP = { x0: 74.5, y0: 26.5, s: 80, w: 880, h: 800 };
+  const px = lon => (lon - MAP.x0) * MAP.s;
+  const py = lat => (MAP.y0 - lat) * MAP.s;
+  const ZONE_SHAPES = {
+    north: [[79.2,23.7],[81.2,23.5],[81.4,22.2],[80.6,21.4],[79.4,21.5],[78.8,22.0],[78.6,22.9]],
+    west: [[76.9,22.7],[78.7,22.9],[78.8,22.0],[79.4,21.5],[79.2,20.8],[77.8,21.0],[76.8,21.6]],
+    south: [[78.0,20.9],[79.4,21.5],[80.6,21.4],[80.6,19.8],[80.2,18.4],[78.8,18.1],[77.9,19.3]],
+    east: [[80.6,22.7],[82.8,22.9],[84.6,21.6],[84.9,19.4],[83.2,18.1],[81.0,17.8],[80.2,18.4],[80.6,19.8],[81.4,22.2]]
+  };
+  const RIVERS = {
+    'नर्मदा': [[81.75,22.67],[81.0,22.9],[80.4,22.95],[79.9,23.16],[79.0,22.9],[78.2,22.7],[77.7,22.75],[76.8,22.3],[76.0,21.9]],
+    'गोदावरी': [[77.9,19.7],[78.4,19.4],[78.7,19.0],[79.2,18.7],[80.0,18.5],[80.9,18.2],[81.8,17.8]],
+    'वैनगंगा': [[80.4,21.0],[80.2,21.5],[80.18,21.81],[80.0,22.1],[79.9,22.4],[80.1,22.7],[80.35,23.0]]
+  };
+  const STATE_LABELS = [['मध्य प्रदेश',78.2,23.4],['छत्तीसगढ़',82.3,21.6],['महाराष्ट्र',78.2,20.4],['तेलंगाना',79.1,18.4],['ओडिशा',83.9,19.9]];
+  function renderMap() {
+    const c = cityOf();
+    $('#zone-toggle').innerHTML = X.zones.map(z => `<button class="chip ${state.zones.has(z.id) ? 'active' : ''}" data-z="${z.id}"><span class="sw" style="background:${z.color}"></span>${z.deva}</button>`).join('');
+    $$('#zone-toggle .chip').forEach(b => b.onclick = () => {
+      const z = b.dataset.z;
+      state.zones.has(z) ? state.zones.delete(z) : state.zones.add(z);
+      renderMap();
+    });
+
+    let svg = `<svg viewBox="0 0 ${MAP.w} ${MAP.h}" xmlns="http://www.w3.org/2000/svg">`;
+    svg += `<rect width="${MAP.w}" height="${MAP.h}" fill="#fdf3d8"/>`;
+    // zones
+    for (const z of X.zones) {
+      if (!state.zones.has(z.id)) continue;
+      const pts = ZONE_SHAPES[z.id].map(([lo, la]) => px(lo) + ',' + py(la)).join(' ');
+      svg += `<polygon points="${pts}" fill="${z.color}" opacity="0.10" stroke="${z.color}" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="7 5"/>`;
+    }
+    // rivers
+    for (const [nm, pts] of Object.entries(RIVERS)) {
+      const d = pts.map(([lo, la], i) => (i ? 'L' : 'M') + px(lo).toFixed(1) + ' ' + py(la).toFixed(1)).join(' ');
+      svg += `<path d="${d}" fill="none" stroke="#7db4d8" stroke-width="3.2" opacity="0.85" stroke-linecap="round"/>`;
+    }
+    // state labels
+    for (const [nm, lo, la] of STATE_LABELS) svg += `<text x="${px(lo)}" y="${py(la)}" font-size="15" fill="#a08a5e" font-weight="600" text-anchor="middle" font-family="sans-serif">${nm}</text>`;
+    // home city
+    svg += `<g><circle cx="${px(c.lon)}" cy="${py(c.lat)}" r="7" fill="#166534" stroke="#fff" stroke-width="2"/><text x="${px(c.lon) + 11}" y="${py(c.lat) + 5}" font-size="14" font-weight="800" fill="#166534" font-family="sans-serif">${c.name} (आपका क्षेत्र)</text></g>`;
+    // pins
+    for (const p of X.map_pins) {
+      if (!state.zones.has(p.zone)) continue;
+      const z = X.zones.find(zz => zz.id === p.zone);
+      const xx = px(p.lon), yy = py(p.lat);
+      svg += `<g class="pin" data-pin="${p.id}">
+        <path d="M${xx} ${yy + 2} c -9 -12 -13 -16 -13 -24 a 13 13 0 1 1 26 0 c 0 8 -4 12 -13 24z" fill="${z.color}" stroke="#fff" stroke-width="1.6"/>
+        <circle class="pin-dot" cx="${xx}" cy="${yy - 21}" r="5" fill="#fff" opacity=".95"/>
+        <text x="${xx}" y="${yy + 18}" font-size="12.5" text-anchor="middle" fill="#4a3a22" font-weight="700" font-family="sans-serif">${p.deva.split('(')[0]}</text>
+        <circle class="hit" cx="${xx}" cy="${yy - 14}" r="20"/></g>`;
+    }
+    svg += '</svg>';
+    $('#map-wrap').innerHTML = svg;
+    $$('#map-wrap .pin').forEach(elx => elx.onclick = () => openPin(elx.dataset.pin));
+
+    // zone info
+    $('#zone-info').innerHTML = X.zones.filter(z => state.zones.has(z.id)).map(z => `
+      <div class="card" style="border-left:6px solid ${z.color}">
+        <h3 style="color:${z.color}">${z.deva} <span class="muted small">${z.name}</span></h3>
+        <dl class="kv">
+          <dt>राज्य/क्षेत्र</dt><dd>${esc(z.states)}</dd>
+          <dt>प्रमुख जिले</dt><dd>${esc(z.districts)}</dd>
+          <dt>बोली</dt><dd>${esc(z.dialects)}</dd>
+          <dt>लिपि-क्षेत्र</dt><dd>${esc(z.script)}</dd>
+          <dt>त्योहार</dt><dd>${esc(z.festivals)}</dd>
+          <dt>पहनावा</dt><dd>${esc(z.attire)}</dd>
+          <dt>देवता</dt><dd>${esc(z.deities)}</dd>
+          <dt>संगीत/नृत्य</dt><dd>${esc(z.music)}</dd>
+        </dl>
+        ${z.note ? `<div class="src">${esc(z.note)}</div>` : ''}
+      </div>`).join('');
+
+    // pin list
+    $('#pin-list').innerHTML = X.map_pins.map(p => {
+      const dist = E.haversine(c, p), dir = E.bearing(c, p);
+      return `<div class="fest-item" data-pin="${p.id}"><div class="fest-date" style="background:#e0f2fe"><div class="dd">📍</div><div class="mm">${dist} किमी</div></div>
+        <div class="fest-t"><b>${esc(p.deva)}</b> <span class="badge" style="background:${X.zones.find(z => z.id === p.zone).color}22;color:${X.zones.find(z => z.id === p.zone).color}">${esc(p.zone === 'north' ? 'उत्तर' : p.zone === 'west' ? 'पश्चिम' : p.zone === 'south' ? 'दक्षिण' : 'पूर्व')}</span>
+        <div class="rule">${esc(p.type)} · ${dir} दिशा में · ${esc(p.festivals)}</div></div></div>`;
+    }).join('');
+    $$('#pin-list .fest-item').forEach(elx => elx.onclick = () => openPin(elx.dataset.pin));
+  }
+  function openPin(id) {
+    const p = X.map_pins.find(z => z.id === id); if (!p) return;
+    const c = cityOf();
+    const z = X.zones.find(zz => zz.id === p.zone);
+    openSheet(`
+      <h3 style="color:${z.color};margin:0">${esc(p.deva)}</h3>
+      <div class="muted small">${esc(p.type)} · ${esc(z.deva)} ज़ोन · ${p.lat.toFixed(2)}°N, ${p.lon.toFixed(2)}°E (अनुमानित)</div>
+      <div class="fest-card" style="margin-top:10px"><h4>इतिहास</h4><div class="small">${esc(p.history)}</div></div>
+      <dl class="kv" style="margin-top:10px">
+        <dt>पर्व/मेला</dt><dd>${esc(p.festivals)}</dd>
+        <dt>देवता</dt><dd>${esc(p.deity)}</dd>
+        <dt>${esc(c.name)} से</dt><dd>${E.haversine(c, p)} किमी · ${E.bearing(c, p)} दिशा</dd>
+      </dl>
+      <div class="src">स्रोत: ${esc(p.source)}</div>
+      <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
+        <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}">🗺 Google Maps</a>
+        <button class="btn ghost" id="pin-dir">🧭 मेरी लोकेशन से दिशा</button>
+      </div><div id="pin-geo" class="small" style="margin-top:8px;color:var(--green)"></div>`);
+    $('#pin-dir').onclick = () => {
+      if (!navigator.geolocation) { $('#pin-geo').textContent = 'जियोलोकेशन उपलब्ध नहीं।'; return; }
+      navigator.geolocation.getCurrentPosition(pos => {
+        const me = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+        $('#pin-geo').innerHTML = `आपकी लोकेशन से: <b>${E.haversine(me, p)} किमी</b>, दिशा: <b>${E.bearing(me, p)}</b>`;
+      }, () => { $('#pin-geo').textContent = 'लोकेशन अनुमति नहीं मिली।'; });
+    };
+  }
+
+  /* ---------- learn tab ---------- */
+  function renderLearn() {
+    const CS = G.CHARSET;
+    const cell = ([gn, dv]) => `<div class="chart-cell"><span class="g">${gn}</span><span class="d">${dv}</span></div>`;
+    $('#ch-vowels').innerHTML = CS.vowels.map(cell).join('');
+    $('#ch-cons').innerHTML = [].concat(CS.ka, CS.ca, CS.tta, CS.ta, CS.pa, CS.ya, CS.conj).map(cell).join('');
+    $('#ch-matras').innerHTML = [].concat(CS.matra, CS.signs).map(cell).join('');
+    $('#ch-digits').innerHTML = CS.digits.map(cell).join('');
+
+    // converter
+    const runConv = () => {
+      const v = $('#conv-in').value;
+      $('#conv-out').textContent = state.convDir === 1 ? G.convert(v) : G.convertReverse(v);
+    };
+    $('#conv-in').oninput = runConv; runConv();
+    $('#conv-copy').onclick = () => (navigator.clipboard ? navigator.clipboard.writeText($('#conv-out').textContent) : Promise.reject()).then(() => toast('कॉपी हो गया')).catch(() => toast('कॉपी विफल'));
+    $('#conv-rev').onclick = () => { state.convDir = 3 - state.convDir; $('#conv-rev').textContent = state.convDir === 1 ? 'मसराम → देवनागरी' : 'देवनागरी → मसराम'; runConv(); };
+
+    // numbers
+    const runNum = () => { $('#num-out').textContent = E.gondiDigits($('#num-in').value || '0'); };
+    $('#num-in').oninput = runNum; runNum();
+    const nw = D.numerals.words_1_to_10, nd = D.numerals.words_deva;
+    $('#num-rule').innerHTML = '1–10: ' + nw.map((w, i) => `${nd[i]} (${w})`).join(', ') + ' · <b>' + esc(D.numerals.compound_rule) + '</b>';
+
+    // weekdays
+    $('#learn-weekdays').innerHTML = '<table class="simple"><tr><th>गोंडी</th><th>मसराम</th><th>हिंदी</th><th>English</th></tr>' +
+      D.weekdays.map(w => `<tr><td>${esc(w.gondi)}</td><td class="gon" style="font-size:1.05rem">${w.masram || ''}</td><td>${esc(w.hindi)}</td><td>${esc(w.english)}</td></tr>`).join('') + '</table>' +
+      `<p class="muted small">${esc(D.weekday_note || '')}</p>`;
+
+    // months
+    $('#learn-months').innerHTML = '<table class="simple"><tr><th>#</th><th>गोंडी माह</th><th>हिंदी (अमांत)</th><th>≈ अंग्रेज़ी</th><th>मुख्य पर्व</th></tr>' +
+      X.gondi_month_map.map.map((mm, i) => `<tr><td>${i + 1}</td><td><b>${esc(mm.gondi_deva)}</b> <span class="muted">${esc(mm.gondi)}</span></td><td>${esc(mm.deva)}</td><td>${esc(mm.greg)}</td><td class="small">${esc(mm.zone_festival)}</td></tr>`).join('') + '</table>' +
+      `<p class="muted small">${esc(X.gondi_month_map.note)}</p>`;
+    $('#learn-solar-months').innerHTML = '<table class="simple"><tr><th>अंग्रेज़ी</th><th>मसराम</th><th>गोंडी सौर माह</th></tr>' +
+      D.months_solar_gondi_variantA.list.map(s => `<tr><td>${esc(s.greg)}</td><td class="gon" style="font-size:1.05rem">${s.masram || ''}</td><td>${esc(s.deva)} (${esc(s.gondi)})</td></tr>`).join('') + '</table>';
+
+    // terms
+    const t = D.calendar_terms;
+    $('#learn-terms').innerHTML = '<table class="simple"><tr><th>अवधारणा</th><th>गोंडी</th><th>हिंदी/अर्थ</th></tr>' +
+      Object.entries(t).map(([k, v]) => `<tr><td>${esc(k.replace(/_/g, ' '))}</td><td><b>${esc(v.gondi || '')}</b> <span class="muted">${esc(v.deva || '')}</span></td><td class="small">${esc(v.meaning || v.hindi || v.date_rule || v.rule || '')}</td></tr>`).join('') + '</table>';
+
+    $('#learn-astro').innerHTML = '<table class="simple"><tr><th>गोंडी शब्द</th><th>अर्थ</th></tr>' +
+      D.astronomy_terms.map(a => `<tr><td><b>${esc(a.term)}</b></td><td>${esc(a.meaning)}</td></tr>`).join('') + '</table>';
+
+    const cu = D.culture_layer;
+    $('#learn-culture').innerHTML = `
+      <p><b>अभिवादन:</b> पुकार — <b>${esc(cu.greeting.call)}</b> · उत्तर — <b>${esc(cu.greeting.reply)}</b></p>
+      <p><b>देवी-देवता (${cu.deities.length}):</b> ${cu.deities.map(esc).join(' · ')}</p>
+      <p><b>गोत्र:</b> परंपरागत दावा — ${cu.gotras.count_claimed} गोत्र; देवगढ़-मानचित्र: ${Object.entries(cu.gotras.devgarh_map).map(([k, v]) => k + '=' + v).join(', ')}</p>
+      <p><b>गोत्र नाम (नमूना):</b> ${cu.gotras.sample_names.map(esc).join(', ')}…</p>
+      <p><b>गोंडी राशि-नाम (आंशिक):</b> ${Object.entries(cu.zodiac_gondi_partial).map(([k, v]) => k + '=' + v).join(', ')} <span class="flag">शेष फील्ड-सत्यापन</span></p>
+      <p><b>प्रतीक:</b> ${cu.symbols.map(esc).join(' · ')}</p>
+      <p><b>ढेम्सा नृत्य (${cu.music_dance.dhemsa_16.length}):</b> ${cu.music_dance.dhemsa_16.map(esc).join(', ')}</p>
+      <p><b>वाद्य (${cu.music_dance.vadya_18.length}):</b> ${cu.music_dance.vadya_18.map(esc).join(', ')}</p>`;
+
+    $('#learn-timeline').innerHTML = X.timeline.map(t2 => `<div class="tl-item"><div class="yr">${esc(t2.year)}</div><div class="ev">${esc(t2.event)}</div></div>`).join('');
+
+    $('#learn-sentences').innerHTML = cu.sample_sentences.map(s => `<p class="small" style="border-bottom:1px dashed var(--line);padding:5px 0;margin:0">${esc(s)}</p>`).join('');
+  }
+
+  /* ---------- महापुरुष (Heroes database) ---------- */
+  const CAT_META = {
+    freedom:    { hi: 'स्वतंत्रता संग्राम', c: '#b4531a' },
+    collective: { hi: 'सामूहिक शहादत',     c: '#8a1f1f' },
+    military:   { hi: 'सेना के वीर',        c: '#123f2a' },
+    governance: { hi: 'शासन-प्रशासन',      c: '#1d3f6e' },
+    education:  { hi: 'शिक्षा',             c: '#0f5132' },
+    literature: { hi: 'साहित्य',            c: '#6d28d9' },
+    art:        { hi: 'कला',                c: '#9d174d' },
+    language:   { hi: 'भाषा-लिपि',          c: '#b45309' },
+    sports:     { hi: 'खेल',                c: '#0e7490' }
+  };
+  const TAG_LBL = {
+    shahid: 'शहीद', women: 'महिला', first_woman: 'प्रथम महिला', first: 'प्रथम', icon: 'आइकन',
+    gond: 'गोंड', olympic_medal: 'ओलंपिक पदक', asian_gold: 'एशियाई स्वर्ण', cwg_gold: 'CWG स्वर्ण',
+    pvc: 'परमवीर चक्र', padma_vibhushan: 'पद्म विभूषण', padma_bhushan: 'पद्म भूषण', padma_shri: 'पद्म श्री',
+    script_creator: 'लिपि निर्माता', hockey: 'हॉकी', archery: 'तीरंदाजी', warli: 'वारली', bhil: 'भील',
+    tragic: 'दुखद निधन', ips: 'IPS', publisher: 'प्रकाशक', poet: 'कवि', captain: 'कप्तान'
+  };
+  let heroFilter = 'all', heroQuery = '';
+  function heroOfTheDay() {
+    const now = new Date(), y = now.getFullYear();
+    const doy = Math.floor((now - new Date(y, 0, 0)) / 864e5);
+    return H.persons[doy % H.persons.length];
+  }
+  function heroYears(p) {
+    const b = (p.birth || '').slice(0, 4) || '?', d = (p.death || '').slice(0, 4);
+    return p.death ? (b + '–' + d) : (p.birth ? ('जन्म ' + b) : '');
+  }
+  function heroCard(p) {
+    const cm = CAT_META[p.category] || { hi: p.category, c: '#57421a' };
+    const tags = (p.tags || []).slice(0, 3).map(t => `<span class="htag">${esc(TAG_LBL[t] || t)}</span>`).join('');
+    const ach = (p.first_achievement || '').length > 92 ? esc(p.first_achievement).slice(0, 92) + '…' : esc(p.first_achievement || '');
+    return `<button class="hero-card" data-id="${p.id}">
+      <span class="hero-init" style="background:${cm.c}18;color:${cm.c}">${esc((p.name_hi || '?').slice(0, 1))}</span>
+      <span class="hero-body">
+        <span class="hero-name">${esc(p.name_hi)}${p.verify ? ' <span class="warn-dot" title="सत्यापन शेष">⚠</span>' : ''}</span>
+        <span class="hero-sub">${esc(p.name_en || '')} · ${heroYears(p)}</span>
+        <span class="hero-tribe">${esc(p.tribe_hi || '')} — ${esc(p.state || '')}${p.district ? ', ' + esc(p.district) : ''}</span>
+        <span class="hero-ach">${ach}</span>
+        <span class="hero-tags"><span class="hero-cat" style="background:${cm.c}">${cm.hi}</span>${tags}</span>
+      </span></button>`;
+  }
+  function renderHeroes() {
+    const p = heroOfTheDay(), cm = CAT_META[p.category] || { hi: p.category, c: '#57421a' };
+    $('#hero-of-day').innerHTML = `<p class="muted" style="letter-spacing:.1em;font-size:.72rem">✦ आज का नायक / नायिका</p>
+      <h3 style="margin:2px 0 4px">${esc(p.name_hi)} <span class="muted" style="font-size:.8rem">${esc(p.name_en || '')}</span></h3>
+      <p class="small" style="margin:0 0 6px"><b style="color:${cm.c}">${cm.hi}</b> · ${esc(p.tribe_hi || '')} · ${esc(p.state || '')}${p.district ? ' (' + esc(p.district) + ')' : ''}</p>
+      <p style="margin:0 0 8px">${esc(p.first_achievement || '')}</p>
+      <button class="btn" id="hod-more">पूरी कहानी पढ़ें</button>`;
+    $('#hod-more').onclick = () => openHero(p);
+
+    const counts = { all: H.persons.length };
+    H.persons.forEach(q => counts[q.category] = (counts[q.category] || 0) + 1);
+    let chips = `<button class="chip ${heroFilter === 'all' ? 'active' : ''}" data-f="all">सभी (${counts.all})</button>`;
+    for (const k in CAT_META) if (counts[k]) chips += `<button class="chip ${heroFilter === k ? 'active' : ''}" data-f="${k}">${CAT_META[k].hi} (${counts[k]})</button>`;
+    const fl = $('#hero-filters'); fl.innerHTML = chips;
+    $$('#hero-filters .chip').forEach(b => b.onclick = () => { heroFilter = b.dataset.f; renderHeroes(); });
+
+    const se = $('#hero-search');
+    se.value = heroQuery;
+    se.oninput = () => { heroQuery = se.value.trim().toLowerCase(); drawHeroGrid(); };
+    drawHeroGrid();
+  }
+  function drawHeroGrid() {
+    let list = H.persons.slice();
+    if (heroFilter !== 'all') list = list.filter(p => p.category === heroFilter);
+    if (heroQuery) list = list.filter(p => (
+      [p.name_hi, p.name_en, p.tribe_hi, p.state, p.district, (p.tags || []).join(' '), p.first_achievement]
+        .join(' ').toLowerCase().includes(heroQuery)
+    ));
+    $('#hero-count').textContent = `${list.length} / ${H.persons.length} व्यक्ति — स्टार्टर डेटाबेस, विस्तार जारी (लक्ष्य 1000+)`;
+    $('#hero-grid').innerHTML = list.map(heroCard).join('');
+    $$('#hero-grid .hero-card').forEach(el => el.onclick = () => {
+      const p = H.persons.find(q => q.id === el.dataset.id); openHero(p);
+    });
+  }
+  function openHero(p) {
+    const cm = CAT_META[p.category] || { hi: p.category, c: '#57421a' };
+    const rows = [
+      ['श्रेणी', `<b style="color:${cm.c}">${cm.hi}</b>`],
+      ['जनजाति', esc(p.tribe_hi || '') + (p.tribe ? ` (${esc(p.tribe)})` : '')],
+      ['राज्य / जिला', esc(p.state || '') + (p.district ? ' — ' + esc(p.district) : '')],
+      ['जन्म', esc(p.birth || 'अज्ञात')],
+      ['निधन', p.death ? esc(p.death) : '—']
+    ];
+    let extra = '';
+    if (p.medals) extra += `<p><b>पदक:</b> ${esc(p.medals)}</p>`;
+    if (p.awards) extra += `<p><b>सम्मान:</b> ${esc(p.awards)}</p>`;
+    if (p.memorial) extra += `<p><b>स्मारक:</b> ${esc(p.memorial)}</p>`;
+    const tags = (p.tags || []).map(t => `<span class="htag">${esc(TAG_LBL[t] || t)}</span>`).join(' ');
+    openSheet(`
+      <p class="muted small" style="letter-spacing:.12em">${esc(p.name_en || '')}</p>
+      <h3 style="margin:2px 0 6px">${esc(p.name_hi)}</h3>
+      <div class="hero-tags" style="margin-bottom:8px">${tags}</div>
+      <div class="kv">${rows.map(r => `<dt>${r[0]}</dt><dd>${r[1]}</dd>`).join('')}</div>
+      <p><b>उपलब्धि:</b> ${esc(p.first_achievement || '')}</p>
+      <p>${esc(p.bio || '')}</p>${extra}
+      ${p.photo ? `<img src="${esc(p.photo)}" style="width:100%;border-radius:10px" alt="${esc(p.name_hi)}">` : '<p class="muted small">📷 फ़ोटो नीति: केवल पब्लिक-डोमेन / CC-लाइसेंस छवि ही जोड़ी जाएगी — अभी संलग्न नहीं।</p>'}
+      ${p.verify ? `<p class="warn small">⚠ ${esc(p.verify_note || 'कुछ तथ्यों का सत्यापन शेष')}</p>` : ''}
+      <div class="src"><b>स्रोत:</b><br>${(p.sources || []).map(s => esc(s)).join('<br>')}</div>`);
+  }
+
+  /* ---------- स्थल-कोश (Places + GPS) ---------- */
+  const PLACE_CAT = {
+    dharmik:    { hi: 'धार्मिक/दर्शनीय', c: '#8a5a10' },
+    shahid:     { hi: 'शहीदी स्थल',     c: '#8a1f1f' },
+    smarak:     { hi: 'स्मारक',          c: '#1d3f6e' },
+    aitihasik:  { hi: 'ऐतिहासिक',       c: '#123f2a' }
+  };
+  const GPS_PREC = { exact: 'सटीक', approximate: 'अनुमानित', 'city-level': 'शहर-स्तरीय', 'region-level': 'क्षेत्र-स्तरीय', 'district-level': 'जिला-स्तरीय' };
+  let placeFilter = 'all', placeQuery = '';
+  function placeDist(p) { const c = cityOf(); return (c && c.lat) ? E.haversine(c, p) : null; }
+  function placeCard(p) {
+    const cm = PLACE_CAT[p.category] || { hi: p.category, c: '#57421a' };
+    const d = placeDist(p);
+    const sig = esc(p.significance || '');
+    return `<button class="hero-card" data-id="${p.id}">
+      <span class="hero-init" style="background:${cm.c}18;color:${cm.c}">📍</span>
+      <span class="hero-body">
+        <span class="hero-name">${esc(p.name_hi)}${p.verify ? ' <span class="warn-dot" title="सत्यापन शेष">⚠</span>' : ''}</span>
+        <span class="hero-sub">${esc(p.state || '')}${p.district ? ' · ' + esc(p.district) : ''}${p.year ? ' · ' + esc(String(p.year)) : ''}${d != null ? ' · 📏 ' + d + ' किमी' : ''}</span>
+        <span class="hero-ach">${sig.length > 100 ? sig.slice(0, 100) + '…' : sig}</span>
+        <span class="hero-tags"><span class="hero-cat" style="background:${cm.c}">${cm.hi}</span><span class="htag">📍 ${GPS_PREC[p.gps_precision] || p.gps_precision}</span>${p.tribes && p.tribes !== '—' ? '<span class="htag">' + esc(p.tribes) + '</span>' : ''}</span>
+      </span></button>`;
+  }
+  function renderPlaces() {
+    const counts = { all: PL.places.length };
+    PL.places.forEach(q => counts[q.category] = (counts[q.category] || 0) + 1);
+    let chips = `<button class="chip ${placeFilter === 'all' ? 'active' : ''}" data-f="all">सभी (${counts.all})</button>`;
+    for (const k in PLACE_CAT) if (counts[k]) chips += `<button class="chip ${placeFilter === k ? 'active' : ''}" data-f="${k}">${PLACE_CAT[k].hi} (${counts[k]})</button>`;
+    const fl = $('#place-filters'); fl.innerHTML = chips;
+    $$('#place-filters .chip').forEach(b => b.onclick = () => { placeFilter = b.dataset.f; renderPlaces(); });
+    const se = $('#place-search');
+    se.value = placeQuery;
+    se.oninput = () => { placeQuery = se.value.trim().toLowerCase(); drawPlaceGrid(); };
+    drawPlaceGrid();
+  }
+  function drawPlaceGrid() {
+    let list = PL.places.slice();
+    if (placeFilter !== 'all') list = list.filter(p => p.category === placeFilter);
+    if (placeQuery) list = list.filter(p => (
+      [p.name_hi, p.name_en, p.state, p.district, p.tribes, p.significance].join(' ').toLowerCase().includes(placeQuery)
+    ));
+    list.sort((a, b) => (a.state || '').localeCompare(b.state || '', 'hi') || (a.name_hi || '').localeCompare(b.name_hi || '', 'hi'));
+    $('#place-count').textContent = `${list.length} / ${PL.places.length} स्थल — चुने गए क्षेत्र (${cityOf().name}) से दूरी सहित`;
+    $('#place-grid').innerHTML = list.map(placeCard).join('');
+    $$('#place-grid .hero-card').forEach(el => el.onclick = () => {
+      const p = PL.places.find(q => q.id === el.dataset.id); openPlace(p);
+    });
+  }
+  function openPlace(p) {
+    const cm = PLACE_CAT[p.category] || { hi: p.category, c: '#57421a' };
+    const d = placeDist(p), dir = d != null ? E.bearing(cityOf(), p) : '';
+    const rows = [
+      ['श्रेणी', `<b style="color:${cm.c}">${cm.hi}</b>`],
+      ['राज्य / जिला', esc(p.state || '') + (p.district ? ' — ' + esc(p.district) : '')],
+      ['जनजाति-संबंध', esc(p.tribes || '—')],
+      ['वर्ष/घटना', esc(p.year || '—')],
+      ['GPS', `<span class="gps-mono">${p.lat}, ${p.lon}</span> (${GPS_PREC[p.gps_precision] || p.gps_precision})`],
+      [cityOf().name + ' से', d != null ? (d + ' किमी · ' + dir + ' दिशा') : '—']
+    ];
+    openSheet(`
+      <p class="muted small" style="letter-spacing:.12em">${esc(p.name_en || '')}</p>
+      <h3 style="margin:2px 0 8px">${esc(p.name_hi)}</h3>
+      <div class="kv">${rows.map(r => `<dt>${r[0]}</dt><dd>${r[1]}</dd>`).join('')}</div>
+      <p style="margin-top:8px">${esc(p.significance || '')}</p>
+      <p style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">
+        <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps?q=${p.lat},${p.lon}">🗺️ Google Maps पर खोलें</a>
+        ${p.map_pin_id ? `<button class="btn ghost" data-pin="${p.map_pin_id}">ऐप-नक्शे पर पिन</button>` : ''}
+      </p>
+      ${p.verify ? `<p class="warn small">⚠ ${esc(p.verify_note || 'फ़ील्ड-सत्यापन शेष')}</p>` : ''}
+      <div class="src"><b>स्रोत:</b><br>${(p.sources || []).map(x => esc(x)).join('<br>')}</div>`);
+  }
+
+  /* ---------- sheet ---------- */
+  function openSheet(html) { $('#sheet-body').innerHTML = html; $('#sheet-back').classList.add('open'); document.body.style.overflow = 'hidden'; bindSheetPins(); }
+  function closeSheet() { $('#sheet-back').classList.remove('open'); document.body.style.overflow = ''; }
+  function bindSheetPins() {
+    $$('#sheet-body [data-pin]').forEach(b => b.onclick = () => { closeSheet(); setTab('map'); setTimeout(() => openPin(b.dataset.pin), 80); });
+  }
+  $('#sheet-back').addEventListener('click', e => { if (e.target === $('#sheet-back')) closeSheet(); });
+
+  /* ---------- notifications ---------- */
+  function setupNotify() {
+    $('#btn-notify').onclick = async () => {
+      if (!('Notification' in window)) { toast('इस ब्राउज़र में नोटिफिकेशन समर्थित नहीं'); return; }
+      const perm = await Notification.requestPermission();
+      if (perm !== 'granted') { toast('अनुमति नहीं मिली — सेटिंग्स में नोटिफिकेशन चालू करें'); return; }
+      toast('🔔 रिमाइंडर चालू — ऐप खुला रहने पर पर्व-सूचनाएँ मिलेंगी');
+      checkNotify(true);
+      setInterval(checkNotify, 60000);
+    };
+  }
+  let lastNotified = '';
+  function checkNotify(force) {
+    if (!('Notification' in window) || Notification.permission !== 'granted') return;
+    const tm = new Date(Date.now() + 86400000);
+    const key = E.dateKey(tm.getFullYear(), tm.getMonth() + 1, tm.getDate());
+    if (key === lastNotified && !force) return;
+    const F = festivals();
+    const fests = F.byDate[key] || [];
+    const di = E.dayInfo(tm.getFullYear(), tm.getMonth() + 1, tm.getDate(), cityOf());
+    const bits = [];
+    if (fests.length) bits.push('कल: ' + fests.map(f => f.deva).join(', '));
+    if (di.isPurnima) bits.push('कल पूनम (पूर्णिमा) है');
+    if (di.isAmavasya) bits.push('कल अमावस है');
+    if (bits.length) { new Notification('गोंडवाना कैलेंडर 🪔', { body: bits.join(' · '), icon: 'icon-192.png' }); lastNotified = key; }
+  }
+
+  /* ---------- year select ---------- */
+  function buildYearSel() {
+    const ys = [];
+    for (let y = today.getFullYear() - 2; y <= today.getFullYear() + 3; y++) ys.push(y);
+    $('#cal-year').innerHTML = ys.map(y => `<option value="${y}" ${y === state.year ? 'selected' : ''}>${y} (${E.gondiDigits(y)})</option>`).join('');
+    $('#cal-year').onchange = () => { state.year = +$('#cal-year').value; renderAll(); };
+    syncYearSel();
+  }
+  function syncYearSel() { const s = $('#cal-year'); if (s) s.value = state.year; }
+
+  /* ---------- boot ---------- */
+  function renderAll() {
+    renderCalendar();
+    if (state.tab === 'festivals') renderFestivals();
+    if (state.tab === 'panchang') renderPanchang();
+    if (state.tab === 'map') renderMap();
+  }
+  function boot() {
+    buildNav(); buildHeader(); buildYearSel(); setupNotify();
+    $('#cal-prev').onclick = () => { state.month--; if (state.month < 1) { state.month = 12; state.year--; } syncYearSel(); renderCalendar(); };
+    $('#cal-next').onclick = () => { state.month++; if (state.month > 12) { state.month = 1; state.year++; } syncYearSel(); renderCalendar(); };
+    $('#cal-today').onclick = () => { const t = new Date(); state.year = t.getFullYear(); state.month = t.getMonth() + 1; state.sel = E.dateKey(state.year, state.month, t.getDate()); syncYearSel(); renderCalendar(); };
+    renderLearn();
+    renderAll();
+    // परत 1: सेल्फ-चेक (डेटा-अखंडता + इंजन anchor)
+    let validateReport = null;
+    if (window.GWValidate) {
+      try {
+        validateReport = window.GWValidate.run();
+        if (validateReport.failed > 0) {
+          console.warn('[सेल्फ-चेक] त्रुटियाँ:', validateReport.errors);
+          toast('⚠ डेटा-जाँच: ' + validateReport.failed + ' त्रुटि — विवरण कंसोल में');
+        } else if (validateReport.warnings.length) {
+          console.info('[सेल्फ-चेक] ' + validateReport.checks + ' जाँच पास · ' + validateReport.warnings.length + ' चेतावनी', validateReport.warnings);
+        } else {
+          console.info('[सेल्फ-चेक] सभी ' + validateReport.checks + ' जाँच पास ✓');
+        }
+      } catch (e) { console.warn('[सेल्फ-चेक] विफल:', e); }
+    }
+    // debug/test handle
+    window.__GW = { state, get validateReport() { return validateReport; }, renderFestivals, renderPanchang, renderMap, renderLearn, renderCalendar, renderHeroes, heroOfTheDay, openHero, renderPlaces, openPlace, openDay, openPin, festivals, diOf };
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+})();

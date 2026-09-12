@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>गोंडवाना कैलेंडर — Gondwana Calendar App</title>
+<meta name="description" content="गोंडवाना कैलेंडर: गोंडी माह, पंचांग, 100+ पर्व, मसराम गोंडी लिपि, देवस्थल नक्शा — सब एक जगह, ऑफलाइन।">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#7c2d12">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+
+  <header class="hero">
+    <div class="hero-top">
+      <div>
+        <h1>गोंडवाना कैलेंडर</h1>
+        <div class="sub"><span class="masram-name" id="hero-masram"></span> · ग्रेगोरियन + गोंडी + पंचांग — तीनों परतें एक साथ</div>
+      </div>
+      <div class="hero-right">
+        <button class="icon-btn" id="btn-notify" title="पर्व-रिमाइंडर">🔔</button>
+        <select class="hero-select" id="sel-region" title="क्षेत्र चुनें"></select>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ कैलेंडर ============ -->
+  <section class="tab active" id="tab-calendar">
+    <div class="cal-head">
+      <button class="icon-btn" id="cal-prev" style="background:#f3e8cf;color:#7c2d12;border-color:var(--line)">◀</button>
+      <div class="ym">
+        <b id="cal-ym"></b>
+        <span class="gon-year" id="cal-ym-gon"></span>
+        <div class="muted small" id="cal-ym-sub"></div>
+      </div>
+      <button class="icon-btn" id="cal-next" style="background:#f3e8cf;color:#7c2d12;border-color:var(--line)">▶</button>
+    </div>
+    <div style="text-align:center;margin-bottom:4px"><button class="chip" id="cal-today">⦿ आज</button>
+      <select class="chip" id="cal-year" style="border:1px solid var(--line)"></select></div>
+    <div class="monthband" id="monthband"></div>
+    <div class="wk-grid" id="wk-head"></div>
+    <div class="wk-grid" id="cal-grid" style="margin-top:4px"></div>
+    <div class="legend">
+      <span class="lg">गोंड पर्व</span><span class="lp">पंचांग पर्व</span><span class="lc">स्मृति दिवस</span>
+      <span style="color:var(--ink2)">🌑 अमावस · 🌕 पूनम</span>
+    </div>
+    <div class="card" id="upcoming-card"><h3>आगामी पर्व</h3><div id="upcoming"></div></div>
+  </section>
+
+  <!-- ============ पर्व ============ -->
+  <section class="tab" id="tab-festivals">
+    <h2 class="sec" id="fest-title">पर्व एवं त्योहार</h2>
+    <div id="fest-filters" style="margin:6px 2px"></div>
+    <div class="card" id="fest-seasons"></div>
+    <div class="card" id="fest-list"></div>
+    <div class="card"><h3>समुदाय-घोषित जतराएँ (तिथि वार्षिक घोषणा अनुसार)</h3><div id="fest-announce"></div></div>
+  </section>
+
+  <!-- ============ पंचांग ============ -->
+  <section class="tab" id="tab-panchang">
+    <h2 class="sec">पंचांग <span class="muted small" id="panch-date-lbl"></span></h2>
+    <div class="card">
+      <div class="moon-big">
+        <div id="moon-svg"></div>
+        <div>
+          <div style="font-weight:800;font-size:1.05rem" id="panch-tithi"></div>
+          <div class="muted small" id="panch-phase"></div>
+          <div class="small" id="panch-gondi-tithi" style="color:var(--saffron);font-weight:700"></div>
+        </div>
+      </div>
+    </div>
+    <div class="panch-grid" id="panch-grid"></div>
+    <div class="card"><h3>इस वर्ष की अमावस्या एवं पूर्णिमा</h3><div id="lunar-events"></div></div>
+    <div class="card"><h3>ग्रहण (स्रोत: NASA/GSFC)</h3><div id="eclipse-list"></div>
+      <div class="src">ग्रहण-सूची स्थैतिक है; सटीक दृश्यता-समय हेतु NASA पंचांग देखें।</div></div>
+  </section>
+
+  <!-- ============ नक्शा ============ -->
+  <section class="tab" id="tab-map">
+    <h2 class="sec">गोंडवाना देवस्थल एवं स्थल नक्शा</h2>
+    <div class="zone-toggle" id="zone-toggle"></div>
+    <div class="map-wrap" id="map-wrap"></div>
+    <p class="muted small" style="margin:6px 4px">⚠ यह योजनामूलक (schematic) नक्शा है — सर्वेक्षण-सटीक सीमाएँ नहीं। पिन-निर्देशांक अनुमानित हैं (फील्ड-सत्यापन सूची में)।</p>
+    <div id="zone-info"></div>
+    <div class="card" id="pin-list-card"><h3>सभी स्थल</h3><div id="pin-list"></div></div>
+  </section>
+
+  <!-- ============ सीखें ============ -->
+  <section class="tab" id="tab-learn">
+    <h2 class="sec">मसराम गोंडी लिपि</h2>
+    <div class="card conv-box">
+      <h3>देवनागरी → मसराम कन्वर्टर</h3>
+      <input id="conv-in" type="text" placeholder="हिंदी में लिखें… (जैसे: जय सेवा, गोंडवाना)" value="जय सेवा — गोंडवाना कैलेंडर">
+      <div class="conv-out" id="conv-out" style="margin-top:8px"></div>
+      <div style="margin-top:6px;display:flex;gap:8px;flex-wrap:wrap">
+        <button class="btn ghost small" id="conv-copy">कॉपी</button>
+        <button class="btn ghost small" id="conv-rev">मसराम → देवनागरी</button>
+        <a class="btn ghost small" id="mgboard-link" href="https://mgboard-web.pages.dev/" target="_blank" rel="noopener" style="text-decoration:none">⌨ MGboard खोलें</a>
+      </div>
+    </div>
+    <div class="card"><h3>स्वर (Vowels)</h3><div class="chart-grid" id="ch-vowels"></div></div>
+    <div class="card"><h3>व्यंजन (Consonants)</h3><div class="chart-grid" id="ch-cons"></div></div>
+    <div class="card"><h3>मात्राएँ एवं चिह्न</h3><div class="chart-grid" id="ch-matras"></div></div>
+    <div class="card"><h3>गोंडी अंक — संख्या कन्वर्टर</h3>
+      <div style="display:flex;gap:8px;align-items:center">
+        <input id="num-in" type="number" value="2026" style="flex:1;border:1.5px solid var(--line);border-radius:10px;padding:8px;font-size:1rem">
+        <div class="gon" id="num-out" style="font-size:1.6rem;color:var(--saffron)"></div>
+      </div>
+      <div class="chart-grid" id="ch-digits" style="margin-top:8px"></div>
+      <p class="muted small" id="num-rule"></p>
+    </div>
+    <div class="card"><h3>वार (सप्ताह के दिन)</h3><div id="learn-weekdays"></div></div>
+    <div class="card"><h3>गोंडी माह (चंद्र वर्ष — अखाडी से आरंभ)</h3><div id="learn-months"></div>
+      <p class="muted small">गोंड नववर्ष 'पूनल साल' = चैथ (चैत्र) शुक्ल 1। सौर माह-श्रृंखला (पदो मान…) नीचे:</p>
+      <div id="learn-solar-months"></div></div>
+    <div class="card"><h3>कैलेंडर शब्दावली</h3><div id="learn-terms"></div></div>
+    <div class="card"><h3>खगोल शब्दावली (गोंड खगोल-परंपरा)</h3><div id="learn-astro"></div></div>
+    <div class="card"><h3>देवी-देवता एवं संस्कृति</h3><div id="learn-culture"></div></div>
+    <div class="card"><h3>इतिहास टाइमलाइन</h3><div class="tl" id="learn-timeline"></div></div>
+    <div class="card"><h3>नमूना वाक्य एवं अभिवादन</h3><div id="learn-sentences"></div></div>
+  </section>
+
+  <!-- ============ महापुरुष ============ -->
+  <section class="tab" id="tab-heroes">
+    <h2 class="sec">आदिवासी महापुरुष एवं महांगनाएँ</h2>
+    <div class="card" id="hero-of-day"></div>
+    <div class="card">
+      <input id="hero-search" type="search" placeholder="🔍 खोजें: नाम, जनजाति, राज्य, जिला…" style="width:100%;border:1.5px solid var(--line);border-radius:10px;padding:9px 10px;font-family:var(--deva);font-size:.95rem">
+      <div id="hero-filters" style="margin-top:8px"></div>
+      <p class="muted small" id="hero-count"></p>
+    </div>
+    <div class="hero-grid" id="hero-grid"></div>
+    <div class="card" style="border-left:6px solid var(--green)">
+      <h3>🆘 हेल्पलाइन — कानूनी व आपात सहायता</h3>
+      <div class="kv">
+        <dt><a href="tel:15100"><b>15100</b></a></dt><dd>NALSA — मुफ्त कानूनी सहायता (24×7, हर जिले में DLSA)</dd>
+        <dt><a href="tel:1800117777"><b>1800-11-7777</b></a></dt><dd>राष्ट्रीय जनजाति आयोग (NCST) — अत्याचार शिकायत</dd>
+        <dt><a href="tel:112"><b>112</b></a></dt><dd>पुलिस आपातकाल</dd>
+        <dt><a href="tel:181"><b>181</b></a></dt><dd>महिला हेल्पलाइन</dd>
+        <dt><a href="tel:1098"><b>1098</b></a></dt><dd>चाइल्डलाइन</dd>
+      </div>
+      <div class="src">विकास संवाद समिति (भोपाल): 0755-4252789, office@vssmp.org · अधिकार: SC/ST अत्याचार निवारण अधिनियम 1989 · FRA 2006 · PESA 1996</div>
+    </div>
+  </section>
+
+  <!-- ============ स्थल (Places + GPS) ============ -->
+  <section class="tab" id="tab-places">
+    <h2 class="sec">गोंडवाना-भारत स्थल-कोश — धार्मिक · शहीदी · स्मारक · ऐतिहासिक</h2>
+    <div class="card">
+      <input id="place-search" type="search" placeholder="🔍 खोजें: स्थल, राज्य, जिला, जनजाति…" style="width:100%;border:1.5px solid var(--line);border-radius:10px;padding:9px 10px;font-family:var(--deva);font-size:.95rem">
+      <div id="place-filters" style="margin-top:8px"></div>
+      <p class="muted small" id="place-count"></p>
+    </div>
+    <div class="hero-grid" id="place-grid"></div>
+    <p class="muted small" style="padding:0 6px">📍 GPS नीति: अधिकांश निर्देशांक अनुमानित/शहर-स्तरीय हैं (कार्ड पर सटीकता-बैज देखें)। ⚠ चिह्नित स्थलों का फ़ील्ड-सत्यापन शेष। हर कार्ड पर Google Maps लिंक — वहाँ से नेविगेशन करें।</p>
+  </section>
+
+  <footer style="text-align:center;padding:18px 10px 30px" class="muted small">
+    गोंडवाना कैलेंडर ऐप v1.3 (+ स्वचालित निरीक्षण) · डेटा-स्रोत: Vahia &amp; Halkare (arXiv:1306.2416), AGPE रॉयल गोंडवाना रिसर्च जर्नल 2025, गोंड समाज महासभा म.प्र. कैलेंडर 2026, यूनीकोड L2/15-090R<br>
+    तिथियाँ दृक्-सन्निकट गणना से — सीमांत दिनों में ±1 भेद संभव; सामुदायिक घोषणा मान्य।
+  </footer>
+</div>
+
+<div class="sheet-back" id="sheet-back"><div class="sheet" id="sheet"><div class="sheet-grip"></div><div id="sheet-body"></div></div></div>
+<div id="toast"></div>
+
+<script src="data.js"></script>
+<script src="converter.js"></script>
+<script src="engine.js"></script>
+<script src="validate.js"></script>
+<script src="app.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+</script>
+</body>
+</html>
