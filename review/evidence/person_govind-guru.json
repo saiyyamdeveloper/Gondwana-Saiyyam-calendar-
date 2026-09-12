@@ -5,7 +5,7 @@
   "death": "1931-10-30",
   "source": "wikidata:Q31942009"
  },
- "checked_at": "2026-09-12T17:31:13.288413+00:00",
+ "checked_at": "2026-09-12T17:34:07.061570+00:00",
  "score": 28,
  "verdict": "conflict",
  "checks": [
@@ -27,8 +27,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Govind Guru Tribal University; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Govind%20Guru%20Tribal%20University"
+   "detail": "पृष्ठ मिला: Govindgiri; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Govindgiri"
   },
   {
    "name": "wikidata",

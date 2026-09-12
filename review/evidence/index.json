@@ -2,7 +2,7 @@
  "person:phulo-jhano": {
   "score": 25,
   "verdict": "weak",
-  "checked_at": "2026-09-12T17:31:02.288172+00:00",
+  "checked_at": "2026-09-12T17:33:59.903647+00:00",
   "summary_hi": "फुलो-झानो मुर्मू: स्कोर 25/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, internal-sources, internal-category।",
   "n_sources": 1
  },
@@ -16,84 +16,89 @@
  "person:nilambar-pitambar": {
   "score": 25,
   "verdict": "weak",
-  "checked_at": "2026-09-12T17:31:03.329053+00:00",
+  "checked_at": "2026-09-12T17:34:00.356210+00:00",
   "summary_hi": "नीलाम्बर-पीताम्बर: स्कोर 25/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, internal-sources, internal-category।",
   "n_sources": 1
  },
  "person:telanga-kharia": {
   "score": 48,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T17:31:04.366698+00:00",
+  "checked_at": "2026-09-12T17:34:01.007922+00:00",
   "summary_hi": "तेलंगा खड़िया: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: death हमारा=1914 बनाम wikidata=1880 — मानव-निर्णय आवश्यक।",
   "n_sources": 3
  },
  "person:telangi-munda": {
   "score": 10,
   "verdict": "nosource",
-  "checked_at": "2026-09-12T17:31:05.075836+00:00",
+  "checked_at": "2026-09-12T17:34:01.423018+00:00",
   "summary_hi": "तेलंगी मुंडा: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "person:jatra-bhagat": {
   "score": 5,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T17:31:06.137987+00:00",
+  "checked_at": "2026-09-12T17:34:02.053958+00:00",
   "summary_hi": "जतरा टाना भगत: स्कोर 5/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1880 बनाम wikidata=1888; death हमारा=1920 बनाम wikidata=1916 — मानव-निर्णय आवश्यक।",
   "n_sources": 3
  },
  "person:tantya-bhil": {
   "score": 71,
   "verdict": "partial",
-  "checked_at": "2026-09-12T17:31:06.973858+00:00",
+  "checked_at": "2026-09-12T17:34:02.620468+00:00",
   "summary_hi": "टांट्या भील (टांट्या मामा): स्कोर 71/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:bhima-nayak": {
   "score": 65,
   "verdict": "partial",
-  "checked_at": "2026-09-12T17:31:07.901326+00:00",
+  "checked_at": "2026-09-12T17:34:03.299471+00:00",
   "summary_hi": "भीमा नायक: स्कोर 65/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death_date, internal-sources, internal-category।",
   "n_sources": 3
  },
  "person:veer-narayan-singh": {
   "score": 78,
   "verdict": "partial",
-  "checked_at": "2026-09-12T17:31:08.914765+00:00",
+  "checked_at": "2026-09-12T17:34:04.060567+00:00",
   "summary_hi": "वीर नारायण सिंह: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, wd-death_date, internal-sources, internal-category।",
   "n_sources": 3
  },
  "person:gunda-dhur": {
   "score": 45,
   "verdict": "weak",
-  "checked_at": "2026-09-12T17:31:09.742983+00:00",
+  "checked_at": "2026-09-12T17:34:04.598256+00:00",
   "summary_hi": "गूंदा धूर: स्कोर 45/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:laxman-naik": {
   "score": 0,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T17:31:10.619324+00:00",
+  "checked_at": "2026-09-12T17:34:05.303876+00:00",
   "summary_hi": "लक्ष्मण नायक ('देशनायक'): स्कोर 0/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: birth हमारा=1899 बनाम wikidata=1946; death हमारा=1943 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
-  "n_sources": 2
+  "n_sources": 2,
+  "llm": {
+   "verdict": "inconclusive",
+   "confidence": 30,
+   "verified_citations": 0
+  }
  },
  "person:chakra-bisoi": {
   "score": 10,
   "verdict": "nosource",
-  "checked_at": "2026-09-12T17:31:11.326287+00:00",
+  "checked_at": "2026-09-12T17:34:05.773687+00:00",
   "summary_hi": "चक्रा बिसोई: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "person:dharanidhar-bhuyan": {
   "score": 15,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T17:31:12.239238+00:00",
+  "checked_at": "2026-09-12T17:34:06.449485+00:00",
   "summary_hi": "धरणीधर भुइयाँ: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: death हमारा=1868 बनाम wikidata=1914 — मानव-निर्णय आवश्यक।",
   "n_sources": 2
  },
  "person:govind-guru": {
   "score": 28,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T17:31:13.288413+00:00",
+  "checked_at": "2026-09-12T17:34:07.061570+00:00",
   "summary_hi": "गोविंद गुरु: स्कोर 28/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-death-match, wd-death_date, internal-sources, internal-category। विरोध: birth हमारा=1850 बनाम wikidata=1858 — मानव-निर्णय आवश्यक।",
   "n_sources": 2
  },
@@ -107,21 +112,21 @@
  "person:jhinya-bhil": {
   "score": 10,
   "verdict": "nosource",
-  "checked_at": "2026-09-12T17:31:13.855571+00:00",
+  "checked_at": "2026-09-12T17:34:07.385534+00:00",
   "summary_hi": "झिन्या भिल: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "person:raghuji-bhangare": {
   "score": 50,
   "verdict": "partial",
-  "checked_at": "2026-09-12T17:31:14.644770+00:00",
+  "checked_at": "2026-09-12T17:34:07.934308+00:00",
   "summary_hi": "राघोजी भांगरे: स्कोर 50/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:kartik-uraon": {
   "score": 78,
   "verdict": "partial",
-  "checked_at": "2026-09-12T17:31:15.616795+00:00",
+  "checked_at": "2026-09-12T17:34:08.497348+00:00",
   "summary_hi": "कार्तिक उराँव: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, wd-birth_date, internal-sources, internal-category।",
   "n_sources": 3
  },
@@ -142,168 +147,168 @@
  "person:sonajharia-sahu": {
   "score": 10,
   "verdict": "nosource",
-  "checked_at": "2026-09-12T17:31:16.220762+00:00",
+  "checked_at": "2026-09-12T17:34:09.004972+00:00",
   "summary_hi": "सोनझड़िया साहू: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "person:jamuna-tudu": {
   "score": 78,
   "verdict": "partial",
-  "checked_at": "2026-09-12T17:31:17.267463+00:00",
+  "checked_at": "2026-09-12T17:34:09.598801+00:00",
   "summary_hi": "जमुना टुडू: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category।",
   "n_sources": 3
  },
  "person:deep-grace-ekka": {
   "score": 78,
   "verdict": "partial",
-  "checked_at": "2026-09-12T17:31:18.316623+00:00",
+  "checked_at": "2026-09-12T17:34:10.316836+00:00",
   "summary_hi": "दीप ग्रेस एक्का: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category।",
   "n_sources": 3
  },
  "person:dilip-tirkey": {
   "score": 58,
   "verdict": "partial",
-  "checked_at": "2026-09-12T17:31:19.289937+00:00",
+  "checked_at": "2026-09-12T17:34:10.953074+00:00",
   "summary_hi": "दिलीप टिर्की: स्कोर 58/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:nilam-sanjeep-xess": {
   "score": 15,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T17:31:20.173531+00:00",
+  "checked_at": "2026-09-12T17:34:11.453660+00:00",
   "summary_hi": "नीलम संजीप खैस: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, internal-sources, internal-category। विरोध: birth हमारा=2000 बनाम wikidata=1998 — मानव-निर्णय आवश्यक।",
   "n_sources": 2
  },
  "person:limba-ram": {
   "score": 58,
   "verdict": "partial",
-  "checked_at": "2026-09-12T17:31:21.024007+00:00",
+  "checked_at": "2026-09-12T17:34:11.987567+00:00",
   "summary_hi": "लिम्बा राम: स्कोर 58/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:jangarh-singh-shyam": {
   "score": 71,
   "verdict": "partial",
-  "checked_at": "2026-09-12T17:31:22.094765+00:00",
+  "checked_at": "2026-09-12T17:34:12.570463+00:00",
   "summary_hi": "जंगारह सिंह श्याम: स्कोर 71/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-death-match, wd-death_date, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:jivya-soma-mashe": {
   "score": 48,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T17:31:23.065968+00:00",
+  "checked_at": "2026-09-12T17:34:13.239959+00:00",
   "summary_hi": "जीव्या सोमा माशे: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category। विरोध: death हमारा=2020 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
   "n_sources": 3
  },
  "person:masram": {
   "score": 10,
   "verdict": "nosource",
-  "checked_at": "2026-09-12T17:31:23.698752+00:00",
+  "checked_at": "2026-09-12T17:34:13.758479+00:00",
   "summary_hi": "मुंशी मंगल सिंह मसराम: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "person:bhavsinh-masram": {
   "score": 10,
   "verdict": "nosource",
-  "checked_at": "2026-09-12T17:31:24.331930+00:00",
+  "checked_at": "2026-09-12T17:34:14.202368+00:00",
   "summary_hi": "भावसिंह मसराम: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "person:ruby-hembrom": {
   "score": 45,
   "verdict": "weak",
-  "checked_at": "2026-09-12T17:31:25.291180+00:00",
+  "checked_at": "2026-09-12T17:34:14.786228+00:00",
   "summary_hi": "रुबी हेम्ब्रम: स्कोर 45/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:nirmala-putul": {
   "score": 15,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T17:31:26.193595+00:00",
+  "checked_at": "2026-09-12T17:34:15.350201+00:00",
   "summary_hi": "निर्मला पुतुल: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1981 बनाम wikidata=1972 — मानव-निर्णय आवश्यक।",
   "n_sources": 2
  },
  "person:maina-tudu": {
   "score": 58,
   "verdict": "partial",
-  "checked_at": "2026-09-12T17:31:27.099726+00:00",
+  "checked_at": "2026-09-12T17:34:15.980431+00:00",
   "summary_hi": "मइना टुडू: स्कोर 58/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category।",
   "n_sources": 2
  },
  "photo:birsa-munda": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-12T17:31:27.771619+00:00",
+  "checked_at": "2026-09-12T17:34:16.400838+00:00",
   "summary_hi": "फ़ोटो: भगवान बिरसा मुंडा: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "photo:sidhu-murmu": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-12T17:31:28.680567+00:00",
+  "checked_at": "2026-09-12T17:34:16.911042+00:00",
   "summary_hi": "फ़ोटो: सिदो मुर्मू: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
   "n_sources": 2
  },
  "photo:kanhu-murmu": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-12T17:31:29.580241+00:00",
+  "checked_at": "2026-09-12T17:34:17.417759+00:00",
   "summary_hi": "फ़ोटो: कान्हू मुर्मू: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
   "n_sources": 2
  },
  "photo:phulo-jhano": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-12T17:31:30.170901+00:00",
+  "checked_at": "2026-09-12T17:34:17.822263+00:00",
   "summary_hi": "फ़ोटो: फुलो-झानो मुर्मू: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "photo:tilka-manjhi": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-12T17:31:31.134291+00:00",
+  "checked_at": "2026-09-12T17:34:18.371081+00:00",
   "summary_hi": "फ़ोटो: तिलका मांझी: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
   "n_sources": 2
  },
  "photo:nilambar-pitambar": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-09-12T17:31:31.943072+00:00",
+  "checked_at": "2026-09-12T17:34:18.921519+00:00",
   "summary_hi": "फ़ोटो: नीलाम्बर-पीताम्बर: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "photo:budhu-bhagat": {
   "score": 20,
   "verdict": "weak",
-  "checked_at": "2026-09-12T17:31:32.640735+00:00",
+  "checked_at": "2026-09-12T17:34:19.783423+00:00",
   "summary_hi": "फ़ोटो: वीर बुधु भगत: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
   "n_sources": 1
  },
  "photo:telanga-kharia": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-12T17:31:33.485541+00:00",
+  "checked_at": "2026-09-12T17:34:20.315598+00:00",
   "summary_hi": "फ़ोटो: तेलंगा खड़िया: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata, wd-birth_date, wd-death_date।",
   "n_sources": 2
  },
  "photo:telangi-munda": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-12T17:31:34.047292+00:00",
+  "checked_at": "2026-09-12T17:34:20.690052+00:00",
   "summary_hi": "फ़ोटो: तेलंगी मुंडा: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "photo:jatra-bhagat": {
   "score": 20,
   "verdict": "weak",
-  "checked_at": "2026-09-12T17:31:34.740419+00:00",
+  "checked_at": "2026-09-12T17:34:21.042321+00:00",
   "summary_hi": "फ़ोटो: जतरा टाना भगत: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
   "n_sources": 1
  },
  "photo:rani-durgavati": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-12T17:31:35.422799+00:00",
+  "checked_at": "2026-09-12T17:34:21.443400+00:00",
   "summary_hi": "फ़ोटो: वीरांगना रानी दुर्गावती: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },

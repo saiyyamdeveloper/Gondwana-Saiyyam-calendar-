@@ -5,7 +5,7 @@
   "death": "2018-06-09",
   "source": "wikidata:Q7489038"
  },
- "checked_at": "2026-09-12T17:31:10.619324+00:00",
+ "checked_at": "2026-09-12T17:34:05.303876+00:00",
  "score": 0,
  "verdict": "conflict",
  "checks": [
@@ -92,5 +92,33 @@
   "wikidata.org"
  ],
  "summary_hi": "लक्ष्मण नायक ('देशनायक'): स्कोर 0/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: birth हमारा=1899 बनाम wikidata=1946; death हमारा=1943 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
- "llm": null
+ "llm": {
+  "checked_at": "2026-09-12T17:37:39.367405+00:00",
+  "provider": "openrouter",
+  "verdict": "inconclusive",
+  "confidence": 30,
+  "summary_hi": "हिंदी विकिपीडिया पृष्ठ उपलब्ध न होने के साथ ही जन्म/मृत्यु तिथि और जनजाति वर्गीकरण में स्रोतों के बीच विवाद के कारण पुष्टि असंभव।",
+  "claims": [
+   {
+    "claim": "भारत छोड़ो आंदोलन में फाँसी पाने वाले प्रमुख आदिवासी शहीद",
+    "urls": [
+     "https://en.wikipedia.org/wiki/Laxman%20Nayak"
+    ],
+    "shield": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Laxman%20Nayak",
+      "reachable": true,
+      "claim_support_ratio": 0.0,
+      "shield": "unverified"
+     }
+    ]
+   }
+  ],
+  "red_flags": [
+   "जन्म-तिथि विकिडेटा (1946) से भिन्न (1899)",
+   "मृत्यु-तिथि विकिडेटा (2018) से भिन्न (1943)",
+   "जनजाति वर्गीकरण में स्रोतों के बीच विवाद",
+   "हिंदी विकिपीडिया पृष्ठ उपलब्ध न होना"
+  ]
+ }
 }
