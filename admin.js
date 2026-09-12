@@ -110,7 +110,7 @@
     if (savedPat) $('#pub-pat').value = savedPat;
     $('#pub-pat').oninput = () => sessionStorage.setItem('gw-pat', $('#pub-pat').value.trim());
     $('#pub-push').onclick = pushToGitHub;
-    drawStats(); drawFilters(); drawQueue(); drawDecisions(); initStorage();
+    drawStats(); drawFilters(); drawQueue(); drawDecisions(); initStorage(); initViews();
   }
 
   function pending() { return QUEUE.filter(q => q.status === 'pending' && !isPhotoSlot(q)); }
@@ -381,6 +381,148 @@
       } catch (e) { logLine('  ✗ ' + path + ' — ' + e.message); }
     }
     logLine('पूर्ण। CI (1066+ जाँच) अपने आप चलेगा → हरा होने पर ~1 मिनट में लाइव।');
+  }
+
+  /* ============ 📊 रिपोर्ट-पैनल (स्व-निर्मित संरचना) ============ */
+  let rptPeriod = 'all', CONF = {};
+  function setView(v) {
+    ['queue', 'storage', 'report'].forEach(k => { const el = $('#view-' + k); if (el) el.classList.toggle('hidden', k !== v); });
+    $$('#adm-views .vw-chip').forEach(b => b.classList.toggle('active', b.dataset.v === v));
+    if (v === 'report') drawReport();
+  }
+  function initViews() { $$('#adm-views .vw-chip').forEach(b => b.onclick = () => setView(b.dataset.v)); }
+  function cutoff() { return rptPeriod === 'all' ? null : new Date(Date.now() - (+rptPeriod) * 864e5).toISOString(); }
+  function decInPeriod() { const c = cutoff(); return c ? DECISIONS.filter(d => (d.at || '') >= c) : DECISIONS.slice(); }
+  function donut(segs) {
+    const total = segs.reduce((s, x) => s + x.value, 0);
+    const r = 42, C = 2 * Math.PI * r; let off = 0;
+    const arcs = segs.filter(x => x.value).map(x => {
+      const f = x.value / (total || 1);
+      const el = `<circle r="${r}" cx="59" cy="59" fill="none" stroke="${x.color}" stroke-width="15" stroke-dasharray="${(f * C).toFixed(1)} ${C.toFixed(1)}" stroke-dashoffset="${(-off * C).toFixed(1)}" transform="rotate(-90 59 59)"/>`;
+      off += f; return el;
+    }).join('');
+    return `<svg width="112" height="112" viewBox="0 0 118 118" style="display:block;margin:0 auto">${arcs}<text x="59" y="56" text-anchor="middle" font-size="21" font-weight="700" fill="currentColor">${total}</text><text x="59" y="72" text-anchor="middle" font-size="9" fill="#999">कुल</text></svg>
+      <div class="small" style="margin-top:6px">${segs.map(x => `<span style="margin-right:9px;white-space:nowrap"><i style="display:inline-block;width:9px;height:9px;border-radius:2px;background:${x.color}"></i> ${esc(x.label)}: <b>${x.value}</b></span>`).join('')}</div>`;
+  }
+  function barRows(pairs, color) {
+    const mx = Math.max(1, ...pairs.map(p => p.value));
+    return pairs.map(p => `<div style="display:flex;align-items:center;gap:6px;margin:3px 0"><span class="small" style="flex:0 0 92px;overflow:hidden;text-overflow:ellipsis">${esc(p.label)}</span><div style="flex:1;background:var(--paper);border-radius:6px;height:12px"><div style="width:${(p.value / mx * 100).toFixed(0)}%;height:12px;background:${color};border-radius:6px"></div></div><b class="small" style="flex:0 0 28px;text-align:right">${p.value}</b></div>`).join('');
+  }
+  function rptAgg() {
+    const H = window.GW_HEROES || { persons: [] }, P = window.GW_PLACES || { places: [] }, X = window.GW_EXTRA || { festivals: [] };
+    const pend = QUEUE.filter(q => q.status === 'pending');
+    const appr = QUEUE.filter(q => q.status === 'approved'), rej = QUEUE.filter(q => q.status === 'rejected');
+    const auto = appr.filter(q => (q.decided_by || '').startsWith('automation'));
+    const scores = Object.values(EVID).map(v => v.score);
+    const llm = Object.values(EVID).filter(v => v.llm);
+    const vc = {}; Object.values(EVID).forEach(v => vc[v.verdict] = (vc[v.verdict] || 0) + 1);
+    const cats = {}; H.persons.forEach(p => { cats[p.category] = (cats[p.category] || 0) + 1; });
+    const gps = {}; P.places.forEach(p => { const k = p.gps_precision || 'अज्ञात'; gps[k] = (gps[k] || 0) + 1; });
+    const lic = {}; MEDIA.forEach(m => lic[m.license] = (lic[m.license] || 0) + 1);
+    const mstat = {}; MEDIA.forEach(m => mstat[m.status] = (mstat[m.status] || 0) + 1);
+    return { H, P, X, pend, appr, rej, auto, scores, llm, vc, cats, gps, lic, mstat, dec: decInPeriod() };
+  }
+  function conflictsTbl() {
+    const rows = [];
+    Object.entries(CONF).forEach(([id, e]) => {
+      if (!e) return;
+      (e.conflicts || []).forEach(c => rows.push(`<tr><td>${esc((e.title || e.id || id).slice(0, 26))}</td><td>${esc(c.field)}</td><td><b>${esc(String(c.ours))}</b></td><td><b>${esc(String(c.theirs))}</b></td><td>${esc(c.source)}</td></tr>`));
+    });
+    return rows.length ? `<table class="rpt-tbl"><tr><th>प्रविष्टि</th><th>फ़ील्ड</th><th>हमारा</th><th>विरोधी मान</th><th>स्रोत</th></tr>${rows.join('')}</table>` : '<p class="muted small">कोई विरोध नहीं 🎉</p>';
+  }
+  async function loadConflicts() {
+    const ids = Object.entries(EVID).filter(([, v]) => v.verdict === 'conflict').map(([k]) => k);
+    await Promise.all(ids.map(async id => {
+      if (CONF[id] !== undefined) return;
+      CONF[id] = null;
+      try { CONF[id] = await fetch('review/evidence/' + id.replace(/[^A-Za-z0-9._-]/g, '_') + '.json', { cache: 'no-store' }).then(r => r.json()); } catch (e) {}
+    }));
+    const box = $('#rpt-conflicts'); if (box) box.innerHTML = conflictsTbl();
+  }
+  function actionsList(A) {
+    const acts = [];
+    const nc = (Object.values(CONF).filter(Boolean).reduce((n, e) => n + (e.conflicts || []).length, 0)) || Object.values(EVID).filter(v => v.verdict === 'conflict').length;
+    if (nc) acts.push(`🔴 <b>${nc} तिथि/तथ्य विरोध</b> — आपका निर्णय आवश्यक (नीचे तालिका); पैनल में ✎ से सुधारकर ✓ करें`);
+    const ns = QUEUE.filter(q => q.status === 'pending' && q.kind === 'person' && (EVID[q.id] || {}).verdict === 'nosource').length;
+    if (ns) acts.push(`⚪ <b>${ns} नायक निःस्रोत</b> — विकिपीडिया/विकिडेटा पर प्रलेखन नहीं; स्वयं स्रोत जोड़ें या अस्वीकृत करें`);
+    const slots = QUEUE.filter(q => q.status === 'pending' && q.kind === 'photo' && !(q.payload && q.payload.photo)).length;
+    if (slots) acts.push(`📷 <b>${slots} फ़ोटो-स्लॉट</b> प्रस्ताव-प्रतीक्षित — संग्रहण में सत्यापित इमेज से 📸 प्रस्ताव भेजें`);
+    const badlic = MEDIA.filter(m => m.status !== 'rejected' && ['unknown', 'copyright-pending'].includes(m.license)).length;
+    if (badlic) acts.push(`© <b>${badlic} मीडिया</b> का license अज्ञात/जाँच-बाकी — होस्टिंग से पूर्व स्पष्ट करें`);
+    if (MEDIA_DIRTY || CREDS_DIRTY) acts.push('📦 <b>अप्रकाशित परिवर्तन</b> लंबित — कतार-दृश्य के 📦 खंड से प्रकाशित करें');
+    return acts.length ? acts.map(x => `<div class="rpt-act">${x}</div>`).join('') : '<div class="rpt-act">🎉 कोई लंबित कार्रवाई नहीं</div>';
+  }
+  function drawReport() {
+    const A = rptAgg();
+    const avg = A.scores.length ? Math.round(A.scores.reduce((a, b) => a + b, 0) / A.scores.length) : 0;
+    const days = [];
+    for (let i = 13; i >= 0; i--) {
+      const d = new Date(Date.now() - i * 864e5).toISOString().slice(5, 10);
+      days.push({ label: d, value: DECISIONS.filter(x => (x.at || '').slice(0, 10) === d).length });
+    }
+    const humAuto = [
+      { label: 'automation', value: DECISIONS.filter(d => (d.by || '').startsWith('automation')).length, color: '#2563eb' },
+      { label: 'मानव', value: DECISIONS.filter(d => !(d.by || '').startsWith('automation')).length, color: '#16a34a' }];
+    $('#adm-report').innerHTML = `
+      <h3>📊 सत्यापन-रिपोर्ट</h3>
+      <p class="muted small">जनित: ${new Date().toLocaleString('hi-IN')} · अवधि-फ़िल्टर निर्णयों व KPI पर लागू · स्रोत: कतार, audit-log, evidence-index, manifest, मास्टर-DB</p>
+      <div class="q-actions">
+        <button class="chip ${rptPeriod === 'all' ? 'active' : ''}" data-rp="all">सभी समय</button>
+        <button class="chip ${rptPeriod === '30' ? 'active' : ''}" data-rp="30">30 दिन</button>
+        <button class="chip ${rptPeriod === '7' ? 'active' : ''}" data-rp="7">7 दिन</button>
+        <button class="btn ghost sm" id="rpt-print">🖨️ प्रिंट/PDF</button>
+        <button class="btn ghost sm" id="rpt-json">📥 JSON</button>
+        <button class="btn ghost sm" id="rpt-md">📋 Markdown</button>
+        <button class="btn ghost sm" id="rpt-refresh">🔄 ताज़ा</button>
+      </div>
+      <div class="rpt-kpis">
+        <div class="st"><b>${A.pend.length}</b><span>समीक्षा-बाकी</span></div>
+        <div class="st"><b>${A.dec.length}</b><span>निर्णय (अवधि)</span></div>
+        <div class="st"><b>${A.auto.length}</b><span>स्वतः-स्वीकृत (audit)</span></div>
+        <div class="st"><b>${A.rej.length}</b><span>अस्वीकृत</span></div>
+        <div class="st"><b>${avg}</b><span>औसत स्व-सत्यापन स्कोर</span></div>
+        <div class="st"><b>${A.llm.length}</b><span>LLM-जाँची</span></div>
+        <div class="st"><b>${A.mstat.verified || 0}</b><span>संग्रहण-सत्यापित</span></div>
+      </div>
+      <div class="rpt-grid">
+        <div class="rpt-box"><h4>कतार-स्थिति</h4>${donut([
+          { label: 'बाकी', value: A.pend.length, color: '#f59e0b' },
+          { label: 'स्वीकृत', value: A.appr.length, color: '#16a34a' },
+          { label: 'अस्वीकृत', value: A.rej.length, color: '#dc2626' }])}</div>
+        <div class="rpt-box"><h4>प्रकार-वार समीक्षा-बाकी</h4>${barRows(Object.entries(A.pend.reduce((m, q) => (m[q.kind] = (m[q.kind] || 0) + 1, m), {})).map(([k, v]) => ({ label: KIND_HI[k] || k, value: v })), '#b4531a')}</div>
+        <div class="rpt-box"><h4>स्व-सत्यापन verdict वितरण</h4>${barRows(Object.entries(A.vc).map(([k, v]) => ({ label: k, value: v })), '#123f2a')}</div>
+        <div class="rpt-box"><h4>निर्णय-प्रवृत्ति (14 दिन)</h4>${barRows(days, '#2563eb')}</div>
+        <div class="rpt-box"><h4>निर्णय-कर्ता</h4>${donut(humAuto)}</div>
+        <div class="rpt-box"><h4>डेटा-गुणवत्ता (मास्टर DB)</h4>
+          <table class="rpt-tbl">
+            <tr><td>नायक</td><td><b>${A.H.persons.length}</b> · 🎂 ${A.H.persons.filter(p => p.birth_date).length} · 🕊️ ${A.H.persons.filter(p => p.death_date).length} · 📷-रिक्त ${A.H.persons.filter(p => !p.photo).length} · ⚠ verify ${A.H.persons.filter(p => p.verify).length}</td></tr>
+            <tr><td>स्थल</td><td><b>${A.P.places.length}</b> · ⚠ verify ${A.P.places.filter(p => p.verify).length}</td></tr>
+            <tr><td>GPS-सटीकता</td><td>${Object.entries(A.gps).map(([k, v]) => esc(k) + ': ' + v).join(' · ')}</td></tr>
+            <tr><td>पर्व</td><td><b>${A.X.festivals.length}</b> · ⚠ verify ${A.X.festivals.filter(f => f.verify).length}</td></tr>
+            <tr><td>श्रेणियाँ</td><td>${Object.entries(A.cats).sort((a, b) => b[1] - a[1]).map(([k, v]) => esc(k) + ': ' + v).join(' · ')}</td></tr>
+          </table></div>
+        <div class="rpt-box"><h4>संग्रहण-स्थिति</h4>${barRows(Object.entries(A.mstat).map(([k, v]) => ({ label: STATUS_HI[k] ? STATUS_HI[k].slice(2) : k, value: v })), '#9d174d')}
+          <h4 style="margin-top:8px">License वितरण</h4>${barRows(Object.entries(A.lic).map(([k, v]) => ({ label: LICENSE_HI[k] || k, value: v })), '#9ca3af')}</div>
+        <div class="rpt-box" style="grid-column:1/-1"><h4>🔴 विरोध-सूची (हमारा बनाम स्वतंत्र स्रोत)</h4><div id="rpt-conflicts"><p class="muted small">लोड हो रही है…</p></div></div>
+        <div class="rpt-box" style="grid-column:1/-1"><h4>✅ हाइब्रिड स्वतः-स्वीकृतियाँ (audit-log)</h4>${A.auto.length ? `<table class="rpt-tbl"><tr><th>प्रविष्टि</th><th>स्कोर</th><th>निर्णय-समय</th></tr>${A.auto.map(q => `<tr><td>${esc(q.title)}</td><td>${(EVID[q.id] || {}).score ?? '—'}</td><td>${esc((q.decided_at || '').slice(0, 16).replace('T', ' '))}</td></tr>`).join('')}</table>` : '<p class="muted small">अभी कोई नहीं</p>'}</div>
+        <div class="rpt-box" style="grid-column:1/-1"><h4>📌 आवश्यक कार्रवाई (प्राथमिकता-क्रम)</h4>${actionsList(A)}</div>
+        <div class="rpt-box" style="grid-column:1/-1"><h4>📜 अंतिम 15 निर्णय</h4>${DECISIONS.slice(-15).reverse().map(d => `<div class="small" style="border-bottom:1px dashed var(--line);padding:3px 0">${d.decision === 'approved' ? '✅' : '❌'} <b>${esc(d.title)}</b> — ${esc(d.by)} · ${esc((d.at || '').slice(0, 16).replace('T', ' '))}</div>`).join('') || '<p class="muted small">कोई निर्णय नहीं</p>'}</div>
+      </div>
+      <p class="muted small" style="margin-top:10px">रिपोर्ट-इंजन v1.0 · प्रिंट में केवल रिपोर्ट छपेगी (print-CSS) · डेटा कभी fabricate नहीं — केवल मास्टर-फ़ाइलों से</p>`;
+    $$('#adm-report [data-rp]').forEach(b => b.onclick = () => { rptPeriod = b.dataset.rp; drawReport(); });
+    $('#rpt-print').onclick = () => window.print();
+    $('#rpt-refresh').onclick = () => drawReport();
+    $('#rpt-json').onclick = () => download('gondwana-report-' + todayStr() + '.json', JSON.stringify({ generated: new Date().toISOString(), period: rptPeriod, kpis: { pending: A.pend.length, decided: A.dec.length, auto_approved: A.auto.length, rejected: A.rej.length, avg_score: avg, llm_checked: A.llm.length }, verdicts: A.vc, categories: A.cats, gps: A.gps, licenses: A.lic, media: A.mstat, decisions: A.dec }, null, 1));
+    $('#rpt-md').onclick = () => {
+      const L = ['# गोंडवाना सत्यापन-रिपोर्ट', '', 'जनित: ' + new Date().toLocaleString('hi-IN') + ' · अवधि: ' + rptPeriod, '',
+        '## KPI', `- समीक्षा-बाकी: ${A.pend.length}`, `- निर्णय (अवधि): ${A.dec.length}`, `- स्वतः-स्वीकृत: ${A.auto.length}`, `- अस्वीकृत: ${A.rej.length}`, `- औसत स्कोर: ${avg}`, `- LLM-जाँची: ${A.llm.length}`, '',
+        '## Verdict वितरण', ...Object.entries(A.vc).map(([k, v]) => `- ${k}: ${v}`), '',
+        '## विरोध', ...Object.values(CONF).filter(Boolean).flatMap(e => (e.conflicts || []).map(c => `- ${e.title || e.id}: ${c.field} हमारा=${c.ours} बनाम ${c.source}=${c.theirs}`)), '',
+        '## आवश्यक कार्रवाई', ...actionsList(A).map(x => '- ' + x.replace(/<[^>]+>/g, '')), '',
+        '## डेटा-गुणवत्ता', `- नायक ${A.H.persons.length} (जन्म-तिथि ${A.H.persons.filter(p => p.birth_date).length}, निधन ${A.H.persons.filter(p => p.death_date).length})`, `- स्थल ${A.P.places.length}, पर्व ${A.X.festivals.length}`, ''].join('\n');
+      download('gondwana-report-' + todayStr() + '.md', L);
+    };
+    loadConflicts();
   }
 
   /* ============ 🗄️ संग्रहण — मीडिया लाइब्रेरी ============ */
