@@ -135,6 +135,14 @@ def main():
             raw = ask_llm(build_prompt(json.dumps(item, ensure_ascii=False)[:3000],
                                        json.dumps({k: ev[k] for k in ('score', 'verdict', 'checks')}, ensure_ascii=False)[:2500]))
             res = json.loads(re.sub(r'^```(?:json)?|```$', '', raw.strip()))
+            if isinstance(res, list):   # कुछ मॉडल JSON-सूची लौटाते हैं
+                pick = [x for x in res if isinstance(x, dict) and x.get('verdict')]
+                res = pick[0] if pick else (res[0] if res and isinstance(res[0], dict) else {})
+            if not isinstance(res, dict) or not res.get('verdict'):
+                print('llm: अप्रत्याशित प्रतिक्रिया-आकार — छोड़ा:', item['id']); continue
+            if not isinstance(res.get('claims'), list): res['claims'] = []
+            res['claims'] = [c for c in res['claims'] if isinstance(c, dict)][:4]
+            if not isinstance(res.get('red_flags'), list): res['red_flags'] = []
         except urllib.error.HTTPError as e:
             if e.code == 402:
                 print('llm: 402 — OpenRouter खाते में क्रेडिट नहीं या मॉडल पेड है। हल: LLM_MODEL secret को :free मॉडल करें (जैसे google/gemini-2.0-flash-exp:free) या OpenRouter में क्रेडिट जोड़ें। बैच रोका गया।')
