@@ -1,6 +1,11 @@
 {
  "id": "person:telanga-kharia",
- "checked_at": "2026-09-12T14:52:10.772100+00:00",
+ "dates": {
+  "birth": "1806-02-09",
+  "death": "1880-04-23",
+  "source": "wikidata:Q26266161"
+ },
+ "checked_at": "2026-09-12T17:31:04.366698+00:00",
  "score": 48,
  "verdict": "conflict",
  "checks": [
@@ -40,6 +45,20 @@
    "link": "प्रभात खबर (2023)"
   },
   {
+   "name": "wd-birth_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 1806-02-09",
+   "link": ""
+  },
+  {
+   "name": "wd-death_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "मृत्यु-तिथि (विकिडेटा, दिन-सटीक): 1880-04-23",
+   "link": ""
+  },
+  {
    "name": "internal-sources",
    "ok": true,
    "pts": 5,
@@ -67,7 +86,7 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "तेलंगा खड़िया: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category। विरोध: death हमारा=1914 बनाम wikidata=1880 — मानव-निर्णय आवश्यक।",
+ "summary_hi": "तेलंगा खड़िया: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: death हमारा=1914 बनाम wikidata=1880 — मानव-निर्णय आवश्यक।",
  "llm": {
   "checked_at": "2026-09-12T14:54:40.645600+00:00",
   "provider": "openrouter",

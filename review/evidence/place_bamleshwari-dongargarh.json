@@ -1,0 +1,75 @@
+{
+ "id": "place:bamleshwari-dongargarh",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": null
+ },
+ "checked_at": "2026-09-12T17:32:08.607968+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: बम्लेश्वरी देवी मंदिर; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%AE%E0%A5%8D%E0%A4%B2%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A5%80%20%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A5%80%20%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0"
+  },
+  {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Dongargarh\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wikidata",
+   "ok": false,
+   "pts": 0,
+   "detail": "विकिडेटा आइटम नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "छत्तीसगढ़ पर्यटन (सुप्रसिद्ध)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  },
+  {
+   "name": "internal-gps-label",
+   "ok": true,
+   "pts": 5,
+   "detail": "gps_precision=approximate",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "hi.wikipedia.org"
+ ],
+ "summary_hi": "माँ बमलेश्वरी मंदिर, डोंगरगढ़: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, internal-sources, internal-category, internal-gps-label।",
+ "llm": null
+}

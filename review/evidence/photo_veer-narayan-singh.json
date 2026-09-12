@@ -1,0 +1,69 @@
+{
+ "id": "photo:veer-narayan-singh",
+ "dates": {
+  "birth": null,
+  "death": "1857-12-10",
+  "source": "wikidata:Q19662789"
+ },
+ "checked_at": "2026-09-12T17:31:40.132990+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: वीर नारायण सिंह; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A5%80%E0%A4%B0%20%E0%A4%A8%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%AF%E0%A4%A3%20%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%B9"
+  },
+  {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Veer Narayan Singh\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q19662789",
+   "link": "https://www.wikidata.org/wiki/Q19662789"
+  },
+  {
+   "name": "wd-death_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "मृत्यु-तिथि (विकिडेटा, दिन-सटीक): 1857-12-10",
+   "link": ""
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "फ़ोटो: वीर नारायण सिंह: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata, wd-death_date।",
+ "llm": null
+}

@@ -1,8 +1,13 @@
 {
  "id": "photo:sidhu-murmu",
- "checked_at": "2026-09-12T14:52:38.718736+00:00",
- "score": 55,
- "verdict": "partial",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q65285304"
+ },
+ "checked_at": "2026-09-12T17:31:28.680567+00:00",
+ "score": 35,
+ "verdict": "weak",
  "checks": [
   {
    "name": "wiki-hi",
@@ -12,11 +17,18 @@
    "link": "https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BF%E0%A4%A6%E0%A5%8B%20%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B9%E0%A5%82%20%E0%A4%AE%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A5%82%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF"
   },
   {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Sido Kanhu Murmu University\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
    "name": "wiki-en",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: Sido Kanhu Murmu University",
-   "link": "https://en.wikipedia.org/wiki/Sido%20Kanhu%20Murmu%20University"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
   },
   {
    "name": "wikidata",
@@ -42,10 +54,9 @@
  ],
  "conflicts": [],
  "sources_domains": [
-  "en.wikipedia.org",
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "फ़ोटो: सिदो मुर्मू: स्कोर 55/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata।",
+ "summary_hi": "फ़ोटो: सिदो मुर्मू: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
  "llm": null
 }

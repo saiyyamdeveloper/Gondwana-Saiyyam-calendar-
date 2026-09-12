@@ -1,0 +1,77 @@
+{
+ "id": "place:ratanpur-mahamaya",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q6733045"
+ },
+ "checked_at": "2026-09-12T17:32:11.672265+00:00",
+ "score": 40,
+ "verdict": "conflict",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: रतनपुर महामाया मंदिर; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%B0%E0%A4%A4%E0%A4%A8%E0%A4%AA%E0%A5%81%E0%A4%B0%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%AF%E0%A4%BE%20%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Mahamaya Temple; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Mahamaya%20Temple"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q6733045",
+   "link": "https://www.wikidata.org/wiki/Q6733045"
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "छत्तीसगढ़ पुरातत्व (सुप्रसिद्ध)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  },
+  {
+   "name": "internal-gps-label",
+   "ok": true,
+   "pts": 5,
+   "detail": "gps_precision=approximate",
+   "link": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "field": "gps",
+   "ours": "22.2869,82.1717",
+   "theirs": "22.883,82.159",
+   "source": "wikidata"
+  }
+ ],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "महामाया मंदिर, रतनपुर: स्कोर 40/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category, internal-gps-label। विरोध: gps हमारा=22.2869,82.1717 बनाम wikidata=22.883,82.159 — मानव-निर्णय आवश्यक।",
+ "llm": null
+}

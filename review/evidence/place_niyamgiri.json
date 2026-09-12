@@ -1,0 +1,70 @@
+{
+ "id": "place:niyamgiri",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q115466258"
+ },
+ "checked_at": "2026-09-12T17:32:22.534193+00:00",
+ "score": 70,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: नियमगिरि; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%97%E0%A4%BF%E0%A4%B0%E0%A4%BF"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Niyamgiri; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Niyamgiri"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q115466258",
+   "link": "https://www.wikidata.org/wiki/Q115466258"
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "ISFR/खनन-आंदोलन रिपोर्टिंग (सुप्रसिद्ध)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  },
+  {
+   "name": "internal-gps-label",
+   "ok": true,
+   "pts": 5,
+   "detail": "gps_precision=region-level",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "नियमगिरि पर्वत: स्कोर 70/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category, internal-gps-label।",
+ "llm": null
+}

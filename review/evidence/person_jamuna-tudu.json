@@ -1,6 +1,11 @@
 {
  "id": "person:jamuna-tudu",
- "checked_at": "2026-09-12T14:52:25.556831+00:00",
+ "dates": {
+  "birth": "1980-12-19",
+  "death": null,
+  "source": "wikidata:Q61045705"
+ },
+ "checked_at": "2026-09-12T17:31:17.267463+00:00",
  "score": 78,
  "verdict": "partial",
  "checks": [
@@ -40,6 +45,13 @@
    "link": "मीडिया रिपोर्ट"
   },
   {
+   "name": "wd-birth_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 1980-12-19",
+   "link": ""
+  },
+  {
    "name": "internal-sources",
    "ok": true,
    "pts": 5,
@@ -60,6 +72,6 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "जमुना टुडू: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
+ "summary_hi": "जमुना टुडू: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category।",
  "llm": null
 }

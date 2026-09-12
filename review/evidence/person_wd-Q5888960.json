@@ -1,0 +1,84 @@
+{
+ "id": "person:wd-Q5888960",
+ "dates": {
+  "birth": "1947-07-15",
+  "death": null,
+  "source": "wikidata:Q5888960"
+ },
+ "checked_at": "2026-09-12T17:32:46.930092+00:00",
+ "score": 100,
+ "verdict": "pass",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: तुलसी मुंडा; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%A4%E0%A5%81%E0%A4%B2%E0%A4%B8%E0%A5%80%20%E0%A4%AE%E0%A5%81%E0%A4%82%E0%A4%A1%E0%A4%BE"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Tulasi Munda; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Tulasi%20Munda"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q5888960",
+   "link": "https://www.wikidata.org/wiki/Q5888960"
+  },
+  {
+   "name": "wd-birth-match",
+   "ok": true,
+   "pts": 13,
+   "detail": "हमारा 1947 ↔ विकिडेटा 1947",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": true,
+   "pts": 10,
+   "detail": "ज़िंदा",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%A4%E0%A5%81%E0%A4%B2%E0%A4%B8%E0%A5%80_%E0%A4%AE%E0%A5%81%E0%A4%82%E0%A4%A1%E0%A4%BE"
+  },
+  {
+   "name": "source-url",
+   "ok": true,
+   "pts": 15,
+   "detail": "ज़िंदा; शीर्षक में नाम ✓",
+   "link": "https://en.wikipedia.org/wiki/Tulasi_Munda"
+  },
+  {
+   "name": "wd-birth_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 1947-07-15",
+   "link": ""
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "तुलसी मुंडा: स्कोर 100/100 (🟢 स्वतः-सत्यापित)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, source-url, source-url, wd-birth_date, internal-sources, internal-category। 3 स्वतंत्र डोमेन सहमत — हाइब्रिड नीति लागू।",
+ "llm": null
+}

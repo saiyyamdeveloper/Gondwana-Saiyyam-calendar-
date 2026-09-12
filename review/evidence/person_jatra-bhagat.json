@@ -1,6 +1,11 @@
 {
  "id": "person:jatra-bhagat",
- "checked_at": "2026-09-12T14:52:13.118291+00:00",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q12427875"
+ },
+ "checked_at": "2026-09-12T17:31:06.137987+00:00",
  "score": 5,
  "verdict": "conflict",
  "checks": [

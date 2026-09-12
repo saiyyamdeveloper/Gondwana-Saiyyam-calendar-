@@ -1,0 +1,68 @@
+{
+ "id": "place:alluri-statue-vizag",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": null
+ },
+ "checked_at": "2026-09-12T17:32:29.810078+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Alluri Sitarama Raju; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Alluri%20Sitarama%20Raju"
+  },
+  {
+   "name": "wikidata",
+   "ok": false,
+   "pts": 0,
+   "detail": "विकिडेटा आइटम नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "PIB/मीडिया (2022)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  },
+  {
+   "name": "internal-gps-label",
+   "ok": true,
+   "pts": 5,
+   "detail": "gps_precision=approximate",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org"
+ ],
+ "summary_hi": "अल्लूरी सीताराम राजू प्रतिमा — विशाखपत्तनम: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, internal-sources, internal-category, internal-gps-label।",
+ "llm": null
+}

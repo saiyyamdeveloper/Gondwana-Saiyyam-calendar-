@@ -1,6 +1,11 @@
 {
  "id": "person:jivya-soma-mashe",
- "checked_at": "2026-09-12T14:52:31.900764+00:00",
+ "dates": {
+  "birth": "1934-05-19",
+  "death": null,
+  "source": "wikidata:Q937436"
+ },
+ "checked_at": "2026-09-12T17:31:23.065968+00:00",
  "score": 48,
  "verdict": "conflict",
  "checks": [
@@ -47,6 +52,13 @@
    "link": "पद्म सूची"
   },
   {
+   "name": "wd-birth_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 1934-05-19",
+   "link": ""
+  },
+  {
    "name": "internal-sources",
    "ok": true,
    "pts": 5,
@@ -74,7 +86,7 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "जीव्या सोमा माशे: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category। विरोध: death हमारा=2020 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
+ "summary_hi": "जीव्या सोमा माशे: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category। विरोध: death हमारा=2020 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
  "llm": {
   "checked_at": "2026-09-12T15:11:18.661507+00:00",
   "provider": "openrouter",

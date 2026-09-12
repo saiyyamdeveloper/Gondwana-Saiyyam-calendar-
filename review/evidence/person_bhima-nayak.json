@@ -1,6 +1,11 @@
 {
  "id": "person:bhima-nayak",
- "checked_at": "2026-09-12T14:52:14.973323+00:00",
+ "dates": {
+  "birth": null,
+  "death": "1876-12-29",
+  "source": "wikidata:Q25541503"
+ },
+ "checked_at": "2026-09-12T17:31:07.901326+00:00",
  "score": 65,
  "verdict": "partial",
  "checks": [
@@ -33,6 +38,13 @@
    "link": "vskbharat (2024)"
   },
   {
+   "name": "wd-death_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "मृत्यु-तिथि (विकिडेटा, दिन-सटीक): 1876-12-29",
+   "link": ""
+  },
+  {
    "name": "internal-sources",
    "ok": true,
    "pts": 5,
@@ -53,6 +65,6 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "भीमा नायक: स्कोर 65/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category।",
+ "summary_hi": "भीमा नायक: स्कोर 65/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death_date, internal-sources, internal-category।",
  "llm": null
 }

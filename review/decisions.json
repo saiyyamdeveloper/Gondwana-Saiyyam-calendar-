@@ -39,6 +39,51 @@
    "note": "स्वतः-स्वीकृत: स्कोर 91, स्रोत-डोमेन 3, शून्य विरोध",
    "by": "automation:auto-verify (hybrid policy)",
    "at": "2026-09-12T12:36:13.812572+00:00"
+  },
+  {
+   "id": "place:chausath-yogini-bhedaghat",
+   "kind": "place",
+   "title": "चौंसठ योगिनी मंदिर, भेड़ाघाट",
+   "decision": "approved",
+   "note": "स्वतः-स्वीकृत: स्कोर 100, स्रोत-डोमेन 3, शून्य विरोध",
+   "by": "automation:auto-verify (hybrid policy)",
+   "at": "2026-09-12T17:32:04.300431+00:00"
+  },
+  {
+   "id": "place:pavagadh",
+   "kind": "place",
+   "title": "पावागढ़ कालिका माता मंदिर",
+   "decision": "approved",
+   "note": "स्वतः-स्वीकृत: स्कोर 100, स्रोत-डोमेन 3, शून्य विरोध",
+   "by": "automation:auto-verify (hybrid policy)",
+   "at": "2026-09-12T17:32:27.343234+00:00"
+  },
+  {
+   "id": "person:wd-Q5888960",
+   "kind": "person",
+   "title": "तुलसी मुंडा",
+   "decision": "approved",
+   "note": "स्वतः-स्वीकृत: स्कोर 100, स्रोत-डोमेन 3, शून्य विरोध",
+   "by": "automation:auto-verify (hybrid policy)",
+   "at": "2026-09-12T17:32:46.930092+00:00"
+  },
+  {
+   "id": "person:wd-Q6167612",
+   "kind": "person",
+   "title": "जयंती पटनायक",
+   "decision": "approved",
+   "note": "स्वतः-स्वीकृत: स्कोर 100, स्रोत-डोमेन 3, शून्य विरोध",
+   "by": "automation:auto-verify (hybrid policy)",
+   "at": "2026-09-12T17:32:51.319328+00:00"
+  },
+  {
+   "id": "person:wd-Q117464770",
+   "kind": "person",
+   "title": "जानुम सिंह सोय",
+   "decision": "approved",
+   "note": "स्वतः-स्वीकृत: स्कोर 100, स्रोत-डोमेन 3, शून्य विरोध",
+   "by": "automation:auto-verify (hybrid policy)",
+   "at": "2026-09-12T17:32:57.693789+00:00"
   }
  ]
 }

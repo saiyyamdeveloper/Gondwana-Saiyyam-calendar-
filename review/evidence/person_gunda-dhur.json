@@ -1,6 +1,11 @@
 {
  "id": "person:gunda-dhur",
- "checked_at": "2026-09-12T14:52:17.734855+00:00",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q102324796"
+ },
+ "checked_at": "2026-09-12T17:31:09.742983+00:00",
  "score": 45,
  "verdict": "weak",
  "checks": [

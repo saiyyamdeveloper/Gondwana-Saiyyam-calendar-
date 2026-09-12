@@ -1,6 +1,11 @@
 {
  "id": "person:jangarh-singh-shyam",
- "checked_at": "2026-09-12T14:52:30.859048+00:00",
+ "dates": {
+  "birth": null,
+  "death": "2001-07-06",
+  "source": "wikidata:Q18402444"
+ },
+ "checked_at": "2026-09-12T17:31:22.094765+00:00",
  "score": 71,
  "verdict": "partial",
  "checks": [
@@ -54,6 +59,13 @@
    "link": "Caravan (2019)"
   },
   {
+   "name": "wd-death_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "मृत्यु-तिथि (विकिडेटा, दिन-सटीक): 2001-07-06",
+   "link": ""
+  },
+  {
    "name": "internal-sources",
    "ok": true,
    "pts": 5,
@@ -73,6 +85,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "जंगारह सिंह श्याम: स्कोर 71/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category।",
+ "summary_hi": "जंगारह सिंह श्याम: स्कोर 71/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-death-match, wd-death_date, internal-sources, internal-category।",
  "llm": null
 }

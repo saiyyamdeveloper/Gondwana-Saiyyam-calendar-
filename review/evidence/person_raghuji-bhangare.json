@@ -1,6 +1,11 @@
 {
  "id": "person:raghuji-bhangare",
- "checked_at": "2026-09-12T14:52:22.733899+00:00",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": null
+ },
+ "checked_at": "2026-09-12T17:31:14.644770+00:00",
  "score": 50,
  "verdict": "partial",
  "checks": [

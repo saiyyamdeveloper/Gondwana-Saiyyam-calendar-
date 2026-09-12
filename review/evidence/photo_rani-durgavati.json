@@ -1,22 +1,41 @@
 {
  "id": "photo:rani-durgavati",
- "checked_at": "2026-09-12T14:52:45.996323+00:00",
- "score": 40,
- "verdict": "weak",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": null
+ },
+ "checked_at": "2026-09-12T17:31:35.422799+00:00",
+ "score": 0,
+ "verdict": "nosource",
  "checks": [
   {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"५ अक्टूबर\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
    "name": "wiki-hi",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: ५ अक्टूबर; सारांश में नाम-टोकन ✓",
-   "link": "https://hi.wikipedia.org/wiki/%E0%A5%AB%20%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%82%E0%A4%AC%E0%A4%B0"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Yellow Line (Indore Metro)\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
   },
   {
    "name": "wiki-en",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: Yellow Line (Indore Metro)",
-   "link": "https://en.wikipedia.org/wiki/Yellow%20Line%20%28Indore%20Metro%29"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
   },
   {
    "name": "wikidata",
@@ -41,10 +60,7 @@
   }
  ],
  "conflicts": [],
- "sources_domains": [
-  "en.wikipedia.org",
-  "hi.wikipedia.org"
- ],
- "summary_hi": "फ़ोटो: वीरांगना रानी दुर्गावती: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en।",
+ "sources_domains": [],
+ "summary_hi": "फ़ोटो: वीरांगना रानी दुर्गावती: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
  "llm": null
 }

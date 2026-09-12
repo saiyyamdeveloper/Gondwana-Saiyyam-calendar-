@@ -1,22 +1,41 @@
 {
  "id": "photo:nilambar-pitambar",
- "checked_at": "2026-09-12T14:52:41.946113+00:00",
- "score": 55,
- "verdict": "partial",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q14957032"
+ },
+ "checked_at": "2026-09-12T17:31:31.943072+00:00",
+ "score": 15,
+ "verdict": "weak",
  "checks": [
   {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"नीलाम्बर पीताम्बर विश्वविद्यालय\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
    "name": "wiki-hi",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: नीलाम्बर पीताम्बर विश्वविद्यालय; सारांश में नाम-टोकन ✓",
-   "link": "https://hi.wikipedia.org/wiki/%E0%A4%A8%E0%A5%80%E0%A4%B2%E0%A4%BE%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%B0%20%E0%A4%AA%E0%A5%80%E0%A4%A4%E0%A4%BE%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%B0%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Nilamber and Pitamber\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
   },
   {
    "name": "wiki-en",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: Nilamber and Pitamber",
-   "link": "https://en.wikipedia.org/wiki/Nilamber%20and%20Pitamber"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
   },
   {
    "name": "wikidata",
@@ -42,10 +61,8 @@
  ],
  "conflicts": [],
  "sources_domains": [
-  "en.wikipedia.org",
-  "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "फ़ोटो: नीलाम्बर-पीताम्बर: स्कोर 55/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata।",
+ "summary_hi": "फ़ोटो: नीलाम्बर-पीताम्बर: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
  "llm": null
 }

@@ -1,0 +1,68 @@
+{
+ "id": "person:wd-Q113443973",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q113443973"
+ },
+ "checked_at": "2026-09-12T17:32:52.421068+00:00",
+ "score": 40,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"India's Next Top Model\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q113443973",
+   "link": "https://www.wikidata.org/wiki/Q113443973"
+  },
+  {
+   "name": "source-url",
+   "ok": true,
+   "pts": 15,
+   "detail": "ज़िंदा; शीर्षक में नाम ✓",
+   "link": "https://www.wikidata.org/wiki/Q113443973"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "wikidata.org"
+ ],
+ "summary_hi": "Rhea Resham Bari: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, source-url, internal-sources, internal-category।",
+ "llm": null
+}

@@ -1,0 +1,84 @@
+{
+ "id": "person:wd-Q117464770",
+ "dates": {
+  "birth": "1950-08-08",
+  "death": null,
+  "source": "wikidata:Q117464770"
+ },
+ "checked_at": "2026-09-12T17:32:57.693789+00:00",
+ "score": 100,
+ "verdict": "pass",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: जानुम सिंह सोय; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A5%81%E0%A4%AE%20%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%B9%20%E0%A4%B8%E0%A5%8B%E0%A4%AF"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Janum Singh Soy; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Janum%20Singh%20Soy"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q117464770",
+   "link": "https://www.wikidata.org/wiki/Q117464770"
+  },
+  {
+   "name": "wd-birth-match",
+   "ok": true,
+   "pts": 13,
+   "detail": "हमारा 1950 ↔ विकिडेटा 1950",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": true,
+   "pts": 10,
+   "detail": "ज़िंदा",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A5%81%E0%A4%AE_%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%B9_%E0%A4%B8%E0%A5%8B%E0%A4%AF"
+  },
+  {
+   "name": "source-url",
+   "ok": true,
+   "pts": 15,
+   "detail": "ज़िंदा; शीर्षक में नाम ✓",
+   "link": "https://en.wikipedia.org/wiki/Janum_Singh_Soy"
+  },
+  {
+   "name": "wd-birth_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 1950-08-08",
+   "link": ""
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "जानुम सिंह सोय: स्कोर 100/100 (🟢 स्वतः-सत्यापित)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, source-url, source-url, wd-birth_date, internal-sources, internal-category। 3 स्वतंत्र डोमेन सहमत — हाइब्रिड नीति लागू।",
+ "llm": null
+}

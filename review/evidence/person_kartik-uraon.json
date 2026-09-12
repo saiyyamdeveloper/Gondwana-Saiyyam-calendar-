@@ -1,6 +1,11 @@
 {
  "id": "person:kartik-uraon",
- "checked_at": "2026-09-12T14:52:23.753868+00:00",
+ "dates": {
+  "birth": "1924-10-29",
+  "death": null,
+  "source": "wikidata:Q6373550"
+ },
+ "checked_at": "2026-09-12T17:31:15.616795+00:00",
  "score": 78,
  "verdict": "partial",
  "checks": [
@@ -40,6 +45,13 @@
    "link": "प्रभात खबर (2025)"
   },
   {
+   "name": "wd-birth_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 1924-10-29",
+   "link": ""
+  },
+  {
    "name": "internal-sources",
    "ok": true,
    "pts": 5,
@@ -60,6 +72,6 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "कार्तिक उराँव: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, internal-sources, internal-category।",
+ "summary_hi": "कार्तिक उराँव: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, wd-birth_date, internal-sources, internal-category।",
  "llm": null
 }

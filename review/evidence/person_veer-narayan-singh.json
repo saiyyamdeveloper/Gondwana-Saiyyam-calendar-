@@ -1,6 +1,11 @@
 {
  "id": "person:veer-narayan-singh",
- "checked_at": "2026-09-12T14:52:16.530071+00:00",
+ "dates": {
+  "birth": null,
+  "death": "1857-12-10",
+  "source": "wikidata:Q19662789"
+ },
+ "checked_at": "2026-09-12T17:31:08.914765+00:00",
  "score": 78,
  "verdict": "partial",
  "checks": [
@@ -40,6 +45,13 @@
    "link": "प्रभात खबर (2025)"
   },
   {
+   "name": "wd-death_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "मृत्यु-तिथि (विकिडेटा, दिन-सटीक): 1857-12-10",
+   "link": ""
+  },
+  {
    "name": "internal-sources",
    "ok": true,
    "pts": 5,
@@ -60,6 +72,6 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "वीर नारायण सिंह: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, internal-sources, internal-category।",
+ "summary_hi": "वीर नारायण सिंह: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, wd-death_date, internal-sources, internal-category।",
  "llm": null
 }

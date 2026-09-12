@@ -1,0 +1,76 @@
+{
+ "id": "place:bhoramdeo",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q4902046"
+ },
+ "checked_at": "2026-09-12T17:32:07.349490+00:00",
+ "score": 80,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Bhoramdeo Temple; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Bhoramdeo%20Temple"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q4902046",
+   "link": "https://www.wikidata.org/wiki/Q4902046"
+  },
+  {
+   "name": "wd-gps",
+   "ok": true,
+   "pts": 30,
+   "detail": "निर्देशांक-दूरी 32.5 किमी (सीमा 50)",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "छत्तीसगढ़ पर्यटन/पुरातत्व (सुप्रसिद्ध)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  },
+  {
+   "name": "internal-gps-label",
+   "ok": true,
+   "pts": 5,
+   "detail": "gps_precision=approximate",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "भोरामदेव मंदिर: स्कोर 80/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-gps, internal-sources, internal-category, internal-gps-label।",
+ "llm": null
+}

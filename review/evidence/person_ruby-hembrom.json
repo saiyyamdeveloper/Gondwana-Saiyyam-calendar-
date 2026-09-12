@@ -1,15 +1,27 @@
 {
  "id": "person:ruby-hembrom",
- "checked_at": "2026-09-12T14:52:34.613366+00:00",
- "score": 65,
- "verdict": "partial",
+ "dates": {
+  "birth": "2003-06-29",
+  "death": null,
+  "source": "wikidata:Q108492062"
+ },
+ "checked_at": "2026-09-12T17:31:25.291180+00:00",
+ "score": 45,
+ "verdict": "weak",
  "checks": [
   {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"हेम्ब्रम\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
    "name": "wiki-hi",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: हेम्ब्रम; सारांश में नाम-टोकन ✓",
-   "link": "https://hi.wikipedia.org/wiki/%E0%A4%B9%E0%A5%87%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%AE"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
   },
   {
    "name": "wiki-en",
@@ -33,6 +45,13 @@
    "link": "आदिवाणी वेबसाइट"
   },
   {
+   "name": "wd-birth_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 2003-06-29",
+   "link": ""
+  },
+  {
    "name": "internal-sources",
    "ok": true,
    "pts": 5,
@@ -50,9 +69,8 @@
  "conflicts": [],
  "sources_domains": [
   "en.wikipedia.org",
-  "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "रुबी हेम्ब्रम: स्कोर 65/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category।",
+ "summary_hi": "रुबी हेम्ब्रम: स्कोर 45/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date, internal-sources, internal-category।",
  "llm": null
 }

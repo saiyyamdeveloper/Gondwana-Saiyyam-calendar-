@@ -1,0 +1,68 @@
+{
+ "id": "place:gaidinliu-nungkao",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": null
+ },
+ "checked_at": "2026-09-12T17:32:32.633157+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Rani Gaidinliu; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Rani%20Gaidinliu"
+  },
+  {
+   "name": "wikidata",
+   "ok": false,
+   "pts": 0,
+   "detail": "विकिडेटा आइटम नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "मणिपुर राज्य-अभिलेख"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  },
+  {
+   "name": "internal-gps-label",
+   "ok": true,
+   "pts": 5,
+   "detail": "gps_precision=approximate",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org"
+ ],
+ "summary_hi": "रानी गैदिनलियू जन्मस्थल — नुंगकाओ: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, internal-sources, internal-category, internal-gps-label।",
+ "llm": null
+}

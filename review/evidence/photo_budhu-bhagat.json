@@ -1,7 +1,12 @@
 {
  "id": "photo:budhu-bhagat",
- "checked_at": "2026-09-12T14:52:42.833993+00:00",
- "score": 40,
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": null
+ },
+ "checked_at": "2026-09-12T17:31:32.640735+00:00",
+ "score": 20,
  "verdict": "weak",
  "checks": [
   {
@@ -12,11 +17,18 @@
    "link": "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A5%81%E0%A4%A7%E0%A5%82%20%E0%A4%AD%E0%A4%97%E0%A4%A4"
   },
   {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Budhu Bhagat\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
    "name": "wiki-en",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: Budhu Bhagat",
-   "link": "https://en.wikipedia.org/wiki/Budhu%20Bhagat"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
   },
   {
    "name": "wikidata",
@@ -42,9 +54,8 @@
  ],
  "conflicts": [],
  "sources_domains": [
-  "en.wikipedia.org",
   "hi.wikipedia.org"
  ],
- "summary_hi": "फ़ोटो: वीर बुधु भगत: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en।",
+ "summary_hi": "फ़ोटो: वीर बुधु भगत: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
  "llm": null
 }

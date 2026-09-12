@@ -1,8 +1,13 @@
 {
  "id": "person:chakra-bisoi",
- "checked_at": "2026-09-12T14:52:19.322704+00:00",
- "score": 30,
- "verdict": "weak",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": null
+ },
+ "checked_at": "2026-09-12T17:31:11.326287+00:00",
+ "score": 10,
+ "verdict": "nosource",
  "checks": [
   {
    "name": "wiki-hi",
@@ -12,11 +17,18 @@
    "link": ""
   },
   {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Paika Rebellion\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
    "name": "wiki-en",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: Paika Rebellion",
-   "link": "https://en.wikipedia.org/wiki/Paika%20Rebellion"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
   },
   {
    "name": "wikidata",
@@ -48,9 +60,7 @@
   }
  ],
  "conflicts": [],
- "sources_domains": [
-  "en.wikipedia.org"
- ],
- "summary_hi": "चक्रा बिसोई: स्कोर 30/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, internal-sources, internal-category।",
+ "sources_domains": [],
+ "summary_hi": "चक्रा बिसोई: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
  "llm": null
 }

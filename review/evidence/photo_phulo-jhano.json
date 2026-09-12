@@ -1,15 +1,27 @@
 {
  "id": "photo:phulo-jhano",
- "checked_at": "2026-09-12T14:52:40.233769+00:00",
- "score": 20,
- "verdict": "weak",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": null
+ },
+ "checked_at": "2026-09-12T17:31:30.170901+00:00",
+ "score": 0,
+ "verdict": "nosource",
  "checks": [
   {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"फूलो मुर्मू और झानो मुर्मू\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
    "name": "wiki-hi",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: फूलो मुर्मू और झानो मुर्मू; सारांश में नाम-टोकन ✓",
-   "link": "https://hi.wikipedia.org/wiki/%E0%A4%AB%E0%A5%82%E0%A4%B2%E0%A5%8B%20%E0%A4%AE%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A5%82%20%E0%A4%94%E0%A4%B0%20%E0%A4%9D%E0%A4%BE%E0%A4%A8%E0%A5%8B%20%E0%A4%AE%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A5%82"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
   },
   {
    "name": "wiki-en",
@@ -41,9 +53,7 @@
   }
  ],
  "conflicts": [],
- "sources_domains": [
-  "hi.wikipedia.org"
- ],
- "summary_hi": "फ़ोटो: फुलो-झानो मुर्मू: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
+ "sources_domains": [],
+ "summary_hi": "फ़ोटो: फुलो-झानो मुर्मू: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
  "llm": null
 }

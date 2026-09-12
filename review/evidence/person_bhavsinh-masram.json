@@ -1,22 +1,41 @@
 {
  "id": "person:bhavsinh-masram",
- "checked_at": "2026-09-12T14:52:33.621253+00:00",
- "score": 50,
- "verdict": "partial",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": null
+ },
+ "checked_at": "2026-09-12T17:31:24.331930+00:00",
+ "score": 10,
+ "verdict": "nosource",
  "checks": [
   {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"गोंडी भाषा\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
    "name": "wiki-hi",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: गोंडी भाषा; सारांश में नाम-टोकन ✓",
-   "link": "https://hi.wikipedia.org/wiki/%E0%A4%97%E0%A5%8B%E0%A4%82%E0%A4%A1%E0%A5%80%20%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Results of the 2009 Indian general election by constituency\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
   },
   {
    "name": "wiki-en",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: Results of the 2009 Indian general election by constituency",
-   "link": "https://en.wikipedia.org/wiki/Results%20of%20the%202009%20Indian%20general%20election%20by%20constituency"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
   },
   {
    "name": "wikidata",
@@ -55,10 +74,7 @@
   }
  ],
  "conflicts": [],
- "sources_domains": [
-  "en.wikipedia.org",
-  "hi.wikipedia.org"
- ],
- "summary_hi": "भावसिंह मसराम: स्कोर 50/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, internal-sources, internal-category।",
+ "sources_domains": [],
+ "summary_hi": "भावसिंह मसराम: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
  "llm": null
 }

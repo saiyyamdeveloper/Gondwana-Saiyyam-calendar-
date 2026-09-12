@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-12T14:52:45.997128+00:00"
+  "updated": "2026-09-12T17:33:02.068299+00:00"
  },
  "queue": [
   {
@@ -2987,13 +2987,13 @@
     "verify": true,
     "verify_note": "GPS ±200m"
    },
-   "status": "pending",
+   "status": "approved",
    "added": "2026-09-12",
    "added_by": "auto:seed_review_queue.py",
    "decision": null,
-   "decided_by": null,
-   "decided_at": null,
-   "note": ""
+   "decided_by": "automation:auto-verify (hybrid policy)",
+   "decided_at": "2026-09-12T17:32:04.300431+00:00",
+   "note": "स्वतः-स्वीकृत: स्कोर 100, स्रोत-डोमेन 3, शून्य विरोध"
   },
   {
    "id": "place:avantibai-ramgarh",
@@ -3899,13 +3899,13 @@
     "verify": true,
     "verify_note": "GPS ±200m"
    },
-   "status": "pending",
+   "status": "approved",
    "added": "2026-09-12",
    "added_by": "auto:seed_review_queue.py",
    "decision": null,
-   "decided_by": null,
-   "decided_at": null,
-   "note": ""
+   "decided_by": "automation:auto-verify (hybrid policy)",
+   "decided_at": "2026-09-12T17:32:27.343234+00:00",
+   "note": "स्वतः-स्वीकृत: स्कोर 100, स्रोत-डोमेन 3, शून्य विरोध"
   },
   {
    "id": "place:komaram-bheem-asifabad",
@@ -4647,14 +4647,14 @@
     "verify": true,
     "verify_note": "स्वतः-खोज: विकिडेटा P172=Munda people"
    },
-   "status": "pending",
+   "status": "approved",
    "added": "2026-09-12",
    "added_by": "automation:discover",
    "isNew": true,
    "decision": null,
-   "decided_by": null,
-   "decided_at": null,
-   "note": ""
+   "decided_by": "automation:auto-verify (hybrid policy)",
+   "decided_at": "2026-09-12T17:32:46.930092+00:00",
+   "note": "स्वतः-स्वीकृत: स्कोर 100, स्रोत-डोमेन 3, शून्य विरोध"
   },
   {
    "id": "person:wd-Q6167612",
@@ -4681,14 +4681,14 @@
     "verify": true,
     "verify_note": "स्वतः-खोज: विकिडेटा P172=Ho people"
    },
-   "status": "pending",
+   "status": "approved",
    "added": "2026-09-12",
    "added_by": "automation:discover",
    "isNew": true,
    "decision": null,
-   "decided_by": null,
-   "decided_at": null,
-   "note": ""
+   "decided_by": "automation:auto-verify (hybrid policy)",
+   "decided_at": "2026-09-12T17:32:51.319328+00:00",
+   "note": "स्वतः-स्वीकृत: स्कोर 100, स्रोत-डोमेन 3, शून्य विरोध"
   },
   {
    "id": "person:wd-Q113443973",
@@ -4779,14 +4779,14 @@
     "verify": true,
     "verify_note": "स्वतः-खोज: विकिडेटा P172=Ho people"
    },
-   "status": "pending",
+   "status": "approved",
    "added": "2026-09-12",
    "added_by": "automation:discover",
    "isNew": true,
    "decision": null,
-   "decided_by": null,
-   "decided_at": null,
-   "note": ""
+   "decided_by": "automation:auto-verify (hybrid policy)",
+   "decided_at": "2026-09-12T17:32:57.693789+00:00",
+   "note": "स्वतः-स्वीकृत: स्कोर 100, स्रोत-डोमेन 3, शून्य विरोध"
   },
   {
    "id": "person:wd-Q121462767",

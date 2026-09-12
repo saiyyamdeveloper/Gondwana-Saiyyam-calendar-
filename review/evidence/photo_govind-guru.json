@@ -1,0 +1,75 @@
+{
+ "id": "photo:govind-guru",
+ "dates": {
+  "birth": null,
+  "death": "1931-10-30",
+  "source": "wikidata:Q31942009"
+ },
+ "checked_at": "2026-09-12T17:31:43.246782+00:00",
+ "score": 15,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"गुरु गोबिन्द सिंह\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Premanand Govind Sharan\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q31942009",
+   "link": "https://www.wikidata.org/wiki/Q31942009"
+  },
+  {
+   "name": "wd-death_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "मृत्यु-तिथि (विकिडेटा, दिन-सटीक): 1931-10-30",
+   "link": ""
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "wikidata.org"
+ ],
+ "summary_hi": "फ़ोटो: गोविंद गुरु: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, wd-death_date।",
+ "llm": null
+}

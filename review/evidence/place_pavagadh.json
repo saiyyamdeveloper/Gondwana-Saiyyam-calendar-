@@ -1,0 +1,77 @@
+{
+ "id": "place:pavagadh",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q6352649"
+ },
+ "checked_at": "2026-09-12T17:32:27.343234+00:00",
+ "score": 100,
+ "verdict": "pass",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: कालिका माता मंदिर, पावागढ़; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE%20%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A4%BE%20%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0%2C%20%E0%A4%AA%E0%A4%BE%E0%A4%B5%E0%A4%BE%E0%A4%97%E0%A4%A2%E0%A4%BC"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Kalika Mata Temple, Pavagadh; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Kalika%20Mata%20Temple%2C%20Pavagadh"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q6352649",
+   "link": "https://www.wikidata.org/wiki/Q6352649"
+  },
+  {
+   "name": "wd-gps",
+   "ok": true,
+   "pts": 30,
+   "detail": "निर्देशांक-दूरी 4.5 किमी (सीमा 50)",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "UNESCO/गुजरात पर्यटन (सुप्रसिद्ध)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  },
+  {
+   "name": "internal-gps-label",
+   "ok": true,
+   "pts": 5,
+   "detail": "gps_precision=approximate",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "पावागढ़ कालिका माता मंदिर: स्कोर 100/100 (🟢 स्वतः-सत्यापित)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-gps, internal-sources, internal-category, internal-gps-label। 3 स्वतंत्र डोमेन सहमत — हाइब्रिड नीति लागू।",
+ "llm": null
+}

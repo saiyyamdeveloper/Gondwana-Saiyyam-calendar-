@@ -1,10 +1,10 @@
 {
  "person:phulo-jhano": {
-  "score": 65,
-  "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:08.684212+00:00",
-  "summary_hi": "फुलो-झानो मुर्मू: स्कोर 65/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category।",
-  "n_sources": 3
+  "score": 25,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:31:02.288172+00:00",
+  "summary_hi": "फुलो-झानो मुर्मू: स्कोर 25/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, internal-sources, internal-category।",
+  "n_sources": 1
  },
  "person:tilka-manjhi": {
   "score": 91,
@@ -14,108 +14,88 @@
   "n_sources": 3
  },
  "person:nilambar-pitambar": {
-  "score": 65,
-  "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:09.749857+00:00",
-  "summary_hi": "नीलाम्बर-पीताम्बर: स्कोर 65/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category।",
-  "n_sources": 3
+  "score": 25,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:31:03.329053+00:00",
+  "summary_hi": "नीलाम्बर-पीताम्बर: स्कोर 25/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, internal-sources, internal-category।",
+  "n_sources": 1
  },
  "person:telanga-kharia": {
   "score": 48,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T14:52:10.772100+00:00",
-  "summary_hi": "तेलंगा खड़िया: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category। विरोध: death हमारा=1914 बनाम wikidata=1880 — मानव-निर्णय आवश्यक।",
-  "n_sources": 3,
-  "llm": {
-   "verdict": "inconclusive",
-   "confidence": 45,
-   "verified_citations": 2
-  }
+  "checked_at": "2026-09-12T17:31:04.366698+00:00",
+  "summary_hi": "तेलंगा खड़िया: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: death हमारा=1914 बनाम wikidata=1880 — मानव-निर्णय आवश्यक।",
+  "n_sources": 3
  },
  "person:telangi-munda": {
-  "score": 30,
-  "verdict": "weak",
-  "checked_at": "2026-09-12T14:52:11.571814+00:00",
-  "summary_hi": "तेलंगी मुंडा: स्कोर 30/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, internal-sources, internal-category।",
-  "n_sources": 1
+  "score": 10,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:05.075836+00:00",
+  "summary_hi": "तेलंगी मुंडा: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
  },
  "person:jatra-bhagat": {
   "score": 5,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T14:52:13.118291+00:00",
+  "checked_at": "2026-09-12T17:31:06.137987+00:00",
   "summary_hi": "जतरा टाना भगत: स्कोर 5/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1880 बनाम wikidata=1888; death हमारा=1920 बनाम wikidata=1916 — मानव-निर्णय आवश्यक।",
-  "n_sources": 3,
-  "llm": {
-   "verdict": "pass",
-   "confidence": 82,
-   "verified_citations": 0
-  }
+  "n_sources": 3
  },
  "person:tantya-bhil": {
   "score": 71,
   "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:13.967672+00:00",
+  "checked_at": "2026-09-12T17:31:06.973858+00:00",
   "summary_hi": "टांट्या भील (टांट्या मामा): स्कोर 71/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:bhima-nayak": {
   "score": 65,
   "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:14.973323+00:00",
-  "summary_hi": "भीमा नायक: स्कोर 65/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category।",
+  "checked_at": "2026-09-12T17:31:07.901326+00:00",
+  "summary_hi": "भीमा नायक: स्कोर 65/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death_date, internal-sources, internal-category।",
   "n_sources": 3
  },
  "person:veer-narayan-singh": {
   "score": 78,
   "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:16.530071+00:00",
-  "summary_hi": "वीर नारायण सिंह: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, internal-sources, internal-category।",
+  "checked_at": "2026-09-12T17:31:08.914765+00:00",
+  "summary_hi": "वीर नारायण सिंह: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, wd-death_date, internal-sources, internal-category।",
   "n_sources": 3
  },
  "person:gunda-dhur": {
   "score": 45,
   "verdict": "weak",
-  "checked_at": "2026-09-12T14:52:17.734855+00:00",
+  "checked_at": "2026-09-12T17:31:09.742983+00:00",
   "summary_hi": "गूंदा धूर: स्कोर 45/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:laxman-naik": {
   "score": 0,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T14:52:18.614037+00:00",
-  "summary_hi": "लक्ष्मण नायक ('देशनायक'): स्कोर 0/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1899 बनाम wikidata=1946; death हमारा=1943 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
+  "checked_at": "2026-09-12T17:31:10.619324+00:00",
+  "summary_hi": "लक्ष्मण नायक ('देशनायक'): स्कोर 0/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: birth हमारा=1899 बनाम wikidata=1946; death हमारा=1943 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
   "n_sources": 2
  },
  "person:chakra-bisoi": {
-  "score": 30,
-  "verdict": "weak",
-  "checked_at": "2026-09-12T14:52:19.322704+00:00",
-  "summary_hi": "चक्रा बिसोई: स्कोर 30/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, internal-sources, internal-category।",
-  "n_sources": 1
+  "score": 10,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:11.326287+00:00",
+  "summary_hi": "चक्रा बिसोई: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
  },
  "person:dharanidhar-bhuyan": {
   "score": 15,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T14:52:20.173036+00:00",
-  "summary_hi": "धरणीधर भुइयाँ: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category। विरोध: death हमारा=1868 बनाम wikidata=1914 — मानव-निर्णय आवश्यक।",
-  "n_sources": 2,
-  "llm": {
-   "verdict": "inconclusive",
-   "confidence": 15,
-   "verified_citations": 0
-  }
+  "checked_at": "2026-09-12T17:31:12.239238+00:00",
+  "summary_hi": "धरणीधर भुइयाँ: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: death हमारा=1868 बनाम wikidata=1914 — मानव-निर्णय आवश्यक।",
+  "n_sources": 2
  },
  "person:govind-guru": {
-  "score": 48,
+  "score": 28,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T14:52:21.140557+00:00",
-  "summary_hi": "गोविंद गुरु: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, internal-sources, internal-category। विरोध: birth हमारा=1850 बनाम wikidata=1858 — मानव-निर्णय आवश्यक।",
-  "n_sources": 3,
-  "llm": {
-   "verdict": "inconclusive",
-   "confidence": 55,
-   "verified_citations": 0
-  }
+  "checked_at": "2026-09-12T17:31:13.288413+00:00",
+  "summary_hi": "गोविंद गुरु: स्कोर 28/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-death-match, wd-death_date, internal-sources, internal-category। विरोध: birth हमारा=1850 बनाम wikidata=1858 — मानव-निर्णय आवश्यक।",
+  "n_sources": 2
  },
  "person:alluri-sitarama-raju": {
   "score": 91,
@@ -127,22 +107,22 @@
  "person:jhinya-bhil": {
   "score": 10,
   "verdict": "nosource",
-  "checked_at": "2026-09-12T14:52:21.766541+00:00",
+  "checked_at": "2026-09-12T17:31:13.855571+00:00",
   "summary_hi": "झिन्या भिल: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "person:raghuji-bhangare": {
   "score": 50,
   "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:22.733899+00:00",
+  "checked_at": "2026-09-12T17:31:14.644770+00:00",
   "summary_hi": "राघोजी भांगरे: स्कोर 50/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:kartik-uraon": {
   "score": 78,
   "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:23.753868+00:00",
-  "summary_hi": "कार्तिक उराँव: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, internal-sources, internal-category।",
+  "checked_at": "2026-09-12T17:31:15.616795+00:00",
+  "summary_hi": "कार्तिक उराँव: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, wd-birth_date, internal-sources, internal-category।",
   "n_sources": 3
  },
  "person:ram-dayal-munda": {
@@ -162,184 +142,918 @@
  "person:sonajharia-sahu": {
   "score": 10,
   "verdict": "nosource",
-  "checked_at": "2026-09-12T14:52:24.526353+00:00",
+  "checked_at": "2026-09-12T17:31:16.220762+00:00",
   "summary_hi": "सोनझड़िया साहू: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "person:jamuna-tudu": {
   "score": 78,
   "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:25.556831+00:00",
-  "summary_hi": "जमुना टुडू: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
+  "checked_at": "2026-09-12T17:31:17.267463+00:00",
+  "summary_hi": "जमुना टुडू: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category।",
   "n_sources": 3
  },
  "person:deep-grace-ekka": {
   "score": 78,
   "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:26.743952+00:00",
-  "summary_hi": "दीप ग्रेस एक्का: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
+  "checked_at": "2026-09-12T17:31:18.316623+00:00",
+  "summary_hi": "दीप ग्रेस एक्का: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category।",
   "n_sources": 3
  },
  "person:dilip-tirkey": {
-  "score": 78,
+  "score": 58,
   "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:27.929943+00:00",
-  "summary_hi": "दिलीप टिर्की: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
-  "n_sources": 3
+  "checked_at": "2026-09-12T17:31:19.289937+00:00",
+  "summary_hi": "दिलीप टिर्की: स्कोर 58/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category।",
+  "n_sources": 2
  },
  "person:nilam-sanjeep-xess": {
   "score": 15,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T14:52:28.859294+00:00",
-  "summary_hi": "नीलम संजीप खैस: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=2000 बनाम wikidata=1998 — मानव-निर्णय आवश्यक।",
-  "n_sources": 2,
-  "llm": {
-   "verdict": "inconclusive",
-   "confidence": 45,
-   "verified_citations": 0
-  }
+  "checked_at": "2026-09-12T17:31:20.173531+00:00",
+  "summary_hi": "नीलम संजीप खैस: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, internal-sources, internal-category। विरोध: birth हमारा=2000 बनाम wikidata=1998 — मानव-निर्णय आवश्यक।",
+  "n_sources": 2
  },
  "person:limba-ram": {
-  "score": 78,
+  "score": 58,
   "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:29.888743+00:00",
-  "summary_hi": "लिम्बा राम: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
-  "n_sources": 3
+  "checked_at": "2026-09-12T17:31:21.024007+00:00",
+  "summary_hi": "लिम्बा राम: स्कोर 58/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category।",
+  "n_sources": 2
  },
  "person:jangarh-singh-shyam": {
   "score": 71,
   "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:30.859048+00:00",
-  "summary_hi": "जंगारह सिंह श्याम: स्कोर 71/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category।",
+  "checked_at": "2026-09-12T17:31:22.094765+00:00",
+  "summary_hi": "जंगारह सिंह श्याम: स्कोर 71/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-death-match, wd-death_date, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:jivya-soma-mashe": {
   "score": 48,
   "verdict": "conflict",
-  "checked_at": "2026-09-12T14:52:31.900764+00:00",
-  "summary_hi": "जीव्या सोमा माशे: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category। विरोध: death हमारा=2020 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
-  "n_sources": 3,
-  "llm": {
-   "verdict": "inconclusive",
-   "confidence": 65,
-   "verified_citations": 0
-  }
+  "checked_at": "2026-09-12T17:31:23.065968+00:00",
+  "summary_hi": "जीव्या सोमा माशे: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category। विरोध: death हमारा=2020 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
+  "n_sources": 3
  },
  "person:masram": {
-  "score": 30,
-  "verdict": "weak",
-  "checked_at": "2026-09-12T14:52:32.783558+00:00",
-  "summary_hi": "मुंशी मंगल सिंह मसराम: स्कोर 30/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, internal-sources, internal-category।",
-  "n_sources": 1
+  "score": 10,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:23.698752+00:00",
+  "summary_hi": "मुंशी मंगल सिंह मसराम: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
  },
  "person:bhavsinh-masram": {
-  "score": 50,
-  "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:33.621253+00:00",
-  "summary_hi": "भावसिंह मसराम: स्कोर 50/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, internal-sources, internal-category।",
-  "n_sources": 2
+  "score": 10,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:24.331930+00:00",
+  "summary_hi": "भावसिंह मसराम: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
  },
  "person:ruby-hembrom": {
-  "score": 65,
-  "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:34.613366+00:00",
-  "summary_hi": "रुबी हेम्ब्रम: स्कोर 65/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category।",
-  "n_sources": 3
- },
- "person:nirmala-putul": {
-  "score": 35,
-  "verdict": "conflict",
-  "checked_at": "2026-09-12T14:52:35.649914+00:00",
-  "summary_hi": "निर्मला पुतुल: स्कोर 35/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1981 बनाम wikidata=1972 — मानव-निर्णय आवश्यक।",
-  "n_sources": 3,
-  "llm": {
-   "verdict": "inconclusive",
-   "confidence": 55,
-   "verified_citations": 1
-  }
- },
- "person:maina-tudu": {
-  "score": 78,
-  "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:36.663744+00:00",
-  "summary_hi": "मइना टुडू: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
-  "n_sources": 3
- },
- "photo:birsa-munda": {
-  "score": 40,
+  "score": 45,
   "verdict": "weak",
-  "checked_at": "2026-09-12T14:52:37.544241+00:00",
-  "summary_hi": "फ़ोटो: भगवान बिरसा मुंडा: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en।",
+  "checked_at": "2026-09-12T17:31:25.291180+00:00",
+  "summary_hi": "रुबी हेम्ब्रम: स्कोर 45/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date, internal-sources, internal-category।",
   "n_sources": 2
  },
- "photo:sidhu-murmu": {
-  "score": 55,
+ "person:nirmala-putul": {
+  "score": 15,
+  "verdict": "conflict",
+  "checked_at": "2026-09-12T17:31:26.193595+00:00",
+  "summary_hi": "निर्मला पुतुल: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1981 बनाम wikidata=1972 — मानव-निर्णय आवश्यक।",
+  "n_sources": 2
+ },
+ "person:maina-tudu": {
+  "score": 58,
   "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:38.718736+00:00",
-  "summary_hi": "फ़ोटो: सिदो मुर्मू: स्कोर 55/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata।",
-  "n_sources": 3
+  "checked_at": "2026-09-12T17:31:27.099726+00:00",
+  "summary_hi": "मइना टुडू: स्कोर 58/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category।",
+  "n_sources": 2
+ },
+ "photo:birsa-munda": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:27.771619+00:00",
+  "summary_hi": "फ़ोटो: भगवान बिरसा मुंडा: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:sidhu-murmu": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:31:28.680567+00:00",
+  "summary_hi": "फ़ोटो: सिदो मुर्मू: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
+  "n_sources": 2
  },
  "photo:kanhu-murmu": {
-  "score": 55,
-  "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:39.605146+00:00",
-  "summary_hi": "फ़ोटो: कान्हू मुर्मू: स्कोर 55/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata।",
-  "n_sources": 3
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:31:29.580241+00:00",
+  "summary_hi": "फ़ोटो: कान्हू मुर्मू: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
+  "n_sources": 2
  },
  "photo:phulo-jhano": {
-  "score": 20,
-  "verdict": "weak",
-  "checked_at": "2026-09-12T14:52:40.233769+00:00",
-  "summary_hi": "फ़ोटो: फुलो-झानो मुर्मू: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
-  "n_sources": 1
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:30.170901+00:00",
+  "summary_hi": "फ़ोटो: फुलो-झानो मुर्मू: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
  },
  "photo:tilka-manjhi": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-12T14:52:41.069249+00:00",
+  "checked_at": "2026-09-12T17:31:31.134291+00:00",
   "summary_hi": "फ़ोटो: तिलका मांझी: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
   "n_sources": 2
  },
  "photo:nilambar-pitambar": {
-  "score": 55,
-  "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:41.946113+00:00",
-  "summary_hi": "फ़ोटो: नीलाम्बर-पीताम्बर: स्कोर 55/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata।",
-  "n_sources": 3
- },
- "photo:budhu-bhagat": {
-  "score": 40,
+  "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-09-12T14:52:42.833993+00:00",
-  "summary_hi": "फ़ोटो: वीर बुधु भगत: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en।",
-  "n_sources": 2
- },
- "photo:telanga-kharia": {
-  "score": 55,
-  "verdict": "partial",
-  "checked_at": "2026-09-12T14:52:43.808136+00:00",
-  "summary_hi": "फ़ोटो: तेलंगा खड़िया: स्कोर 55/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata।",
-  "n_sources": 3
- },
- "photo:telangi-munda": {
-  "score": 20,
-  "verdict": "weak",
-  "checked_at": "2026-09-12T14:52:44.437059+00:00",
-  "summary_hi": "फ़ोटो: तेलंगी मुंडा: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
+  "checked_at": "2026-09-12T17:31:31.943072+00:00",
+  "summary_hi": "फ़ोटो: नीलाम्बर-पीताम्बर: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
- "photo:jatra-bhagat": {
-  "score": 40,
+ "photo:budhu-bhagat": {
+  "score": 20,
   "verdict": "weak",
-  "checked_at": "2026-09-12T14:52:45.157155+00:00",
-  "summary_hi": "फ़ोटो: जतरा टाना भगत: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en।",
+  "checked_at": "2026-09-12T17:31:32.640735+00:00",
+  "summary_hi": "फ़ोटो: वीर बुधु भगत: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
+  "n_sources": 1
+ },
+ "photo:telanga-kharia": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:31:33.485541+00:00",
+  "summary_hi": "फ़ोटो: तेलंगा खड़िया: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata, wd-birth_date, wd-death_date।",
   "n_sources": 2
  },
+ "photo:telangi-munda": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:34.047292+00:00",
+  "summary_hi": "फ़ोटो: तेलंगी मुंडा: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:jatra-bhagat": {
+  "score": 20,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:31:34.740419+00:00",
+  "summary_hi": "फ़ोटो: जतरा टाना भगत: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
+  "n_sources": 1
+ },
  "photo:rani-durgavati": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:35.422799+00:00",
+  "summary_hi": "फ़ोटो: वीरांगना रानी दुर्गावती: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:shankar-shah": {
+  "score": 20,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:31:36.900280+00:00",
+  "summary_hi": "फ़ोटो: शंकर शाह (गोंडवाना): स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
+  "n_sources": 1
+ },
+ "photo:raghunath-shah": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:37.733079+00:00",
+  "summary_hi": "फ़ोटो: कुंवर रघुनाथ शाह: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:tantya-bhil": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:38.370917+00:00",
+  "summary_hi": "फ़ोटो: टांट्या भील (टांट्या मामा): स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:bhima-nayak": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:31:39.217854+00:00",
+  "summary_hi": "फ़ोटो: भीमा नायक: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata, wd-death_date।",
+  "n_sources": 2
+ },
+ "photo:veer-narayan-singh": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:31:40.132990+00:00",
+  "summary_hi": "फ़ोटो: वीर नारायण सिंह: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata, wd-death_date।",
+  "n_sources": 2
+ },
+ "photo:gunda-dhur": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:40.718746+00:00",
+  "summary_hi": "फ़ोटो: गूंदा धूर: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:laxman-naik": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:41.313279+00:00",
+  "summary_hi": "फ़ोटो: लक्ष्मण नायक ('देशनायक'): स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:chakra-bisoi": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:41.878974+00:00",
+  "summary_hi": "फ़ोटो: चक्रा बिसोई: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:dharanidhar-bhuyan": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:42.407531+00:00",
+  "summary_hi": "फ़ोटो: धरणीधर भुइयाँ: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:govind-guru": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:31:43.246782+00:00",
+  "summary_hi": "फ़ोटो: गोविंद गुरु: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, wd-death_date।",
+  "n_sources": 1
+ },
+ "photo:mangadh-martyrs": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:43.832387+00:00",
+  "summary_hi": "फ़ोटो: मांगढ के ≈1500 अनाम भील शहीद: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:bhumkal-martyrs": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:44.532768+00:00",
+  "summary_hi": "फ़ोटो: भूमकल के अनाम मुरिया-मड़िया शहीद: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:alluri-sitarama-raju": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:31:45.614918+00:00",
+  "summary_hi": "फ़ोटो: अल्लूरी सीताराम राजू: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata, wd-birth_date, wd-death_date।",
+  "n_sources": 2
+ },
+ "photo:komaram-bheem": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:31:46.967415+00:00",
+  "summary_hi": "फ़ोटो: कोमरम भीम: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
+  "n_sources": 2
+ },
+ "photo:jadonang": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:47.574439+00:00",
+  "summary_hi": "फ़ोटो: हाइपो जदोनांग: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:gaidinliu": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:47.905483+00:00",
+  "summary_hi": "फ़ोटो: रानी गाइदिन्ल्यू: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:tirot-sing": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:48.237453+00:00",
+  "summary_hi": "फ़ोटो: ऊ तिरॉत सिंह: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:jhinya-bhil": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:48.564975+00:00",
+  "summary_hi": "फ़ोटो: झिन्या भिल: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:raghuji-bhangare": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:48.896295+00:00",
+  "summary_hi": "फ़ोटो: राघोजी भांगरे: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:albert-ekka": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:49.227771+00:00",
+  "summary_hi": "फ़ोटो: अल्बर्ट एक्का: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:draupadi-murmu": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:49.558796+00:00",
+  "summary_hi": "फ़ोटो: द्रौपदी मुर्मू: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:jaipal-singh-munda": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:49.894461+00:00",
+  "summary_hi": "फ़ोटो: जयपाल सिंह मुंडा ('मारंग गोमेके'): स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:pa-sangma": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:50.223334+00:00",
+  "summary_hi": "फ़ोटो: पी.ए. संगमा: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:shibu-soren": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:50.549037+00:00",
+  "summary_hi": "फ़ोटो: शिबू सोरेन ('गुरुजी'): स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:arjun-munda": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:50.968153+00:00",
+  "summary_hi": "फ़ोटो: अर्जुन मुंडा: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:kartik-uraon": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:51.302549+00:00",
+  "summary_hi": "फ़ोटो: कार्तिक उराँव: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:ram-dayal-munda": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:51.630961+00:00",
+  "summary_hi": "फ़ोटो: डॉ. राम दयाल मुंडा: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:chuni-kotal": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:51.965180+00:00",
+  "summary_hi": "फ़ोटो: चुनी कोटाल: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:sonajharia-sahu": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:52.294592+00:00",
+  "summary_hi": "फ़ोटो: सोनझड़िया साहू: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:jamuna-tudu": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:52.625745+00:00",
+  "summary_hi": "फ़ोटो: जमुना टुडू: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:mary-kom": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:53.045231+00:00",
+  "summary_hi": "फ़ोटो: मैरी कॉम: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:deep-grace-ekka": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:53.431720+00:00",
+  "summary_hi": "फ़ोटो: दीप ग्रेस एक्का: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:dilip-tirkey": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:53.759011+00:00",
+  "summary_hi": "फ़ोटो: दिलीप टिर्की: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:nilam-sanjeep-xess": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:54.178179+00:00",
+  "summary_hi": "फ़ोटो: नीलम संजीप खैस: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:limba-ram": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:54.509610+00:00",
+  "summary_hi": "फ़ोटो: लिम्बा राम: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:jangarh-singh-shyam": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:54.843939+00:00",
+  "summary_hi": "फ़ोटो: जंगारह सिंह श्याम: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:bhajju-shyam": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:55.174089+00:00",
+  "summary_hi": "फ़ोटो: भज्जू श्याम: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:durga-bai-vyam": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:55.506705+00:00",
+  "summary_hi": "फ़ोटो: दुर्गा बाई व्याम: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:subhash-vyam": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:55.837476+00:00",
+  "summary_hi": "फ़ोटो: सुभाष व्याम: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:venkat-raman-singh": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:56.171470+00:00",
+  "summary_hi": "फ़ोटो: वेंकट रमन सिंह (गोंड कलाकार): स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:jivya-soma-mashe": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:56.504470+00:00",
+  "summary_hi": "फ़ोटो: जीव्या सोमा माशे: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:bhuri-bai": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:56.838096+00:00",
+  "summary_hi": "फ़ोटो: भूरी बाई: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:raghunath-murmu": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:57.173282+00:00",
+  "summary_hi": "फ़ोटो: पंडित रघुनाथ मुर्मू: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:masram": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:57.598156+00:00",
+  "summary_hi": "फ़ोटो: मुंशी मंगल सिंह मसराम: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:bhavsinh-masram": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:57.927802+00:00",
+  "summary_hi": "फ़ोटो: भावसिंह मसराम: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:hari-marwai": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:58.256833+00:00",
+  "summary_hi": "फ़ोटो: हरि मरावी: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:ruby-hembrom": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:58.586919+00:00",
+  "summary_hi": "फ़ोटो: रुबी हेम्ब्रम: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:nirmala-putul": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:58.921337+00:00",
+  "summary_hi": "फ़ोटो: निर्मला पुतुल: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "photo:maina-tudu": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:59.255906+00:00",
+  "summary_hi": "फ़ोटो: मइना टुडू: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:narrai-nala": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:59.584652+00:00",
+  "summary_hi": "नरई नाला — रानी दुर्गावती शहीदी स्थल: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:rd-museum-jabalpur": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:31:59.911933+00:00",
+  "summary_hi": "रानी दुर्गावती संग्रहालय एवं स्मारक: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:shankar-shah-jabalpur": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:00.621583+00:00",
+  "summary_hi": "शंकर शाह–रघुनाथ शाह शहीदी स्थल (कैंट): स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:chausath-yogini-bhedaghat": {
+  "score": 100,
+  "verdict": "pass",
+  "checked_at": "2026-09-12T17:32:04.300431+00:00",
+  "summary_hi": "चौंसठ योगिनी मंदिर, भेड़ाघाट: स्कोर 100/100 (🟢 स्वतः-सत्यापित)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-gps, internal-sources, internal-category, internal-gps-label। 3 स्वतंत्र डोमेन सहमत — हाइब्रिड नीति लागू।",
+  "n_sources": 3
+ },
+ "place:avantibai-ramgarh": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:05.037735+00:00",
+  "summary_hi": "रानी अवंतीबाई लोधी स्मारक — रामगढ़: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:bhumkal-smarak": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:05.655130+00:00",
+  "summary_hi": "भूमकल विद्रोह स्मारक, जगदलपुर: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:veer-narayan-sonakhan": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:32:06.409430+00:00",
+  "summary_hi": "वीर नारायण सिंह स्मारक — सोनाखन: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, internal-sources, internal-category, internal-gps-label।",
+  "n_sources": 1
+ },
+ "place:bhoramdeo": {
+  "score": 80,
+  "verdict": "partial",
+  "checked_at": "2026-09-12T17:32:07.349490+00:00",
+  "summary_hi": "भोरामदेव मंदिर: स्कोर 80/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-gps, internal-sources, internal-category, internal-gps-label।",
+  "n_sources": 2
+ },
+ "place:bamleshwari-dongargarh": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:32:08.607968+00:00",
+  "summary_hi": "माँ बमलेश्वरी मंदिर, डोंगरगढ़: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, internal-sources, internal-category, internal-gps-label।",
+  "n_sources": 1
+ },
+ "place:ratanpur-mahamaya": {
+  "score": 40,
+  "verdict": "conflict",
+  "checked_at": "2026-09-12T17:32:11.672265+00:00",
+  "summary_hi": "महामाया मंदिर, रतनपुर: स्कोर 40/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category, internal-gps-label। विरोध: gps हमारा=22.2869,82.1717 बनाम wikidata=22.883,82.159 — मानव-निर्णय आवश्यक।",
+  "n_sources": 3
+ },
+ "place:sitabengri": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:12.348066+00:00",
+  "summary_hi": "सीताबेंगरी गुफाएँ: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:ulihatu": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:13.090879+00:00",
+  "summary_hi": "उलिहातु — बिरसा मुंडा जन्मस्थल: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:sail-rakab": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:13.839531+00:00",
+  "summary_hi": "सैल रकाब — बिरसा मुंडा गिरफ़्तारी स्थल: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:dambari-buru": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:14.497029+00:00",
+  "summary_hi": "दामबरी बुड़ु — सरंडा: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:bhognadih": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:15.139920+00:00",
+  "summary_hi": "सिदो-कानहु शहीदी स्थल — भोगनाडीह: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:tilka-manjhi-bhagalpur": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:15.804976+00:00",
+  "summary_hi": "तिलका मांझी शहीदी स्थल, भागलपुर: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:budhu-bhagat": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:16.529287+00:00",
+  "summary_hi": "बुधु भगत स्मारक: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:nilambar-pitambar": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:17.168442+00:00",
+  "summary_hi": "नीलाम्बर-पितंबर स्मारक, पलामू: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:pahari-mandir-ranchi": {
+  "score": 80,
+  "verdict": "partial",
+  "checked_at": "2026-09-12T17:32:18.430519+00:00",
+  "summary_hi": "पहाड़ी मंदिर, रांची: स्कोर 80/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-gps, internal-sources, internal-category, internal-gps-label।",
+  "n_sources": 2
+ },
+ "place:rajrappa": {
+  "score": 80,
+  "verdict": "partial",
+  "checked_at": "2026-09-12T17:32:19.380863+00:00",
+  "summary_hi": "रजरप्पा छिन्नमस्ता मंदिर: स्कोर 80/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-gps, internal-sources, internal-category, internal-gps-label।",
+  "n_sources": 2
+ },
+ "place:maluti": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:32:20.153821+00:00",
+  "summary_hi": "मालुती मंदिर ग्राम: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, internal-sources, internal-category, internal-gps-label।",
+  "n_sources": 1
+ },
+ "place:niyamgiri": {
+  "score": 70,
+  "verdict": "partial",
+  "checked_at": "2026-09-12T17:32:22.534193+00:00",
+  "summary_hi": "नियमगिरि पर्वत: स्कोर 70/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category, internal-gps-label।",
+  "n_sources": 3
+ },
+ "place:dharanidhar-keonjhar": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:23.149888+00:00",
+  "summary_hi": "धरणीधर भुइयाँ स्मारक, केओनझर: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:chakra-bisoi-ghumsar": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:23.729972+00:00",
+  "summary_hi": "चक्रा बिसोई — घुमुसर क्षेत्र: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:laxman-naik-berhampur": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:24.366019+00:00",
+  "summary_hi": "लक्ष्मण नायक शहीदी स्थल — बरहमपुर जेल: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:mangadh": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:24.989491+00:00",
+  "summary_hi": "मांगढ़ धाम — आदिवासी जलियाँवाला: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:shoolpaneshwar": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:25.638610+00:00",
+  "summary_hi": "शूलपाणेश्वर महादेव मंदिर: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:pavagadh": {
+  "score": 100,
+  "verdict": "pass",
+  "checked_at": "2026-09-12T17:32:27.343234+00:00",
+  "summary_hi": "पावागढ़ कालिका माता मंदिर: स्कोर 100/100 (🟢 स्वतः-सत्यापित)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-gps, internal-sources, internal-category, internal-gps-label। 3 स्वतंत्र डोमेन सहमत — हाइब्रिड नीति लागू।",
+  "n_sources": 3
+ },
+ "place:komaram-bheem-asifabad": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:32:28.170213+00:00",
+  "summary_hi": "कोमरम भीम स्मारक — आसिफाबाद: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, internal-sources, internal-category, internal-gps-label।",
+  "n_sources": 1
+ },
+ "place:alluri-koyyuru": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:28.871621+00:00",
+  "summary_hi": "अल्लूरी सीताराम राजू शहीदी स्थल — कोय्यूर: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:alluri-statue-vizag": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:32:29.810078+00:00",
+  "summary_hi": "अल्लूरी सीताराम राजू प्रतिमा — विशाखपत्तनम: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, internal-sources, internal-category, internal-gps-label।",
+  "n_sources": 1
+ },
+ "place:tirot-sing-nongsawlia": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:30.475317+00:00",
+  "summary_hi": "उई तिरत सिंग जन्मस्थल — नोंगसोलिया (सोहरा): स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:jadonang-imphal": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:31.153365+00:00",
+  "summary_hi": "हाइपौ जदोनंग शहीदी स्थल — इंफाल: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "place:gaidinliu-nungkao": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:32:32.633157+00:00",
+  "summary_hi": "रानी गैदिनलियू जन्मस्थल — नुंगकाओ: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, internal-sources, internal-category, internal-gps-label।",
+  "n_sources": 1
+ },
+ "place:mawphlang-sacred-forest": {
+  "score": 30,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:32:33.542893+00:00",
+  "summary_hi": "मावफलंग पवित्र वन (लॉ कीन्तांग): स्कोर 30/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, internal-sources, internal-category, internal-gps-label।",
+  "n_sources": 1
+ },
+ "place:nartiang-monoliths": {
+  "score": 15,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:34.343376+00:00",
+  "summary_hi": "नारटियांग मोनोलिथ: स्कोर 15/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category, internal-gps-label। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "festival:sambhu-naraka": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:34.896388+00:00",
+  "summary_hi": "संभु नरका: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "festival:khandera": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:35.431517+00:00",
+  "summary_hi": "खंदेरा: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "festival:ravan-muri": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:36.030305+00:00",
+  "summary_hi": "रावन मुड़ी: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "festival:sajori-bidari": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:36.656049+00:00",
+  "summary_hi": "साजोरी बिदारी: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "festival:khut": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:37.253131+00:00",
+  "summary_hi": "खुट पूजा: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "festival:navaratra": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:37.828266+00:00",
+  "summary_hi": "नवरात्रि–दशहरा: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "festival:jango-lingo": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:38.473460+00:00",
+  "summary_hi": "जंगो-लिंगो लाटी पूजा: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "festival:hareli": {
+  "score": 20,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:32:39.179088+00:00",
+  "summary_hi": "हरेली: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
+  "n_sources": 1
+ },
+ "festival:rakhi": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:39.772192+00:00",
+  "summary_hi": "राखी (रक्षाबंधन) / कुजलय्या: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "festival:madai": {
+  "score": 20,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:32:40.481904+00:00",
+  "summary_hi": "मड़ई: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, internal-category।",
+  "n_sources": 1
+ },
+ "festival:keslapur-jatra": {
+  "score": 5,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:41.076565+00:00",
+  "summary_hi": "केशलापुर नागोबा जतरा: स्कोर 5/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "announce:keslapur-jatra": {
+  "score": 5,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:41.687184+00:00",
+  "summary_hi": "तिथि-पुष्टि: केशलापुर नागोबा जतरा: स्कोर 5/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "announce:medaram-jatra": {
+  "score": 5,
+  "verdict": "nosource",
+  "checked_at": "2026-09-12T17:32:42.322330+00:00",
+  "summary_hi": "तिथि-पुष्टि: मेदरम सम्मक्का-सरलम्मा जतरा: स्कोर 5/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "person:wd-Q5888960": {
+  "score": 100,
+  "verdict": "pass",
+  "checked_at": "2026-09-12T17:32:46.930092+00:00",
+  "summary_hi": "तुलसी मुंडा: स्कोर 100/100 (🟢 स्वतः-सत्यापित)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, source-url, source-url, wd-birth_date, internal-sources, internal-category। 3 स्वतंत्र डोमेन सहमत — हाइब्रिड नीति लागू।",
+  "n_sources": 3
+ },
+ "person:wd-Q6167612": {
+  "score": 100,
+  "verdict": "pass",
+  "checked_at": "2026-09-12T17:32:51.319328+00:00",
+  "summary_hi": "जयंती पटनायक: स्कोर 100/100 (🟢 स्वतः-सत्यापित)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-death-match, source-url, source-url, wd-birth_date, wd-death_date, internal-sources, internal-category। 3 स्वतंत्र डोमेन सहमत — हाइब्रिड नीति लागू।",
+  "n_sources": 3
+ },
+ "person:wd-Q113443973": {
   "score": 40,
   "verdict": "weak",
-  "checked_at": "2026-09-12T14:52:45.996323+00:00",
-  "summary_hi": "फ़ोटो: वीरांगना रानी दुर्गावती: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en।",
-  "n_sources": 2
+  "checked_at": "2026-09-12T17:32:52.421068+00:00",
+  "summary_hi": "Rhea Resham Bari: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, source-url, internal-sources, internal-category।",
+  "n_sources": 1
+ },
+ "person:wd-Q116546852": {
+  "score": 40,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:32:53.584330+00:00",
+  "summary_hi": "Ganesh Birua: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, source-url, internal-sources, internal-category।",
+  "n_sources": 1
+ },
+ "person:wd-Q117464770": {
+  "score": 100,
+  "verdict": "pass",
+  "checked_at": "2026-09-12T17:32:57.693789+00:00",
+  "summary_hi": "जानुम सिंह सोय: स्कोर 100/100 (🟢 स्वतः-सत्यापित)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, source-url, source-url, wd-birth_date, internal-sources, internal-category। 3 स्वतंत्र डोमेन सहमत — हाइब्रिड नीति लागू।",
+  "n_sources": 3
+ },
+ "person:wd-Q121462767": {
+  "score": 40,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:32:58.638656+00:00",
+  "summary_hi": "Gangaram Bankira: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, source-url, internal-sources, internal-category।",
+  "n_sources": 1
+ },
+ "person:wd-Q121462784": {
+  "score": 40,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:32:59.946210+00:00",
+  "summary_hi": "Ashish Birulee: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, source-url, internal-sources, internal-category।",
+  "n_sources": 1
+ },
+ "person:wd-Q125746675": {
+  "score": 40,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T17:33:01.036041+00:00",
+  "summary_hi": "Fileona Dkhar: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, source-url, internal-sources, internal-category।",
+  "n_sources": 1
+ },
+ "person:wd-Q131295751": {
+  "score": 53,
+  "verdict": "partial",
+  "checked_at": "2026-09-12T17:33:02.066015+00:00",
+  "summary_hi": "M. Keivom: स्कोर 53/100 (🟡 आंशिक सबूत)। मिले सबूत: wikidata, wd-birth-match, source-url, wd-birth_date, internal-sources, internal-category।",
+  "n_sources": 1
  }
 }

@@ -1,15 +1,27 @@
 {
  "id": "person:masram",
- "checked_at": "2026-09-12T14:52:32.783558+00:00",
- "score": 30,
- "verdict": "weak",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": null
+ },
+ "checked_at": "2026-09-12T17:31:23.698752+00:00",
+ "score": 10,
+ "verdict": "nosource",
  "checks": [
   {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"गोण्डी लेखन\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
    "name": "wiki-hi",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: गोण्डी लेखन; सारांश में नाम-टोकन ✓",
-   "link": "https://hi.wikipedia.org/wiki/%E0%A4%97%E0%A5%8B%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A5%80%20%E0%A4%B2%E0%A5%87%E0%A4%96%E0%A4%A8"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
   },
   {
    "name": "wiki-en",
@@ -55,9 +67,7 @@
   }
  ],
  "conflicts": [],
- "sources_domains": [
-  "hi.wikipedia.org"
- ],
- "summary_hi": "मुंशी मंगल सिंह मसराम: स्कोर 30/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, internal-sources, internal-category।",
+ "sources_domains": [],
+ "summary_hi": "मुंशी मंगल सिंह मसराम: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
  "llm": null
 }

@@ -1,6 +1,11 @@
 {
  "id": "person:sonajharia-sahu",
- "checked_at": "2026-09-12T14:52:24.526353+00:00",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": null
+ },
+ "checked_at": "2026-09-12T17:31:16.220762+00:00",
  "score": 10,
  "verdict": "nosource",
  "checks": [

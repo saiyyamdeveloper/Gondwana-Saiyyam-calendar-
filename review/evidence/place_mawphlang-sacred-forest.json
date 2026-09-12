@@ -1,0 +1,75 @@
+{
+ "id": "place:mawphlang-sacred-forest",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q29468374"
+ },
+ "checked_at": "2026-09-12T17:32:33.542893+00:00",
+ "score": 30,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Sacred grove\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q29468374",
+   "link": "https://www.wikidata.org/wiki/Q29468374"
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "मेघालय पर्यटन (सुप्रसिद्ध)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  },
+  {
+   "name": "internal-gps-label",
+   "ok": true,
+   "pts": 5,
+   "detail": "gps_precision=approximate",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "wikidata.org"
+ ],
+ "summary_hi": "मावफलंग पवित्र वन (लॉ कीन्तांग): स्कोर 30/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, internal-sources, internal-category, internal-gps-label।",
+ "llm": null
+}

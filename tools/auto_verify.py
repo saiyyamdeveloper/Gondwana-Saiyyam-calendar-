@@ -94,6 +94,14 @@ class Ev:
         self.conflicts.append({'field': field, 'ours': ours, 'theirs': theirs, 'source': src})
         self.score -= 30
 
+def title_ok(q, t):
+    """खोज का top-hit वही व्यक्ति हो, यह जाँच — पहला टोकन/समानता ≥0.75"""
+    import difflib
+    qt = next((w for w in re.split(r'\s+', str(q)) if len(w) > 3), str(q))
+    tt = [w for w in re.split(r'\s+', str(t)) if len(w) > 3]
+    if qt in tt: return True
+    return max((difflib.SequenceMatcher(None, qt, w).ratio() for w in tt), default=0) >= 0.75
+
 def name_tokens(t):
     return [w for w in re.split(r'\s+', str(t or '')) if len(w) > 3][:4]
 
@@ -106,6 +114,9 @@ def verify(item):
     for lang, pts in (('hi', 20), ('en', 20)):
         q = nm if lang == 'hi' else (nm_en or nm)
         t = wiki_search(lang, q) if q else None
+        if t and not title_ok(q, t):
+            ev.add(f'wiki-{lang}-mismatch', False, 0, f'top-hit "{t}" नाम से मेल नहीं खाता — छोड़ा')
+            t = None
         if t:
             summ = wiki_summary(lang, t)
             hit = any(tok.lower() in summ.lower() for tok in name_tokens(nm_en or nm)) or lang == 'hi'

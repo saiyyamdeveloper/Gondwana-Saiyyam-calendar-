@@ -1,6 +1,11 @@
 {
  "id": "person:laxman-naik",
- "checked_at": "2026-09-12T14:52:18.614037+00:00",
+ "dates": {
+  "birth": "1946-04-12",
+  "death": "2018-06-09",
+  "source": "wikidata:Q7489038"
+ },
+ "checked_at": "2026-09-12T17:31:10.619324+00:00",
  "score": 0,
  "verdict": "conflict",
  "checks": [
@@ -40,6 +45,20 @@
    "link": "ओडिशा स्रोत"
   },
   {
+   "name": "wd-birth_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 1946-04-12",
+   "link": ""
+  },
+  {
+   "name": "wd-death_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "मृत्यु-तिथि (विकिडेटा, दिन-सटीक): 2018-06-09",
+   "link": ""
+  },
+  {
    "name": "internal-sources",
    "ok": true,
    "pts": 5,
@@ -72,6 +91,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "लक्ष्मण नायक ('देशनायक'): स्कोर 0/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1899 बनाम wikidata=1946; death हमारा=1943 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
+ "summary_hi": "लक्ष्मण नायक ('देशनायक'): स्कोर 0/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: birth हमारा=1899 बनाम wikidata=1946; death हमारा=1943 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
  "llm": null
 }

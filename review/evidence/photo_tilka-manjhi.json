@@ -1,6 +1,11 @@
 {
  "id": "photo:tilka-manjhi",
- "checked_at": "2026-09-12T14:52:41.069249+00:00",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q7802163"
+ },
+ "checked_at": "2026-09-12T17:31:31.134291+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [

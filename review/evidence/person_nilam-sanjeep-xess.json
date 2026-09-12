@@ -1,6 +1,11 @@
 {
  "id": "person:nilam-sanjeep-xess",
- "checked_at": "2026-09-12T14:52:28.859294+00:00",
+ "dates": {
+  "birth": "1998-11-07",
+  "death": null,
+  "source": "wikidata:Q58459070"
+ },
+ "checked_at": "2026-09-12T17:31:20.173531+00:00",
  "score": 15,
  "verdict": "conflict",
  "checks": [
@@ -33,6 +38,13 @@
    "link": "हॉकी इंडिया (सत्यापन)"
   },
   {
+   "name": "wd-birth_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 1998-11-07",
+   "link": ""
+  },
+  {
    "name": "internal-sources",
    "ok": true,
    "pts": 5,
@@ -59,7 +71,7 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "नीलम संजीप खैस: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=2000 बनाम wikidata=1998 — मानव-निर्णय आवश्यक।",
+ "summary_hi": "नीलम संजीप खैस: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, internal-sources, internal-category। विरोध: birth हमारा=2000 बनाम wikidata=1998 — मानव-निर्णय आवश्यक।",
  "llm": {
   "checked_at": "2026-09-12T15:08:27.120472+00:00",
   "provider": "openrouter",
