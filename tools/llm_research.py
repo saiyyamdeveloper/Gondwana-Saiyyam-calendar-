@@ -64,8 +64,11 @@ PROMPT = """तुम भारतीय आदिवासी इतिहा�
 "claims":[{"claim":"जाँचा गया दावा (हिंदी)","urls":["समर्थक वेब-URL"]}],
 "red_flags":["संदिग्ध बातें या खाली"]}
 नियम: हर claim के साथ कम-से-कम एक वास्तविक, सार्वजनिक URL दो जिसे तुमने सच में देखा/जाना हो; कल्पित URL वर्जित। अनिश्चय हो तो inconclusive।
-प्रविष्टि: {item}
-परत-1 (विकिपीडिया/विकिडेटा) पूर्व-सबूत: {layer1}"""
+प्रविष्टि: __ITEM__
+परत-1 (विकिपीडिया/विकिडेटा) पूर्व-सबूत: __LAYER1__"""
+
+def build_prompt(item_json, layer1_json):
+    return PROMPT.replace('__ITEM__', item_json).replace('__LAYER1__', layer1_json)
 
 def main():
     if not os.environ.get('LLM_API_KEY'):
@@ -84,8 +87,8 @@ def main():
         ev = json.load(open(ef, encoding='utf-8'))
         if (ev.get('llm') or {}).get('checked_at'): continue
         try:
-            raw = ask_llm(PROMPT.format(item=json.dumps(item, ensure_ascii=False)[:3000],
-                                        layer1=json.dumps({k: ev[k] for k in ('score', 'verdict', 'checks')}, ensure_ascii=False)[:2500]))
+            raw = ask_llm(build_prompt(json.dumps(item, ensure_ascii=False)[:3000],
+                                       json.dumps({k: ev[k] for k in ('score', 'verdict', 'checks')}, ensure_ascii=False)[:2500]))
             res = json.loads(re.sub(r'^```(?:json)?|```$', '', raw.strip()))
         except Exception as e:
             print('llm: विफल', item['id'], e); continue
