@@ -1,13 +1,13 @@
 {
  "id": "photo:tilka-manjhi",
- "checked_at": "2026-09-12T12:34:11.652380+00:00",
- "score": 25,
+ "checked_at": "2026-09-12T12:36:31.847033+00:00",
+ "score": 35,
  "verdict": "weak",
  "checks": [
   {
    "name": "wiki-hi",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: तिलका माँझी; सारांश में नाम-टोकन ✓",
    "link": "https://hi.wikipedia.org/wiki/%E0%A4%A4%E0%A4%BF%E0%A4%B2%E0%A4%95%E0%A4%BE%20%E0%A4%AE%E0%A4%BE%E0%A4%81%E0%A4%9D%E0%A5%80"
   },
@@ -21,7 +21,7 @@
   {
    "name": "wikidata",
    "ok": true,
-   "pts": 10,
+   "pts": 15,
    "detail": "आइटम Q7802163",
    "link": "https://www.wikidata.org/wiki/Q7802163"
   },
@@ -45,6 +45,6 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "फ़ोटो: तिलका मांझी: स्कोर 25/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
+ "summary_hi": "फ़ोटो: तिलका मांझी: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
  "llm": null
 }

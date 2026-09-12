@@ -1,34 +1,34 @@
 {
  "id": "person:jivya-soma-mashe",
- "checked_at": "2026-09-12T12:34:00.905822+00:00",
- "score": 30,
+ "checked_at": "2026-09-12T12:36:22.682550+00:00",
+ "score": 48,
  "verdict": "conflict",
  "checks": [
   {
    "name": "wiki-hi",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: जिव्या सोमा म्हसे; सारांश में नाम-टोकन ✓",
    "link": "https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BF%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%B8%E0%A5%8B%E0%A4%AE%E0%A4%BE%20%E0%A4%AE%E0%A5%8D%E0%A4%B9%E0%A4%B8%E0%A5%87"
   },
   {
    "name": "wiki-en",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: Jivya Soma Mashe; सारांश में नाम-टोकन ✓",
    "link": "https://en.wikipedia.org/wiki/Jivya%20Soma%20Mashe"
   },
   {
    "name": "wikidata",
    "ok": true,
-   "pts": 10,
+   "pts": 15,
    "detail": "आइटम Q937436",
    "link": "https://www.wikidata.org/wiki/Q937436"
   },
   {
    "name": "wd-birth-match",
    "ok": true,
-   "pts": 10,
+   "pts": 13,
    "detail": "हमारा 1934 ↔ विकिडेटा 1934",
    "link": ""
   },
@@ -74,6 +74,6 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "जीव्या सोमा माशे: स्कोर 30/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category। विरोध: death हमारा=2020 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
+ "summary_hi": "जीव्या सोमा माशे: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category। विरोध: death हमारा=2020 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
  "llm": null
 }

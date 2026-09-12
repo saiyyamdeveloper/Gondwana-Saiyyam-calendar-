@@ -1,34 +1,34 @@
 {
  "id": "person:maina-tudu",
- "checked_at": "2026-09-12T12:34:08.500278+00:00",
- "score": 60,
+ "checked_at": "2026-09-12T12:36:27.549696+00:00",
+ "score": 78,
  "verdict": "partial",
  "checks": [
   {
    "name": "wiki-hi",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: इंडिया टुडे; सारांश में नाम-टोकन ✓",
    "link": "https://hi.wikipedia.org/wiki/%E0%A4%87%E0%A4%82%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE%20%E0%A4%9F%E0%A5%81%E0%A4%A1%E0%A5%87"
   },
   {
    "name": "wiki-en",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: Maina Tudu; सारांश में नाम-टोकन ✓",
    "link": "https://en.wikipedia.org/wiki/Maina%20Tudu"
   },
   {
    "name": "wikidata",
    "ok": true,
-   "pts": 10,
+   "pts": 15,
    "detail": "आइटम Q62765085",
    "link": "https://www.wikidata.org/wiki/Q62765085"
   },
   {
    "name": "wd-birth-match",
    "ok": true,
-   "pts": 10,
+   "pts": 13,
    "detail": "हमारा 1985 ↔ विकिडेटा 1985",
    "link": ""
   },
@@ -60,6 +60,6 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "मइना टुडू: स्कोर 60/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
+ "summary_hi": "मइना टुडू: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
  "llm": null
 }

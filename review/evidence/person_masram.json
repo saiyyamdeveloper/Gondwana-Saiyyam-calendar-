@@ -1,13 +1,13 @@
 {
  "id": "person:masram",
- "checked_at": "2026-09-12T12:34:01.959927+00:00",
- "score": 25,
+ "checked_at": "2026-09-12T12:36:23.460161+00:00",
+ "score": 30,
  "verdict": "weak",
  "checks": [
   {
    "name": "wiki-hi",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: गोण्डी लेखन; सारांश में नाम-टोकन ✓",
    "link": "https://hi.wikipedia.org/wiki/%E0%A4%97%E0%A5%8B%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A5%80%20%E0%A4%B2%E0%A5%87%E0%A4%96%E0%A4%A8"
   },
@@ -58,6 +58,6 @@
  "sources_domains": [
   "hi.wikipedia.org"
  ],
- "summary_hi": "मुंशी मंगल सिंह मसराम: स्कोर 25/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, internal-sources, internal-category।",
+ "summary_hi": "मुंशी मंगल सिंह मसराम: स्कोर 30/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, internal-sources, internal-category।",
  "llm": null
 }

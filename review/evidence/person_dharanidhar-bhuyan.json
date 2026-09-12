@@ -1,7 +1,7 @@
 {
  "id": "person:dharanidhar-bhuyan",
- "checked_at": "2026-09-12T12:33:32.427396+00:00",
- "score": 5,
+ "checked_at": "2026-09-12T12:36:04.335991+00:00",
+ "score": 15,
  "verdict": "conflict",
  "checks": [
   {
@@ -14,14 +14,14 @@
   {
    "name": "wiki-en",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: Dharanidhar Naik; सारांश में नाम-टोकन ✓",
    "link": "https://en.wikipedia.org/wiki/Dharanidhar%20Naik"
   },
   {
    "name": "wikidata",
    "ok": true,
-   "pts": 10,
+   "pts": 15,
    "detail": "आइटम Q15632459",
    "link": "https://www.wikidata.org/wiki/Q15632459"
   },
@@ -59,6 +59,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "धरणीधर भुइयाँ: स्कोर 5/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category। विरोध: death हमारा=1868 बनाम wikidata=1914 — मानव-निर्णय आवश्यक।",
+ "summary_hi": "धरणीधर भुइयाँ: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category। विरोध: death हमारा=1868 बनाम wikidata=1914 — मानव-निर्णय आवश्यक।",
  "llm": null
 }

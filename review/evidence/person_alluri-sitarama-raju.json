@@ -1,41 +1,41 @@
 {
  "id": "person:alluri-sitarama-raju",
- "checked_at": "2026-09-12T12:33:35.691282+00:00",
- "score": 70,
- "verdict": "partial",
+ "checked_at": "2026-09-12T12:36:08.854451+00:00",
+ "score": 91,
+ "verdict": "pass",
  "checks": [
   {
    "name": "wiki-hi",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: अल्लूरी सीताराम राजू; सारांश में नाम-टोकन ✓",
    "link": "https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A5%82%E0%A4%B0%E0%A5%80%20%E0%A4%B8%E0%A5%80%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%AE%20%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A5%82"
   },
   {
    "name": "wiki-en",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: Alluri Sitarama Raju; सारांश में नाम-टोकन ✓",
    "link": "https://en.wikipedia.org/wiki/Alluri%20Sitarama%20Raju"
   },
   {
    "name": "wikidata",
    "ok": true,
-   "pts": 10,
+   "pts": 15,
    "detail": "आइटम Q3633008",
    "link": "https://www.wikidata.org/wiki/Q3633008"
   },
   {
    "name": "wd-birth-match",
    "ok": true,
-   "pts": 10,
+   "pts": 13,
    "detail": "हमारा 1897 ↔ विकिडेटा 1897",
    "link": ""
   },
   {
    "name": "wd-death-match",
    "ok": true,
-   "pts": 10,
+   "pts": 13,
    "detail": "हमारा 1924 ↔ विकिडेटा 1924",
    "link": ""
   },
@@ -74,6 +74,6 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "अल्लूरी सीताराम राजू: स्कोर 70/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category।",
+ "summary_hi": "अल्लूरी सीताराम राजू: स्कोर 91/100 (🟢 स्वतः-सत्यापित)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category। 3 स्वतंत्र डोमेन सहमत — हाइब्रिड नीति लागू।",
  "llm": null
 }

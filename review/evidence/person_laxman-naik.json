@@ -1,6 +1,6 @@
 {
  "id": "person:laxman-naik",
- "checked_at": "2026-09-12T12:33:30.335673+00:00",
+ "checked_at": "2026-09-12T12:36:02.600320+00:00",
  "score": 0,
  "verdict": "conflict",
  "checks": [
@@ -14,14 +14,14 @@
   {
    "name": "wiki-en",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: Laxman Nayak; सारांश में नाम-टोकन ✓",
    "link": "https://en.wikipedia.org/wiki/Laxman%20Nayak"
   },
   {
    "name": "wikidata",
    "ok": true,
-   "pts": 10,
+   "pts": 15,
    "detail": "आइटम Q7489038",
    "link": "https://www.wikidata.org/wiki/Q7489038"
   },

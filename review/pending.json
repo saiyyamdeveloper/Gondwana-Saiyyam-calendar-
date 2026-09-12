@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-12T12:34:16.295108+00:00"
+  "updated": "2026-09-12T12:36:33.877592+00:00"
  },
  "queue": [
   {
@@ -89,13 +89,13 @@
     "verify_note": "जनजाति-वर्गीकरण स्रोतों में भिन्न (पहाड़िया/संथाल)",
     "memorial": "तिलका मांझी चौक व प्रतिमा, भागलपुर"
    },
-   "status": "pending",
+   "status": "approved",
    "added": "2026-09-12",
    "added_by": "auto:seed_review_queue.py",
    "decision": null,
-   "decided_by": null,
-   "decided_at": null,
-   "note": ""
+   "decided_by": "automation:auto-verify (hybrid policy)",
+   "decided_at": "2026-09-12T12:35:53.320675+00:00",
+   "note": "स्वतः-स्वीकृत: स्कोर 91, स्रोत-डोमेन 3, शून्य विरोध"
   },
   {
    "id": "person:nilambar-pitambar",
@@ -685,13 +685,13 @@
     "verify_note": "ST-वर्गीकरण नहीं; आदिवासी-नायक के रूप में समावेश (टिप्पणी सहित)",
     "memorial": "विशाखापट्नम प्रतिमा; कॉयूर स्मारक"
    },
-   "status": "pending",
+   "status": "approved",
    "added": "2026-09-12",
    "added_by": "auto:seed_review_queue.py",
    "decision": null,
-   "decided_by": null,
-   "decided_at": null,
-   "note": ""
+   "decided_by": "automation:auto-verify (hybrid policy)",
+   "decided_at": "2026-09-12T12:36:08.854451+00:00",
+   "note": "स्वतः-स्वीकृत: स्कोर 91, स्रोत-डोमेन 3, शून्य विरोध"
   },
   {
    "id": "person:jhinya-bhil",
@@ -865,13 +865,13 @@
     "verify_note": "पद्म-वर्ष सत्यापन (2000 या 1984 स्रोत-भेद)",
     "memorial": "राँची विवि परिसर"
    },
-   "status": "pending",
+   "status": "approved",
    "added": "2026-09-12",
    "added_by": "auto:seed_review_queue.py",
    "decision": null,
-   "decided_by": null,
-   "decided_at": null,
-   "note": ""
+   "decided_by": "automation:auto-verify (hybrid policy)",
+   "decided_at": "2026-09-12T12:36:12.804473+00:00",
+   "note": "स्वतः-स्वीकृत: स्कोर 91, स्रोत-डोमेन 3, शून्य विरोध"
   },
   {
    "id": "person:chuni-kotal",
@@ -911,13 +911,13 @@
     "verify_note": "विवरण स्रोत-आधारित पुष्टि आवश्यक",
     "memorial": "कोलकाता स्मृति-व्याख्यान"
    },
-   "status": "pending",
+   "status": "approved",
    "added": "2026-09-12",
    "added_by": "auto:seed_review_queue.py",
    "decision": null,
-   "decided_by": null,
-   "decided_at": null,
-   "note": ""
+   "decided_by": "automation:auto-verify (hybrid policy)",
+   "decided_at": "2026-09-12T12:36:13.812572+00:00",
+   "note": "स्वतः-स्वीकृत: स्कोर 91, स्रोत-डोमेन 3, शून्य विरोध"
   },
   {
    "id": "person:sonajharia-sahu",

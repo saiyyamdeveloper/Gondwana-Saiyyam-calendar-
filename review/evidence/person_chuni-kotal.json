@@ -1,41 +1,41 @@
 {
  "id": "person:chuni-kotal",
- "checked_at": "2026-09-12T12:33:44.839122+00:00",
- "score": 70,
- "verdict": "partial",
+ "checked_at": "2026-09-12T12:36:13.812572+00:00",
+ "score": 91,
+ "verdict": "pass",
  "checks": [
   {
    "name": "wiki-hi",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: शाहीन अफरीदी; सारांश में नाम-टोकन ✓",
    "link": "https://hi.wikipedia.org/wiki/%E0%A4%B6%E0%A4%BE%E0%A4%B9%E0%A5%80%E0%A4%A8%20%E0%A4%85%E0%A4%AB%E0%A4%B0%E0%A5%80%E0%A4%A6%E0%A5%80"
   },
   {
    "name": "wiki-en",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: Chuni Kotal; सारांश में नाम-टोकन ✓",
    "link": "https://en.wikipedia.org/wiki/Chuni%20Kotal"
   },
   {
    "name": "wikidata",
    "ok": true,
-   "pts": 10,
+   "pts": 15,
    "detail": "आइटम Q5116413",
    "link": "https://www.wikidata.org/wiki/Q5116413"
   },
   {
    "name": "wd-birth-match",
    "ok": true,
-   "pts": 10,
+   "pts": 13,
    "detail": "हमारा 1965 ↔ विकिडेटा 1965",
    "link": ""
   },
   {
    "name": "wd-death-match",
    "ok": true,
-   "pts": 10,
+   "pts": 13,
    "detail": "हमारा 1993 ↔ विकिडेटा 1992",
    "link": ""
   },
@@ -67,6 +67,6 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "चुनी कोटाल: स्कोर 70/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category।",
+ "summary_hi": "चुनी कोटाल: स्कोर 91/100 (🟢 स्वतः-सत्यापित)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category। 3 स्वतंत्र डोमेन सहमत — हाइब्रिड नीति लागू।",
  "llm": null
 }

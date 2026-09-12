@@ -1,34 +1,34 @@
 {
  "id": "person:govind-guru",
- "checked_at": "2026-09-12T12:33:34.190249+00:00",
- "score": 30,
+ "checked_at": "2026-09-12T12:36:07.648017+00:00",
+ "score": 48,
  "verdict": "conflict",
  "checks": [
   {
    "name": "wiki-hi",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: गुरु गोबिन्द सिंह; सारांश में नाम-टोकन ✓",
    "link": "https://hi.wikipedia.org/wiki/%E0%A4%97%E0%A5%81%E0%A4%B0%E0%A5%81%20%E0%A4%97%E0%A5%8B%E0%A4%AC%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%20%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%B9"
   },
   {
    "name": "wiki-en",
    "ok": true,
-   "pts": 15,
-   "detail": "पृष्ठ मिला: Govindgiri; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Govindgiri"
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Govind Guru Tribal University; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Govind%20Guru%20Tribal%20University"
   },
   {
    "name": "wikidata",
    "ok": true,
-   "pts": 10,
+   "pts": 15,
    "detail": "आइटम Q31942009",
    "link": "https://www.wikidata.org/wiki/Q31942009"
   },
   {
    "name": "wd-death-match",
    "ok": true,
-   "pts": 10,
+   "pts": 13,
    "detail": "हमारा 1931 ↔ विकिडेटा 1931",
    "link": ""
   },
@@ -74,6 +74,6 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "गोविंद गुरु: स्कोर 30/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, internal-sources, internal-category। विरोध: birth हमारा=1850 बनाम wikidata=1858 — मानव-निर्णय आवश्यक।",
+ "summary_hi": "गोविंद गुरु: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, internal-sources, internal-category। विरोध: birth हमारा=1850 बनाम wikidata=1858 — मानव-निर्णय आवश्यक।",
  "llm": null
 }

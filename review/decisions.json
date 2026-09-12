@@ -3,5 +3,42 @@
   "title": "निर्णय-लॉग (audit trail)",
   "note": "हर स्वीकृति/अस्वीकृति यहाँ दर्ज होती है"
  },
- "decisions": []
+ "decisions": [
+  {
+   "id": "person:tilka-manjhi",
+   "kind": "person",
+   "title": "तिलका मांझी",
+   "decision": "approved",
+   "note": "स्वतः-स्वीकृत: स्कोर 91, स्रोत-डोमेन 3, शून्य विरोध",
+   "by": "automation:auto-verify (hybrid policy)",
+   "at": "2026-09-12T12:35:53.320675+00:00"
+  },
+  {
+   "id": "person:alluri-sitarama-raju",
+   "kind": "person",
+   "title": "अल्लूरी सीताराम राजू",
+   "decision": "approved",
+   "note": "स्वतः-स्वीकृत: स्कोर 91, स्रोत-डोमेन 3, शून्य विरोध",
+   "by": "automation:auto-verify (hybrid policy)",
+   "at": "2026-09-12T12:36:08.854451+00:00"
+  },
+  {
+   "id": "person:ram-dayal-munda",
+   "kind": "person",
+   "title": "डॉ. राम दयाल मुंडा",
+   "decision": "approved",
+   "note": "स्वतः-स्वीकृत: स्कोर 91, स्रोत-डोमेन 3, शून्य विरोध",
+   "by": "automation:auto-verify (hybrid policy)",
+   "at": "2026-09-12T12:36:12.804473+00:00"
+  },
+  {
+   "id": "person:chuni-kotal",
+   "kind": "person",
+   "title": "चुनी कोटाल",
+   "decision": "approved",
+   "note": "स्वतः-स्वीकृत: स्कोर 91, स्रोत-डोमेन 3, शून्य विरोध",
+   "by": "automation:auto-verify (hybrid policy)",
+   "at": "2026-09-12T12:36:13.812572+00:00"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "person:chakra-bisoi",
- "checked_at": "2026-09-12T12:33:31.159452+00:00",
- "score": 25,
+ "checked_at": "2026-09-12T12:36:03.342329+00:00",
+ "score": 30,
  "verdict": "weak",
  "checks": [
   {
@@ -14,7 +14,7 @@
   {
    "name": "wiki-en",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: Paika Rebellion",
    "link": "https://en.wikipedia.org/wiki/Paika%20Rebellion"
   },
@@ -51,6 +51,6 @@
  "sources_domains": [
   "en.wikipedia.org"
  ],
- "summary_hi": "चक्रा बिसोई: स्कोर 25/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, internal-sources, internal-category।",
+ "summary_hi": "चक्रा बिसोई: स्कोर 30/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, internal-sources, internal-category।",
  "llm": null
 }

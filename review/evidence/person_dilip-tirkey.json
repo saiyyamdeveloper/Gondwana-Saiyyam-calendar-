@@ -1,34 +1,34 @@
 {
  "id": "person:dilip-tirkey",
- "checked_at": "2026-09-12T12:33:53.513813+00:00",
- "score": 60,
+ "checked_at": "2026-09-12T12:36:18.199832+00:00",
+ "score": 78,
  "verdict": "partial",
  "checks": [
   {
    "name": "wiki-hi",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: हॉकी इंडिया; सारांश में नाम-टोकन ✓",
    "link": "https://hi.wikipedia.org/wiki/%E0%A4%B9%E0%A5%89%E0%A4%95%E0%A5%80%20%E0%A4%87%E0%A4%82%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE"
   },
   {
    "name": "wiki-en",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: Dilip Tirkey; सारांश में नाम-टोकन ✓",
    "link": "https://en.wikipedia.org/wiki/Dilip%20Tirkey"
   },
   {
    "name": "wikidata",
    "ok": true,
-   "pts": 10,
+   "pts": 15,
    "detail": "आइटम Q5276819",
    "link": "https://www.wikidata.org/wiki/Q5276819"
   },
   {
    "name": "wd-birth-match",
    "ok": true,
-   "pts": 10,
+   "pts": 13,
    "detail": "हमारा 1977 ↔ विकिडेटा 1977",
    "link": ""
   },
@@ -67,6 +67,6 @@
   "hi.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "दिलीप टिर्की: स्कोर 60/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
+ "summary_hi": "दिलीप टिर्की: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category।",
  "llm": null
 }

@@ -1,20 +1,20 @@
 {
  "id": "person:raghuji-bhangare",
- "checked_at": "2026-09-12T12:33:37.592498+00:00",
- "score": 40,
- "verdict": "weak",
+ "checked_at": "2026-09-12T12:36:10.316593+00:00",
+ "score": 50,
+ "verdict": "partial",
  "checks": [
   {
    "name": "wiki-hi",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: राघोजी भांगरे; सारांश में नाम-टोकन ✓",
    "link": "https://hi.wikipedia.org/wiki/%E0%A4%B0%E0%A4%BE%E0%A4%98%E0%A5%8B%E0%A4%9C%E0%A5%80%20%E0%A4%AD%E0%A4%BE%E0%A4%82%E0%A4%97%E0%A4%B0%E0%A5%87"
   },
   {
    "name": "wiki-en",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: Raghoji Bhangare",
    "link": "https://en.wikipedia.org/wiki/Raghoji%20Bhangare"
   },
@@ -52,6 +52,6 @@
   "en.wikipedia.org",
   "hi.wikipedia.org"
  ],
- "summary_hi": "राघोजी भांगरे: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en, internal-sources, internal-category।",
+ "summary_hi": "राघोजी भांगरे: स्कोर 50/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, internal-sources, internal-category।",
  "llm": null
 }

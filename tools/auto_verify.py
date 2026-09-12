@@ -100,7 +100,7 @@ def verify(item):
     nm = p.get('name_hi') or p.get('deva') or item.get('title', '')
     nm_en = p.get('name_en') or ''
     # विकिपीडिया HI/EN
-    for lang, pts in (('hi', 15), ('en', 15)):
+    for lang, pts in (('hi', 20), ('en', 20)):
         q = nm if lang == 'hi' else (nm_en or nm)
         t = wiki_search(lang, q) if q else None
         if t:
@@ -114,12 +114,12 @@ def verify(item):
     qid = wd_search(nm_en or nm) if (nm_en or nm) else None
     wd = wd_entity(qid) if qid else {}
     if qid:
-        ev.add('wikidata', True, 10, f'आइटम {qid}', f'https://www.wikidata.org/wiki/{qid}')
+        ev.add('wikidata', True, 15, f'आइटम {qid}', f'https://www.wikidata.org/wiki/{qid}')
         ev.domains.add('wikidata.org')
         for fld, ours in (('birth', yr(p.get('birth'))), ('death', yr(p.get('death')))):
             theirs = wd.get(fld)
             if ours and theirs:
-                if abs(ours - theirs) <= 1: ev.add(f'wd-{fld}-match', True, 10, f'हमारा {ours} ↔ विकिडेटा {theirs}')
+                if abs(ours - theirs) <= 1: ev.add(f'wd-{fld}-match', True, 13, f'हमारा {ours} ↔ विकिडेटा {theirs}')
                 else: ev.conflict(fld, ours, theirs, 'wikidata')
         if kind == 'place' and p.get('lat') and 'lat' in wd:
             d = km(float(p['lat']), float(p['lon']), wd['lat'], wd['lon'])

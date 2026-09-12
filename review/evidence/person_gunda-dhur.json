@@ -1,7 +1,7 @@
 {
  "id": "person:gunda-dhur",
- "checked_at": "2026-09-12T12:33:28.421852+00:00",
- "score": 35,
+ "checked_at": "2026-09-12T12:36:01.672109+00:00",
+ "score": 45,
  "verdict": "weak",
  "checks": [
   {
@@ -14,14 +14,14 @@
   {
    "name": "wiki-en",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: Gunda Dhur; सारांश में नाम-टोकन ✓",
    "link": "https://en.wikipedia.org/wiki/Gunda%20Dhur"
   },
   {
    "name": "wikidata",
    "ok": true,
-   "pts": 10,
+   "pts": 15,
    "detail": "आइटम Q102324796",
    "link": "https://www.wikidata.org/wiki/Q102324796"
   },
@@ -59,6 +59,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "गूंदा धूर: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category।",
+ "summary_hi": "गूंदा धूर: स्कोर 45/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category।",
  "llm": null
 }

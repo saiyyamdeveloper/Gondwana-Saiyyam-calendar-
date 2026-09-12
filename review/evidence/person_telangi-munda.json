@@ -1,13 +1,13 @@
 {
  "id": "person:telangi-munda",
- "checked_at": "2026-09-12T12:33:22.996547+00:00",
- "score": 25,
+ "checked_at": "2026-09-12T12:35:56.226507+00:00",
+ "score": 30,
  "verdict": "weak",
  "checks": [
   {
    "name": "wiki-hi",
    "ok": true,
-   "pts": 15,
+   "pts": 20,
    "detail": "पृष्ठ मिला: बिरसा मुंडा; सारांश में नाम-टोकन ✓",
    "link": "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BF%E0%A4%B0%E0%A4%B8%E0%A4%BE%20%E0%A4%AE%E0%A5%81%E0%A4%82%E0%A4%A1%E0%A4%BE"
   },
@@ -51,6 +51,6 @@
  "sources_domains": [
   "hi.wikipedia.org"
  ],
- "summary_hi": "तेलंगी मुंडा: स्कोर 25/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, internal-sources, internal-category।",
+ "summary_hi": "तेलंगी मुंडा: स्कोर 30/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, internal-sources, internal-category।",
  "llm": null
 }
