@@ -1,6 +1,6 @@
 {
  "id": "photo:kanhu-murmu",
- "checked_at": "2026-09-12T14:40:37.793501+00:00",
+ "checked_at": "2026-09-12T14:43:58.738274+00:00",
  "score": 55,
  "verdict": "partial",
  "checks": [
@@ -22,8 +22,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q65285304",
-   "link": "https://www.wikidata.org/wiki/Q65285304"
+   "detail": "आइटम Q65284183",
+   "link": "https://www.wikidata.org/wiki/Q65284183"
   },
   {
    "name": "internal-sources",
