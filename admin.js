@@ -51,7 +51,7 @@
   /* ---------- boot ---------- */
   async function init() {
     try {
-      const [cr, pq, dj, mf] = await Promise.all([
+      const [cr, pq, dj, mf, evi] = await Promise.all([
         fetch('admin-credentials.json', { cache: 'no-store' }).then(r => r.json()),
         fetch('review/pending.json', { cache: 'no-store' }).then(r => r.json()),
         fetch('review/decisions.json', { cache: 'no-store' }).then(r => r.json()),
@@ -560,5 +560,5 @@
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
-  window.__ADMIN = { buildOutputs, outputFiles, decide, QUEUE: () => QUEUE, MEDIA: () => MEDIA, manifestText };
+  window.__ADMIN = { buildOutputs, outputFiles, decide, QUEUE: () => QUEUE, MEDIA: () => MEDIA, EVID: () => EVID, manifestText };
 })();

@@ -21,6 +21,8 @@ jobs:
         run: node test/validate_node.js
       - name: Smoke test (सभी टैब)
         run: node test/smoke.js
+      - name: एडमिन-पैनल smoke (लोड-क्रैश गार्ड)
+        run: node test/admin_smoke.js
       - name: CSV ↔ JSON sync
         run: python3 test/check_csv_sync.py
       - name: एडमिन-पैनल संरचना जाँच
