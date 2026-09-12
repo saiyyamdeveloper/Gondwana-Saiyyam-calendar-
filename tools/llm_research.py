@@ -90,6 +90,11 @@ def main():
             raw = ask_llm(build_prompt(json.dumps(item, ensure_ascii=False)[:3000],
                                        json.dumps({k: ev[k] for k in ('score', 'verdict', 'checks')}, ensure_ascii=False)[:2500]))
             res = json.loads(re.sub(r'^```(?:json)?|```$', '', raw.strip()))
+        except urllib.error.HTTPError as e:
+            if e.code == 402:
+                print('llm: 402 — OpenRouter खाते में क्रेडिट नहीं या मॉडल पेड है। हल: LLM_MODEL secret को :free मॉडल करें (जैसे google/gemini-2.0-flash-exp:free) या OpenRouter में क्रेडिट जोड़ें। बैच रोका गया।')
+                break
+            print('llm: विफल', item['id'], e); continue
         except Exception as e:
             print('llm: विफल', item['id'], e); continue
         # citation-ढाल: हर उद्धरण-URL को खुद जाँचो
