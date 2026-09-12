@@ -23,6 +23,8 @@ jobs:
         run: node test/smoke.js
       - name: CSV ↔ JSON sync
         run: python3 test/check_csv_sync.py
+      - name: एडमिन-पैनल संरचना जाँच
+        run: python3 test/check_admin.py
       - name: Review checklist generator (परत 3)
         run: python3 tools/make_review_checklist.py
 

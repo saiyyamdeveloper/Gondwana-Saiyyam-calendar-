@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>🛡️ एडमिन पैनल — गोंडवाना सत्यापन</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+<style>
+  body { padding-bottom: 30px; }
+  .adm-wrap { max-width: 900px; margin: 0 auto; padding: 14px 12px; }
+  .adm-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; background: linear-gradient(135deg,#1f2a12,#2d3a18); color: #f5efdc; border-radius: 14px; padding: 12px 14px; margin-bottom: 12px; }
+  .adm-top h1 { font-size: 1.05rem; margin: 0; flex: 1; }
+  .role-badge { font-size: .68rem; padding: 3px 10px; border-radius: 999px; font-weight: 700; }
+  .role-superadmin { background: #fbbf24; color: #422006; }
+  .role-admin { background: #86efac; color: #14532d; }
+  .adm-stat { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+  .adm-stat .st { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; text-align: center; }
+  .adm-stat .st b { display: block; font-size: 1.2rem; color: var(--saffron); }
+  .adm-stat .st span { font-size: .68rem; color: var(--ink2); }
+  .q-card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; margin-bottom: 10px; }
+  .q-title { font-weight: 700; font-size: .98rem; }
+  .q-sub { font-size: .76rem; color: var(--ink2); margin: 2px 0; }
+  .q-reason { font-size: .8rem; background: #fff7e6; border: 1px solid #f3ddb0; border-radius: 8px; padding: 6px 9px; margin: 6px 0; }
+  .kind-badge { display: inline-block; font-size: .64rem; color: #fff; border-radius: 999px; padding: 2.5px 9px; font-weight: 600; margin-right: 5px; }
+  .k-person { background: #b4531a; } .k-photo { background: #9d174d; } .k-place { background: #123f2a; }
+  .k-festival { background: #b45309; } .k-announcement { background: #1d3f6e; }
+  .q-actions { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 8px; }
+  .btn.ok { background: var(--green); } .btn.bad { background: var(--red); }
+  .btn.sm { padding: 6px 12px; font-size: .78rem; }
+  .q-payload { display: none; margin-top: 8px; }
+  .q-payload.open { display: block; }
+  .q-payload textarea, .q-payload pre { width: 100%; font-family: ui-monospace, Consolas, monospace; font-size: .74rem; background: var(--paper2); border: 1px solid var(--line); border-radius: 10px; padding: 9px; overflow-x: auto; }
+  .q-payload textarea { min-height: 200px; }
+  .login-box { max-width: 400px; margin: 60px auto; }
+  .login-box input { width: 100%; border: 1.5px solid var(--line); border-radius: 10px; padding: 10px; font-family: var(--deva); font-size: .95rem; margin-bottom: 10px; background: var(--paper2); color: var(--ink); }
+  .sec-note { font-size: .72rem; color: var(--ink2); background: #fff7e6; border: 1px solid #f3ddb0; border-radius: 10px; padding: 8px 10px; margin-top: 10px; }
+  .pw-once { font-family: ui-monospace, Consolas, monospace; background: #14532d; color: #86efac; padding: 10px 12px; border-radius: 10px; font-size: .95rem; word-break: break-all; }
+  #adm-log { font-family: ui-monospace, Consolas, monospace; font-size: .72rem; background: #111; color: #7dde92; border-radius: 10px; padding: 10px; max-height: 180px; overflow-y: auto; white-space: pre-wrap; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<!-- ============ लॉगिन ============ -->
+<div id="adm-login" class="adm-wrap login-box">
+  <div class="card">
+    <h2 style="margin:0 0 4px">🛡️ गोंडवाना एडमिन पैनल</h2>
+    <p class="muted small" style="margin:0 0 12px">सत्यापन-कतार · केवल सुपर-एडमिन एवं एडमिन हेतु</p>
+    <input id="lg-email" type="email" placeholder="ईमेल ID" autocomplete="username">
+    <input id="lg-pass" type="password" placeholder="पासवर्ड" autocomplete="current-password">
+    <button class="btn" id="lg-btn" style="width:100%">लॉगिन</button>
+    <p id="lg-err" class="warn small hidden" style="margin-top:10px"></p>
+    <div class="sec-note">🔒 सुरक्षा-नोट: यह पैनल static-साइट पर है — लॉगिन एक <b>समीक्षा-गेट</b> है (repo में केवल password-hash रखा है)। प्रकाशन हेतु असली सुरक्षा GitHub-अनुमतियाँ/PAT हैं। पासवर्ड मासिक स्वतः बदलता है (GitHub Actions → Gmail)।</div>
+  </div>
+</div>
+
+<!-- ============ पैनल ============ -->
+<div id="adm-app" class="adm-wrap hidden">
+  <div class="adm-top">
+    <h1>🛡️ सत्यापन पैनल</h1>
+    <span id="adm-role" class="role-badge"></span>
+    <span id="adm-user" class="small" style="color:#d6cfb8"></span>
+    <button class="btn ghost sm" id="adm-logout">लॉगआउट</button>
+  </div>
+
+  <div class="adm-stat" id="adm-stats"></div>
+
+  <div class="card">
+    <input id="q-search" type="search" placeholder="🔍 कतार में खोजें…" style="width:100%;border:1.5px solid var(--line);border-radius:10px;padding:9px 10px;font-family:var(--deva)">
+    <div id="q-filters" style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px"></div>
+    <p class="muted small" id="q-count" style="margin:6px 0 0"></p>
+  </div>
+
+  <div id="q-list"></div>
+
+  <!-- प्रकाशन -->
+  <div class="card" id="adm-publish" style="border-left:6px solid var(--green)">
+    <h3>📦 स्वीकृत परिवर्तन प्रकाशित करें</h3>
+    <p class="muted small">स्वीकृत = verify-फ़्लैग हटेगा · अस्वीकृत = प्रविष्टि मास्टर डेटाबेस से हटेगी · सभी निर्णय audit-log में दर्ज होंगे। प्रकाशन से data.js + CSV + मास्टर JSON अपने आप पुनर्निर्मित होंगे।</p>
+    <div class="q-actions">
+      <button class="btn sm" id="pub-preview">👁️ परिवर्तन-पूर्वावलोकन</button>
+      <button class="btn ok sm" id="pub-download">📥 फ़ाइलें डाउनलोड</button>
+      <span id="pub-push-wrap" class="hidden">
+        <input id="pub-pat" type="password" placeholder="GitHub PAT (केवल इस सत्र में)" style="border:1.5px solid var(--line);border-radius:8px;padding:6px 8px;font-size:.8rem;width:230px">
+        <button class="btn ok sm" id="pub-push">☁️ GitHub पर सीधे push</button>
+      </span>
+    </div>
+    <div id="pub-log" class="hidden" style="margin-top:10px"><div id="adm-log"></div></div>
+  </div>
+
+  <!-- सुपर-एडमिन: नई प्रविष्टि + खाते + रोटेशन -->
+  <div class="card hidden" id="adm-super">
+    <h3>🧪 नई शोध-प्रविष्टि कतार में जोड़ें (auto-research इनपुट)</h3>
+    <p class="muted small">शोध से मिला नया शहीद/महापुरुष/क्रांतिकारी/पर्व/स्थल — JSON payload पेस्ट करें। यह केवल कतार में जाएगा; आपकी स्वीकृति के बिना public नहीं होगा।</p>
+    <select id="na-kind" class="chip" style="border:1px solid var(--line);padding:7px 10px">
+      <option value="person">महापुरुष/शहीद/क्रांतिकारी</option>
+      <option value="festival">पर्व/त्योहार</option>
+      <option value="place">स्थल (GPS)</option>
+    </select>
+    <textarea id="na-json" placeholder='{ "id": "…", "name_hi": "…", "sources": ["…"], "verify": true }' style="width:100%;min-height:120px;font-family:ui-monospace,Consolas,monospace;font-size:.76rem;border:1.5px solid var(--line);border-radius:10px;padding:9px;margin-top:8px;background:var(--paper2);color:var(--ink)"></textarea>
+    <div class="q-actions"><button class="btn sm" id="na-add">➕ कतार में जोड़ें</button></div>
+
+    <h3 style="margin-top:16px">👥 खाता-प्रबंधन एवं पासवर्ड</h3>
+    <div class="q-actions">
+      <button class="btn ghost sm" id="acc-add">➕ नया एडमिन खाता</button>
+      <button class="btn ghost sm" id="acc-rotate">🔄 सभी पासवर्ड बदलें (अभी)</button>
+    </div>
+    <div id="acc-out" style="margin-top:10px"></div>
+    <p class="muted small" style="margin-top:8px">मासिक स्वतः रोटेशन + Gmail-डिलीवरी: GitHub Actions workflow (repo secrets SMTP_* आवश्यक)। नया पासवर्ड केवल एक बार दिखता है — सुरक्षित रखें। परिवर्तित credentials प्रकाशित करना न भूलें।</p>
+  </div>
+
+  <!-- निर्णय-लॉग -->
+  <div class="card">
+    <h3>📜 निर्णय-लॉग (audit trail)</h3>
+    <div id="dec-log" class="small"></div>
+  </div>
+
+  <p class="muted small" style="text-align:center">← <a href="./">ऐप पर लौटें</a> · गोंडवाना सत्यापन-पैनल v1.0 · नीति: स्रोत के बिना स्वीकृति नहीं</p>
+</div>
+
+<script src="data.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

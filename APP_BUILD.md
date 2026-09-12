@@ -143,3 +143,23 @@ Phase 2: राज्य-वार शहीद (1000+) · Phase 3: खेल-�
 - smoke test में नई स्क्रीन कवरेज (renderHome/renderLipi/drawYearView/renderSettings/renderMore/openSearch)
 - बग पकड़े गए और ठीक हुए: DOM-stub में documentElement/classList缺失 → app-side guard + stub update; 𑴀 (U+11D00) h2 में बिना .gon-class → wrapped
 - sw cache `gondwana-v5`
+
+## 10. एडमिन सत्यापन-पैनल (v1.0)
+
+### 10.1 वास्तुकला
+- `admin.html` + `admin.js` — लॉगिन-गेटेड पैनल (noindex)। data.js लोड करके प्रकाशन पर data.js/CSV/JSON पुनर्निर्माण।
+- `admin-credentials.json` — SHA-256(salt+password) hashes, expires, rotation-meta। plaintext कहीं नहीं।
+- `review/pending.json` — 142-प्रविष्टि कतार (33 महापुरुष/27 शहीद+16 अन्य, 60 फ़ोटो, 36 स्थल, 11 पर्व, 2 घोषणा) · `tools/seed_review_queue.py` seeder।
+- `review/decisions.json` — append-only audit trail।
+- `tools/rotate_admin_password.py` + `tools/send_mail.py` + `.github/workflows/rotate-admin-password.yml` — मासिक रोटेशन + Gmail डिलीवरी (SMTP secrets आवश्यक; न हों तो रोटेशन skip = लॉकआउट-सुरक्षा)।
+- `test/check_admin.py` — CI में संरचना-जाँच। sw.js v6: review/* व credentials network-first (स्टेल-कतार से गलत निर्णय न हो)।
+
+### 10.2 निर्णय-प्रभाव (publish semantics)
+- स्वीकृत person/place/festival → verify:false, verify_note हटेगा (संपादित payload ही मास्टर बनेगा)।
+- अस्वीकृत → प्रविष्टि मास्टर से हटेगी। फ़ोटो स्वीकृति + payload.photo → फ़ोटो जुड़ेगी। नई प्रविष्टि (isNew) → स्वीकृति पर मास्टर में जुड़ेगी (sources[] अनिवार्य)।
+- प्रकाशन दो पथ: फ़ाइल-बंडल डाउनलोड या Contents-API push (PAT केवल sessionStorage में, लॉगआउट पर साफ़)।
+
+### 10.3 ईमानदार सीमाएँ
+- static-साइट: लॉगिन क्लाइंट-साइड गेट है (हैश-सत्यापन)। डेटा-परिवर्तन की असली सुरक्षा GitHub अनुमतियाँ हैं — बिना write-access/PAT कोई प्रकाशित नहीं कर सकता।
+- ईमेल भेजना केवल GitHub Actions से संभव (यूजर को SMTP_* secrets एक बार जोड़ने होंगे; Gmail App Password सुशासित)।
+- अनापातित निर्णय ब्राउज़र-सत्र में रहते हैं जब तक प्रकाशित न हों — सत्र बंद होने पर खो जाएँगे (जान-बूझकर: समीक्षा एक ही बैठक में पूरी करना बेहतर)।

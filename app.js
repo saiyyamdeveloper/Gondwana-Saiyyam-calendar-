@@ -848,6 +848,7 @@
     }
     $('#set-about').innerHTML = `<p style="margin:2px 0"><b>गोंडवाना कैलेंडर v2.0</b> — UI blueprint संस्करण</p>
       <p class="small">🌐 <a target="_blank" rel="noopener" href="https://saiyyamdeveloper.github.io/Gondwana-Saiyyam-calendar-/">लाइव ऐप</a> · 📦 <a target="_blank" rel="noopener" href="https://github.com/saiyyamdeveloper/Gondwana-Saiyyam-calendar-">GitHub repo</a></p>
+      <p class="small">🛡️ <a href="./admin.html" target="_blank" rel="noopener">एडमिन सत्यापन-पैनल</a> <span class="muted">(केवल अधिकृत एडमिन/सुपर-एडमिन हेतु)</span></p>
       <p class="small">🤖 स्वचालित निरीक्षण: ${window.GWValidate ? '1050+' : ''} जाँच हर लोड पर (validate.js) + GitHub Actions CI (हर push)।</p>
       <p class="small">डेटा-नीति: स्रोत अनिवार्य · verify ⚠ फ़्लैग · फ़ोटो केवल PD/CC · GPS-सटीकता लेबल।</p>
       <div class="src">स्रोत: arXiv:1306.2416 (Vahia &amp; Halkare) · Unicode L2/15-090R · AGPE रॉयल गोंडवाना रिसर्च जर्नल 2025 · गोंड समाज महासभा म.प्र. कैलेंडर 2026 · ST-2011 जनगणना · द्रिक पंचांग (verify-फ़्लैग सहित)</div>`;
