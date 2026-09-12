@@ -1,7 +1,7 @@
 {
- "id": "photo:birsa-munda",
- "checked_at": "2026-09-12T14:11:04.261396+00:00",
- "score": 40,
+ "id": "photo:telangi-munda",
+ "checked_at": "2026-09-12T14:11:07.741699+00:00",
+ "score": 20,
  "verdict": "weak",
  "checks": [
   {
@@ -13,10 +13,10 @@
   },
   {
    "name": "wiki-en",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: Birsa Munda",
-   "link": "https://en.wikipedia.org/wiki/Birsa%20Munda"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
   },
   {
    "name": "wikidata",
@@ -42,9 +42,8 @@
  ],
  "conflicts": [],
  "sources_domains": [
-  "en.wikipedia.org",
   "hi.wikipedia.org"
  ],
- "summary_hi": "फ़ोटो: भगवान बिरसा मुंडा: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en।",
+ "summary_hi": "फ़ोटो: तेलंगी मुंडा: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
  "llm": null
 }

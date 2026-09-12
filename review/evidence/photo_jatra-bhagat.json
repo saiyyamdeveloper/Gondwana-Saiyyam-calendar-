@@ -1,6 +1,6 @@
 {
- "id": "photo:birsa-munda",
- "checked_at": "2026-09-12T14:11:04.261396+00:00",
+ "id": "photo:jatra-bhagat",
+ "checked_at": "2026-09-12T14:11:08.117910+00:00",
  "score": 40,
  "verdict": "weak",
  "checks": [
@@ -8,15 +8,15 @@
    "name": "wiki-hi",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: बिरसा मुंडा; सारांश में नाम-टोकन ✓",
-   "link": "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BF%E0%A4%B0%E0%A4%B8%E0%A4%BE%20%E0%A4%AE%E0%A5%81%E0%A4%82%E0%A4%A1%E0%A4%BE"
+   "detail": "पृष्ठ मिला: जतरा भगत; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%A4%E0%A4%B0%E0%A4%BE%20%E0%A4%AD%E0%A4%97%E0%A4%A4"
   },
   {
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Birsa Munda",
-   "link": "https://en.wikipedia.org/wiki/Birsa%20Munda"
+   "detail": "पृष्ठ मिला: Jatra Bhagat",
+   "link": "https://en.wikipedia.org/wiki/Jatra%20Bhagat"
   },
   {
    "name": "wikidata",
@@ -45,6 +45,6 @@
   "en.wikipedia.org",
   "hi.wikipedia.org"
  ],
- "summary_hi": "फ़ोटो: भगवान बिरसा मुंडा: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en।",
+ "summary_hi": "फ़ोटो: जतरा टाना भगत: स्कोर 40/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wiki-en।",
  "llm": null
 }

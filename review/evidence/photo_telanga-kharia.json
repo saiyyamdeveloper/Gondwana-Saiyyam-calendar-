@@ -1,0 +1,51 @@
+{
+ "id": "photo:telanga-kharia",
+ "checked_at": "2026-09-12T14:11:07.385043+00:00",
+ "score": 55,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: तेलंगा खड़िया; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%A4%E0%A5%87%E0%A4%B2%E0%A4%82%E0%A4%97%E0%A4%BE%20%E0%A4%96%E0%A4%A1%E0%A4%BC%E0%A4%BF%E0%A4%AF%E0%A4%BE"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Telanga Kharia",
+   "link": "https://en.wikipedia.org/wiki/Telanga%20Kharia"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q26266161",
+   "link": "https://www.wikidata.org/wiki/Q26266161"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "फ़ोटो: तेलंगा खड़िया: स्कोर 55/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata।",
+ "llm": null
+}
