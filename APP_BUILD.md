@@ -163,3 +163,18 @@ Phase 2: राज्य-वार शहीद (1000+) · Phase 3: खेल-�
 - static-साइट: लॉगिन क्लाइंट-साइड गेट है (हैश-सत्यापन)। डेटा-परिवर्तन की असली सुरक्षा GitHub अनुमतियाँ हैं — बिना write-access/PAT कोई प्रकाशित नहीं कर सकता।
 - ईमेल भेजना केवल GitHub Actions से संभव (यूजर को SMTP_* secrets एक बार जोड़ने होंगे; Gmail App Password सुशासित)।
 - अनापातित निर्णय ब्राउज़र-सत्र में रहते हैं जब तक प्रकाशित न हों — सत्र बंद होने पर खो जाएँगे (जान-बूझकर: समीक्षा एक ही बैठक में पूरी करना बेहतर)।
+
+## 11. संग्रहण-पैनल (मीडिया लाइब्रेरी) v1.0
+
+### 11.1 संरचना
+- `media/manifest.json` — केंद्रीय रजिस्टर (id/type/title/desc/path/url/source/license/size/status/attach_to/verified_by)· बीज में 6 प्रविष्टियाँ: 2 ऐप-आइकॉन (verified) + 4 कैलेंडर-इमेज research-leads (candidate; HT हरि-मरावी लेख URL वास्तविक, शेष 3 में URL रिक्त — सत्यापन के समय पैनल में भरना, जान-बूझकर कोई URL गढ़ा नहीं गया)।
+- `media/inbox/` — ड्रॉप-फ़ोल्डर; `media/uploads/` — पैनल-अपलोड गंतव्य।
+- `tools/media_scan.py` + `media-inbox.yml` — inbox स्कैन → स्वचालित विवरण (प्रकार/आकार/SHA-256/तारीख़) → manifest-commit → वैकल्पिक Gmail सूचना (SMTP secrets; न हों तो चुपचाप skip)। idempotent (path-आधारित dedup)।
+- admin.js संग्रहण-खंड: status/type-फ़िल्टर + खोज, preview (img/audio/video w/ onerror-fallback), ✓ सत्यापित+attach_to, ✗ अस्वीकृत, ✎ विवरण-संपादन (id अपरिवर्तनीय), 🔗 खोलें/📋 कॉपी, लिंक-फ़ॉर्म (स्रोत अनिवार्य), 📤 अपलोड — Git Data API (blobs→tree→commit→ref PATCH) = एक commit में फ़ाइलें+manifest (Contents API की 1MB सीमा से मुक्त)।
+- प्रकाशन-एकीकरण: MEDIA_DIRTY होने पर manifest outputFiles/बंडल/push में शामिल; sw v7 — manifest network-first।
+
+### 11.2 ईमानदार सीमाएँ
+- **auto-discovery नहीं:** इंटरनेट से गीत/ऑडियो स्वतः खोजना न कानूनी है (कॉपीराइट) न विश्वसनीय — automation केवल inbox-वॉच + विवरण + सूचना करता है; खोज-भराई मैन्युअल/शोध-सत्रों से।
+- Wikimedia Commons CC-मीडिया खोजी (legal) FUTURE_PLAN में — अभी लागू नहीं।
+- बड़ी फ़ाइलें: git-इतिहास में हमेशा रहती हैं (delete से repo नहीं हल्का होता) — >10MB पर चेतावनी; वीडियो के लिए बाहरी होस्टिंग (YouTube/Archive.org) + manifest-लिंक बेहतर।
+- दो जगह से एक साथ अपलोड पर manifest race संभव (last-write-wins) — FUTURE_PLAN में sha-conflict-check।

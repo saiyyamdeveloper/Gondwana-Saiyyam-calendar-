@@ -190,3 +190,7 @@ VSS भोपाल ✅ (हेल्पलाइन कार्ड में �
 - [ ] पैनल से सीधा REVIEW_CHECKLIST.md पुनर्जनन (push-बंडल में)
 - [ ] दो एडमिन एक साथ काम करें तो merge-conflict संभालना (pending.json sha-check push पर)
 - [ ] सर्वर-साइड ऑथ (GitHub OAuth/Cloudflare Worker) यदि भविष्य में बैकएंड मिले
+- [ ] संग्रहण: Wikimedia Commons API से CC-लाइसेंसित गोंडी/आदिवासी इमेज-ऑडियो candidate-खोजक (legal auto-discovery)
+- [ ] ऐप-साइड मीडिया-प्लेयर: सत्यापित attach_to=festival/person ऑडियो पर्व-शीट/नायक-शीट में बजाना
+- [ ] manifest sha-conflict-check (एक साथ अपलोड पर last-write-wins रोक)
+- [ ] बड़े वीडियो हेतु Archive.org/YouTube-लिंक नीति + oEmbed-झलक

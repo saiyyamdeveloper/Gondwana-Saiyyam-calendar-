@@ -1,0 +1,35 @@
+name: मीडिया-इनबॉक्स स्कैन (संग्रहण)
+# media/inbox/ में नई फ़ाइल पुश होते ही → manifest में candidate + स्वचालित विवरण (+ Gmail सूचना यदि SMTP secrets हों)
+on:
+  push:
+    branches: [main]
+    paths: ['media/inbox/**']
+  schedule:
+    - cron: '0 4 * * 1'   # सोमवार 04:00 UTC — सुरक्षा-जाल दोबारा स्कैन
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: इनबॉक्स स्कैन + विवरण-निर्माण
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python3 tools/media_scan.py
+      - name: manifest commit+push
+        run: |
+          git config user.name "gondwana-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add media/manifest.json
+          git diff --cached --quiet || git commit -m "media: इनबॉक्स स्कैन — नई candidate प्रविष्टियाँ (सत्यापन प्रतीक्षित)"
+          git push
+      - name: संरचना-जाँच
+        run: python3 test/check_admin.py

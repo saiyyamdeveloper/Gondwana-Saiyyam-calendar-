@@ -12,6 +12,11 @@
 
   let CREDS = null, QUEUE = [], DECISIONS = [], SESSION = null, CREDS_DIRTY = false;
   let qFilter = 'all', qSearch = '';
+  let MEDIA = [], MAN_META = {}, MEDIA_DIRTY = false;
+  let mdStatus = 'candidate', mdType = 'all', mdSearch = '';
+  const TYPE_HI = { image: 'इमेज', audio: 'ऑडियो/voice', song: 'गीत', video: 'वीडियो', doc: 'दस्तावेज़', other: 'अन्य' };
+  const STATUS_HI = { candidate: '⏳ सत्यापन-प्रतीक्षित', verified: '✅ सत्यापित', rejected: '❌ अस्वीकृत' };
+  const LICENSE_HI = { own: 'स्वयं का', PD: 'public domain', 'CC-BY': 'CC-BY', 'CC-BY-SA': 'CC-BY-SA', 'copyright-pending': 'कॉपीराइट-जाँच बाकी', unknown: 'अज्ञात' };
 
   /* ---------- crypto helpers ---------- */
   async function sha256hex(str) {
@@ -45,12 +50,14 @@
   /* ---------- boot ---------- */
   async function init() {
     try {
-      const [cr, pq, dj] = await Promise.all([
+      const [cr, pq, dj, mf] = await Promise.all([
         fetch('admin-credentials.json', { cache: 'no-store' }).then(r => r.json()),
         fetch('review/pending.json', { cache: 'no-store' }).then(r => r.json()),
-        fetch('review/decisions.json', { cache: 'no-store' }).then(r => r.json())
+        fetch('review/decisions.json', { cache: 'no-store' }).then(r => r.json()),
+        fetch('media/manifest.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null)
       ]);
       CREDS = cr; QUEUE = pq.queue || []; DECISIONS = dj.decisions || [];
+      if (mf) { MAN_META = mf.meta || {}; MEDIA = mf.items || []; }
     } catch (e) {
       $('#lg-err').textContent = 'डेटा लोड विफल: ' + e.message; $('#lg-err').classList.remove('hidden');
       return;
@@ -99,7 +106,7 @@
     if (savedPat) $('#pub-pat').value = savedPat;
     $('#pub-pat').oninput = () => sessionStorage.setItem('gw-pat', $('#pub-pat').value.trim());
     $('#pub-push').onclick = pushToGitHub;
-    drawStats(); drawFilters(); drawQueue(); drawDecisions();
+    drawStats(); drawFilters(); drawQueue(); drawDecisions(); initStorage();
   }
 
   function pending() { return QUEUE.filter(q => q.status === 'pending'); }
@@ -293,6 +300,7 @@
       'review/decisions.json': JSON.stringify({ meta: { title: 'निर्णय-लॉग (audit trail)' }, decisions: DECISIONS }, null, 1)
     };
     if (CREDS_DIRTY) files['admin-credentials.json'] = JSON.stringify(CREDS, null, 1);
+    if (MEDIA_DIRTY) files['media/manifest.json'] = manifestText();
     return { files, changes: o.changes };
   }
   function previewChanges() {
@@ -303,6 +311,7 @@
     logLine(`फ़ोटो जुड़ेंगी: ${changes.photos.length} → ${changes.photos.join(', ') || '—'}`);
     logLine(`नई स्वीकृत प्रविष्टियाँ: ${changes.addedNew.length} → ${changes.addedNew.join(', ') || '—'}`);
     logLine('अपडेट होने वाली फ़ाइलें: ' + Object.keys(files).join(', '));
+    logLine(`संग्रहण: ${MEDIA.filter(m => m.status === 'verified').length} सत्यापित · ${MEDIA.filter(m => m.status === 'candidate').length} प्रतीक्षित · ${MEDIA.filter(m => m.status === 'rejected').length} अस्वीकृत`);
     const total = changes.cleared.length + changes.removed.length + changes.photos.length + changes.addedNew.length;
     logLine(total === 0 ? '⚠ अभी कोई निर्णीत परिवर्तन नहीं — पहले कतार में स्वीकृत/अस्वीकृत करें।' : 'कुल परिवर्तन: ' + total);
   }
@@ -341,6 +350,187 @@
     logLine('पूर्ण। CI (1066+ जाँच) अपने आप चलेगा → हरा होने पर ~1 मिनट में लाइव।');
   }
 
+  /* ============ 🗄️ संग्रहण — मीडिया लाइब्रेरी ============ */
+  function manifestText() { return JSON.stringify({ meta: MAN_META, items: MEDIA }, null, 1); }
+  function humanSz(n) { if (n == null) return ''; if (n < 1024) return n + 'B'; if (n < 1048576) return (n / 1024).toFixed(1) + 'KB'; return (n / 1048576).toFixed(1) + 'MB'; }
+  function mdSrc(m) {
+    if (m.path) return m.path.replace(/^\//, '');
+    return m.url || null;
+  }
+  function initStorage() {
+    $('#md-link-btn').onclick = () => $('#md-form').classList.toggle('hidden');
+    $('#mdf-cancel').onclick = () => $('#md-form').classList.add('hidden');
+    $('#mdf-save').onclick = addLink;
+    $('#md-upload-btn').onclick = () => $('#md-file').click();
+    $('#md-file').onchange = e => { uploadFiles(e.target.files); e.target.value = ''; };
+    $('#md-search').oninput = () => { mdSearch = $('#md-search').value.trim().toLowerCase(); drawMdList(); };
+    drawMdFilters(); drawMdList();
+  }
+  function drawMdFilters() {
+    const cS = {}; MEDIA.forEach(m => cS[m.status] = (cS[m.status] || 0) + 1);
+    $('#md-status-filters').innerHTML = ['all', 'candidate', 'verified', 'rejected'].map(k =>
+      `<button class="chip ${mdStatus === k ? 'active' : ''}" data-s="${k}">${k === 'all' ? 'सभी' : STATUS_HI[k]}${k !== 'all' ? ' (' + (cS[k] || 0) + ')' : ''}</button>`).join('');
+    $$('#md-status-filters .chip').forEach(b => b.onclick = () => { mdStatus = b.dataset.s; drawMdFilters(); drawMdList(); });
+    const cT = {}; MEDIA.forEach(m => cT[m.type] = (cT[m.type] || 0) + 1);
+    $('#md-type-filters').innerHTML = ['all'].concat(Object.keys(TYPE_HI)).map(k =>
+      `<button class="chip ${mdType === k ? 'active' : ''}" data-t="${k}">${k === 'all' ? 'सब प्रकार' : TYPE_HI[k]}${k !== 'all' ? ' (' + (cT[k] || 0) + ')' : ''}</button>`).join('');
+    $$('#md-type-filters .chip').forEach(b => b.onclick = () => { mdType = b.dataset.t; drawMdFilters(); drawMdList(); });
+  }
+  function drawMdList() {
+    let list = MEDIA.slice();
+    if (mdStatus !== 'all') list = list.filter(m => m.status === mdStatus);
+    if (mdType !== 'all') list = list.filter(m => m.type === mdType);
+    if (mdSearch) list = list.filter(m => ((m.title || '') + ' ' + (m.desc || '') + ' ' + (m.source || '') + ' ' + (m.attach_to || '')).toLowerCase().includes(mdSearch));
+    $('#md-count').textContent = list.length + ' प्रविष्टियाँ' + (MEDIA_DIRTY ? ' · ⚠ अप्रकाशित परिवर्तन — नीचे 📦 से प्रकाशित करें' : '');
+    $('#md-list').innerHTML = list.map(m => {
+      const src = mdSrc(m);
+      let prev = '';
+      if (src && (m.type === 'image')) prev = `<div class="md-preview"><img src="${esc(src)}" alt="" loading="lazy" onerror="this.nextElementSibling.classList.remove('hidden');this.style.display='none'"><span class="muted small hidden">पूर्वावलोकन लोड नहीं हुआ (hotlink-रोध) — 🔗 खोलें से देखें</span></div>`;
+      else if (src && (m.type === 'audio' || m.type === 'song')) prev = `<div class="md-preview"><audio controls preload="none" src="${esc(src)}"></audio></div>`;
+      else if (src && m.type === 'video') prev = `<div class="md-preview"><video controls preload="none" src="${esc(src)}"></video></div>`;
+      return `
+      <div class="q-card" data-mid="${esc(m.id)}">
+        <span class="st-pill st-${esc(m.status)}">${STATUS_HI[m.status] || m.status}</span>
+        <span class="kind-badge k-place">${TYPE_HI[m.type] || m.type}</span>
+        <span class="lic-pill">© ${esc(LICENSE_HI[m.license] || m.license || '?')}</span>
+        <span class="q-title">${esc(m.title)}</span>
+        <div class="q-sub">${esc(m.source || '')} · जोड़ा: ${esc(m.added || '')} (${esc(m.added_by || '')})${m.size ? ' · ' + humanSz(m.size) : ''}${m.attach_to ? ' · 📎 ' + esc(m.attach_to) : ''}</div>
+        ${prev}
+        <div class="q-sub" style="margin-top:4px">${esc(m.desc || '')}</div>
+        ${m.note ? `<div class="q-reason">ℹ ${esc(m.note)}</div>` : ''}
+        ${m.verified_by ? `<div class="q-sub">सत्यापित: ${esc(m.verified_by)} · ${esc((m.verified_at || '').slice(0, 10))}</div>` : ''}
+        <div class="q-actions">
+          ${m.status !== 'verified' ? `<button class="btn ok sm" data-m="verify">✓ सत्यापित व attach</button>` : ''}
+          ${m.status !== 'rejected' ? `<button class="btn bad sm" data-m="reject">✗ अस्वीकृत</button>` : ''}
+          <button class="btn ghost sm" data-m="edit">✎ विवरण</button>
+          ${src ? `<button class="btn ghost sm" data-m="open">🔗 खोलें</button><button class="btn ghost sm" data-m="copy">📋 लिंक कॉपी</button>` : `<button class="btn ghost sm" data-m="edit">🔗 URL भरें</button>`}
+        </div>
+        <div class="q-payload"><textarea spellcheck="false">${esc(JSON.stringify(m, null, 1))}</textarea>
+          <div class="q-actions"><button class="btn sm" data-m="save">💾 सहेजें</button></div>
+        </div>
+      </div>`;
+    }).join('') || '<div class="card"><p class="muted">इस फ़िल्टर में कुछ नहीं — 🔗 लिंक जोड़ें, 📤 अपलोड करें, या GitHub पर media/inbox/ में फ़ाइल डालें (automation विवरण सहित यहाँ पहुँचा देगा)।</p></div>';
+    $$('#md-list .q-card').forEach(card => {
+      const m = MEDIA.find(x => x.id === card.dataset.mid);
+      const q = s2 => card.querySelector(`[data-m="${s2}"]`);
+      if (q('verify')) q('verify').onclick = () => {
+        const a = prompt('किससे attach करें? (person:<id> · festival:<id> · place:<id> · calendar · app · या खाली)', m.attach_to || '');
+        if (a === null) return;
+        m.status = 'verified'; m.attach_to = a.trim() || null;
+        m.verified_by = SESSION.email + ' (' + SESSION.role + ')'; m.verified_at = new Date().toISOString();
+        MEDIA_DIRTY = true; drawMdFilters(); drawMdList();
+      };
+      if (q('reject')) q('reject').onclick = () => {
+        const r = prompt('अस्वीकृति-कारण:', 'license अस्पष्ट');
+        if (r === null) return;
+        m.status = 'rejected'; m.note = (m.note ? m.note + ' · ' : '') + 'अस्वीकृत: ' + r;
+        MEDIA_DIRTY = true; drawMdFilters(); drawMdList();
+      };
+      const pe = q('edit'); if (pe) pe.onclick = () => card.querySelector('.q-payload').classList.toggle('open');
+      const sv = q('save'); if (sv) sv.onclick = () => {
+        try {
+          const upd = JSON.parse(card.querySelector('.q-payload textarea').value);
+          if (upd.id !== m.id) { alert('id नहीं बदल सकते — वही रखें।'); return; }
+          Object.assign(m, upd); MEDIA_DIRTY = true; drawMdFilters(); drawMdList();
+        } catch (e) { alert('JSON अमान्य: ' + e.message); }
+      };
+      if (q('open')) q('open').onclick = () => window.open(m.url || ('./' + mdSrc(m)), '_blank', 'noopener');
+      if (q('copy')) q('copy').onclick = () => {
+        const abs = m.url || (location.origin + location.pathname.replace(/[^/]*$/, '') + mdSrc(m));
+        (navigator.clipboard ? navigator.clipboard.writeText(abs) : Promise.reject()).then(() => toastLine('लिंक कॉपी हुआ ✓')).catch(() => prompt('कॉपी करें:', abs));
+      };
+    });
+  }
+  function addLink() {
+    const title = $('#mdf-title').value.trim(), url = $('#mdf-url').value.trim(), source = $('#mdf-source').value.trim();
+    if (!title || !url || !source) { alert('शीर्षक, URL व स्रोत अनिवार्य (नीति: स्रोत के बिना स्वीकृति नहीं)।'); return; }
+    if (!/^https?:\/\//i.test(url)) { alert('URL http(s):// से शुरू होना चाहिए।'); return; }
+    MEDIA.unshift({
+      id: 'media-link-' + Date.now().toString(36), type: $('#mdf-type').value, title,
+      desc: $('#mdf-desc').value.trim(), path: null, url, source,
+      license: $('#mdf-license').value, size: null, added: todayStr(),
+      added_by: 'panel:' + SESSION.email, status: 'candidate', attach_to: null,
+      verified_by: null, verified_at: null, note: 'पैनल से जोड़ा गया लिंक'
+    });
+    MEDIA_DIRTY = true;
+    ['mdf-title', 'mdf-url', 'mdf-source', 'mdf-desc'].forEach(i => $('#' + i).value = '');
+    $('#md-form').classList.add('hidden');
+    drawMdFilters(); drawMdList();
+    toastLine('लिंक candidate बना ✓ — 📦 खंड से प्रकाशित करना न भूलें');
+  }
+  async function shaBuf(buf) {
+    const h = await crypto.subtle.digest('SHA-256', buf);
+    return Array.from(new Uint8Array(h)).map(b => b.toString(16).padStart(2, '0')).join('');
+  }
+  function fileB64(f) {
+    return new Promise((res, rej) => {
+      const r = new FileReader();
+      r.onload = () => res(String(r.result).split(',')[1]);
+      r.onerror = rej;
+      r.readAsDataURL(f);
+    });
+  }
+  async function gh(H, apiPath, opts) {
+    opts = opts || {};
+    const r = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/${apiPath}`, {
+      method: opts.method || 'GET', headers: H, body: opts.body ? JSON.stringify(opts.body) : undefined
+    });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error((j.message || 'HTTP ' + r.status) + ' @ ' + apiPath);
+    return j;
+  }
+  async function uploadFiles(fileList) {
+    const files = Array.from(fileList || []);
+    if (!files.length) return;
+    const pat = $('#pub-pat').value.trim();
+    if (!pat) { alert('पहले 📦 खंड में GitHub PAT डालें — अपलोड सीधे repo में commit होता है (Contents API की 1MB सीमा से बचने हेतु Git Data API)।'); return; }
+    for (const f of files) {
+      if (f.size > 10 * 1024 * 1024 && !confirm(`${f.name} = ${humanSz(f.size)} (>10MB) — repo/Pages भारी होगा। फिर भी जारी रखें?`)) return;
+    }
+    if (!confirm(`${files.length} फ़ाइल(ें) media/uploads/ में commit होंगी (candidate — सत्यापन के बिना public-दृश्य नहीं जुड़ेंगी)। जारी रखें?`)) return;
+    logLine('📤 अपलोड शुरू (' + files.length + ' फ़ाइलें)…');
+    const H = { 'Authorization': 'Bearer ' + pat, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' };
+    try {
+      const ref = await gh(H, `git/ref/heads/${BRANCH}`);
+      const head = ref.object.sha;
+      const base = await gh(H, `git/commits/${head}`);
+      const treeItems = [];
+      for (const f of files) {
+        const name = f.name.replace(/[^\w.\-\u0900-\u097F]+/g, '_');
+        const path = 'media/uploads/' + name;
+        const b64c = await fileB64(f);
+        const blob = await gh(H, 'git/blobs', { method: 'POST', body: { content: b64c, encoding: 'base64' } });
+        treeItems.push({ path, mode: '100644', type: 'blob', sha: blob.sha });
+        const sha = await shaBuf(await f.arrayBuffer());
+        const ext = (name.split('.').pop() || '').toLowerCase();
+        const type = ['jpg', 'jpeg', 'png', 'webp', 'gif'].includes(ext) ? 'image'
+          : ['mp3', 'wav', 'ogg', 'm4a', 'flac'].includes(ext) ? 'audio'
+          : ['mp4', 'webm'].includes(ext) ? 'video' : ext === 'pdf' ? 'doc' : 'other';
+        MEDIA.unshift({
+          id: 'media-inbox-' + sha.slice(0, 10), type, title: name,
+          desc: `पैनल-अपलोड स्वचालित विवरण: प्रकार=${type}, आकार=${humanSz(f.size)}, SHA-256=${sha.slice(0, 16)}…, अपलोडकर्ता=${SESSION.email}, दिनांक=${todayStr()}। शीर्षक/स्रोत/संबंध ✎ से भरें।`,
+          path, url: null, source: 'पैनल-अपलोड (' + SESSION.email + ')',
+          license: type === 'audio' || type === 'song' || type === 'video' ? 'own' : 'unknown',
+          size: f.size, added: todayStr(), added_by: 'panel:' + SESSION.email,
+          status: 'candidate', attach_to: null, verified_by: null, verified_at: null,
+          note: f.size > 10 * 1024 * 1024 ? '⚠ 10MB से बड़ी' : '⏳ एडमिन-सत्यापन प्रतीक्षित'
+        });
+        logLine('  ✓ blob ' + path + ' (' + humanSz(f.size) + ')');
+      }
+      const manBlob = await gh(H, 'git/blobs', { method: 'POST', body: { content: b64(manifestText()), encoding: 'base64' } });
+      treeItems.push({ path: 'media/manifest.json', mode: '100644', type: 'blob', sha: manBlob.sha });
+      const tree = await gh(H, 'git/trees', { method: 'POST', body: { base_tree: base.tree.sha, tree: treeItems } });
+      const commit = await gh(H, 'git/commits', { method: 'POST', body: { message: `media: ${files.length} फ़ाइल(ें) अपलोड — candidate (सत्यापन प्रतीक्षित)`, tree: tree.sha, parents: [head] } });
+      await gh(H, `git/refs/heads/${BRANCH}`, { method: 'PATCH', body: { sha: commit.sha } });
+      MEDIA_DIRTY = false;
+      logLine('☁️ अपलोड commit ' + commit.sha.slice(0, 7) + ' — ~1 मिनट में Pages पर उपलब्ध। विवरण जाँचकर ✓ सत्यापित करें।');
+      drawMdFilters(); drawMdList();
+    } catch (e) {
+      logLine('✗ अपलोड विफल: ' + e.message);
+      alert('अपलोड विफल: ' + e.message + '\n(PAT में Contents+Metadata write अनुमति जाँचें)');
+    }
+  }
+
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
-  window.__ADMIN = { buildOutputs, outputFiles, decide, QUEUE: () => QUEUE };
+  window.__ADMIN = { buildOutputs, outputFiles, decide, QUEUE: () => QUEUE, MEDIA: () => MEDIA, manifestText };
 })();

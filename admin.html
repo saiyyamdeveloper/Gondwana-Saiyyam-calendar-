@@ -38,6 +38,14 @@
   .sec-note { font-size: .72rem; color: var(--ink2); background: #fff7e6; border: 1px solid #f3ddb0; border-radius: 10px; padding: 8px 10px; margin-top: 10px; }
   .pw-once { font-family: ui-monospace, Consolas, monospace; background: #14532d; color: #86efac; padding: 10px 12px; border-radius: 10px; font-size: .95rem; word-break: break-all; }
   #adm-log { font-family: ui-monospace, Consolas, monospace; font-size: .72rem; background: #111; color: #7dde92; border-radius: 10px; padding: 10px; max-height: 180px; overflow-y: auto; white-space: pre-wrap; }
+  #md-form input, #md-form select, #md-form textarea { width: 100%; border: 1.5px solid var(--line); border-radius: 10px; padding: 8px 10px; font-family: var(--deva); font-size: .85rem; margin-bottom: 8px; background: var(--paper2); color: var(--ink); }
+  #md-form textarea { min-height: 70px; }
+  .st-pill { display: inline-block; font-size: .64rem; border-radius: 999px; padding: 2.5px 9px; font-weight: 700; margin-right: 5px; }
+  .st-candidate { background: #f59e0b; color: #422006; } .st-verified { background: #16a34a; color: #fff; } .st-rejected { background: #dc2626; color: #fff; }
+  .lic-pill { display: inline-block; font-size: .62rem; border-radius: 999px; padding: 2px 8px; background: var(--paper2); border: 1px solid var(--line); color: var(--ink2); margin-right: 5px; }
+  .md-preview img { max-width: 100%; max-height: 170px; border-radius: 10px; border: 1px solid var(--line); }
+  .md-preview audio { width: 100%; margin: 6px 0; }
+  .md-preview video { max-width: 100%; max-height: 170px; border-radius: 10px; }
   .hidden { display: none !important; }
 </style>
 </head>
@@ -88,6 +96,48 @@
       </span>
     </div>
     <div id="pub-log" class="hidden" style="margin-top:10px"><div id="adm-log"></div></div>
+  </div>
+
+  <!-- ============ संग्रहण (मीडिया लाइब्रेरी) ============ -->
+  <div class="card" id="adm-storage" style="border-left:6px solid var(--saffron)">
+    <h3>🗄️ संग्रहण — कैलेंडर इमेज · voice · गीत · ऑडियो</h3>
+    <p class="muted small">हर चीज़ पहले <b>⏳ candidate</b> बनती है — तीन मार्ग: (1) <b>media/inbox</b> में फ़ाइल डालें (GitHub वेबसाइट से फ़ोन पर भी) → automation स्वचालित विवरण सहित कतार में डाल देता है + Gmail सूचना, (2) 📤 सीधा अपलोड, (3) 🔗 बाहरी लिंक। आपके ✓ सत्यापन के बिना कुछ भी attach/public नहीं होगा।</p>
+    <div class="q-actions">
+      <button class="btn sm" id="md-link-btn">🔗 लिंक जोड़ें</button>
+      <button class="btn ok sm" id="md-upload-btn">📤 फ़ाइल अपलोड (PAT → सीधे repo)</button>
+      <input type="file" id="md-file" class="hidden" multiple accept="image/*,audio/*,video/*,.pdf">
+    </div>
+    <div id="md-form" class="hidden" style="margin-top:10px;border:1px dashed var(--line);border-radius:12px;padding:10px">
+      <select id="mdf-type">
+        <option value="image">इमेज (कैलेंडर/फ़ोटो)</option>
+        <option value="audio">ऑडियो/voice</option>
+        <option value="song">गीत</option>
+        <option value="video">वीडियो</option>
+        <option value="doc">दस्तावेज़</option>
+        <option value="other">अन्य</option>
+      </select>
+      <input id="mdf-title" placeholder="शीर्षक * (जैसे: करना पर्व गीत — रिकॉर्डिंग)">
+      <input id="mdf-url" placeholder="URL * (इमेज/ऑडियो/पेज का सीधा लिंक)">
+      <input id="mdf-source" placeholder="स्रोत * (साइट/व्यक्ति/संगठन — नीति: स्रोत के बिना स्वीकृति नहीं)">
+      <select id="mdf-license">
+        <option value="own">स्वयं का (own)</option>
+        <option value="PD">public domain</option>
+        <option value="CC-BY">CC-BY</option>
+        <option value="CC-BY-SA">CC-BY-SA</option>
+        <option value="copyright-pending">कॉपीराइट-जाँच बाकी</option>
+        <option value="unknown">अज्ञात</option>
+      </select>
+      <textarea id="mdf-desc" placeholder="विवरण: क्या है? किस पर्व/नायक/स्थल से संबंध? कहाँ मिला?"></textarea>
+      <div class="q-actions">
+        <button class="btn ok sm" id="mdf-save">➕ जोड़ें (candidate बनेगा)</button>
+        <button class="btn ghost sm" id="mdf-cancel">रद्द</button>
+      </div>
+    </div>
+    <div id="md-status-filters" style="margin-top:10px;display:flex;flex-wrap:wrap;gap:6px"></div>
+    <div id="md-type-filters" style="margin-top:6px;display:flex;flex-wrap:wrap;gap:6px"></div>
+    <input id="md-search" type="search" placeholder="🔍 संग्रह में खोजें…" style="width:100%;margin-top:8px;border:1.5px solid var(--line);border-radius:10px;padding:9px 10px;font-family:var(--deva)">
+    <p class="muted small" id="md-count" style="margin:6px 0 0"></p>
+    <div id="md-list"></div>
   </div>
 
   <!-- सुपर-एडमिन: नई प्रविष्टि + खाते + रोटेशन -->

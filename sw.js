@@ -1,5 +1,5 @@
 /* Gondwana Calendar App — offline service worker */
-const CACHE = 'gondwana-v6';
+const CACHE = 'gondwana-v7';
 const ASSETS = [
   './', 'index.html', 'styles.css', 'app.js', 'engine.js', 'data.js', 'converter.js', 'validate.js',
   'NotoSansMasaramGondi.woff2', 'manifest.json', 'icon-192.png', 'icon-512.png',
@@ -11,7 +11,7 @@ self.addEventListener('install', e => {
 self.addEventListener('activate', e => {
   e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim()));
 });
-const FRESH = /\/(review\/|admin-credentials\.json)/;
+const FRESH = /\/(review\/|media\/manifest\.json|admin-credentials\.json)/;
 self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return;
   // समीक्षा-कतार व credentials हमेशा ताज़ा (network-first) — stale-डेटा से गलत सत्यापन न हो

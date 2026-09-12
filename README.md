@@ -144,3 +144,11 @@ python3 tools/make_review_checklist.py   # समीक्षा-सूची �
 - **मासिक पासवर्ड-रोटेशन:** `.github/workflows/rotate-admin-password.yml` (हर 1 तारीख़ 04:00 UTC) → नए पासवर्ड Gmail पर। आवश्यक repo-secrets: `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `MAIL_TO` (डिफ़ॉल्ट gondwanaroots@gmail.com)। Secrets न हों तो रोटेशन रुक जाता है (लॉकआउट-सुरक्षा)।
 - **सीमा (ईमानदारी):** static-साइट पर लॉगिन = समीक्षा-गेट, सर्वर-सुरक्षा नहीं। असली सुरक्षा = GitHub अनुमतियाँ/PAT।
 
+## 🗄️ संग्रहण (मीडिया लाइब्रेरी) — admin.html के अंदर
+
+कैलेंडर-इमेज लिंक · voice · गीत · ऑडियो · वीडियो — सभी का केंद्रीय भंडार `media/manifest.json`।
+
+- **तीन इनपुट मार्ग:** (1) GitHub वेबसाइट/मोबाइल से `media/inbox/` में फ़ाइल अपलोड → Action स्वचालित विवरण (प्रकार/आकार/SHA-256/तारीख़) सहित candidate बनाता है + Gmail सूचना (SMTP secrets हो तो), (2) पैनल से 📤 सीधा अपलोड (Git Data API — एक commit में फ़ाइल+manifest), (3) पैनल से 🔗 बाहरी लिंक (स्रोत अनिवार्य)।
+- **सत्यापन-प्रवाह:** हर प्रविष्टि `candidate` → पैनल में preview (इमेज/ऑडियो-प्लेयर/वीडियो), विवरण-संपादन → ✓ सत्यापित व attach (`person:<id>`/`festival:<id>`/`place:<id>`/`calendar`/`app`) या ✗ अस्वीकृत (कारण सहित)।
+- **सीमाएँ:** प्रति फ़ाइल ≤10MB सुझावित (repo/Pages ~1GB); समाचार-फ़ोटो केवल लिंक-रूप में (copyright-pending) — होस्टिंग हेतु अनुमति अनिवार्य।
+- **Workflow:** `.github/workflows/media-inbox.yml` (push पर media/inbox/** + सोमवार 04:00 UTC + manual)।

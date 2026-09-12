@@ -54,6 +54,28 @@ for dec in d['decisions']:
     check(dec.get('decision') in ('approved', 'rejected'), f'लॉग में अमान्य निर्णय: {dec.get("id")}')
     check(dec.get('by'), f'लॉग में by गायब: {dec.get("id")}')
 
+# 3.5) मीडिया manifest
+man = load('media/manifest.json')
+MTYPES = {'image', 'audio', 'song', 'video', 'doc', 'other'}
+MSTAT = {'candidate', 'verified', 'rejected'}
+MLIC = {'own', 'PD', 'CC-BY', 'CC-BY-SA', 'copyright-pending', 'unknown'}
+mids = set()
+for it in man.get('items', []):
+    for k in ('id', 'type', 'title', 'status', 'license', 'added'):
+        check(k in it, f"manifest में {k} गायब: {it.get('id', '?')}")
+    check(it.get('type') in MTYPES, f"manifest अमान्य type: {it.get('id')}")
+    check(it.get('status') in MSTAT, f"manifest अमान्य status: {it.get('id')}")
+    check(it.get('license') in MLIC, f"manifest अमान्य license: {it.get('id')}")
+    check(it.get('id') not in mids, f"manifest दोहरा id: {it.get('id')}")
+    mids.add(it.get('id'))
+    check(bool(it.get('title', '').strip()), f"manifest खाली title: {it.get('id')}")
+    check(bool(it.get('path') or it.get('url') or it.get('note')), f"manifest में path/url/note में से एक चाहिए: {it.get('id')}")
+    if it.get('path'):
+        full = os.path.join(APP, it['path'])
+        if not it['path'].startswith('media/inbox'):
+            check(os.path.exists(full), f"manifest path मौजूद नहीं: {it['path']}")
+check(os.path.isdir(os.path.join(APP, 'media', 'inbox')), 'media/inbox डिरेक्टरी गायब')
+
 # 4) पैनल फ़ाइलें
 for f in ('admin.html', 'admin.js'):
     check(os.path.exists(os.path.join(APP, f)), f'{f} गायब')
