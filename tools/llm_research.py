@@ -4,7 +4,7 @@ repo-secrets: LLM_PROVIDER (gemini|openai), LLM_API_KEY — न हों तो
 प्रवाह: प्रविष्टि+परत-1 सबूत → LLM structured verdict + उद्धरण-URL →
 दूसरा पास हर URL को खुद खोलकर जाँचता है कि दावा सच में पन्ने पर है (verify-the-verifier)।
 नतीजा evidence-फ़ाइल के 'llm' खंड में। BATCH सीमित (कोटा/समय)।"""
-import json, os, re, sys, urllib.request, datetime
+import json, os, re, sys, urllib.request, urllib.error, datetime
 
 APP = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EV_DIR = os.path.join(APP, 'review', 'evidence')
@@ -23,22 +23,30 @@ def fetch_text(u, n=300000):
     except Exception:
         return ''
 
+def _chat(url, key, model, prompt, extra=None):
+    hdr = {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key}
+    if extra: hdr.update(extra)
+    base = {'model': model, 'temperature': 0.2, 'messages': [{'role': 'user', 'content': prompt}]}
+    for with_rf in (True, False):   # कुछ मॉडल response_format नहीं लेते → fallback
+        p = dict(base)
+        if with_rf: p['response_format'] = {'type': 'json_object'}
+        try:
+            req = urllib.request.Request(url, data=json.dumps(p).encode(), headers=hdr)
+            with urllib.request.urlopen(req, timeout=120) as r:
+                d = json.load(r)
+            return d['choices'][0]['message']['content']
+        except urllib.error.HTTPError as e:
+            if with_rf and e.code in (400, 422): continue
+            raise
+
 def ask_llm(prompt):
     prov = os.environ.get('LLM_PROVIDER', 'gemini').lower()
     key = os.environ.get('LLM_API_KEY', '')
     body = None
     if prov == 'openrouter':
-        url = 'https://openrouter.ai/api/v1/chat/completions'
-        model = os.environ.get('LLM_MODEL', 'openai/gpt-4o-mini')
-        body = json.dumps({'model': model, 'temperature': 0.2,
-                           'response_format': {'type': 'json_object'},
-                           'messages': [{'role': 'user', 'content': prompt}]}).encode()
-        req = urllib.request.Request(url, data=body, headers={
-            'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key,
-            'X-Title': 'Gondwana-Satyapan-Panel'})
-        with urllib.request.urlopen(req, timeout=120) as r:
-            d = json.load(r)
-        return d['choices'][0]['message']['content']
+        return _chat('https://openrouter.ai/api/v1/chat/completions', key,
+                     os.environ.get('LLM_MODEL', 'openai/gpt-4o-mini'), prompt,
+                     {'X-Title': 'Gondwana-Satyapan-Panel'})
     if prov == 'gemini':
         url = f'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={key}'
         body = json.dumps({'contents': [{'parts': [{'text': prompt}]}],
@@ -48,14 +56,8 @@ def ask_llm(prompt):
             d = json.load(r)
         return d['candidates'][0]['content']['parts'][0]['text']
     else:
-        url = 'https://api.openai.com/v1/chat/completions'
-        body = json.dumps({'model': 'gpt-4o-mini', 'temperature': 0.2,
-                           'response_format': {'type': 'json_object'},
-                           'messages': [{'role': 'user', 'content': prompt}]}).encode()
-        req = urllib.request.Request(url, data=body, headers={'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key})
-        with urllib.request.urlopen(req, timeout=120) as r:
-            d = json.load(r)
-        return d['choices'][0]['message']['content']
+        return _chat('https://api.openai.com/v1/chat/completions', key, 'gpt-4o-mini', prompt)
+
 
 PROMPT = """तुम भारतीय आदिवासी इतिहास-सत्यापन सहायक हो। नीचे दी कतार-प्रविष्टि पर गहरी research-समीक्षा करो और केवल JSON लौटाओ:
 {"verdict":"pass|fail|inconclusive","confidence":0-100,"summary_hi":"2-3 पंक्ति हिंदी सारांश",
