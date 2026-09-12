@@ -1,0 +1,36 @@
+name: Gondwana CI — स्वचालित निरीक्षण
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '30 3 * * 1'   # हर सोमवार 03:30 UTC — साप्ताहिक link-check
+  workflow_dispatch:        # मैन्युअल बटन
+
+jobs:
+  validate:
+    name: डेटा-सत्यापन + smoke test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Self-check validator (परत 1)
+        run: node test/validate_node.js
+      - name: Smoke test (सभी टैब)
+        run: node test/smoke.js
+      - name: CSV ↔ JSON sync
+        run: python3 test/check_csv_sync.py
+      - name: Review checklist generator (परत 3)
+        run: python3 tools/make_review_checklist.py
+
+  links:
+    name: साप्ताहिक स्रोत-लिंक जाँच
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link checker
+        run: python3 tools/check_links.py
