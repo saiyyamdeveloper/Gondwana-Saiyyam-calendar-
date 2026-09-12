@@ -1,0 +1,79 @@
+{
+ "id": "person:tilka-manjhi",
+ "checked_at": "2026-09-12T12:30:24.051996+00:00",
+ "score": 70,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: तिलका माँझी; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%A4%E0%A4%BF%E0%A4%B2%E0%A4%95%E0%A4%BE%20%E0%A4%AE%E0%A4%BE%E0%A4%81%E0%A4%9D%E0%A5%80"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Tilka Majhi; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Tilka%20Majhi"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q7802163",
+   "link": "https://www.wikidata.org/wiki/Q7802163"
+  },
+  {
+   "name": "wd-birth-match",
+   "ok": true,
+   "pts": 10,
+   "detail": "हमारा 1750 ↔ विकिडेटा 1750",
+   "link": ""
+  },
+  {
+   "name": "wd-death-match",
+   "ok": true,
+   "pts": 10,
+   "detail": "हमारा 1784 ↔ विकिडेटा 1784",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "प्रभात खबर (2025)"
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "विकिपीडिया"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "तिलका मांझी: स्कोर 70/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category।",
+ "llm": null
+}

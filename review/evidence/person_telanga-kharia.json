@@ -1,0 +1,72 @@
+{
+ "id": "person:telanga-kharia",
+ "checked_at": "2026-09-12T12:30:28.869601+00:00",
+ "score": 30,
+ "verdict": "conflict",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: तेलंगा खड़िया; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%A4%E0%A5%87%E0%A4%B2%E0%A4%82%E0%A4%97%E0%A4%BE%20%E0%A4%96%E0%A4%A1%E0%A4%BC%E0%A4%BF%E0%A4%AF%E0%A4%BE"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Telanga Kharia; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Telanga%20Kharia"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q26266161",
+   "link": "https://www.wikidata.org/wiki/Q26266161"
+  },
+  {
+   "name": "wd-birth-match",
+   "ok": true,
+   "pts": 10,
+   "detail": "हमारा 1806 ↔ विकिडेटा 1806",
+   "link": ""
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "प्रभात खबर (2023)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "field": "death",
+   "ours": 1914,
+   "theirs": 1880,
+   "source": "wikidata"
+  }
+ ],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "तेलंगा खड़िया: स्कोर 30/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category। विरोध: death हमारा=1914 बनाम wikidata=1880 — मानव-निर्णय आवश्यक।",
+ "llm": null
+}

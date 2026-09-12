@@ -1,0 +1,44 @@
+{
+ "person:phulo-jhano": {
+  "score": 50,
+  "verdict": "partial",
+  "checked_at": "2026-09-12T12:30:21.347931+00:00",
+  "summary_hi": "फुलो-झानो मुर्मू: स्कोर 50/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category।",
+  "n_sources": 3
+ },
+ "person:tilka-manjhi": {
+  "score": 70,
+  "verdict": "partial",
+  "checked_at": "2026-09-12T12:30:24.051996+00:00",
+  "summary_hi": "तिलका मांझी: स्कोर 70/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category।",
+  "n_sources": 3
+ },
+ "person:nilambar-pitambar": {
+  "score": 50,
+  "verdict": "partial",
+  "checked_at": "2026-09-12T12:30:25.898486+00:00",
+  "summary_hi": "नीलाम्बर-पीताम्बर: स्कोर 50/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category।",
+  "n_sources": 3
+ },
+ "person:telanga-kharia": {
+  "score": 30,
+  "verdict": "conflict",
+  "checked_at": "2026-09-12T12:30:28.869601+00:00",
+  "summary_hi": "तेलंगा खड़िया: स्कोर 30/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, internal-sources, internal-category। विरोध: death हमारा=1914 बनाम wikidata=1880 — मानव-निर्णय आवश्यक।",
+  "n_sources": 3
+ },
+ "person:telangi-munda": {
+  "score": 25,
+  "verdict": "weak",
+  "checked_at": "2026-09-12T12:30:29.768456+00:00",
+  "summary_hi": "तेलंगी मुंडा: स्कोर 25/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, internal-sources, internal-category।",
+  "n_sources": 1
+ },
+ "person:jatra-bhagat": {
+  "score": 0,
+  "verdict": "conflict",
+  "checked_at": "2026-09-12T12:30:32.895632+00:00",
+  "summary_hi": "जतरा टाना भगत: स्कोर 0/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1880 बनाम wikidata=1888; death हमारा=1920 बनाम wikidata=1916 — मानव-निर्णय आवश्यक।",
+  "n_sources": 3
+ }
+}

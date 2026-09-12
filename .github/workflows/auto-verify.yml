@@ -1,0 +1,39 @@
+name: स्व-सत्यापन इंजन (auto-verify)
+# रात 3:00 IST बैच (40 प्रविष्टियाँ) + LLM गहरी research (secrets हों तो) + सोमवार digest-मेल
+on:
+  schedule:
+    - cron: '30 21 * * *'      # 21:30 UTC = 03:00 IST
+    - cron: '30 21 * * 1'      # सोमवार: digest-मेल भी
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: परत 1 — विकिपीडिया/विकिडेटा/स्रोत cross-जाँच + हाइब्रिड नीति
+        run: python3 tools/auto_verify.py --limit 40
+      - name: परत 2 — LLM गहरी research + citation-ढाल
+        if: ${{ env.LLM_KEY_SET == 'true' }}
+        env:
+          LLM_KEY_SET: ${{ secrets.LLM_API_KEY != '' }}
+          LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: python3 tools/llm_research.py
+      - name: सोमवार digest-मेल
+        if: github.event_name == 'schedule'
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python3 tools/auto_verify.py --digest || true
+      - name: evidence + कतार commit
+        run: |
+          git config user.name "gondwana-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add review/
+          git diff --cached --quiet || git commit -m "auto-verify: evidence-डॉसियर + हाइब्रिड स्वतः-स्वीकृति (audit-log सहित)"
+          git push

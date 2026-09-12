@@ -1,23 +1,7 @@
 {
  "meta": {
-  "title": "गोंडवाना समीक्षा-कतार (Verification Queue)",
-  "generated": "2026-09-12",
-  "generator": "tools/seed_review_queue.py",
-  "policy": "एडमिन-स्वीकृति के बिना कोई प्रविष्टि public डेटाबेस में नहीं जाएगी",
-  "kinds": {
-   "person": "महापुरुष/शहीद/क्रांतिकारी",
-   "photo": "फ़ोटो-लाइसेंस",
-   "place": "स्थल/GPS",
-   "festival": "पर्व/त्योहार",
-   "announcement": "समुदाय-घोषित तिथि"
-  },
-  "counts": {
-   "person": 33,
-   "photo": 60,
-   "place": 36,
-   "festival": 11,
-   "announcement": 2
-  }
+  "title": "गोंडवाना समीक्षा-कतार",
+  "updated": "2026-09-12T12:30:32.896058+00:00"
  },
  "queue": [
   {

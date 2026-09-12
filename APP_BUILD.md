@@ -178,3 +178,17 @@ Phase 2: राज्य-वार शहीद (1000+) · Phase 3: खेल-�
 - Wikimedia Commons CC-मीडिया खोजी (legal) FUTURE_PLAN में — अभी लागू नहीं।
 - बड़ी फ़ाइलें: git-इतिहास में हमेशा रहती हैं (delete से repo नहीं हल्का होता) — >10MB पर चेतावनी; वीडियो के लिए बाहरी होस्टिंग (YouTube/Archive.org) + manifest-लिंक बेहतर।
 - दो जगह से एक साथ अपलोड पर manifest race संभव (last-write-wins) — FUTURE_PLAN में sha-conflict-check।
+
+## 12. स्व-सत्यापन इंजन (auto-verify) v1.0
+
+### 12.1 परत 1 — tools/auto_verify.py (बिना key)
+प्रति-प्रविष्टि cross-जाँच: विकिपीडिया HI/EN (अस्तित्व+नाम-टोकन), विकिडेटा (जन्म/मृत्यु-वर्ष अंक-तुलना, GPS ≤50 किमी), स्रोत-URL (जीवन+शीर्षक-टोकन), आंतरिक (sources/category/gps_precision)। स्कोर 0-100 · verdict: pass/partial/conflict/weak/nosource · आउटपुट review/evidence/<id>.json + index.json (हिंदी सारांश सहित)।
+**हाइब्रिड नीति (उपयोगकर्ता-अनुमोदित):** score≥90 + ≥2 स्वतंत्र डोमेन + शून्य विरोध + kind∈{person,place,festival} → status=approved, decided_by='automation:auto-verify (hybrid policy)', audit-log प्रविष्टि; प्रकाशन-क्लिक मैन्युअल ही रहता है।
+पहले रन के वास्तविक नतीजे: तिलका मांझी 70 (तीनों स्रोत सहमत 1750/1784; मृत स्रोत-URL से अंक रुके) · जतरा भगत 🔴 विरोध (हमारा 1880/1920 बनाम विकिडेटा 1888/1916) — मानव-निर्णय हेतु सटीक वही मामले पकड़े गए जिनके लिए verify-फ़्लैग थे।
+
+### 12.2 परत 2 — tools/llm_research.py (secrets: LLM_PROVIDER, LLM_API_KEY)
+Gemini/OpenAI structured verdict + **citation-ढाल**: हर उद्धरण-URL को दूसरा पास खुद खोलकर दावा-समर्थन अनुपात मापता है (≥60% → 🛡✓)। BATCH=8/रन, प्राथमिकता: conflict→nosource→weak→partial। Secrets न हों तो परत चुपचाप skip।
+
+### 12.3 प्रवाह व सूचना
+auto-verify.yml: रात 03:00 IST बैच(40) + सोमवार digest-मेल (SMTP secrets) + manual। पैनल: हर कार्ड पर स्कोर-बैज + 🔎 स्व-सबूत डॉसियर (फ़ील्ड-तालिका, विरोध, LLM-खंड, shield-लिंक)।
+ईमानदार सीमा: विकिपीडिया-अनुपलब्धता ≠ असत्य (nosource = मानव-जाँच, अस्वीकृति नहीं); मृत स्रोत-URL अंक रोकते हैं (स्रोत-नवीनीकरण मानव/शोध-कार्य)।

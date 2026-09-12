@@ -13,6 +13,7 @@
   let CREDS = null, QUEUE = [], DECISIONS = [], SESSION = null, CREDS_DIRTY = false;
   let qFilter = 'all', qSearch = '';
   let MEDIA = [], MAN_META = {}, MEDIA_DIRTY = false;
+  let EVID = {};
   let mdStatus = 'candidate', mdType = 'all', mdSearch = '';
   const TYPE_HI = { image: 'इमेज', audio: 'ऑडियो/voice', song: 'गीत', video: 'वीडियो', doc: 'दस्तावेज़', other: 'अन्य' };
   const STATUS_HI = { candidate: '⏳ सत्यापन-प्रतीक्षित', verified: '✅ सत्यापित', rejected: '❌ अस्वीकृत' };
@@ -54,10 +55,12 @@
         fetch('admin-credentials.json', { cache: 'no-store' }).then(r => r.json()),
         fetch('review/pending.json', { cache: 'no-store' }).then(r => r.json()),
         fetch('review/decisions.json', { cache: 'no-store' }).then(r => r.json()),
-        fetch('media/manifest.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null)
+        fetch('media/manifest.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null),
+        fetch('review/evidence/index.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null)
       ]);
       CREDS = cr; QUEUE = pq.queue || []; DECISIONS = dj.decisions || [];
       if (mf) { MAN_META = mf.meta || {}; MEDIA = mf.items || []; }
+      if (evi) EVID = evi;
     } catch (e) {
       $('#lg-err').textContent = 'डेटा लोड विफल: ' + e.message; $('#lg-err').classList.remove('hidden');
       return;
@@ -132,7 +135,7 @@
     $('#q-count').textContent = list.length + ' प्रविष्टियाँ दिखाई जा रही हैं';
     $('#q-list').innerHTML = list.slice(0, 120).map(q => `
       <div class="q-card" data-id="${esc(q.id)}">
-        <span class="kind-badge k-${q.kind}">${KIND_HI[q.kind] || q.kind}${q.subtype && q.subtype !== q.kind ? ' · ' + esc(q.subtype) : ''}</span>
+        <span class="kind-badge k-${q.kind}">${KIND_HI[q.kind] || q.kind}${q.subtype && q.subtype !== q.kind ? ' · ' + esc(q.subtype) : ''}</span>${evBadge(q)}
         <span class="q-title">${esc(q.title)}</span>
         <div class="q-sub">${esc(q.subtitle || '')} · जोड़ा: ${esc(q.added)} (${esc(q.added_by || '')})</div>
         <div class="q-reason">⚠ ${esc(q.reason || '')}</div>
@@ -140,6 +143,7 @@
           <button class="btn ok sm" data-act="approve">✓ स्वीकृत</button>
           <button class="btn bad sm" data-act="reject">✗ अस्वीकृत</button>
           <button class="btn ghost sm" data-act="edit">✎ payload देखें/संपादित</button>
+          <button class="btn ghost sm" data-act="evid">🔎 स्व-सबूत</button>
         </div>
         <div class="q-payload"><textarea spellcheck="false">${esc(JSON.stringify(q.payload, null, 1))}</textarea>
           <div class="q-actions"><button class="btn sm" data-act="save">💾 सहेजें</button><span class="muted small">संपादन के बाद स्वीकृत करें — स्वीकृत payload ही मास्टर में जाएगा।</span></div>
@@ -154,6 +158,7 @@
       };
       const pe = card.querySelector('[data-act=edit]'), pl = card.querySelector('.q-payload');
       pe.onclick = () => pl.classList.toggle('open');
+      const eb2 = card.querySelector('[data-act=evid]'); if (eb2) eb2.onclick = () => openEvidence(card, q);
       card.querySelector('[data-act=save]').onclick = () => {
         try {
           q.payload = JSON.parse(pl.querySelector('textarea').value);
@@ -163,6 +168,29 @@
         } catch (e) { alert('JSON अमान्य: ' + e.message); }
       };
     });
+  }
+  function evBadge(q) {
+    const e = EVID[q.id]; if (!e) return '';
+    const llm = e.llm ? ` · LLM ${e.llm.verdict === 'pass' ? '🟢' : e.llm.verdict === 'fail' ? '🔴' : '🟡'}${e.llm.confidence != null ? ' ' + e.llm.confidence : ''}` : '';
+    return `<span class="st-pill ev-${e.verdict}" title="${esc(e.summary_hi || '')}">${e.score}/100${llm}</span>`;
+  }
+  async function openEvidence(card, q) {
+    let box = card.querySelector('.q-evid');
+    if (!box) { box = document.createElement('div'); box.className = 'q-evid'; card.appendChild(box); }
+    if (box.classList.contains('open')) { box.classList.remove('open'); return; }
+    box.classList.add('open');
+    if (box.dataset.loaded) return;
+    box.innerHTML = '<p class="muted small">सबूत लोड हो रहे हैं…</p>';
+    const safe = q.id.replace(/[^A-Za-z0-9._-]/g, '_');
+    try {
+      const e = await fetch('review/evidence/' + safe + '.json', { cache: 'no-store' }).then(r => r.json());
+      box.innerHTML = `<p class="small"><b>${e.score}/100 · ${e.verdict}</b> · जाँचा: ${String(e.checked_at).slice(0, 16).replace('T', ' ')} · डोमेन: ${esc((e.sources_domains || []).join(', '))}</p>
+        <p class="small">${esc(e.summary_hi || '')}</p>
+        <table style="width:100%;font-size:.72rem;border-collapse:collapse">${(e.checks || []).map(c => `<tr><td style="border-bottom:1px dashed var(--line);padding:3px;white-space:nowrap">${c.ok ? '✓' : '✗'} ${esc(c.name)} (+${c.pts})</td><td style="border-bottom:1px dashed var(--line);padding:3px">${esc(c.detail)}${c.link ? ` <a href="${esc(c.link)}" target="_blank" rel="noopener">↗</a>` : ''}</td></tr>`).join('')}</table>
+        ${(e.conflicts || []).length ? `<div class="q-reason">⚠ विरोध: ${e.conflicts.map(c => `${esc(c.field)}: हमारा ${esc(c.ours)} बनाम ${esc(c.source)} ${esc(c.theirs)}`).join('; ')} — अंतिम निर्णय आपका</div>` : ''}
+        ${e.llm ? `<p class="small" style="margin-top:6px">🤖 LLM (${esc(e.llm.provider || '')}): <b>${esc(e.llm.verdict || '')}</b> · विश्वास ${e.llm.confidence ?? '-'}<br>${esc(e.llm.summary_hi || '')}</p>${(e.llm.claims || []).map(cl => `<p class="small" style="margin:3px 0">• ${esc(cl.claim)} ${(cl.shield || []).map(sh => `<a href="${esc(sh.url)}" target="_blank" rel="noopener">${sh.shield === 'verified' ? '🛡✓' : '🛡?'}↗</a> (${Math.round((sh.claim_support_ratio || 0) * 100)}%)`).join(' ')}</p>`).join('')}${(e.llm.red_flags || []).length ? `<div class="q-reason">🚩 ${e.llm.red_flags.map(esc).join('; ')}</div>` : ''}` : '<p class="muted small">🤖 LLM-परत अभी नहीं चली — repo secrets (LLM_PROVIDER/LLM_API_KEY) जुड़ते ही गहरी research जुड़ जाएगी।</p>'}`;
+      box.dataset.loaded = '1';
+    } catch (err) { box.innerHTML = '<p class="warn small">सबूत-फ़ाइल नहीं मिली: ' + esc(err.message) + '</p>'; }
   }
   function toastLine(m) { const el = $('#q-count'); el.textContent = m; }
 

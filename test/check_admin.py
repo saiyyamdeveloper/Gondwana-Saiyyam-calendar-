@@ -76,6 +76,16 @@ for it in man.get('items', []):
             check(os.path.exists(full), f"manifest path मौजूद नहीं: {it['path']}")
 check(os.path.isdir(os.path.join(APP, 'media', 'inbox')), 'media/inbox डिरेक्टरी गायब')
 
+# 3.7) evidence index स्कीमा
+evp = os.path.join(APP, 'review', 'evidence', 'index.json')
+if os.path.exists(evp):
+    evid = json.load(open(evp, encoding='utf-8'))
+    VSET = {'pass', 'partial', 'conflict', 'weak', 'nosource'}
+    for eid, v in evid.items():
+        check(isinstance(v.get('score'), int) and 0 <= v['score'] <= 100, f'evidence स्कोर अमान्य: {eid}')
+        check(v.get('verdict') in VSET, f'evidence verdict अमान्य: {eid}')
+        check(bool(v.get('summary_hi')), f'evidence सारांश खाली: {eid}')
+
 # 4) पैनल फ़ाइलें
 for f in ('admin.html', 'admin.js'):
     check(os.path.exists(os.path.join(APP, f)), f'{f} गायब')

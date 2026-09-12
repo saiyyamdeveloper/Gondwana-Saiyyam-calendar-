@@ -1,0 +1,58 @@
+{
+ "id": "person:phulo-jhano",
+ "checked_at": "2026-09-12T12:30:21.347931+00:00",
+ "score": 50,
+ "verdict": "partial",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: फूलो मुर्मू और झानो मुर्मू; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%AB%E0%A5%82%E0%A4%B2%E0%A5%8B%20%E0%A4%AE%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A5%82%20%E0%A4%94%E0%A4%B0%20%E0%A4%9D%E0%A4%BE%E0%A4%A8%E0%A5%8B%20%E0%A4%AE%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A5%82"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Phulo Jhano Medical College and Hospital, Dumka; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Phulo%20Jhano%20Medical%20College%20and%20Hospital%2C%20Dumka"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q85757883",
+   "link": "https://www.wikidata.org/wiki/Q85757883"
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "प्रभात खबर (2023)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "फुलो-झानो मुर्मू: स्कोर 50/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category।",
+ "llm": null
+}

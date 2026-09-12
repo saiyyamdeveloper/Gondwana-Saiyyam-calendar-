@@ -1,0 +1,71 @@
+{
+ "id": "person:jatra-bhagat",
+ "checked_at": "2026-09-12T12:30:32.895632+00:00",
+ "score": 0,
+ "verdict": "conflict",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: जतरा भगत; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%A4%E0%A4%B0%E0%A4%BE%20%E0%A4%AD%E0%A4%97%E0%A4%A4"
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 15,
+   "detail": "पृष्ठ मिला: Jatra Bhagat; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Jatra%20Bhagat"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 10,
+   "detail": "आइटम Q12427875",
+   "link": "https://www.wikidata.org/wiki/Q12427875"
+  },
+  {
+   "name": "source-url",
+   "ok": false,
+   "pts": 10,
+   "detail": "मृत/अगम्य",
+   "link": "प्रभात खबर (2025)"
+  },
+  {
+   "name": "internal-sources",
+   "ok": true,
+   "pts": 5,
+   "detail": "sources[] भरा है",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": true,
+   "pts": 5,
+   "detail": "श्रेणी लेबल मौजूद",
+   "link": ""
+  }
+ ],
+ "conflicts": [
+  {
+   "field": "birth",
+   "ours": 1880,
+   "theirs": 1888,
+   "source": "wikidata"
+  },
+  {
+   "field": "death",
+   "ours": 1920,
+   "theirs": 1916,
+   "source": "wikidata"
+  }
+ ],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "जतरा टाना भगत: स्कोर 0/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1880 बनाम wikidata=1888; death हमारा=1920 बनाम wikidata=1916 — मानव-निर्णय आवश्यक।",
+ "llm": null
+}
