@@ -61,6 +61,7 @@
       CREDS = cr; QUEUE = pq.queue || []; DECISIONS = dj.decisions || [];
       if (mf) { MAN_META = mf.meta || {}; MEDIA = mf.items || []; }
       if (evi) EVID = evi;
+      applyDraft();
     } catch (e) {
       $('#lg-err').textContent = 'डेटा लोड विफल: ' + e.message; $('#lg-err').classList.remove('hidden');
       return;
@@ -112,7 +113,7 @@
     drawStats(); drawFilters(); drawQueue(); drawDecisions(); initStorage();
   }
 
-  function pending() { return QUEUE.filter(q => q.status === 'pending'); }
+  function pending() { return QUEUE.filter(q => q.status === 'pending' && !isPhotoSlot(q)); }
   function drawStats() {
     const c = {};
     pending().forEach(q => c[q.kind] = (c[q.kind] || 0) + 1);
@@ -129,11 +130,13 @@
     $$('#q-filters .chip').forEach(b => b.onclick = () => { qFilter = b.dataset.k; drawFilters(); drawQueue(); });
   }
   function drawQueue() {
-    let list = pending();
-    if (qFilter !== 'all') list = list.filter(q => q.kind === qFilter);
+    let list = qFilter === 'photo' ? QUEUE.filter(q => q.status === 'pending' && q.kind === 'photo') : pending();
+    if (qFilter !== 'all' && qFilter !== 'photo') list = list.filter(q => q.kind === qFilter);
     if (qSearch) list = list.filter(q => (q.title + ' ' + (q.subtitle || '') + ' ' + (q.reason || '') + ' ' + (q.subtype || '')).toLowerCase().includes(qSearch));
     $('#q-count').textContent = list.length + ' प्रविष्टियाँ दिखाई जा रही हैं';
-    $('#q-list').innerHTML = list.slice(0, 120).map(q => `
+    const slots = QUEUE.filter(q => q.status === 'pending' && isPhotoSlot(q)).length;
+    const slotNote = (slots && qFilter !== 'photo') ? `<div class="card"><p class="muted small" style="margin:0">📷 ${slots} फ़ोटो-स्लॉट प्रस्ताव-प्रतीक्षित (छिपे) — संग्रहण से 📸 प्रस्ताव आते ही कतार में दिखेंगे। 'फ़ोटो-लाइसेंस' फ़िल्टर चुनें तो सभी दिखेंगे।</p></div>` : '';
+    $('#q-list').innerHTML = slotNote + (list.slice(0, 120).map(q => `
       <div class="q-card" data-id="${esc(q.id)}">
         <span class="kind-badge k-${q.kind}">${KIND_HI[q.kind] || q.kind}${q.subtype && q.subtype !== q.kind ? ' · ' + esc(q.subtype) : ''}</span>${evBadge(q)}
         <span class="q-title">${esc(q.title)}</span>
@@ -148,7 +151,7 @@
         <div class="q-payload"><textarea spellcheck="false">${esc(JSON.stringify(q.payload, null, 1))}</textarea>
           <div class="q-actions"><button class="btn sm" data-act="save">💾 सहेजें</button><span class="muted small">संपादन के बाद स्वीकृत करें — स्वीकृत payload ही मास्टर में जाएगा।</span></div>
         </div>
-      </div>`).join('') || '<div class="card"><p class="muted">🎉 कोई समीक्षा-बाकी प्रविष्टि नहीं!</p></div>';
+      </div>`).join('')) || (slotNote || '<div class="card"><p class="muted">🎉 कोई समीक्षा-बाकी प्रविष्टि नहीं!</p></div>');
     $$('#q-list .q-card').forEach(card => {
       const q = QUEUE.find(x => x.id === card.dataset.id);
       card.querySelector('[data-act=approve]').onclick = () => decide(q, 'approved');
@@ -201,6 +204,7 @@
     q.note = note || '';
     DECISIONS.push({ id: q.id, kind: q.kind, title: q.title, decision: status, note: q.note, by: q.decided_by, at: q.decided_at });
     drawStats(); drawQueue(); drawDecisions();
+    persistDecisions(status === 'approved' ? 'verify-panel: स्वीकृत — ' + q.title : 'verify-panel: अस्वीकृत — ' + q.title);
   }
   function drawDecisions() {
     const recent = DECISIONS.slice(-40).reverse();
@@ -380,6 +384,45 @@
 
   /* ============ 🗄️ संग्रहण — मीडिया लाइब्रेरी ============ */
   function manifestText() { return JSON.stringify({ meta: MAN_META, items: MEDIA }, null, 1); }
+  function queueText() { return JSON.stringify({ meta: { title: 'गोंडवाना समीक्षा-कतार', updated: new Date().toISOString() }, queue: QUEUE }, null, 1); }
+  function decText() { return JSON.stringify({ meta: { title: 'निर्णय-लॉग (audit trail)' }, decisions: DECISIONS }, null, 1); }
+  async function ghCommit(files, msg) {
+    const pat = $('#pub-pat').value.trim();
+    if (!pat) return false;
+    const H = { 'Authorization': 'Bearer ' + pat, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' };
+    const ref = await gh(H, `git/ref/heads/${BRANCH}`);
+    const head = ref.object.sha;
+    const base = await gh(H, `git/commits/${head}`);
+    const treeItems = [];
+    for (const [p, text] of Object.entries(files)) {
+      const blob = await gh(H, 'git/blobs', { method: 'POST', body: { content: b64(text), encoding: 'base64' } });
+      treeItems.push({ path: p, mode: '100644', type: 'blob', sha: blob.sha } );
+    }
+    const tree = await gh(H, 'git/trees', { method: 'POST', body: { base_tree: base.tree.sha, tree: treeItems } });
+    const commit = await gh(H, 'git/commits', { method: 'POST', body: { message: msg, tree: tree.sha, parents: [head] } });
+    await gh(H, `git/refs/heads/${BRANCH}`, { method: 'PATCH', body: { sha: commit.sha } });
+    return true;
+  }
+  async function persistDecisions(msg) {
+    try {
+      const ok = await ghCommit({ 'review/pending.json': queueText(), 'review/decisions.json': decText() }, msg || 'verify-panel: निर्णय दर्ज — कतार अद्यतन');
+      if (ok) { localStorage.removeItem('gw-draft-dec'); logLine('☁️ निर्णय repo में commit हो गए — कतार अब हर जगह अद्यतन (दोबारा नहीं दिखेगी)।'); }
+      else { localStorage.setItem('gw-draft-dec', JSON.stringify(DECISIONS.slice(-300))); toastLine('निर्णय लोकल-ड्राफ़्ट में सहेजे — PAT डालें तो तुरंत commit, वरना 📦 प्रकाशन पर'); }
+    } catch (e) { localStorage.setItem('gw-draft-dec', JSON.stringify(DECISIONS.slice(-300))); logLine('⚠ commit विफल (' + e.message + ') — निर्णय लोकल-ड्राफ़्ट में सुरक्षित'); }
+    drawStats(); drawQueue();
+  }
+  function applyDraft() {
+    let d = []; try { d = JSON.parse(localStorage.getItem('gw-draft-dec') || '[]'); } catch (e) { d = []; }
+    if (!d.length) return;
+    const have = new Set(DECISIONS.map(x => x.id + '|' + x.at));
+    for (const dec of d) {
+      if (have.has(dec.id + '|' + dec.at)) continue;
+      const q = QUEUE.find(x => x.id === dec.id);
+      if (q && q.status === 'pending') { q.status = dec.decision; q.decided_by = dec.by; q.decided_at = dec.at; q.note = dec.note || ''; }
+      DECISIONS.push(dec);
+    }
+  }
+  function isPhotoSlot(q) { return q.kind === 'photo' && !(q.payload && q.payload.photo); }
   function humanSz(n) { if (n == null) return ''; if (n < 1024) return n + 'B'; if (n < 1048576) return (n / 1024).toFixed(1) + 'KB'; return (n / 1048576).toFixed(1) + 'MB'; }
   function mdSrc(m) {
     if (m.path) return m.path.replace(/^\//, '');
@@ -432,6 +475,7 @@
           ${m.status !== 'rejected' ? `<button class="btn bad sm" data-m="reject">✗ अस्वीकृत</button>` : ''}
           <button class="btn ghost sm" data-m="edit">✎ विवरण</button>
           ${src ? `<button class="btn ghost sm" data-m="open">🔗 खोलें</button><button class="btn ghost sm" data-m="copy">📋 लिंक कॉपी</button>` : `<button class="btn ghost sm" data-m="edit">🔗 URL भरें</button>`}
+          ${m.status === 'verified' && String(m.attach_to || '').startsWith('person:') ? `<button class="btn ghost sm" data-m="propose">📸 फ़ोटो प्रस्ताव</button>` : ''}
         </div>
         <div class="q-payload"><textarea spellcheck="false">${esc(JSON.stringify(m, null, 1))}</textarea>
           <div class="q-actions"><button class="btn sm" data-m="save">💾 सहेजें</button></div>
@@ -461,6 +505,19 @@
           if (upd.id !== m.id) { alert('id नहीं बदल सकते — वही रखें।'); return; }
           Object.assign(m, upd); MEDIA_DIRTY = true; drawMdFilters(); drawMdList();
         } catch (e) { alert('JSON अमान्य: ' + e.message); }
+      };
+      if (q('propose')) q('propose').onclick = () => {
+        const pid = String(m.attach_to).slice(7);
+        let it = QUEUE.find(x => x.kind === 'photo' && x.record_id === pid);
+        if (!it) {
+          it = { id: 'photo:' + pid, kind: 'photo', subtype: 'photo-approval', title: 'फ़ोटो: ' + m.title, subtitle: 'संग्रहण-प्रस्ताव', reason: 'फ़ोटो जोड़ने से पहले लाइसेंस-स्रोत सत्यापित करें', source_file: 'mahapurush_database.json', record_id: pid, payload: { id: pid, photo: null }, status: 'pending', added: todayStr(), added_by: 'panel:' + SESSION.email, decision: null, decided_by: null, decided_at: null, note: '' };
+          QUEUE.push(it);
+        }
+        it.payload.photo = mdSrc(m); it.payload.photo_source = m.source + ' · license: ' + m.license;
+        it.payload.photo_license = m.license; it.status = 'pending'; it.proposed_from = m.id;
+        toastLine('📸 फ़ोटो-प्रस्ताव कतार में — लाइसेंस जाँचकर ✓ करें');
+        persistDecisions('verify-panel: फ़ोटो-प्रस्ताव — ' + m.title);
+        drawStats(); drawQueue();
       };
       if (q('open')) q('open').onclick = () => window.open(m.url || ('./' + mdSrc(m)), '_blank', 'noopener');
       if (q('copy')) q('copy').onclick = () => {

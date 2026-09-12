@@ -27,6 +27,18 @@ def ask_llm(prompt):
     prov = os.environ.get('LLM_PROVIDER', 'gemini').lower()
     key = os.environ.get('LLM_API_KEY', '')
     body = None
+    if prov == 'openrouter':
+        url = 'https://openrouter.ai/api/v1/chat/completions'
+        model = os.environ.get('LLM_MODEL', 'openai/gpt-4o-mini')
+        body = json.dumps({'model': model, 'temperature': 0.2,
+                           'response_format': {'type': 'json_object'},
+                           'messages': [{'role': 'user', 'content': prompt}]}).encode()
+        req = urllib.request.Request(url, data=body, headers={
+            'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key,
+            'X-Title': 'Gondwana-Satyapan-Panel'})
+        with urllib.request.urlopen(req, timeout=120) as r:
+            d = json.load(r)
+        return d['choices'][0]['message']['content']
     if prov == 'gemini':
         url = f'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={key}'
         body = json.dumps({'contents': [{'parts': [{'text': prompt}]}],
