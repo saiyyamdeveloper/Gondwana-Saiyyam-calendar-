@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-13T06:42:55.774907+00:00"
+  "updated": "2026-09-13T23:21:52.546991+00:00"
  },
  "queue": [
   {
@@ -5263,6 +5263,336 @@
      "desc_hi": "m}} from Jatmai Temple. Nearby there is a famous waterfall. The Navratri festival is celebrated in this temple. ' Bhooteshwarnath ' - This village is nestled among thick forests away from Gariaband. Here can be found the world's largest natural Shivalinga. Every year on Mahashivr",
      "sources": [
       "https://en.wikipedia.org/wiki/Gariaband_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-gaurela-pendra-marwahi-40957119",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Achanakmaar Tiger reserve",
+   "subtitle": "छत्तीसगढ़ · गौरेला-पेंड्रा-मरवाही",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/gaurela-pendra-marwahi",
+   "payload": {
+    "unit_id": "district:cg/gaurela-pendra-marwahi",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Achanakmaar Tiger reserve",
+     "desc_hi": "'Achanakmaar Tiger reserve ' (achanakmar forest guest house, sal valley resort, Lamni forest rest house, chhaparwa forest rest house, Sonbhadra tourist resort amadob, the royal river resort amadob) 'Achankmaar Biosphere Reserve '",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gaurela-Pendra-Marwahi_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-gaurela-pendra-marwahi-baaeae4b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Achankmaar Biosphere Reserve",
+   "subtitle": "छत्तीसगढ़ · गौरेला-पेंड्रा-मरवाही",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/gaurela-pendra-marwahi",
+   "payload": {
+    "unit_id": "district:cg/gaurela-pendra-marwahi",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Achankmaar Biosphere Reserve",
+     "desc_hi": "Lamni forest rest house, chhaparwa forest rest house, Sonbhadra tourist resort amadob, the royal river resort amadob) 'Achankmaar Biosphere Reserve ' 'Marhimata mandir bhanwartank ' Pandav goofa dhanpur durga mandir dhanpur kali mandir pendra RAJ MAHAL PENDRA baba hazrat saiyad i",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gaurela-Pendra-Marwahi_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-gaurela-pendra-marwahi-e33cf269",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Marhimata mandir bhanwartank",
+   "subtitle": "छत्तीसगढ़ · गौरेला-पेंड्रा-मरवाही",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/gaurela-pendra-marwahi",
+   "payload": {
+    "unit_id": "district:cg/gaurela-pendra-marwahi",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Marhimata mandir bhanwartank",
+     "desc_hi": "forest rest house, Sonbhadra tourist resort amadob, the royal river resort amadob) 'Achankmaar Biosphere Reserve ' 'Marhimata mandir bhanwartank ' Pandav goofa dhanpur durga mandir dhanpur kali mandir pendra RAJ MAHAL PENDRA baba hazrat saiyad insan ali dargah larkeni Benibaai dh",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gaurela-Pendra-Marwahi_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-kanker-107f0d8b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "गड़िया पहाड़ी",
+   "subtitle": "छत्तीसगढ़ · कांकेर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/kanker",
+   "payload": {
+    "unit_id": "district:cg/kanker",
+    "entity": {
+     "kind": "place",
+     "name_hi": "गड़िया पहाड़ी",
+     "desc_hi": "कांकेर का प्राकृतिक सौंदर्य एवं सांस्कृतिक स्थल पर्यटन को बढ़ावा देते हैं। * 'गड़िया पहाड़ी ' – शिवधाम नामक प्राचीन गुफाएँ एवं झरना, महाशिवरात्रि पर मेला लगता है। * 'मलाजकुंडम जलप्रपात ' – दूध नदी का उद्गम स्थल, प्राचीन मंदिर और प्राकृतिक स्थल। * 'शिवानी मंदिर ' – माँ दुर्गा और क",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A5%87%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-kanker-c0a56c9c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "मलाजकुंडम जलप्रपात",
+   "subtitle": "छत्तीसगढ़ · कांकेर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/kanker",
+   "payload": {
+    "unit_id": "district:cg/kanker",
+    "entity": {
+     "kind": "place",
+     "name_hi": "मलाजकुंडम जलप्रपात",
+     "desc_hi": "पर्यटन को बढ़ावा देते हैं। * 'गड़िया पहाड़ी ' – शिवधाम नामक प्राचीन गुफाएँ एवं झरना, महाशिवरात्रि पर मेला लगता है। * 'मलाजकुंडम जलप्रपात ' – दूध नदी का उद्गम स्थल, प्राचीन मंदिर और प्राकृतिक स्थल। * 'शिवानी मंदिर ' – माँ दुर्गा और काली का संयुक्त स्वरूप दर्शाता एक अद्भुत मंदिर।",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A5%87%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-kanker-b6a38b1b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "शिवानी मंदिर",
+   "subtitle": "छत्तीसगढ़ · कांकेर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/kanker",
+   "payload": {
+    "unit_id": "district:cg/kanker",
+    "entity": {
+     "kind": "place",
+     "name_hi": "शिवानी मंदिर",
+     "desc_hi": "ा, महाशिवरात्रि पर मेला लगता है। * 'मलाजकुंडम जलप्रपात ' – दूध नदी का उद्गम स्थल, प्राचीन मंदिर और प्राकृतिक स्थल। * 'शिवानी मंदिर ' – माँ दुर्गा और काली का संयुक्त स्वरूप दर्शाता एक अद्भुत मंदिर।",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A5%87%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-kanker-eb2d9483",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "पोला",
+   "subtitle": "छत्तीसगढ़ · कांकेर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/kanker",
+   "payload": {
+    "unit_id": "district:cg/kanker",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "पोला",
+     "desc_hi": "* मड़ई – आदिवासी समाज का पारंपरिक मेला * हरेली, पोला, तीजा – छत्तीसगढ़ी त्योहार",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A5%87%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-kanker-c19e9c20",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "तीजा – छत्तीसगढ़ी त्योहार",
+   "subtitle": "छत्तीसगढ़ · कांकेर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/kanker",
+   "payload": {
+    "unit_id": "district:cg/kanker",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "तीजा – छत्तीसगढ़ी त्योहार",
+     "desc_hi": "* मड़ई – आदिवासी समाज का पारंपरिक मेला * हरेली, पोला, तीजा – छत्तीसगढ़ी त्योहार",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A5%87%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-kanker-3cb7a0a1",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "* दीपावली",
+   "subtitle": "छत्तीसगढ़ · कांकेर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/kanker",
+   "payload": {
+    "unit_id": "district:cg/kanker",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "* दीपावली",
+     "desc_hi": " * दीपावली, दशहरा, होली – सामान्य भारतीय पर्व",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A5%87%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-kanker-1ab2925a",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "दशहरा",
+   "subtitle": "छत्तीसगढ़ · कांकेर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/kanker",
+   "payload": {
+    "unit_id": "district:cg/kanker",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "दशहरा",
+     "desc_hi": " * दीपावली, दशहरा, होली – सामान्य भारतीय पर्व",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A5%87%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-kanker-669b23a7",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "होली – सामान्य भारतीय पर्व",
+   "subtitle": "छत्तीसगढ़ · कांकेर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/kanker",
+   "payload": {
+    "unit_id": "district:cg/kanker",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "होली – सामान्य भारतीय पर्व",
+     "desc_hi": " * दीपावली, दशहरा, होली – सामान्य भारतीय पर्व",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%82%E0%A4%95%E0%A5%87%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
      ],
      "added": "crawl",
      "verify": true

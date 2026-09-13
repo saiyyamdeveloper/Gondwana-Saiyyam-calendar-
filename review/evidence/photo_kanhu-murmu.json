@@ -3,9 +3,9 @@
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q65285304"
+  "source": "wikidata:Q65284183"
  },
- "checked_at": "2026-09-13T06:42:49.669547+00:00",
+ "checked_at": "2026-09-13T23:21:48.290922+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -34,8 +34,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q65285304",
-   "link": "https://www.wikidata.org/wiki/Q65285304"
+   "detail": "आइटम Q65284183",
+   "link": "https://www.wikidata.org/wiki/Q65284183"
   },
   {
    "name": "internal-sources",

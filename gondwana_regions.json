@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-09-13T07:01:32+00:00",
+  "updated": "2026-09-13T23:21:25+00:00",
   "coverage": {
    "states": 29,
    "districts": 62,
-   "tehsils": 0,
+   "tehsils": 4,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -2193,6 +2193,38 @@
     }
    ],
    "source_admin": "क्रॉलर-बीज"
+  },
+  {
+   "id": "tehsil:cg/kabirdham/bodla",
+   "level": "tehsil",
+   "name_hi": "Bodla",
+   "parent": "district:cg/kabirdham",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/kabirdham"
+  },
+  {
+   "id": "tehsil:cg/kabirdham/kabirdham",
+   "level": "tehsil",
+   "name_hi": "Kabirdham",
+   "parent": "district:cg/kabirdham",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/kabirdham"
+  },
+  {
+   "id": "tehsil:cg/kabirdham/pandariya",
+   "level": "tehsil",
+   "name_hi": "Pandariya",
+   "parent": "district:cg/kabirdham",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/kabirdham"
+  },
+  {
+   "id": "tehsil:cg/kabirdham/sahaspur-lohara",
+   "level": "tehsil",
+   "name_hi": "Sahaspur - Lohara",
+   "parent": "district:cg/kabirdham",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/kabirdham"
   }
  ]
 }

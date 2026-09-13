@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-09-13T06:42:21+00:00",
-  "progress": "8/91 done, 4 blocked"
+  "updated": "2026-09-13T23:21:25+00:00",
+  "progress": "11/95 done, 7 blocked"
  },
  "jobs": [
   {
@@ -101,32 +101,49 @@
   {
    "unit": "district:cg/gaurela-pendra-marwahi",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-13T23:21:21+00:00",
+   "children": 0,
+   "entities_queued": 3,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:cg/janjgir-champa",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-13T23:21:22+00:00"
   },
   {
    "unit": "district:cg/jashpur",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-13T23:21:23+00:00"
   },
   {
    "unit": "district:cg/kabeerdham",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-13T23:21:23+00:00"
   },
   {
    "unit": "district:cg/kabirdham",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-13T23:21:24+00:00",
+   "children": 4,
+   "entities_queued": 0
   },
   {
    "unit": "district:cg/kanker",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-13T23:21:25+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:cg/khairagarh-chhuikhadan-gandai",
@@ -498,6 +515,26 @@
   {
    "unit": "district:rj/dungarpur",
    "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:cg/kabirdham/kabirdham",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:cg/kabirdham/bodla",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:cg/kabirdham/sahaspur-lohara",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:cg/kabirdham/pandariya",
+   "task": "mine",
    "status": "pending"
   }
  ]
