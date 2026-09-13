@@ -15,7 +15,7 @@ jobs:
       - name: साप्ताहिक तिथि-समृद्धि (जन्म/मृत्यु दिन)
         if: github.event.schedule == '30 21 * * 1'
         run: python3 tools/auto_verify.py --dates
-      - name: 🗺️ क्षेत्र-क्रॉलर (BFS: राज्य→जिला→तहसील, चैकलिस्ट-आधारित)
+      - name: "🗺️ क्षेत्र-क्रॉलर (BFS — राज्य→जिला→तहसील, चैकलिस्ट-आधारित)"
         run: python3 tools/region_crawl.py --limit 6 || true
       - name: 🌅 दैनिक-चयन (आज का चयन — स्रोतित रोटेशन)
         run: python3 tools/daily_pick.py || true
