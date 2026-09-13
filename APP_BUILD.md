@@ -210,3 +210,11 @@ auto-verify.yml: रात 03:00 IST बैच(40) + सोमवार digest-�
 - "☰ सभी स्क्रीन" → **"☰ सभी पृष्ठ"**; ग्रिड में **📊 रिपोर्ट-पैनल** टाइल (→ `admin.html#report` deep-link, लॉगिन के बाद सीधे रिपोर्ट-दृश्य) — क्षेत्र-कोश व लोक-कथाएँ पहले से ग्रिड में।
 - **SCOPE_POLICY.md** (स्थायी नीति): सारी सामग्री — कहानियाँ, वीर, शहीद, विद्वान, गाथा-पाठ, ऑडियो, इमेज — **केवल गोंडवाना आदिवासी जनजातियों** से संबंधित; अन्य कोई नहीं। जुड़ाव: regions meta.scope, क्रॉलर TRIBE_RE, ऐप-फ़ॉर्म नीति-पंक्ति, अस्वीकृति-कारण मानक।
 - sw v10 (ताकि पुरानी कैश से 'रिपोर्ट दिख नहीं रही' समस्या न रहे)।
+
+## 16. ⚠️ सार्वजनिक गलती-रिपोर्ट पैनल (admin से असंबंधित)
+ऐप टैब **"गलती रिपोर्ट"** + हर महापुरुष/स्थल/पिन/दिन-शीट में footer-बटन "⚠️ इस जानकारी में गलती? रिपोर्ट करें" (प्रीफ़िल सहित)।
+प्रवाह: पहचान (Gmail/ईमेल) → प्रविष्टि+फ़ील्ड+क्या गलत+सही जानकारी → **प्रमाण-स्रोत URL अनिवार्य** → FormSubmit AJAX से सीधे gondwanaroots@gmail.com (विफलता पर mailto/कॉपी फ़ॉलबैक) → "मेरी भेजी रिपोर्ट्स" (localStorage)। एडमिन पैनल में kind='correction': स्वीकृति पर फ़िक्स-व्हाइटलिस्ट फ़ील्ड्स (birth/death/birth_date/first_achievement/significance/deva/story…) सीधे मास्टर में लागू।
+**सेटअप (एकबारगी):**
+1. FormSubmit सक्रियण: पहली रिपोर्ट के बाद gondwanaroots@gmail.com पर activation-मेल आएगा → Confirm दबाएँ।
+2. Google साइन-इन (वैकल्पिक): Google Cloud Console → Credentials → OAuth Client ID (Web) → Authorized JavaScript origins में `https://saiyyamdeveloper.github.io` → client-id `report_config.json → google_client_id` में डालें (FRESH-regex में है, तुरंत लागू)।
+**Gmail-OTP क्यों नहीं:** OTP भेजने हेतु SMTP-सीक्रेट सर्वर चाहिए; सार्वजनिक static साइट में सीक्रेट रखना असुरक्षित। product-grade समतुल्य = Google साइन-इन (सत्यापित Gmail, एक-टैप, कोई पासवर्ड/सीक्रेट क्लाइंट पर नहीं)।

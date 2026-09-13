@@ -8,7 +8,7 @@
   const $ = s => document.querySelector(s);
   const $$ = s => Array.from(document.querySelectorAll(s));
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  const KIND_HI = { person: 'महापुरुष/शहीद', photo: 'फ़ोटो-लाइसेंस', place: 'स्थल/GPS', festival: 'पर्व', announcement: 'घोषित तिथि', story: 'लोक-कथा', region: 'क्षेत्र-प्रविष्टि' };
+  const KIND_HI = { person: 'महापुरुष/शहीद', photo: 'फ़ोटो-लाइसेंस', place: 'स्थल/GPS', festival: 'पर्व', announcement: 'घोषित तिथि', story: 'लोक-कथा', region: 'क्षेत्र-प्रविष्टि', correction: 'गलती-रिपोर्ट' };
 
   let CREDS = null, QUEUE = [], DECISIONS = [], SESSION = null, CREDS_DIRTY = false;
   let qFilter = 'all', qSearch = '';
@@ -232,7 +232,7 @@
       title: payload.name_hi || (payload.entity && payload.entity.name_hi) || payload.deva || id,
       subtitle: [payload.tribe_hi, payload.state, payload.district].filter(Boolean).join(' · ') || 'नई शोध-प्रविष्टि',
       reason: 'auto-research/मैन्युअल जोड़ — प्रकाशन पूर्व सत्यापन आवश्यक',
-      source_file: kind === 'person' ? 'mahapurush_database.json' : kind === 'place' ? 'gondwana_places.json' : (kind === 'story' || kind === 'region') ? 'gondwana_regions.json' : 'extra_data.json',
+      source_file: kind === 'person' ? 'mahapurush_database.json' : kind === 'place' ? 'gondwana_places.json' : (kind === 'story' || kind === 'region') ? 'gondwana_regions.json' : kind === 'correction' ? 'data.js' : 'extra_data.json',
       record_id: id, payload, status: 'pending', added: todayStr(),
       added_by: 'panel:' + SESSION.email, decision: null, decided_by: null, decided_at: null, note: '', isNew: true
     });
@@ -277,7 +277,7 @@
     const extra = JSON.parse(JSON.stringify(window.GW_EXTRA));
     const reg = window.GW_REGIONS ? JSON.parse(JSON.stringify(window.GW_REGIONS)) : null;
     let regDirty = false;
-    const changes = { cleared: [], removed: [], photos: [], addedNew: [], regions: [] };
+    const changes = { cleared: [], removed: [], photos: [], addedNew: [], regions: [], corrections: [] };
     QUEUE.forEach(q => {
       if (q.status === 'pending') return;
       const ok = q.status === 'approved';
@@ -299,6 +299,17 @@
         if (i === -1) return;
         if (ok) { const rec = q.payload && q.payload.id === q.record_id ? q.payload : extra.festivals[i]; rec.verify = false; delete rec.verify_note; extra.festivals[i] = rec; changes.cleared.push(q.title); }
         else { extra.festivals.splice(i, 1); changes.removed.push(q.title); }
+      } else if (q.kind === 'correction') {
+        if (!ok) return;
+        const fix = q.payload && q.payload.fix;
+        const WL = { person: ['name_hi', 'birth', 'death', 'birth_date', 'death_date', 'first_achievement', 'tribe_hi', 'state', 'district', 'medals', 'awards', 'memorial'],
+          place: ['name_hi', 'significance', 'lat', 'lon', 'gps_precision', 'year', 'district', 'state'],
+          festival: ['deva', 'story', 'ritual', 'region', 'meaning'] };
+        const store = fix && fix.target === 'person' ? heroes.persons : fix && fix.target === 'place' ? places.places : fix && fix.target === 'festival' ? extra.festivals : null;
+        if (store && WL[fix.target].includes(fix.field)) {
+          const i = store.findIndex(r => r.id === fix.id);
+          if (i > -1) { store[i][fix.field] = fix.value; changes.corrections.push(q.title + ' → ' + fix.field); }
+        } else changes.corrections.push(q.title + ' (स्वीकृत — मैनुअल सुधार)');
       } else if ((q.kind === 'story' || q.kind === 'region') && reg) {
         if (!ok || !q.payload || !q.payload.entity) return;
         const ent = q.payload.entity;
@@ -369,9 +380,10 @@
     logLine(`फ़ोटो जुड़ेंगी: ${changes.photos.length} → ${changes.photos.join(', ') || '—'}`);
     logLine(`नई स्वीकृत प्रविष्टियाँ: ${changes.addedNew.length} → ${changes.addedNew.join(', ') || '—'}`);
     logLine(`क्षेत्र-कोश में जुड़ीं: ${changes.regions.length} → ${changes.regions.join(', ') || '—'}`);
+    logLine(`गलती-सुधार लागू: ${changes.corrections.length} → ${changes.corrections.join(', ') || '—'}`);
     logLine('अपडेट होने वाली फ़ाइलें: ' + Object.keys(files).join(', '));
     logLine(`संग्रहण: ${MEDIA.filter(m => m.status === 'verified').length} सत्यापित · ${MEDIA.filter(m => m.status === 'candidate').length} प्रतीक्षित · ${MEDIA.filter(m => m.status === 'rejected').length} अस्वीकृत`);
-    const total = changes.cleared.length + changes.removed.length + changes.photos.length + changes.addedNew.length;
+    const total = changes.cleared.length + changes.removed.length + changes.photos.length + changes.addedNew.length + changes.corrections.length;
     logLine(total === 0 ? '⚠ अभी कोई निर्णीत परिवर्तन नहीं — पहले कतार में स्वीकृत/अस्वीकृत करें।' : 'कुल परिवर्तन: ' + total);
   }
   function downloadBundle() {
@@ -385,7 +397,7 @@
     const pat = $('#pub-pat').value.trim();
     if (!pat) { alert('PAT डालें (repo contents:write अनुमति सहित)। वह केवल इस ब्राउज़र-सत्र में रहेगा।'); return; }
     const { files, changes } = outputFiles();
-    const total = changes.cleared.length + changes.removed.length + changes.photos.length + changes.addedNew.length;
+    const total = changes.cleared.length + changes.removed.length + changes.photos.length + changes.addedNew.length + changes.corrections.length;
     if (!total && !CREDS_DIRTY) { alert('प्रकाशित करने योग्य कोई परिवर्तन नहीं।'); return; }
     if (!confirm(Object.keys(files).length + ' फ़ाइलें GitHub पर commit होंगी। जारी रखें?')) return;
     const H = { 'Authorization': 'Bearer ' + pat, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' };

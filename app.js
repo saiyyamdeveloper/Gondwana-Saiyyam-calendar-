@@ -21,7 +21,7 @@
     year: today.getFullYear(),
     month: today.getMonth() + 1,
     sel: E.dateKey(today.getFullYear(), today.getMonth() + 1, today.getDate()),
-    tab: 'home', view: 'month', rgn: { state: '', district: '', tehsil: '', post: '', panchayat: '', village: '' }, storyFilter: '',
+    tab: 'home', view: 'month', rgn: { state: '', district: '', tehsil: '', post: '', panchayat: '', village: '' }, storyFilter: '', rptPrefill: null,
     festFilter: 'all',
     zones: new Set(['north', 'west', 'south', 'east']),
     convDir: 1
@@ -86,6 +86,7 @@
     { id: 'places', lbl: 'स्थल', ico: '<path d="M12 21s-7-6.1-7-11a7 7 0 1114 0c0 4.9-7 11-7 11z"/><path d="M9.5 10.5l1.8 1.8 3.4-3.4"/>' },
     { id: 'regions', lbl: 'क्षेत्र-कोश', ico: '<path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/>' },
     { id: 'stories', lbl: 'लोक-कथाएँ', ico: '<path d="M4 5a2 2 0 012-2h13v18H6a2 2 0 01-2-2z"/><path d="M4 17h15M8 7h8M8 11h8"/>' },
+    { id: 'report', lbl: 'गलती रिपोर्ट', ico: '<path d="M12 3L2 20h20z"/><path d="M12 10v4M12 17.2v.1"/>' },
     { id: 'lipi', lbl: 'गोंडी लिपि', ico: '<path d="M4 20l4.5-1.2L19 8.3a2.1 2.1 0 00-3-3L5.5 15.8z"/>' },
     { id: 'learn', lbl: 'सीखें', ico: '<path d="M4 5a2 2 0 012-2h13v18H6a2 2 0 01-2-2z"/><path d="M4 17h15"/>' },
     { id: 'settings', lbl: 'सेटिंग्स', ico: '<circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.2 5.2l2.1 2.1M16.7 16.7l2.1 2.1M18.8 5.2l-2.1 2.1M7.3 16.7l-2.1 2.1"/>' }
@@ -120,6 +121,7 @@
     if (id === 'places') renderPlaces();
     if (id === 'regions') renderRegions();
     if (id === 'stories') renderStories();
+    if (id === 'report') renderReportPanel();
     if (id === 'home') renderHome();
     if (id === 'lipi') renderLipi();
     if (id === 'settings') renderSettings();
@@ -197,6 +199,7 @@
 
   /* ---------- day sheet ---------- */
   function openDay(key) {
+    SHEET_CTX = { kind: 'calendar', id: key, title: key };
     const [y, m, d] = key.split('-').map(Number);
     const c = cityOf();
     const di = E.dayInfo(y, m, d, c);
@@ -442,6 +445,7 @@
     $$('#pin-list .fest-item').forEach(elx => elx.onclick = () => openPin(elx.dataset.pin));
   }
   function openPin(id) {
+    SHEET_CTX = { kind: 'place', id: id, title: id };
     const p = X.map_pins.find(z => z.id === id); if (!p) return;
     const c = cityOf();
     const z = X.zones.find(zz => zz.id === p.zone);
@@ -610,6 +614,7 @@
     });
   }
   function openHero(p) {
+    SHEET_CTX = { kind: 'person', id: p.id, title: p.name_hi };
     const cm = CAT_META[p.category] || { hi: p.category, c: '#57421a' };
     const rows = [
       ['श्रेणी', `<b style="color:${cm.c}">${cm.hi}</b>`],
@@ -684,6 +689,7 @@
     });
   }
   function openPlace(p) {
+    SHEET_CTX = { kind: 'place', id: p.id, title: p.name_hi };
     const cm = PLACE_CAT[p.category] || { hi: p.category, c: '#57421a' };
     const d = placeDist(p), dir = d != null ? E.bearing(cityOf(), p) : '';
     const rows = [
@@ -967,6 +973,130 @@
     };
   }
 
+  /* ---------- ⚠️ गलती-रिपोर्ट पैनल (सार्वजनिक; admin से असंबद्ध) ---------- */
+  let RPT_CFG = null;
+  const RPT_KINDS = { person: 'महापुरुष (जन्मदिन/bio/उपलब्धि)', festival: 'पर्व/त्योहार/तिथि', place: 'स्थल/GPS/महत्व', story: 'लोक-कथा/गाथा', calendar: 'कैलेंडर/पंचांग-गणना', region: 'क्षेत्र-कोश प्रविष्टि', other: 'अन्य' };
+  function rptCfg() {
+    if (RPT_CFG) return Promise.resolve(RPT_CFG);
+    if (typeof fetch !== 'function') { RPT_CFG = { reports_email: 'gondwanaroots@gmail.com' }; return Promise.resolve(RPT_CFG); }
+    return fetch('report_config.json', { cache: 'no-store' }).then(r => r.json()).then(c => { RPT_CFG = c; return c; })
+      .catch(() => { RPT_CFG = { reports_email: 'gondwanaroots@gmail.com' }; return RPT_CFG; });
+  }
+  function rptMine() { try { return JSON.parse(localStorage.getItem('gw-rpt-mine') || '[]'); } catch (e) { return []; } }
+  function openReportFor(ctx) { state.rptPrefill = ctx; setTab('report'); }
+  function allItemsForKind(k) {
+    if (k === 'person') return (H.persons || []).map(p => ({ id: p.id, t: p.name_hi }));
+    if (k === 'place') return (PL.places || []).map(p => ({ id: p.id, t: p.name_hi }));
+    if (k === 'festival') return (X.festivals || []).map(f => ({ id: f.id, t: f.deva || f.name }));
+    if (k === 'story') { const o = []; RGN().forEach(u => (u.entities || []).forEach(e => { if (e.kind === 'story') o.push({ id: u.id + ':' + e.name_hi, t: e.name_hi }); })); return o; }
+    if (k === 'region') { const o = []; RGN().forEach(u => (u.entities || []).forEach(e => o.push({ id: u.id + ':' + e.name_hi, t: e.name_hi }))); return o; }
+    return [];
+  }
+  function renderReportPanel() {
+    const idBox = $('#rpt-identity'), formBox = $('#rpt-form');
+    if (!idBox || !formBox) return;
+    const savedEmail = (typeof localStorage !== 'undefined' && localStorage.getItem('gw-rpt-email')) || '';
+    const savedName = (typeof localStorage !== 'undefined' && localStorage.getItem('gw-rpt-name')) || '';
+    rptCfg().then(cfg => {
+      idBox.innerHTML = `<h3>👤 पहचान (रिपोर्ट-कर्ता)</h3>
+        <div id="gis-btn" style="margin:6px 0"></div>
+        <p class="muted small" style="margin:4px 0">${cfg.google_client_id ? 'Google/Gmail खाते से एक-टैप साइन-इन — पता सत्यापित होता है।' : 'Gmail-साइन-इन सक्रिय होने पर एक-टैप लॉगिन दिखेगा; तब तक ईमेल स्वयं भरें (सत्यापन FormSubmit मेल-डिलीवरी से)।'}</p>
+        <div style="display:grid;gap:6px">
+          <input id="rp-email" type="email" placeholder="आपका Gmail/ईमेल (अनिवार्य)" value="${esc(savedEmail)}" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+          <input id="rp-name" placeholder="आपका नाम (वैकल्पिक)" value="${esc(savedName)}" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        </div>`;
+      if (cfg.google_client_id && typeof document !== 'undefined') {
+        const load = () => {
+          try {
+            google.accounts.id.initialize({ client_id: cfg.google_client_id, callback: resp => {
+              try {
+                const part = resp.credential.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+                const p = JSON.parse(decodeURIComponent(escape(atob(part))));
+                if (p && p.email) {
+                  $('#rp-email').value = p.email;
+                  if (p.name) $('#rp-name').value = p.name;
+                  try { localStorage.setItem('gw-rpt-email', p.email); localStorage.setItem('gw-rpt-name', p.name || ''); } catch (e) {}
+                  toast('Gmail सत्यापित: ' + p.email);
+                }
+              } catch (e) { toast('टोकन-पठन विफल'); }
+            } });
+            const el = $('#gis-btn'); if (el) { el.innerHTML = ''; google.accounts.id.renderButton(el, { theme: 'outline', size: 'large', text: 'signin_with' }); }
+          } catch (e) {}
+        };
+        if (window.google && google.accounts) load();
+        else { const sc = document.createElement('script'); sc.src = 'https://accounts.google.com/gsi/client'; sc.async = true; sc.onload = load; document.head.appendChild(sc); }
+      }
+    });
+    const pf = state.rptPrefill || {};
+    const kindOpts = Object.keys(RPT_KINDS).map(k => `<option value="${k}" ${pf.kind === k ? 'selected' : ''}>${RPT_KINDS[k]}</option>`).join('');
+    const items = allItemsForKind(pf.kind || 'person');
+    formBox.innerHTML = `<h3>📝 रिपोर्ट विवरण</h3>
+      <div style="display:grid;gap:6px">
+        <select id="rp-kind" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">${kindOpts}</select>
+        <input id="rp-item" list="rp-items" placeholder="प्रविष्टि खोजें/चुनें (जैसे: बिरसा मुंडा)" value="${esc(pf.title || '')}" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <datalist id="rp-items">${items.map(i => `<option value="${esc(i.t)}">`).join('')}</datalist>
+        <input id="rp-field" placeholder="किस फ़ील्ड में गलती? (जैसे: जन्म-तिथि, निधन, विवरण, GPS…)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <textarea id="rp-wrong" rows="2" placeholder="क्या गलत दिख रहा है?" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)"></textarea>
+        <textarea id="rp-correct" rows="2" placeholder="सही जानकारी क्या है?" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)"></textarea>
+        <input id="rp-evidence" placeholder="प्रमाण-स्रोत URL (अनिवार्य — विकिपीडिया/सरकारी/समाचार)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <button class="btn" id="rp-submit" style="justify-self:start">📤 रिपोर्ट भेजें</button>
+        <div id="rp-out"></div>
+      </div>`;
+    $('#rp-kind').onchange = () => {
+      const items2 = allItemsForKind($('#rp-kind').value);
+      $('#rp-items').innerHTML = items2.map(i => `<option value="${esc(i.t)}">`).join('');
+    };
+    $('#rp-submit').onclick = () => submitReport();
+    drawMyReports();
+  }
+  function submitReport() {
+    const g = id2 => { const e = $('#' + id2); return e ? (e.value || '').trim() : ''; };
+    const email = g('rp-email'), kind = g('rp-kind'), item = g('rp-item'), field = g('rp-field'),
+      wrong = g('rp-wrong'), correct = g('rp-correct'), evidence = g('rp-evidence');
+    if (!email || !email.includes('@')) { alert('रिपोर्ट हेतु ईमेल अनिवार्य (पहचान-नीति)।'); return; }
+    if (!item || !wrong) { alert('प्रविष्टि व "क्या गलत है" भरें।'); return; }
+    if (!/^https?:\/\/.+/.test(evidence)) { alert('प्रमाण-स्रोत URL अनिवार्य — बिना स्रोत रिपोर्ट पर कार्रवाई नहीं होगी (डेटा-ईमानदारी नीति)।'); return; }
+    const items = allItemsForKind(kind);
+    const hit = items.find(i => i.t === item) || null;
+    const pkt = {
+      id: 'rpt-' + Date.now().toString(36), ts: new Date().toISOString(),
+      kind, item_title: item, item_id: hit ? hit.id : (state.rptPrefill && state.rptPrefill.id) || '',
+      field, wrong, correct, evidence,
+      reporter: { email, name: g('rp-name'), auth: (typeof localStorage !== 'undefined' && localStorage.getItem('gw-rpt-email') === email) ? 'saved/google' : 'manual' },
+      _policy: 'केवल गोंडवाना आदिवासी-सामग्री (SCOPE_POLICY.md); स्रोत-सहित रिपोर्ट ही स्वीकार'
+    };
+    try { localStorage.setItem('gw-rpt-email', email); localStorage.setItem('gw-rpt-name', g('rp-name')); } catch (e) {}
+    const out = $('#rp-out');
+    const done = via => {
+      const mine = rptMine(); mine.unshift(pkt);
+      try { localStorage.setItem('gw-rpt-mine', JSON.stringify(mine.slice(0, 50))); } catch (e) {}
+      if (out) out.innerHTML = `<p class="small">✅ रिपोर्ट दर्ज (${esc(via)}) — धन्यवाद! सत्यापन के बाद सुधार प्रकाशित होगा; स्थिति 'मेरी भेजी रिपोर्ट्स' में दिखेगी।</p>`;
+      state.rptPrefill = null;
+      drawMyReports();
+    };
+    const fallback = () => {
+      const body = encodeURIComponent(JSON.stringify(pkt, null, 1));
+      if (out) out.innerHTML = `<p class="small">⚠ सीधा भेजना विफल — (a) नीचे बटन से मेल खोलें (विषय/सामग्री भरी हुई है), या (b) पैकेट कॉपी करें:</p>
+        <div style="display:flex;gap:6px;margin:6px 0"><a class="chip" href="mailto:${esc((RPT_CFG && RPT_CFG.reports_email) || 'gondwanaroots@gmail.com')}?subject=${encodeURIComponent('गलती-रिपोर्ट: ' + item)}&body=${body}">📧 मेल से भेजें</a><button class="chip" id="rp-copy">📋 कॉपी</button></div>
+        <textarea rows="5" readonly style="width:100%;font-size:.75rem;border:1.5px solid var(--line);border-radius:10px;padding:6px">${esc(JSON.stringify(pkt, null, 1))}</textarea>`;
+      const c = $('#rp-copy');
+      if (c) c.onclick = () => { try { navigator.clipboard.writeText(JSON.stringify(pkt, null, 1)); toast('कॉपी हो गया'); } catch (e) {} };
+      done('मैन्युअल-फ़ॉलबैक तैयार');
+    };
+    if (typeof fetch === 'function' && RPT_CFG && RPT_CFG.formsubmit_ajax) {
+      fetch(RPT_CFG.formsubmit_ajax, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ _subject: 'गलती-रिपोर्ट: ' + item, _template: 'table', रिपोर्ट: JSON.stringify(pkt) }) })
+        .then(r => r.ok ? done('FormSubmit → Gmail') : fallback()).catch(fallback);
+    } else fallback();
+  }
+  function drawMyReports() {
+    const box = $('#rpt-mine'); if (!box) return;
+    const mine = rptMine();
+    box.innerHTML = mine.length ? mine.map(r => `<div class="small" style="border-bottom:1px dashed var(--line);padding:5px 0">
+      ⚠ <b>${esc(r.item_title)}</b> (${esc(RPT_KINDS[r.kind] || r.kind)}) — ${esc(r.field || '')}<br>
+      <span class="muted">${esc((r.ts || '').slice(0, 16).replace('T', ' '))} · ${esc(r.reporter && r.reporter.email || '')} · स्थिति: समीक्षा-प्रतीक्षित</span></div>`).join('')
+      : '<p class="muted small">इस उपकरण से अभी कोई रिपोर्ट नहीं भेजी गई।</p>';
+  }
+
   /* ---------- आज का चयन (दैनिक-डाइजेस्ट) ---------- */
   function renderDaily() {
     const box = $('#home-daily');
@@ -1025,15 +1155,14 @@
   function renderMore() {
     $('#more-grid').innerHTML = NAV_ALL.filter(n => n.id !== 'home').map(n =>
       `<button class="more-btn" data-tab="${n.id}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${n.ico}</svg><span>${n.lbl}</span></button>`).join('') +
-      `<button class="more-btn" id="more-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span>खोज</span></button>` +
-      `<button class="more-btn" id="more-report"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 20V6a2 2 0 012-2h9l5 5v11a2 2 0 01-2 2H6a2 2 0 01-2-2z"/><path d="M8 13h8M8 17h5M14 4v6h6"/></svg><span>📊 रिपोर्ट-पैनल</span></button>`;
+      `<button class="more-btn" id="more-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span>खोज</span></button>`;
     $$('#more-grid [data-tab]').forEach(b => b.onclick = () => setTab(b.dataset.tab));
     const ms = $('#more-search'); if (ms) ms.onclick = openSearch;
-    const mr = $('#more-report'); if (mr) mr.onclick = () => { window.location.href = 'admin.html#report'; };
   }
 
   /* ---------- ग्लोबल खोज ---------- */
   function openSearch() {
+    SHEET_CTX = null;
     openSheet(`<h3 style="margin:2px 0 8px">🔍 खोज — पूरा गोंडवाना</h3>
       <input id="gs-in" type="search" placeholder="पर्व, महापुरुष, स्थल, गोंडी शब्द…" style="width:100%;border:1.5px solid var(--line);border-radius:10px;padding:9px 10px;font-family:var(--deva);font-size:.95rem">
       <div id="gs-res" class="muted small" style="margin-top:8px">कम-से-कम 2 अक्षर टाइप करें।</div>`);
@@ -1078,7 +1207,12 @@
   }
 
   /* ---------- sheet ---------- */
-  function openSheet(html) { $('#sheet-body').innerHTML = html; $('#sheet-back').classList.add('open'); document.body.style.overflow = 'hidden'; bindSheetPins(); }
+  let SHEET_CTX = null;
+  function openSheet(html) {
+    if (SHEET_CTX) html += `<div style="margin-top:12px;border-top:1px dashed var(--line);padding-top:8px"><button class="btn ghost sm" id="sheet-report">⚠️ इस जानकारी में गलती? रिपोर्ट करें</button></div>`;
+    $('#sheet-body').innerHTML = html; $('#sheet-back').classList.add('open'); document.body.style.overflow = 'hidden'; bindSheetPins();
+    if (SHEET_CTX) { const b = $('#sheet-report'); if (b) b.onclick = () => { const c = SHEET_CTX; closeSheet(); openReportFor(c); }; }
+  }
   function closeSheet() { $('#sheet-back').classList.remove('open'); document.body.style.overflow = ''; }
   function bindSheetPins() {
     $$('#sheet-body [data-pin]').forEach(b => b.onclick = () => { closeSheet(); setTab('map'); setTimeout(() => openPin(b.dataset.pin), 80); });
@@ -1142,7 +1276,7 @@
     const bs = $('#btn-search'); if (bs) bs.onclick = openSearch;
     applyPrefs();
     if (window.matchMedia) { try { matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { if (prefs.theme === 'system') applyPrefs(); }); } catch (e) {} }
-    renderLipi(); renderLearn(); renderMore(); renderHome(); renderRegions(); renderStories();
+    renderLipi(); renderLearn(); renderMore(); renderHome(); renderRegions(); renderStories(); renderReportPanel();
     renderAll();
     // परत 1: सेल्फ-चेक (डेटा-अखंडता + इंजन anchor)
     let validateReport = null;
@@ -1160,7 +1294,7 @@
       } catch (e) { console.warn('[सेल्फ-चेक] विफल:', e); }
     }
     // debug/test handle
-    window.__GW = { state, get validateReport() { return validateReport; }, renderFestivals, renderPanchang, renderMap, renderLearn, renderCalendar, renderHeroes, heroOfTheDay, openHero, renderPlaces, openPlace, renderHome, renderLipi, renderSettings, renderMore, openSearch, drawYearView, prefs, openDay, openPin, festivals, diOf, renderRegions, renderStories, renderDaily };
+    window.__GW = { state, get validateReport() { return validateReport; }, renderFestivals, renderPanchang, renderMap, renderLearn, renderCalendar, renderHeroes, heroOfTheDay, openHero, renderPlaces, openPlace, renderHome, renderLipi, renderSettings, renderMore, openSearch, drawYearView, prefs, openDay, openPin, festivals, diOf, renderRegions, renderStories, renderDaily, renderReportPanel, openReportFor };
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();
