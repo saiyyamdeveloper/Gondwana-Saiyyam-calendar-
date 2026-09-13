@@ -108,7 +108,8 @@ def build():
     data = load(RPATH, None)
     if data is None:
         data = {'meta': {'title': 'गोंडवाना क्षेत्र-कोश — राज्य→जिला→तहसील→पोस्ट→पंचायत→गाँव',
-                         'levels': LEVELS, 'entity_kinds': KINDS, 'updated': ''},
+                         'levels': LEVELS, 'entity_kinds': KINDS, 'updated': '',
+                         'scope': 'केवल गोंडवाना आदिवासी जनजातियाँ — सभी कहानियाँ/वीर/शहीद/विद्वान/गाथा-पाठ/ऑडियो/इमेज इन्हीं से संबंधित हों; अन्य कोई नहीं (SCOPE_POLICY.md)'},
                 'units': []}
     units = {u['id']: u for u in data['units']}
 
@@ -196,6 +197,7 @@ def build():
             linked += 1
 
     # 5) coverage + js
+    data['meta']['scope'] = 'केवल गोंडवाना आदिवासी जनजातियाँ — सभी कहानियाँ/वीर/शहीद/विद्वान/गाथा-पाठ/ऑडियो/इमेज इन्हीं से संबंधित हों; अन्य कोई नहीं (SCOPE_POLICY.md)'
     data['units'] = sorted(units.values(), key=lambda u: (LEVELS.index(u['level']), u['id']))
     cov = {'states': 0, 'districts': 0, 'tehsils': 0, 'posts': 0, 'panchayats': 0, 'villages': 0, 'entities': 0}
     key = {'state': 'states', 'district': 'districts', 'tehsil': 'tehsils', 'post': 'posts',

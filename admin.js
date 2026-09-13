@@ -114,6 +114,7 @@
     $('#pub-pat').oninput = () => sessionStorage.setItem('gw-pat', $('#pub-pat').value.trim());
     $('#pub-push').onclick = pushToGitHub;
     drawStats(); drawFilters(); drawQueue(); drawDecisions(); initStorage(); initViews();
+    if ((location.hash || '') === '#report') setView('report');
   }
 
   function pending() { return QUEUE.filter(q => q.status === 'pending' && !isPhotoSlot(q)); }

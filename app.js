@@ -1025,9 +1025,11 @@
   function renderMore() {
     $('#more-grid').innerHTML = NAV_ALL.filter(n => n.id !== 'home').map(n =>
       `<button class="more-btn" data-tab="${n.id}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${n.ico}</svg><span>${n.lbl}</span></button>`).join('') +
-      `<button class="more-btn" id="more-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span>खोज</span></button>`;
+      `<button class="more-btn" id="more-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span>खोज</span></button>` +
+      `<button class="more-btn" id="more-report"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 20V6a2 2 0 012-2h9l5 5v11a2 2 0 01-2 2H6a2 2 0 01-2-2z"/><path d="M8 13h8M8 17h5M14 4v6h6"/></svg><span>📊 रिपोर्ट-पैनल</span></button>`;
     $$('#more-grid [data-tab]').forEach(b => b.onclick = () => setTab(b.dataset.tab));
     const ms = $('#more-search'); if (ms) ms.onclick = openSearch;
+    const mr = $('#more-report'); if (mr) mr.onclick = () => { window.location.href = 'admin.html#report'; };
   }
 
   /* ---------- ग्लोबल खोज ---------- */

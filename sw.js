@@ -1,5 +1,5 @@
 /* Gondwana Calendar App — offline service worker */
-const CACHE = 'gondwana-v9';
+const CACHE = 'gondwana-v10';
 const ASSETS = [
   './', 'index.html', 'styles.css', 'app.js', 'engine.js', 'data.js', 'regions_data.js', 'converter.js', 'validate.js',
   'NotoSansMasaramGondi.woff2', 'manifest.json', 'icon-192.png', 'icon-512.png',
