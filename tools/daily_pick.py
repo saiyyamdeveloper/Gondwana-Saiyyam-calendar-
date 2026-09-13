@@ -66,6 +66,9 @@ def main():
     if not items:
         print('[daily] पूल खाली'); return 1
     st = load(STATE, {'idx': -1})
+    prev = load(OUT, None)
+    if prev and (prev.get('today') or {}).get('date_ist') == ist_today():
+        print(f"[daily] आज का चयन पहले से: {prev['today']['title_hi']} — pointer नहीं बढ़ाया"); return 0
     idx = (int(st.get('idx', -1)) + 1) % len(items)
     st['idx'] = idx
     st['pool_size'] = len(items)

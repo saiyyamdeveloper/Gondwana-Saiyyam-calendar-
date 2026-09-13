@@ -13,6 +13,8 @@ RPATH = os.path.join(APP, 'gondwana_regions.json')
 QUEUE_PATH = os.path.join(APP, 'review', 'pending.json')
 UA = {'User-Agent': 'GondwanaCalendar/1.0 (research; gondwanaroots@gmail.com)'}
 TRIBE_RE = re.compile(r'आदिवासी|जनजाति|tribal|गोंड|मुंडा|संताल|भूमिज|कोरकू|भील|कोंध|मुरिया|मड़िया|हल्बा|कमार|बैगा|खरिया|कोया|गरासिया|मीना|सहरिया|गोंडवाना', re.I)
+EN_JUNK = re.compile(r'^(artificial|dam|lake|river|hill|hills|forest|park|road|bridge|railway|station|market|agriculture|industry|electricity|hydropower|water|navratri|dussehra|diwali|holi|eid|christmas|temple|fort|palace|festival|dance|music|art|craft)$', re.I)
+SELF_REF = re.compile(r'lok sabha|assembly constituency|railway station|junction|district,|,\s*(bihar|haryana|himachal|pradesh|maharashtra|odisha|gujarat)', re.I)
 BLACK_RE = re.compile(r'^(त्योहार|त्यौहार|मेला|मेले|उत्सव|पर्व|जीव[- ]?जन्तुओं?|देवी[- ]?देवताओं?|देवताओं?|देवी|कला|कलाकृति|संस्कृति|परंपरा|आदिवासी|आदिवासियों|जनजाति|गांव|गाँव|जिला|नगर|नृत्य|गीत|भाषा|भाषाएँ|वन|कृषि)$', re.I)
 STOP_RE = re.compile(r'^(विकिपीडिया|श्रेणी|भारत|छत्तीसगढ़|सूची|मुखपृष्ठ|चित्र|फ़ाइल|साँचा|portal|category|file|template|wikipedia|india|list of)', re.I)
 FEST_SEC = re.compile(r'त्यौहार|त्योहार|तीज|मेला|उत्सव|संस्कृति|कला|परंपरा|festival|culture|fair', re.I)
@@ -106,7 +108,7 @@ def candidates_from(body):
         if t: cands.append((t, m.start()))
     out = []
     for t, pos in cands:
-        if len(t) < 3 or len(t) > 44 or STOP_RE.match(t) or BLACK_RE.match(t) or re.search(r'\d{4}|http|\.jpg|\.png', t): continue
+        if len(t) < 3 or len(t) > 44 or STOP_RE.match(t) or BLACK_RE.match(t) or EN_JUNK.match(t) or SELF_REF.search(t) or re.search(r'\d{4}|http|\.jpg|\.png', t): continue
         ctx = re.sub(r'\{\{[^}]*\}\}|\[\[|\]\]|\'\'|<ref[^>]*/?>|<ref.*?</ref>', ' ', body[max(0, pos - 120):pos + 240])
         ctx = re.sub(r'\s+', ' ', ctx).strip()
         out.append((t, ctx))
@@ -138,6 +140,9 @@ def queue_entity(u, kind, name, desc, src, queue):
                  if q.get('kind') == 'region' and (q.get('payload') or {}).get('unit_id') == u['id']}
     if name in existing or any(difflib.SequenceMatcher(None, name, x).ratio() > 0.85 for x in existing):
         return False
+    base = (u.get('name_en') or u['name_hi']).lower()
+    if name.lower() == base or difflib.SequenceMatcher(None, name.lower(), base).ratio() > 0.9:
+        return False  # स्वयं का नाम प्रविष्टि नहीं
     qid = 'region:' + slug(u['id'].replace(':', '-'))[:40] + '-' + hashlib.md5(name.encode('utf-8')).hexdigest()[:8]
     if any(q['id'] == qid for q in queue): return False
     queue.append({
