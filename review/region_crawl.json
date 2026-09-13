@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-09-13T06:27:57+00:00",
-  "progress": "5/67 done, 0 blocked"
+  "updated": "2026-09-13T06:42:21+00:00",
+  "progress": "8/91 done, 4 blocked"
  },
  "jobs": [
   {
@@ -55,32 +55,48 @@
   {
    "unit": "district:cg/bijapur",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-13T06:42:16+00:00"
   },
   {
    "unit": "district:cg/bilaspur",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-13T06:42:17+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:cg/dantewada",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-13T06:42:18+00:00"
   },
   {
    "unit": "district:cg/dhamtari",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-13T06:42:19+00:00"
   },
   {
    "unit": "district:cg/durg",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-13T06:42:20+00:00"
   },
   {
    "unit": "district:cg/gariaband",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-13T06:42:21+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:cg/gaurela-pendra-marwahi",
@@ -342,6 +358,126 @@
   {
    "unit": "state:pb",
    "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/bokaro",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/chatra",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/deoghar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/dhanbad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/dumka",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/east-singhbhum",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/garhwa",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/giridih",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/godda",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/gumla",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/hazaribagh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/jamtara",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/khunti",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/koderma",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/latehar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/lohardaga",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/pakur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/palamu",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/ramgarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/ranchi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/sahebganj",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/seraikela-kharsawan",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/simdega",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:jh/west-singhbhum",
+   "task": "mine",
    "status": "pending"
   },
   {
