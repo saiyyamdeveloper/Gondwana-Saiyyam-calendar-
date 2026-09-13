@@ -8,12 +8,13 @@
   const $ = s => document.querySelector(s);
   const $$ = s => Array.from(document.querySelectorAll(s));
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  const KIND_HI = { person: 'महापुरुष/शहीद', photo: 'फ़ोटो-लाइसेंस', place: 'स्थल/GPS', festival: 'पर्व', announcement: 'घोषित तिथि' };
+  const KIND_HI = { person: 'महापुरुष/शहीद', photo: 'फ़ोटो-लाइसेंस', place: 'स्थल/GPS', festival: 'पर्व', announcement: 'घोषित तिथि', story: 'लोक-कथा', region: 'क्षेत्र-प्रविष्टि' };
 
   let CREDS = null, QUEUE = [], DECISIONS = [], SESSION = null, CREDS_DIRTY = false;
   let qFilter = 'all', qSearch = '';
   let MEDIA = [], MAN_META = {}, MEDIA_DIRTY = false;
   let EVID = {};
+  let CRAWL = null;
   let mdStatus = 'candidate', mdType = 'all', mdSearch = '';
   const TYPE_HI = { image: 'इमेज', audio: 'ऑडियो/voice', song: 'गीत', video: 'वीडियो', doc: 'दस्तावेज़', other: 'अन्य' };
   const STATUS_HI = { candidate: '⏳ सत्यापन-प्रतीक्षित', verified: '✅ सत्यापित', rejected: '❌ अस्वीकृत' };
@@ -51,16 +52,18 @@
   /* ---------- boot ---------- */
   async function init() {
     try {
-      const [cr, pq, dj, mf, evi] = await Promise.all([
+      const [cr, pq, dj, mf, evi, crawl] = await Promise.all([
         fetch('admin-credentials.json', { cache: 'no-store' }).then(r => r.json()),
         fetch('review/pending.json', { cache: 'no-store' }).then(r => r.json()),
         fetch('review/decisions.json', { cache: 'no-store' }).then(r => r.json()),
         fetch('media/manifest.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null),
-        fetch('review/evidence/index.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null)
+        fetch('review/evidence/index.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null),
+        fetch('review/region_crawl.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null)
       ]);
       CREDS = cr; QUEUE = pq.queue || []; DECISIONS = dj.decisions || [];
       if (mf) { MAN_META = mf.meta || {}; MEDIA = mf.items || []; }
       if (evi) EVID = evi;
+      if (crawl) CRAWL = crawl;
       applyDraft();
     } catch (e) {
       $('#lg-err').textContent = 'डेटा लोड विफल: ' + e.message; $('#lg-err').classList.remove('hidden');
@@ -142,6 +145,7 @@
         <span class="q-title">${esc(q.title)}</span>
         <div class="q-sub">${esc(q.subtitle || '')}${q.payload && q.payload.birth_date ? ' · 🎂 ' + esc(q.payload.birth_date) : ''} · जोड़ा: ${esc(q.added)} (${esc(q.added_by || '')})</div>
         <div class="q-reason">⚠ ${esc(q.reason || '')}</div>
+        ${q.payload && q.payload.entity ? `<div class="q-sub" style="white-space:pre-wrap">${esc((q.payload.entity.desc_hi || '').slice(0, 200))}${q.payload.entity.told_by ? ' · 👴 ' + esc(q.payload.entity.told_by) : ''}${q.payload.unit_id ? ' · ' + esc(q.payload.unit_id) : ''}</div>` : ''}
         <div class="q-actions">
           <button class="btn ok sm" data-act="approve">✓ स्वीकृत</button>
           <button class="btn bad sm" data-act="reject">✗ अस्वीकृत</button>
@@ -219,14 +223,15 @@
     const kind = $('#na-kind').value;
     let payload;
     try { payload = JSON.parse($('#na-json').value); } catch (e) { alert('JSON अमान्य: ' + e.message); return; }
-    if (!payload.sources || !payload.sources.length) { alert('नीति: sources[] के बिना प्रविष्टि स्वीकार नहीं।'); return; }
+    const srcs = payload.sources || (payload.entity && payload.entity.sources) || [];
+    if (!srcs.length) { alert('नीति: sources[] (या entity.sources[]) के बिना प्रविष्टि स्वीकार नहीं।'); return; }
     const id = payload.id || (kind + '-' + Date.now().toString(36));
     QUEUE.unshift({
       id: kind + ':' + id, kind, subtype: payload.category || 'new-research',
-      title: payload.name_hi || payload.deva || id,
+      title: payload.name_hi || (payload.entity && payload.entity.name_hi) || payload.deva || id,
       subtitle: [payload.tribe_hi, payload.state, payload.district].filter(Boolean).join(' · ') || 'नई शोध-प्रविष्टि',
       reason: 'auto-research/मैन्युअल जोड़ — प्रकाशन पूर्व सत्यापन आवश्यक',
-      source_file: kind === 'person' ? 'mahapurush_database.json' : kind === 'place' ? 'gondwana_places.json' : 'extra_data.json',
+      source_file: kind === 'person' ? 'mahapurush_database.json' : kind === 'place' ? 'gondwana_places.json' : (kind === 'story' || kind === 'region') ? 'gondwana_regions.json' : 'extra_data.json',
       record_id: id, payload, status: 'pending', added: todayStr(),
       added_by: 'panel:' + SESSION.email, decision: null, decided_by: null, decided_at: null, note: '', isNew: true
     });
@@ -269,7 +274,9 @@
     const heroes = JSON.parse(JSON.stringify(window.GW_HEROES));
     const places = JSON.parse(JSON.stringify(window.GW_PLACES));
     const extra = JSON.parse(JSON.stringify(window.GW_EXTRA));
-    const changes = { cleared: [], removed: [], photos: [], addedNew: [] };
+    const reg = window.GW_REGIONS ? JSON.parse(JSON.stringify(window.GW_REGIONS)) : null;
+    let regDirty = false;
+    const changes = { cleared: [], removed: [], photos: [], addedNew: [], regions: [] };
     QUEUE.forEach(q => {
       if (q.status === 'pending') return;
       const ok = q.status === 'approved';
@@ -291,6 +298,18 @@
         if (i === -1) return;
         if (ok) { const rec = q.payload && q.payload.id === q.record_id ? q.payload : extra.festivals[i]; rec.verify = false; delete rec.verify_note; extra.festivals[i] = rec; changes.cleared.push(q.title); }
         else { extra.festivals.splice(i, 1); changes.removed.push(q.title); }
+      } else if ((q.kind === 'story' || q.kind === 'region') && reg) {
+        if (!ok || !q.payload || !q.payload.entity) return;
+        const ent = q.payload.entity;
+        const uid = q.payload.unit_id || q.record_id;
+        let unit = reg.units.find(u => u.id === uid);
+        if (!unit) { unit = { id: uid, level: 'district', name_hi: uid.split('/').pop(), parent: null, entities: [] }; reg.units.push(unit); }
+        unit.entities = unit.entities || [];
+        if (!unit.entities.some(e => e.name_hi === ent.name_hi)) {
+          const e2 = Object.assign({}, ent); e2.verify = false; e2.approved = new Date().toISOString().slice(0, 10);
+          unit.entities.push(e2);
+          changes.regions.push(q.title); changes.addedNew.push(q.title + ' → क्षेत्र-कोश'); regDirty = true;
+        }
       } else if (q.kind === 'photo') {
         if (ok && q.payload && q.payload.photo) {
           const p = heroes.persons.find(x => x.id === q.record_id);
@@ -304,7 +323,8 @@
       'window.GW_EXTRA = ' + JSON.stringify(extra) + ';\n' +
       'window.GW_HEROES = ' + JSON.stringify(heroes) + ';\n' +
       'window.GW_PLACES = ' + JSON.stringify(places) + ';\n';
-    return { heroes, places, extra, dataJs, changes };
+    if (reg && regDirty) reg.meta.updated = new Date().toISOString();
+    return { heroes, places, extra, dataJs, changes, reg, regDirty };
   }
   function csvHeroes(heroes) {
     const cols = ['id', 'name_hi', 'name_en', 'gender', 'tribe_hi', 'state', 'district', 'birth', 'death', 'birth_date', 'death_date', 'category', 'tags', 'first_achievement', 'medals', 'awards', 'verify', 'verify_note', 'sources', 'memorial', 'date_source'];
@@ -332,6 +352,10 @@
       'review/pending.json': JSON.stringify({ meta: { title: 'गोंडवाना समीक्षा-कतार', updated: new Date().toISOString() }, queue: QUEUE }, null, 1),
       'review/decisions.json': JSON.stringify({ meta: { title: 'निर्णय-लॉग (audit trail)' }, decisions: DECISIONS }, null, 1)
     };
+    if (o.reg && o.regDirty) {
+      files['gondwana_regions.json'] = JSON.stringify(o.reg, null, 1);
+      files['regions_data.js'] = '/* क्षेत्र-कोश — gondwana_regions.json से जनित (tools/build_regions.py) */\nwindow.GW_REGIONS = ' + JSON.stringify(o.reg) + ';\n';
+    }
     if (CREDS_DIRTY) files['admin-credentials.json'] = JSON.stringify(CREDS, null, 1);
     if (MEDIA_DIRTY) files['media/manifest.json'] = manifestText();
     return { files, changes: o.changes };
@@ -343,6 +367,7 @@
     logLine(`हटेंगी (अस्वीकृत): ${changes.removed.length} → ${changes.removed.join(', ') || '—'}`);
     logLine(`फ़ोटो जुड़ेंगी: ${changes.photos.length} → ${changes.photos.join(', ') || '—'}`);
     logLine(`नई स्वीकृत प्रविष्टियाँ: ${changes.addedNew.length} → ${changes.addedNew.join(', ') || '—'}`);
+    logLine(`क्षेत्र-कोश में जुड़ीं: ${changes.regions.length} → ${changes.regions.join(', ') || '—'}`);
     logLine('अपडेट होने वाली फ़ाइलें: ' + Object.keys(files).join(', '));
     logLine(`संग्रहण: ${MEDIA.filter(m => m.status === 'verified').length} सत्यापित · ${MEDIA.filter(m => m.status === 'candidate').length} प्रतीक्षित · ${MEDIA.filter(m => m.status === 'rejected').length} अस्वीकृत`);
     const total = changes.cleared.length + changes.removed.length + changes.photos.length + changes.addedNew.length;
@@ -420,7 +445,13 @@
     const gps = {}; P.places.forEach(p => { const k = p.gps_precision || 'अज्ञात'; gps[k] = (gps[k] || 0) + 1; });
     const lic = {}; MEDIA.forEach(m => lic[m.license] = (lic[m.license] || 0) + 1);
     const mstat = {}; MEDIA.forEach(m => mstat[m.status] = (mstat[m.status] || 0) + 1);
-    return { H, P, X, pend, appr, rej, auto, scores, llm, vc, cats, gps, lic, mstat, dec: decInPeriod() };
+    const R = window.GW_REGIONS || { units: [], meta: {} };
+    const cov = R.meta.coverage || {};
+    const jobs = (CRAWL && CRAWL.jobs) || [];
+    const jc = { done: 0, pending: 0, blocked: 0 };
+    jobs.forEach(j => jc[j.status] = (jc[j.status] || 0) + 1);
+    const stories = R.units.reduce((n, u) => n + (u.entities || []).filter(e => e.kind === 'story').length, 0);
+    return { H, P, X, pend, appr, rej, auto, scores, llm, vc, cats, gps, lic, mstat, dec: decInPeriod(), cov, jc, jobs: jobs.length, stories };
   }
   function conflictsTbl() {
     const rows = [];
@@ -449,6 +480,9 @@
     if (slots) acts.push(`📷 <b>${slots} फ़ोटो-स्लॉट</b> प्रस्ताव-प्रतीक्षित — संग्रहण में सत्यापित इमेज से 📸 प्रस्ताव भेजें`);
     const badlic = MEDIA.filter(m => m.status !== 'rejected' && ['unknown', 'copyright-pending'].includes(m.license)).length;
     if (badlic) acts.push(`© <b>${badlic} मीडिया</b> का license अज्ञात/जाँच-बाकी — होस्टिंग से पूर्व स्पष्ट करें`);
+    const rp = QUEUE.filter(q => q.status === 'pending' && (q.kind === 'region' || q.kind === 'story')).length;
+    if (rp) acts.push(`🗺️ <b>${rp} क्षेत्र/लोक-कथा प्रविष्टियाँ</b> सत्यापन-प्रतीक्षित — क्षेत्र-क्रॉलर ने भेजी हैं; ✓ करने पर क्षेत्र-कोश में जुड़ेंगी`);
+    if (A.jc.blocked) acts.push(`🗺️ <b>${A.jc.blocked} क्षेत्र-इकाइयाँ blocked</b> — विकिपीडिया पर पर्याप्त सामग्री नहीं; आधिकारिक पंचायत-डेटा/मैन्युअल शोध चरण आवश्यक`);
     if (MEDIA_DIRTY || CREDS_DIRTY) acts.push('📦 <b>अप्रकाशित परिवर्तन</b> लंबित — कतार-दृश्य के 📦 खंड से प्रकाशित करें');
     return acts.length ? acts.map(x => `<div class="rpt-act">${x}</div>`).join('') : '<div class="rpt-act">🎉 कोई लंबित कार्रवाई नहीं</div>';
   }
@@ -503,6 +537,13 @@
           </table></div>
         <div class="rpt-box"><h4>संग्रहण-स्थिति</h4>${barRows(Object.entries(A.mstat).map(([k, v]) => ({ label: STATUS_HI[k] ? STATUS_HI[k].slice(2) : k, value: v })), '#9d174d')}
           <h4 style="margin-top:8px">License वितरण</h4>${barRows(Object.entries(A.lic).map(([k, v]) => ({ label: LICENSE_HI[k] || k, value: v })), '#9ca3af')}</div>
+        <div class="rpt-box"><h4>🗺️ क्षेत्र-कोश कवरेज</h4>
+          <table class="rpt-tbl">
+            <tr><td>इकाइयाँ</td><td>${A.cov.states || 0} राज्य · ${A.cov.districts || 0} जिला · ${A.cov.tehsils || 0} तहसील · ${A.cov.posts || 0} पोस्ट · ${A.cov.panchayats || 0} पंचायत · ${A.cov.villages || 0} गाँव</td></tr>
+            <tr><td>प्रविष्टियाँ</td><td><b>${A.cov.entities || 0}</b> (पर्व/मान्यता/महापुरुष/शहीद/क्रांतिकारी/स्थल) · 📜 लोक-कथाएँ: ${A.stories}</td></tr>
+          </table>
+          <h4 style="margin-top:8px">क्रॉल-चैकलिस्ट (कोई छूटे नहीं)</h4>${barRows([{ label: 'पूर्ण', value: A.jc.done || 0 }, { label: 'बाकी', value: A.jc.pending || 0 }, { label: 'blocked', value: A.jc.blocked || 0 }], '#0e7490')}
+          <p class="muted small" style="margin:4px 0 0">कुल jobs: ${A.jobs || 0} · BFS: राज्य→जिला→तहसील (रात्रि 3:00 IST स्वचालित)</p></div>
         <div class="rpt-box" style="grid-column:1/-1"><h4>🔴 विरोध-सूची (हमारा बनाम स्वतंत्र स्रोत)</h4><div id="rpt-conflicts"><p class="muted small">लोड हो रही है…</p></div></div>
         <div class="rpt-box" style="grid-column:1/-1"><h4>✅ हाइब्रिड स्वतः-स्वीकृतियाँ (audit-log)</h4>${A.auto.length ? `<table class="rpt-tbl"><tr><th>प्रविष्टि</th><th>स्कोर</th><th>निर्णय-समय</th></tr>${A.auto.map(q => `<tr><td>${esc(q.title)}</td><td>${(EVID[q.id] || {}).score ?? '—'}</td><td>${esc((q.decided_at || '').slice(0, 16).replace('T', ' '))}</td></tr>`).join('')}</table>` : '<p class="muted small">अभी कोई नहीं</p>'}</div>
         <div class="rpt-box" style="grid-column:1/-1"><h4>📌 आवश्यक कार्रवाई (प्राथमिकता-क्रम)</h4>${actionsList(A)}</div>

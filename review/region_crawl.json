@@ -1,0 +1,368 @@
+{
+ "meta": {
+  "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
+  "created": "2026-09-13T06:21:37+00:00",
+  "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
+  "updated": "2026-09-13T06:27:57+00:00",
+  "progress": "5/67 done, 0 blocked"
+ },
+ "jobs": [
+  {
+   "unit": "district:cg/balod",
+   "task": "tehsils+entities",
+   "status": "done",
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में",
+   "done_at": "2026-09-13T06:27:13+00:00",
+   "children": 0,
+   "entities_queued": 0
+  },
+  {
+   "unit": "district:cg/baloda-bazar",
+   "task": "tehsils+entities",
+   "status": "done",
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में",
+   "done_at": "2026-09-13T06:27:14+00:00",
+   "children": 0,
+   "entities_queued": 0
+  },
+  {
+   "unit": "district:cg/balrampur-ramanujganj",
+   "task": "tehsils+entities",
+   "status": "done",
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में",
+   "done_at": "2026-09-13T06:27:15+00:00",
+   "children": 0,
+   "entities_queued": 0
+  },
+  {
+   "unit": "district:cg/bastar",
+   "task": "tehsils+entities",
+   "status": "done",
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में",
+   "done_at": "2026-09-13T06:27:57+00:00",
+   "children": 0,
+   "entities_queued": 8
+  },
+  {
+   "unit": "district:cg/bemetara",
+   "task": "tehsils+entities",
+   "status": "done",
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में",
+   "done_at": "2026-09-13T06:27:16+00:00",
+   "children": 0,
+   "entities_queued": 0
+  },
+  {
+   "unit": "district:cg/bijapur",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/bilaspur",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/dantewada",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/dhamtari",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/durg",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/gariaband",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/gaurela-pendra-marwahi",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/janjgir-champa",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/jashpur",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/kabeerdham",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/kabirdham",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/kanker",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/khairagarh-chhuikhadan-gandai",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/kondagaon",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/korba",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/koriya",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/mahasamund",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/manendragarh-chirmiri-bharatpur",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/mohla-manpur-ambagarh-chowki",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/mungeli",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/narayanpur",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/raigarh",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/raipur",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/rajnandgaon",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/sakti",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/sarangarh-bilaigarh",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/sukma",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/surajpur",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/surguja",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "state:cg",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:jh",
+   "task": "districts",
+   "status": "done",
+   "done_at": "2026-09-13T06:28:36+00:00",
+   "created": 24
+  },
+  {
+   "unit": "state:od",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:mp",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:ts",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:mh",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:gj",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:rj",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:ap",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:wb",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:as",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:ka",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:ml",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:mz",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:nl",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:tr",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:mn",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:ar",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:jk",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:br",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:up",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:tn",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:kl",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:hp",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:uk",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:sk",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:ga",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:hr",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "state:pb",
+   "task": "districts",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mp/bhopal",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ts/adilabad",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ts/mulugu",
+   "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:rj/dungarpur",
+   "task": "tehsils+entities",
+   "status": "pending"
+  }
+ ]
+}

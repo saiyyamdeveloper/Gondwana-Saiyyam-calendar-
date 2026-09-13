@@ -4,7 +4,7 @@ const fs = require('fs'), path = require('path');
 const APP = path.join(__dirname, '..');
 global.window = global;
 global.console = console;
-for (const f of ['data.js', 'converter.js', 'engine.js', 'validate.js']) {
+for (const f of ['data.js', 'regions_data.js', 'converter.js', 'engine.js', 'validate.js']) {
   (0, eval)(fs.readFileSync(path.join(APP, f), 'utf-8'));
 }
 if (!global.GWValidate) { console.error('GWValidate लोड नहीं हुआ'); process.exit(1); }

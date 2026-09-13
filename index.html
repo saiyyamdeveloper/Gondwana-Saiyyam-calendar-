@@ -31,6 +31,7 @@
   <!-- ============ होम ============ -->
   <section class="tab active" id="tab-home">
     <div class="card home-today" id="home-today"></div>
+    <div class="card" id="home-daily" style="display:none"></div>
     <div class="card" id="home-fest"></div>
     <div class="card" id="home-panch"></div>
     <div class="card" id="home-knowledge"></div>
@@ -178,6 +179,32 @@
     <p class="muted small" style="padding:0 6px">📍 GPS नीति: अधिकांश निर्देशांक अनुमानित/शहर-स्तरीय हैं (कार्ड पर सटीकता-बैज देखें)। ⚠ चिह्नित स्थलों का फ़ील्ड-सत्यापन शेष। हर कार्ड पर Google Maps लिंक — वहाँ से नेविगेशन करें।</p>
   </section>
 
+  <!-- ============ क्षेत्र-कोश ============ -->
+  <section class="tab" id="tab-regions">
+    <h2 class="sec">🗺️ क्षेत्र-कोश — राज्य → जिला → तहसील → पोस्ट → पंचायत → गाँव</h2>
+    <div class="card">
+      <div id="rgn-sel" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:6px"></div>
+      <p class="muted small" id="rgn-count" style="margin:8px 0 0"></p>
+    </div>
+    <div id="rgn-body"></div>
+    <p class="muted small" style="padding:0 6px">नीति: हर प्रविष्टि स्रोत-सहित; ⚠ चिह्नित = सत्यापन शेष। खोज संरचित BFS-चैकलिस्ट से होती है (रात्रि 3:00 IST स्वचालन) — कोई इकाई छूटे नहीं। पोस्ट/पंचायत/गाँव स्तर आधिकारिक-डेटा चरण में भरेगा।</p>
+  </section>
+
+  <!-- ============ लोक-कथाएँ ============ -->
+  <section class="tab" id="tab-stories">
+    <h2 class="sec">📜 लोक-कथाएँ — हर क्षेत्र की कहानी, बुजुर्गों की ज़ुबानी</h2>
+    <div class="card">
+      <div id="story-filters" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+      <p class="muted small" id="story-count" style="margin:6px 0 0"></p>
+    </div>
+    <div id="story-list"></div>
+    <div class="card">
+      <h3>📝 अपनी लोक-कथा भेजें</h3>
+      <p class="muted small">बुजुर्गों से सुनी कथा संभालकर रखें — क्षेत्र चुनें, कथा लिखें, सुनाने वाले का नाम-गाँव अवश्य दें (स्रोत-नीति)।</p>
+      <div id="story-form"></div>
+    </div>
+  </section>
+
   <!-- ============ सेटिंग्स ============ -->
   <section class="tab" id="tab-settings">
     <h2 class="sec">⚙️ सेटिंग्स</h2>
@@ -208,6 +235,7 @@
 <div id="toast"></div>
 
 <script src="data.js"></script>
+<script src="regions_data.js"></script>
 <script src="converter.js"></script>
 <script src="engine.js"></script>
 <script src="validate.js"></script>

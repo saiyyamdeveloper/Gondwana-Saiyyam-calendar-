@@ -21,7 +21,7 @@
     year: today.getFullYear(),
     month: today.getMonth() + 1,
     sel: E.dateKey(today.getFullYear(), today.getMonth() + 1, today.getDate()),
-    tab: 'home', view: 'month',
+    tab: 'home', view: 'month', rgn: { state: '', district: '', tehsil: '', post: '', panchayat: '', village: '' }, storyFilter: '',
     festFilter: 'all',
     zones: new Set(['north', 'west', 'south', 'east']),
     convDir: 1
@@ -84,6 +84,8 @@
     { id: 'map', lbl: 'नक्शा', ico: '<path d="M12 21s-7-6.1-7-11a7 7 0 1114 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/>' },
     { id: 'heroes', lbl: 'महापुरुष', ico: '<circle cx="12" cy="7" r="3.4"/><path d="M5 21c0-4 3.2-6.5 7-6.5s7 2.5 7 6.5"/>' },
     { id: 'places', lbl: 'स्थल', ico: '<path d="M12 21s-7-6.1-7-11a7 7 0 1114 0c0 4.9-7 11-7 11z"/><path d="M9.5 10.5l1.8 1.8 3.4-3.4"/>' },
+    { id: 'regions', lbl: 'क्षेत्र-कोश', ico: '<path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/>' },
+    { id: 'stories', lbl: 'लोक-कथाएँ', ico: '<path d="M4 5a2 2 0 012-2h13v18H6a2 2 0 01-2-2z"/><path d="M4 17h15M8 7h8M8 11h8"/>' },
     { id: 'lipi', lbl: 'गोंडी लिपि', ico: '<path d="M4 20l4.5-1.2L19 8.3a2.1 2.1 0 00-3-3L5.5 15.8z"/>' },
     { id: 'learn', lbl: 'सीखें', ico: '<path d="M4 5a2 2 0 012-2h13v18H6a2 2 0 01-2-2z"/><path d="M4 17h15"/>' },
     { id: 'settings', lbl: 'सेटिंग्स', ico: '<circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.2 5.2l2.1 2.1M16.7 16.7l2.1 2.1M18.8 5.2l-2.1 2.1M7.3 16.7l-2.1 2.1"/>' }
@@ -116,6 +118,8 @@
     if (id === 'map') renderMap();
     if (id === 'heroes') renderHeroes();
     if (id === 'places') renderPlaces();
+    if (id === 'regions') renderRegions();
+    if (id === 'stories') renderStories();
     if (id === 'home') renderHome();
     if (id === 'lipi') renderLipi();
     if (id === 'settings') renderSettings();
@@ -786,8 +790,9 @@
       <button class="btn ghost" id="hh-open" style="margin-left:6px">पूरी कहानी →</button>`;
     $('#hh-open').onclick = () => { setTab('heroes'); setTimeout(() => openHero(hp), 80); };
 
-    $('#home-quick').innerHTML = ['calendar', 'festivals', 'panchang', 'map', 'heroes', 'places'].map(id => navBtn(NAV_ALL.find(n => n.id === id), '')).join('');
+    $('#home-quick').innerHTML = ['calendar', 'festivals', 'panchang', 'map', 'heroes', 'places', 'regions', 'stories'].map(id => navBtn(NAV_ALL.find(n => n.id === id), '')).join('');
     $$('#home-quick button').forEach(b => b.onclick = () => setTab(b.dataset.tab));
+    renderDaily();
   }
 
   /* ---------- वर्ष दृश्य ---------- */
@@ -820,6 +825,163 @@
   }
 
   /* ---------- सेटिंग्स ---------- */
+  /* ---------- क्षेत्र-कोश (state→district→tehsil→post→panchayat→village) ---------- */
+  const RGN = () => (window.GW_REGIONS && window.GW_REGIONS.units) || [];
+  const RGN_LEVELS = ['state', 'district', 'tehsil', 'post', 'panchayat', 'village'];
+  const RGN_LBL = { state: 'राज्य', district: 'जिला', tehsil: 'तहसील', post: 'पोस्ट', panchayat: 'पंचायत', village: 'गाँव' };
+  const ENT_LBL = { festival: '🎪 पर्व/मेला', belief: '🙏 मान्यता/रस्म', person: '👤 महापुरुष/विद्वान', martyr: '🕯️ अमर शहीद', revolutionary: '✊ वीर क्रांतिकारी', place: '🛕 धार्मिक/दर्शन स्थल', story: '📜 लोक-कथा' };
+  function rgnChildren(parentId, level) { return RGN().filter(u => u.level === level && (parentId ? u.parent === parentId : !u.parent)); }
+  function rgnUnit(id) { return RGN().find(u => u.id === id) || null; }
+  function rgnPath(u) { const out = []; let x = u, g = 0; while (x && g++ < 8) { out.unshift(x.name_hi); x = rgnUnit(x.parent); } return out.join(' → '); }
+  function rgnSelected() {
+    let id = null;
+    for (const lv of RGN_LEVELS) if (state.rgn[lv]) id = state.rgn[lv];
+    return id ? rgnUnit(id) : null;
+  }
+  function entCard(e, u) {
+    const src = (e.sources || []).map(x => /^https?:/.test(x) ? `<a href="${esc(x)}" target="_blank" rel="noopener">स्रोत↗</a>` : esc(x)).join(' · ');
+    const deep = e.ref && e.ref.startsWith('mahapurush:') ? ` <button class="chip" data-hero="${esc(e.ref.slice(11))}">पूरी जीवनी</button>`
+      : e.ref && e.ref.startsWith('place:') ? ` <button class="chip" data-place="${esc(e.ref.slice(6))}">स्थल-विवरण</button>` : '';
+    return `<div class="card" style="padding:10px 12px;margin:8px 0">
+      <p style="margin:0"><b>${esc(e.name_hi)}</b> <span class="muted small">${ENT_LBL[e.kind] || e.kind}</span>${e.verify ? ' <span class="flag">⚠ सत्यापन शेष</span>' : ''}</p>
+      ${e.desc_hi ? `<p class="small" style="margin:4px 0">${esc(e.desc_hi)}</p>` : ''}
+      ${e.told_by ? `<p class="small" style="margin:4px 0">👴 सुनाने वाले: <b>${esc(e.told_by)}</b></p>` : ''}
+      <p class="muted small" style="margin:4px 0">📍 ${esc(rgnPath(u))}${src ? ' · स्रोत: ' + src : ''}${deep}</p></div>`;
+  }
+  function renderRegions() {
+    const sel = $('#rgn-sel'); if (!sel) return;
+    sel.innerHTML = RGN_LEVELS.map(lv => {
+      const i = RGN_LEVELS.indexOf(lv);
+      const parentId = i === 0 ? null : state.rgn[RGN_LEVELS[i - 1]];
+      const opts = i === 0 ? rgnChildren(null, lv) : (parentId ? rgnChildren(parentId, lv) : []);
+      const dis = i > 0 && !parentId ? 'disabled' : '';
+      return `<select data-lv="${lv}" ${dis} style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <option value="">${RGN_LBL[lv]} चुनें${opts.length ? ' (' + opts.length + ')' : ''}</option>
+        ${opts.map(o => `<option value="${esc(o.id)}" ${state.rgn[lv] === o.id ? 'selected' : ''}>${esc(o.name_hi)}</option>`).join('')}</select>`;
+    }).join('');
+    $$('#rgn-sel select').forEach(s2 => s2.onchange = () => {
+      const lv = s2.dataset.lv; state.rgn[lv] = s2.value;
+      const i = RGN_LEVELS.indexOf(lv);
+      RGN_LEVELS.slice(i + 1).forEach(l => state.rgn[l] = '');
+      renderRegions();
+    });
+    const u = rgnSelected();
+    const body = $('#rgn-body');
+    if (!u) {
+      const R = window.GW_REGIONS || { meta: {} };
+      const cov = R.meta.coverage || {};
+      body.innerHTML = `<div class="card"><p>ऊपर से राज्य चुनें — फिर जिला, तहसील, पोस्ट, पंचायत, गाँव।<br>
+        <span class="muted small">अभी सूचीबद्ध: ${cov.states || 0} राज्य · ${cov.districts || 0} जिला · ${cov.tehsils || 0} तहसील · ${cov.entities || 0} प्रविष्टियाँ (पर्व/मान्यता/महापुरुष/शहीद/क्रांतिकारी/स्थल/लोक-कथा)</span></p></div>`;
+      $('#rgn-count').textContent = '';
+      return;
+    }
+    const kids = RGN_LEVELS.map(lv => rgnChildren(u.id, lv)).flat();
+    const ents = u.entities || [];
+    const groups = {};
+    ents.forEach(e => (groups[e.kind] = groups[e.kind] || []).push(e));
+    $('#rgn-count').innerHTML = `<b>${esc(u.name_hi)}</b> (${RGN_LBL[u.level]}) · ${ents.length} प्रविष्टियाँ · ${kids.length} उप-इकाइयाँ`;
+    body.innerHTML = `<div class="card"><p class="muted small" style="margin:0">📍 ${esc(rgnPath(u))}</p></div>` +
+      Object.keys(ENT_LBL).filter(k => groups[k]).map(k =>
+        `<h3 class="sec" style="font-size:1rem">${ENT_LBL[k]} (${groups[k].length})</h3>` +
+        groups[k].map(e => entCard(e, u)).join('')).join('') +
+      (kids.length ? `<h3 class="sec" style="font-size:1rem">उप-इकाइयाँ</h3><div class="card"><div style="display:flex;gap:6px;flex-wrap:wrap">` +
+        kids.map(k => `<button class="chip" data-goto="${esc(k.id)}">${esc(k.name_hi)} <span class="muted">${(k.entities || []).length ? '·' + k.entities.length : ''}</span></button>`).join('') + '</div></div>' : '');
+    $$('#rgn-body [data-goto]').forEach(b => b.onclick = () => {
+      const k = rgnUnit(b.dataset.goto); if (!k) return;
+      state.rgn[k.level] = k.id;
+      const i = RGN_LEVELS.indexOf(k.level);
+      let p = k.parent, j = i - 1;
+      while (p && j >= 0) { const pu = rgnUnit(p); if (!pu) break; state.rgn[pu.level] = pu.id; p = pu.parent; j--; }
+      RGN_LEVELS.slice(i + 1).forEach(l => state.rgn[l] = '');
+      renderRegions();
+      window.scrollTo({ top: 0 });
+    });
+    $$('#rgn-body [data-hero]').forEach(b => b.onclick = () => {
+      const p = (window.GW_HEROES.persons || []).find(x => x.id === b.dataset.hero); if (p) openHero(p);
+    });
+    $$('#rgn-body [data-place]').forEach(b => b.onclick = () => {
+      const p = (window.GW_PLACES.places || []).find(x => x.id === b.dataset.place); if (p) openPlace(p);
+    });
+  }
+
+  /* ---------- लोक-कथाएँ (अलग पैनल) ---------- */
+  function allStories() {
+    const out = [];
+    RGN().forEach(u => (u.entities || []).forEach(e => { if (e.kind === 'story') out.push({ u, e }); }));
+    return out;
+  }
+  function renderStories() {
+    const fl = $('#story-filters'); if (!fl) return;
+    const states = rgnChildren(null, 'state').filter(s => RGN().some(u => (u.entities || []).some(e => e.kind === 'story') && (u.id === s.id || (u.parent || '').startsWith(s.id))));
+    fl.innerHTML = `<button class="chip ${state.storyFilter === '' ? 'active' : ''}" data-sf="">सभी</button>` +
+      states.map(s => `<button class="chip ${state.storyFilter === s.id ? 'active' : ''}" data-sf="${esc(s.id)}">${esc(s.name_hi)}</button>`).join('');
+    $$('#story-filters [data-sf]').forEach(b => b.onclick = () => { state.storyFilter = b.dataset.sf; renderStories(); });
+    let list = allStories();
+    if (state.storyFilter) list = list.filter(x => x.u.id.startsWith(state.storyFilter));
+    $('#story-count').textContent = list.length ? `${list.length} कथाएँ संकलित` : 'अभी कोई संकलित लोक-कथा नहीं — नीचे फ़ॉर्म से अपनी कथा भेजें (बुजुर्गों की ज़ुबानी)।';
+    $('#story-list').innerHTML = list.map(x => entCard(x.e, x.u)).join('');
+    const form = $('#story-form');
+    const statesAll = rgnChildren(null, 'state');
+    form.innerHTML = `
+      <div style="display:grid;gap:6px">
+        <select id="sf-state" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+          <option value="">राज्य चुनें</option>${statesAll.map(s => `<option value="${esc(s.id)}">${esc(s.name_hi)}</option>`).join('')}</select>
+        <select id="sf-district" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)" disabled>
+          <option value="">जिला चुनें</option></select>
+        <input id="sf-village" placeholder="गाँव / तहसील / पोस्ट (जितना ज्ञात हो)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <input id="sf-title" placeholder="कथा का शीर्षक" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <textarea id="sf-text" rows="5" placeholder="कथा (जैसी सुनी, वैसी लिखें)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)"></textarea>
+        <input id="sf-told" placeholder="सुनाने वाले बुजुर्ग का नाम + गाँव (अनिवार्य)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <input id="sf-by" placeholder="आपका नाम (वैकल्पिक)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <button class="btn" id="sf-submit" style="justify-self:start">📤 कथा तैयार करें (सत्यापन-कतार हेतु)</button>
+        <div id="sf-out"></div>
+      </div>`;
+    const ss = $('#sf-state'), sd = $('#sf-district');
+    ss.onchange = () => {
+      const kids = ss.value ? rgnChildren(ss.value, 'district') : [];
+      sd.disabled = !kids.length;
+      sd.innerHTML = '<option value="">जिला चुनें</option>' + kids.map(k => `<option value="${esc(k.id)}">${esc(k.name_hi)}</option>`).join('');
+    };
+    $('#sf-submit').onclick = () => {
+      const title = $('#sf-title').value.trim(), text = $('#sf-text').value.trim(), told = $('#sf-told').value.trim();
+      const dist = $('#sf-district').value, stt = $('#sf-state').value, vil = $('#sf-village').value.trim();
+      if (!title || text.length < 20) { alert('शीर्षक व कथा (कम से कम 20 अक्षर) आवश्यक।'); return; }
+      if (!told) { alert('स्रोत-नीति: सुनाने वाले बुजुर्ग का नाम + गाँव अनिवार्य।'); return; }
+      const unitId = dist || stt || 'state:cg';
+      const payload = {
+        unit_id: unitId,
+        entity: { kind: 'story', name_hi: title, desc_hi: text, told_by: told, village: vil || '',
+          sources: ['मौखिक परंपरा — ' + told], submitted_by: $('#sf-by').value.trim() || 'अनाम',
+          added: new Date().toISOString().slice(0, 10), verify: true }
+      };
+      const j = JSON.stringify(payload, null, 1);
+      $('#sf-out').innerHTML = `<p class="small">✅ कथा-पैकेट तैयार। इसे (a) नीचे से कॉपी/डाउनलोड कर <b>gondwanaroots@gmail.com</b> पर भेजें, या (b) एडमिन-पैनल → नई शोध-प्रविष्टि → प्रकार <b>story</b> में चिपकाएँ। सत्यापन के बाद ही प्रकाशित होगी।</p>
+        <textarea rows="6" readonly style="width:100%;border:1.5px solid var(--line);border-radius:10px;padding:8px;font-size:.8rem">${esc(j)}</textarea>
+        <div style="display:flex;gap:6px;margin-top:6px"><button class="chip" id="sf-copy">📋 कॉपी</button><button class="chip" id="sf-dl">📥 डाउनलोड</button></div>`;
+      $('#sf-copy').onclick = () => { try { navigator.clipboard.writeText(j); toast('कॉपी हो गया'); } catch (e) { toast('कॉपी विफल — textarea से चुनें'); } };
+      $('#sf-dl').onclick = () => {
+        const b = new Blob([j], { type: 'application/json' });
+        const a2 = document.createElement('a'); a2.href = URL.createObjectURL(b);
+        a2.download = 'lokkatha-' + Date.now().toString(36) + '.json'; a2.click();
+      };
+    };
+  }
+
+  /* ---------- आज का चयन (दैनिक-डाइजेस्ट) ---------- */
+  function renderDaily() {
+    const box = $('#home-daily');
+    if (!box || typeof fetch !== 'function') return;
+    fetch('daily_digest.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).then(d => {
+      if (!d || !d.today) return;
+      const t = d.today;
+      box.style.display = '';
+      box.innerHTML = `<p class="muted" style="letter-spacing:.14em;font-size:.72rem;margin:0">आज का चयन · ${esc(t.date_ist || '')}</p>
+        <h3 style="margin:4px 0">${ENT_LBL[t.kind] || '📌'} ${esc(t.title_hi)}</h3>
+        <p class="small" style="margin:2px 0">${esc(t.summary_hi || '')}</p>
+        <p class="muted small" style="margin:2px 0">📍 ${esc(t.region || '')} · ${(t.sources || []).map(x => /^https?:/.test(x) ? `<a href="${esc(x)}" target="_blank" rel="noopener">स्रोत↗</a>` : esc(x)).join(' · ')}</p>`;
+    }).catch(() => {});
+  }
+
   function renderSettings() {
     $('#set-region').innerHTML = `<select class="hero-select" id="set-region-sel" style="max-width:300px;width:100%">${X.cities.map(c => `<option value="${c.id}" ${c.id === state.region ? 'selected' : ''}>${esc(c.name)} (${esc(c.state)})</option>`).join('')}</select>`;
     $('#set-region-sel').onchange = e => {
@@ -978,7 +1140,7 @@
     const bs = $('#btn-search'); if (bs) bs.onclick = openSearch;
     applyPrefs();
     if (window.matchMedia) { try { matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { if (prefs.theme === 'system') applyPrefs(); }); } catch (e) {} }
-    renderLipi(); renderLearn(); renderMore(); renderHome();
+    renderLipi(); renderLearn(); renderMore(); renderHome(); renderRegions(); renderStories();
     renderAll();
     // परत 1: सेल्फ-चेक (डेटा-अखंडता + इंजन anchor)
     let validateReport = null;
@@ -996,7 +1158,7 @@
       } catch (e) { console.warn('[सेल्फ-चेक] विफल:', e); }
     }
     // debug/test handle
-    window.__GW = { state, get validateReport() { return validateReport; }, renderFestivals, renderPanchang, renderMap, renderLearn, renderCalendar, renderHeroes, heroOfTheDay, openHero, renderPlaces, openPlace, renderHome, renderLipi, renderSettings, renderMore, openSearch, drawYearView, prefs, openDay, openPin, festivals, diOf };
+    window.__GW = { state, get validateReport() { return validateReport; }, renderFestivals, renderPanchang, renderMap, renderLearn, renderCalendar, renderHeroes, heroOfTheDay, openHero, renderPlaces, openPlace, renderHome, renderLipi, renderSettings, renderMore, openSearch, drawYearView, prefs, openDay, openPin, festivals, diOf, renderRegions, renderStories, renderDaily };
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
 })();

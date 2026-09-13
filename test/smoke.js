@@ -118,6 +118,10 @@ if (!getEl('set-about').innerHTML.includes('v2.0')) throw new Error('settings ab
 console.log('renderSettings OK; theme btns =', (getEl('set-theme').innerHTML.match(/class="chip/g) || []).length, '| notify =', JSON.stringify(GW.prefs.notifyFest) + '/' + JSON.stringify(GW.prefs.notifyMoon));
 
 GW.renderMore();
+GW.renderRegions();
+console.log('renderRegions OK; sel len =', getEl('rgn-sel').innerHTML.length, '| body len =', getEl('rgn-body').innerHTML.length);
+GW.renderStories();
+console.log('renderStories OK; list len =', getEl('story-list').innerHTML.length, '| form len =', getEl('story-form').innerHTML.length);
 const moreBtns = (getEl('more-grid').innerHTML.match(/class="more-btn"/g) || []).length;
 if (moreBtns < 10) throw new Error('more grid: ' + moreBtns);
 console.log('renderMore OK; buttons =', moreBtns);

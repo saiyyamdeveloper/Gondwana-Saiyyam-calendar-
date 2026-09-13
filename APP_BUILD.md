@@ -197,3 +197,11 @@ auto-verify.yml: रात 03:00 IST बैच(40) + सोमवार digest-�
 पैनल में तीन दृश्य-चिप्स: कतार / संग्रहण / **📊 रिपोर्ट**। रिपोर्ट-इंजन क्लाइंट-साइड, शून्य-निर्भरता (SVG-donut + CSS-bars), केवल मास्टर-फ़ाइलों से (fabrication नहीं)।
 खंड: KPI-पंक्ति (7) · कतार-स्थिति donut · प्रकार-वार bars · verdict-वितरण · 14-दिन निर्णय-प्रवृत्ति · निर्णय-कर्ता donut (automation बनाम मानव) · डेटा-गुणवत्ता तालिका (नायक/स्थल/पर्व/GPS/श्रेणियाँ/तिथि-कवरेज) · संग्रहण स्थिति+license · **विरोध-सूची** (evidence से lazy-load) · हाइब्रिड स्वतः-स्वीकृतियाँ (audit) · **प्राथमिकता-क्रम कार्रवाई-सूची** · अंतिम 15 निर्णय।
 निर्यात: 🖨️ print-CSS (केवल रिपोर्ट छपे → PDF), 📥 JSON (machine-readable), 📋 Markdown (दस्तावेज़/मेल हेतु)। अवधि-फ़िल्टर: सभी/30/7 दिन (KPI+निर्णय पर)।
+
+## 14. क्षेत्र-कोश + लोक-कथा पैनल + दैनिक-चयन (v1.0)
+**मास्टर:** `gondwana_regions.json` (units: state→district→tehsil→post→panchayat→village; हर unit में entities — festival/belief/person/martyr/revolutionary/place/story) → `regions_data.js` (window.GW_REGIONS) tools/build_regions.py से। मौजूदा महापुरुष/स्थल DB स्वतः ref-लिंक (duplication नहीं)।
+**क्रॉलर:** `tools/region_crawl.py` — रैंडम खोज नहीं: `review/region_crawl.json` BFS-चैकलिस्ट (jobs कभी मिटते नहीं ⇒ कोई इकाई नहीं छूटेगी)। राज्य→जिला (List-of-districts पृष्ठ), जिला→तहसील+entities (अनुभाग-खनन: त्यौहार/संस्कृति, इतिहास, पर्यटन, प्रशासनिक) + comma-list पार्सर ('चैतराई, आमाखानी… मुख्य त्यौहार')। उम्मीदवार कतार में kind='region' — प्रकाशन मानव-सत्यापन बाद। रात्रि 3:00 IST --limit 6।
+**दैनिक-चयन:** `tools/daily_pick.py` — 248+ स्रोतित प्रविष्टियों का नियतात्मक रोटेशन → `daily_digest.json` → होम '🌅 आज का चयन' कार्ड। pointer review/daily_state.json (दोहराव तभी जब पूरा पूल घूमे)।
+**ऐप:** टैब 🗺️ क्षेत्र-कोश (6-स्तरीय cascade-selects + breadcrumb + उप-इकाई chips + kind-वार entity-कार्ड, ref से जीवनी/स्थल sheet) · टैब 📜 लोक-कथाएँ (फ़िल्टर + 👴 told_by बैज + सबमिशन-फ़ॉर्म → JSON-पैकेट: मेल/पैनल पेस्ट, told_by अनिवार्य)।
+**पैनल:** kinds story/region (approve → इकाई में merge, verify:false, approved-तिथि; publish में gondwana_regions.json + regions_data.js) · रिपोर्ट में क्षेत्र-कवरेज बॉक्स + क्रॉल-चैकलिस्ट प्रगति + blocked-कार्रवाई।
+**जाँचें:** validate v1.1 (+9 region-जाँचें: orphan/dup/level-order/nosource/story-told_by/coverage-sync) · check_regions_sync.py (JSON↔JS) · sw v9 (daily_digest network-first)।

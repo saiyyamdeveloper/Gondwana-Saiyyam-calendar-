@@ -35,7 +35,7 @@ p = load('review/pending.json')
 q = p.get('queue', [])
 check(len(q) > 0, 'कतार खाली — seeder चलाएँ')
 ids = set()
-KINDS = {'person', 'photo', 'place', 'festival', 'announcement'}
+KINDS = {'person', 'photo', 'place', 'festival', 'announcement', 'story', 'region'}
 for item in q:
     for k in ('id', 'kind', 'title', 'payload', 'status', 'added'):
         check(k in item, f'प्रविष्टि में {k} गायब: {item.get("id", "?")}')

@@ -15,6 +15,10 @@ jobs:
       - name: साप्ताहिक तिथि-समृद्धि (जन्म/मृत्यु दिन)
         if: github.event.schedule == '30 21 * * 1'
         run: python3 tools/auto_verify.py --dates
+      - name: 🗺️ क्षेत्र-क्रॉलर (BFS: राज्य→जिला→तहसील, चैकलिस्ट-आधारित)
+        run: python3 tools/region_crawl.py --limit 6 || true
+      - name: 🌅 दैनिक-चयन (आज का चयन — स्रोतित रोटेशन)
+        run: python3 tools/daily_pick.py || true
       - name: नया-डेटा खोज (विकिडेटा जनजाति-माइनिंग)
         run: python3 tools/discover_new.py
       - name: परत 1 — विकिपीडिया/विकिडेटा/स्रोत cross-जाँच + हाइब्रिड नीति
@@ -40,6 +44,6 @@ jobs:
         run: |
           git config user.name "gondwana-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add review/
+          git add review/ gondwana_regions.json regions_data.js daily_digest.json
           git diff --cached --quiet || git commit -m "auto-verify: evidence-डॉसियर + हाइब्रिड स्वतः-स्वीकृति (audit-log सहित)"
           git push

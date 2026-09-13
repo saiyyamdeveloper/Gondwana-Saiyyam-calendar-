@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-12T23:13:53.433414+00:00"
+  "updated": "2026-09-13T06:27:57+00:00"
  },
  "queue": [
   {
@@ -4911,6 +4911,306 @@
    "added": "2026-09-12",
    "added_by": "automation:discover",
    "isNew": true,
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-balrampur-ramanujganj-dipadih",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dipadih",
+   "subtitle": "छत्तीसगढ़ · बलरामपुर-रामानुजगंज",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/balrampur-ramanujganj",
+   "payload": {
+    "unit_id": "district:cg/balrampur-ramanujganj",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dipadih",
+     "desc_hi": "Major tourist attractions include: * Dipadih (Ancient Sculptors) * Rakasganda , * Tatapani (hot spring)",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balrampur-Ramanujganj_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-balrampur-ramanujganj-rakasganda",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rakasganda",
+   "subtitle": "छत्तीसगढ़ · बलरामपुर-रामानुजगंज",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/balrampur-ramanujganj",
+   "payload": {
+    "unit_id": "district:cg/balrampur-ramanujganj",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rakasganda",
+     "desc_hi": "Major tourist attractions include: * Dipadih (Ancient Sculptors) * Rakasganda , * Tatapani (hot spring)",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balrampur-Ramanujganj_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-bastar-468d2c1e",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "देवी देवता",
+   "subtitle": "छत्तीसगढ़ · बस्तर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/bastar",
+   "payload": {
+    "unit_id": "district:cg/bastar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "देवी देवता",
+     "desc_hi": "ओं की कलाकृति बनाना, देवी देवता",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-bastar-d2aaa89b",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "चैतराई",
+   "subtitle": "छत्तीसगढ़ · बस्तर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/bastar",
+   "payload": {
+    "unit_id": "district:cg/bastar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "चैतराई",
+     "desc_hi": "चैतराई, आमाखानी, अकती, बीज खुटनी, हरियाली, इतवारी, नवाखाई आदि बस्तर के आदिवासियों के मुख्य त्यौहार",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-bastar-b04b92db",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "आमाखानी",
+   "subtitle": "छत्तीसगढ़ · बस्तर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/bastar",
+   "payload": {
+    "unit_id": "district:cg/bastar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "आमाखानी",
+     "desc_hi": "चैतराई, आमाखानी, अकती, बीज खुटनी, हरियाली, इतवारी, नवाखाई आदि बस्तर के आदिवासियों के मुख्य त्यौहार",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-bastar-a2e4e8f9",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "अकती",
+   "subtitle": "छत्तीसगढ़ · बस्तर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/bastar",
+   "payload": {
+    "unit_id": "district:cg/bastar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "अकती",
+     "desc_hi": "चैतराई, आमाखानी, अकती, बीज खुटनी, हरियाली, इतवारी, नवाखाई आदि बस्तर के आदिवासियों के मुख्य त्यौहार",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-bastar-5aff5ddc",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "बीज खुटनी",
+   "subtitle": "छत्तीसगढ़ · बस्तर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/bastar",
+   "payload": {
+    "unit_id": "district:cg/bastar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "बीज खुटनी",
+     "desc_hi": "चैतराई, आमाखानी, अकती, बीज खुटनी, हरियाली, इतवारी, नवाखाई आदि बस्तर के आदिवासियों के मुख्य त्यौहार",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-bastar-b57e33a3",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "हरियाली",
+   "subtitle": "छत्तीसगढ़ · बस्तर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/bastar",
+   "payload": {
+    "unit_id": "district:cg/bastar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "हरियाली",
+     "desc_hi": "चैतराई, आमाखानी, अकती, बीज खुटनी, हरियाली, इतवारी, नवाखाई आदि बस्तर के आदिवासियों के मुख्य त्यौहार",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-bastar-04bd2bc1",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "इतवारी",
+   "subtitle": "छत्तीसगढ़ · बस्तर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/bastar",
+   "payload": {
+    "unit_id": "district:cg/bastar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "इतवारी",
+     "desc_hi": "चैतराई, आमाखानी, अकती, बीज खुटनी, हरियाली, इतवारी, नवाखाई आदि बस्तर के आदिवासियों के मुख्य त्यौहार",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-bastar-5568aa74",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "ठाकुर दाई",
+   "subtitle": "छत्तीसगढ़ · बस्तर",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/bastar",
+   "payload": {
+    "unit_id": "district:cg/bastar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "ठाकुर दाई",
+     "desc_hi": " आदिवासी समुदाय एकजुट होकर डोकरीदेव, ठाकुर दाई, रानीमाता, शीतला, रावदेवता, भैंसासुर, मावली, अगारमोती, डोंगर, बगरूम आदि देवी देवता",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B0_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-13",
+   "added_by": "region-crawl",
    "decision": null,
    "decided_by": null,
    "decided_at": null,

@@ -145,6 +145,50 @@
       ok(false, 'CITY_BHOPAL', 'anchor-टेस्ट हेतु bhopal शहर नहीं मिला');
     }
 
+    /* ---- क्षेत्र-कोश (regions) ---- */
+    const RGN_KINDS = ['festival', 'belief', 'person', 'martyr', 'revolutionary', 'place', 'story'];
+    const RGN_LEVELS = ['state', 'district', 'tehsil', 'post', 'panchayat', 'village'];
+    const R = window.GW_REGIONS;
+    if (R && R.units) {
+      const ids = new Set();
+      let dup = 0, badLevel = 0, orphan = 0, badEnt = 0, noSrc = 0, noTold = 0, ents = 0, lvlErr = 0;
+      R.units.forEach(u => ids.add(u.id));
+      R.units.forEach(u => {
+        if (ids.size !== R.units.length) dup++;
+        if (RGN_LEVELS.indexOf(u.level) === -1) badLevel++;
+        if (u.parent && !ids.has(u.parent)) orphan++;
+        if (u.parent) {
+          const p = R.units.find(x => x.id === u.parent);
+          if (p && RGN_LEVELS.indexOf(p.level) >= RGN_LEVELS.indexOf(u.level)) lvlErr++;
+        }
+        if (!u.name_hi) badEnt++;
+        (u.entities || []).forEach(e => {
+          ents++;
+          if (RGN_KINDS.indexOf(e.kind) === -1 || !e.name_hi) badEnt++;
+          if (!e.sources || !e.sources.length) noSrc++;
+          if (e.kind === 'story' && !e.told_by) noTold++;
+        });
+      });
+      ok(dup === 0, 'REGION_DUP_ID', 'क्षेत्र-कोश: डुप्लिकेट unit-id');
+      ok(badLevel === 0, 'REGION_BAD_LEVEL', 'क्षेत्र-कोश: अमान्य level');
+      ok(orphan === 0, 'REGION_ORPHAN', 'क्षेत्र-कोश: parent इकाई नहीं मिली');
+      ok(lvlErr === 0, 'REGION_LEVEL_ORDER', 'क्षेत्र-कोश: parent-child level-क्रम टूटा');
+      ok(badEnt === 0, 'REGION_BAD_ENTITY', 'क्षेत्र-कोश: अमान्य entity (kind/name_hi)');
+      ok(noSrc === 0, 'REGION_ENTITY_NOSOURCE', 'क्षेत्र-कोश: sources[] के बिना entity — नीति उल्लंघन');
+      ok(noTold === 0, 'REGION_STORY_NOTOLD', 'क्षेत्र-कोश: लोक-कथा में told_by अनिवार्य');
+      const cov = (R.meta || {}).coverage || {};
+      ok(cov.entities === ents, 'REGION_COVERAGE_SYNC', `क्षेत्र-कोश: meta.coverage.entities (${cov.entities}) ≠ वास्तविक (${ents})`);
+      ok((cov.states || 0) >= 20, 'REGION_STATES_MIN', 'क्षेत्र-कोश: कम से कम 20 राज्य अपेक्षित');
+    } else {
+      warn(false, 'REGION_MISSING', 'GW_REGIONS लोड नहीं हुआ (regions_data.js)');
+    }
+
+    /* ---- दैनिक-डाइजेस्ट फ़ाइल-स्वच्छता (यदि मौजूद) ---- */
+    if (typeof window.GW_DAILY !== 'undefined' && window.GW_DAILY && window.GW_DAILY.today) {
+      const t = window.GW_DAILY.today;
+      ok(!!t.title_hi && /^\d{4}-\d{2}-\d{2}$/.test(t.date_ist || ''), 'DAILY_SHAPE', 'दैनिक-चयन: आकार अमान्य');
+    }
+
     return finish();
     function finish() {
       const failed = errors.length;
@@ -152,5 +196,5 @@
     }
   }
 
-  window.GWValidate = { run, version: '1.0' };
+  window.GWValidate = { run, version: '1.1' };
 })();

@@ -25,6 +25,8 @@ jobs:
         run: node test/admin_smoke.js
       - name: CSV ↔ JSON sync
         run: python3 test/check_csv_sync.py
+      - name: क्षेत्र-कोश sync (JSON ↔ JS)
+        run: python3 test/check_regions_sync.py
       - name: एडमिन-पैनल संरचना जाँच
         run: python3 test/check_admin.py
       - name: LLM प्रॉम्प्ट अखंडता
