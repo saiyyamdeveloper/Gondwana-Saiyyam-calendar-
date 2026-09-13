@@ -18,7 +18,10 @@ const FILES = {
   'review/pending.json': { meta: {}, queue: [{ id: 'person:x', kind: 'person', subtype: 'shahid', title: 'X', payload: { id: 'x', sources: ['https://e.example'] }, status: 'pending', added: '2026-01-01' }] },
   'review/decisions.json': { meta: {}, decisions: [] },
   'media/manifest.json': { meta: {}, items: [{ id: 'm1', type: 'image', title: 'T', status: 'candidate', license: 'own', added: '2026-01-01' }] },
-  'review/evidence/index.json': { 'person:x': { score: 91, verdict: 'pass', checked_at: '2026-01-01T00:00:00Z', summary_hi: 'सारांश', n_sources: 3 } }
+  'review/evidence/index.json': { 'person:x': { score: 91, verdict: 'pass', checked_at: '2026-01-01T00:00:00Z', summary_hi: 'सारांश', n_sources: 3 } },
+  'review/reports.json': { meta: {}, reports: [{ id: 'rpt-1', status: 'new', kind: 'person', item_title: 'X', ts: '2026-09-13T00:00:00Z', reporter: { email: 'a@b.c', verified: true, name: 'A' }, fields: [{ field: 'birth_date', current: '1900', proposed: '1901-01-01' }], new_entry: null, wrong_note: '', evidence: ['https://e.example'], admin_note: '', decided_by: null, decided_at: null }] },
+  'review/region_crawl.json': { meta: {}, jobs: [{ unit: 'district:cg/bastar', task: 'mine', status: 'done' }] },
+  'report_config.json': { google_client_id: '', report_endpoint: '' }
 };
 global.window = global;
 global.document = {

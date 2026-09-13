@@ -65,7 +65,7 @@
   .rpt-act { background: #fff7e6; border: 1px solid #f3ddb0; border-radius: 10px; padding: 8px 10px; margin: 6px 0; font-size: .8rem; }
   @media print {
     body { background: #fff !important; }
-    #adm-login, .adm-top button, #adm-views, #view-queue, #view-storage, #adm-super, #adm-storage,
+    #adm-login, .adm-top button, #adm-views, #view-queue, #view-storage, #view-reports, #adm-super, #adm-storage,
     #q-list, .q-actions, #pub-log, footer, p.muted.small { display: none !important; }
     #view-report { display: block !important; }
     .card { border: 1px solid #ccc; box-shadow: none; }
@@ -83,6 +83,8 @@
     <input id="lg-email" type="email" placeholder="ईमेल ID" autocomplete="username">
     <input id="lg-pass" type="password" placeholder="पासवर्ड" autocomplete="current-password">
     <button class="btn" id="lg-btn" style="width:100%">लॉगिन</button>
+    <p class="muted small" style="margin:8px 0 2px;text-align:center">— या —</p>
+    <div id="lg-gis" style="display:flex;justify-content:center;min-height:10px"></div>
     <p id="lg-err" class="warn small hidden" style="margin-top:10px"></p>
     <div class="sec-note">🔒 सुरक्षा-नोट: यह पैनल static-साइट पर है — लॉगिन एक <b>समीक्षा-गेट</b> है (repo में केवल password-hash रखा है)। प्रकाशन हेतु असली सुरक्षा GitHub-अनुमतियाँ/PAT हैं। पासवर्ड मासिक स्वतः बदलता है (GitHub Actions → Gmail)।</div>
   </div>
@@ -99,6 +101,7 @@
       <button class="vw-chip active" data-v="queue">🛡️ सत्यापन-कतार</button>
       <button class="vw-chip" data-v="storage">🗄️ संग्रहण</button>
       <button class="vw-chip" data-v="report">📊 रिपोर्ट</button>
+      <button class="vw-chip" data-v="reports">📥 जन-रिपोर्ट</button>
     </div>
   </div>
 
@@ -177,6 +180,10 @@
 
   <div id="view-report" class="hidden">
     <div class="card" id="adm-report"></div>
+  </div>
+
+  <div id="view-reports" class="hidden">
+    <div class="card" id="adm-reports"></div>
   </div>
 
   <!-- सुपर-एडमिन: नई प्रविष्टि + खाते + रोटेशन -->

@@ -1,6 +1,7 @@
 {
  "google_client_id": "",
- "reports_email": "gondwanaroots@gmail.com",
- "formsubmit_ajax": "https://formsubmit.co/ajax/gondwanaroots@gmail.com",
- "note": "google_client_id भरते ही 'Sign in with Google' सक्रिय (Google Cloud Console → OAuth Client ID → Authorized JS origins में https://saiyyamdeveloper.github.io जोड़ें)।"
+ "report_endpoint": "",
+ "identity": "google-only",
+ "reports_file": "review/reports.json",
+ "note": "सेटअप: SETUP_REPORTS.md — OAuth Client ID व Apps Script URL भरते ही रिपोर्ट-प्रणाली सक्रिय।"
 }

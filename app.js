@@ -973,39 +973,49 @@
     };
   }
 
-  /* ---------- ⚠️ गलती-रिपोर्ट पैनल (सार्वजनिक; admin से असंबद्ध) ---------- */
-  let RPT_CFG = null;
-  const RPT_KINDS = { person: 'महापुरुष (जन्मदिन/bio/उपलब्धि)', festival: 'पर्व/त्योहार/तिथि', place: 'स्थल/GPS/महत्व', story: 'लोक-कथा/गाथा', calendar: 'कैलेंडर/पंचांग-गणना', region: 'क्षेत्र-कोश प्रविष्टि', other: 'अन्य' };
+  /* ---------- ⚠️ गलती-रिपोर्ट पैनल v2 (सार्वजनिक; strict Google-पहचान; सीधे repo में) ---------- */
+  let RPT_CFG = null, rptToken = null, rptMode = 'fix';
+  const RPT_KINDS = { person: 'महापुरुष (जन्मदिन/bio/उपलब्धि)', festival: 'पर्व/त्योहार/तिथि', place: 'स्थल/GPS/महत्व', story: 'लोक-कथा/गाथा', region: 'क्षेत्र-कोश प्रविष्टि', calendar: 'कैलेंडर/पंचांग-गणना', other: 'अन्य' };
+  const RPT_FIELDS = {
+    person: [['name_hi', 'नाम'], ['tribe_hi', 'जनजाति/जाति'], ['birth', 'जन्म (वर्णन)'], ['birth_date', 'जन्म-तिथि (YYYY-MM-DD)'], ['death', 'निधन (वर्णन)'], ['death_date', 'निधन-तिथि (YYYY-MM-DD)'], ['first_achievement', 'जीवनी/उपलब्धि'], ['state', 'राज्य'], ['district', 'जिला']],
+    place: [['name_hi', 'नाम'], ['significance', 'महत्व/विवरण'], ['state', 'राज्य'], ['district', 'जिला'], ['lat', 'अक्षांश'], ['lon', 'देशांतर'], ['gps_precision', 'GPS-सटीकता']],
+    festival: [['deva', 'नाम'], ['meaning', 'अर्थ'], ['story', 'विवरण'], ['ritual', 'रस्म'], ['region', 'क्षेत्र']],
+    story: [['name_hi', 'शीर्षक'], ['desc_hi', 'कथा'], ['told_by', 'सुनाने वाले बुजुर्ग']],
+    region: [['name_hi', 'नाम'], ['desc_hi', 'विवरण'], ['told_by', 'सुनाने वाले']],
+    calendar: [], other: []
+  };
   function rptCfg() {
     if (RPT_CFG) return Promise.resolve(RPT_CFG);
-    if (typeof fetch !== 'function') { RPT_CFG = { reports_email: 'gondwanaroots@gmail.com' }; return Promise.resolve(RPT_CFG); }
+    if (typeof fetch !== 'function') { RPT_CFG = { identity: 'google-only' }; return Promise.resolve(RPT_CFG); }
     return fetch('report_config.json', { cache: 'no-store' }).then(r => r.json()).then(c => { RPT_CFG = c; return c; })
-      .catch(() => { RPT_CFG = { reports_email: 'gondwanaroots@gmail.com' }; return RPT_CFG; });
+      .catch(() => { RPT_CFG = { identity: 'google-only' }; return RPT_CFG; });
   }
   function rptMine() { try { return JSON.parse(localStorage.getItem('gw-rpt-mine') || '[]'); } catch (e) { return []; } }
   function openReportFor(ctx) { state.rptPrefill = ctx; setTab('report'); }
+  function rptFindRecord(kind, title) {
+    if (kind === 'person') return (H.persons || []).find(p => p.name_hi === title) || null;
+    if (kind === 'place') return (PL.places || []).find(p => p.name_hi === title) || null;
+    if (kind === 'festival') return (X.festivals || []).find(f => (f.deva || f.name) === title) || null;
+    let hit = null;
+    RGN().forEach(u => (u.entities || []).forEach(e => { if (!hit && e.name_hi === title && (kind === 'story' ? e.kind === 'story' : true)) hit = e; }));
+    return hit;
+  }
   function allItemsForKind(k) {
     if (k === 'person') return (H.persons || []).map(p => ({ id: p.id, t: p.name_hi }));
     if (k === 'place') return (PL.places || []).map(p => ({ id: p.id, t: p.name_hi }));
     if (k === 'festival') return (X.festivals || []).map(f => ({ id: f.id, t: f.deva || f.name }));
-    if (k === 'story') { const o = []; RGN().forEach(u => (u.entities || []).forEach(e => { if (e.kind === 'story') o.push({ id: u.id + ':' + e.name_hi, t: e.name_hi }); })); return o; }
-    if (k === 'region') { const o = []; RGN().forEach(u => (u.entities || []).forEach(e => o.push({ id: u.id + ':' + e.name_hi, t: e.name_hi }))); return o; }
+    if (k === 'story' || k === 'region') { const o = []; RGN().forEach(u => (u.entities || []).forEach(e => { if (k === 'story' ? e.kind === 'story' : true) o.push({ id: u.id + ':' + e.name_hi, t: e.name_hi }); })); return o; }
     return [];
   }
   function renderReportPanel() {
     const idBox = $('#rpt-identity'), formBox = $('#rpt-form');
     if (!idBox || !formBox) return;
-    const savedEmail = (typeof localStorage !== 'undefined' && localStorage.getItem('gw-rpt-email')) || '';
-    const savedName = (typeof localStorage !== 'undefined' && localStorage.getItem('gw-rpt-name')) || '';
     rptCfg().then(cfg => {
-      idBox.innerHTML = `<h3>👤 पहचान (रिपोर्ट-कर्ता)</h3>
-        <div id="gis-btn" style="margin:6px 0"></div>
-        <p class="muted small" style="margin:4px 0">${cfg.google_client_id ? 'Google/Gmail खाते से एक-टैप साइन-इन — पता सत्यापित होता है।' : 'Gmail-साइन-इन सक्रिय होने पर एक-टैप लॉगिन दिखेगा; तब तक ईमेल स्वयं भरें (सत्यापन FormSubmit मेल-डिलीवरी से)।'}</p>
-        <div style="display:grid;gap:6px">
-          <input id="rp-email" type="email" placeholder="आपका Gmail/ईमेल (अनिवार्य)" value="${esc(savedEmail)}" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
-          <input id="rp-name" placeholder="आपका नाम (वैकल्पिक)" value="${esc(savedName)}" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
-        </div>`;
-      if (cfg.google_client_id && typeof document !== 'undefined') {
+      const ready = !!(cfg.google_client_id && cfg.report_endpoint);
+      idBox.innerHTML = `<h3>👤 पहचान — Google/Gmail साइन-इन अनिवार्य</h3>
+        <div id="gis-btn" style="margin:6px 0;min-height:40px"></div>
+        <p class="muted small" id="rpt-id-note" style="margin:4px 0">${rptToken ? '' : ready ? 'नीति: केवल सत्यापित Gmail से ही रिपोर्ट स्वीकार (स्पैम-रोध)।' : '⚙ सेटअप लंबित: report_config.json में google_client_id व report_endpoint भरते ही साइन-इन सक्रिय होगा (SETUP_REPORTS.md)।'}</p>`;
+      if (ready && !rptToken && typeof document !== 'undefined') {
         const load = () => {
           try {
             google.accounts.id.initialize({ client_id: cfg.google_client_id, callback: resp => {
@@ -1013,87 +1023,150 @@
                 const part = resp.credential.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
                 const p = JSON.parse(decodeURIComponent(escape(atob(part))));
                 if (p && p.email) {
-                  $('#rp-email').value = p.email;
-                  if (p.name) $('#rp-name').value = p.name;
-                  try { localStorage.setItem('gw-rpt-email', p.email); localStorage.setItem('gw-rpt-name', p.name || ''); } catch (e) {}
-                  toast('Gmail सत्यापित: ' + p.email);
+                  rptToken = resp.credential;
+                  const note = $('#rpt-id-note');
+                  if (note) note.innerHTML = '✅ सत्यापित: <b>' + esc(p.email) + '</b> — अब रिपोर्ट भेज सकते हैं।';
+                  const gb = $('#gis-btn'); if (gb) gb.innerHTML = '';
+                  const sb = $('#rp-submit'); if (sb) sb.disabled = false;
                 }
-              } catch (e) { toast('टोकन-पठन विफल'); }
+              } catch (e) {}
             } });
-            const el = $('#gis-btn'); if (el) { el.innerHTML = ''; google.accounts.id.renderButton(el, { theme: 'outline', size: 'large', text: 'signin_with' }); }
+            const el = $('#gis-btn'); if (el) { el.innerHTML = ''; google.accounts.id.renderButton(el, { theme: 'filled_blue', size: 'large', text: 'signin_with' }); }
           } catch (e) {}
         };
         if (window.google && google.accounts) load();
         else { const sc = document.createElement('script'); sc.src = 'https://accounts.google.com/gsi/client'; sc.async = true; sc.onload = load; document.head.appendChild(sc); }
       }
+      drawReportForm(formBox, cfg);
     });
-    const pf = state.rptPrefill || {};
-    const kindOpts = Object.keys(RPT_KINDS).map(k => `<option value="${k}" ${pf.kind === k ? 'selected' : ''}>${RPT_KINDS[k]}</option>`).join('');
-    const items = allItemsForKind(pf.kind || 'person');
-    formBox.innerHTML = `<h3>📝 रिपोर्ट विवरण</h3>
-      <div style="display:grid;gap:6px">
-        <select id="rp-kind" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">${kindOpts}</select>
-        <input id="rp-item" list="rp-items" placeholder="प्रविष्टि खोजें/चुनें (जैसे: बिरसा मुंडा)" value="${esc(pf.title || '')}" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
-        <datalist id="rp-items">${items.map(i => `<option value="${esc(i.t)}">`).join('')}</datalist>
-        <input id="rp-field" placeholder="किस फ़ील्ड में गलती? (जैसे: जन्म-तिथि, निधन, विवरण, GPS…)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
-        <textarea id="rp-wrong" rows="2" placeholder="क्या गलत दिख रहा है?" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)"></textarea>
-        <textarea id="rp-correct" rows="2" placeholder="सही जानकारी क्या है?" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)"></textarea>
-        <input id="rp-evidence" placeholder="प्रमाण-स्रोत URL (अनिवार्य — विकिपीडिया/सरकारी/समाचार)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
-        <button class="btn" id="rp-submit" style="justify-self:start">📤 रिपोर्ट भेजें</button>
-        <div id="rp-out"></div>
-      </div>`;
-    $('#rp-kind').onchange = () => {
-      const items2 = allItemsForKind($('#rp-kind').value);
-      $('#rp-items').innerHTML = items2.map(i => `<option value="${esc(i.t)}">`).join('');
-    };
-    $('#rp-submit').onclick = () => submitReport();
     drawMyReports();
   }
-  function submitReport() {
+  function drawReportForm(formBox, cfg) {
+    const pf = state.rptPrefill || {};
+    const mode = pf.new ? 'new' : rptMode;
+    formBox.innerHTML = `<h3>📝 रिपोर्ट विवरण</h3>
+      <div style="display:flex;gap:6px;margin:6px 0">
+        <button class="chip ${mode === 'fix' ? 'active' : ''}" data-rm="fix">✎ मौजूदा प्रविष्टि में सुधार</button>
+        <button class="chip ${mode === 'new' ? 'active' : ''}" data-rm="new">➕ नई प्रविष्टि का सुझाव</button>
+      </div>
+      ${mode === 'fix' ? `
+      <div style="display:grid;gap:6px">
+        <select id="rp-kind" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">${Object.keys(RPT_KINDS).map(k => `<option value="${k}" ${pf.kind === k ? 'selected' : ''}>${RPT_KINDS[k]}</option>`).join('')}</select>
+        <input id="rp-item" list="rp-items" placeholder="प्रविष्टि चुनें/खोजें (जैसे: बिरसा मुंडा)" value="${esc(pf.title || '')}" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <datalist id="rp-items">${allItemsForKind($('#rp-kind') ? pf.kind || 'person' : 'person').map(i => `<option value="${esc(i.t)}">`).join('')}</datalist>
+        <div id="rp-fields"></div>
+        <textarea id="rp-wrong" rows="2" placeholder="अन्य टिप्पणी — क्या गलत दिख रहा है?" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)"></textarea>
+      </div>` : `
+      <div style="display:grid;gap:6px">
+        <select id="rp-nkind" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+          <option value="person">नया महापुरुष/शहीद/क्रांतिकारी</option><option value="festival">नया पर्व</option>
+          <option value="place">नया स्थल</option><option value="story">नई लोक-कथा</option></select>
+        <input id="rp-nname" placeholder="नाम" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <input id="rp-nmeta" placeholder="जनजाति · राज्य · जिला · गाँव (जितना ज्ञात हो)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <input id="rp-ndates" placeholder="जन्म/निधन (जैसे: 1875-11-15 / 1900-06-09)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <textarea id="rp-ndesc" rows="3" placeholder="विवरण/गाथा (दायरा-नीति: केवल गोंडवाना आदिवासी-संबंधित)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)"></textarea>
+      </div>`}
+      <div style="display:grid;gap:6px;margin-top:6px">
+        <input id="rp-evidence" placeholder="प्रमाण-स्रोत URL 1 (अनिवार्य — विकिपीडिया/सरकारी/समाचार)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <input id="rp-evidence2" placeholder="प्रमाण-स्रोत URL 2 (वैकल्पिक)" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <input id="rp-name" placeholder="आपका नाम (वैकल्पिक)" value="${esc((typeof localStorage !== 'undefined' && localStorage.getItem('gw-rpt-name')) || '')}" style="border:1.5px solid var(--line);border-radius:10px;padding:8px;font-family:var(--deva)">
+        <input id="rp-hp" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button class="btn" id="rp-submit" style="justify-self:start" ${rptToken ? '' : 'disabled'}>📤 रिपोर्ट भेजें ${rptToken ? '' : '(पहले Google साइन-इन)'}</button>
+        <div id="rp-out"></div>
+      </div>`;
+    $$('#rpt-form [data-rm]').forEach(b => b.onclick = () => { rptMode = b.dataset.rm; state.rptPrefill = Object.assign({}, state.rptPrefill, { new: rptMode === 'new' }); renderReportPanel(); });
+    const ks = $('#rp-kind');
+    if (ks) {
+      const refresh = () => {
+        $('#rp-items').innerHTML = allItemsForKind(ks.value).map(i => `<option value="${esc(i.t)}">`).join('');
+        drawFieldRows();
+      };
+      ks.onchange = refresh;
+      const it = $('#rp-item');
+      it.onchange = drawFieldRows;
+      it.onblur = drawFieldRows;
+      refresh();
+      if (pf.title) setTimeout(drawFieldRows, 0);
+    }
+    const sub = $('#rp-submit'); if (sub) sub.onclick = () => submitReport(mode);
+  }
+  function drawFieldRows() {
+    const box = $('#rp-fields'); if (!box) return;
+    const kind = $('#rp-kind').value, title = $('#rp-item').value.trim();
+    const rec = title ? rptFindRecord(kind, title) : null;
+    const fields = RPT_FIELDS[kind] || [];
+    if (!rec) { box.innerHTML = rec === null && title ? '<p class="muted small">प्रविष्टि इस डेटाबेस में नहीं मिली — "नई प्रविष्टि" मोड चुनें या नाम जाँचें।</p>' : '<p class="muted small">प्रविष्टि चुनें — उसके फ़ील्ड-मान यहाँ दिखेंगे; गलत फ़ील्ड चुनकर सही मान भरें।</p>'; return; }
+    box.innerHTML = `<table class="rpt-tbl" style="width:100%;border-collapse:collapse;font-size:.8rem">${fields.map(f => {
+      const cur = rec[f[0]]; if (cur === undefined || cur === null || cur === '') return '';
+      return `<tr style="border-bottom:1px dashed var(--line)"><td style="padding:4px"><label class="small"><input type="checkbox" class="rp-chk" data-f="${f[0]}" style="vertical-align:middle"> ${f[1]}</label></td>
+        <td style="padding:4px;color:#8a8378;max-width:130px;overflow:hidden;text-overflow:ellipsis">${esc(String(cur).slice(0, 90))}</td>
+        <td style="padding:4px"><input class="rp-new" data-f="${f[0]}" placeholder="सही मान" style="width:100%;border:1.2px solid var(--line);border-radius:8px;padding:5px;font-family:var(--deva)"></td></tr>`;
+    }).join('')}</table>
+    <p class="muted small">गलत फ़ील्ड पर ✓ लगाएँ और सही मान लिखें — एडमिन को "हमारा → प्रस्तावित" अंतर दिखेगा।</p>`;
+  }
+  function submitReport(mode) {
     const g = id2 => { const e = $('#' + id2); return e ? (e.value || '').trim() : ''; };
-    const email = g('rp-email'), kind = g('rp-kind'), item = g('rp-item'), field = g('rp-field'),
-      wrong = g('rp-wrong'), correct = g('rp-correct'), evidence = g('rp-evidence');
-    if (!email || !email.includes('@')) { alert('रिपोर्ट हेतु ईमेल अनिवार्य (पहचान-नीति)।'); return; }
-    if (!item || !wrong) { alert('प्रविष्टि व "क्या गलत है" भरें।'); return; }
-    if (!/^https?:\/\/.+/.test(evidence)) { alert('प्रमाण-स्रोत URL अनिवार्य — बिना स्रोत रिपोर्ट पर कार्रवाई नहीं होगी (डेटा-ईमानदारी नीति)।'); return; }
-    const items = allItemsForKind(kind);
-    const hit = items.find(i => i.t === item) || null;
-    const pkt = {
-      id: 'rpt-' + Date.now().toString(36), ts: new Date().toISOString(),
-      kind, item_title: item, item_id: hit ? hit.id : (state.rptPrefill && state.rptPrefill.id) || '',
-      field, wrong, correct, evidence,
-      reporter: { email, name: g('rp-name'), auth: (typeof localStorage !== 'undefined' && localStorage.getItem('gw-rpt-email') === email) ? 'saved/google' : 'manual' },
-      _policy: 'केवल गोंडवाना आदिवासी-सामग्री (SCOPE_POLICY.md); स्रोत-सहित रिपोर्ट ही स्वीकार'
-    };
-    try { localStorage.setItem('gw-rpt-email', email); localStorage.setItem('gw-rpt-name', g('rp-name')); } catch (e) {}
+    if (!rptToken) { alert('नीति: केवल सत्यापित Google/Gmail साइन-इन से रिपोर्ट।'); return; }
+    if (g('rp-hp')) return; // honeypot
+    const ev = [g('rp-evidence'), g('rp-evidence2')].filter(u => /^https?:\/\/.+/.test(u));
+    if (!ev.length) { alert('प्रमाण-स्रोत URL अनिवार्य — बिना स्रोत रिपोर्ट पर कार्रवाई नहीं होगी।'); return; }
+    let pkt;
+    if (mode === 'new') {
+      const nm = g('rp-nname'), ds = g('rp-ndesc');
+      if (!nm || ds.length < 20) { alert('नाम व विवरण (20+ अक्षर) आवश्यक।'); return; }
+      pkt = { kind: g('rp-nkind') || 'person', item_title: nm + ' (नई प्रविष्टि-सुझाव)',
+        new_entry: { name: nm, meta: g('rp-nmeta'), dates: g('rp-ndates'), desc: ds }, wrong_note: '' };
+    } else {
+      const kind = g('rp-kind'), title = g('rp-item');
+      if (!title) { alert('प्रविष्टि चुनें/लिखें।'); return; }
+      const rec = rptFindRecord(kind, title);
+      const fields = [];
+      $$('#rp-fields .rp-chk').forEach(c => {
+        if (c.checked) {
+          const inp = document.querySelector('#rp-fields .rp-new[data-f="' + c.dataset.f + '"]');
+          const val = inp ? (inp.value || '').trim() : '';
+          fields.push({ field: c.dataset.f, current: rec ? String(rec[c.dataset.f] == null ? '' : rec[c.dataset.f]) : '', proposed: val });
+        }
+      });
+      if (!fields.length && !g('rp-wrong')) { alert('कम से कम एक गलत फ़ील्ड चुनें या टिप्पणी लिखें।'); return; }
+      if (fields.some(f => !f.proposed)) { alert('हर चुने फ़ील्ड का "सही मान" भरें।'); return; }
+      const items = allItemsForKind(kind); const hit = items.find(i => i.t === title);
+      pkt = { kind, item_title: title, item_id: hit ? hit.id : '', fields, wrong_note: g('rp-wrong'), new_entry: null };
+    }
+    pkt.id = 'rpt-' + Date.now().toString(36);
+    pkt.evidence = ev;
+    pkt.reporter_name = g('rp-name');
+    pkt.id_token = rptToken;
+    try { localStorage.setItem('gw-rpt-name', pkt.reporter_name); } catch (e) {}
     const out = $('#rp-out');
-    const done = via => {
-      const mine = rptMine(); mine.unshift(pkt);
+    const finish = (okMsg) => {
+      const mine = rptMine(); const copy = JSON.parse(JSON.stringify(pkt)); delete copy.id_token;
+      mine.unshift(Object.assign(copy, { sent: new Date().toISOString() }));
       try { localStorage.setItem('gw-rpt-mine', JSON.stringify(mine.slice(0, 50))); } catch (e) {}
-      if (out) out.innerHTML = `<p class="small">✅ रिपोर्ट दर्ज (${esc(via)}) — धन्यवाद! सत्यापन के बाद सुधार प्रकाशित होगा; स्थिति 'मेरी भेजी रिपोर्ट्स' में दिखेगी।</p>`;
-      state.rptPrefill = null;
-      drawMyReports();
+      if (out) out.innerHTML = `<p class="small">✅ ${esc(okMsg)} — धन्यवाद! एडमिन-सत्यापन के बाद सुधार प्रकाशित होगा।</p>`;
+      state.rptPrefill = null; drawMyReports();
     };
-    const fallback = () => {
-      const body = encodeURIComponent(JSON.stringify(pkt, null, 1));
-      if (out) out.innerHTML = `<p class="small">⚠ सीधा भेजना विफल — (a) नीचे बटन से मेल खोलें (विषय/सामग्री भरी हुई है), या (b) पैकेट कॉपी करें:</p>
-        <div style="display:flex;gap:6px;margin:6px 0"><a class="chip" href="mailto:${esc((RPT_CFG && RPT_CFG.reports_email) || 'gondwanaroots@gmail.com')}?subject=${encodeURIComponent('गलती-रिपोर्ट: ' + item)}&body=${body}">📧 मेल से भेजें</a><button class="chip" id="rp-copy">📋 कॉपी</button></div>
+    const fail = msg => {
+      if (out) out.innerHTML = `<p class="small" style="color:#b91c1c">✗ ${esc(msg || 'भेजना विफल')} — नेटवर्क जाँचें या पैकेट कॉपी कर gondwanaroots@gmail.com पर मेल करें:</p>
         <textarea rows="5" readonly style="width:100%;font-size:.75rem;border:1.5px solid var(--line);border-radius:10px;padding:6px">${esc(JSON.stringify(pkt, null, 1))}</textarea>`;
-      const c = $('#rp-copy');
-      if (c) c.onclick = () => { try { navigator.clipboard.writeText(JSON.stringify(pkt, null, 1)); toast('कॉपी हो गया'); } catch (e) {} };
-      done('मैन्युअल-फ़ॉलबैक तैयार');
     };
-    if (typeof fetch === 'function' && RPT_CFG && RPT_CFG.formsubmit_ajax) {
-      fetch(RPT_CFG.formsubmit_ajax, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ _subject: 'गलती-रिपोर्ट: ' + item, _template: 'table', रिपोर्ट: JSON.stringify(pkt) }) })
-        .then(r => r.ok ? done('FormSubmit → Gmail') : fallback()).catch(fallback);
-    } else fallback();
+    rptCfg().then(cfg => {
+      if (!cfg.report_endpoint) { fail('रिपोर्ट-एंडपॉइंट सेटअप लंबित (SETUP_REPORTS.md)'); return; }
+      if (typeof fetch !== 'function') { fail('fetch उपलब्ध नहीं'); return; }
+      fetch(cfg.report_endpoint, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(pkt) })
+        .then(r => r.text()).then(t => {
+          let d = {}; try { d = JSON.parse(t); } catch (e) {}
+          if (d.ok) finish('रिपोर्ट दर्ज (ID: ' + d.id + ') — सीधे सत्यापन-पैनल पहुँची');
+          else fail(d.error || 'सर्वर ने अस्वीकारा');
+        }).catch(() => fail('नेटवर्क-त्रुटि'));
+    });
   }
   function drawMyReports() {
     const box = $('#rpt-mine'); if (!box) return;
     const mine = rptMine();
     box.innerHTML = mine.length ? mine.map(r => `<div class="small" style="border-bottom:1px dashed var(--line);padding:5px 0">
-      ⚠ <b>${esc(r.item_title)}</b> (${esc(RPT_KINDS[r.kind] || r.kind)}) — ${esc(r.field || '')}<br>
-      <span class="muted">${esc((r.ts || '').slice(0, 16).replace('T', ' '))} · ${esc(r.reporter && r.reporter.email || '')} · स्थिति: समीक्षा-प्रतीक्षित</span></div>`).join('')
+      ⚠ <b>${esc(r.item_title)}</b> (${esc(RPT_KINDS[r.kind] || r.kind)})${(r.fields || []).length ? ' — ' + r.fields.map(f => esc(f.field)).join(', ') : ''}<br>
+      <span class="muted">${esc((r.sent || '').slice(0, 16).replace('T', ' '))} · स्थिति: एडमिन-समीक्षा प्रतीक्षित</span></div>`).join('')
       : '<p class="muted small">इस उपकरण से अभी कोई रिपोर्ट नहीं भेजी गई।</p>';
   }
 

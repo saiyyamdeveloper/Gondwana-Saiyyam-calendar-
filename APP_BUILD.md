@@ -211,10 +211,8 @@ auto-verify.yml: रात 03:00 IST बैच(40) + सोमवार digest-�
 - **SCOPE_POLICY.md** (स्थायी नीति): सारी सामग्री — कहानियाँ, वीर, शहीद, विद्वान, गाथा-पाठ, ऑडियो, इमेज — **केवल गोंडवाना आदिवासी जनजातियों** से संबंधित; अन्य कोई नहीं। जुड़ाव: regions meta.scope, क्रॉलर TRIBE_RE, ऐप-फ़ॉर्म नीति-पंक्ति, अस्वीकृति-कारण मानक।
 - sw v10 (ताकि पुरानी कैश से 'रिपोर्ट दिख नहीं रही' समस्या न रहे)।
 
-## 16. ⚠️ सार्वजनिक गलती-रिपोर्ट पैनल (admin से असंबंधित)
-ऐप टैब **"गलती रिपोर्ट"** + हर महापुरुष/स्थल/पिन/दिन-शीट में footer-बटन "⚠️ इस जानकारी में गलती? रिपोर्ट करें" (प्रीफ़िल सहित)।
-प्रवाह: पहचान (Gmail/ईमेल) → प्रविष्टि+फ़ील्ड+क्या गलत+सही जानकारी → **प्रमाण-स्रोत URL अनिवार्य** → FormSubmit AJAX से सीधे gondwanaroots@gmail.com (विफलता पर mailto/कॉपी फ़ॉलबैक) → "मेरी भेजी रिपोर्ट्स" (localStorage)। एडमिन पैनल में kind='correction': स्वीकृति पर फ़िक्स-व्हाइटलिस्ट फ़ील्ड्स (birth/death/birth_date/first_achievement/significance/deva/story…) सीधे मास्टर में लागू।
-**सेटअप (एकबारगी):**
-1. FormSubmit सक्रियण: पहली रिपोर्ट के बाद gondwanaroots@gmail.com पर activation-मेल आएगा → Confirm दबाएँ।
-2. Google साइन-इन (वैकल्पिक): Google Cloud Console → Credentials → OAuth Client ID (Web) → Authorized JavaScript origins में `https://saiyyamdeveloper.github.io` → client-id `report_config.json → google_client_id` में डालें (FRESH-regex में है, तुरंत लागू)।
-**Gmail-OTP क्यों नहीं:** OTP भेजने हेतु SMTP-सीक्रेट सर्वर चाहिए; सार्वजनिक static साइट में सीक्रेट रखना असुरक्षित। product-grade समतुल्य = Google साइन-इन (सत्यापित Gmail, एक-टैप, कोई पासवर्ड/सीक्रेट क्लाइंट पर नहीं)।
+## 16. ⚠️ जन-रिपोर्ट प्रणाली v2 (उपयोगकर्ता-निर्णय: B/both/fixnew/strict)
+**पथ:** ऐप फ़ॉर्म (strict Google साइन-इन — id_token) → **Apps Script वेब-ऐप** (टोकन सर्वर-साइड सत्यापित: aud+exp+email_verified; rate-limit 12/घंटा; honeypot) → GitHub Contents API से `review/reports.json` में **सीधा commit** → एडमिन-पैनल **📥 जन-रिपोर्ट** दृश्य (केवल मानव-प्रेषित) → ✓ स्वीकार = फ़ील्ड-दर-फ़ील्ड correction-कतार (audit-लॉग) → 📦 प्रकाशन पर मास्टर-DB में लागू; ✗ अस्वीकार = कारण सहित। नई-प्रविष्टि सुझाव → pending कतार (सामान्य सत्यापन)। Gmail/FormSubmit-पथ हटाया।
+**फ़ॉर्म v2:** मोड (✎ सुधार / ➕ नई प्रविष्टि) · प्रविष्टि चुनते ही **वर्तमान मान-तालिका** (नाम/जनजाति/जन्म-तिथि/निधन/bio/GPS…) — गलत फ़ील्ड ✓ + सही मान · प्रमाण-स्रोत अनिवार्य · दायरा-नीति (SCOPE_POLICY.md)।
+**एडमिन-लॉगिन both:** Gmail साइन-इन (allowlist = accounts) primary + email/पासवर्ड fallback; हैश deep-link `admin.html#reports`।
+**सेटअप (SETUP_REPORTS.md):** OAuth Client ID → report_config.json; Apps Script deploy → Script Properties (GH_TOKEN/GH_REPO/GH_BRANCH/GOOGLE_CLIENT_ID) → Web-app URL → report_endpoint। PAT केवल Apps Script में।

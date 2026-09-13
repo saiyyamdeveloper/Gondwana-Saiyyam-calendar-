@@ -15,6 +15,7 @@
   let MEDIA = [], MAN_META = {}, MEDIA_DIRTY = false;
   let EVID = {};
   let CRAWL = null;
+  let REPORTS = [], RCFG = null;
   let mdStatus = 'candidate', mdType = 'all', mdSearch = '';
   const TYPE_HI = { image: 'इमेज', audio: 'ऑडियो/voice', song: 'गीत', video: 'वीडियो', doc: 'दस्तावेज़', other: 'अन्य' };
   const STATUS_HI = { candidate: '⏳ सत्यापन-प्रतीक्षित', verified: '✅ सत्यापित', rejected: '❌ अस्वीकृत' };
@@ -52,23 +53,28 @@
   /* ---------- boot ---------- */
   async function init() {
     try {
-      const [cr, pq, dj, mf, evi, crawl] = await Promise.all([
+      const [cr, pq, dj, mf, evi, crawl, rpt, rcfg] = await Promise.all([
         fetch('admin-credentials.json', { cache: 'no-store' }).then(r => r.json()),
         fetch('review/pending.json', { cache: 'no-store' }).then(r => r.json()),
         fetch('review/decisions.json', { cache: 'no-store' }).then(r => r.json()),
         fetch('media/manifest.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null),
         fetch('review/evidence/index.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null),
-        fetch('review/region_crawl.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null)
+        fetch('review/region_crawl.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null),
+        fetch('review/reports.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null),
+        fetch('report_config.json', { cache: 'no-store' }).then(r => r.json()).catch(() => null)
       ]);
       CREDS = cr; QUEUE = pq.queue || []; DECISIONS = dj.decisions || [];
       if (mf) { MAN_META = mf.meta || {}; MEDIA = mf.items || []; }
       if (evi) EVID = evi;
       if (crawl) CRAWL = crawl;
+      if (rpt && rpt.reports) REPORTS = rpt.reports;
+      RCFG = rcfg;
       applyDraft();
     } catch (e) {
       $('#lg-err').textContent = 'डेटा लोड विफल: ' + e.message; $('#lg-err').classList.remove('hidden');
       return;
     }
+    setupGoogleLogin();
     const saved = sessionStorage.getItem('gw-admin-session');
     if (saved) { try { SESSION = JSON.parse(saved); } catch (e) { SESSION = null; } }
     if (SESSION && accountOf(SESSION.email)) showApp(); else { SESSION = null; }
@@ -115,6 +121,7 @@
     $('#pub-push').onclick = pushToGitHub;
     drawStats(); drawFilters(); drawQueue(); drawDecisions(); initStorage(); initViews();
     if ((location.hash || '') === '#report') setView('report');
+    if ((location.hash || '') === '#reports') setView('reports');
   }
 
   function pending() { return QUEUE.filter(q => q.status === 'pending' && !isPhotoSlot(q)); }
@@ -421,12 +428,128 @@
     logLine('पूर्ण। CI (1066+ जाँच) अपने आप चलेगा → हरा होने पर ~1 मिनट में लाइव।');
   }
 
+  /* ============ 📥 जन-रिपोर्ट (public reports inbox) ============ */
+  function setupGoogleLogin() {
+    const box = $('#lg-gis'); if (!box) return;
+    if (!RCFG || !RCFG.google_client_id) { box.innerHTML = '<p class="muted small" style="margin:0">Gmail-लॉगिन सेटअप लंबित (report_config.json → google_client_id; SETUP_REPORTS.md)</p>'; return; }
+    const onCred = resp => {
+      try {
+        const part = resp.credential.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+        const p = JSON.parse(decodeURIComponent(escape(atob(part))));
+        const acc = p && p.email && accountOf(p.email);
+        const err = $('#lg-err');
+        if (!acc) { err.textContent = 'यह Gmail (' + (p && p.email) + ') पैनल हेतु अनुमत नहीं — खाता-सूची में जोड़ें।'; err.classList.remove('hidden'); return; }
+        err.classList.add('hidden');
+        SESSION = { email: acc.email, role: acc.role, auth: 'google', at: new Date().toISOString() };
+        try { sessionStorage.setItem('gw-admin-session', JSON.stringify(SESSION)); } catch (e) {}
+        showApp();
+      } catch (e) { /* टोकन-पठन विफल */ }
+    };
+    const load = () => {
+      try {
+        google.accounts.id.initialize({ client_id: RCFG.google_client_id, callback: onCred });
+        box.innerHTML = '';
+        google.accounts.id.renderButton(box, { theme: 'outline', size: 'large', text: 'signin_with' });
+      } catch (e) {}
+    };
+    if (window.google && window.google.accounts) load();
+    else { const sc = document.createElement('script'); sc.src = 'https://accounts.google.com/gsi/client'; sc.async = true; sc.onload = load; document.head.appendChild(sc); }
+  }
+  function repText() { return JSON.stringify({ meta: { title: 'जन-रिपोर्ट इनबॉक्स — केवल मानव-प्रेषित, सत्यापित-Gmail', updated: new Date().toISOString() }, reports: REPORTS }, null, 1); }
+  async function persistReports(msg) {
+    const ok = await ghCommit({ 'review/reports.json': repText(), 'review/pending.json': queueText(), 'review/decisions.json': decText() }, msg || 'verify-panel: जन-रिपोर्ट निर्णय');
+    toastLine(ok ? 'निर्णय + रिपोर्ट-स्थिति repo में सहेजी गई ✓' : '⚠ स्थानीय रूप से दर्ज — सहेजने हेतु 📦 खंड में PAT डालकर प्रकाशित करें');
+  }
+  function kindToTarget(k) { return k === 'person' ? 'person' : k === 'place' ? 'place' : k === 'festival' ? 'festival' : null; }
+  function slugId(s) { return String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) || 'x'; }
+  function newPayloadFromReport(r) {
+    const ne = r.new_entry || {};
+    const dates = String(ne.dates || '').split('/').map(x => x.trim());
+    const base = { sources: (r.evidence || []).slice(), verify: true, verify_note: 'जन-सुझाव — ' + (r.reporter && r.reporter.email || '') };
+    if (r.kind === 'festival') return Object.assign({ id: 'jansu-' + slugId(ne.name), deva: ne.name, story: ne.desc, ritual: '', region: ne.meta || '', meaning: '' }, base);
+    if (r.kind === 'place') return Object.assign({ id: 'jansu-' + slugId(ne.name), name_hi: ne.name, name_en: '', category: 'dharmik', state: (ne.meta || '').split('·')[1] ? (ne.meta || '').split('·')[1].trim() : '', district: (ne.meta || '').split('·')[2] ? (ne.meta || '').split('·')[2].trim() : '', lat: null, lon: null, gps_precision: 'district-level', significance: ne.desc, year: dates[0] || '', event: '', tribes: (ne.meta || '').split('·')[0] ? (ne.meta || '').split('·')[0].trim() : '', map_pin_id: null, verify_note: base.verify_note + ' · प्रकाशन पूर्व lat/lon भरें' }, base);
+    if (r.kind === 'story') return { unit_id: 'state:cg', entity: Object.assign({ kind: 'story', name_hi: ne.name, desc_hi: ne.desc, told_by: ne.meta || 'जन-सुझाव (पुनः जाँच आवश्यक)', added: todayStr() }, base) };
+    return Object.assign({ id: 'jansu-' + slugId(ne.name), name_hi: ne.name, name_en: '', gender: '', tribe_hi: (ne.meta || '').split('·')[0] ? (ne.meta || '').split('·')[0].trim() : '', state: (ne.meta || '').split('·')[1] ? (ne.meta || '').split('·')[1].trim() : '', district: (ne.meta || '').split('·')[2] ? (ne.meta || '').split('·')[2].trim() : '', birth: dates[0] || '', death: dates[1] || '', birth_date: '', death_date: '', category: 'freedom', tags: [], first_achievement: ne.desc, medals: '', awards: '', memorial: '', date_source: '' }, base);
+  }
+  async function acceptReport(r) {
+    const by = SESSION.email + ' (' + SESSION.role + ')';
+    r.status = 'accepted'; r.decided_by = by; r.decided_at = new Date().toISOString();
+    if (r.new_entry) {
+      const k = ['person', 'place', 'festival', 'story'].includes(r.kind) ? r.kind : 'person';
+      const pl = newPayloadFromReport(r);
+      QUEUE.unshift({
+        id: k + ':' + (pl.id || slugId(r.item_title)), kind: k, subtype: 'जन-सुझाव',
+        title: (r.new_entry.name || r.item_title) + ' (नई प्रविष्टि)', subtitle: r.new_entry.meta || 'जन-रिपोर्ट से सुझाव',
+        reason: 'जन-रिपोर्ट स्वीकृत — स्रोत जाँचकर प्रकाशित करें', source_file: k === 'person' ? 'mahapurush_database.json' : k === 'place' ? 'gondwana_places.json' : (k === 'story' ? 'gondwana_regions.json' : 'extra_data.json'),
+        record_id: pl.id || slugId(r.item_title), payload: pl, status: 'pending', added: todayStr(),
+        added_by: 'report:' + (r.reporter && r.reporter.email || '?'), decision: null, decided_by: null, decided_at: null, note: '', isNew: true
+      });
+      DECISIONS.push({ id: r.id, kind: 'report', title: r.item_title, decision: 'approved', note: 'नई प्रविष्टि-सुझाव → कतार में', by, at: r.decided_at });
+    } else {
+      const tgt = kindToTarget(r.kind);
+      (r.fields || []).forEach(f => {
+        if (!f.proposed) return;
+        const qid = 'correction:' + r.id + '-' + f.field;
+        if (QUEUE.some(x => x.id === qid)) return;
+        QUEUE.unshift({
+          id: qid, kind: 'correction', subtype: 'जन-रिपोर्ट',
+          title: r.item_title + ' → ' + f.field, subtitle: 'हमारा: ' + (f.current || '—') + ' ⇒ प्रस्तावित: ' + f.proposed,
+          reason: 'जन-रिपोर्ट स्वीकृत — 📦 प्रकाशन पर फ़िक्स मास्टर में लागू होगा', source_file: 'data.js',
+          record_id: r.item_id, payload: { fix: { target: tgt || 'manual', id: r.item_id, field: f.field, value: f.proposed }, report_id: r.id, evidence: r.evidence },
+          status: 'approved', added: todayStr(), added_by: 'report:' + (r.reporter && r.reporter.email || '?'),
+          decision: 'approved', decided_by: by, decided_at: r.decided_at, note: 'जन-रिपोर्ट स्वीकृति', isNew: true
+        });
+        DECISIONS.push({ id: qid, kind: 'correction', title: r.item_title + ' → ' + f.field + ': ' + (f.current || '') + ' ⇒ ' + f.proposed, decision: 'approved', note: 'जन-रिपोर्ट', by, at: r.decided_at });
+      });
+      if (!(r.fields || []).length && r.wrong_note) {
+        DECISIONS.push({ id: r.id, kind: 'report', title: r.item_title, decision: 'approved', note: 'टिप्पणी-मात्र: ' + r.wrong_note.slice(0, 120), by, at: r.decided_at });
+      }
+    }
+    drawStats(); drawQueue(); drawDecisions(); renderReports();
+    await persistReports('verify-panel: जन-रिपोर्ट स्वीकृत — ' + r.item_title);
+  }
+  async function rejectReport(r) {
+    const reason = prompt('अस्वीकृति का कारण (audit-log + रिपोर्ट-स्थिति में दर्ज होगा):', 'प्रमाण अपर्याप्त / दायरा-नीति');
+    if (reason === null) return;
+    r.status = 'rejected'; r.admin_note = reason; r.decided_by = SESSION.email + ' (' + SESSION.role + ')'; r.decided_at = new Date().toISOString();
+    DECISIONS.push({ id: r.id, kind: 'report', title: r.item_title, decision: 'rejected', note: reason, by: r.decided_by, at: r.decided_at });
+    drawDecisions(); renderReports();
+    await persistReports('verify-panel: जन-रिपोर्ट अस्वीकृत — ' + r.item_title);
+  }
+  function repCard(r) {
+    const open = r.status === 'new' || r.status === 'reviewing';
+    const rows = (r.fields || []).map(f => `<tr><td>${esc(f.field)}</td><td style="color:#8a8378">${esc(String(f.current || '—').slice(0, 120))}</td><td><b>${esc(String(f.proposed || ''))}</b></td></tr>`).join('');
+    return `<div style="border:1px solid var(--line);border-radius:12px;padding:10px;margin:10px 0;background:var(--paper2)">
+      <p style="margin:0"><b>${r.status === 'accepted' ? '✅' : r.status === 'rejected' ? '❌' : '🆕'} ${esc(r.item_title)}</b>
+        <span class="kind-badge">${KIND_HI[r.kind] || esc(r.kind)}</span>${r.new_entry ? ' <span class="kind-badge">➕ नई प्रविष्टि-सुझाव</span>' : ''}</p>
+      <p class="muted small" style="margin:3px 0">प्रेषक: <b>${esc((r.reporter || {}).email || '?')}</b>${(r.reporter || {}).verified ? ' (Gmail-सत्यापित ✓)' : ''}${(r.reporter || {}).name ? ' · ' + esc(r.reporter.name) : ''} · ${esc((r.ts || '').slice(0, 16).replace('T', ' '))}</p>
+      ${rows ? `<table class="rpt-tbl"><tr><th>फ़ील्ड</th><th>हमारा मान</th><th>प्रस्तावित सुधार</th></tr>${rows}</table>` : ''}
+      ${r.new_entry ? `<p class="small" style="margin:4px 0">📄 ${esc(JSON.stringify(r.new_entry).slice(0, 400))}</p>` : ''}
+      ${r.wrong_note ? `<p class="small" style="margin:4px 0">💬 ${esc(r.wrong_note)}</p>` : ''}
+      <p class="muted small" style="margin:4px 0">प्रमाण: ${(r.evidence || []).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\//, '').slice(0, 44))}↗</a>`).join(' · ') || '—'}</p>
+      ${r.admin_note ? `<p class="small" style="margin:3px 0">📝 कारण: ${esc(r.admin_note)}</p>` : ''}
+      ${open ? `<div class="q-actions"><button class="btn ok sm" data-racc="${esc(r.id)}">✓ स्वीकार (सुधार कतार में)</button><button class="btn bad sm" data-rrej="${esc(r.id)}">✗ अस्वीकार</button></div>` : `<p class="muted small">${esc(r.decided_by || '')} · ${esc((r.decided_at || '').slice(0, 16).replace('T', ' '))}</p>`}
+    </div>`;
+  }
+  function renderReports() {
+    const box = $('#adm-reports'); if (!box) return;
+    const open = REPORTS.filter(r => r.status === 'new' || r.status === 'reviewing');
+    const done = REPORTS.filter(r => r.status !== 'new' && r.status !== 'reviewing');
+    box.innerHTML = `<h3>📥 जन-रिपोर्ट इनबॉक्स — केवल व्यक्ति-प्रेषित (सत्यापित Gmail, strict)</h3>
+      <p class="muted small">${REPORTS.length} कुल · ${open.length} खुली · ${done.length} निपटाई · स्वीकार → सुधार-कतार (audit) → 📦 प्रकाशन पर मास्टर में लागू · स्थिति-बदलाव repo में सहेजा जाता है</p>
+      ${open.map(repCard).join('') || '<div class="card"><p class="muted">🎉 कोई खुली जन-रिपोर्ट नहीं।</p></div>'}
+      ${done.length ? `<details style="margin-top:8px"><summary class="muted small" style="cursor:pointer">निपटाई गई रिपोर्ट्स (${done.length})</summary>${done.slice(0, 40).map(repCard).join('')}</details>` : ''}`;
+    $$('#adm-reports [data-racc]').forEach(b => b.onclick = () => { const r = REPORTS.find(x => x.id === b.dataset.racc); if (r) acceptReport(r); });
+    $$('#adm-reports [data-rrej]').forEach(b => b.onclick = () => { const r = REPORTS.find(x => x.id === b.dataset.rrej); if (r) rejectReport(r); });
+  }
+
   /* ============ 📊 रिपोर्ट-पैनल (स्व-निर्मित संरचना) ============ */
   let rptPeriod = 'all', CONF = {};
   function setView(v) {
-    ['queue', 'storage', 'report'].forEach(k => { const el = $('#view-' + k); if (el) el.classList.toggle('hidden', k !== v); });
+    ['queue', 'storage', 'report', 'reports'].forEach(k => { const el = $('#view-' + k); if (el) el.classList.toggle('hidden', k !== v); });
     $$('#adm-views .vw-chip').forEach(b => b.classList.toggle('active', b.dataset.v === v));
     if (v === 'report') drawReport();
+    if (v === 'reports') renderReports();
   }
   function initViews() { $$('#adm-views .vw-chip').forEach(b => b.onclick = () => setView(b.dataset.v)); }
   function cutoff() { return rptPeriod === 'all' ? null : new Date(Date.now() - (+rptPeriod) * 864e5).toISOString(); }
