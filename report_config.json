@@ -1,6 +1,6 @@
 {
  "google_client_id": "767936857347-mimgpr10e17a3u9gtj3uqsdc81qi4rm9.apps.googleusercontent.com",
- "report_endpoint": "",
+ "report_endpoint": "https://script.google.com/macros/s/AKfycbxLVFboGrjPL6G3AIyZV-IWJAccEhZTOwi0wSxr-AwKjV9dwuy68silsP5dCWeEtjG_kw/exec",
  "identity": "google-only",
  "reports_file": "review/reports.json",
  "note": "सेटअप: SETUP_REPORTS.md — OAuth Client ID व Apps Script URL भरते ही रिपोर्ट-प्रणाली सक्रिय।"
