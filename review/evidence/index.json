@@ -25,7 +25,13 @@
   "verdict": "conflict",
   "checked_at": "2026-09-13T23:21:28.253997+00:00",
   "summary_hi": "तेलंगा खड़िया: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: death हमारा=1914 बनाम wikidata=1880 — मानव-निर्णय आवश्यक।",
-  "n_sources": 3
+  "n_sources": 3,
+  "llm": {
+   "verdict": "inconclusive",
+   "confidence": 45,
+   "verified_citations": 2,
+   "provider": "openrouter"
+  }
  },
  "person:telangi-munda": {
   "score": 10,
@@ -39,7 +45,13 @@
   "verdict": "conflict",
   "checked_at": "2026-09-13T23:21:29.439058+00:00",
   "summary_hi": "जतरा टाना भगत: स्कोर 5/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1880 बनाम wikidata=1888; death हमारा=1920 बनाम wikidata=1916 — मानव-निर्णय आवश्यक।",
-  "n_sources": 3
+  "n_sources": 3,
+  "llm": {
+   "verdict": "pass",
+   "confidence": 82,
+   "verified_citations": 0,
+   "provider": "openrouter"
+  }
  },
  "person:tantya-bhil": {
   "score": 71,
@@ -74,7 +86,13 @@
   "verdict": "conflict",
   "checked_at": "2026-09-13T23:21:33.597398+00:00",
   "summary_hi": "लक्ष्मण नायक ('देशनायक'): स्कोर 0/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: birth हमारा=1899 बनाम wikidata=1946; death हमारा=1943 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
-  "n_sources": 2
+  "n_sources": 2,
+  "llm": {
+   "verdict": "inconclusive",
+   "confidence": 30,
+   "verified_citations": 0,
+   "provider": "openrouter"
+  }
  },
  "person:chakra-bisoi": {
   "score": 10,
@@ -88,14 +106,26 @@
   "verdict": "conflict",
   "checked_at": "2026-09-13T23:21:34.887597+00:00",
   "summary_hi": "धरणीधर भुइयाँ: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: death हमारा=1868 बनाम wikidata=1914 — मानव-निर्णय आवश्यक।",
-  "n_sources": 2
+  "n_sources": 2,
+  "llm": {
+   "verdict": "inconclusive",
+   "confidence": 15,
+   "verified_citations": 0,
+   "provider": "openrouter"
+  }
  },
  "person:govind-guru": {
   "score": 28,
   "verdict": "conflict",
   "checked_at": "2026-09-13T23:21:35.678743+00:00",
   "summary_hi": "गोविंद गुरु: स्कोर 28/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-death-match, wd-death_date, internal-sources, internal-category। विरोध: birth हमारा=1850 बनाम wikidata=1858 — मानव-निर्णय आवश्यक।",
-  "n_sources": 2
+  "n_sources": 2,
+  "llm": {
+   "verdict": "inconclusive",
+   "confidence": 55,
+   "verified_citations": 0,
+   "provider": "openrouter"
+  }
  },
  "person:alluri-sitarama-raju": {
   "score": 91,
@@ -172,7 +202,13 @@
   "verdict": "conflict",
   "checked_at": "2026-09-13T23:21:41.034224+00:00",
   "summary_hi": "नीलम संजीप खैस: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, internal-sources, internal-category। विरोध: birth हमारा=2000 बनाम wikidata=1998 — मानव-निर्णय आवश्यक।",
-  "n_sources": 2
+  "n_sources": 2,
+  "llm": {
+   "verdict": "inconclusive",
+   "confidence": 45,
+   "verified_citations": 0,
+   "provider": "openrouter"
+  }
  },
  "person:limba-ram": {
   "score": 58,
@@ -193,7 +229,13 @@
   "verdict": "conflict",
   "checked_at": "2026-09-13T23:21:43.255027+00:00",
   "summary_hi": "जीव्या सोमा माशे: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, internal-sources, internal-category। विरोध: death हमारा=2020 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
-  "n_sources": 3
+  "n_sources": 3,
+  "llm": {
+   "verdict": "inconclusive",
+   "confidence": 65,
+   "verified_citations": 0,
+   "provider": "openrouter"
+  }
  },
  "person:masram": {
   "score": 10,
@@ -221,7 +263,13 @@
   "verdict": "conflict",
   "checked_at": "2026-09-13T23:21:45.702618+00:00",
   "summary_hi": "निर्मला पुतुल: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1981 बनाम wikidata=1972 — मानव-निर्णय आवश्यक।",
-  "n_sources": 2
+  "n_sources": 2,
+  "llm": {
+   "verdict": "inconclusive",
+   "confidence": 55,
+   "verified_citations": 1,
+   "provider": "openrouter"
+  }
  },
  "person:maina-tudu": {
   "score": 58,
@@ -1055,5 +1103,12 @@
   "checked_at": "2026-09-12T17:33:02.066015+00:00",
   "summary_hi": "M. Keivom: स्कोर 53/100 (🟡 आंशिक सबूत)। मिले सबूत: wikidata, wd-birth-match, source-url, wd-birth_date, internal-sources, internal-category।",
   "n_sources": 1
+ },
+ "__meta": {
+  "llm_runs": 1,
+  "last_run": "2026-09-12T17:37:39.367405+00:00",
+  "provider": "openrouter",
+  "dossiers_with_llm": 8,
+  "note": "LLM-परत सक्रिय है (secrets जुड़े हुए) — बैच हर रात 3:00 IST"
  }
 }

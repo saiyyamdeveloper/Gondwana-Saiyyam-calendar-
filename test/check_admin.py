@@ -82,6 +82,7 @@ if os.path.exists(evp):
     evid = json.load(open(evp, encoding='utf-8'))
     VSET = {'pass', 'partial', 'conflict', 'weak', 'nosource'}
     for eid, v in evid.items():
+        if eid.startswith('__'): continue  # __meta = LLM-परत झंडा, evidence-entry नहीं
         check(isinstance(v.get('score'), int) and 0 <= v['score'] <= 100, f'evidence स्कोर अमान्य: {eid}')
         check(v.get('verdict') in VSET, f'evidence verdict अमान्य: {eid}')
         check(bool(v.get('summary_hi')), f'evidence सारांश खाली: {eid}')

@@ -166,9 +166,16 @@ def main():
         json.dump(ev, open(ef, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         shields = [c.get('shield', []) for c in res.get('claims', [])]
         nv = sum(1 for grp in shields for c in grp if isinstance(c, dict) and c.get('shield') == 'verified')
-        index.setdefault(item['id'], {})['llm'] = {'verdict': res.get('verdict'), 'confidence': res.get('confidence'), 'verified_citations': nv}
+        index.setdefault(item['id'], {})['llm'] = {'verdict': res.get('verdict'), 'confidence': res.get('confidence'), 'verified_citations': nv,
+                                                     'provider': os.environ.get('LLM_PROVIDER', 'openrouter')}
         done += 1
         print(f"  llm {item['id']}: {res.get('verdict')} conf={res.get('confidence')} verified-citations={nv}")
+    if done:
+        meta = index.setdefault('__meta', {})
+        meta['llm_runs'] = int(meta.get('llm_runs') or 0) + 1
+        meta['last_run'] = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
+        meta['provider'] = os.environ.get('LLM_PROVIDER', 'openrouter')
+        meta['dossiers_with_llm'] = sum(1 for k, v in index.items() if not k.startswith('__') and isinstance(v, dict) and v.get('llm'))
     json.dump(index, open(index_p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('llm-research:', done, 'प्रविष्टियाँ')
     return 0

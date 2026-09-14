@@ -206,8 +206,18 @@ def main():
             try: rec['llm'] = json.load(open(old, encoding='utf-8')).get('llm')
             except Exception: pass
         json.dump(rec, open(old, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        prev_llm = (index.get(item['id']) or {}).get('llm')
         index[item['id']] = {k: rec[k] for k in ('score', 'verdict', 'checked_at', 'summary_hi')}
         index[item['id']]['n_sources'] = len(ev.domains)
+        # LLM-सारांश कभी न मिटे (बग-फ़िक्स 2026-09): पहले index-मान, न मिले तो डॉसियर से संक्षिप्त रूप
+        if prev_llm:
+            index[item['id']]['llm'] = prev_llm
+        elif rec.get('llm'):
+            L = rec['llm']
+            nv = sum(1 for c in (L.get('claims') or []) for sh in (c.get('shield') or [])
+                     if isinstance(sh, dict) and sh.get('shield') == 'verified')
+            index[item['id']]['llm'] = {'verdict': L.get('verdict'), 'confidence': L.get('confidence'),
+                                        'verified_citations': nv, 'provider': L.get('provider')}
         counts[verdict] = counts.get(verdict, 0) + 1
         # हाइब्रिड स्वतः-स्वीकृति
         if verdict == 'pass' and item['kind'] in ('person', 'place', 'festival'):

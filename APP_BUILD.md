@@ -216,3 +216,7 @@ auto-verify.yml: रात 03:00 IST बैच(40) + सोमवार digest-�
 **फ़ॉर्म v2:** मोड (✎ सुधार / ➕ नई प्रविष्टि) · प्रविष्टि चुनते ही **वर्तमान मान-तालिका** (नाम/जनजाति/जन्म-तिथि/निधन/bio/GPS…) — गलत फ़ील्ड ✓ + सही मान · प्रमाण-स्रोत अनिवार्य · दायरा-नीति (SCOPE_POLICY.md)।
 **एडमिन-लॉगिन both:** Gmail साइन-इन (allowlist = accounts) primary + email/पासवर्ड fallback; हैश deep-link `admin.html#reports`।
 **सेटअप (SETUP_REPORTS.md):** OAuth Client ID → report_config.json; Apps Script deploy → Script Properties (GH_TOKEN/GH_REPO/GH_BRANCH/GOOGLE_CLIENT_ID) → Web-app URL → report_endpoint। PAT केवल Apps Script में।
+
+## 17. बग-फ़िक्स: "LLM-परत अभी नहीं चली" स्टेल-संदेश (2026-09-14)
+जड़: रात्रि auto_verify.py हर index-entry को पूर्ण-प्रतिस्थापित करता → llm_research द्वारा लिखा `llm`字段 मिट जाता (डॉसियर फ़ाइलों में बचता)। पैनल-शर्त index पर निर्भर थी ⇒ हमेशा secrets-संदेश।
+फ़िक्स: (1) auto_verify अब पिछला index-llm सुरक्षित रखता है / डॉसियर से संक्षिप्त रूप भरता है; (2) llm_research `__meta` (llm_runs/last_run/provider/dossiers_with_llm) लिखता है — डबल-बीमा; (3) admin.js शर्त `__meta.llm_runs || any-entry.llm` + सक्रिय-संदेश में संख्या/अंतिम-रन; (4) rptAgg `__meta`-सुरक्षित; (5) एकबारगी सिंक (8 डॉसियर → index); (6) CI-गार्ड test/check_llm_index.py।

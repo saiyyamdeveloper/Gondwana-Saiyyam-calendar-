@@ -204,7 +204,7 @@
         ${e.dates && (e.dates.birth || e.dates.death) ? `<p class="small">🎂 जन्म: <b>${esc(e.dates.birth || '—')}</b> · 🕊️ निधन: <b>${esc(e.dates.death || '—')}</b> <span class="muted">(${esc(e.dates.source || '')})</span></p>` : ''}
         <table style="width:100%;font-size:.72rem;border-collapse:collapse">${(e.checks || []).map(c => `<tr><td style="border-bottom:1px dashed var(--line);padding:3px;white-space:nowrap">${c.ok ? '✓' : '✗'} ${esc(c.name)} (+${c.pts})</td><td style="border-bottom:1px dashed var(--line);padding:3px">${esc(c.detail)}${c.link ? ` <a href="${esc(c.link)}" target="_blank" rel="noopener">↗</a>` : ''}</td></tr>`).join('')}</table>
         ${(e.conflicts || []).length ? `<div class="q-reason">⚠ विरोध: ${e.conflicts.map(c => `${esc(c.field)}: हमारा ${esc(c.ours)} बनाम ${esc(c.source)} ${esc(c.theirs)}`).join('; ')} — अंतिम निर्णय आपका</div>` : ''}
-        ${e.llm ? `<p class="small" style="margin-top:6px">🤖 LLM (${esc(e.llm.provider || '')}): <b>${esc(e.llm.verdict || '')}</b> · विश्वास ${e.llm.confidence ?? '-'}<br>${esc(e.llm.summary_hi || '')}</p>${(e.llm.claims || []).map(cl => `<p class="small" style="margin:3px 0">• ${esc(cl.claim)} ${(cl.shield || []).map(sh => `<a href="${esc(sh.url)}" target="_blank" rel="noopener">${sh.shield === 'verified' ? '🛡✓' : '🛡?'}↗</a> (${Math.round((sh.claim_support_ratio || 0) * 100)}%)`).join(' ')}</p>`).join('')}${(e.llm.red_flags || []).length ? `<div class="q-reason">🚩 ${e.llm.red_flags.map(esc).join('; ')}</div>` : ''}` : (Object.values(EVID).some(v => v && v.llm) ? '<p class="muted small">🤖 LLM-बैच हर रात 3:00 IST पर 8 प्रविष्टियाँ जाँचता है (प्राथमिकता: 🔴 विरोध → ⚪ निःस्रोत → 🟠) — यह प्रविष्टि सूची में है, अगले बैच में उसका डॉसियर जुड़ेगा।</p>' : '<p class="muted small">🤖 LLM-परत अभी नहीं चली — repo secrets (LLM_PROVIDER/LLM_API_KEY) जुड़ते ही गहरी research जुड़ जाएगी।</p>')}`;
+        ${e.llm ? `<p class="small" style="margin-top:6px">🤖 LLM (${esc(e.llm.provider || '')}): <b>${esc(e.llm.verdict || '')}</b> · विश्वास ${e.llm.confidence ?? '-'}<br>${esc(e.llm.summary_hi || '')}</p>${(e.llm.claims || []).map(cl => `<p class="small" style="margin:3px 0">• ${esc(cl.claim)} ${(cl.shield || []).map(sh => `<a href="${esc(sh.url)}" target="_blank" rel="noopener">${sh.shield === 'verified' ? '🛡✓' : '🛡?'}↗</a> (${Math.round((sh.claim_support_ratio || 0) * 100)}%)`).join(' ')}</p>`).join('')}${(e.llm.red_flags || []).length ? `<div class="q-reason">🚩 ${e.llm.red_flags.map(esc).join('; ')}</div>` : ''}` : (((EVID.__meta && EVID.__meta.llm_runs) || Object.values(EVID).some(v => v && v.llm)) ? '<p class="muted small">🤖 LLM-परत सक्रिय — ' + Object.values(EVID).filter(v => v && v.llm).length + ' डॉसियर गहरी research से जाँचे जा चुके' + (EVID.__meta && EVID.__meta.last_run ? ' (अंतिम रन: ' + esc(String(EVID.__meta.last_run).slice(0, 10)) + ')' : '') + '। बैच हर रात 3:00 IST पर 8 नई प्रविष्टियाँ जोड़ता है (प्राथमिकता: 🔴 विरोध → ⚪ निःस्रोत → 🟠) — यह प्रविष्टि सूची में है, अगले बैच में उसका डॉसियर जुड़ेगा।</p>' : '<p class="muted small">🤖 LLM-परत अभी नहीं चली — repo secrets (LLM_PROVIDER/LLM_API_KEY) जुड़ते ही गहरी research जुड़ जाएगी।</p>')}`;
       box.dataset.loaded = '1';
     } catch (err) { box.innerHTML = '<p class="warn small">सबूत-फ़ाइल नहीं मिली: ' + esc(err.message) + '</p>'; }
   }
@@ -574,9 +574,10 @@
     const pend = QUEUE.filter(q => q.status === 'pending');
     const appr = QUEUE.filter(q => q.status === 'approved'), rej = QUEUE.filter(q => q.status === 'rejected');
     const auto = appr.filter(q => (q.decided_by || '').startsWith('automation'));
-    const scores = Object.values(EVID).map(v => v.score);
-    const llm = Object.values(EVID).filter(v => v.llm);
-    const vc = {}; Object.values(EVID).forEach(v => vc[v.verdict] = (vc[v.verdict] || 0) + 1);
+    const EV = Object.entries(EVID).filter(([k, v]) => !k.startsWith('__') && v && typeof v === 'object').map(([, v]) => v);
+    const scores = EV.map(v => v.score).filter(n => typeof n === 'number');
+    const llm = EV.filter(v => v.llm);
+    const vc = {}; EV.forEach(v => { if (v.verdict) vc[v.verdict] = (vc[v.verdict] || 0) + 1; });
     const cats = {}; H.persons.forEach(p => { cats[p.category] = (cats[p.category] || 0) + 1; });
     const gps = {}; P.places.forEach(p => { const k = p.gps_precision || 'अज्ञात'; gps[k] = (gps[k] || 0) + 1; });
     const lic = {}; MEDIA.forEach(m => lic[m.license] = (lic[m.license] || 0) + 1);
