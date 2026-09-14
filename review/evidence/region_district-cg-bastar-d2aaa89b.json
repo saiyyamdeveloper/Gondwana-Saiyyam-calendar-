@@ -5,17 +5,10 @@
   "death": null,
   "source": null
  },
- "checked_at": "2026-09-14T23:57:01.949226+00:00",
+ "checked_at": "2026-09-14T23:57:59.386046+00:00",
  "score": 0,
  "verdict": "nosource",
  "checks": [
-  {
-   "name": "wiki-hi-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"बस्तर जिला\" नाम से मेल नहीं खाता — छोड़ा",
-   "link": ""
-  },
   {
    "name": "wiki-hi",
    "ok": false,

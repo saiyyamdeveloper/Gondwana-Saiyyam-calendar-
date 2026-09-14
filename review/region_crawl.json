@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-09-14T23:56:56+00:00",
-  "progress": "12/95 done, 12 blocked"
+  "updated": "2026-09-14T23:57:57+00:00",
+  "progress": "12/95 done, 18 blocked"
  },
  "jobs": [
   {
@@ -192,32 +192,44 @@
   {
    "unit": "district:cg/mohla-manpur-ambagarh-chowki",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-14T23:57:53+00:00"
   },
   {
    "unit": "district:cg/mungeli",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-14T23:57:53+00:00"
   },
   {
    "unit": "district:cg/narayanpur",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-14T23:57:54+00:00"
   },
   {
    "unit": "district:cg/raigarh",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-14T23:57:54+00:00"
   },
   {
    "unit": "district:cg/raipur",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-14T23:57:55+00:00"
   },
   {
    "unit": "district:cg/rajnandgaon",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-14T23:57:56+00:00"
   },
   {
    "unit": "district:cg/sakti",

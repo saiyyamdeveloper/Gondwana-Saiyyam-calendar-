@@ -3,19 +3,12 @@
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q7286546"
+  "source": null
  },
- "checked_at": "2026-09-14T23:57:01.601236+00:00",
- "score": 35,
- "verdict": "weak",
+ "checked_at": "2026-09-14T23:57:59.062960+00:00",
+ "score": 0,
+ "verdict": "nosource",
  "checks": [
-  {
-   "name": "wiki-hi-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"रकसगंडा जलप्रपात\" नाम से मेल नहीं खाता — छोड़ा",
-   "link": ""
-  },
   {
    "name": "wiki-hi",
    "ok": false,
@@ -25,17 +18,17 @@
   },
   {
    "name": "wiki-en",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: Rakasganda; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Rakasganda"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
   },
   {
    "name": "wikidata",
-   "ok": true,
-   "pts": 15,
-   "detail": "आइटम Q7286546",
-   "link": "https://www.wikidata.org/wiki/Q7286546"
+   "ok": false,
+   "pts": 0,
+   "detail": "विकिडेटा आइटम नहीं मिला",
+   "link": ""
   },
   {
    "name": "internal-sources",
@@ -53,10 +46,7 @@
   }
  ],
  "conflicts": [],
- "sources_domains": [
-  "en.wikipedia.org",
-  "wikidata.org"
- ],
- "summary_hi": "Rakasganda: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "sources_domains": [],
+ "summary_hi": "Rakasganda: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
  "llm": null
 }
