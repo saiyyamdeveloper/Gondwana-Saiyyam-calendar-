@@ -10,3 +10,5 @@ Thumbs.db
 # local scratch
 *.tmp.js
 .places_module.tmp.js
+__pycache__/
+*.pyc
