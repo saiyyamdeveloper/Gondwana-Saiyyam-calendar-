@@ -198,7 +198,9 @@
     box.innerHTML = '<p class="muted small">सबूत लोड हो रहे हैं…</p>';
     const safe = q.id.replace(/[^A-Za-z0-9._-]/g, '_');
     try {
-      const e = await fetch('review/evidence/' + safe + '.json', { cache: 'no-store' }).then(r => r.json());
+      const res0 = await fetch('review/evidence/' + safe + '.json', { cache: 'no-store' });
+      if (!res0.ok || !(res0.headers.get('content-type') || '').includes('json')) throw Object.assign(new Error('nodoc'), { nodoc: true });
+      const e = await res0.json();
       box.innerHTML = `<p class="small"><b>${e.score}/100 · ${e.verdict}</b> · जाँचा: ${String(e.checked_at).slice(0, 16).replace('T', ' ')} · डोमेन: ${esc((e.sources_domains || []).join(', '))}</p>
         <p class="small">${esc(e.summary_hi || '')}</p>
         ${e.dates && (e.dates.birth || e.dates.death) ? `<p class="small">🎂 जन्म: <b>${esc(e.dates.birth || '—')}</b> · 🕊️ निधन: <b>${esc(e.dates.death || '—')}</b> <span class="muted">(${esc(e.dates.source || '')})</span></p>` : ''}
@@ -206,7 +208,19 @@
         ${(e.conflicts || []).length ? `<div class="q-reason">⚠ विरोध: ${e.conflicts.map(c => `${esc(c.field)}: हमारा ${esc(c.ours)} बनाम ${esc(c.source)} ${esc(c.theirs)}`).join('; ')} — अंतिम निर्णय आपका</div>` : ''}
         ${e.llm ? `<p class="small" style="margin-top:6px">🤖 LLM (${esc(e.llm.provider || '')}): <b>${esc(e.llm.verdict || '')}</b> · विश्वास ${e.llm.confidence ?? '-'}<br>${esc(e.llm.summary_hi || '')}</p>${(e.llm.claims || []).map(cl => `<p class="small" style="margin:3px 0">• ${esc(cl.claim)} ${(cl.shield || []).map(sh => `<a href="${esc(sh.url)}" target="_blank" rel="noopener">${sh.shield === 'verified' ? '🛡✓' : '🛡?'}↗</a> (${Math.round((sh.claim_support_ratio || 0) * 100)}%)`).join(' ')}</p>`).join('')}${(e.llm.red_flags || []).length ? `<div class="q-reason">🚩 ${e.llm.red_flags.map(esc).join('; ')}</div>` : ''}` : (((EVID.__meta && EVID.__meta.llm_runs) || Object.values(EVID).some(v => v && v.llm)) ? '<p class="muted small">🤖 LLM-परत सक्रिय — ' + Object.values(EVID).filter(v => v && v.llm).length + ' डॉसियर गहरी research से जाँचे जा चुके' + (EVID.__meta && EVID.__meta.last_run ? ' (अंतिम रन: ' + esc(String(EVID.__meta.last_run).slice(0, 10)) + ')' : '') + '। बैच हर रात 3:00 IST पर 8 नई प्रविष्टियाँ जोड़ता है (प्राथमिकता: 🔴 विरोध → ⚪ निःस्रोत → 🟠) — यह प्रविष्टि सूची में है, अगले बैच में उसका डॉसियर जुड़ेगा।</p>' : '<p class="muted small">🤖 LLM-परत अभी नहीं चली — repo secrets (LLM_PROVIDER/LLM_API_KEY) जुड़ते ही गहरी research जुड़ जाएगी।</p>')}`;
       box.dataset.loaded = '1';
-    } catch (err) { box.innerHTML = '<p class="warn small">सबूत-फ़ाइल नहीं मिली: ' + esc(err.message) + '</p>'; }
+    } catch (err) {
+      if (err.nodoc || /Unexpected token|JSON/i.test(err.message)) {
+        const ent = q.payload && q.payload.entity;
+        const from = q.kind === 'region' ? 'क्षेत्र-क्रॉलर (BFS)' : q.kind === 'story' ? 'लोक-कथा फ़ॉर्म' : q.kind === 'correction' ? 'जन-रिपोर्ट' : q.kind === 'photo' ? 'संग्रहण-स्कैन' : 'शोध-पाइपलाइन';
+        box.innerHTML = `<p class="small">📂 स्व-सबूत डॉसियर अभी बनी नहीं — यह प्रविष्टि <b>${from}</b> से ${esc(q.added)} को कतार में आई। रात्रि 3:00 IST का बैच कतार-क्रम से इसका पूर्ण डॉसियर बनाएगा (विकिपीडिया/विकिडेटा/स्रोत cross-जाँच + LLM-परत) — तब यही पैनल स्कोर, विरोध व citation-ढाल दिखाएगा।</p>
+          ${ent && ent.desc_hi ? `<p class="small" style="margin:4px 0">${esc(String(ent.desc_hi).slice(0, 240))}</p>` : ''}
+          ${ent && (ent.sources || []).length ? `<p class="small" style="margin:4px 0">🔗 प्रविष्टि-स्रोत: ${(ent.sources || []).map(x => /^https?:/.test(x) ? `<a href="${esc(x)}" target="_blank" rel="noopener">${esc(String(x).replace(/^https?:\/\//, '').slice(0, 42))}↗</a>` : esc(x)).join(' · ')}</p>` : ''}
+          <p class="muted small" style="margin:4px 0">तब तक: 'payload देखें/संपादित' + ऊपर के स्रोत-लिंक स्वयं जाँचें। स्वीकृति आपकी व्यक्तिगत सत्यापन-ज़िम्मेदारी है (audit-log में दर्ज होगी)।</p>`;
+        box.dataset.loaded = '1';
+        return;
+      }
+      box.innerHTML = '<p class="warn small">सबूत-फ़ाइल पढ़ने में त्रुटि: ' + esc(err.message) + '</p>';
+    }
   }
   function toastLine(m) { const el = $('#q-count'); el.textContent = m; }
 

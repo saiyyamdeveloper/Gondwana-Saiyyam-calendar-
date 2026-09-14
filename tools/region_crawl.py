@@ -145,7 +145,7 @@ def queue_entity(u, kind, name, desc, src, queue):
         return False  # स्वयं का नाम प्रविष्टि नहीं
     qid = 'region:' + slug(u['id'].replace(':', '-'))[:40] + '-' + hashlib.md5(name.encode('utf-8')).hexdigest()[:8]
     if any(q['id'] == qid for q in queue): return False
-    queue.append({
+    queue.insert(0, {
         'id': qid, 'kind': 'region', 'subtype': kind,
         'title': name, 'subtitle': unit_path(u),
         'reason': f'क्षेत्र-क्रॉलर ({u["level"]}-अनुभाग-खनन): {kind} उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक',
