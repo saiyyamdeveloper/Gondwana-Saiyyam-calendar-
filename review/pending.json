@@ -1,9 +1,69 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-13T23:21:52.546991+00:00"
+  "updated": "2026-09-14T23:57:26.493515+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-cg-koriya-3d0879bc",
+   "kind": "region",
+   "subtype": "place",
+   "title": "महामाया",
+   "subtitle": "छत्तीसगढ़ · कोरिया",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/koriya",
+   "payload": {
+    "unit_id": "district:cg/koriya",
+    "entity": {
+     "kind": "place",
+     "name_hi": "महामाया",
+     "desc_hi": "वपूर्ण पारंपरिक कार्यो के ध्वंसावशेष उनके बारे मे बताते है। सरगुजा ज़िले के भैयाथान ब्लॉक मे कूदेरगढ़ मे स्थित देवी महामाया मंदिर,रतनपुर,बिलासपुर|महामाया का मंदिर उनके द्वारा बनाया गया था। सोनहत के पास मेन्द्रा गाँव की उत्तर पहाड़ बलेंद पहाड के नाम से जाना जाता है। डाल्टन के अनुस",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-14",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-koriya-a151c9fe",
+   "kind": "region",
+   "subtype": "place",
+   "title": "कूदेरगढ़",
+   "subtitle": "छत्तीसगढ़ · कोरिया",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/koriya",
+   "payload": {
+    "unit_id": "district:cg/koriya",
+    "entity": {
+     "kind": "place",
+     "name_hi": "कूदेरगढ़",
+     "desc_hi": "ास मे रह रहे है)। इनके महत्वपूर्ण पारंपरिक कार्यो के ध्वंसावशेष उनके बारे मे बताते है। सरगुजा ज़िले के भैयाथान ब्लॉक मे कूदेरगढ़ मे स्थित देवी महामाया मंदिर,रतनपुर,बिलासपुर|महामाया का मंदिर उनके द्वारा बनाया गया था। सोनहत के पास मेन्द्रा गाँव की उत्तर पहाड़ बलेंद पहाड के नाम से ज",
+     "sources": [
+      "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8B%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A4%BE"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-14",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-cg-balrampur-ramanujganj-dipadih",
    "kind": "region",

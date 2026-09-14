@@ -1,0 +1,55 @@
+{
+ "id": "region:district-cg-gariaband-2f38d7d3",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q104859565"
+ },
+ "checked_at": "2026-09-14T23:57:07.494927+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Bhooteshwarnath",
+   "link": "https://en.wikipedia.org/wiki/Bhooteshwarnath"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q104859565",
+   "link": "https://www.wikidata.org/wiki/Q104859565"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "Bhooteshwarnath: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "llm": null
+}

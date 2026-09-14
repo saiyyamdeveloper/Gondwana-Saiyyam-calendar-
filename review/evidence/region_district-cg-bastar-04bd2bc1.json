@@ -1,0 +1,61 @@
+{
+ "id": "region:district-cg-bastar-04bd2bc1",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q15228951"
+ },
+ "checked_at": "2026-09-14T23:57:04.413617+00:00",
+ "score": 15,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"रविवार\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q15228951",
+   "link": "https://www.wikidata.org/wiki/Q15228951"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "wikidata.org"
+ ],
+ "summary_hi": "इतवारी: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+ "llm": null
+}

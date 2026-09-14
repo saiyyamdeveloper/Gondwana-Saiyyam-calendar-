@@ -1,0 +1,62 @@
+{
+ "id": "region:district-cg-kanker-3cb7a0a1",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q10244"
+ },
+ "checked_at": "2026-09-14T23:57:14.355446+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: दीपावली; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%A6%E0%A5%80%E0%A4%AA%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80"
+  },
+  {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Diwali\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q10244",
+   "link": "https://www.wikidata.org/wiki/Q10244"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "hi.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "* दीपावली: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
+ "llm": null
+}

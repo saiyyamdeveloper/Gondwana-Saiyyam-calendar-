@@ -1,0 +1,54 @@
+{
+ "id": "region:district-cg-koriya-a151c9fe",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": null
+ },
+ "checked_at": "2026-09-14T23:56:59.362643+00:00",
+ "score": 20,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: कुदरगढ़; सारांश में नाम-टोकन ✓",
+   "link": "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%81%E0%A4%A6%E0%A4%B0%E0%A4%97%E0%A4%A2%E0%A4%BC"
+  },
+  {
+   "name": "wiki-en",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wikidata",
+   "ok": false,
+   "pts": 0,
+   "detail": "विकिडेटा आइटम नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "hi.wikipedia.org"
+ ],
+ "summary_hi": "कूदेरगढ़: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
+ "llm": null
+}
