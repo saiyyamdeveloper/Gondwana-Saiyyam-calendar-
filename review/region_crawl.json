@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-09-14T23:57:57+00:00",
-  "progress": "12/95 done, 18 blocked"
+  "updated": "2026-09-15T23:35:50+00:00",
+  "progress": "13/100 done, 23 blocked"
  },
  "jobs": [
   {
@@ -234,32 +234,44 @@
   {
    "unit": "district:cg/sakti",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-15T23:35:44+00:00"
   },
   {
    "unit": "district:cg/sarangarh-bilaigarh",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-15T23:35:44+00:00"
   },
   {
    "unit": "district:cg/sukma",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-15T23:35:45+00:00"
   },
   {
    "unit": "district:cg/surajpur",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-15T23:35:46+00:00"
   },
   {
    "unit": "district:cg/surguja",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-15T23:35:48+00:00"
   },
   {
    "unit": "state:cg",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-15T23:35:50+00:00",
+   "created": 5
   },
   {
    "unit": "state:jh",
@@ -561,6 +573,31 @@
   {
    "unit": "district:rj/dungarpur",
    "task": "tehsils+entities",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/baloda-bazar-bhatapara",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/gaurella-pendra-marwahi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/manendragarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/mohla-manpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:cg/shakti",
+   "task": "mine",
    "status": "pending"
   }
  ]

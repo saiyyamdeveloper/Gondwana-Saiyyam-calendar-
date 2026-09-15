@@ -18,10 +18,10 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-09-14T23:57:57+00:00",
+  "updated": "2026-09-15T23:35:50+00:00",
   "coverage": {
    "states": 29,
-   "districts": 62,
+   "districts": 67,
    "tehsils": 4,
    "posts": 0,
    "panchayats": 0,
@@ -1442,6 +1442,15 @@
    "source_admin": "छत्तीसगढ़ सरकार — जिला सूची (15 अगस्त 2021 पुनर्गठन सहित)"
   },
   {
+   "id": "district:cg/baloda-bazar-bhatapara",
+   "level": "district",
+   "name_hi": "Baloda Bazar-Bhatapara",
+   "name_en": "Baloda Bazar-Bhatapara",
+   "parent": "state:cg",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Chhattisgarh"
+  },
+  {
    "id": "district:cg/balrampur-ramanujganj",
    "level": "district",
    "name_hi": "बलरामपुर-रामानुजगंज",
@@ -1622,6 +1631,15 @@
    "source_admin": "छत्तीसगढ़ सरकार — जिला सूची (15 अगस्त 2021 पुनर्गठन सहित)"
   },
   {
+   "id": "district:cg/gaurella-pendra-marwahi",
+   "level": "district",
+   "name_hi": "Gaurella-Pendra-Marwahi",
+   "name_en": "Gaurella-Pendra-Marwahi",
+   "parent": "state:cg",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Chhattisgarh"
+  },
+  {
    "id": "district:cg/janjgir-champa",
    "level": "district",
    "name_hi": "जंजगीर-चांपा",
@@ -1758,6 +1776,15 @@
    "source_admin": "छत्तीसगढ़ सरकार — जिला सूची (15 अगस्त 2021 पुनर्गठन सहित)"
   },
   {
+   "id": "district:cg/manendragarh",
+   "level": "district",
+   "name_hi": "Manendragarh",
+   "name_en": "Manendragarh",
+   "parent": "state:cg",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Chhattisgarh"
+  },
+  {
    "id": "district:cg/manendragarh-chirmiri-bharatpur",
    "level": "district",
    "name_hi": "मनेंद्रगढ़-चिरमिरी-भरतपुर",
@@ -1765,6 +1792,15 @@
    "entities": [],
    "name_en": "Manendragarh-Chirmiri-Bharatpur",
    "source_admin": "छत्तीसगढ़ सरकार — जिला सूची (15 अगस्त 2021 पुनर्गठन सहित)"
+  },
+  {
+   "id": "district:cg/mohla-manpur",
+   "level": "district",
+   "name_hi": "Mohla Manpur",
+   "name_en": "Mohla Manpur",
+   "parent": "state:cg",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Chhattisgarh"
   },
   {
    "id": "district:cg/mohla-manpur-ambagarh-chowki",
@@ -1872,6 +1908,15 @@
    "entities": [],
    "name_en": "Sarangarh-Bilaigarh",
    "source_admin": "छत्तीसगढ़ सरकार — जिला सूची (15 अगस्त 2021 पुनर्गठन सहित)"
+  },
+  {
+   "id": "district:cg/shakti",
+   "level": "district",
+   "name_hi": "Shakti",
+   "name_en": "Shakti",
+   "parent": "state:cg",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Chhattisgarh"
   },
   {
    "id": "district:cg/sukma",

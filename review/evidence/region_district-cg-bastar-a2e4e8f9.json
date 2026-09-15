@@ -5,10 +5,17 @@
   "death": null,
   "source": null
  },
- "checked_at": "2026-09-14T23:58:00.106386+00:00",
+ "checked_at": "2026-09-15T23:35:56.086541+00:00",
  "score": 0,
  "verdict": "nosource",
  "checks": [
+  {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"अज़रबैजान एयरलाइंस की उड़ान 8243\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
   {
    "name": "wiki-hi",
    "ok": false,

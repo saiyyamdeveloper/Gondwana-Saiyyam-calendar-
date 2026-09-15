@@ -3,12 +3,19 @@
  "dates": {
   "birth": null,
   "death": null,
-  "source": null
+  "source": "wikidata:Q40888239"
  },
- "checked_at": "2026-09-14T23:57:58.728328+00:00",
- "score": 0,
- "verdict": "nosource",
+ "checked_at": "2026-09-15T23:35:53.438234+00:00",
+ "score": 35,
+ "verdict": "weak",
  "checks": [
+  {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"डीपाडीह\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
   {
    "name": "wiki-hi",
    "ok": false,
@@ -18,17 +25,17 @@
   },
   {
    "name": "wiki-en",
-   "ok": false,
-   "pts": 0,
-   "detail": "कोई पृष्ठ नहीं मिला",
-   "link": ""
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Dipadih",
+   "link": "https://en.wikipedia.org/wiki/Dipadih"
   },
   {
    "name": "wikidata",
-   "ok": false,
-   "pts": 0,
-   "detail": "विकिडेटा आइटम नहीं मिला",
-   "link": ""
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q40888239",
+   "link": "https://www.wikidata.org/wiki/Q40888239"
   },
   {
    "name": "internal-sources",
@@ -46,7 +53,10 @@
   }
  ],
  "conflicts": [],
- "sources_domains": [],
- "summary_hi": "Dipadih: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "Dipadih: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }
