@@ -1,9 +1,99 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-15T23:36:24.309851+00:00"
+  "updated": "2026-09-16T23:44:53.253140+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-cg-gaurella-pendra-marwahi-e33cf269",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Marhimata mandir bhanwartank",
+   "subtitle": "छत्तीसगढ़ · Gaurella-Pendra-Marwahi",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/gaurella-pendra-marwahi",
+   "payload": {
+    "unit_id": "district:cg/gaurella-pendra-marwahi",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Marhimata mandir bhanwartank",
+     "desc_hi": "forest rest house, Sonbhadra tourist resort amadob, the royal river resort amadob) 'Achankmaar Biosphere Reserve ' 'Marhimata mandir bhanwartank ' Pandav goofa dhanpur durga mandir dhanpur kali mandir pendra RAJ MAHAL PENDRA baba hazrat saiyad insan ali dargah larkeni Benibaai dh",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gaurella-Pendra-Marwahi_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-16",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-gaurella-pendra-marwahi-baaeae4b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Achankmaar Biosphere Reserve",
+   "subtitle": "छत्तीसगढ़ · Gaurella-Pendra-Marwahi",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/gaurella-pendra-marwahi",
+   "payload": {
+    "unit_id": "district:cg/gaurella-pendra-marwahi",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Achankmaar Biosphere Reserve",
+     "desc_hi": "Lamni forest rest house, chhaparwa forest rest house, Sonbhadra tourist resort amadob, the royal river resort amadob) 'Achankmaar Biosphere Reserve ' 'Marhimata mandir bhanwartank ' Pandav goofa dhanpur durga mandir dhanpur kali mandir pendra RAJ MAHAL PENDRA baba hazrat saiyad i",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gaurella-Pendra-Marwahi_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-16",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-cg-gaurella-pendra-marwahi-40957119",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Achanakmaar Tiger reserve",
+   "subtitle": "छत्तीसगढ़ · Gaurella-Pendra-Marwahi",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:cg/gaurella-pendra-marwahi",
+   "payload": {
+    "unit_id": "district:cg/gaurella-pendra-marwahi",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Achanakmaar Tiger reserve",
+     "desc_hi": "'Achanakmaar Tiger reserve ' (achanakmar forest guest house, sal valley resort, Lamni forest rest house, chhaparwa forest rest house, Sonbhadra tourist resort amadob, the royal river resort amadob) 'Achankmaar Biosphere Reserve '",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gaurella-Pendra-Marwahi_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-16",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-cg-koriya-3d0879bc",
    "kind": "region",

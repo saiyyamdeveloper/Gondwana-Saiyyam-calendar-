@@ -18,10 +18,10 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-09-15T23:35:50+00:00",
+  "updated": "2026-09-16T23:44:32+00:00",
   "coverage": {
    "states": 29,
-   "districts": 67,
+   "districts": 105,
    "tehsils": 4,
    "posts": 0,
    "panchayats": 0,
@@ -2179,6 +2179,348 @@
     }
    ],
    "source_admin": "क्रॉलर-बीज"
+  },
+  {
+   "id": "district:od/angul",
+   "level": "district",
+   "name_hi": "Angul",
+   "name_en": "Angul",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/balangir",
+   "level": "district",
+   "name_hi": "Balangir",
+   "name_en": "Balangir",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/balasore",
+   "level": "district",
+   "name_hi": "Balasore",
+   "name_en": "Balasore",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/baleshwar",
+   "level": "district",
+   "name_hi": "Baleshwar",
+   "name_en": "Baleshwar",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/bargarh",
+   "level": "district",
+   "name_hi": "Bargarh",
+   "name_en": "Bargarh",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/baudh",
+   "level": "district",
+   "name_hi": "Baudh",
+   "name_en": "Baudh",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/bhadrak",
+   "level": "district",
+   "name_hi": "Bhadrak",
+   "name_en": "Bhadrak",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/boudh",
+   "level": "district",
+   "name_hi": "Boudh",
+   "name_en": "Boudh",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/cuttack",
+   "level": "district",
+   "name_hi": "Cuttack",
+   "name_en": "Cuttack",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/debagarh",
+   "level": "district",
+   "name_hi": "Debagarh",
+   "name_en": "Debagarh",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/deogarh",
+   "level": "district",
+   "name_hi": "Deogarh",
+   "name_en": "Deogarh",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/dhenkanal",
+   "level": "district",
+   "name_hi": "Dhenkanal",
+   "name_en": "Dhenkanal",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/gajapati",
+   "level": "district",
+   "name_hi": "Gajapati",
+   "name_en": "Gajapati",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/ganjam",
+   "level": "district",
+   "name_hi": "Ganjam",
+   "name_en": "Ganjam",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/jagatsinghpur",
+   "level": "district",
+   "name_hi": "Jagatsinghpur",
+   "name_en": "Jagatsinghpur",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/jajpur",
+   "level": "district",
+   "name_hi": "Jajpur",
+   "name_en": "Jajpur",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/jharsuguda",
+   "level": "district",
+   "name_hi": "Jharsuguda",
+   "name_en": "Jharsuguda",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/kalahandi",
+   "level": "district",
+   "name_hi": "Kalahandi",
+   "name_en": "Kalahandi",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/kandhamal",
+   "level": "district",
+   "name_hi": "Kandhamal",
+   "name_en": "Kandhamal",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/kendrapada",
+   "level": "district",
+   "name_hi": "Kendrapada",
+   "name_en": "Kendrapada",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/kendrapara",
+   "level": "district",
+   "name_hi": "Kendrapara",
+   "name_en": "Kendrapara",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/kendujhar",
+   "level": "district",
+   "name_hi": "Kendujhar",
+   "name_en": "Kendujhar",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/keonjhar",
+   "level": "district",
+   "name_hi": "Keonjhar",
+   "name_en": "Keonjhar",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/khordha",
+   "level": "district",
+   "name_hi": "Khordha",
+   "name_en": "Khordha",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/koraput",
+   "level": "district",
+   "name_hi": "Koraput",
+   "name_en": "Koraput",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/malkangiri",
+   "level": "district",
+   "name_hi": "Malkangiri",
+   "name_en": "Malkangiri",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/mayurbhanj",
+   "level": "district",
+   "name_hi": "Mayurbhanj",
+   "name_en": "Mayurbhanj",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/nabarangpur",
+   "level": "district",
+   "name_hi": "Nabarangpur",
+   "name_en": "Nabarangpur",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/nayagarh",
+   "level": "district",
+   "name_hi": "Nayagarh",
+   "name_en": "Nayagarh",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/nuapada",
+   "level": "district",
+   "name_hi": "Nuapada",
+   "name_en": "Nuapada",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/puri",
+   "level": "district",
+   "name_hi": "Puri",
+   "name_en": "Puri",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/rayagada",
+   "level": "district",
+   "name_hi": "Rayagada",
+   "name_en": "Rayagada",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/sambalpur",
+   "level": "district",
+   "name_hi": "Sambalpur",
+   "name_en": "Sambalpur",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/subarnapur",
+   "level": "district",
+   "name_hi": "Subarnapur",
+   "name_en": "Subarnapur",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/sundaragada",
+   "level": "district",
+   "name_hi": "Sundaragada",
+   "name_en": "Sundaragada",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/sundargarh",
+   "level": "district",
+   "name_hi": "Sundargarh",
+   "name_en": "Sundargarh",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/sundergarh",
+   "level": "district",
+   "name_hi": "Sundergarh",
+   "name_en": "Sundergarh",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
+  },
+  {
+   "id": "district:od/vizagapatam",
+   "level": "district",
+   "name_hi": "Vizagapatam",
+   "name_en": "Vizagapatam",
+   "parent": "state:od",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Odisha"
   },
   {
    "id": "district:rj/dungarpur",

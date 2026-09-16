@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-09-15T23:35:50+00:00",
-  "progress": "13/100 done, 23 blocked"
+  "updated": "2026-09-16T23:44:32+00:00",
+  "progress": "15/138 done, 27 blocked"
  },
  "jobs": [
   {
@@ -24,6 +24,13 @@
    "done_at": "2026-09-13T06:27:14+00:00",
    "children": 0,
    "entities_queued": 0
+  },
+  {
+   "unit": "district:cg/baloda-bazar-bhatapara",
+   "task": "mine",
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-16T23:44:22+00:00"
   },
   {
    "unit": "district:cg/balrampur-ramanujganj",
@@ -108,6 +115,15 @@
    "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
+   "unit": "district:cg/gaurella-pendra-marwahi",
+   "task": "mine",
+   "status": "done",
+   "done_at": "2026-09-16T23:44:23+00:00",
+   "children": 0,
+   "entities_queued": 3,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
+  },
+  {
    "unit": "district:cg/janjgir-champa",
    "task": "tehsils+entities",
    "status": "blocked",
@@ -183,11 +199,25 @@
    "blocked_at": "2026-09-14T23:56:55+00:00"
   },
   {
+   "unit": "district:cg/manendragarh",
+   "task": "mine",
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-16T23:44:23+00:00"
+  },
+  {
    "unit": "district:cg/manendragarh-chirmiri-bharatpur",
    "task": "tehsils+entities",
    "status": "blocked",
    "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
    "blocked_at": "2026-09-14T23:56:55+00:00"
+  },
+  {
+   "unit": "district:cg/mohla-manpur",
+   "task": "mine",
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-16T23:44:24+00:00"
   },
   {
    "unit": "district:cg/mohla-manpur-ambagarh-chowki",
@@ -246,6 +276,13 @@
    "blocked_at": "2026-09-15T23:35:44+00:00"
   },
   {
+   "unit": "district:cg/shakti",
+   "task": "mine",
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-16T23:44:24+00:00"
+  },
+  {
    "unit": "district:cg/sukma",
    "task": "tehsils+entities",
    "status": "blocked",
@@ -283,7 +320,9 @@
   {
    "unit": "state:od",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-16T23:44:32+00:00",
+   "created": 38
   },
   {
    "unit": "state:mp",
@@ -576,27 +615,192 @@
    "status": "pending"
   },
   {
-   "unit": "district:cg/baloda-bazar-bhatapara",
+   "unit": "district:od/angul",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "district:cg/gaurella-pendra-marwahi",
+   "unit": "district:od/balangir",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "district:cg/manendragarh",
+   "unit": "district:od/balasore",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "district:cg/mohla-manpur",
+   "unit": "district:od/baleshwar",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "district:cg/shakti",
+   "unit": "district:od/bargarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/baudh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/bhadrak",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/boudh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/cuttack",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/debagarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/deogarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/dhenkanal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/gajapati",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/ganjam",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/jagatsinghpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/jajpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/jharsuguda",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/kalahandi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/kandhamal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/kendrapada",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/kendrapara",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/kendujhar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/keonjhar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/khordha",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/koraput",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/malkangiri",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/mayurbhanj",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/nabarangpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/nayagarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/nuapada",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/puri",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/rayagada",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/sambalpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/subarnapur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/sundaragada",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/sundargarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/sundergarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:od/vizagapatam",
    "task": "mine",
    "status": "pending"
   }
