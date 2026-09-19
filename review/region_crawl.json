@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-09-18T23:30:38+00:00",
-  "progress": "27/547 done, 27 blocked"
+  "updated": "2026-09-19T23:23:28+00:00",
+  "progress": "32/698 done, 28 blocked"
  },
  "jobs": [
   {
@@ -411,32 +411,44 @@
   {
    "unit": "state:tr",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-19T23:22:14+00:00",
+   "created": 8
   },
   {
    "unit": "state:mn",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-19T23:22:20+00:00",
+   "created": 14
   },
   {
    "unit": "state:ar",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-19T23:22:28+00:00",
+   "created": 28
   },
   {
    "unit": "state:jk",
    "task": "districts",
-   "status": "pending"
+   "status": "blocked",
+   "note": "विकिपीडिया जिला-सूची नहीं मिली",
+   "blocked_at": "2026-09-19T23:22:29+00:00"
   },
   {
    "unit": "state:br",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-19T23:22:48+00:00",
+   "created": 35
   },
   {
    "unit": "state:up",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-19T23:23:28+00:00",
+   "created": 66
   },
   {
    "unit": "state:tn",
@@ -2870,6 +2882,761 @@
   },
   {
    "unit": "district:nl/wokha",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tr/dhalai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tr/gomati",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tr/khowai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tr/north-tripura",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tr/sipahijala",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tr/south-tripura",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tr/unakoti",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tr/west-tripura",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/bishnupur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/chandel",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/churachandpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/jiribam",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/kakching",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/kamjong",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/kangpokpi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/noney",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/pherzawl",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/senapati",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/tamenglong",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/tengnoupal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/thoubal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:mn/ukhrul",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/anjaw",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/bichom",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/changlang",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/dibang-valley",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/east-kameng",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/east-siang",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/kamle",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/keyi-panyor",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/kra-daadi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/kurung-kumey",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/lepa-rada",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/lohit",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/longding",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/lower-dibang-valley",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/lower-siang",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/lower-subansiri",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/namsai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/pakke-kessang",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/papum-pare",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/shi-yomi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/siang",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/tawang",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/tirap",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/upper-dibang-valley",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/upper-siang",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/upper-subansiri",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/west-kameng",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ar/west-siang",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/araria",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/arwal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/banka",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/begusarai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/bhagalpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/buxar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/darbhanga",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/east-champaran",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/gaya",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/jamui",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/jehanabad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/kaimur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/katihar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/khagaria",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/kishanganj",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/lakhisarai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/madhepura",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/madhubani",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/munger",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/muzaffarpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/nalanda",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/nawada",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/patna",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/purnia",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/rohtas",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/saharsa",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/samastipur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/saran",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/sheikhpura",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/sheohar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/sitamarhi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/siwan",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/supaul",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/vaishali",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:br/west-champaran",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/agra",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/aligarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/ambedkar-nagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/amethi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/amroha",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/auraiya",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/ayodhya",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/azamgarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/bagpat",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/bahraich",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/ballia",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/barabanki",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/bareilly",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/basti",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/bhadohi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/bijnor",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/budaun",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/bulandshahr",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/chandauli",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/chitrakoot",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/deoria",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/etah",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/etawah",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/farrukhabad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/fatehpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/firozabad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/ghazipur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/gonda",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/gorakhpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/hapur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/hardoi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/hathras",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/jalaun",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/jaunpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/jhansi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/kannauj",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/kanpur-nagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/kasganj",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/kaushambi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/kushinagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/lakhimpur-kheri",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/lucknow",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/maharajganj",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/mahoba",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/mainpuri",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/mathura",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/mau",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/meerut",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/mirzapur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/moradabad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/muzaffarnagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/pilibhit",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/prayagraj",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/rae-bareli",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/rampur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/saharanpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/sambhal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/sant-kabir-nagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/shahjahanpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/shamli",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/shravasti",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/siddharthnagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/sitapur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/sultanpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/unnao",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:up/varanasi",
    "task": "mine",
    "status": "pending"
   }

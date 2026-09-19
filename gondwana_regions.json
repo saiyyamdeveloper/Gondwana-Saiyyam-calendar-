@@ -18,10 +18,10 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-09-18T23:30:38+00:00",
+  "updated": "2026-09-19T23:23:28+00:00",
   "coverage": {
    "states": 29,
-   "districts": 514,
+   "districts": 665,
    "tehsils": 4,
    "posts": 0,
    "panchayats": 0,
@@ -1730,6 +1730,258 @@
    "source_admin": "Wikipedia: List of districts of Andhra Pradesh"
   },
   {
+   "id": "district:ar/anjaw",
+   "level": "district",
+   "name_hi": "Anjaw",
+   "name_en": "Anjaw",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/bichom",
+   "level": "district",
+   "name_hi": "Bichom",
+   "name_en": "Bichom",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/changlang",
+   "level": "district",
+   "name_hi": "Changlang",
+   "name_en": "Changlang",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/dibang-valley",
+   "level": "district",
+   "name_hi": "Dibang Valley",
+   "name_en": "Dibang Valley",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/east-kameng",
+   "level": "district",
+   "name_hi": "East Kameng",
+   "name_en": "East Kameng",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/east-siang",
+   "level": "district",
+   "name_hi": "East Siang",
+   "name_en": "East Siang",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/kamle",
+   "level": "district",
+   "name_hi": "Kamle",
+   "name_en": "Kamle",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/keyi-panyor",
+   "level": "district",
+   "name_hi": "Keyi Panyor",
+   "name_en": "Keyi Panyor",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/kra-daadi",
+   "level": "district",
+   "name_hi": "Kra Daadi",
+   "name_en": "Kra Daadi",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/kurung-kumey",
+   "level": "district",
+   "name_hi": "Kurung Kumey",
+   "name_en": "Kurung Kumey",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/lepa-rada",
+   "level": "district",
+   "name_hi": "Lepa Rada",
+   "name_en": "Lepa Rada",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/lohit",
+   "level": "district",
+   "name_hi": "Lohit",
+   "name_en": "Lohit",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/longding",
+   "level": "district",
+   "name_hi": "Longding",
+   "name_en": "Longding",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/lower-dibang-valley",
+   "level": "district",
+   "name_hi": "Lower Dibang Valley",
+   "name_en": "Lower Dibang Valley",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/lower-siang",
+   "level": "district",
+   "name_hi": "Lower Siang",
+   "name_en": "Lower Siang",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/lower-subansiri",
+   "level": "district",
+   "name_hi": "Lower Subansiri",
+   "name_en": "Lower Subansiri",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/namsai",
+   "level": "district",
+   "name_hi": "Namsai",
+   "name_en": "Namsai",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/pakke-kessang",
+   "level": "district",
+   "name_hi": "Pakke-Kessang",
+   "name_en": "Pakke-Kessang",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/papum-pare",
+   "level": "district",
+   "name_hi": "Papum Pare",
+   "name_en": "Papum Pare",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/shi-yomi",
+   "level": "district",
+   "name_hi": "Shi Yomi",
+   "name_en": "Shi Yomi",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/siang",
+   "level": "district",
+   "name_hi": "Siang",
+   "name_en": "Siang",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/tawang",
+   "level": "district",
+   "name_hi": "Tawang",
+   "name_en": "Tawang",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/tirap",
+   "level": "district",
+   "name_hi": "Tirap",
+   "name_en": "Tirap",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/upper-dibang-valley",
+   "level": "district",
+   "name_hi": "Upper Dibang Valley",
+   "name_en": "Upper Dibang Valley",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/upper-siang",
+   "level": "district",
+   "name_hi": "Upper Siang",
+   "name_en": "Upper Siang",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/upper-subansiri",
+   "level": "district",
+   "name_hi": "Upper Subansiri",
+   "name_en": "Upper Subansiri",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/west-kameng",
+   "level": "district",
+   "name_hi": "West Kameng",
+   "name_en": "West Kameng",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
+   "id": "district:ar/west-siang",
+   "level": "district",
+   "name_hi": "West Siang",
+   "name_en": "West Siang",
+   "parent": "state:ar",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Arunachal Pradesh"
+  },
+  {
    "id": "district:as/bajali",
    "level": "district",
    "name_hi": "Bajali",
@@ -2088,6 +2340,321 @@
    "parent": "state:as",
    "entities": [],
    "source_admin": "Wikipedia: List of districts of Assam"
+  },
+  {
+   "id": "district:br/araria",
+   "level": "district",
+   "name_hi": "Araria",
+   "name_en": "Araria",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/arwal",
+   "level": "district",
+   "name_hi": "Arwal",
+   "name_en": "Arwal",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/banka",
+   "level": "district",
+   "name_hi": "Banka",
+   "name_en": "Banka",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/begusarai",
+   "level": "district",
+   "name_hi": "Begusarai",
+   "name_en": "Begusarai",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/bhagalpur",
+   "level": "district",
+   "name_hi": "Bhagalpur",
+   "name_en": "Bhagalpur",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/buxar",
+   "level": "district",
+   "name_hi": "Buxar",
+   "name_en": "Buxar",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/darbhanga",
+   "level": "district",
+   "name_hi": "Darbhanga",
+   "name_en": "Darbhanga",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/east-champaran",
+   "level": "district",
+   "name_hi": "East Champaran",
+   "name_en": "East Champaran",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/gaya",
+   "level": "district",
+   "name_hi": "Gaya",
+   "name_en": "Gaya",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/jamui",
+   "level": "district",
+   "name_hi": "Jamui",
+   "name_en": "Jamui",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/jehanabad",
+   "level": "district",
+   "name_hi": "Jehanabad",
+   "name_en": "Jehanabad",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/kaimur",
+   "level": "district",
+   "name_hi": "Kaimur",
+   "name_en": "Kaimur",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/katihar",
+   "level": "district",
+   "name_hi": "Katihar",
+   "name_en": "Katihar",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/khagaria",
+   "level": "district",
+   "name_hi": "Khagaria",
+   "name_en": "Khagaria",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/kishanganj",
+   "level": "district",
+   "name_hi": "Kishanganj",
+   "name_en": "Kishanganj",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/lakhisarai",
+   "level": "district",
+   "name_hi": "Lakhisarai",
+   "name_en": "Lakhisarai",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/madhepura",
+   "level": "district",
+   "name_hi": "Madhepura",
+   "name_en": "Madhepura",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/madhubani",
+   "level": "district",
+   "name_hi": "Madhubani",
+   "name_en": "Madhubani",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/munger",
+   "level": "district",
+   "name_hi": "Munger",
+   "name_en": "Munger",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/muzaffarpur",
+   "level": "district",
+   "name_hi": "Muzaffarpur",
+   "name_en": "Muzaffarpur",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/nalanda",
+   "level": "district",
+   "name_hi": "Nalanda",
+   "name_en": "Nalanda",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/nawada",
+   "level": "district",
+   "name_hi": "Nawada",
+   "name_en": "Nawada",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/patna",
+   "level": "district",
+   "name_hi": "Patna",
+   "name_en": "Patna",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/purnia",
+   "level": "district",
+   "name_hi": "Purnia",
+   "name_en": "Purnia",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/rohtas",
+   "level": "district",
+   "name_hi": "Rohtas",
+   "name_en": "Rohtas",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/saharsa",
+   "level": "district",
+   "name_hi": "Saharsa",
+   "name_en": "Saharsa",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/samastipur",
+   "level": "district",
+   "name_hi": "Samastipur",
+   "name_en": "Samastipur",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/saran",
+   "level": "district",
+   "name_hi": "Saran",
+   "name_en": "Saran",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/sheikhpura",
+   "level": "district",
+   "name_hi": "Sheikhpura",
+   "name_en": "Sheikhpura",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/sheohar",
+   "level": "district",
+   "name_hi": "Sheohar",
+   "name_en": "Sheohar",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/sitamarhi",
+   "level": "district",
+   "name_hi": "Sitamarhi",
+   "name_en": "Sitamarhi",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/siwan",
+   "level": "district",
+   "name_hi": "Siwan",
+   "name_en": "Siwan",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/supaul",
+   "level": "district",
+   "name_hi": "Supaul",
+   "name_en": "Supaul",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/vaishali",
+   "level": "district",
+   "name_hi": "Vaishali",
+   "name_en": "Vaishali",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
+  },
+  {
+   "id": "district:br/west-champaran",
+   "level": "district",
+   "name_hi": "West Champaran",
+   "name_en": "West Champaran",
+   "parent": "state:br",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Bihar"
   },
   {
    "id": "district:cg/balod",
@@ -4025,6 +4592,132 @@
    "source_admin": "Wikipedia: List of districts of Meghalaya"
   },
   {
+   "id": "district:mn/bishnupur",
+   "level": "district",
+   "name_hi": "Bishnupur",
+   "name_en": "Bishnupur",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/chandel",
+   "level": "district",
+   "name_hi": "Chandel",
+   "name_en": "Chandel",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/churachandpur",
+   "level": "district",
+   "name_hi": "Churachandpur",
+   "name_en": "Churachandpur",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/jiribam",
+   "level": "district",
+   "name_hi": "Jiribam",
+   "name_en": "Jiribam",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/kakching",
+   "level": "district",
+   "name_hi": "Kakching",
+   "name_en": "Kakching",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/kamjong",
+   "level": "district",
+   "name_hi": "Kamjong",
+   "name_en": "Kamjong",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/kangpokpi",
+   "level": "district",
+   "name_hi": "Kangpokpi",
+   "name_en": "Kangpokpi",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/noney",
+   "level": "district",
+   "name_hi": "Noney",
+   "name_en": "Noney",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/pherzawl",
+   "level": "district",
+   "name_hi": "Pherzawl",
+   "name_en": "Pherzawl",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/senapati",
+   "level": "district",
+   "name_hi": "Senapati",
+   "name_en": "Senapati",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/tamenglong",
+   "level": "district",
+   "name_hi": "Tamenglong",
+   "name_en": "Tamenglong",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/tengnoupal",
+   "level": "district",
+   "name_hi": "Tengnoupal",
+   "name_en": "Tengnoupal",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/thoubal",
+   "level": "district",
+   "name_hi": "Thoubal",
+   "name_en": "Thoubal",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
+   "id": "district:mn/ukhrul",
+   "level": "district",
+   "name_hi": "Ukhrul",
+   "name_en": "Ukhrul",
+   "parent": "state:mn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Manipur"
+  },
+  {
    "id": "district:mp/agar-malwa",
    "level": "district",
    "name_hi": "Agar Malwa",
@@ -5585,6 +6278,78 @@
    "source_admin": "Wikipedia: List of districts of Rajasthan"
   },
   {
+   "id": "district:tr/dhalai",
+   "level": "district",
+   "name_hi": "Dhalai",
+   "name_en": "Dhalai",
+   "parent": "state:tr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tripura"
+  },
+  {
+   "id": "district:tr/gomati",
+   "level": "district",
+   "name_hi": "Gomati",
+   "name_en": "Gomati",
+   "parent": "state:tr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tripura"
+  },
+  {
+   "id": "district:tr/khowai",
+   "level": "district",
+   "name_hi": "Khowai",
+   "name_en": "Khowai",
+   "parent": "state:tr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tripura"
+  },
+  {
+   "id": "district:tr/north-tripura",
+   "level": "district",
+   "name_hi": "North Tripura",
+   "name_en": "North Tripura",
+   "parent": "state:tr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tripura"
+  },
+  {
+   "id": "district:tr/sipahijala",
+   "level": "district",
+   "name_hi": "Sipahijala",
+   "name_en": "Sipahijala",
+   "parent": "state:tr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tripura"
+  },
+  {
+   "id": "district:tr/south-tripura",
+   "level": "district",
+   "name_hi": "South Tripura",
+   "name_en": "South Tripura",
+   "parent": "state:tr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tripura"
+  },
+  {
+   "id": "district:tr/unakoti",
+   "level": "district",
+   "name_hi": "Unakoti",
+   "name_en": "Unakoti",
+   "parent": "state:tr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tripura"
+  },
+  {
+   "id": "district:tr/west-tripura",
+   "level": "district",
+   "name_hi": "West Tripura",
+   "name_en": "West Tripura",
+   "parent": "state:tr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tripura"
+  },
+  {
    "id": "district:ts/adilabad",
    "level": "district",
    "name_hi": "adilabad",
@@ -5919,6 +6684,600 @@
    "parent": "state:ts",
    "entities": [],
    "source_admin": "Wikipedia: List of districts of Telangana"
+  },
+  {
+   "id": "district:up/agra",
+   "level": "district",
+   "name_hi": "Agra",
+   "name_en": "Agra",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/aligarh",
+   "level": "district",
+   "name_hi": "Aligarh",
+   "name_en": "Aligarh",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/ambedkar-nagar",
+   "level": "district",
+   "name_hi": "Ambedkar Nagar",
+   "name_en": "Ambedkar Nagar",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/amethi",
+   "level": "district",
+   "name_hi": "Amethi",
+   "name_en": "Amethi",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/amroha",
+   "level": "district",
+   "name_hi": "Amroha",
+   "name_en": "Amroha",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/auraiya",
+   "level": "district",
+   "name_hi": "Auraiya",
+   "name_en": "Auraiya",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/ayodhya",
+   "level": "district",
+   "name_hi": "Ayodhya",
+   "name_en": "Ayodhya",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/azamgarh",
+   "level": "district",
+   "name_hi": "Azamgarh",
+   "name_en": "Azamgarh",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/bagpat",
+   "level": "district",
+   "name_hi": "Bagpat",
+   "name_en": "Bagpat",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/bahraich",
+   "level": "district",
+   "name_hi": "Bahraich",
+   "name_en": "Bahraich",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/ballia",
+   "level": "district",
+   "name_hi": "Ballia",
+   "name_en": "Ballia",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/barabanki",
+   "level": "district",
+   "name_hi": "Barabanki",
+   "name_en": "Barabanki",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/bareilly",
+   "level": "district",
+   "name_hi": "Bareilly",
+   "name_en": "Bareilly",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/basti",
+   "level": "district",
+   "name_hi": "Basti",
+   "name_en": "Basti",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/bhadohi",
+   "level": "district",
+   "name_hi": "Bhadohi",
+   "name_en": "Bhadohi",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/bijnor",
+   "level": "district",
+   "name_hi": "Bijnor",
+   "name_en": "Bijnor",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/budaun",
+   "level": "district",
+   "name_hi": "Budaun",
+   "name_en": "Budaun",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/bulandshahr",
+   "level": "district",
+   "name_hi": "Bulandshahr",
+   "name_en": "Bulandshahr",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/chandauli",
+   "level": "district",
+   "name_hi": "Chandauli",
+   "name_en": "Chandauli",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/chitrakoot",
+   "level": "district",
+   "name_hi": "Chitrakoot",
+   "name_en": "Chitrakoot",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/deoria",
+   "level": "district",
+   "name_hi": "Deoria",
+   "name_en": "Deoria",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/etah",
+   "level": "district",
+   "name_hi": "Etah",
+   "name_en": "Etah",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/etawah",
+   "level": "district",
+   "name_hi": "Etawah",
+   "name_en": "Etawah",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/farrukhabad",
+   "level": "district",
+   "name_hi": "Farrukhabad",
+   "name_en": "Farrukhabad",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/fatehpur",
+   "level": "district",
+   "name_hi": "Fatehpur",
+   "name_en": "Fatehpur",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/firozabad",
+   "level": "district",
+   "name_hi": "Firozabad",
+   "name_en": "Firozabad",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/ghazipur",
+   "level": "district",
+   "name_hi": "Ghazipur",
+   "name_en": "Ghazipur",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/gonda",
+   "level": "district",
+   "name_hi": "Gonda",
+   "name_en": "Gonda",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/gorakhpur",
+   "level": "district",
+   "name_hi": "Gorakhpur",
+   "name_en": "Gorakhpur",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/hapur",
+   "level": "district",
+   "name_hi": "Hapur",
+   "name_en": "Hapur",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/hardoi",
+   "level": "district",
+   "name_hi": "Hardoi",
+   "name_en": "Hardoi",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/hathras",
+   "level": "district",
+   "name_hi": "Hathras",
+   "name_en": "Hathras",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/jalaun",
+   "level": "district",
+   "name_hi": "Jalaun",
+   "name_en": "Jalaun",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/jaunpur",
+   "level": "district",
+   "name_hi": "Jaunpur",
+   "name_en": "Jaunpur",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/jhansi",
+   "level": "district",
+   "name_hi": "Jhansi",
+   "name_en": "Jhansi",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/kannauj",
+   "level": "district",
+   "name_hi": "Kannauj",
+   "name_en": "Kannauj",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/kanpur-nagar",
+   "level": "district",
+   "name_hi": "Kanpur Nagar",
+   "name_en": "Kanpur Nagar",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/kasganj",
+   "level": "district",
+   "name_hi": "Kasganj",
+   "name_en": "Kasganj",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/kaushambi",
+   "level": "district",
+   "name_hi": "Kaushambi",
+   "name_en": "Kaushambi",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/kushinagar",
+   "level": "district",
+   "name_hi": "Kushinagar",
+   "name_en": "Kushinagar",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/lakhimpur-kheri",
+   "level": "district",
+   "name_hi": "Lakhimpur Kheri",
+   "name_en": "Lakhimpur Kheri",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/lucknow",
+   "level": "district",
+   "name_hi": "Lucknow",
+   "name_en": "Lucknow",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/maharajganj",
+   "level": "district",
+   "name_hi": "Maharajganj",
+   "name_en": "Maharajganj",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/mahoba",
+   "level": "district",
+   "name_hi": "Mahoba",
+   "name_en": "Mahoba",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/mainpuri",
+   "level": "district",
+   "name_hi": "Mainpuri",
+   "name_en": "Mainpuri",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/mathura",
+   "level": "district",
+   "name_hi": "Mathura",
+   "name_en": "Mathura",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/mau",
+   "level": "district",
+   "name_hi": "Mau",
+   "name_en": "Mau",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/meerut",
+   "level": "district",
+   "name_hi": "Meerut",
+   "name_en": "Meerut",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/mirzapur",
+   "level": "district",
+   "name_hi": "Mirzapur",
+   "name_en": "Mirzapur",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/moradabad",
+   "level": "district",
+   "name_hi": "Moradabad",
+   "name_en": "Moradabad",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/muzaffarnagar",
+   "level": "district",
+   "name_hi": "Muzaffarnagar",
+   "name_en": "Muzaffarnagar",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/pilibhit",
+   "level": "district",
+   "name_hi": "Pilibhit",
+   "name_en": "Pilibhit",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/prayagraj",
+   "level": "district",
+   "name_hi": "Prayagraj",
+   "name_en": "Prayagraj",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/rae-bareli",
+   "level": "district",
+   "name_hi": "Rae Bareli",
+   "name_en": "Rae Bareli",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/rampur",
+   "level": "district",
+   "name_hi": "Rampur",
+   "name_en": "Rampur",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/saharanpur",
+   "level": "district",
+   "name_hi": "Saharanpur",
+   "name_en": "Saharanpur",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/sambhal",
+   "level": "district",
+   "name_hi": "Sambhal",
+   "name_en": "Sambhal",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/sant-kabir-nagar",
+   "level": "district",
+   "name_hi": "Sant Kabir Nagar",
+   "name_en": "Sant Kabir Nagar",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/shahjahanpur",
+   "level": "district",
+   "name_hi": "Shahjahanpur",
+   "name_en": "Shahjahanpur",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/shamli",
+   "level": "district",
+   "name_hi": "Shamli",
+   "name_en": "Shamli",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/shravasti",
+   "level": "district",
+   "name_hi": "Shravasti",
+   "name_en": "Shravasti",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/siddharthnagar",
+   "level": "district",
+   "name_hi": "Siddharthnagar",
+   "name_en": "Siddharthnagar",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/sitapur",
+   "level": "district",
+   "name_hi": "Sitapur",
+   "name_en": "Sitapur",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/sultanpur",
+   "level": "district",
+   "name_hi": "Sultanpur",
+   "name_en": "Sultanpur",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/unnao",
+   "level": "district",
+   "name_hi": "Unnao",
+   "name_en": "Unnao",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
+  },
+  {
+   "id": "district:up/varanasi",
+   "level": "district",
+   "name_hi": "Varanasi",
+   "name_en": "Varanasi",
+   "parent": "state:up",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttar Pradesh"
   },
   {
    "id": "district:wb/alipore",

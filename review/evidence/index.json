@@ -2,7 +2,7 @@
  "person:phulo-jhano": {
   "score": 25,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:31:00.952835+00:00",
+  "checked_at": "2026-09-19T23:23:44.445204+00:00",
   "summary_hi": "फुलो-झानो मुर्मू: स्कोर 25/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, internal-sources, internal-category।",
   "n_sources": 1
  },
@@ -16,14 +16,14 @@
  "person:nilambar-pitambar": {
   "score": 25,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:31:01.533917+00:00",
+  "checked_at": "2026-09-19T23:23:45.168785+00:00",
   "summary_hi": "नीलाम्बर-पीताम्बर: स्कोर 25/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, internal-sources, internal-category।",
   "n_sources": 1
  },
  "person:telanga-kharia": {
   "score": 48,
   "verdict": "conflict",
-  "checked_at": "2026-09-18T23:31:02.403318+00:00",
+  "checked_at": "2026-09-19T23:23:47.323369+00:00",
   "summary_hi": "तेलंगा खड़िया: स्कोर 48/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-birth-match, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: death हमारा=1914 बनाम wikidata=1880 — मानव-निर्णय आवश्यक।",
   "n_sources": 3,
   "llm": {
@@ -36,14 +36,14 @@
  "person:telangi-munda": {
   "score": 10,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:31:02.873365+00:00",
+  "checked_at": "2026-09-19T23:23:47.739586+00:00",
   "summary_hi": "तेलंगी मुंडा: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "person:jatra-bhagat": {
   "score": 5,
   "verdict": "conflict",
-  "checked_at": "2026-09-18T23:31:03.705033+00:00",
+  "checked_at": "2026-09-19T23:23:48.516310+00:00",
   "summary_hi": "जतरा टाना भगत: स्कोर 5/100 (🔴 विरोध मिला)। मिले सबूत: wiki-hi, wiki-en, wikidata, internal-sources, internal-category। विरोध: birth हमारा=1880 बनाम wikidata=1888; death हमारा=1920 बनाम wikidata=1916 — मानव-निर्णय आवश्यक।",
   "n_sources": 3,
   "llm": {
@@ -56,35 +56,35 @@
  "person:tantya-bhil": {
   "score": 71,
   "verdict": "partial",
-  "checked_at": "2026-09-18T23:31:04.436678+00:00",
+  "checked_at": "2026-09-19T23:23:49.212867+00:00",
   "summary_hi": "टांट्या भील (टांट्या मामा): स्कोर 71/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth-match, wd-death-match, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:bhima-nayak": {
   "score": 65,
   "verdict": "partial",
-  "checked_at": "2026-09-18T23:31:05.145562+00:00",
+  "checked_at": "2026-09-19T23:23:50.976752+00:00",
   "summary_hi": "भीमा नायक: स्कोर 65/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death_date, internal-sources, internal-category।",
   "n_sources": 3
  },
  "person:veer-narayan-singh": {
   "score": 78,
   "verdict": "partial",
-  "checked_at": "2026-09-18T23:31:06.105224+00:00",
+  "checked_at": "2026-09-19T23:23:52.927895+00:00",
   "summary_hi": "वीर नारायण सिंह: स्कोर 78/100 (🟡 आंशिक सबूत)। मिले सबूत: wiki-hi, wiki-en, wikidata, wd-death-match, wd-death_date, internal-sources, internal-category।",
   "n_sources": 3
  },
  "person:gunda-dhur": {
   "score": 45,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:31:06.776620+00:00",
+  "checked_at": "2026-09-19T23:23:53.642898+00:00",
   "summary_hi": "गूंदा धूर: स्कोर 45/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, internal-sources, internal-category।",
   "n_sources": 2
  },
  "person:laxman-naik": {
   "score": 0,
   "verdict": "conflict",
-  "checked_at": "2026-09-18T23:31:07.495130+00:00",
+  "checked_at": "2026-09-19T23:23:55.356141+00:00",
   "summary_hi": "लक्ष्मण नायक ('देशनायक'): स्कोर 0/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: birth हमारा=1899 बनाम wikidata=1946; death हमारा=1943 बनाम wikidata=2018 — मानव-निर्णय आवश्यक।",
   "n_sources": 2,
   "llm": {
@@ -97,14 +97,14 @@
  "person:chakra-bisoi": {
   "score": 10,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:31:08.018489+00:00",
+  "checked_at": "2026-09-19T23:23:55.843944+00:00",
   "summary_hi": "चक्रा बिसोई: स्कोर 10/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: internal-sources, internal-category। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "person:dharanidhar-bhuyan": {
   "score": 15,
   "verdict": "conflict",
-  "checked_at": "2026-09-18T23:31:08.707815+00:00",
+  "checked_at": "2026-09-19T23:23:56.521875+00:00",
   "summary_hi": "धरणीधर भुइयाँ: स्कोर 15/100 (🔴 विरोध मिला)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date, internal-sources, internal-category। विरोध: death हमारा=1868 बनाम wikidata=1914 — मानव-निर्णय आवश्यक।",
   "n_sources": 2,
   "llm": {
@@ -1114,196 +1114,196 @@
  "region:district-cg-koriya-3d0879bc": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:43.461237+00:00",
+  "checked_at": "2026-09-19T23:23:31.225578+00:00",
   "summary_hi": "महामाया: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-cg-koriya-a151c9fe": {
   "score": 20,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:43.958874+00:00",
+  "checked_at": "2026-09-19T23:23:31.702759+00:00",
   "summary_hi": "कूदेरगढ़: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
   "n_sources": 1
  },
  "region:district-cg-balrampur-ramanujganj-dipadih": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:44.556828+00:00",
+  "checked_at": "2026-09-19T23:23:32.287688+00:00",
   "summary_hi": "Dipadih: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-cg-balrampur-ramanujganj-rakasganda": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:47.491664+00:00",
+  "checked_at": "2026-09-19T23:23:32.888544+00:00",
   "summary_hi": "Rakasganda: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-cg-bastar-d2aaa89b": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:47.934164+00:00",
+  "checked_at": "2026-09-19T23:23:33.305963+00:00",
   "summary_hi": "चैतराई: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-bastar-b04b92db": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:48.352434+00:00",
+  "checked_at": "2026-09-19T23:23:33.696751+00:00",
   "summary_hi": "आमाखानी: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-bastar-a2e4e8f9": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:48.734255+00:00",
+  "checked_at": "2026-09-19T23:23:34.098460+00:00",
   "summary_hi": "अकती: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-bastar-5aff5ddc": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:49.118725+00:00",
+  "checked_at": "2026-09-19T23:23:34.489969+00:00",
   "summary_hi": "बीज खुटनी: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-bastar-b57e33a3": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:49.713334+00:00",
+  "checked_at": "2026-09-19T23:23:35.086190+00:00",
   "summary_hi": "हरियाली: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
   "n_sources": 2
  },
  "region:district-cg-bastar-04bd2bc1": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:50.246304+00:00",
+  "checked_at": "2026-09-19T23:23:35.605695+00:00",
   "summary_hi": "इतवारी: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-cg-bastar-5568aa74": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:50.714453+00:00",
+  "checked_at": "2026-09-19T23:23:35.999805+00:00",
   "summary_hi": "ठाकुर दाई: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-gariaband-6240b78e": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:51.458098+00:00",
+  "checked_at": "2026-09-19T23:23:36.660619+00:00",
   "summary_hi": "Rajim Kumbh Mela: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-cg-gariaband-37377b26": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:52.100955+00:00",
+  "checked_at": "2026-09-19T23:23:37.429478+00:00",
   "summary_hi": "Jatmai Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-cg-gariaband-2f38d7d3": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:52.825186+00:00",
+  "checked_at": "2026-09-19T23:23:38.007516+00:00",
   "summary_hi": "Bhooteshwarnath: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-cg-gaurela-pendra-marwahi-40957119": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:53.251541+00:00",
+  "checked_at": "2026-09-19T23:23:38.445426+00:00",
   "summary_hi": "Achanakmaar Tiger reserve: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-gaurela-pendra-marwahi-baaeae4b": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:53.651562+00:00",
+  "checked_at": "2026-09-19T23:23:38.942011+00:00",
   "summary_hi": "Achankmaar Biosphere Reserve: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-gaurela-pendra-marwahi-e33cf269": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:54.327659+00:00",
+  "checked_at": "2026-09-19T23:23:39.404653+00:00",
   "summary_hi": "Marhimata mandir bhanwartank: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-kanker-107f0d8b": {
   "score": 20,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:54.912809+00:00",
+  "checked_at": "2026-09-19T23:23:39.882046+00:00",
   "summary_hi": "गड़िया पहाड़ी: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
   "n_sources": 1
  },
  "region:district-cg-kanker-c0a56c9c": {
   "score": 20,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:55.413906+00:00",
+  "checked_at": "2026-09-19T23:23:40.372549+00:00",
   "summary_hi": "मलाजकुंडम जलप्रपात: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
   "n_sources": 1
  },
  "region:district-cg-kanker-b6a38b1b": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:55.834085+00:00",
+  "checked_at": "2026-09-19T23:23:40.833461+00:00",
   "summary_hi": "शिवानी मंदिर: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-kanker-eb2d9483": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:56.544918+00:00",
+  "checked_at": "2026-09-19T23:23:41.557954+00:00",
   "summary_hi": "पोला: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
   "n_sources": 2
  },
  "region:district-cg-kanker-c19e9c20": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:57.033024+00:00",
+  "checked_at": "2026-09-19T23:23:41.997979+00:00",
   "summary_hi": "तीजा – छत्तीसगढ़ी त्योहार: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-kanker-3cb7a0a1": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:57.671714+00:00",
+  "checked_at": "2026-09-19T23:23:42.647514+00:00",
   "summary_hi": "* दीपावली: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
   "n_sources": 2
  },
  "region:district-cg-kanker-1ab2925a": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:30:59.523700+00:00",
+  "checked_at": "2026-09-19T23:23:43.282809+00:00",
   "summary_hi": "दशहरा: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi, wikidata।",
   "n_sources": 2
  },
  "region:district-cg-kanker-669b23a7": {
   "score": 20,
   "verdict": "weak",
-  "checked_at": "2026-09-18T23:31:00.124693+00:00",
+  "checked_at": "2026-09-19T23:23:43.880852+00:00",
   "summary_hi": "होली – सामान्य भारतीय पर्व: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
   "n_sources": 1
  },
  "region:district-cg-gaurella-pendra-marwahi-e33cf269": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:41.941639+00:00",
+  "checked_at": "2026-09-19T23:23:29.771081+00:00",
   "summary_hi": "Marhimata mandir bhanwartank: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-gaurella-pendra-marwahi-baaeae4b": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:42.401036+00:00",
+  "checked_at": "2026-09-19T23:23:30.195992+00:00",
   "summary_hi": "Achankmaar Biosphere Reserve: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-gaurella-pendra-marwahi-40957119": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-18T23:30:42.900808+00:00",
+  "checked_at": "2026-09-19T23:23:30.635435+00:00",
   "summary_hi": "Achanakmaar Tiger reserve: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  }
