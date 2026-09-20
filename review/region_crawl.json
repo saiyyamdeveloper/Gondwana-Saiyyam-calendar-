@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-09-19T23:23:28+00:00",
-  "progress": "32/698 done, 28 blocked"
+  "updated": "2026-09-20T23:22:48+00:00",
+  "progress": "38/785 done, 28 blocked"
  },
  "jobs": [
   {
@@ -453,32 +453,44 @@
   {
    "unit": "state:tn",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-20T23:22:25+00:00",
+   "created": 41
   },
   {
    "unit": "state:kl",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-20T23:22:31+00:00",
+   "created": 15
   },
   {
    "unit": "state:hp",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-20T23:22:37+00:00",
+   "created": 11
   },
   {
    "unit": "state:uk",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-20T23:22:42+00:00",
+   "created": 13
   },
   {
    "unit": "state:sk",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-20T23:22:47+00:00",
+   "created": 6
   },
   {
    "unit": "state:ga",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-20T23:22:47+00:00",
+   "created": 1
   },
   {
    "unit": "state:hr",
@@ -3637,6 +3649,441 @@
   },
   {
    "unit": "district:up/varanasi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/ariyalur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/bellary",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/chengalpattu",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/chennai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/coimbatore",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/cuddalore",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/dharmapuri",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/dindigul",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/erode",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/kallakurichi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/kanchipuram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/kanyakumari",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/karur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/krishnagiri",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/madras",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/madurai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/mayiladuthurai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/nagapattinam",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/namakkal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/nilgiris",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/perambalur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/pudukkottai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/ramanathapuram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/ranipet",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/salem",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/sivaganga",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/tenkasi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/thanjavur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/theni",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/thoothukudi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/tiruchirappalli",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/tirunelveli",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/tirupattur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/tiruppur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/tiruvallur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/tiruvannamalai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/tiruvarur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/vellore",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/villupuram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/viluppuram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:tn/virudhunagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/alappuzha",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/ernakulam",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/idukki",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/kannur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/kasaragod",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/kollam",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/kottayam",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/kozhikode",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/malabar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/malappuram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/palakkad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/pathanamthitta",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/thiruvananthapuram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/thrissur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:kl/wayanad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hp/chamba",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hp/kangra",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hp/kathua",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hp/kinnaur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hp/kullu",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hp/lahaul-and-spiti",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hp/mandi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hp/shimla",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hp/sirmaur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hp/solan",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hp/una",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/almora",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/bageshwar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/chamoli",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/champawat",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/dehradun",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/haridwar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/nainital",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/pauri-garhwal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/pithoragarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/rudraprayag",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/tehri-garhwal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/udham-singh-nagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:uk/uttarkashi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:sk/gangtok",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:sk/gyalshing",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:sk/mangan",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:sk/namchi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:sk/pakyong",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:sk/soreng",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:ga/kushavati",
    "task": "mine",
    "status": "pending"
   }

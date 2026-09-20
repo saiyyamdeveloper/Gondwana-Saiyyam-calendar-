@@ -18,10 +18,10 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-09-19T23:23:28+00:00",
+  "updated": "2026-09-20T23:22:48+00:00",
   "coverage": {
    "states": 29,
-   "districts": 665,
+   "districts": 752,
    "tehsils": 4,
    "posts": 0,
    "panchayats": 0,
@@ -3179,6 +3179,15 @@
    "source_admin": "छत्तीसगढ़ सरकार — जिला सूची (15 अगस्त 2021 पुनर्गठन सहित)"
   },
   {
+   "id": "district:ga/kushavati",
+   "level": "district",
+   "name_hi": "Kushavati",
+   "name_en": "Kushavati",
+   "parent": "state:ga",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Goa"
+  },
+  {
    "id": "district:gj/ahmedabad",
    "level": "district",
    "name_hi": "Ahmedabad",
@@ -3483,6 +3492,105 @@
    "parent": "state:gj",
    "entities": [],
    "source_admin": "Wikipedia: List of districts of Gujarat"
+  },
+  {
+   "id": "district:hp/chamba",
+   "level": "district",
+   "name_hi": "Chamba",
+   "name_en": "Chamba",
+   "parent": "state:hp",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Himachal Pradesh"
+  },
+  {
+   "id": "district:hp/kangra",
+   "level": "district",
+   "name_hi": "Kangra",
+   "name_en": "Kangra",
+   "parent": "state:hp",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Himachal Pradesh"
+  },
+  {
+   "id": "district:hp/kathua",
+   "level": "district",
+   "name_hi": "Kathua",
+   "name_en": "Kathua",
+   "parent": "state:hp",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Himachal Pradesh"
+  },
+  {
+   "id": "district:hp/kinnaur",
+   "level": "district",
+   "name_hi": "Kinnaur",
+   "name_en": "Kinnaur",
+   "parent": "state:hp",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Himachal Pradesh"
+  },
+  {
+   "id": "district:hp/kullu",
+   "level": "district",
+   "name_hi": "Kullu",
+   "name_en": "Kullu",
+   "parent": "state:hp",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Himachal Pradesh"
+  },
+  {
+   "id": "district:hp/lahaul-and-spiti",
+   "level": "district",
+   "name_hi": "Lahaul and Spiti",
+   "name_en": "Lahaul and Spiti",
+   "parent": "state:hp",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Himachal Pradesh"
+  },
+  {
+   "id": "district:hp/mandi",
+   "level": "district",
+   "name_hi": "Mandi",
+   "name_en": "Mandi",
+   "parent": "state:hp",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Himachal Pradesh"
+  },
+  {
+   "id": "district:hp/shimla",
+   "level": "district",
+   "name_hi": "Shimla",
+   "name_en": "Shimla",
+   "parent": "state:hp",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Himachal Pradesh"
+  },
+  {
+   "id": "district:hp/sirmaur",
+   "level": "district",
+   "name_hi": "Sirmaur",
+   "name_en": "Sirmaur",
+   "parent": "state:hp",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Himachal Pradesh"
+  },
+  {
+   "id": "district:hp/solan",
+   "level": "district",
+   "name_hi": "Solan",
+   "name_en": "Solan",
+   "parent": "state:hp",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Himachal Pradesh"
+  },
+  {
+   "id": "district:hp/una",
+   "level": "district",
+   "name_hi": "Una",
+   "name_en": "Una",
+   "parent": "state:hp",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Himachal Pradesh"
   },
   {
    "id": "district:jh/bokaro",
@@ -4221,6 +4329,141 @@
    "parent": "state:ka",
    "entities": [],
    "source_admin": "Wikipedia: List of districts of Karnataka"
+  },
+  {
+   "id": "district:kl/alappuzha",
+   "level": "district",
+   "name_hi": "Alappuzha",
+   "name_en": "Alappuzha",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/ernakulam",
+   "level": "district",
+   "name_hi": "Ernakulam",
+   "name_en": "Ernakulam",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/idukki",
+   "level": "district",
+   "name_hi": "Idukki",
+   "name_en": "Idukki",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/kannur",
+   "level": "district",
+   "name_hi": "Kannur",
+   "name_en": "Kannur",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/kasaragod",
+   "level": "district",
+   "name_hi": "Kasaragod",
+   "name_en": "Kasaragod",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/kollam",
+   "level": "district",
+   "name_hi": "Kollam",
+   "name_en": "Kollam",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/kottayam",
+   "level": "district",
+   "name_hi": "Kottayam",
+   "name_en": "Kottayam",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/kozhikode",
+   "level": "district",
+   "name_hi": "Kozhikode",
+   "name_en": "Kozhikode",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/malabar",
+   "level": "district",
+   "name_hi": "Malabar",
+   "name_en": "Malabar",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/malappuram",
+   "level": "district",
+   "name_hi": "Malappuram",
+   "name_en": "Malappuram",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/palakkad",
+   "level": "district",
+   "name_hi": "Palakkad",
+   "name_en": "Palakkad",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/pathanamthitta",
+   "level": "district",
+   "name_hi": "Pathanamthitta",
+   "name_en": "Pathanamthitta",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/thiruvananthapuram",
+   "level": "district",
+   "name_hi": "Thiruvananthapuram",
+   "name_en": "Thiruvananthapuram",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/thrissur",
+   "level": "district",
+   "name_hi": "Thrissur",
+   "name_en": "Thrissur",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
+  },
+  {
+   "id": "district:kl/wayanad",
+   "level": "district",
+   "name_hi": "Wayanad",
+   "name_en": "Wayanad",
+   "parent": "state:kl",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Kerala"
   },
   {
    "id": "district:mh/ahmednagar",
@@ -6278,6 +6521,429 @@
    "source_admin": "Wikipedia: List of districts of Rajasthan"
   },
   {
+   "id": "district:sk/gangtok",
+   "level": "district",
+   "name_hi": "Gangtok",
+   "name_en": "Gangtok",
+   "parent": "state:sk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Sikkim"
+  },
+  {
+   "id": "district:sk/gyalshing",
+   "level": "district",
+   "name_hi": "Gyalshing",
+   "name_en": "Gyalshing",
+   "parent": "state:sk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Sikkim"
+  },
+  {
+   "id": "district:sk/mangan",
+   "level": "district",
+   "name_hi": "Mangan",
+   "name_en": "Mangan",
+   "parent": "state:sk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Sikkim"
+  },
+  {
+   "id": "district:sk/namchi",
+   "level": "district",
+   "name_hi": "Namchi",
+   "name_en": "Namchi",
+   "parent": "state:sk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Sikkim"
+  },
+  {
+   "id": "district:sk/pakyong",
+   "level": "district",
+   "name_hi": "Pakyong",
+   "name_en": "Pakyong",
+   "parent": "state:sk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Sikkim"
+  },
+  {
+   "id": "district:sk/soreng",
+   "level": "district",
+   "name_hi": "Soreng",
+   "name_en": "Soreng",
+   "parent": "state:sk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Sikkim"
+  },
+  {
+   "id": "district:tn/ariyalur",
+   "level": "district",
+   "name_hi": "Ariyalur",
+   "name_en": "Ariyalur",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/bellary",
+   "level": "district",
+   "name_hi": "Bellary",
+   "name_en": "Bellary",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/chengalpattu",
+   "level": "district",
+   "name_hi": "Chengalpattu",
+   "name_en": "Chengalpattu",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/chennai",
+   "level": "district",
+   "name_hi": "Chennai",
+   "name_en": "Chennai",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/coimbatore",
+   "level": "district",
+   "name_hi": "Coimbatore",
+   "name_en": "Coimbatore",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/cuddalore",
+   "level": "district",
+   "name_hi": "Cuddalore",
+   "name_en": "Cuddalore",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/dharmapuri",
+   "level": "district",
+   "name_hi": "Dharmapuri",
+   "name_en": "Dharmapuri",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/dindigul",
+   "level": "district",
+   "name_hi": "Dindigul",
+   "name_en": "Dindigul",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/erode",
+   "level": "district",
+   "name_hi": "Erode",
+   "name_en": "Erode",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/kallakurichi",
+   "level": "district",
+   "name_hi": "Kallakurichi",
+   "name_en": "Kallakurichi",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/kanchipuram",
+   "level": "district",
+   "name_hi": "Kanchipuram",
+   "name_en": "Kanchipuram",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/kanyakumari",
+   "level": "district",
+   "name_hi": "Kanyakumari",
+   "name_en": "Kanyakumari",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/karur",
+   "level": "district",
+   "name_hi": "Karur",
+   "name_en": "Karur",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/krishnagiri",
+   "level": "district",
+   "name_hi": "Krishnagiri",
+   "name_en": "Krishnagiri",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/madras",
+   "level": "district",
+   "name_hi": "Madras",
+   "name_en": "Madras",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/madurai",
+   "level": "district",
+   "name_hi": "Madurai",
+   "name_en": "Madurai",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/mayiladuthurai",
+   "level": "district",
+   "name_hi": "Mayiladuthurai",
+   "name_en": "Mayiladuthurai",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/nagapattinam",
+   "level": "district",
+   "name_hi": "Nagapattinam",
+   "name_en": "Nagapattinam",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/namakkal",
+   "level": "district",
+   "name_hi": "Namakkal",
+   "name_en": "Namakkal",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/nilgiris",
+   "level": "district",
+   "name_hi": "Nilgiris",
+   "name_en": "Nilgiris",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/perambalur",
+   "level": "district",
+   "name_hi": "Perambalur",
+   "name_en": "Perambalur",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/pudukkottai",
+   "level": "district",
+   "name_hi": "Pudukkottai",
+   "name_en": "Pudukkottai",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/ramanathapuram",
+   "level": "district",
+   "name_hi": "Ramanathapuram",
+   "name_en": "Ramanathapuram",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/ranipet",
+   "level": "district",
+   "name_hi": "Ranipet",
+   "name_en": "Ranipet",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/salem",
+   "level": "district",
+   "name_hi": "Salem",
+   "name_en": "Salem",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/sivaganga",
+   "level": "district",
+   "name_hi": "Sivaganga",
+   "name_en": "Sivaganga",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/tenkasi",
+   "level": "district",
+   "name_hi": "Tenkasi",
+   "name_en": "Tenkasi",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/thanjavur",
+   "level": "district",
+   "name_hi": "Thanjavur",
+   "name_en": "Thanjavur",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/theni",
+   "level": "district",
+   "name_hi": "Theni",
+   "name_en": "Theni",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/thoothukudi",
+   "level": "district",
+   "name_hi": "Thoothukudi",
+   "name_en": "Thoothukudi",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/tiruchirappalli",
+   "level": "district",
+   "name_hi": "Tiruchirappalli",
+   "name_en": "Tiruchirappalli",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/tirunelveli",
+   "level": "district",
+   "name_hi": "Tirunelveli",
+   "name_en": "Tirunelveli",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/tirupattur",
+   "level": "district",
+   "name_hi": "Tirupattur",
+   "name_en": "Tirupattur",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/tiruppur",
+   "level": "district",
+   "name_hi": "Tiruppur",
+   "name_en": "Tiruppur",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/tiruvallur",
+   "level": "district",
+   "name_hi": "Tiruvallur",
+   "name_en": "Tiruvallur",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/tiruvannamalai",
+   "level": "district",
+   "name_hi": "Tiruvannamalai",
+   "name_en": "Tiruvannamalai",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/tiruvarur",
+   "level": "district",
+   "name_hi": "Tiruvarur",
+   "name_en": "Tiruvarur",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/vellore",
+   "level": "district",
+   "name_hi": "Vellore",
+   "name_en": "Vellore",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/villupuram",
+   "level": "district",
+   "name_hi": "Villupuram",
+   "name_en": "Villupuram",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/viluppuram",
+   "level": "district",
+   "name_hi": "Viluppuram",
+   "name_en": "Viluppuram",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
+   "id": "district:tn/virudhunagar",
+   "level": "district",
+   "name_hi": "Virudhunagar",
+   "name_en": "Virudhunagar",
+   "parent": "state:tn",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Tamil Nadu"
+  },
+  {
    "id": "district:tr/dhalai",
    "level": "district",
    "name_hi": "Dhalai",
@@ -6684,6 +7350,123 @@
    "parent": "state:ts",
    "entities": [],
    "source_admin": "Wikipedia: List of districts of Telangana"
+  },
+  {
+   "id": "district:uk/almora",
+   "level": "district",
+   "name_hi": "Almora",
+   "name_en": "Almora",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
+  },
+  {
+   "id": "district:uk/bageshwar",
+   "level": "district",
+   "name_hi": "Bageshwar",
+   "name_en": "Bageshwar",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
+  },
+  {
+   "id": "district:uk/chamoli",
+   "level": "district",
+   "name_hi": "Chamoli",
+   "name_en": "Chamoli",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
+  },
+  {
+   "id": "district:uk/champawat",
+   "level": "district",
+   "name_hi": "Champawat",
+   "name_en": "Champawat",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
+  },
+  {
+   "id": "district:uk/dehradun",
+   "level": "district",
+   "name_hi": "Dehradun",
+   "name_en": "Dehradun",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
+  },
+  {
+   "id": "district:uk/haridwar",
+   "level": "district",
+   "name_hi": "Haridwar",
+   "name_en": "Haridwar",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
+  },
+  {
+   "id": "district:uk/nainital",
+   "level": "district",
+   "name_hi": "Nainital",
+   "name_en": "Nainital",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
+  },
+  {
+   "id": "district:uk/pauri-garhwal",
+   "level": "district",
+   "name_hi": "Pauri Garhwal",
+   "name_en": "Pauri Garhwal",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
+  },
+  {
+   "id": "district:uk/pithoragarh",
+   "level": "district",
+   "name_hi": "Pithoragarh",
+   "name_en": "Pithoragarh",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
+  },
+  {
+   "id": "district:uk/rudraprayag",
+   "level": "district",
+   "name_hi": "Rudraprayag",
+   "name_en": "Rudraprayag",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
+  },
+  {
+   "id": "district:uk/tehri-garhwal",
+   "level": "district",
+   "name_hi": "Tehri Garhwal",
+   "name_en": "Tehri Garhwal",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
+  },
+  {
+   "id": "district:uk/udham-singh-nagar",
+   "level": "district",
+   "name_hi": "Udham Singh Nagar",
+   "name_en": "Udham Singh Nagar",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
+  },
+  {
+   "id": "district:uk/uttarkashi",
+   "level": "district",
+   "name_hi": "Uttarkashi",
+   "name_en": "Uttarkashi",
+   "parent": "state:uk",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Uttarakhand"
   },
   {
    "id": "district:up/agra",
