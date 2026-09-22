@@ -1,11 +1,11 @@
 {
- "id": "region:district-cg-gariaband-2f38d7d3",
+ "id": "region:district-jh-dumka-4e2a7ed6",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q104859565"
+  "source": "wikidata:Q1887939"
  },
- "checked_at": "2026-09-22T23:44:09.514199+00:00",
+ "checked_at": "2026-09-22T23:43:45.539833+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -20,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Bhooteshwarnath",
-   "link": "https://en.wikipedia.org/wiki/Bhooteshwarnath"
+   "detail": "पृष्ठ मिला: Maluti; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Maluti"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q104859565",
-   "link": "https://www.wikidata.org/wiki/Q104859565"
+   "detail": "आइटम Q1887939",
+   "link": "https://www.wikidata.org/wiki/Q1887939"
   },
   {
    "name": "internal-sources",
@@ -50,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Bhooteshwarnath: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Maluti: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

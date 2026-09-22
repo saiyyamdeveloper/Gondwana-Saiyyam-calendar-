@@ -1,14 +1,21 @@
 {
- "id": "region:district-cg-gariaband-2f38d7d3",
+ "id": "region:district-jh-dhanbad-27559de2",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q104859565"
+  "source": "wikidata:Q1165"
  },
- "checked_at": "2026-09-22T23:44:09.514199+00:00",
+ "checked_at": "2026-09-22T23:43:49.931700+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
+  {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"बिहार\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
   {
    "name": "wiki-hi",
    "ok": false,
@@ -20,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Bhooteshwarnath",
-   "link": "https://en.wikipedia.org/wiki/Bhooteshwarnath"
+   "detail": "पृष्ठ मिला: Bihar; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Bihar"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q104859565",
-   "link": "https://www.wikidata.org/wiki/Q104859565"
+   "detail": "आइटम Q1165",
+   "link": "https://www.wikidata.org/wiki/Q1165"
   },
   {
    "name": "internal-sources",
@@ -50,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Bhooteshwarnath: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Bihar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

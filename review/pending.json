@@ -1,9 +1,489 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-22T00:14:31.128115+00:00"
+  "updated": "2026-09-22T23:44:15.172092+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-jh-dumka-9097e1d5",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Terracotta",
+   "subtitle": "झारखंड · Dumka",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/dumka",
+   "payload": {
+    "unit_id": "district:jh/dumka",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Terracotta",
+     "desc_hi": "aripara police station. It is near the border of West Bengal and Jharkhand State. There are many Shiva, Bishnu, Durga Terracotta temples. <gallery mode=\"packed\"> File:Maluti_teracotta_temple.jpg|Maluti terracotta temple File:Maluti_Temple.jpg|Maluti Temple File:Malooti1.jpg|Maloo",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dumka"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-dumka-34cb3539",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shikaripara",
+   "subtitle": "झारखंड · Dumka",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/dumka",
+   "payload": {
+    "unit_id": "district:jh/dumka",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shikaripara",
+     "desc_hi": "* Maluti|Maluti temple Village - Maluti is an ancient temple village of Dumka District under Shikaripara police station. It is near the border of West Bengal and Jharkhand State. There are many Shiva, Bishnu, Durga Terracotta temples. <gallery mode=\"packed\"> File:Maluti_teracotta",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dumka"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-dumka-4e2a7ed6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Maluti",
+   "subtitle": "झारखंड · Dumka",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/dumka",
+   "payload": {
+    "unit_id": "district:jh/dumka",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Maluti",
+     "desc_hi": "* Maluti|Maluti temple Village - Maluti is an ancient temple village of Dumka District under Shikaripara police station. It is near the border of West Bengal and Jharkhand State. There are many Shiva, Bishnu, Durga Terracotta temples. <gallery mode=\"packed\"> Fi",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dumka"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-dumka-026182ed",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Maluti temple Village",
+   "subtitle": "झारखंड · Dumka",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/dumka",
+   "payload": {
+    "unit_id": "district:jh/dumka",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Maluti temple Village",
+     "desc_hi": "* Maluti|Maluti temple Village - Maluti is an ancient temple village of Dumka District under Shikaripara police station. It is near the border of West Bengal and Jharkhand State. There are many Shiva, Bishnu, Durga Terracotta",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dumka"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-dumka-3fbff0e6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shiva",
+   "subtitle": "झारखंड · Dumka",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/dumka",
+   "payload": {
+    "unit_id": "district:jh/dumka",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shiva",
+     "desc_hi": "* Basukinath Temple of Lord Shiva",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dumka"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-dumka-a0824d91",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Basukinath Temple",
+   "subtitle": "झारखंड · Dumka",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/dumka",
+   "payload": {
+    "unit_id": "district:jh/dumka",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Basukinath Temple",
+     "desc_hi": "* Basukinath Temple of Lord Shiva",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dumka"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-dhanbad-27559de2",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Bihar",
+   "subtitle": "झारखंड · Dhanbad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/dhanbad",
+   "payload": {
+    "unit_id": "district:jh/dhanbad",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Bihar",
+     "desc_hi": "strict used to be a part of Manbhum region and was occupied by Mundari tribals in the wilderness of South undivided Bihar . In the seventh century A.D. some information is available from the account of the travels of Hieun Tsang . These accounts narrate the existence of a powerfu",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dhanbad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-dhanbad-c0293214",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Manbhum",
+   "subtitle": "झारखंड · Dhanbad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/dhanbad",
+   "payload": {
+    "unit_id": "district:jh/dhanbad",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Manbhum",
+     "desc_hi": "e Labour Minister in the Viceroy's Executive Council at coal mines, Dhanbad The present district used to be a part of Manbhum region and was occupied by Mundari tribals in the wilderness of South undivided Bihar . In the seventh century A.D. some information is available from the",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dhanbad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-deoghar-d6a093e8",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Belur Math",
+   "subtitle": "झारखंड · Deoghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/deoghar",
+   "payload": {
+    "unit_id": "district:jh/deoghar",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Belur Math",
+     "desc_hi": "aulakha Mandir : ' The temple stands 146&nbsp;ft high. It is very similar to the temple of Ramakrishna Mission in Belur Math and it is dedicated to Radha-Krishna. Since its construction cost ₹9 lakh , it is also known as Naulakha temple. * ' Basukinath Temple : ' Basukinath is a ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deoghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-deoghar-61a66f75",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Ramakrishna Mission",
+   "subtitle": "झारखंड · Deoghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/deoghar",
+   "payload": {
+    "unit_id": "district:jh/deoghar",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Ramakrishna Mission",
+     "desc_hi": "[Naulakha Temple, Deoghar|Naulakha Mandir : ' The temple stands 146&nbsp;ft high. It is very similar to the temple of Ramakrishna Mission in Belur Math and it is dedicated to Radha-Krishna. Since its construction cost ₹9 lakh , it is also known as Naulakha temple. * ' Basukinath ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deoghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-deoghar-a5522cb7",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Naulakha Mandir",
+   "subtitle": "झारखंड · Deoghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/deoghar",
+   "payload": {
+    "unit_id": "district:jh/deoghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Naulakha Mandir",
+     "desc_hi": "/deoghar-in-jharkhand-is-a-hub-of-all-thing-religious-and-beautiful/photostory/90845959.cms?picid=90846008}}</ref> * ' Naulakha Temple, Deoghar|Naulakha Mandir : ' The temple stands 146&nbsp;ft high. It is very similar to the temple of Ramakrishna Mission in Belur Math and it is ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deoghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-deoghar-b53c7cbf",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Times of India",
+   "subtitle": "झारखंड · Deoghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/deoghar",
+   "payload": {
+    "unit_id": "district:jh/deoghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Times of India",
+     "desc_hi": "ame=\":1\"> </ref> * ' Naulakha Temple, Deoghar|Naulakha Mandi",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deoghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-deoghar-dd2534b3",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shakti Peethas",
+   "subtitle": "झारखंड · Deoghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/deoghar",
+   "payload": {
+    "unit_id": "district:jh/deoghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shakti Peethas",
+     "desc_hi": "ndu shrine dedicated to Lord Shiva , revered as one of the twelve Jyotirlinga s and also recognized as one of the Shakta pithas|Shakti Peethas in India. * 'Tapovan Caves and Hills: ' This series of caves and hills is located 10&nbsp;km from Deoghar and has a temple of Shiva calle",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deoghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-deoghar-1fd0585d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jyotirlinga",
+   "subtitle": "झारखंड · Deoghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/deoghar",
+   "payload": {
+    "unit_id": "district:jh/deoghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jyotirlinga",
+     "desc_hi": "th Temple| 'Baidyanath Temple: ' a prominent Hindu shrine dedicated to Lord Shiva , revered as one of the twelve Jyotirlinga s and also recognized as one of the Shakta pithas|Shakti Peethas in India. * 'Tapovan Caves and Hills: ' This series of caves and hills is located 10&nbsp;",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deoghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-deoghar-3fbff0e6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shiva",
+   "subtitle": "झारखंड · Deoghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/deoghar",
+   "payload": {
+    "unit_id": "district:jh/deoghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shiva",
+     "desc_hi": "urist attractions such as: * Baidyanath Temple| 'Baidyanath Temple: ' a prominent Hindu shrine dedicated to Lord Shiva , revered as one of the twelve Jyotirlinga s and also recognized as one of the Shakta pithas|Shakti Peethas in India. * 'Tapovan Caves and Hills: ' This series o",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deoghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-deoghar-2ed28685",
+   "kind": "region",
+   "subtype": "place",
+   "title": "'''Baidyanath Temple:'''",
+   "subtitle": "झारखंड · Deoghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/deoghar",
+   "payload": {
+    "unit_id": "district:jh/deoghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "'''Baidyanath Temple:'''",
+     "desc_hi": "The holy city of Deoghar is home to various tourist attractions such as: * Baidyanath Temple| 'Baidyanath Temple: ' a prominent Hindu shrine dedicated to Lord Shiva , revered as one of the twelve Jyotirlinga s and also recognized as one of the Shakta pithas|Shakti Peethas in Indi",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deoghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-cg-gaurella-pendra-marwahi-e33cf269",
    "kind": "region",

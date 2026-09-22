@@ -1,11 +1,11 @@
 {
- "id": "region:district-cg-balrampur-ramanujganj-dipadih",
+ "id": "region:district-jh-deoghar-dd2534b3",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q40888239"
+  "source": "wikidata:Q115577966"
  },
- "checked_at": "2026-09-22T23:44:02.977148+00:00",
+ "checked_at": "2026-09-22T23:43:56.750718+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"डीपाडीह\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"भवानीपुर शक्तिपीठ\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Dipadih",
-   "link": "https://en.wikipedia.org/wiki/Dipadih"
+   "detail": "पृष्ठ मिला: Shakta pithas; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Shakta%20pithas"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q40888239",
-   "link": "https://www.wikidata.org/wiki/Q40888239"
+   "detail": "आइटम Q115577966",
+   "link": "https://www.wikidata.org/wiki/Q115577966"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Dipadih: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Shakti Peethas: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }
