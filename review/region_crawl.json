@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-09-20T23:22:48+00:00",
-  "progress": "38/785 done, 28 blocked"
+  "updated": "2026-09-22T00:14:04+00:00",
+  "progress": "40/809 done, 32 blocked"
  },
  "jobs": [
   {
@@ -495,32 +495,44 @@
   {
    "unit": "state:hr",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-22T00:14:00+00:00",
+   "created": 24
   },
   {
    "unit": "state:pb",
    "task": "districts",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-22T00:14:01+00:00",
+   "created": 0
   },
   {
    "unit": "tehsil:cg/kabirdham/bodla",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-09-22T00:14:01+00:00"
   },
   {
    "unit": "tehsil:cg/kabirdham/kabirdham",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-22T00:14:02+00:00"
   },
   {
    "unit": "tehsil:cg/kabirdham/pandariya",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-22T00:14:03+00:00"
   },
   {
    "unit": "tehsil:cg/kabirdham/sahaspur-lohara",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-22T00:14:03+00:00"
   },
   {
    "unit": "district:jh/bokaro",
@@ -4084,6 +4096,126 @@
   },
   {
    "unit": "district:ga/kushavati",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/ambala",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/bhiwani",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/charkhi-dadri",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/faridabad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/fatehabad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/gurgaon",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/gurugram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/hansi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/hisar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/jhajjar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/jind",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/kaithal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/karnal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/kurukshetra",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/mahendragarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/nuh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/palwal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/panchkula",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/panipat",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/rewari",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/rohtak",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/sirsa",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/sonipat",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "district:hr/yamunanagar",
    "task": "mine",
    "status": "pending"
   }

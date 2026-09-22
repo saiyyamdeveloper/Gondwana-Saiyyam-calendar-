@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q10274"
  },
- "checked_at": "2026-09-20T23:23:07.707095+00:00",
+ "checked_at": "2026-09-22T00:14:21.988285+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -20,7 +20,7 @@
    "name": "wiki-en-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"Dassehra\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"Dasara\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {

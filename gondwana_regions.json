@@ -18,10 +18,10 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-09-20T23:22:48+00:00",
+  "updated": "2026-09-22T00:14:04+00:00",
   "coverage": {
    "states": 29,
-   "districts": 752,
+   "districts": 776,
    "tehsils": 4,
    "posts": 0,
    "panchayats": 0,
@@ -3591,6 +3591,222 @@
    "parent": "state:hp",
    "entities": [],
    "source_admin": "Wikipedia: List of districts of Himachal Pradesh"
+  },
+  {
+   "id": "district:hr/ambala",
+   "level": "district",
+   "name_hi": "Ambala",
+   "name_en": "Ambala",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/bhiwani",
+   "level": "district",
+   "name_hi": "Bhiwani",
+   "name_en": "Bhiwani",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/charkhi-dadri",
+   "level": "district",
+   "name_hi": "Charkhi Dadri",
+   "name_en": "Charkhi Dadri",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/faridabad",
+   "level": "district",
+   "name_hi": "Faridabad",
+   "name_en": "Faridabad",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/fatehabad",
+   "level": "district",
+   "name_hi": "Fatehabad",
+   "name_en": "Fatehabad",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/gurgaon",
+   "level": "district",
+   "name_hi": "Gurgaon",
+   "name_en": "Gurgaon",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/gurugram",
+   "level": "district",
+   "name_hi": "Gurugram",
+   "name_en": "Gurugram",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/hansi",
+   "level": "district",
+   "name_hi": "Hansi",
+   "name_en": "Hansi",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/hisar",
+   "level": "district",
+   "name_hi": "Hisar",
+   "name_en": "Hisar",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/jhajjar",
+   "level": "district",
+   "name_hi": "Jhajjar",
+   "name_en": "Jhajjar",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/jind",
+   "level": "district",
+   "name_hi": "Jind",
+   "name_en": "Jind",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/kaithal",
+   "level": "district",
+   "name_hi": "Kaithal",
+   "name_en": "Kaithal",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/karnal",
+   "level": "district",
+   "name_hi": "Karnal",
+   "name_en": "Karnal",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/kurukshetra",
+   "level": "district",
+   "name_hi": "Kurukshetra",
+   "name_en": "Kurukshetra",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/mahendragarh",
+   "level": "district",
+   "name_hi": "Mahendragarh",
+   "name_en": "Mahendragarh",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/nuh",
+   "level": "district",
+   "name_hi": "Nuh",
+   "name_en": "Nuh",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/palwal",
+   "level": "district",
+   "name_hi": "Palwal",
+   "name_en": "Palwal",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/panchkula",
+   "level": "district",
+   "name_hi": "Panchkula",
+   "name_en": "Panchkula",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/panipat",
+   "level": "district",
+   "name_hi": "Panipat",
+   "name_en": "Panipat",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/rewari",
+   "level": "district",
+   "name_hi": "Rewari",
+   "name_en": "Rewari",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/rohtak",
+   "level": "district",
+   "name_hi": "Rohtak",
+   "name_en": "Rohtak",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/sirsa",
+   "level": "district",
+   "name_hi": "Sirsa",
+   "name_en": "Sirsa",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/sonipat",
+   "level": "district",
+   "name_hi": "Sonipat",
+   "name_en": "Sonipat",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
+  },
+  {
+   "id": "district:hr/yamunanagar",
+   "level": "district",
+   "name_hi": "Yamunanagar",
+   "name_en": "Yamunanagar",
+   "parent": "state:hr",
+   "entities": [],
+   "source_admin": "Wikipedia: List of districts of Haryana"
   },
   {
    "id": "district:jh/bokaro",
