@@ -1,11 +1,11 @@
 {
- "id": "region:district-cg-balrampur-ramanujganj-dipadih",
+ "id": "region:district-jh-giridih-924f5a88",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q40888239"
+  "source": "wikidata:Q885798"
  },
- "checked_at": "2026-09-23T23:53:40.630853+00:00",
+ "checked_at": "2026-09-23T23:53:07.799844+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"डीपाडीह\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"अर्जुन वाजपेयी\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Dipadih",
-   "link": "https://en.wikipedia.org/wiki/Dipadih"
+   "detail": "पृष्ठ मिला: Highest unclimbed mountain; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Highest%20unclimbed%20mountain"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q40888239",
-   "link": "https://www.wikidata.org/wiki/Q40888239"
+   "detail": "आइटम Q885798",
+   "link": "https://www.wikidata.org/wiki/Q885798"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Dipadih: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "mountain peak: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

@@ -1,9 +1,549 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-22T23:44:15.172092+00:00"
+  "updated": "2026-09-23T23:53:40.633395+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-jh-hazaribagh-8800b180",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ranchi",
+   "subtitle": "झारखंड · Hazaribagh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/hazaribagh",
+   "payload": {
+    "unit_id": "district:jh/hazaribagh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ranchi",
+     "desc_hi": "[Koderma , from Hazaribagh * Surajkund hot spring , from Hazaribagh * Tilaiya Dam * Ranchi , from Hazaribagh",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Hazaribagh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-hazaribagh-7eec22e2",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Tilaiya Dam",
+   "subtitle": "झारखंड · Hazaribagh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/hazaribagh",
+   "payload": {
+    "unit_id": "district:jh/hazaribagh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Tilaiya Dam",
+     "desc_hi": "rom Hazaribagh * Koderma , from Hazaribagh * Surajkund hot spring , from Hazaribagh * Tilaiya Dam * Ranchi , from Hazaribagh",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Hazaribagh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-hazaribagh-6ae9f382",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Surajkund hot spring",
+   "subtitle": "झारखंड · Hazaribagh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/hazaribagh",
+   "payload": {
+    "unit_id": "district:jh/hazaribagh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Surajkund hot spring",
+     "desc_hi": "* Konar Dam , from Hazaribagh * Koderma , from Hazaribagh * Surajkund hot spring , from Hazaribagh * Tilaiya Dam * Ranchi , from Hazaribagh",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Hazaribagh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-hazaribagh-dfd26359",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Koderma",
+   "subtitle": "झारखंड · Hazaribagh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/hazaribagh",
+   "payload": {
+    "unit_id": "district:jh/hazaribagh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Koderma",
+     "desc_hi": "* Konar Dam , from Hazaribagh * Koderma , from Hazaribagh * Surajkund hot spring , from Hazaribagh * Tilaiya Dam * Ranchi , from Hazaribagh",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Hazaribagh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-hazaribagh-970277c2",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Konar Dam",
+   "subtitle": "झारखंड · Hazaribagh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/hazaribagh",
+   "payload": {
+    "unit_id": "district:jh/hazaribagh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Konar Dam",
+     "desc_hi": "* Konar Dam , from Hazaribagh * Koderma , from Hazaribagh * Surajkund hot spring , from Hazaribagh * Tilaiya Dam * Ranchi , from Hazaribagh",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Hazaribagh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-giridih-11aebd89",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rajdah Dham",
+   "subtitle": "झारखंड · Giridih",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/giridih",
+   "payload": {
+    "unit_id": "district:jh/giridih",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rajdah Dham",
+     "desc_hi": "nkara s (teachers of the Jains), (including Parshwanath|Parshanath ) attained Moksha (Nirvana) from this place. * ' Rajdah Dham ', Sabalpur, also known as Rajdaha, is a temple of Lord Shiva. It is situated approximately 60&nbsp;km Giridih and 5&nbsp;km from Suriya. (Near Nimatand",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Giridih"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-giridih-370578f8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Parshanath",
+   "subtitle": "झारखंड · Giridih",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/giridih",
+   "payload": {
+    "unit_id": "district:jh/giridih",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Parshanath",
+     "desc_hi": "in the world. According to Jain belief, twenty of the twenty-four Tirthankara s (teachers of the Jains), (including Parshwanath|Parshanath ) attained Moksha (Nirvana) from this place. * ' Rajdah Dham ', Sabalpur, also known as Rajdaha, is a temple of Lord Shiva. It is situated ap",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Giridih"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-giridih-b07382ea",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Tirthankara",
+   "subtitle": "झारखंड · Giridih",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/giridih",
+   "payload": {
+    "unit_id": "district:jh/giridih",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Tirthankara",
+     "desc_hi": "d one of the most sacred places for Jainism|Jains in the world. According to Jain belief, twenty of the twenty-four Tirthankara s (teachers of the Jains), (including Parshwanath|Parshanath ) attained Moksha (Nirvana) from this place. * ' Rajdah Dham ', Sabalpur, also known as Raj",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Giridih"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-giridih-3c5ba135",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jain",
+   "subtitle": "झारखंड · Giridih",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/giridih",
+   "payload": {
+    "unit_id": "district:jh/giridih",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jain",
+     "desc_hi": "he Parasnath Hills , with the highest mountain|mountain peak in Jharkhand, 4480 feet above sea level, is a major Jainism|Jain pilgrimage destination and one of the most sacred places for Jainism|Jains in the world. According to Jain belief, twenty of the twenty-four Tirthankara s",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Giridih"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-giridih-924f5a88",
+   "kind": "region",
+   "subtype": "place",
+   "title": "mountain peak",
+   "subtitle": "झारखंड · Giridih",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/giridih",
+   "payload": {
+    "unit_id": "district:jh/giridih",
+    "entity": {
+     "kind": "place",
+     "name_hi": "mountain peak",
+     "desc_hi": "andir, Shikharji * ' Shikharji|Shri Sammed Shikharji ', also known as the Parasnath Hills , with the highest mountain|mountain peak in Jharkhand, 4480 feet above sea level, is a major Jainism|Jain pilgrimage destination and one of the most sacred places for Jainism|Jains in the w",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Giridih"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-giridih-4b47b3f2",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Parasnath Hills",
+   "subtitle": "झारखंड · Giridih",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/giridih",
+   "payload": {
+    "unit_id": "district:jh/giridih",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Parasnath Hills",
+     "desc_hi": "ile:Sikharji jalmandir.jpg|thumb|Jal Mandir, Shikharji * ' Shikharji|Shri Sammed Shikharji ', also known as the Parasnath Hills , with the highest mountain|mountain peak in Jharkhand, 4480 feet above sea level, is a major Jainism|Jain pilgrimage destination and one of the most sa",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Giridih"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-giridih-078439ab",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shri Sammed Shikharji",
+   "subtitle": "झारखंड · Giridih",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/giridih",
+   "payload": {
+    "unit_id": "district:jh/giridih",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shri Sammed Shikharji",
+     "desc_hi": "File:Sikharji jalmandir.jpg|thumb|Jal Mandir, Shikharji * ' Shikharji|Shri Sammed Shikharji ', also known as the Parasnath Hills , with the highest mountain|mountain peak in Jharkhand, 4480 feet above sea level, is a major Jainism|Jain pilgrimage destination and one of the most s",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Giridih"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-giridih-0202011c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Jal Mandir, Shikharji",
+   "subtitle": "झारखंड · Giridih",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/giridih",
+   "payload": {
+    "unit_id": "district:jh/giridih",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Jal Mandir, Shikharji",
+     "desc_hi": "File:Sikharji jalmandir.jpg|thumb|Jal Mandir, Shikharji * ' Shikharji|Shri Sammed Shikharji ', also known as the Parasnath Hills , with the highest mountain|mountain peak in Jharkhand, 4480 feet above sea level, is a major",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Giridih"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-garhwa-6cce4740",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Khonhar Mandir, Gijna",
+   "subtitle": "झारखंड · Garhwa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/garhwa",
+   "payload": {
+    "unit_id": "district:jh/garhwa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Khonhar Mandir, Gijna",
+     "desc_hi": "' – associated with strong local devotion * 'Ranka Raj Palace ' – filming location for Aaj Ka Robin Hood * 'Khonhar Mandir, Gijna ' – an ancient temple of Lord Shiva",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Garhwa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-garhwa-b8f8c03f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ranka Raj Palace",
+   "subtitle": "झारखंड · Garhwa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/garhwa",
+   "payload": {
+    "unit_id": "district:jh/garhwa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ranka Raj Palace",
+     "desc_hi": "ll ' – popular since the British period * 'Kali Temple (Kali Sthan) ' – associated with strong local devotion * 'Ranka Raj Palace ' – filming location for Aaj Ka Robin Hood * 'Khonhar Mandir, Gijna ' – an ancient temple of Lord Shiva",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Garhwa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-garhwa-b239f8bd",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kali Temple (Kali Sthan)",
+   "subtitle": "झारखंड · Garhwa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/garhwa",
+   "payload": {
+    "unit_id": "district:jh/garhwa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kali Temple (Kali Sthan)",
+     "desc_hi": "devi Temple ' – a prominent local pilgrimage site * 'Satbahini Waterfall ' – popular since the British period * 'Kali Temple (Kali Sthan) ' – associated with strong local devotion * 'Ranka Raj Palace ' – filming location for Aaj Ka Robin Hood * 'Khonhar Mandir, Gijna ' – an ancie",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Garhwa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-garhwa-9f87955b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Satbahini Waterfall",
+   "subtitle": "झारखंड · Garhwa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/garhwa",
+   "payload": {
+    "unit_id": "district:jh/garhwa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Satbahini Waterfall",
+     "desc_hi": "Major attractions in and around Garhwa include: * 'Gadhdevi Temple ' – a prominent local pilgrimage site * 'Satbahini Waterfall ' – popular since the British period * 'Kali Temple (Kali Sthan) ' – associated with strong local devotion * 'Ranka Raj Palace ' – filming location for ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Garhwa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-garhwa-79c9451c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gadhdevi Temple",
+   "subtitle": "झारखंड · Garhwa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/garhwa",
+   "payload": {
+    "unit_id": "district:jh/garhwa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gadhdevi Temple",
+     "desc_hi": "Major attractions in and around Garhwa include: * 'Gadhdevi Temple ' – a prominent local pilgrimage site * 'Satbahini Waterfall ' – popular since the British period * 'Kali Temple (Kali Sthan) ' – associated with strong local devotion * 'Ranka Raj Palace ' – filming locat",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Garhwa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-jh-dumka-9097e1d5",
    "kind": "region",

@@ -1,11 +1,11 @@
 {
- "id": "region:district-cg-balrampur-ramanujganj-dipadih",
+ "id": "region:district-jh-hazaribagh-dfd26359",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q40888239"
+  "source": "wikidata:Q2085480"
  },
- "checked_at": "2026-09-23T23:53:40.630853+00:00",
+ "checked_at": "2026-09-23T23:53:00.959802+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"डीपाडीह\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"उत्तरी छोटानागपुर प्रमंडल\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Dipadih",
-   "link": "https://en.wikipedia.org/wiki/Dipadih"
+   "detail": "पृष्ठ मिला: Koderma district; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Koderma%20district"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q40888239",
-   "link": "https://www.wikidata.org/wiki/Q40888239"
+   "detail": "आइटम Q2085480",
+   "link": "https://www.wikidata.org/wiki/Q2085480"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Dipadih: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Koderma: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

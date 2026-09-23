@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-09-22T23:43:41+00:00",
-  "progress": "43/809 done, 35 blocked"
+  "updated": "2026-09-23T23:52:55+00:00",
+  "progress": "46/809 done, 38 blocked"
  },
  "jobs": [
   {
@@ -585,32 +585,50 @@
   {
    "unit": "district:jh/garhwa",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-23T23:52:50+00:00",
+   "children": 0,
+   "entities_queued": 5,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:jh/giridih",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-23T23:52:51+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:jh/godda",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-23T23:52:52+00:00"
   },
   {
    "unit": "district:jh/gumla",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-23T23:52:53+00:00"
   },
   {
    "unit": "district:jh/hazaribagh",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-23T23:52:54+00:00",
+   "children": 0,
+   "entities_queued": 5,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:jh/jamtara",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-23T23:52:54+00:00"
   },
   {
    "unit": "district:jh/khunti",

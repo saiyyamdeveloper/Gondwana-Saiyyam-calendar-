@@ -1114,21 +1114,21 @@
  "region:district-cg-koriya-3d0879bc": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:44:00.729575+00:00",
+  "checked_at": "2026-09-23T23:53:38.195406+00:00",
   "summary_hi": "महामाया: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-cg-koriya-a151c9fe": {
   "score": 20,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:44:02.394179+00:00",
+  "checked_at": "2026-09-23T23:53:38.963622+00:00",
   "summary_hi": "कूदेरगढ़: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-hi।",
   "n_sources": 1
  },
  "region:district-cg-balrampur-ramanujganj-dipadih": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:44:02.977148+00:00",
+  "checked_at": "2026-09-23T23:53:40.630853+00:00",
   "summary_hi": "Dipadih: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
@@ -1289,134 +1289,260 @@
  "region:district-cg-gaurella-pendra-marwahi-e33cf269": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-22T23:43:59.181947+00:00",
+  "checked_at": "2026-09-23T23:53:35.753841+00:00",
   "summary_hi": "Marhimata mandir bhanwartank: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-gaurella-pendra-marwahi-baaeae4b": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-22T23:43:59.636809+00:00",
+  "checked_at": "2026-09-23T23:53:36.504934+00:00",
   "summary_hi": "Achankmaar Biosphere Reserve: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-cg-gaurella-pendra-marwahi-40957119": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-22T23:44:00.058132+00:00",
+  "checked_at": "2026-09-23T23:53:37.289076+00:00",
   "summary_hi": "Achanakmaar Tiger reserve: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-jh-dumka-9097e1d5": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:44.298587+00:00",
+  "checked_at": "2026-09-23T23:53:15.818063+00:00",
   "summary_hi": "Terracotta: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-dumka-34cb3539": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:44.874593+00:00",
+  "checked_at": "2026-09-23T23:53:17.024940+00:00",
   "summary_hi": "Shikaripara: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-dumka-4e2a7ed6": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:45.539833+00:00",
+  "checked_at": "2026-09-23T23:53:18.183143+00:00",
   "summary_hi": "Maluti: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-dumka-026182ed": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:47.298999+00:00",
+  "checked_at": "2026-09-23T23:53:19.390628+00:00",
   "summary_hi": "Maluti temple Village: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-dumka-3fbff0e6": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:48.013672+00:00",
+  "checked_at": "2026-09-23T23:53:20.742566+00:00",
   "summary_hi": "Shiva: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-dumka-a0824d91": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:49.126531+00:00",
+  "checked_at": "2026-09-23T23:53:21.985159+00:00",
   "summary_hi": "Basukinath Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-dhanbad-27559de2": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:49.931700+00:00",
+  "checked_at": "2026-09-23T23:53:23.469352+00:00",
   "summary_hi": "Bihar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-dhanbad-c0293214": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:50.562113+00:00",
+  "checked_at": "2026-09-23T23:53:24.787117+00:00",
   "summary_hi": "Manbhum: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-deoghar-d6a093e8": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:51.791250+00:00",
+  "checked_at": "2026-09-23T23:53:25.977647+00:00",
   "summary_hi": "Belur Math: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-deoghar-61a66f75": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:52.760009+00:00",
+  "checked_at": "2026-09-23T23:53:27.741296+00:00",
   "summary_hi": "Ramakrishna Mission: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-deoghar-a5522cb7": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:55.024018+00:00",
+  "checked_at": "2026-09-23T23:53:28.859928+00:00",
   "summary_hi": "Naulakha Mandir: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-deoghar-b53c7cbf": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:55.998034+00:00",
+  "checked_at": "2026-09-23T23:53:30.336614+00:00",
   "summary_hi": "Times of India: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-deoghar-dd2534b3": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:56.750718+00:00",
+  "checked_at": "2026-09-23T23:53:31.535411+00:00",
   "summary_hi": "Shakti Peethas: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-deoghar-1fd0585d": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:57.359687+00:00",
+  "checked_at": "2026-09-23T23:53:32.654273+00:00",
   "summary_hi": "Jyotirlinga: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-deoghar-3fbff0e6": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:58.051440+00:00",
+  "checked_at": "2026-09-23T23:53:33.873089+00:00",
   "summary_hi": "Shiva: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-jh-deoghar-2ed28685": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-22T23:43:58.673183+00:00",
+  "checked_at": "2026-09-23T23:53:34.979266+00:00",
   "summary_hi": "'''Baidyanath Temple:''': स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
+ },
+ "region:district-jh-hazaribagh-8800b180": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-23T23:52:57.446866+00:00",
+  "summary_hi": "Ranchi: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-jh-hazaribagh-7eec22e2": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-23T23:52:58.813026+00:00",
+  "summary_hi": "Tilaiya Dam: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-jh-hazaribagh-6ae9f382": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-23T23:52:59.899872+00:00",
+  "summary_hi": "Surajkund hot spring: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-jh-hazaribagh-dfd26359": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-23T23:53:00.959802+00:00",
+  "summary_hi": "Koderma: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-jh-hazaribagh-970277c2": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-23T23:53:02.778895+00:00",
+  "summary_hi": "Konar Dam: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-jh-giridih-11aebd89": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-23T23:53:03.425240+00:00",
+  "summary_hi": "Rajdah Dham: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-jh-giridih-370578f8": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-09-23T23:53:04.358186+00:00",
+  "summary_hi": "Parshanath: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-jh-giridih-b07382ea": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-23T23:53:05.462256+00:00",
+  "summary_hi": "Tirthankara: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-jh-giridih-3c5ba135": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-09-23T23:53:06.658284+00:00",
+  "summary_hi": "Jain: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-jh-giridih-924f5a88": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-23T23:53:07.799844+00:00",
+  "summary_hi": "mountain peak: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-jh-giridih-4b47b3f2": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-23T23:53:08.939676+00:00",
+  "summary_hi": "Parasnath Hills: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-jh-giridih-078439ab": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-23T23:53:09.667991+00:00",
+  "summary_hi": "Shri Sammed Shikharji: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-jh-giridih-0202011c": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-23T23:53:10.443896+00:00",
+  "summary_hi": "thumb|Jal Mandir, Shikharji: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-jh-garhwa-6cce4740": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-23T23:53:11.240027+00:00",
+  "summary_hi": "Khonhar Mandir, Gijna: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-jh-garhwa-b8f8c03f": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-23T23:53:12.082206+00:00",
+  "summary_hi": "Ranka Raj Palace: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-jh-garhwa-b239f8bd": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-23T23:53:12.906519+00:00",
+  "summary_hi": "Kali Temple (Kali Sthan): स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-jh-garhwa-9f87955b": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-23T23:53:13.717780+00:00",
+  "summary_hi": "Satbahini Waterfall: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-jh-garhwa-79c9451c": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-23T23:53:14.442129+00:00",
+  "summary_hi": "Gadhdevi Temple: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
  }
 }

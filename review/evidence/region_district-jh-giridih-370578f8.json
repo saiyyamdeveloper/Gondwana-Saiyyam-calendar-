@@ -1,21 +1,14 @@
 {
- "id": "region:district-cg-koriya-3d0879bc",
+ "id": "region:district-jh-giridih-370578f8",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q47531456"
+  "source": "wikidata:Q129527845"
  },
- "checked_at": "2026-09-23T23:53:38.195406+00:00",
+ "checked_at": "2026-09-23T23:53:04.358186+00:00",
  "score": 15,
  "verdict": "weak",
  "checks": [
-  {
-   "name": "wiki-hi-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"मायादेवी\" नाम से मेल नहीं खाता — छोड़ा",
-   "link": ""
-  },
   {
    "name": "wiki-hi",
    "ok": false,
@@ -27,7 +20,7 @@
    "name": "wiki-en-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"Maya (mother of the Buddha)\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"Giridih\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -41,8 +34,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q47531456",
-   "link": "https://www.wikidata.org/wiki/Q47531456"
+   "detail": "आइटम Q129527845",
+   "link": "https://www.wikidata.org/wiki/Q129527845"
   },
   {
    "name": "internal-sources",
@@ -63,6 +56,6 @@
  "sources_domains": [
   "wikidata.org"
  ],
- "summary_hi": "महामाया: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+ "summary_hi": "Parshanath: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
  "llm": null
 }
