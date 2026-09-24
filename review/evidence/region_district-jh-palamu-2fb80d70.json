@@ -1,11 +1,11 @@
 {
- "id": "region:district-jh-dumka-34cb3539",
+ "id": "region:district-jh-palamu-2fb80d70",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q63696416"
+  "source": "wikidata:Q2663264"
  },
- "checked_at": "2026-09-24T23:58:13.213884+00:00",
+ "checked_at": "2026-09-24T23:57:56.420801+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"शिकारीपाड़ा\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"बेतला राष्ट्रीय उद्यान\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Shikaripara; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Shikaripara"
+   "detail": "पृष्ठ मिला: Betla National Park; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Betla%20National%20Park"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q63696416",
-   "link": "https://www.wikidata.org/wiki/Q63696416"
+   "detail": "आइटम Q2663264",
+   "link": "https://www.wikidata.org/wiki/Q2663264"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Shikaripara: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Betla National Park: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

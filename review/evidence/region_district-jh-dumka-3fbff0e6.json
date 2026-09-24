@@ -3,9 +3,9 @@
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q11378"
+  "source": "wikidata:Q234953"
  },
- "checked_at": "2026-09-23T23:53:20.742566+00:00",
+ "checked_at": "2026-09-24T23:58:15.866433+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -34,8 +34,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q11378",
-   "link": "https://www.wikidata.org/wiki/Q11378"
+   "detail": "आइटम Q234953",
+   "link": "https://www.wikidata.org/wiki/Q234953"
   },
   {
    "name": "internal-sources",

@@ -1,9 +1,279 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-23T23:53:40.633395+00:00"
+  "updated": "2026-09-24T23:58:23.990880+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-jh-palamu-84fe5225",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Medininagar",
+   "subtitle": "झारखंड · Palamu",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/palamu",
+   "payload": {
+    "unit_id": "district:jh/palamu",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Medininagar",
+     "desc_hi": "m Days and Nights in the Forest| Aranyer Din Ratri ( Days and Nights in the Forest ), located about 19 km from Medininagar (Daltonganj) in Palamu district , Jharkhand. {{Cite web |last=Joshi |first=Namrata |date=27 May 2025 |title=Sharmila Tagore Interview: Satyajit Ray's films d",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palamu_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-palamu-8e6efe52",
+   "kind": "region",
+   "subtype": "place",
+   "title": "''Aranyer Din Ratri''",
+   "subtitle": "झारखंड · Palamu",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/palamu",
+   "payload": {
+    "unit_id": "district:jh/palamu",
+    "entity": {
+     "kind": "place",
+     "name_hi": "''Aranyer Din Ratri''",
+     "desc_hi": "ructure by Medini Ray * Kechki Forest Rest House, a shooting location for Satyajit Ray|Satyajit Ray’s 1970 film Days and Nights in the Forest| Aranyer Din Ratri ( Days and Nights in the Forest ), located about 19 km from Medininagar (Daltonganj) in Palamu district , Jharkhand. {{",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palamu_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-palamu-64147389",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Satyajit Ray’s",
+   "subtitle": "झारखंड · Palamu",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/palamu",
+   "payload": {
+    "unit_id": "district:jh/palamu",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Satyajit Ray’s",
+     "desc_hi": "built in the 15th century a twin forts structure by Medini Ray * Kechki Forest Rest House, a shooting location for Satyajit Ray|Satyajit Ray’s 1970 film Days and Nights in the Forest| Aranyer Din Ratri ( Days and Nights in the Forest ), located about 19 km from Medininagar (Dalto",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palamu_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-palamu-d4e82e3a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Medini Ray",
+   "subtitle": "झारखंड · Palamu",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/palamu",
+   "payload": {
+    "unit_id": "district:jh/palamu",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Medini Ray",
+     "desc_hi": "in India whose brand ambassador is MS Dhoni * Palamu fort , built in the 15th century a twin forts structure by Medini Ray * Kechki Forest Rest House, a shooting location for Satyajit Ray|Satyajit Ray’s 1970 film Days and Nights in the Forest| Aranyer Din Ratri ( Days and Nights ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palamu_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-palamu-3f0d893a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Palamu fort",
+   "subtitle": "झारखंड · Palamu",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/palamu",
+   "payload": {
+    "unit_id": "district:jh/palamu",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Palamu fort",
+     "desc_hi": "Palamau Tiger Reserve , one of the first tiger conservation projects in India whose brand ambassador is MS Dhoni * Palamu fort , built in the 15th century a twin forts structure by Medini Ray * Kechki Forest Rest House, a shooting location for Satyajit Ray|Satyajit Ray’s 1970 fil",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palamu_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-palamu-db8fafe8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "MS Dhoni",
+   "subtitle": "झारखंड · Palamu",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/palamu",
+   "payload": {
+    "unit_id": "district:jh/palamu",
+    "entity": {
+     "kind": "place",
+     "name_hi": "MS Dhoni",
+     "desc_hi": "f wildlife * Palamau Tiger Reserve , one of the first tiger conservation projects in India whose brand ambassador is MS Dhoni * Palamu fort , built in the 15th century a twin forts structure by Medini Ray * Kechki Forest Rest House, a shooting location for Satyajit Ray|Satyajit R",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palamu_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-palamu-2faa9338",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Palamau Tiger Reserve",
+   "subtitle": "झारखंड · Palamu",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/palamu",
+   "payload": {
+    "unit_id": "district:jh/palamu",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Palamau Tiger Reserve",
+     "desc_hi": "g|thumb|alt=|View of Medininagar from Koyal River * Betla National Park , park hosts a wide variety of wildlife * Palamau Tiger Reserve , one of the first tiger conservation projects in India whose brand ambassador is MS Dhoni * Palamu fort , built in the 15th century a twin fort",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palamu_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-palamu-2fb80d70",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Betla National Park",
+   "subtitle": "झारखंड · Palamu",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/palamu",
+   "payload": {
+    "unit_id": "district:jh/palamu",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Betla National Park",
+     "desc_hi": "File:RiverKoyalView.jpg|thumb|alt=|View of Medininagar from Koyal River * Betla National Park , park hosts a wide variety of wildlife * Palamau Tiger Reserve , one of the first tiger conservation projects in India whose brand ambassador is MS Dhoni * Palamu fort , built in the 15",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palamu_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-pakur-6cb8ade7",
+   "kind": "region",
+   "subtype": "place",
+   "title": "left|thumb|Sidho Kanho Murmu Park",
+   "subtitle": "झारखंड · Pakur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/pakur",
+   "payload": {
+    "unit_id": "district:jh/pakur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "left|thumb|Sidho Kanho Murmu Park",
+     "desc_hi": "File:Methodist Church, in Pakur, Jharkhand 08.jpg|thumb|Pakur Methodist Church established in 1907 File:Sidho Kanho Murmu Park in Pakur, Jharkhand 01.jpg|left|thumb|Sidho Kanho Murmu Park * Martello Tower: Martello towers, simply known as Martellos, are small defensive forts buil",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Pakur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-jh-hazaribagh-8800b180",
    "kind": "region",

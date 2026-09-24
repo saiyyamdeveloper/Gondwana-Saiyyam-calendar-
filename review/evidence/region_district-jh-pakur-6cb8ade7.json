@@ -1,11 +1,11 @@
 {
- "id": "region:district-jh-garhwa-9f87955b",
+ "id": "region:district-jh-pakur-6cb8ade7",
  "dates": {
   "birth": null,
   "death": null,
   "source": null
  },
- "checked_at": "2026-09-24T23:58:10.732993+00:00",
+ "checked_at": "2026-09-24T23:57:57.022660+00:00",
  "score": 0,
  "verdict": "nosource",
  "checks": [
@@ -14,13 +14,6 @@
    "ok": false,
    "pts": 0,
    "detail": "कोई पृष्ठ नहीं मिला",
-   "link": ""
-  },
-  {
-   "name": "wiki-en-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"Garhwa\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -54,6 +47,6 @@
  ],
  "conflicts": [],
  "sources_domains": [],
- "summary_hi": "Satbahini Waterfall: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+ "summary_hi": "left|thumb|Sidho Kanho Murmu Park: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
  "llm": null
 }
