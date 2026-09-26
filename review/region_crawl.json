@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-09-24T23:57:47+00:00",
-  "progress": "48/809 done, 42 blocked"
+  "updated": "2026-09-26T00:01:14+00:00",
+  "progress": "53/823 done, 43 blocked"
  },
  "jobs": [
   {
@@ -679,32 +679,52 @@
   {
    "unit": "district:jh/ramgarh",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-26T00:01:09+00:00",
+   "children": 0,
+   "entities_queued": 2,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:jh/ranchi",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-26T00:01:10+00:00",
+   "children": 0,
+   "entities_queued": 2,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:jh/sahebganj",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-09-26T00:01:10+00:00"
   },
   {
    "unit": "district:jh/seraikela-kharsawan",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-26T00:01:12+00:00",
+   "children": 11,
+   "entities_queued": 0
   },
   {
    "unit": "district:jh/simdega",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-26T00:01:13+00:00",
+   "children": 0,
+   "entities_queued": 6,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:jh/west-singhbhum",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-09-26T00:01:14+00:00",
+   "children": 3,
+   "entities_queued": 2
   },
   {
    "unit": "district:od/angul",
@@ -4268,6 +4288,76 @@
   },
   {
    "unit": "district:hr/yamunanagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/seraikela-kharsawan/chandil-subdivision",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/seraikela-kharsawan/kukru",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/seraikela-kharsawan/ichagarh",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/seraikela-kharsawan/nimdih",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/seraikela-kharsawan/chandil",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/seraikela-kharsawan/seraikela-sadar-subdivision",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/seraikela-kharsawan/seraikela",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/seraikela-kharsawan/kharsawan",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/seraikela-kharsawan/adityapur-gamharia",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/seraikela-kharsawan/gobindpur-rajnagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/seraikela-kharsawan/kuchai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/west-singhbhum/chaibasa",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/west-singhbhum/chakradharpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:jh/west-singhbhum/khuntipani",
    "task": "mine",
    "status": "pending"
   }

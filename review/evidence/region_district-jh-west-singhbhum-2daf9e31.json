@@ -1,11 +1,11 @@
 {
- "id": "region:district-jh-palamu-84fe5225",
+ "id": "region:district-jh-west-singhbhum-2daf9e31",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q936464"
+  "source": "wikidata:Q57920059"
  },
- "checked_at": "2026-09-26T00:01:32.121953+00:00",
+ "checked_at": "2026-09-26T00:01:19.636783+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"मेदिनीनगर\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"भूमिज भाषा\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Medininagar; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Medininagar"
+   "detail": "पृष्ठ मिला: Bhumij people; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Bhumij%20people"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q936464",
-   "link": "https://www.wikidata.org/wiki/Q936464"
+   "detail": "आइटम Q57920059",
+   "link": "https://www.wikidata.org/wiki/Q57920059"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Medininagar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Bhumij: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

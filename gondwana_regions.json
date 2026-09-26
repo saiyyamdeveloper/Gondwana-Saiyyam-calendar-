@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-09-24T23:57:47+00:00",
+  "updated": "2026-09-26T00:01:14+00:00",
   "coverage": {
    "states": 29,
    "districts": 776,
-   "tehsils": 4,
+   "tehsils": 18,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -8651,6 +8651,118 @@
    "parent": "district:cg/kabirdham",
    "entities": [],
    "source_admin": "https://en.wikipedia.org/wiki/kabirdham"
+  },
+  {
+   "id": "tehsil:jh/seraikela-kharsawan/adityapur-gamharia",
+   "level": "tehsil",
+   "name_hi": "Adityapur (Gamharia)",
+   "parent": "district:jh/seraikela-kharsawan",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Seraikela_Kharsawan"
+  },
+  {
+   "id": "tehsil:jh/seraikela-kharsawan/chandil",
+   "level": "tehsil",
+   "name_hi": "Chandil",
+   "parent": "district:jh/seraikela-kharsawan",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Seraikela_Kharsawan"
+  },
+  {
+   "id": "tehsil:jh/seraikela-kharsawan/chandil-subdivision",
+   "level": "tehsil",
+   "name_hi": "Chandil subdivision",
+   "parent": "district:jh/seraikela-kharsawan",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Seraikela_Kharsawan"
+  },
+  {
+   "id": "tehsil:jh/seraikela-kharsawan/gobindpur-rajnagar",
+   "level": "tehsil",
+   "name_hi": "Gobindpur (Rajnagar)",
+   "parent": "district:jh/seraikela-kharsawan",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Seraikela_Kharsawan"
+  },
+  {
+   "id": "tehsil:jh/seraikela-kharsawan/ichagarh",
+   "level": "tehsil",
+   "name_hi": "Ichagarh",
+   "parent": "district:jh/seraikela-kharsawan",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Seraikela_Kharsawan"
+  },
+  {
+   "id": "tehsil:jh/seraikela-kharsawan/kharsawan",
+   "level": "tehsil",
+   "name_hi": "Kharsawan",
+   "parent": "district:jh/seraikela-kharsawan",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Seraikela_Kharsawan"
+  },
+  {
+   "id": "tehsil:jh/seraikela-kharsawan/kuchai",
+   "level": "tehsil",
+   "name_hi": "Kuchai",
+   "parent": "district:jh/seraikela-kharsawan",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Seraikela_Kharsawan"
+  },
+  {
+   "id": "tehsil:jh/seraikela-kharsawan/kukru",
+   "level": "tehsil",
+   "name_hi": "Kukru",
+   "parent": "district:jh/seraikela-kharsawan",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Seraikela_Kharsawan"
+  },
+  {
+   "id": "tehsil:jh/seraikela-kharsawan/nimdih",
+   "level": "tehsil",
+   "name_hi": "Nimdih",
+   "parent": "district:jh/seraikela-kharsawan",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Seraikela_Kharsawan"
+  },
+  {
+   "id": "tehsil:jh/seraikela-kharsawan/seraikela",
+   "level": "tehsil",
+   "name_hi": "Seraikela",
+   "parent": "district:jh/seraikela-kharsawan",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Seraikela_Kharsawan"
+  },
+  {
+   "id": "tehsil:jh/seraikela-kharsawan/seraikela-sadar-subdivision",
+   "level": "tehsil",
+   "name_hi": "Seraikela Sadar subdivision",
+   "parent": "district:jh/seraikela-kharsawan",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Seraikela_Kharsawan"
+  },
+  {
+   "id": "tehsil:jh/west-singhbhum/chaibasa",
+   "level": "tehsil",
+   "name_hi": "Chaibasa",
+   "parent": "district:jh/west-singhbhum",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/West_Singhbhum"
+  },
+  {
+   "id": "tehsil:jh/west-singhbhum/chakradharpur",
+   "level": "tehsil",
+   "name_hi": "Chakradharpur",
+   "parent": "district:jh/west-singhbhum",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/West_Singhbhum"
+  },
+  {
+   "id": "tehsil:jh/west-singhbhum/khuntipani",
+   "level": "tehsil",
+   "name_hi": "Khuntipani",
+   "parent": "district:jh/west-singhbhum",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/West_Singhbhum"
   }
  ]
 }

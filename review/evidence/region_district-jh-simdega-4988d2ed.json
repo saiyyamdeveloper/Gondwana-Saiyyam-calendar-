@@ -1,11 +1,11 @@
 {
- "id": "region:district-jh-palamu-2faa9338",
+ "id": "region:district-jh-simdega-4988d2ed",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q7126657"
+  "source": "wikidata:Q85791919"
  },
- "checked_at": "2026-09-26T00:01:38.487011+00:00",
+ "checked_at": "2026-09-26T00:01:25.276327+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -20,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Palamau Tiger Reserve; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Palamau%20Tiger%20Reserve"
+   "detail": "पृष्ठ मिला: Palkot Wildlife Sanctuary; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Palkot%20Wildlife%20Sanctuary"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q7126657",
-   "link": "https://www.wikidata.org/wiki/Q7126657"
+   "detail": "आइटम Q85791919",
+   "link": "https://www.wikidata.org/wiki/Q85791919"
   },
   {
    "name": "internal-sources",
@@ -50,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Palamau Tiger Reserve: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Palkot Wildlife Sanctuary: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

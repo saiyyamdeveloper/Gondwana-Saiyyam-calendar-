@@ -1,9 +1,369 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-24T23:58:23.990880+00:00"
+  "updated": "2026-09-26T00:01:57.584596+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-jh-west-singhbhum-c97e9999",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Munda",
+   "subtitle": "झारखंड · West Singhbhum",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/west-singhbhum",
+   "payload": {
+    "unit_id": "district:jh/west-singhbhum",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Munda",
+     "desc_hi": "sts that the name is taken from the 'Singh Bonga' the principal deity of the district's tribal Bhumij people|Bhumij - Munda people|Munda population. Art & Culture |url=https://jharkhandculture.com/node/105 |access-date=2022-11-07 |website=jharkhandculture.com}}</ref> It is curren",
+     "sources": [
+      "https://en.wikipedia.org/wiki/West_Singhbhum"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-west-singhbhum-2daf9e31",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Bhumij",
+   "subtitle": "झारखंड · West Singhbhum",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/west-singhbhum",
+   "payload": {
+    "unit_id": "district:jh/west-singhbhum",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Bhumij",
+     "desc_hi": ":0\" /> One account suggests that the name is taken from the 'Singh Bonga' the principal deity of the district's tribal Bhumij people|Bhumij - Munda people|Munda population. Art & Culture |url=https://jharkhandculture.com/node/105 |access-date=2022-11-07 |website=jharkhandculture.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/West_Singhbhum"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-simdega-ea80cd0a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Ramrekha Dham in Simdega",
+   "subtitle": "झारखंड · Simdega",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/simdega",
+   "payload": {
+    "unit_id": "district:jh/simdega",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Ramrekha Dham in Simdega",
+     "desc_hi": "पूर्णिमा पर उमड़ी श्रद्धालुओं की भीड़|publisher=Prabhat Khabar|date=5 February 2023|access-date=9 January 2025}}</ref> File:Ramrekhadham.jpg|thumb|Ramrekha Dham in Simdega",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Simdega"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-simdega-1428fe8b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Sita",
+   "subtitle": "झारखंड · Simdega",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/simdega",
+   "payload": {
+    "unit_id": "district:jh/simdega",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Sita",
+     "desc_hi": "ed on top of a hill and every year there is a fair during Kartik Purnima . It is said, that Lord Rama along with Sita and brother Laxman has visited this place and has left his mark (Foot prints) there. Some archaeological structures like agni kund, charan paduka, sita chulha, gu",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Simdega"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-simdega-9709a18a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rama",
+   "subtitle": "झारखंड · Simdega",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/simdega",
+   "payload": {
+    "unit_id": "district:jh/simdega",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rama",
+     "desc_hi": "ost important situated on top of a hill and every year there is a fair during Kartik Purnima . It is said, that Lord Rama along with Sita and brother Laxman has visited this place and has left his mark (Foot prints) there. Some archaeological structures like agni kund, charan pad",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Simdega"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-simdega-3c6cb8f3",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kartik Purnima",
+   "subtitle": "झारखंड · Simdega",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/simdega",
+   "payload": {
+    "unit_id": "district:jh/simdega",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kartik Purnima",
+     "desc_hi": "] *Ram Rekha Dham: Ramrekha Dham is the most important situated on top of a hill and every year there is a fair during Kartik Purnima . It is said, that Lord Rama along with Sita and brother Laxman has visited this place and has left his mark (Foot prints) there. Some archaeologi",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Simdega"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-simdega-3890756a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Kelaghagh Dam, Simdega",
+   "subtitle": "झारखंड · Simdega",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/simdega",
+   "payload": {
+    "unit_id": "district:jh/simdega",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Kelaghagh Dam, Simdega",
+     "desc_hi": "लाघाघ डैम परिसर को है सफाई का इंतेजार|publisher=Live Hindustan|date=24 December 2024|access-date=9 January 2025}}</ref> File:Kelaghagh_Dam.jpg|thumb|Kelaghagh Dam, Simdega *Ram Rekha Dham: Ramrekha Dham is the most important situated on top of a hill and every year there is a fai",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Simdega"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-simdega-4988d2ed",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Palkot Wildlife Sanctuary",
+   "subtitle": "झारखंड · Simdega",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/simdega",
+   "payload": {
+    "unit_id": "district:jh/simdega",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Palkot Wildlife Sanctuary",
+     "desc_hi": "eeded|date=April 2017}} and can attract both domestic as well as foreign tourists. * Palkot Wildlife Sanctuary : A wildlife sanctuary known for wild animals including leopard, sloth bear.[http://www.jharwildlife.in/2014-10-09-13-56-25/2014-10-10-15-05-38/palkot.html] File:Palkot ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Simdega"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-ranchi-fe169b11",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Jagatpal Singh",
+   "subtitle": "झारखंड · Ranchi",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/ranchi",
+   "payload": {
+    "unit_id": "district:jh/ranchi",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Jagatpal Singh",
+     "desc_hi": "they were defeated by East India company forces in Chatra and in Pithuriya with the help of the king of Pithuriya , Jagatpal Singh and hanged. {{cite journal | jstor=44143953 | title=The Role of Bishwanath Sahi of Lohardaga district, During the Revolt of 1857 in Bihar | author= M",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ranchi"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-ranchi-391dc464",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Pithuriya",
+   "subtitle": "झारखंड · Ranchi",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/ranchi",
+   "payload": {
+    "unit_id": "district:jh/ranchi",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Pithuriya",
+     "desc_hi": "them. But later they were defeated by East India company forces in Chatra and in Pithuriya with the help of the king of Pithuriya , Jagatpal Singh and hanged. {{cite journal | jstor=44143953 | title=The Role of Bishwanath Sahi of Lohardaga district, During the Revolt of 1857 in B",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ranchi"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-ramgarh-c5e2c504",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ramgarh Ke Sholay",
+   "subtitle": "झारखंड · Ramgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/ramgarh",
+   "payload": {
+    "unit_id": "district:jh/ramgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ramgarh Ke Sholay",
+     "desc_hi": "* Ramgarh, a village in the 1975 Indian film Sholay and its remake Ramgarh Ke Sholay (1991)",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ramgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-jh-ramgarh-69a010a0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Sholay",
+   "subtitle": "झारखंड · Ramgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:jh/ramgarh",
+   "payload": {
+    "unit_id": "district:jh/ramgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Sholay",
+     "desc_hi": "* Ramgarh, a village in the 1975 Indian film Sholay and its remake Ramgarh Ke Sholay (1991)",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ramgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-jh-palamu-84fe5225",
    "kind": "region",

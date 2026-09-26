@@ -1,11 +1,11 @@
 {
- "id": "region:district-jh-pakur-6cb8ade7",
+ "id": "region:district-jh-simdega-3890756a",
  "dates": {
   "birth": null,
   "death": null,
   "source": null
  },
- "checked_at": "2026-09-26T00:01:40.857613+00:00",
+ "checked_at": "2026-09-26T00:01:24.298623+00:00",
  "score": 0,
  "verdict": "nosource",
  "checks": [
@@ -47,6 +47,6 @@
  ],
  "conflicts": [],
  "sources_domains": [],
- "summary_hi": "left|thumb|Sidho Kanho Murmu Park: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+ "summary_hi": "thumb|Kelaghagh Dam, Simdega: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
  "llm": null
 }
