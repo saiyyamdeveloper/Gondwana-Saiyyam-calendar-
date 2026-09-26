@@ -1,11 +1,11 @@
 {
- "id": "region:district-jh-simdega-4988d2ed",
+ "id": "region:tehsil-jh-seraikela-kharsawan-chandil-bd289361",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q85791919"
+  "source": "wikidata:Q2558144"
  },
- "checked_at": "2026-09-26T23:45:46.215159+00:00",
+ "checked_at": "2026-09-26T23:45:38.576823+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -20,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Palkot Wildlife Sanctuary; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Palkot%20Wildlife%20Sanctuary"
+   "detail": "पृष्ठ मिला: Kandra; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Kandra"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q85791919",
-   "link": "https://www.wikidata.org/wiki/Q85791919"
+   "detail": "आइटम Q2558144",
+   "link": "https://www.wikidata.org/wiki/Q2558144"
   },
   {
    "name": "internal-sources",
@@ -50,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Palkot Wildlife Sanctuary: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Kandra: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

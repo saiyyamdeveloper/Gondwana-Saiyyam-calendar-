@@ -1,9 +1,249 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-26T00:01:57.584596+00:00"
+  "updated": "2026-09-26T23:45:57.413851+00:00"
  },
  "queue": [
+  {
+   "id": "region:tehsil-jh-seraikela-kharsawan-chandil-df9ae460",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Makar Sankranti",
+   "subtitle": "झारखंड · Seraikela Kharsawan · Chandil",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/seraikela-kharsawan/chandil",
+   "payload": {
+    "unit_id": "tehsil:jh/seraikela-kharsawan/chandil",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Makar Sankranti",
+     "desc_hi": "]) one of the pilgrimage of Jharkhand. Situated on the way to Ranchi-Tata. A fair is held here every year on the eve of Makar Sankranti . * 'SAI BABA Temple (HUMID) ' - A temple of Lord SAI BABA situated in the way to Ranchi-Tata. * 'MATHIA Temple ' - also known as Sadhu Baand",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandil"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-seraikela-kharsawan-chandil-77e73946",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ichagarh",
+   "subtitle": "झारखंड · Seraikela Kharsawan · Chandil",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/seraikela-kharsawan/chandil",
+   "payload": {
+    "unit_id": "tehsil:jh/seraikela-kharsawan/chandil",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ichagarh",
+     "desc_hi": "* 'Jayda Temple ' - An ancient temple of Lord Shiva , built by Raja Vikram Aditya Deo of erstwhile Patkum Estate ( Ichagarh ) one of the pilgrimage of Jharkhand. Situated on the way to Ranchi-Tata. A fair is held here every year on the eve of Makar Sankranti . * 'SAI BABA Temple ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandil"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-seraikela-kharsawan-chandil-3fbff0e6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shiva",
+   "subtitle": "झारखंड · Seraikela Kharsawan · Chandil",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/seraikela-kharsawan/chandil",
+   "payload": {
+    "unit_id": "tehsil:jh/seraikela-kharsawan/chandil",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shiva",
+     "desc_hi": "of river Karkari and Swarnarekha. * 'Jayda Temple ' - An ancient temple of Lord Shiva , built by Raja Vikram Aditya Deo of erstwhile Patkum Estate ( Ichagarh ) one of the pilgrimage of Jharkhand. Situated on the way to Ranchi-Tata. A fair is held here every year on the eve of Mak",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandil"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-seraikela-kharsawan-chandil-bd289361",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kandra",
+   "subtitle": "झारखंड · Seraikela Kharsawan · Chandil",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/seraikela-kharsawan/chandil",
+   "payload": {
+    "unit_id": "tehsil:jh/seraikela-kharsawan/chandil",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kandra",
+     "desc_hi": "as the capital of erstwhile Patkum estate|Patkum state which consisted modern day Chandil, Kukru, Nimdih, Ichagarh, Kandra , and adjoining regions of erstwhile Manbhum district of Bengal. Established by the Scion of King Vikramaditya of Ujjain, the region hosts several ancient te",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandil"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-seraikela-kharsawan-chandil-7790c6c6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Patkum state",
+   "subtitle": "झारखंड · Seraikela Kharsawan · Chandil",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/seraikela-kharsawan/chandil",
+   "payload": {
+    "unit_id": "tehsil:jh/seraikela-kharsawan/chandil",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Patkum state",
+     "desc_hi": "r= The Telegraph (Calcutta) |date=18 July 2011}}</ref> * 'Ichagarh Palace - ' Ichagarh was the capital of erstwhile Patkum estate|Patkum state which consisted modern day Chandil, Kukru, Nimdih, Ichagarh, Kandra , and adjoining regions of erstwhile Manbhum district of Bengal. Esta",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandil"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-seraikela-kharsawan-chandil-a1c6fd0a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "The Telegraph (Calcutta)",
+   "subtitle": "झारखंड · Seraikela Kharsawan · Chandil",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/seraikela-kharsawan/chandil",
+   "payload": {
+    "unit_id": "tehsil:jh/seraikela-kharsawan/chandil",
+    "entity": {
+     "kind": "place",
+     "name_hi": "The Telegraph (Calcutta)",
+     "desc_hi": "m/1110718/jsp/jharkhand/story_14250912.jsp|url-status=dead|archive-date=22 July 2011|accessdate=10 March 2012|newspaper= The Telegraph (Calcutta) |date=18 July 2011}}</ref> * 'Ichagarh Palace - ' Ichagarh was the capital of erstwhile Patkum estate|Patkum state which consisted mod",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandil"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-seraikela-kharsawan-chandil-e5816fbf",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Subarnarekha River",
+   "subtitle": "झारखंड · Seraikela Kharsawan · Chandil",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/seraikela-kharsawan/chandil",
+   "payload": {
+    "unit_id": "tehsil:jh/seraikela-kharsawan/chandil",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Subarnarekha River",
+     "desc_hi": "* 'Chandil Dam ' - Chandil Dam , standing on the Subarnarekha River , is 220 meter in height and the height of its water level is 190 meters. A museum, located close to the dam, has scripts written on rocks, which are 2000 years old. The River Swarnarekha flow",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandil"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-seraikela-kharsawan-chandil-d46fd090",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chandil Dam",
+   "subtitle": "झारखंड · Seraikela Kharsawan · Chandil",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/seraikela-kharsawan/chandil",
+   "payload": {
+    "unit_id": "tehsil:jh/seraikela-kharsawan/chandil",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chandil Dam",
+     "desc_hi": "* 'Chandil Dam ' - Chandil Dam , standing on the Subarnarekha River , is 220 meter in height and the height of its water level is 190 meters. A museum, located close to the dam, has scripts written on rocks, which are 2000 year",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandil"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-jh-west-singhbhum-c97e9999",
    "kind": "region",
