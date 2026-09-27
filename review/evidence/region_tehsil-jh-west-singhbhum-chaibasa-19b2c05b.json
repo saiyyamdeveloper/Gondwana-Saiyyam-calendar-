@@ -1,11 +1,11 @@
 {
- "id": "region:district-jh-simdega-1428fe8b",
+ "id": "region:tehsil-jh-west-singhbhum-chaibasa-19b2c05b",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q191114"
+  "source": "wikidata:Q75942529"
  },
- "checked_at": "2026-09-27T23:53:01.285055+00:00",
+ "checked_at": "2026-09-27T23:52:54.355880+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"सीता\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"फोरेंसिक चेहरे का पुनर्निर्माण\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Sita; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Sita"
+   "detail": "पृष्ठ मिला: Thomas Wilkinson; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Thomas%20Wilkinson"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q191114",
-   "link": "https://www.wikidata.org/wiki/Q191114"
+   "detail": "आइटम Q75942529",
+   "link": "https://www.wikidata.org/wiki/Q75942529"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Sita: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Thomas Wilkinson: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

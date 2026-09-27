@@ -1,9 +1,249 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-26T23:45:57.413851+00:00"
+  "updated": "2026-09-27T23:53:11.344928+00:00"
  },
  "queue": [
+  {
+   "id": "region:tehsil-jh-west-singhbhum-chaibasa-6ed045a7",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Lutheran Jheel and local temples",
+   "subtitle": "झारखंड · West Singhbhum · Chaibasa",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/west-singhbhum/chaibasa",
+   "payload": {
+    "unit_id": "tehsil:jh/west-singhbhum/chaibasa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Lutheran Jheel and local temples",
+     "desc_hi": "ces of Interest |url=https://chaibasa.nic.in/places-of-interest/ |work=Chaibasa.nic.in |access-date=2025-12-07}}</ref> * 'Lutheran Jheel and local temples ' — Several small lakes and temples, including Hakumatkam Temple and Lutheran Jheel, are local religious and scenic sites oft",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chaibasa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-west-singhbhum-chaibasa-a5ad96af",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Lupungutu Spring",
+   "subtitle": "झारखंड · West Singhbhum · Chaibasa",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/west-singhbhum/chaibasa",
+   "payload": {
+    "unit_id": "tehsil:jh/west-singhbhum/chaibasa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Lupungutu Spring",
+     "desc_hi": "ered one of the best parks in the district. But it's often trolled sometimes for its poor maintenance and cleanliness. * 'Lupungutu Spring ' — Small nearby villages and springs (for example Lupungutu, ~2 km west of Chaibasa) are used as picnic spots by residents and visitors. {{c",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chaibasa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-west-singhbhum-chaibasa-dd8edc8e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jubilee Lake Park",
+   "subtitle": "झारखंड · West Singhbhum · Chaibasa",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/west-singhbhum/chaibasa",
+   "payload": {
+    "unit_id": "tehsil:jh/west-singhbhum/chaibasa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jubilee Lake Park",
+     "desc_hi": "3727429-Reviews-Rungta_Garden-Chaibasa_West_Singhbhum_Jharkhand.html |work=Tripadvisor |access-date=2025-12-07}}</ref> * 'Jubilee Lake Park ' — Town's biggest park surrounding a lake i.e. Kachahari Talab on Tungri. It is built by Tata Group and is considered one of the best parks",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chaibasa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-west-singhbhum-chaibasa-ce171693",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rungta Garden",
+   "subtitle": "झारखंड · West Singhbhum · Chaibasa",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/west-singhbhum/chaibasa",
+   "payload": {
+    "unit_id": "tehsil:jh/west-singhbhum/chaibasa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rungta Garden",
+     "desc_hi": "id Park |url=https://chaibasa.nic.in/tourist-place/shaheed-park/ |work=Chaibasa.nic.in |access-date=2025-12-07}}</ref> * 'Rungta Garden ' — Well-maintained town gardenfrequently visited by local families. Rungta Garden has floral beds, walking paths and seating areas. {{cite web ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chaibasa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-west-singhbhum-chaibasa-7356908b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shaheed Park",
+   "subtitle": "झारखंड · West Singhbhum · Chaibasa",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/west-singhbhum/chaibasa",
+   "payload": {
+    "unit_id": "tehsil:jh/west-singhbhum/chaibasa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shaheed Park",
+     "desc_hi": "* 'Shaheed Park ' — A central civic park and memorial maintained by the district administration. The park is popular for evening strolls, events and family outings. {{cite web |title=Shahid Park |url=https://chaibasa.nic.in/tourist-pla",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chaibasa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-west-singhbhum-chaibasa-81f57850",
+   "kind": "region",
+   "subtype": "person",
+   "title": "West Singhbhum",
+   "subtitle": "झारखंड · West Singhbhum · Chaibasa",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/west-singhbhum/chaibasa",
+   "payload": {
+    "unit_id": "tehsil:jh/west-singhbhum/chaibasa",
+    "entity": {
+     "kind": "person",
+     "name_hi": "West Singhbhum",
+     "desc_hi": "um underwent several administrative reorganisations. On 16 January 1990, the district was officially bifurcated to form West Singhbhum district|West Singhbhum , with Chaibasa continuing as its headquarters. Since then, Chaibasa has developed as the administrative, educational, an",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chaibasa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-west-singhbhum-chaibasa-19b2c05b",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Thomas Wilkinson",
+   "subtitle": "झारखंड · West Singhbhum · Chaibasa",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/west-singhbhum/chaibasa",
+   "payload": {
+    "unit_id": "tehsil:jh/west-singhbhum/chaibasa",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Thomas Wilkinson",
+     "desc_hi": ". [https://chaibasa.nic.in/history/ Chaibasa District Official Website – History]</ref> The British Political Agent Thomas Wilkinson Wallis|Thomas Wilkinson introduced Wilkinson’s Rules , which brought the tribal territories under indirect colonial governance while maintaining li",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chaibasa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-jh-west-singhbhum-chaibasa-31a313e2",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Kolhan region",
+   "subtitle": "झारखंड · West Singhbhum · Chaibasa",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:jh/west-singhbhum/chaibasa",
+   "payload": {
+    "unit_id": "tehsil:jh/west-singhbhum/chaibasa",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Kolhan region",
+     "desc_hi": "ml Dainik Jagran: Archaeological Survey finds 5th-century city in Jharkhand]</ref> Before colonial intervention, the Kolhan division|Kolhan region , in which Chaibasa lies, was predominantly inhabited and governed by tribal communities such as the Ho, Munda, and Bhumij peoples. T",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chaibasa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:tehsil-jh-seraikela-kharsawan-chandil-df9ae460",
    "kind": "region",

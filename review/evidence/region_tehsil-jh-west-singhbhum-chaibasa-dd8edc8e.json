@@ -1,12 +1,12 @@
 {
- "id": "region:district-jh-ranchi-391dc464",
+ "id": "region:tehsil-jh-west-singhbhum-chaibasa-dd8edc8e",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q108809675"
+  "source": null
  },
- "checked_at": "2026-09-27T23:53:04.391928+00:00",
- "score": 35,
+ "checked_at": "2026-09-27T23:52:51.846327+00:00",
+ "score": 20,
  "verdict": "weak",
  "checks": [
   {
@@ -20,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Pithoria",
-   "link": "https://en.wikipedia.org/wiki/Pithoria"
+   "detail": "पृष्ठ मिला: Jubilee Park, Jamshedpur; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Jubilee%20Park%2C%20Jamshedpur"
   },
   {
    "name": "wikidata",
-   "ok": true,
-   "pts": 15,
-   "detail": "आइटम Q108809675",
-   "link": "https://www.wikidata.org/wiki/Q108809675"
+   "ok": false,
+   "pts": 0,
+   "detail": "विकिडेटा आइटम नहीं मिला",
+   "link": ""
   },
   {
    "name": "internal-sources",
@@ -47,9 +47,8 @@
  ],
  "conflicts": [],
  "sources_domains": [
-  "en.wikipedia.org",
-  "wikidata.org"
+  "en.wikipedia.org"
  ],
- "summary_hi": "Pithuriya: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Jubilee Lake Park: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
  "llm": null
 }

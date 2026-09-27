@@ -1,11 +1,11 @@
 {
- "id": "region:district-jh-simdega-1428fe8b",
+ "id": "region:tehsil-jh-west-singhbhum-chaibasa-81f57850",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q191114"
+  "source": "wikidata:Q1950527"
  },
- "checked_at": "2026-09-27T23:53:01.285055+00:00",
+ "checked_at": "2026-09-27T23:52:53.188855+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"सीता\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"पश्चिमी सिंहभूम जिला\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Sita; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Sita"
+   "detail": "पृष्ठ मिला: West Singhbhum district; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/West%20Singhbhum%20district"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q191114",
-   "link": "https://www.wikidata.org/wiki/Q191114"
+   "detail": "आइटम Q1950527",
+   "link": "https://www.wikidata.org/wiki/Q1950527"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Sita: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "West Singhbhum: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }
