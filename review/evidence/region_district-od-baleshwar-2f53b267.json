@@ -3,9 +3,9 @@
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q235102"
+  "source": "wikidata:Q27942664"
  },
- "checked_at": "2026-09-29T01:10:12.639753+00:00",
+ "checked_at": "2026-09-29T01:12:11.062326+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -34,8 +34,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q235102",
-   "link": "https://www.wikidata.org/wiki/Q235102"
+   "detail": "आइटम Q27942664",
+   "link": "https://www.wikidata.org/wiki/Q27942664"
   },
   {
    "name": "internal-sources",

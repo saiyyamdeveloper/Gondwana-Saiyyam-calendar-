@@ -1,9 +1,279 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-29T01:10:37.481892+00:00"
+  "updated": "2026-09-29T01:12:37.980133+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-od-cuttack-c7f58053",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Durga Puja",
+   "subtitle": "ओडिशा · Cuttack",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/cuttack",
+   "payload": {
+    "unit_id": "district:od/cuttack",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Durga Puja",
+     "desc_hi": "* Durga Puja in Odisha|Durga Puja : Cuttack is known throughout the nation for its Durga puja celebrations. Nearly 200 earthen idols of Goddess Durga are prepared by the different puja committees of the city to worship Goddess Durga. The s",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Cuttack"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-cuttack-edf67de4",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ramdev Pir",
+   "subtitle": "ओडिशा · Cuttack",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/cuttack",
+   "payload": {
+    "unit_id": "district:od/cuttack",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ramdev Pir",
+     "desc_hi": "v Temple The temple is located beside the Cuttack–Bhubaneswar national highway. It is built entirely of white marble. Ramdev Pir is a Hindu folk deity of Rajasthan in India. Ramdev is considered to be an incarnation of Krishna. He was said to have had miraculous powers, and was w",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Cuttack"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-cuttack-80320ec5",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Baba Ramdev Temple",
+   "subtitle": "ओडिशा · Cuttack",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/cuttack",
+   "payload": {
+    "unit_id": "district:od/cuttack",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Baba Ramdev Temple",
+     "desc_hi": "File:Baba Ramdev Temple, Bhubaneswar - Cuttack Highway, Odisha.jpg|thumb|Baba Ramdev Temple The temple is located beside the Cuttack–Bhubaneswar national highway. It is built entirely of white marble. Ramdev Pir is a Hindu folk deit",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Cuttack"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-cuttack-cb1de9f5",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Pancharatha",
+   "subtitle": "ओडिशा · Cuttack",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/cuttack",
+   "payload": {
+    "unit_id": "district:od/cuttack",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Pancharatha",
+     "desc_hi": "feet for 1000 years. It is a five-chambered rekha and pidha shrine. The Vimana (architectural feature)|Vimana is of Pancharatha Rekha style. The doorjambs of the vimana and the bhogomandapa portray sculptures of the navagraha and dvarapalas. The plinth of the temple exhibits scul",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Cuttack"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-cuttack-023c17eb",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Vimana",
+   "subtitle": "ओडिशा · Cuttack",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/cuttack",
+   "payload": {
+    "unit_id": "district:od/cuttack",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Vimana",
+     "desc_hi": "he River Kathajodi, and has been standing at 80 feet for 1000 years. It is a five-chambered rekha and pidha shrine. The Vimana (architectural feature)|Vimana is of Pancharatha Rekha style. The doorjambs of the vimana and the bhogomandapa portray sculptures of the navagraha and dv",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Cuttack"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-cuttack-1208f6bf",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Dhabaleswara Bridge",
+   "subtitle": "ओडिशा · Cuttack",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/cuttack",
+   "payload": {
+    "unit_id": "district:od/cuttack",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Dhabaleswara Bridge",
+     "desc_hi": "File:Dhabaleswara Cuttack.jpg|thumb|Dhabaleswara Bridge Paramhansa Nath Temple, Biribat built, 11th A.D., 4&nbsp;km from the Cuttack-Paradeep Road. It is situated right on the banks of the River Kathajodi, and has been standing at 80 fee",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Cuttack"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-cuttack-5365918e",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Mahanadi River",
+   "subtitle": "ओडिशा · Cuttack",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/cuttack",
+   "payload": {
+    "unit_id": "district:od/cuttack",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Mahanadi River",
+     "desc_hi": "Dedicated to the worship of Lord Shiva, Dhabaleswar|Dhabaleswar Temple is situated on an island in the Mahanadi River and is embellished with stone carvings that date back to the early 10th and 11th centuries. The island is connected to the mainland on the other side by a suspens",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Cuttack"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-cuttack-cf4429a1",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Dhabaleswar Temple",
+   "subtitle": "ओडिशा · Cuttack",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/cuttack",
+   "payload": {
+    "unit_id": "district:od/cuttack",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Dhabaleswar Temple",
+     "desc_hi": "Dedicated to the worship of Lord Shiva, Dhabaleswar|Dhabaleswar Temple is situated on an island in the Mahanadi River and is embellished with stone carvings that date back to the early 10th and 11th centuries. The island is connected to the mainland on the other side by a",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Cuttack"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-bargarh-0ceb7b16",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Veer Surendra Sai",
+   "subtitle": "ओडिशा · Bargarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/bargarh",
+   "payload": {
+    "unit_id": "district:od/bargarh",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Veer Surendra Sai",
+     "desc_hi": "iety, and History|date=2008|publisher=Mohit Publications|isbn=978-81-7445-419-5|language=en}}</ref> The legendary hero Veer Surendra Sai led his war against the British from Debrigarh, which is a peak on the Barapahad Range. His fight against the British Raj particularly after th",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bargarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-od-baleshwar-c1ec2285",
    "kind": "region",

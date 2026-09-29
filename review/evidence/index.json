@@ -1751,49 +1751,49 @@
  "region:tehsil-jh-west-singhbhum-chaibasa-6ed045a7": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-29T01:10:27.542481+00:00",
+  "checked_at": "2026-09-29T01:12:32.678379+00:00",
   "summary_hi": "Lutheran Jheel and local temples: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:tehsil-jh-west-singhbhum-chaibasa-a5ad96af": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-29T01:10:28.028566+00:00",
+  "checked_at": "2026-09-29T01:12:33.293404+00:00",
   "summary_hi": "Lupungutu Spring: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:tehsil-jh-west-singhbhum-chaibasa-dd8edc8e": {
   "score": 20,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:28.690539+00:00",
+  "checked_at": "2026-09-29T01:12:34.091658+00:00",
   "summary_hi": "Jubilee Lake Park: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
   "n_sources": 1
  },
  "region:tehsil-jh-west-singhbhum-chaibasa-ce171693": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-29T01:10:29.202949+00:00",
+  "checked_at": "2026-09-29T01:12:34.828378+00:00",
   "summary_hi": "Rungta Garden: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:tehsil-jh-west-singhbhum-chaibasa-7356908b": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:29.890049+00:00",
+  "checked_at": "2026-09-29T01:12:35.834957+00:00",
   "summary_hi": "Shaheed Park: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-jh-west-singhbhum-chaibasa-81f57850": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:30.608869+00:00",
+  "checked_at": "2026-09-29T01:12:36.923859+00:00",
   "summary_hi": "West Singhbhum: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-jh-west-singhbhum-chaibasa-19b2c05b": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:31.378911+00:00",
+  "checked_at": "2026-09-29T01:12:37.977599+00:00",
   "summary_hi": "Thomas Wilkinson: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
@@ -1807,169 +1807,232 @@
  "region:district-od-baleshwar-c1ec2285": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-29T01:10:09.004703+00:00",
+  "checked_at": "2026-09-29T01:12:07.894444+00:00",
   "summary_hi": "Kartikeshwara/Kumara: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-od-baleshwar-a4792289": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:09.757600+00:00",
+  "checked_at": "2026-09-29T01:12:08.869672+00:00",
   "summary_hi": "firecrackers: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-baleshwar-e9e878f6": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:11.982662+00:00",
+  "checked_at": "2026-09-29T01:12:09.921312+00:00",
   "summary_hi": "Kali Puja: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-baleshwar-2f53b267": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:12.639753+00:00",
+  "checked_at": "2026-09-29T01:12:11.062326+00:00",
   "summary_hi": "Ravana: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-baleshwar-821f8702": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:13.218329+00:00",
+  "checked_at": "2026-09-29T01:12:12.369954+00:00",
   "summary_hi": "Dashami: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-od-baleshwar-6ee6499f": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:13.822442+00:00",
+  "checked_at": "2026-09-29T01:12:13.313815+00:00",
   "summary_hi": "Navami: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-baleshwar-ca6c4fd2": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:14.497828+00:00",
+  "checked_at": "2026-09-29T01:12:14.266850+00:00",
   "summary_hi": "Ashtami: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-baleshwar-3e7fb4c4": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:15.216097+00:00",
+  "checked_at": "2026-09-29T01:12:15.266984+00:00",
   "summary_hi": "Durga puja: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-balasore-c1ec2285": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-29T01:10:15.626515+00:00",
+  "checked_at": "2026-09-29T01:12:15.895532+00:00",
   "summary_hi": "Kartikeshwara/Kumara: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-od-balasore-a4792289": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:16.221311+00:00",
+  "checked_at": "2026-09-29T01:12:16.817768+00:00",
   "summary_hi": "firecrackers: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-balasore-e9e878f6": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:16.998029+00:00",
+  "checked_at": "2026-09-29T01:12:17.757751+00:00",
   "summary_hi": "Kali Puja: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-balasore-2f53b267": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:17.688562+00:00",
+  "checked_at": "2026-09-29T01:12:18.651084+00:00",
   "summary_hi": "Ravana: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-balasore-821f8702": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:18.285888+00:00",
+  "checked_at": "2026-09-29T01:12:19.450232+00:00",
   "summary_hi": "Dashami: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-od-balasore-6ee6499f": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:18.933977+00:00",
+  "checked_at": "2026-09-29T01:12:20.384688+00:00",
   "summary_hi": "Navami: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-balasore-ca6c4fd2": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:19.565880+00:00",
+  "checked_at": "2026-09-29T01:12:21.292888+00:00",
   "summary_hi": "Ashtami: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-balasore-3e7fb4c4": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:20.274910+00:00",
+  "checked_at": "2026-09-29T01:12:22.304501+00:00",
   "summary_hi": "Durga puja: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-balangir-d511f753": {
   "score": 20,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:20.945113+00:00",
+  "checked_at": "2026-09-29T01:12:23.262053+00:00",
   "summary_hi": "Sri Sri Harisankar Devasthana: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
   "n_sources": 1
  },
  "region:district-od-balangir-488dcca3": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:21.712062+00:00",
+  "checked_at": "2026-09-29T01:12:24.363302+00:00",
   "summary_hi": "Nrusinghanath: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date।",
   "n_sources": 2
  },
  "region:district-od-balangir-3fbff0e6": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:22.388082+00:00",
+  "checked_at": "2026-09-29T01:12:25.450084+00:00",
   "summary_hi": "Shiva: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-balangir-58f67259": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:23.084077+00:00",
+  "checked_at": "2026-09-29T01:12:26.550757+00:00",
   "summary_hi": "Vishnu: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-balangir-6066310f": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:23.780994+00:00",
+  "checked_at": "2026-09-29T01:12:29.002922+00:00",
   "summary_hi": "Odisha: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-balangir-bedea47a": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:24.761285+00:00",
+  "checked_at": "2026-09-29T01:12:30.031977+00:00",
   "summary_hi": "Bolangir: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-balangir-12e1c5ba": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:26.105384+00:00",
+  "checked_at": "2026-09-29T01:12:30.994529+00:00",
   "summary_hi": "Gandhamardhan hills: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-balangir-8ba9f12c": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-29T01:10:26.997502+00:00",
+  "checked_at": "2026-09-29T01:12:31.986999+00:00",
   "summary_hi": "Gundicha Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-cuttack-c7f58053": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-29T01:11:58.555612+00:00",
+  "summary_hi": "Durga Puja: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-cuttack-edf67de4": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-29T01:11:59.566211+00:00",
+  "summary_hi": "Ramdev Pir: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-cuttack-80320ec5": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-29T01:12:00.363548+00:00",
+  "summary_hi": "thumb|Baba Ramdev Temple: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-od-cuttack-cb1de9f5": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-09-29T01:12:01.142871+00:00",
+  "summary_hi": "Pancharatha: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-od-cuttack-023c17eb": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-29T01:12:02.150779+00:00",
+  "summary_hi": "Vimana: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-cuttack-1208f6bf": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-09-29T01:12:02.801783+00:00",
+  "summary_hi": "thumb|Dhabaleswara Bridge: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-od-cuttack-5365918e": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-29T01:12:03.969041+00:00",
+  "summary_hi": "Mahanadi River: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-cuttack-cf4429a1": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-29T01:12:05.113504+00:00",
+  "summary_hi": "Dhabaleswar Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-bargarh-0ceb7b16": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-09-29T01:12:07.235866+00:00",
+  "summary_hi": "Veer Surendra Sai: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date।",
   "n_sources": 2
  }
 }

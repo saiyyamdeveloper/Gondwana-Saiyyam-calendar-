@@ -1,11 +1,11 @@
 {
- "id": "region:tehsil-jh-west-singhbhum-chaibasa-ce171693",
+ "id": "region:district-od-cuttack-1208f6bf",
  "dates": {
   "birth": null,
   "death": null,
   "source": null
  },
- "checked_at": "2026-09-29T01:12:34.828378+00:00",
+ "checked_at": "2026-09-29T01:12:02.801783+00:00",
  "score": 0,
  "verdict": "nosource",
  "checks": [
@@ -14,13 +14,6 @@
    "ok": false,
    "pts": 0,
    "detail": "कोई पृष्ठ नहीं मिला",
-   "link": ""
-  },
-  {
-   "name": "wiki-en-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"Chaibasa\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -54,6 +47,6 @@
  ],
  "conflicts": [],
  "sources_domains": [],
- "summary_hi": "Rungta Garden: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+ "summary_hi": "thumb|Dhabaleswara Bridge: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
  "llm": null
 }

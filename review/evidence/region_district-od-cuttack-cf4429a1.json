@@ -1,21 +1,14 @@
 {
- "id": "region:district-od-balangir-6066310f",
+ "id": "region:district-od-cuttack-cf4429a1",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q22048"
+  "source": "wikidata:Q5268662"
  },
- "checked_at": "2026-09-29T01:12:29.002922+00:00",
+ "checked_at": "2026-09-29T01:12:05.113504+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
-  {
-   "name": "wiki-hi-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"ओडिशा\" नाम से मेल नहीं खाता — छोड़ा",
-   "link": ""
-  },
   {
    "name": "wiki-hi",
    "ok": false,
@@ -27,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Odisha; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Odisha"
+   "detail": "पृष्ठ मिला: Dhabaleswar Temple; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Dhabaleswar%20Temple"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q22048",
-   "link": "https://www.wikidata.org/wiki/Q22048"
+   "detail": "आइटम Q5268662",
+   "link": "https://www.wikidata.org/wiki/Q5268662"
   },
   {
    "name": "internal-sources",
@@ -57,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Odisha: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Dhabaleswar Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

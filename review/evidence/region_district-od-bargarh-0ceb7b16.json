@@ -1,0 +1,69 @@
+{
+ "id": "region:district-od-bargarh-0ceb7b16",
+ "dates": {
+  "birth": "1809-01-23",
+  "death": "1884-05-23",
+  "source": "wikidata:Q7918122"
+ },
+ "checked_at": "2026-09-29T01:12:07.235866+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Veer Surendra Sai; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Veer%20Surendra%20Sai"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q7918122",
+   "link": "https://www.wikidata.org/wiki/Q7918122"
+  },
+  {
+   "name": "wd-birth_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 1809-01-23",
+   "link": ""
+  },
+  {
+   "name": "wd-death_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "मृत्यु-तिथि (विकिडेटा, दिन-सटीक): 1884-05-23",
+   "link": ""
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "Veer Surendra Sai: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date।",
+ "llm": null
+}
