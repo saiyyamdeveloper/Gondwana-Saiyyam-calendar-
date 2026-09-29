@@ -1,11 +1,11 @@
 {
- "id": "region:tehsil-jh-west-singhbhum-chaibasa-81f57850",
+ "id": "region:district-od-balangir-58f67259",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q1950527"
+  "source": "wikidata:Q152566"
  },
- "checked_at": "2026-09-29T01:10:30.608869+00:00",
+ "checked_at": "2026-09-29T01:10:23.084077+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"पश्चिमी सिंहभूम जिला\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"हरिहर\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: West Singhbhum district; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/West%20Singhbhum%20district"
+   "detail": "पृष्ठ मिला: Vishnu; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Vishnu"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q1950527",
-   "link": "https://www.wikidata.org/wiki/Q1950527"
+   "detail": "आइटम Q152566",
+   "link": "https://www.wikidata.org/wiki/Q152566"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "West Singhbhum: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Vishnu: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

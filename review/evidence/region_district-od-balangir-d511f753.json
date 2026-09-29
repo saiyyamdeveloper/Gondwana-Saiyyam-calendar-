@@ -1,11 +1,11 @@
 {
- "id": "region:tehsil-jh-west-singhbhum-chaibasa-31a313e2",
+ "id": "region:district-od-balangir-d511f753",
  "dates": {
   "birth": null,
   "death": null,
   "source": null
  },
- "checked_at": "2026-09-29T01:10:31.911664+00:00",
+ "checked_at": "2026-09-29T01:10:20.945113+00:00",
  "score": 20,
  "verdict": "weak",
  "checks": [
@@ -20,8 +20,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Kolhan division; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Kolhan%20division"
+   "detail": "पृष्ठ मिला: Harishankar Temple; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Harishankar%20Temple"
   },
   {
    "name": "wikidata",
@@ -49,6 +49,6 @@
  "sources_domains": [
   "en.wikipedia.org"
  ],
- "summary_hi": "Kolhan region: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
+ "summary_hi": "Sri Sri Harisankar Devasthana: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
  "llm": null
 }

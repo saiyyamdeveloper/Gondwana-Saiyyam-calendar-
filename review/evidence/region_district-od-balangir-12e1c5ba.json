@@ -1,11 +1,11 @@
 {
- "id": "region:tehsil-jh-seraikela-kharsawan-chandil-bd289361",
+ "id": "region:district-od-balangir-12e1c5ba",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q2558144"
+  "source": "wikidata:Q5520650"
  },
- "checked_at": "2026-09-29T01:10:34.659623+00:00",
+ "checked_at": "2026-09-29T01:10:26.105384+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -20,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Kandra; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Kandra"
+   "detail": "पृष्ठ मिला: Gandhamardan Hills; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Gandhamardan%20Hills"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q2558144",
-   "link": "https://www.wikidata.org/wiki/Q2558144"
+   "detail": "आइटम Q5520650",
+   "link": "https://www.wikidata.org/wiki/Q5520650"
   },
   {
    "name": "internal-sources",
@@ -50,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Kandra: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Gandhamardhan hills: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

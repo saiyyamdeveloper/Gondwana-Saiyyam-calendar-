@@ -1,11 +1,11 @@
 {
- "id": "region:tehsil-jh-west-singhbhum-chaibasa-81f57850",
+ "id": "region:district-od-balasore-a4792289",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q1950527"
+  "source": "wikidata:Q5451785"
  },
- "checked_at": "2026-09-29T01:10:30.608869+00:00",
+ "checked_at": "2026-09-29T01:10:16.221311+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"पश्चिमी सिंहभूम जिला\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"पटाख़ा\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: West Singhbhum district; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/West%20Singhbhum%20district"
+   "detail": "पृष्ठ मिला: Firecracker; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Firecracker"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q1950527",
-   "link": "https://www.wikidata.org/wiki/Q1950527"
+   "detail": "आइटम Q5451785",
+   "link": "https://www.wikidata.org/wiki/Q5451785"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "West Singhbhum: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "firecrackers: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

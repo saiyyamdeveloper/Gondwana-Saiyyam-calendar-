@@ -1,12 +1,12 @@
 {
- "id": "region:tehsil-jh-west-singhbhum-chaibasa-31a313e2",
+ "id": "region:district-od-balangir-8ba9f12c",
  "dates": {
   "birth": null,
   "death": null,
-  "source": null
+  "source": "wikidata:Q2093288"
  },
- "checked_at": "2026-09-29T01:10:31.911664+00:00",
- "score": 20,
+ "checked_at": "2026-09-29T01:10:26.997502+00:00",
+ "score": 35,
  "verdict": "weak",
  "checks": [
   {
@@ -20,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Kolhan division; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Kolhan%20division"
+   "detail": "पृष्ठ मिला: Gundicha Temple; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Gundicha%20Temple"
   },
   {
    "name": "wikidata",
-   "ok": false,
-   "pts": 0,
-   "detail": "विकिडेटा आइटम नहीं मिला",
-   "link": ""
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q2093288",
+   "link": "https://www.wikidata.org/wiki/Q2093288"
   },
   {
    "name": "internal-sources",
@@ -47,8 +47,9 @@
  ],
  "conflicts": [],
  "sources_domains": [
-  "en.wikipedia.org"
+  "en.wikipedia.org",
+  "wikidata.org"
  ],
- "summary_hi": "Kolhan region: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
+ "summary_hi": "Gundicha Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

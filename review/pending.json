@@ -1,9 +1,729 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-27T23:53:11.344928+00:00"
+  "updated": "2026-09-29T01:10:37.481892+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-od-baleshwar-c1ec2285",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Kartikeshwara/Kumara",
+   "subtitle": "ओडिशा · Baleshwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/baleshwar",
+   "payload": {
+    "unit_id": "district:od/baleshwar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Kartikeshwara/Kumara",
+     "desc_hi": "lebrate Kali puja on the auspicious day of Diwali, amidst the bursting of firecrackers . *Kartikeshwara/Kumara puja: Murugan|Kartikeshwara/Kumara is the eldest son of Lord Shiva . *Kite-flying is also celebrated with much enthusiasm and energy in the city. Kite-flying culminates ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Baleshwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-baleshwar-a4792289",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "firecrackers",
+   "subtitle": "ओडिशा · Baleshwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/baleshwar",
+   "payload": {
+    "unit_id": "district:od/baleshwar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "firecrackers",
+     "desc_hi": "r, Balasore gears up with all its vigour to celebrate Kali puja on the auspicious day of Diwali, amidst the bursting of firecrackers . *Kartikeshwara/Kumara puja: Murugan|Kartikeshwara/Kumara is the eldest son of Lord Shiva . *Kite-flying is also celebrated with much enthusiasm a",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Baleshwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-baleshwar-e9e878f6",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Kali Puja",
+   "subtitle": "ओडिशा · Baleshwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/baleshwar",
+   "payload": {
+    "unit_id": "district:od/baleshwar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Kali Puja",
+     "desc_hi": "ays of Durga puja), as people travel all over the city appreciating all the idols, is put forth by the neighbourhoods. * Kali Puja , Just after Durga puja gets over, Balasore gears up with all its vigour to celebrate Kali puja on the auspicious day of Diwali, amidst the bursting ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Baleshwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-baleshwar-2f53b267",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Ravana",
+   "subtitle": "ओडिशा · Baleshwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/baleshwar",
+   "payload": {
+    "unit_id": "district:od/baleshwar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Ravana",
+     "desc_hi": "eed, the whole city comes to a standstill on Ashtami , Navami and on Dashami , burning of effigy of the demon Ravana (the eighth, ninth and tenth days of Durga puja), as people travel all over the city appreciating all the idols, is put forth by the neighbourhoods. * Kali Puja , ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Baleshwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-baleshwar-821f8702",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Dashami",
+   "subtitle": "ओडिशा · Baleshwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/baleshwar",
+   "payload": {
+    "unit_id": "district:od/baleshwar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Dashami",
+     "desc_hi": "r by constructing more attractive idols. Indeed, the whole city comes to a standstill on Ashtami , Navami and on Dashami , burning of effigy of the demon Ravana (the eighth, ninth and tenth days of Durga puja), as people travel all over the city appreciating all the idols, is put",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Baleshwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-baleshwar-6ee6499f",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Navami",
+   "subtitle": "ओडिशा · Baleshwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/baleshwar",
+   "payload": {
+    "unit_id": "district:od/baleshwar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Navami",
+     "desc_hi": "outsmart each other by constructing more attractive idols. Indeed, the whole city comes to a standstill on Ashtami , Navami and on Dashami , burning of effigy of the demon Ravana (the eighth, ninth and tenth days of Durga puja), as people travel all over the city appreciating all",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Baleshwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-baleshwar-ca6c4fd2",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Ashtami",
+   "subtitle": "ओडिशा · Baleshwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/baleshwar",
+   "payload": {
+    "unit_id": "district:od/baleshwar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Ashtami",
+     "desc_hi": "es trying to outsmart each other by constructing more attractive idols. Indeed, the whole city comes to a standstill on Ashtami , Navami and on Dashami , burning of effigy of the demon Ravana (the eighth, ninth and tenth days of Durga puja), as people travel all over the city app",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Baleshwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-baleshwar-3e7fb4c4",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Durga puja",
+   "subtitle": "ओडिशा · Baleshwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/baleshwar",
+   "payload": {
+    "unit_id": "district:od/baleshwar",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Durga puja",
+     "desc_hi": "* Durga Puja|Durga puja , the festival of goddess Durga, is very popular in Balasore. Idols are worshipped in many streets and localities. In this city, Durga puja is famous for its idols, with localities trying to outsmart each other by c",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Baleshwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balasore-c1ec2285",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Kartikeshwara/Kumara",
+   "subtitle": "ओडिशा · Balasore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balasore",
+   "payload": {
+    "unit_id": "district:od/balasore",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Kartikeshwara/Kumara",
+     "desc_hi": "lebrate Kali puja on the auspicious day of Diwali, amidst the bursting of firecrackers . *Kartikeshwara/Kumara puja: Murugan|Kartikeshwara/Kumara is the eldest son of Lord Shiva . *Kite-flying is also celebrated with much enthusiasm and energy in the city. Kite-flying culminates ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balasore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balasore-a4792289",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "firecrackers",
+   "subtitle": "ओडिशा · Balasore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balasore",
+   "payload": {
+    "unit_id": "district:od/balasore",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "firecrackers",
+     "desc_hi": "r, Balasore gears up with all its vigour to celebrate Kali puja on the auspicious day of Diwali, amidst the bursting of firecrackers . *Kartikeshwara/Kumara puja: Murugan|Kartikeshwara/Kumara is the eldest son of Lord Shiva . *Kite-flying is also celebrated with much enthusiasm a",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balasore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balasore-e9e878f6",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Kali Puja",
+   "subtitle": "ओडिशा · Balasore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balasore",
+   "payload": {
+    "unit_id": "district:od/balasore",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Kali Puja",
+     "desc_hi": "ays of Durga puja), as people travel all over the city appreciating all the idols, is put forth by the neighbourhoods. * Kali Puja , Just after Durga puja gets over, Balasore gears up with all its vigour to celebrate Kali puja on the auspicious day of Diwali, amidst the bursting ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balasore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balasore-2f53b267",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Ravana",
+   "subtitle": "ओडिशा · Balasore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balasore",
+   "payload": {
+    "unit_id": "district:od/balasore",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Ravana",
+     "desc_hi": "eed, the whole city comes to a standstill on Ashtami , Navami and on Dashami , burning of effigy of the demon Ravana (the eighth, ninth and tenth days of Durga puja), as people travel all over the city appreciating all the idols, is put forth by the neighbourhoods. * Kali Puja , ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balasore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balasore-821f8702",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Dashami",
+   "subtitle": "ओडिशा · Balasore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balasore",
+   "payload": {
+    "unit_id": "district:od/balasore",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Dashami",
+     "desc_hi": "r by constructing more attractive idols. Indeed, the whole city comes to a standstill on Ashtami , Navami and on Dashami , burning of effigy of the demon Ravana (the eighth, ninth and tenth days of Durga puja), as people travel all over the city appreciating all the idols, is put",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balasore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balasore-6ee6499f",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Navami",
+   "subtitle": "ओडिशा · Balasore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balasore",
+   "payload": {
+    "unit_id": "district:od/balasore",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Navami",
+     "desc_hi": "outsmart each other by constructing more attractive idols. Indeed, the whole city comes to a standstill on Ashtami , Navami and on Dashami , burning of effigy of the demon Ravana (the eighth, ninth and tenth days of Durga puja), as people travel all over the city appreciating all",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balasore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balasore-ca6c4fd2",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Ashtami",
+   "subtitle": "ओडिशा · Balasore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balasore",
+   "payload": {
+    "unit_id": "district:od/balasore",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Ashtami",
+     "desc_hi": "es trying to outsmart each other by constructing more attractive idols. Indeed, the whole city comes to a standstill on Ashtami , Navami and on Dashami , burning of effigy of the demon Ravana (the eighth, ninth and tenth days of Durga puja), as people travel all over the city app",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balasore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balasore-3e7fb4c4",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Durga puja",
+   "subtitle": "ओडिशा · Balasore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balasore",
+   "payload": {
+    "unit_id": "district:od/balasore",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Durga puja",
+     "desc_hi": "* Durga Puja|Durga puja , the festival of goddess Durga, is very popular in Balasore. Idols are worshipped in many streets and localities. In this city, Durga puja is famous for its idols, with localities trying to outsmart each other by c",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balasore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balangir-d511f753",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Sri Sri Harisankar Devasthana",
+   "subtitle": "ओडिशा · Balangir",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balangir",
+   "payload": {
+    "unit_id": "district:od/balangir",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Sri Sri Harisankar Devasthana",
+     "desc_hi": "'Sri Sri Harisankar Devasthana ' is a temple on the slopes of Gandhamardhan hills , Bolangir District of Odisha in India . It is popular for its scenes of nature and connection to two Hindu lords, Vishnu and Shiva .",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balangir"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balangir-488dcca3",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Nrusinghanath",
+   "subtitle": "ओडिशा · Balangir",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balangir",
+   "payload": {
+    "unit_id": "district:od/balangir",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Nrusinghanath",
+     "desc_hi": "it has given some visitors a feeling of peace. On the opposite of side of the Gandhamardhan hills is the temple of Nrusinghanath Temple|Nrusinghanath . The plateau between the two temples has been found to have ancient Buddhist ruins, which are considered to be remnants of the an",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balangir"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balangir-3fbff0e6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shiva",
+   "subtitle": "ओडिशा · Balangir",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balangir",
+   "payload": {
+    "unit_id": "district:od/balangir",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shiva",
+     "desc_hi": "of Odisha in India . It is popular for its scenes of nature and connection to two Hindu lords, Vishnu and Shiva . As a holy place, along with a stream passing on the granite bed, it has given some visitors a feeling of peace. On the opposite of side of the Gandhamardhan hills is ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balangir"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balangir-58f67259",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Vishnu",
+   "subtitle": "ओडिशा · Balangir",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balangir",
+   "payload": {
+    "unit_id": "district:od/balangir",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Vishnu",
+     "desc_hi": "langir District of Odisha in India . It is popular for its scenes of nature and connection to two Hindu lords, Vishnu and Shiva . As a holy place, along with a stream passing on the granite bed, it has given some visitors a feeling of peace. On the opposite of side of the Gandham",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balangir"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balangir-6066310f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Odisha",
+   "subtitle": "ओडिशा · Balangir",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balangir",
+   "payload": {
+    "unit_id": "district:od/balangir",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Odisha",
+     "desc_hi": "'Sri Sri Harisankar Devasthana ' is a temple on the slopes of Gandhamardhan hills , Bolangir District of Odisha in India . It is popular for its scenes of nature and connection to two Hindu lords, Vishnu and Shiva . As a holy place, along with a stream passing on the granite bed,",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balangir"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balangir-bedea47a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bolangir",
+   "subtitle": "ओडिशा · Balangir",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balangir",
+   "payload": {
+    "unit_id": "district:od/balangir",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bolangir",
+     "desc_hi": "'Sri Sri Harisankar Devasthana ' is a temple on the slopes of Gandhamardhan hills , Bolangir District of Odisha in India . It is popular for its scenes of nature and connection to two Hindu lords, Vishnu and Shiva . As a holy place, along with a stream passing on the granite bed,",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balangir"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balangir-12e1c5ba",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gandhamardhan hills",
+   "subtitle": "ओडिशा · Balangir",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balangir",
+   "payload": {
+    "unit_id": "district:od/balangir",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gandhamardhan hills",
+     "desc_hi": "'Sri Sri Harisankar Devasthana ' is a temple on the slopes of Gandhamardhan hills , Bolangir District of Odisha in India . It is popular for its scenes of nature and connection to two Hindu lords, Vishnu and Shiva . As a holy place, along with a stream passing on the granite bed,",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balangir"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-balangir-8ba9f12c",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Gundicha Temple",
+   "subtitle": "ओडिशा · Balangir",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/balangir",
+   "payload": {
+    "unit_id": "district:od/balangir",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Gundicha Temple",
+     "desc_hi": "In the Ratha Yatra, the three deities are taken from the Jagannath Temple in the chariots to the 'Mausi Mandira' or Gundicha Temple , where they stay for nine days. Thereafter, the deities again ride the chariots back to Shri Mandir in bahuda jatra . On the way back, the three ch",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Balangir"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-29",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:tehsil-jh-west-singhbhum-chaibasa-6ed045a7",
    "kind": "region",
