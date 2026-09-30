@@ -1,9 +1,129 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-29T01:12:37.980133+00:00"
+  "updated": "2026-09-30T00:41:04.428616+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-od-ganjam-17570500",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Danda Nacha (or Danda Jatra):",
+   "subtitle": "ओडिशा · Ganjam",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/ganjam",
+   "payload": {
+    "unit_id": "district:od/ganjam",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Danda Nacha (or Danda Jatra):",
+     "desc_hi": "hnath and Bhakta Prahallad. It is performed on a tiered stage with elaborate costumes and music. Prahallada Nataka * 'Danda Nacha (or Danda Jatra): ' One of the oldest ritualistic folk dances in India, dedicated to Lord Shiva and Goddess Kali. Performers (Danduas) undergo physica",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ganjam"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-30",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-gajapati-6d11c122",
+   "kind": "region",
+   "subtype": "person",
+   "title": "detention",
+   "subtitle": "ओडिशा · Gajapati",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/gajapati",
+   "payload": {
+    "unit_id": "district:od/gajapati",
+    "entity": {
+     "kind": "person",
+     "name_hi": "detention",
+     "desc_hi": "on. However, a Paika Rebellion|revolt broke out among the tribals and Paika Rebellion|Paikas against the king's Detention (confinement)|detention . Due to this uprising, the British reinstated the king to his position. {{cite book | last=Dāsa | first=P. | author2=Sahitya Akademi ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gajapati_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-30",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-gajapati-1408a786",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Paikas",
+   "subtitle": "ओडिशा · Gajapati",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/gajapati",
+   "payload": {
+    "unit_id": "district:od/gajapati",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Paikas",
+     "desc_hi": "the state came under direct British supervision. However, a Paika Rebellion|revolt broke out among the tribals and Paika Rebellion|Paikas against the king's Detention (confinement)|detention . Due to this uprising, the British reinstated the king to his position. {{cite book | la",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gajapati_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-30",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-gajapati-190b46db",
+   "kind": "region",
+   "subtype": "person",
+   "title": "revolt",
+   "subtitle": "ओडिशा · Gajapati",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/gajapati",
+   "payload": {
+    "unit_id": "district:od/gajapati",
+    "entity": {
+     "kind": "person",
+     "name_hi": "revolt",
+     "desc_hi": "g Gajapati Jagannatha Narayanadev and his son. As a result, the state came under direct British supervision. However, a Paika Rebellion|revolt broke out among the tribals and Paika Rebellion|Paikas against the king's Detention (confinement)|detention . Due to this uprising, the B",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gajapati_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-09-30",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-od-cuttack-c7f58053",
    "kind": "region",

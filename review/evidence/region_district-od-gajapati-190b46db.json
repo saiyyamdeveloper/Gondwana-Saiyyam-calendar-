@@ -1,11 +1,11 @@
 {
- "id": "region:district-od-balasore-2f53b267",
+ "id": "region:district-od-gajapati-190b46db",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q235102"
+  "source": "wikidata:Q124734"
  },
- "checked_at": "2026-09-30T00:40:57.946451+00:00",
+ "checked_at": "2026-09-30T00:40:48.866199+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"राक्षसताल\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"सोनाराम\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Ravana; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Ravana"
+   "detail": "पृष्ठ मिला: Revolt (TV network); सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Revolt%20%28TV%20network%29"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q235102",
-   "link": "https://www.wikidata.org/wiki/Q235102"
+   "detail": "आइटम Q124734",
+   "link": "https://www.wikidata.org/wiki/Q124734"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Ravana: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "revolt: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

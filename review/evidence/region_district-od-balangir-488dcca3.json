@@ -1,11 +1,11 @@
 {
  "id": "region:district-od-balangir-488dcca3",
  "dates": {
-  "birth": "1911-04-07",
+  "birth": null,
   "death": null,
-  "source": "wikidata:Q26220976"
+  "source": "wikidata:Q67648120"
  },
- "checked_at": "2026-09-29T01:12:24.363302+00:00",
+ "checked_at": "2026-09-30T00:41:00.428925+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -27,15 +27,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q26220976",
-   "link": "https://www.wikidata.org/wiki/Q26220976"
-  },
-  {
-   "name": "wd-birth_date",
-   "ok": true,
-   "pts": 0,
-   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 1911-04-07",
-   "link": ""
+   "detail": "आइटम Q67648120",
+   "link": "https://www.wikidata.org/wiki/Q67648120"
   },
   {
    "name": "internal-sources",
@@ -57,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Nrusinghanath: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date।",
+ "summary_hi": "Nrusinghanath: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }
