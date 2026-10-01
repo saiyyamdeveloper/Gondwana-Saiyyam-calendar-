@@ -1807,21 +1807,21 @@
  "region:district-od-baleshwar-c1ec2285": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-30T00:40:53.385229+00:00",
+  "checked_at": "2026-10-01T00:43:45.108233+00:00",
   "summary_hi": "Kartikeshwara/Kumara: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-od-baleshwar-a4792289": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:53.841391+00:00",
+  "checked_at": "2026-10-01T00:43:45.970062+00:00",
   "summary_hi": "firecrackers: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-baleshwar-e9e878f6": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:54.296191+00:00",
+  "checked_at": "2026-10-01T00:43:46.828564+00:00",
   "summary_hi": "Kali Puja: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
@@ -1975,92 +1975,260 @@
  "region:district-od-cuttack-c7f58053": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:49.714178+00:00",
+  "checked_at": "2026-10-01T00:43:37.020321+00:00",
   "summary_hi": "Durga Puja: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-cuttack-edf67de4": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:50.135616+00:00",
+  "checked_at": "2026-10-01T00:43:37.885098+00:00",
   "summary_hi": "Ramdev Pir: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-cuttack-80320ec5": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-30T00:40:50.534954+00:00",
+  "checked_at": "2026-10-01T00:43:38.480679+00:00",
   "summary_hi": "thumb|Baba Ramdev Temple: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-od-cuttack-cb1de9f5": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:50.955511+00:00",
+  "checked_at": "2026-10-01T00:43:39.377892+00:00",
   "summary_hi": "Pancharatha: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-od-cuttack-023c17eb": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:51.392495+00:00",
+  "checked_at": "2026-10-01T00:43:40.271856+00:00",
   "summary_hi": "Vimana: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-cuttack-1208f6bf": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-09-30T00:40:51.738401+00:00",
+  "checked_at": "2026-10-01T00:43:40.842093+00:00",
   "summary_hi": "thumb|Dhabaleswara Bridge: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-od-cuttack-5365918e": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:52.182174+00:00",
+  "checked_at": "2026-10-01T00:43:41.769631+00:00",
   "summary_hi": "Mahanadi River: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-cuttack-cf4429a1": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:52.580596+00:00",
+  "checked_at": "2026-10-01T00:43:43.480814+00:00",
   "summary_hi": "Dhabaleswar Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-bargarh-0ceb7b16": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:53.065899+00:00",
+  "checked_at": "2026-10-01T00:43:44.317920+00:00",
   "summary_hi": "Veer Surendra Sai: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date।",
   "n_sources": 2
  },
  "region:district-od-ganjam-17570500": {
   "score": 20,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:45.883246+00:00",
+  "checked_at": "2026-10-01T00:43:33.283345+00:00",
   "summary_hi": "Danda Nacha (or Danda Jatra):: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
   "n_sources": 1
  },
  "region:district-od-gajapati-6d11c122": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:46.806811+00:00",
+  "checked_at": "2026-10-01T00:43:34.179966+00:00",
   "summary_hi": "detention: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-gajapati-1408a786": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:48.402825+00:00",
+  "checked_at": "2026-10-01T00:43:35.034792+00:00",
   "summary_hi": "Paikas: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-gajapati-190b46db": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-09-30T00:40:48.866199+00:00",
+  "checked_at": "2026-10-01T00:43:35.990114+00:00",
   "summary_hi": "revolt: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapara-62b45602": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:06.163347+00:00",
+  "summary_hi": "pythons: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-od-kendrapara-eced7f77": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:07.135494+00:00",
+  "summary_hi": "monitor lizard: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapara-d0763eda": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:08.113535+00:00",
+  "summary_hi": "monkey: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapara-29a66354": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:09.187696+00:00",
+  "summary_hi": "wild boar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapara-cd6c4165": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:10.159841+00:00",
+  "summary_hi": "deer: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapara-9d7d8f69": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:11.108545+00:00",
+  "summary_hi": "crocodile: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapara-e83ef843": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:16.023086+00:00",
+  "summary_hi": "wildlife sanctuary: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapara-eb7fa4ff": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:16.936491+00:00",
+  "summary_hi": "mangrove forests: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapada-62b45602": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:17.662741+00:00",
+  "summary_hi": "pythons: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-od-kendrapada-eced7f77": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:18.792534+00:00",
+  "summary_hi": "monitor lizard: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapada-d0763eda": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:19.711631+00:00",
+  "summary_hi": "monkey: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapada-29a66354": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:20.682969+00:00",
+  "summary_hi": "wild boar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapada-cd6c4165": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:21.620096+00:00",
+  "summary_hi": "deer: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapada-9d7d8f69": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:22.571356+00:00",
+  "summary_hi": "crocodile: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapada-e83ef843": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:23.464096+00:00",
+  "summary_hi": "wildlife sanctuary: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kendrapada-eb7fa4ff": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:24.652552+00:00",
+  "summary_hi": "mangrove forests: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kandhamal-66b9a648": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:25.378700+00:00",
+  "summary_hi": "Shravan: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-od-kandhamal-a6b7ab8c": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:26.282608+00:00",
+  "summary_hi": "Kartik: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date।",
+  "n_sources": 2
+ },
+ "region:district-od-kandhamal-fd7a0e0d": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:27.295897+00:00",
+  "summary_hi": "Janmashtami: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kandhamal-164b5f1b": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:28.184028+00:00",
+  "summary_hi": "Ram Navami: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kandhamal-9b25da95": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:29.092355+00:00",
+  "summary_hi": "Shivratri: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kandhamal-5e510663": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:29.819747+00:00",
+  "summary_hi": "Rakshabandhan: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-od-kandhamal-aacd88d6": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:30.642184+00:00",
+  "summary_hi": "Chaitra: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-kandhamal-627d65f9": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-01T00:43:31.591430+00:00",
+  "summary_hi": "Odia: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  }
 }

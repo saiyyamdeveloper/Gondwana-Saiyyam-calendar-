@@ -1,9 +1,729 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-09-30T00:41:04.428616+00:00"
+  "updated": "2026-10-01T00:43:46.841347+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-od-kendrapara-62b45602",
+   "kind": "region",
+   "subtype": "place",
+   "title": "pythons",
+   "subtitle": "ओडिशा · Kendrapara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapara",
+   "payload": {
+    "unit_id": "district:od/kendrapara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "pythons",
+     "desc_hi": "a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor lizard s, Python (genus)|pythons , and king cobra are also found here. The national park has an area of around 145 square kilometres. It is 160 kilometers away from the state capital of B",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapara-eced7f77",
+   "kind": "region",
+   "subtype": "place",
+   "title": "monitor lizard",
+   "subtitle": "ओडिशा · Kendrapara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapara",
+   "payload": {
+    "unit_id": "district:od/kendrapara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "monitor lizard",
+     "desc_hi": "1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor lizard s, Python (genus)|pythons , and king cobra are also found here. The national park has an area of around 145 square kilometres. It is 160 kilometers away from t",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapara-d0763eda",
+   "kind": "region",
+   "subtype": "place",
+   "title": "monkey",
+   "subtitle": "ओडिशा · Kendrapara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapara",
+   "payload": {
+    "unit_id": "district:od/kendrapara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "monkey",
+     "desc_hi": "] on 21 April 1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor lizard s, Python (genus)|pythons , and king cobra are also found here. The national park has an area of around 145 square kilometres. It is 160 kilomete",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapara-29a66354",
+   "kind": "region",
+   "subtype": "place",
+   "title": "wild boar",
+   "subtitle": "ओडिशा · Kendrapara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapara",
+   "payload": {
+    "unit_id": "district:od/kendrapara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "wild boar",
+     "desc_hi": "life sanctuary on 21 April 1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor lizard s, Python (genus)|pythons , and king cobra are also found here. The national park has an area of around 145 square kilometres. It is",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapara-cd6c4165",
+   "kind": "region",
+   "subtype": "place",
+   "title": "deer",
+   "subtitle": "ओडिशा · Kendrapara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapara",
+   "payload": {
+    "unit_id": "district:od/kendrapara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "deer",
+     "desc_hi": "serve|wildlife sanctuary on 21 April 1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor lizard s, Python (genus)|pythons , and king cobra are also found here. The national park has an area of around 145 square kilomet",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapara-9d7d8f69",
+   "kind": "region",
+   "subtype": "place",
+   "title": "crocodile",
+   "subtitle": "ओडिशा · Kendrapara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapara",
+   "payload": {
+    "unit_id": "district:od/kendrapara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "crocodile",
+     "desc_hi": "] and saline rivers. It was declared a Nature reserve|wildlife sanctuary on 21 April 1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor lizard s, Python (genus)|pythons , and king cobra are also found here. The nation",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapara-e83ef843",
+   "kind": "region",
+   "subtype": "place",
+   "title": "wildlife sanctuary",
+   "subtitle": "ओडिशा · Kendrapara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapara",
+   "payload": {
+    "unit_id": "district:od/kendrapara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "wildlife sanctuary",
+     "desc_hi": "ika National Park}} Bhitarakanika is covered in deep Mangrove|mangrove forests and saline rivers. It was declared a Nature reserve|wildlife sanctuary on 21 April 1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor liza",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapara-eb7fa4ff",
+   "kind": "region",
+   "subtype": "place",
+   "title": "mangrove forests",
+   "subtitle": "ओडिशा · Kendrapara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapara",
+   "payload": {
+    "unit_id": "district:od/kendrapara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "mangrove forests",
+     "desc_hi": "'Bhitara Kanika ' Bhitarakanika is covered in deep Mangrove|mangrove forests and saline rivers. It was declared a Nature reserve|wildlife sanctuary on 21 April 1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, mo",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapada-62b45602",
+   "kind": "region",
+   "subtype": "place",
+   "title": "pythons",
+   "subtitle": "ओडिशा · Kendrapada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapada",
+   "payload": {
+    "unit_id": "district:od/kendrapada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "pythons",
+     "desc_hi": "a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor lizard s, Python (genus)|pythons , and king cobra are also found here. The national park has an area of around 145 square kilometres. It is 160 kilometers away from the state capital of B",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapada-eced7f77",
+   "kind": "region",
+   "subtype": "place",
+   "title": "monitor lizard",
+   "subtitle": "ओडिशा · Kendrapada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapada",
+   "payload": {
+    "unit_id": "district:od/kendrapada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "monitor lizard",
+     "desc_hi": "1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor lizard s, Python (genus)|pythons , and king cobra are also found here. The national park has an area of around 145 square kilometres. It is 160 kilometers away from t",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapada-d0763eda",
+   "kind": "region",
+   "subtype": "place",
+   "title": "monkey",
+   "subtitle": "ओडिशा · Kendrapada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapada",
+   "payload": {
+    "unit_id": "district:od/kendrapada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "monkey",
+     "desc_hi": "] on 21 April 1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor lizard s, Python (genus)|pythons , and king cobra are also found here. The national park has an area of around 145 square kilometres. It is 160 kilomete",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapada-29a66354",
+   "kind": "region",
+   "subtype": "place",
+   "title": "wild boar",
+   "subtitle": "ओडिशा · Kendrapada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapada",
+   "payload": {
+    "unit_id": "district:od/kendrapada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "wild boar",
+     "desc_hi": "life sanctuary on 21 April 1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor lizard s, Python (genus)|pythons , and king cobra are also found here. The national park has an area of around 145 square kilometres. It is",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapada-cd6c4165",
+   "kind": "region",
+   "subtype": "place",
+   "title": "deer",
+   "subtitle": "ओडिशा · Kendrapada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapada",
+   "payload": {
+    "unit_id": "district:od/kendrapada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "deer",
+     "desc_hi": "serve|wildlife sanctuary on 21 April 1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor lizard s, Python (genus)|pythons , and king cobra are also found here. The national park has an area of around 145 square kilomet",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapada-9d7d8f69",
+   "kind": "region",
+   "subtype": "place",
+   "title": "crocodile",
+   "subtitle": "ओडिशा · Kendrapada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapada",
+   "payload": {
+    "unit_id": "district:od/kendrapada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "crocodile",
+     "desc_hi": "] and saline rivers. It was declared a Nature reserve|wildlife sanctuary on 21 April 1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor lizard s, Python (genus)|pythons , and king cobra are also found here. The nation",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapada-e83ef843",
+   "kind": "region",
+   "subtype": "place",
+   "title": "wildlife sanctuary",
+   "subtitle": "ओडिशा · Kendrapada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapada",
+   "payload": {
+    "unit_id": "district:od/kendrapada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "wildlife sanctuary",
+     "desc_hi": "ika National Park}} Bhitarakanika is covered in deep Mangrove|mangrove forests and saline rivers. It was declared a Nature reserve|wildlife sanctuary on 21 April 1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, monitor liza",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kendrapada-eb7fa4ff",
+   "kind": "region",
+   "subtype": "place",
+   "title": "mangrove forests",
+   "subtitle": "ओडिशा · Kendrapada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kendrapada",
+   "payload": {
+    "unit_id": "district:od/kendrapada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "mangrove forests",
+     "desc_hi": "'Bhitara Kanika ' Bhitarakanika is covered in deep Mangrove|mangrove forests and saline rivers. It was declared a Nature reserve|wildlife sanctuary on 21 April 1975. It is known as a natural crocodile breeding ground. Other animals like deer , wild boar , monkey s, mo",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kendrapada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kandhamal-66b9a648",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shravan",
+   "subtitle": "ओडिशा · Kandhamal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kandhamal",
+   "payload": {
+    "unit_id": "district:od/kandhamal",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shravan",
+     "desc_hi": "strict; people observe fasting and stay away from non-vegetarian food and alcohol. Nowadays people celebrate the Savan ( Shravana (month)|Shravan ) month by offering their prayers to Shiva and carrying water to Shiv temples walking barefoot. During Rakshabandhan, village children",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kandhamal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kandhamal-a6b7ab8c",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Kartik",
+   "subtitle": "ओडिशा · Kandhamal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kandhamal",
+   "payload": {
+    "unit_id": "district:od/kandhamal",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Kartik",
+     "desc_hi": "i and Janmashtami are celebrated by Kondhs and other Hindus in the district with equal fervor. The Hindu month of Kartik (month)|Kartik is considered sacred by tribal and other Hindu residents of the district; people observe fasting and stay away from non-vegetarian food and alco",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kandhamal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kandhamal-fd7a0e0d",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Janmashtami",
+   "subtitle": "ओडिशा · Kandhamal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kandhamal",
+   "payload": {
+    "unit_id": "district:od/kandhamal",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Janmashtami",
+     "desc_hi": "new harvest. The major Hindu festivals like Holi , Diwali , Rakshabandhan , Shivratri , Ram Navami and Janmashtami are celebrated by Kondhs and other Hindus in the district with equal fervor. The Hindu month of Kartik (month)|Kartik is considered sacred by tribal and other Hindu ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kandhamal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kandhamal-164b5f1b",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Ram Navami",
+   "subtitle": "ओडिशा · Kandhamal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kandhamal",
+   "payload": {
+    "unit_id": "district:od/kandhamal",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Ram Navami",
+     "desc_hi": "villagers eat the new harvest. The major Hindu festivals like Holi , Diwali , Rakshabandhan , Shivratri , Ram Navami and Janmashtami are celebrated by Kondhs and other Hindus in the district with equal fervor. The Hindu month of Kartik (month)|Kartik is considered sacred by triba",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kandhamal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kandhamal-9b25da95",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Shivratri",
+   "subtitle": "ओडिशा · Kandhamal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kandhamal",
+   "payload": {
+    "unit_id": "district:od/kandhamal",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Shivratri",
+     "desc_hi": "deity, and the villagers eat the new harvest. The major Hindu festivals like Holi , Diwali , Rakshabandhan , Shivratri , Ram Navami and Janmashtami are celebrated by Kondhs and other Hindus in the district with equal fervor. The Hindu month of Kartik (month)|Kartik is considered ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kandhamal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kandhamal-5e510663",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Rakshabandhan",
+   "subtitle": "ओडिशा · Kandhamal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kandhamal",
+   "payload": {
+    "unit_id": "district:od/kandhamal",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Rakshabandhan",
+     "desc_hi": "ered to the village deity, and the villagers eat the new harvest. The major Hindu festivals like Holi , Diwali , Rakshabandhan , Shivratri , Ram Navami and Janmashtami are celebrated by Kondhs and other Hindus in the district with equal fervor. The Hindu month of Kartik (month)|K",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kandhamal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kandhamal-aacd88d6",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Chaitra",
+   "subtitle": "ओडिशा · Kandhamal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kandhamal",
+   "payload": {
+    "unit_id": "district:od/kandhamal",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Chaitra",
+     "desc_hi": "y by the Kondh tribals, following their traditional religion. They observe this for thirteen days in the Hindu month of Chaitra . People go fasting for all the thirteen days who viewed for the particular boon or for grace from the goddess Kaali. The festival starts on the first o",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kandhamal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-kandhamal-627d65f9",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Odia",
+   "subtitle": "ओडिशा · Kandhamal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/kandhamal",
+   "payload": {
+    "unit_id": "district:od/kandhamal",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Odia",
+     "desc_hi": "The people of Kandhamal celebrate many religious festivals from their tribal culture as well as many Odia people|Odia festivals. The Danda Nach is celebrated in the district mainly by the Kondh tribals, following their traditional religion. They observe this for thirteen days in ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kandhamal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-01",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-od-ganjam-17570500",
    "kind": "region",

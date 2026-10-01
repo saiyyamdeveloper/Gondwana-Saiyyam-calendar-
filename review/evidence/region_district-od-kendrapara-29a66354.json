@@ -1,11 +1,11 @@
 {
- "id": "region:district-od-gajapati-190b46db",
+ "id": "region:district-od-kendrapara-29a66354",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q124734"
+  "source": "wikidata:Q58697"
  },
- "checked_at": "2026-10-01T00:43:35.990114+00:00",
+ "checked_at": "2026-10-01T00:43:09.187696+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"सोनाराम\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"जंगली सूअर\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Revolt (TV network); सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Revolt%20%28TV%20network%29"
+   "detail": "पृष्ठ मिला: Wild boar; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Wild%20boar"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q124734",
-   "link": "https://www.wikidata.org/wiki/Q124734"
+   "detail": "आइटम Q58697",
+   "link": "https://www.wikidata.org/wiki/Q58697"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "revolt: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "wild boar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

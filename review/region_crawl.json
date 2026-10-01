@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-09-30T00:40:44+00:00",
-  "progress": "62/823 done, 64 blocked"
+  "updated": "2026-10-01T00:43:04+00:00",
+  "progress": "65/823 done, 67 blocked"
  },
  "jobs": [
   {
@@ -955,32 +955,50 @@
   {
    "unit": "district:od/jharsuguda",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-01T00:42:58+00:00"
   },
   {
    "unit": "district:od/kalahandi",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-01T00:43:00+00:00"
   },
   {
    "unit": "district:od/kandhamal",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-01T00:43:01+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:od/kendrapada",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-01T00:43:02+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:od/kendrapara",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-01T00:43:02+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:od/kendujhar",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-01T00:43:04+00:00"
   },
   {
    "unit": "district:od/keonjhar",

@@ -5,7 +5,7 @@
   "death": null,
   "source": null
  },
- "checked_at": "2026-09-30T00:40:45.883246+00:00",
+ "checked_at": "2026-10-01T00:43:33.283345+00:00",
  "score": 20,
  "verdict": "weak",
  "checks": [
@@ -20,8 +20,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Danda Nata; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Danda%20Nata"
+   "detail": "पृष्ठ मिला: Danda (disambiguation); सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Danda%20%28disambiguation%29"
   },
   {
    "name": "wikidata",

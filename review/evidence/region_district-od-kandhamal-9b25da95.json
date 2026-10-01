@@ -1,11 +1,11 @@
 {
- "id": "region:district-od-gajapati-190b46db",
+ "id": "region:district-od-kandhamal-9b25da95",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q124734"
+  "source": "wikidata:Q124830290"
  },
- "checked_at": "2026-10-01T00:43:35.990114+00:00",
+ "checked_at": "2026-10-01T00:43:29.092355+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"सोनाराम\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"शिव के 108 नाम\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Revolt (TV network); सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Revolt%20%28TV%20network%29"
+   "detail": "पृष्ठ मिला: Maha Shivaratri",
+   "link": "https://en.wikipedia.org/wiki/Maha%20Shivaratri"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q124734",
-   "link": "https://www.wikidata.org/wiki/Q124734"
+   "detail": "आइटम Q124830290",
+   "link": "https://www.wikidata.org/wiki/Q124830290"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "revolt: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Shivratri: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }
