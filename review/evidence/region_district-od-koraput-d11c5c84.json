@@ -1,11 +1,11 @@
 {
- "id": "region:district-od-kandhamal-164b5f1b",
+ "id": "region:district-od-koraput-d11c5c84",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q111955063"
+  "source": "wikidata:Q1678260"
  },
- "checked_at": "2026-10-02T01:02:06.110469+00:00",
+ "checked_at": "2026-10-02T01:01:50.845994+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"पोहरादेवी मंदिर\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"पुरी जगन्नाध\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Rama Navami; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Rama%20Navami"
+   "detail": "पृष्ठ मिला: Jagannath Temple, Puri; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Jagannath%20Temple%2C%20Puri"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q111955063",
-   "link": "https://www.wikidata.org/wiki/Q111955063"
+   "detail": "आइटम Q1678260",
+   "link": "https://www.wikidata.org/wiki/Q1678260"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Ram Navami: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Puri Jagannath: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-01T00:43:04+00:00",
-  "progress": "65/823 done, 67 blocked"
+  "updated": "2026-10-02T01:01:41+00:00",
+  "progress": "67/823 done, 71 blocked"
  },
  "jobs": [
   {
@@ -1003,32 +1003,48 @@
   {
    "unit": "district:od/keonjhar",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-02T01:01:33+00:00"
   },
   {
    "unit": "district:od/khordha",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-02T01:01:34+00:00"
   },
   {
    "unit": "district:od/koraput",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-02T01:01:36+00:00",
+   "children": 0,
+   "entities_queued": 5,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:od/malkangiri",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-02T01:01:36+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:od/mayurbhanj",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-02T01:01:39+00:00"
   },
   {
    "unit": "district:od/nabarangpur",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-02T01:01:40+00:00"
   },
   {
    "unit": "district:od/nayagarh",

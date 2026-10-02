@@ -1,9 +1,399 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-01T00:43:46.841347+00:00"
+  "updated": "2026-10-02T01:02:10.598562+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-od-malkangiri-4c087adf",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chitrakonda",
+   "subtitle": "ओडिशा · Malkangiri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/malkangiri",
+   "payload": {
+    "unit_id": "district:od/malkangiri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chitrakonda",
+     "desc_hi": "] * ' Balimela Reservoir|Balimela Dam and Eco-tourism Park : ' Located south-east from Malkangiri at Chitrakonda Assembly constituency|Chitrakonda , it is the second-most visited tourist spot in Malkangiri after Satiguda Dam and Eco-tourism Park. The dam is built to generate hydr",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Malkangiri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-malkangiri-a39ea2a1",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Balimela Dam and Eco-tourism Park",
+   "subtitle": "ओडिशा · Malkangiri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/malkangiri",
+   "payload": {
+    "unit_id": "district:od/malkangiri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Balimela Dam and Eco-tourism Park",
+     "desc_hi": "ha |access-date=8 January 2024}}</ref> File:Balimela_Dam.jpg|250px|thumb| Balimela Reservoir|Balimela Dam * ' Balimela Reservoir|Balimela Dam and Eco-tourism Park : ' Located south-east from Malkangiri at Chitrakonda Assembly constituency|Chitrakonda , it is the second-most visit",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Malkangiri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-malkangiri-44f24c32",
+   "kind": "region",
+   "subtype": "place",
+   "title": "eco-tourism",
+   "subtitle": "ओडिशा · Malkangiri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/malkangiri",
+   "payload": {
+    "unit_id": "district:od/malkangiri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "eco-tourism",
+     "desc_hi": "e is a linga dedicated to Shiva|Lord Shiva . The park overlooking the dam has been built recently to promote eco-tourism , where there are also two cottages and a nature camp of the Irrigation Department of the Government of Odisha that provide accommodation to tourists and VIPs.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Malkangiri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-malkangiri-909ebeb9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Lord Shiva",
+   "subtitle": "ओडिशा · Malkangiri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/malkangiri",
+   "payload": {
+    "unit_id": "district:od/malkangiri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Lord Shiva",
+     "desc_hi": "oating is also available in the reservoir. There is a cave near to the dam, where there is a linga dedicated to Shiva|Lord Shiva . The park overlooking the dam has been built recently to promote eco-tourism , where there are also two cottages and a nature camp of the Irrigation D",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Malkangiri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-malkangiri-51520583",
+   "kind": "region",
+   "subtype": "place",
+   "title": "linga",
+   "subtitle": "ओडिशा · Malkangiri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/malkangiri",
+   "payload": {
+    "unit_id": "district:od/malkangiri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "linga",
+     "desc_hi": "nd their thick forests. Boating is also available in the reservoir. There is a cave near to the dam, where there is a linga dedicated to Shiva|Lord Shiva . The park overlooking the dam has been built recently to promote eco-tourism , where there are also two cottages and a nature",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Malkangiri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-malkangiri-8d0776ba",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Eastern Ghats",
+   "subtitle": "ओडिशा · Malkangiri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/malkangiri",
+   "payload": {
+    "unit_id": "district:od/malkangiri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Eastern Ghats",
+     "desc_hi": "on facility to the nearby cultivable land throughout the year. The area has been developed as a tourist spot amidst the Eastern Ghats and their thick forests. Boating is also available in the reservoir. There is a cave near to the dam, where there is a linga dedicated to Shiva|Lo",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Malkangiri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-malkangiri-4d60ab2c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Google Maps",
+   "subtitle": "ओडिशा · Malkangiri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/malkangiri",
+   "payload": {
+    "unit_id": "district:od/malkangiri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Google Maps",
+     "desc_hi": "order to give accurate information, the distance data and some other information related to it have been obtained from Google Maps .}} * 'Satiguda Dam and Eco-tourism Park: ' It is located east of Malkangiri. The dam provides irrigation facility to the nearby cultivable land thro",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Malkangiri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-malkangiri-5011bd9c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Government of Odisha",
+   "subtitle": "ओडिशा · Malkangiri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/malkangiri",
+   "payload": {
+    "unit_id": "district:od/malkangiri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Government of Odisha",
+     "desc_hi": "ngiri, as follows: </ref> * 'Satiguda Dam and Eco-tourism",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Malkangiri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-koraput-1ff173f1",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "ପରବ",
+   "subtitle": "ओडिशा · Koraput",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/koraput",
+   "payload": {
+    "unit_id": "district:od/koraput",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "ପରବ",
+     "desc_hi": "'PARAB ' ( 'ପରବ ') A festival of festivals PARAB {{Cite web |url=http://parab.nic.in/ |title=Introduction: Parab |website=parab.nic.in |access-date=4 March 2019 |archive-date=8 November 2022 |archive-url=https://web.archive.org/web/2022110813",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Koraput"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-koraput-16a6727a",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "PARAB",
+   "subtitle": "ओडिशा · Koraput",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/koraput",
+   "payload": {
+    "unit_id": "district:od/koraput",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "PARAB",
+     "desc_hi": "'PARAB ' ( 'ପରବ ') A festival of festivals PARAB {{Cite web |url=http://parab.nic.in/ |title=Introduction: Parab |website=parab.nic.in |access-date=4 March 2019 |archive-date=8 November 2022 |archive-url=https://web.archive.org/w",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Koraput"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-koraput-d11c5c84",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Puri Jagannath",
+   "subtitle": "ओडिशा · Koraput",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/koraput",
+   "payload": {
+    "unit_id": "district:od/koraput",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Puri Jagannath",
+     "desc_hi": "nnath Temple (Koraput)|Jagannath Temple which is also known as Sabara Srikhetra. Srikhetra is normally referred to as Jagannath Temple (Puri)|Puri Jagannath , but the unique identity of the Koraput temple is because no section of society is barred entry. Council of Analytical Tri",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Koraput"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-koraput-70bb8e70",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jagannath Temple",
+   "subtitle": "ओडिशा · Koraput",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/koraput",
+   "payload": {
+    "unit_id": "district:od/koraput",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jagannath Temple",
+     "desc_hi": "File:Sabara Shri Khetra.jpg|thumb|Jagannath temple in Koraput Koraput is mostly famous for its Jagannath Temple (Koraput)|Jagannath Temple which is also known as Sabara Srikhetra. Srikhetra is normally referred to as Jagannath Temple (Puri)|Puri Jagannath , but the unique identit",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Koraput"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-koraput-5a39af08",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Jagannath temple in Koraput",
+   "subtitle": "ओडिशा · Koraput",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/koraput",
+   "payload": {
+    "unit_id": "district:od/koraput",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Jagannath temple in Koraput",
+     "desc_hi": "File:Sabara Shri Khetra.jpg|thumb|Jagannath temple in Koraput Koraput is mostly famous for its Jagannath Temple (Koraput)|Jagannath Temple which is also known as Sabara Srikhetra. Srikhetra is normally referred to as Jagannath Te",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Koraput"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-od-kendrapara-62b45602",
    "kind": "region",

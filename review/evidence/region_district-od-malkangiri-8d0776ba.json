@@ -1,11 +1,11 @@
 {
- "id": "region:district-od-kandhamal-164b5f1b",
+ "id": "region:district-od-malkangiri-8d0776ba",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q111955063"
+  "source": "wikidata:Q465055"
  },
- "checked_at": "2026-10-02T01:02:06.110469+00:00",
+ "checked_at": "2026-10-02T01:01:46.881768+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"पोहरादेवी मंदिर\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"पश्चिमी तटीय मैदान\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Rama Navami; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Rama%20Navami"
+   "detail": "पृष्ठ मिला: Eastern Ghats; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Eastern%20Ghats"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q111955063",
-   "link": "https://www.wikidata.org/wiki/Q111955063"
+   "detail": "आइटम Q465055",
+   "link": "https://www.wikidata.org/wiki/Q465055"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Ram Navami: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Eastern Ghats: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }
