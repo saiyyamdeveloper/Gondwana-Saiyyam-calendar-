@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-02T01:01:41+00:00",
-  "progress": "67/823 done, 71 blocked"
+  "updated": "2026-10-03T00:38:29+00:00",
+  "progress": "72/828 done, 72 blocked"
  },
  "jobs": [
   {
@@ -1049,32 +1049,52 @@
   {
    "unit": "district:od/nayagarh",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-03T00:38:23+00:00",
+   "children": 1,
+   "entities_queued": 8
   },
   {
    "unit": "district:od/nuapada",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-03T00:38:24+00:00",
+   "children": 0,
+   "entities_queued": 3,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:od/puri",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-03T00:38:24+00:00",
+   "children": 0,
+   "entities_queued": 5,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:od/rayagada",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-03T00:38:25+00:00"
   },
   {
    "unit": "district:od/sambalpur",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-03T00:38:27+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:od/subarnapur",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-03T00:38:29+00:00",
+   "children": 4,
+   "entities_queued": 7
   },
   {
    "unit": "district:od/sundaragada",
@@ -4468,6 +4488,31 @@
   },
   {
    "unit": "district:hr/yamunanagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:od/nayagarh/odisha",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:od/subarnapur/sonepur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:od/subarnapur/binika",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:od/subarnapur/birmaharajpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:od/subarnapur/tarbha",
    "task": "mine",
    "status": "pending"
   }

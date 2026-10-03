@@ -1,11 +1,11 @@
 {
- "id": "region:district-od-malkangiri-44f24c32",
+ "id": "region:district-od-sambalpur-c8286837",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q111507028"
+  "source": "wikidata:Q1940209"
  },
- "checked_at": "2026-10-03T00:39:09.197066+00:00",
+ "checked_at": "2026-10-03T00:38:49.712770+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"मरुतुव माला\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"बुढ़ाराजा\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Ecotourism",
-   "link": "https://en.wikipedia.org/wiki/Ecotourism"
+   "detail": "पृष्ठ मिला: Hirakud Dam; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Hirakud%20Dam"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q111507028",
-   "link": "https://www.wikidata.org/wiki/Q111507028"
+   "detail": "आइटम Q1940209",
+   "link": "https://www.wikidata.org/wiki/Q1940209"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "eco-tourism: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Hirakud Dam: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

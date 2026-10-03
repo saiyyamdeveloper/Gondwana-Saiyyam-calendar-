@@ -1,21 +1,14 @@
 {
- "id": "region:district-od-malkangiri-44f24c32",
+ "id": "region:district-od-subarnapur-e7a71ea3",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q111507028"
+  "source": "wikidata:Q7645813"
  },
- "checked_at": "2026-10-03T00:39:09.197066+00:00",
+ "checked_at": "2026-10-03T00:38:33.574109+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
-  {
-   "name": "wiki-hi-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"मरुतुव माला\" नाम से मेल नहीं खाता — छोड़ा",
-   "link": ""
-  },
   {
    "name": "wiki-hi",
    "ok": false,
@@ -27,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Ecotourism",
-   "link": "https://en.wikipedia.org/wiki/Ecotourism"
+   "detail": "पृष्ठ मिला: Sureswari temple; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Sureswari%20temple"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q111507028",
-   "link": "https://www.wikidata.org/wiki/Q111507028"
+   "detail": "आइटम Q7645813",
+   "link": "https://www.wikidata.org/wiki/Q7645813"
   },
   {
    "name": "internal-sources",
@@ -57,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "eco-tourism: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Sureswari Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-10-02T01:01:41+00:00",
+  "updated": "2026-10-03T00:38:29+00:00",
   "coverage": {
    "states": 29,
    "districts": 776,
-   "tehsils": 18,
+   "tehsils": 23,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -8763,6 +8763,46 @@
    "parent": "district:jh/west-singhbhum",
    "entities": [],
    "source_admin": "https://en.wikipedia.org/wiki/West_Singhbhum"
+  },
+  {
+   "id": "tehsil:od/nayagarh/odisha",
+   "level": "tehsil",
+   "name_hi": "Odisha",
+   "parent": "district:od/nayagarh",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Nayagarh"
+  },
+  {
+   "id": "tehsil:od/subarnapur/binika",
+   "level": "tehsil",
+   "name_hi": "Binika",
+   "parent": "district:od/subarnapur",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Subarnapur_district"
+  },
+  {
+   "id": "tehsil:od/subarnapur/birmaharajpur",
+   "level": "tehsil",
+   "name_hi": "Birmaharajpur",
+   "parent": "district:od/subarnapur",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Subarnapur_district"
+  },
+  {
+   "id": "tehsil:od/subarnapur/sonepur",
+   "level": "tehsil",
+   "name_hi": "Sonepur",
+   "parent": "district:od/subarnapur",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Subarnapur_district"
+  },
+  {
+   "id": "tehsil:od/subarnapur/tarbha",
+   "level": "tehsil",
+   "name_hi": "Tarbha",
+   "parent": "district:od/subarnapur",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Subarnapur_district"
   }
  ]
 }

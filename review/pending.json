@@ -1,9 +1,939 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-02T01:02:10.598562+00:00"
+  "updated": "2026-10-03T00:39:13.171664+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-od-subarnapur-48fde4e2",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Lankeswari Temple",
+   "subtitle": "ओडिशा · Subarnapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/subarnapur",
+   "payload": {
+    "unit_id": "district:od/subarnapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Lankeswari Temple",
+     "desc_hi": "a Lanka * Lanka Podi * Sasisena Kavya * Sasisena Temple * Sureswari Temple * Subarnameru Temple * Lankeswari Temple",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Subarnapur_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-subarnapur-7ca5f0df",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Subarnameru Temple",
+   "subtitle": "ओडिशा · Subarnapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/subarnapur",
+   "payload": {
+    "unit_id": "district:od/subarnapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Subarnameru Temple",
+     "desc_hi": "* Paschima Lanka * Lanka Podi * Sasisena Kavya * Sasisena Temple * Sureswari Temple * Subarnameru Temple * Lankeswari Temple",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Subarnapur_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-subarnapur-e7a71ea3",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Sureswari Temple",
+   "subtitle": "ओडिशा · Subarnapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/subarnapur",
+   "payload": {
+    "unit_id": "district:od/subarnapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Sureswari Temple",
+     "desc_hi": "* Paschima Lanka * Lanka Podi * Sasisena Kavya * Sasisena Temple * Sureswari Temple * Subarnameru Temple * Lankeswari Temple",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Subarnapur_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-subarnapur-4cd27f31",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Sasisena Temple",
+   "subtitle": "ओडिशा · Subarnapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/subarnapur",
+   "payload": {
+    "unit_id": "district:od/subarnapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Sasisena Temple",
+     "desc_hi": "* Paschima Lanka * Lanka Podi * Sasisena Kavya * Sasisena Temple * Sureswari Temple * Subarnameru Temple * Lankeswari Temple",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Subarnapur_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-subarnapur-f632e095",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Sasisena Kavya",
+   "subtitle": "ओडिशा · Subarnapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/subarnapur",
+   "payload": {
+    "unit_id": "district:od/subarnapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Sasisena Kavya",
+     "desc_hi": "* Paschima Lanka * Lanka Podi * Sasisena Kavya * Sasisena Temple * Sureswari Temple * Subarnameru Temple * Lankeswari Temple",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Subarnapur_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-subarnapur-cd0f5561",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Lanka Podi",
+   "subtitle": "ओडिशा · Subarnapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/subarnapur",
+   "payload": {
+    "unit_id": "district:od/subarnapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Lanka Podi",
+     "desc_hi": "* Paschima Lanka * Lanka Podi * Sasisena Kavya * Sasisena Temple * Sureswari Temple * Subarnameru Temple * Lankeswari Temple",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Subarnapur_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-subarnapur-2c30d3df",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Paschima Lanka",
+   "subtitle": "ओडिशा · Subarnapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/subarnapur",
+   "payload": {
+    "unit_id": "district:od/subarnapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Paschima Lanka",
+     "desc_hi": "* Paschima Lanka * Lanka Podi * Sasisena Kavya * Sasisena Temple * Sureswari Temple * Subarnameru Temple * Lankeswari Temple",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Subarnapur_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-sambalpur-dbdab856",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ghanteswari Temple",
+   "subtitle": "ओडिशा · Sambalpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/sambalpur",
+   "payload": {
+    "unit_id": "district:od/sambalpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ghanteswari Temple",
+     "desc_hi": "in height) harnessed for generating electricity. It is an ideal picnic spot and famous for Ghanteswari Temple , the presiding deity of the place. This temple played an important role for river navigation in the past. [http://sambalpur.nic.in/turist_spots.htm Tourist Spots In Samb",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sambalpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-sambalpur-10b94fba",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chipilima Hydro Electric Project (CHEP)",
+   "subtitle": "ओडिशा · Sambalpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/sambalpur",
+   "payload": {
+    "unit_id": "district:od/sambalpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chipilima Hydro Electric Project (CHEP)",
+     "desc_hi": "|date=8 October 2016 }}. Samaleswari.org. Retrieved on 20 January 2011.</ref> Chiplima ( Chipilima Hydro Electric Project (CHEP) ) located about from Sambalpur, is known for a natural fall ( in height) harnessed for generating electricity. It is an ideal picnic spot and",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sambalpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-sambalpur-f1bee022",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Samaleswari",
+   "subtitle": "ओडिशा · Sambalpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/sambalpur",
+   "payload": {
+    "unit_id": "district:od/sambalpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Samaleswari",
+     "desc_hi": "ieved on 20 January 2011.</ref> It is one of a kind in India. Samaleswari Temple is the main temple of the goddess Samaleswari , located on the banks of river the Mahanadi. Sambalpur owes its name to her. [http://www.samaleswari.org/ Welcome to Maa Samaleswari Temple, Sambalpur, ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sambalpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-sambalpur-41eefb0d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Samaleswari Temple",
+   "subtitle": "ओडिशा · Sambalpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/sambalpur",
+   "payload": {
+    "unit_id": "district:od/sambalpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Samaleswari Temple",
+     "desc_hi": "mple/HUMA.asp |date=10 May 2016 }}. Orissadiary.com. Retrieved on 20 January 2011.</ref> It is one of a kind in India. Samaleswari Temple is the main temple of the goddess Samaleswari , located on the banks of river the Mahanadi. Sambalpur owes its name to her. [http://www.samale",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sambalpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-sambalpur-8fc9bcfa",
+   "kind": "region",
+   "subtype": "place",
+   "title": "The Leaning Temple of Huma",
+   "subtitle": "ओडिशा · Sambalpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/sambalpur",
+   "payload": {
+    "unit_id": "district:od/sambalpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "The Leaning Temple of Huma",
+     "desc_hi": "}. Sambalpur.nic.in. Retrieved on 20 January 2011.</ref> It also attracts a large number of migratory birds in winter. The Leaning Temple of Huma , located about from Sambalpur, built in the 17th century, leans at an angle of approximately 47 degrees to the west. (Pasayat, 1998, ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sambalpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-sambalpur-3bb8d7fe",
+   "kind": "region",
+   "subtype": "place",
+   "title": "artificial lake",
+   "subtitle": "ओडिशा · Sambalpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/sambalpur",
+   "payload": {
+    "unit_id": "district:od/sambalpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "artificial lake",
+     "desc_hi": "one of the longest dams in the world, about in length. It also forms the biggest artificial lake in Asia, with a reservoir covering at full capacity with a shoreline of over . [http://sambalpur.nic.in/hirakud%20dam.htm Hirakud Dam] {{webarchive |url=https:/",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sambalpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-sambalpur-c8286837",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Hirakud Dam",
+   "subtitle": "ओडिशा · Sambalpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/sambalpur",
+   "payload": {
+    "unit_id": "district:od/sambalpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Hirakud Dam",
+     "desc_hi": "File:Hirakud Dam.jpg|thumb| Hirakud Dam The world-famous Hirakud Dam , built in 1956 across the Mahanadi River, about from Sambalpur, is a major tourist attraction. It is one of the longest dams in the world, about in length. It",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sambalpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-sambalpur-6a5f5695",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|[[Hirakud Dam",
+   "subtitle": "ओडिशा · Sambalpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/sambalpur",
+   "payload": {
+    "unit_id": "district:od/sambalpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|[[Hirakud Dam",
+     "desc_hi": "File:Hirakud Dam.jpg|thumb| Hirakud Dam The world-famous Hirakud Dam , built in 1956 across the Mahanadi River, about from Sambalpur, is a major tourist attraction. It is one of the longest dams in the w",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sambalpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-puri-f647d2fe",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kembangan, Jakarta",
+   "subtitle": "ओडिशा · Puri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/puri",
+   "payload": {
+    "unit_id": "district:od/puri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kembangan, Jakarta",
+     "desc_hi": "East Java, a district in Mojokerto Regency , East Java, Indonesia * Puri, short for Puri Indah, a housing estate in Kembangan, Jakarta , Indonesia",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Puri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-puri-b015484b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mojokerto Regency",
+   "subtitle": "ओडिशा · Puri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/puri",
+   "payload": {
+    "unit_id": "district:od/puri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mojokerto Regency",
+     "desc_hi": "stituency) , Odisha, India * Puri, a palace in certain Bali Kingdom|Bali kingdoms * Puri, East Java, a district in Mojokerto Regency , East Java, Indonesia * Puri, short for Puri Indah, a housing estate in Kembangan, Jakarta , Indonesia",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Puri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-puri-9df5bdd1",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bali kingdoms",
+   "subtitle": "ओडिशा · Puri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/puri",
+   "payload": {
+    "unit_id": "district:od/puri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bali kingdoms",
+     "desc_hi": "Sabha constituency) , Odisha, India ** Puri (Vidhan Sabha constituency) , Odisha, India * Puri, a palace in certain Bali Kingdom|Bali kingdoms * Puri, East Java, a district in Mojokerto Regency , East Java, Indonesia * Puri, short for Puri Indah, a housing estate in Kembangan, Ja",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Puri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-puri-ee66539a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Puri (Vidhan Sabha constituency)",
+   "subtitle": "ओडिशा · Puri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/puri",
+   "payload": {
+    "unit_id": "district:od/puri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Puri (Vidhan Sabha constituency)",
+     "desc_hi": "vince in Angola * Puri district , a district of Odisha, India ** Puri (Lok Sabha constituency) , Odisha, India ** Puri (Vidhan Sabha constituency) , Odisha, India * Puri, a palace in certain Bali Kingdom|Bali kingdoms * Puri, East Java, a district in Mojokerto Regency , East Java",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Puri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-puri-9d793ed8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Puri, Angola",
+   "subtitle": "ओडिशा · Puri",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/puri",
+   "payload": {
+    "unit_id": "district:od/puri",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Puri, Angola",
+     "desc_hi": "* Pur (placename element)|-puri , Indian placename element * Puri, Angola , a town and municipality in Uíge Province in Angola * Puri district , a district of Odisha, India ** Puri (Lok Sabha constituency) , Odisha, India ** Puri (Vidhan Sabha constituency) , Odisha, India * Puri",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Puri"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-nuapada-74be328b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gulshan Kumar",
+   "subtitle": "ओडिशा · Nuapada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/nuapada",
+   "payload": {
+    "unit_id": "district:od/nuapada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gulshan Kumar",
+     "desc_hi": "12 |quote=The Linga of Lord Siva (Sibalinga) is pretty old, dating back to 6th century |access-date=17 May 2012}}</ref> Gulshan Kumar helped for the construction of the new temple. {{cite web |url=http://nuapada.nic.in/tourismplvst.asp |title=Tourism :: Photo Gallery |work=nuapad",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nuapada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-nuapada-86ee16c3",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shiva Linga",
+   "subtitle": "ओडिशा · Nuapada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/nuapada",
+   "payload": {
+    "unit_id": "district:od/nuapada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shiva Linga",
+     "desc_hi": "|Yogeswar Temple, Patora Situated 18&nbsp;km from Nuapada Yogeswar temple at Patora is famous for its ancient and old Shiva Linga . {{cite web |url= http://Odishatravels.com/photo-map.php?slno=475 |title=Patora Jogeswar Temple |work=Odishatravels.com |year=2012 |quote=The Linga o",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nuapada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-nuapada-5dd94e59",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Yogeswar Temple, Patora",
+   "subtitle": "ओडिशा · Nuapada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/nuapada",
+   "payload": {
+    "unit_id": "district:od/nuapada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Yogeswar Temple, Patora",
+     "desc_hi": "File: Yogeswar Temple, Patora.JPG|thumb|Yogeswar Temple, Patora Situated 18&nbsp;km from Nuapada Yogeswar temple at Patora is famous for its ancient and old Shiva Linga . {{cite web |url= http://Odishatravels.com/photo-map.php?sl",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nuapada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-nayagarh-e5d284b6",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Ram",
+   "subtitle": "ओडिशा · Nayagarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/nayagarh",
+   "payload": {
+    "unit_id": "district:od/nayagarh",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Ram",
+     "desc_hi": "This temple is situated at Odagaon around 27&nbsp;km distance from Nayagarh Town. Prince Rama|Ram is worshiped there along with Prince Laxman and Princess Sita . Odagaon Raghunath Temple is a Hindu temple located in Odagaon, Nayagarh District, in the Indian State of Odisha. The t",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nayagarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-nayagarh-24342c64",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Odagaon",
+   "subtitle": "ओडिशा · Nayagarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/nayagarh",
+   "payload": {
+    "unit_id": "district:od/nayagarh",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Odagaon",
+     "desc_hi": "This temple is situated at Odagaon around 27&nbsp;km distance from Nayagarh Town. Prince Rama|Ram is worshiped there along with Prince Laxman and Princess Sita . Odagaon Raghunath Temple is a Hindu temple located in Odagaon, Nayagarh District, in the I",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nayagarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-nayagarh-1f8e722d",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Jagannath",
+   "subtitle": "ओडिशा · Nayagarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/nayagarh",
+   "payload": {
+    "unit_id": "district:od/nayagarh",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Jagannath",
+     "desc_hi": "lo around 35&nbsp;km from Nayagarh and 60&nbsp;km distance from Bhubaneswar|Bhuvneshwar. It is believed that lord Jagannath is the secondary form of lord Nilamadhav, who was worshiped by the tribal head Biswabasu.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nayagarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-nayagarh-9f946164",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Bhuvneshwar",
+   "subtitle": "ओडिशा · Nayagarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/nayagarh",
+   "payload": {
+    "unit_id": "district:od/nayagarh",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Bhuvneshwar",
+     "desc_hi": "This temple is situated at Kantilo around 35&nbsp;km from Nayagarh and 60&nbsp;km distance from Bhubaneswar|Bhuvneshwar. It is believed that lord Jagannath is the secondary form of lord Nilamadhav, who was worshiped by the tribal head Biswabasu.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nayagarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-nayagarh-151f1410",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Kantilo",
+   "subtitle": "ओडिशा · Nayagarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/nayagarh",
+   "payload": {
+    "unit_id": "district:od/nayagarh",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Kantilo",
+     "desc_hi": "This temple is situated at Kantilo around 35&nbsp;km from Nayagarh and 60&nbsp;km distance from Bhubaneswar|Bhuvneshwar. It is believed that lord Jagannath is the secondary form of lord Nilamadhav, who was worshiped by the tribal head Biswabasu.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nayagarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-nayagarh-57b11ec4",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Maha Shivaratri",
+   "subtitle": "ओडिशा · Nayagarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/nayagarh",
+   "payload": {
+    "unit_id": "district:od/nayagarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Maha Shivaratri",
+     "desc_hi": "This Shiv temple is situated at Sarankul , a small town towards Odagaon|Odagaon Block . Maha Shivaratri is the important festival which is being celebrated every year. People from all parts of Odisha (mainly south Odisha) come to this place during the festival. The deity popularl",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nayagarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-nayagarh-f733a0aa",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Odagaon Block",
+   "subtitle": "ओडिशा · Nayagarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/nayagarh",
+   "payload": {
+    "unit_id": "district:od/nayagarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Odagaon Block",
+     "desc_hi": "This Shiv temple is situated at Sarankul , a small town towards Odagaon|Odagaon Block . Maha Shivaratri is the important festival which is being celebrated every year. People from all parts of Odisha (mainly south Odisha) come to this place during the festival. The deity popularl",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nayagarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-od-nayagarh-a9a54f19",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Sarankul",
+   "subtitle": "ओडिशा · Nayagarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:od/nayagarh",
+   "payload": {
+    "unit_id": "district:od/nayagarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Sarankul",
+     "desc_hi": "This Shiv temple is situated at Sarankul , a small town towards Odagaon|Odagaon Block . Maha Shivaratri is the important festival which is being celebrated every year. People from all parts of Odisha (mainly south Odisha) come to this place during the festival.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nayagarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-od-malkangiri-4c087adf",
    "kind": "region",

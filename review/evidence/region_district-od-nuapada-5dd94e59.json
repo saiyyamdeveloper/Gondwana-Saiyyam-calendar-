@@ -1,11 +1,11 @@
 {
- "id": "region:district-od-malkangiri-a39ea2a1",
+ "id": "region:district-od-nuapada-5dd94e59",
  "dates": {
   "birth": null,
   "death": null,
   "source": null
  },
- "checked_at": "2026-10-03T00:39:08.445483+00:00",
+ "checked_at": "2026-10-03T00:38:59.135209+00:00",
  "score": 0,
  "verdict": "nosource",
  "checks": [
@@ -14,13 +14,6 @@
    "ok": false,
    "pts": 0,
    "detail": "कोई पृष्ठ नहीं मिला",
-   "link": ""
-  },
-  {
-   "name": "wiki-en-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"Malkangiri\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -54,6 +47,6 @@
  ],
  "conflicts": [],
  "sources_domains": [],
- "summary_hi": "Balimela Dam and Eco-tourism Park: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+ "summary_hi": "thumb|Yogeswar Temple, Patora: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
  "llm": null
 }

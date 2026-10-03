@@ -1,21 +1,14 @@
 {
- "id": "region:district-od-malkangiri-44f24c32",
+ "id": "region:district-od-sambalpur-8fc9bcfa",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q111507028"
+  "source": "wikidata:Q6507156"
  },
- "checked_at": "2026-10-03T00:39:09.197066+00:00",
+ "checked_at": "2026-10-03T00:38:47.445522+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
-  {
-   "name": "wiki-hi-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"मरुतुव माला\" नाम से मेल नहीं खाता — छोड़ा",
-   "link": ""
-  },
   {
    "name": "wiki-hi",
    "ok": false,
@@ -27,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Ecotourism",
-   "link": "https://en.wikipedia.org/wiki/Ecotourism"
+   "detail": "पृष्ठ मिला: Leaning Temple of Huma; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Leaning%20Temple%20of%20Huma"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q111507028",
-   "link": "https://www.wikidata.org/wiki/Q111507028"
+   "detail": "आइटम Q6507156",
+   "link": "https://www.wikidata.org/wiki/Q6507156"
   },
   {
    "name": "internal-sources",
@@ -57,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "eco-tourism: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "The Leaning Temple of Huma: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

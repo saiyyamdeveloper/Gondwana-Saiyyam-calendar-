@@ -2234,63 +2234,63 @@
  "region:district-od-malkangiri-4c087adf": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-02T01:01:43.261521+00:00",
+  "checked_at": "2026-10-03T00:39:07.927808+00:00",
   "summary_hi": "Chitrakonda: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-malkangiri-a39ea2a1": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-02T01:01:43.811841+00:00",
+  "checked_at": "2026-10-03T00:39:08.445483+00:00",
   "summary_hi": "Balimela Dam and Eco-tourism Park: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-od-malkangiri-44f24c32": {
-  "score": 15,
+  "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-02T01:01:44.462507+00:00",
-  "summary_hi": "eco-tourism: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
-  "n_sources": 1
+  "checked_at": "2026-10-03T00:39:09.197066+00:00",
+  "summary_hi": "eco-tourism: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
  },
  "region:district-od-malkangiri-909ebeb9": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-10-02T01:01:45.028510+00:00",
+  "checked_at": "2026-10-03T00:39:09.754626+00:00",
   "summary_hi": "Lord Shiva: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-od-malkangiri-51520583": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-10-02T01:01:45.596462+00:00",
+  "checked_at": "2026-10-03T00:39:10.272300+00:00",
   "summary_hi": "linga: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-od-malkangiri-8d0776ba": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-02T01:01:46.881768+00:00",
+  "checked_at": "2026-10-03T00:39:11.197388+00:00",
   "summary_hi": "Eastern Ghats: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-malkangiri-4d60ab2c": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-02T01:01:47.708975+00:00",
+  "checked_at": "2026-10-03T00:39:11.942880+00:00",
   "summary_hi": "Google Maps: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-malkangiri-5011bd9c": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-02T01:01:49.156759+00:00",
+  "checked_at": "2026-10-03T00:39:12.649175+00:00",
   "summary_hi": "Government of Odisha: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-od-koraput-1ff173f1": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-10-02T01:01:49.671256+00:00",
+  "checked_at": "2026-10-03T00:39:13.169539+00:00",
   "summary_hi": "ପରବ: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
@@ -2321,5 +2321,222 @@
   "checked_at": "2026-10-02T01:01:52.026830+00:00",
   "summary_hi": "thumb|Jagannath temple in Koraput: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
+ },
+ "region:district-od-subarnapur-48fde4e2": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:30.821363+00:00",
+  "summary_hi": "Lankeswari Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-subarnapur-7ca5f0df": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:32.902906+00:00",
+  "summary_hi": "Subarnameru Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-subarnapur-e7a71ea3": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:33.574109+00:00",
+  "summary_hi": "Sureswari Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-subarnapur-4cd27f31": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:34.950734+00:00",
+  "summary_hi": "Sasisena Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-subarnapur-f632e095": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:36.606807+00:00",
+  "summary_hi": "Sasisena Kavya: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-subarnapur-cd0f5561": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:37.276060+00:00",
+  "summary_hi": "Lanka Podi: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-subarnapur-2c30d3df": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-10-03T00:38:37.722294+00:00",
+  "summary_hi": "Paschima Lanka: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-od-sambalpur-dbdab856": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:38.938062+00:00",
+  "summary_hi": "Ghanteswari Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-sambalpur-10b94fba": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:42.362738+00:00",
+  "summary_hi": "Chipilima Hydro Electric Project (CHEP): स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-sambalpur-f1bee022": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:43.980698+00:00",
+  "summary_hi": "Samaleswari: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-sambalpur-41eefb0d": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:45.426267+00:00",
+  "summary_hi": "Samaleswari Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-sambalpur-8fc9bcfa": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:47.445522+00:00",
+  "summary_hi": "The Leaning Temple of Huma: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-sambalpur-3bb8d7fe": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:48.103460+00:00",
+  "summary_hi": "artificial lake: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-od-sambalpur-c8286837": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:49.712770+00:00",
+  "summary_hi": "Hirakud Dam: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-sambalpur-6a5f5695": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-10-03T00:38:50.181724+00:00",
+  "summary_hi": "thumb|[[Hirakud Dam: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-od-puri-f647d2fe": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:51.359149+00:00",
+  "summary_hi": "Kembangan, Jakarta: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-puri-b015484b": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:52.031298+00:00",
+  "summary_hi": "Mojokerto Regency: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-puri-9df5bdd1": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:52.729266+00:00",
+  "summary_hi": "Bali kingdoms: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-puri-ee66539a": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:53.451254+00:00",
+  "summary_hi": "Puri (Vidhan Sabha constituency): स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-puri-9d793ed8": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:55.379239+00:00",
+  "summary_hi": "Puri, Angola: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-nuapada-74be328b": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:57.942828+00:00",
+  "summary_hi": "Gulshan Kumar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date।",
+  "n_sources": 2
+ },
+ "region:district-od-nuapada-86ee16c3": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:58.538717+00:00",
+  "summary_hi": "Shiva Linga: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-od-nuapada-5dd94e59": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-10-03T00:38:59.135209+00:00",
+  "summary_hi": "thumb|Yogeswar Temple, Patora: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-od-nayagarh-e5d284b6": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:38:59.765623+00:00",
+  "summary_hi": "Ram: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-od-nayagarh-24342c64": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:39:00.517187+00:00",
+  "summary_hi": "Odagaon: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-nayagarh-1f8e722d": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:39:01.179727+00:00",
+  "summary_hi": "Jagannath: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-nayagarh-9f946164": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:39:01.842923+00:00",
+  "summary_hi": "Bhuvneshwar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date।",
+  "n_sources": 2
+ },
+ "region:district-od-nayagarh-151f1410": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:39:04.091119+00:00",
+  "summary_hi": "Kantilo: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-nayagarh-57b11ec4": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:39:04.870509+00:00",
+  "summary_hi": "Maha Shivaratri: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-nayagarh-f733a0aa": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:39:05.522016+00:00",
+  "summary_hi": "Odagaon Block: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-od-nayagarh-a9a54f19": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-03T00:39:07.335182+00:00",
+  "summary_hi": "Sarankul: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
  }
 }
