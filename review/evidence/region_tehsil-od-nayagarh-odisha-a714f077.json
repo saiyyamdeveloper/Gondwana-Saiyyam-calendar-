@@ -1,11 +1,11 @@
 {
- "id": "region:district-od-nayagarh-e5d284b6",
+ "id": "region:tehsil-od-nayagarh-odisha-a714f077",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q5295"
+  "source": "wikidata:Q36858"
  },
- "checked_at": "2026-10-03T23:59:20.853199+00:00",
+ "checked_at": "2026-10-03T23:59:03.180898+00:00",
  "score": 15,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"रैंडम एक्सैस मैमोरी\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"वैदिक गणित (पुस्तक)\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,7 +27,7 @@
    "name": "wiki-en-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"Random-access memory\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"Vedas\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -41,8 +41,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q5295",
-   "link": "https://www.wikidata.org/wiki/Q5295"
+   "detail": "आइटम Q36858",
+   "link": "https://www.wikidata.org/wiki/Q36858"
   },
   {
    "name": "internal-sources",
@@ -63,6 +63,6 @@
  "sources_domains": [
   "wikidata.org"
  ],
- "summary_hi": "Ram: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+ "summary_hi": "Vedic: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
  "llm": null
 }

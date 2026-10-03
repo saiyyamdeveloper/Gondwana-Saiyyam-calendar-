@@ -1,9 +1,249 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-03T00:39:13.171664+00:00"
+  "updated": "2026-10-03T23:59:26.368210+00:00"
  },
  "queue": [
+  {
+   "id": "region:tehsil-od-nayagarh-odisha-2fa46b9e",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Sarala Temple",
+   "subtitle": "ओडिशा · Nayagarh · Odisha",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:od/nayagarh/odisha",
+   "payload": {
+    "unit_id": "tehsil:od/nayagarh/odisha",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Sarala Temple",
+     "desc_hi": "lden Triangle\" exists today, and it is still staggering in size. It stands out as a masterpiece in Odisha architecture. Sarala Temple , regarded as one of the most spiritually elevated expressions of Shaktism is in Jagatsinghpur district . It is also one of the holiest places in ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Odisha"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-od-nayagarh-odisha-3aae876c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Konark",
+   "subtitle": "ओडिशा · Nayagarh · Odisha",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:od/nayagarh/odisha",
+   "payload": {
+    "unit_id": "tehsil:od/nayagarh/odisha",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Konark",
+     "desc_hi": "ty)|Puri is about high and dominates the skyline. Only a portion of the Konark Sun Temple at Konark in Puri district , the largest of the temples of the \"Holy Golden Triangle\" exists today, and it is still staggering in size. It stands out as a masterpiece in Odisha architecture.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Odisha"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-od-nayagarh-odisha-b640dc97",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Konark Sun Temple",
+   "subtitle": "ओडिशा · Nayagarh · Odisha",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:od/nayagarh/odisha",
+   "payload": {
+    "unit_id": "tehsil:od/nayagarh/odisha",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Konark Sun Temple",
+     "desc_hi": "nath Temple , Puri (city)|Puri is about high and dominates the skyline. Only a portion of the Konark Sun Temple at Konark in Puri district , the largest of the temples of the \"Holy Golden Triangle\" exists today, and it is still staggering in size. It stands out as a masterpiece i",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Odisha"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-od-nayagarh-odisha-dfa4785f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Puri",
+   "subtitle": "ओडिशा · Nayagarh · Odisha",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:od/nayagarh/odisha",
+   "payload": {
+    "unit_id": "tehsil:od/nayagarh/odisha",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Puri",
+     "desc_hi": "} The Lingaraja Temple at Bhubaneswar has a high deula while the Jagannath Temple , Puri (city)|Puri is about high and dominates the skyline. Only a portion of the Konark Sun Temple at Konark in Puri district , the largest of the temples of the \"Holy Golden Triangle\" exists today",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Odisha"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-od-nayagarh-odisha-70bb8e70",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jagannath Temple",
+   "subtitle": "ओडिशा · Nayagarh · Odisha",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:od/nayagarh/odisha",
+   "payload": {
+    "unit_id": "tehsil:od/nayagarh/odisha",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jagannath Temple",
+     "desc_hi": "ain|Tourism in Odisha}} The Lingaraja Temple at Bhubaneswar has a high deula while the Jagannath Temple , Puri (city)|Puri is about high and dominates the skyline. Only a portion of the Konark Sun Temple at Konark in Puri district , the largest of the temples of the \"Holy Golden ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Odisha"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-od-nayagarh-odisha-4b2aee97",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bhubaneswar",
+   "subtitle": "ओडिशा · Nayagarh · Odisha",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:od/nayagarh/odisha",
+   "payload": {
+    "unit_id": "tehsil:od/nayagarh/odisha",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bhubaneswar",
+     "desc_hi": "The Lingaraja Temple at Bhubaneswar has a high deula while the Jagannath Temple , Puri (city)|Puri is about high and dominates the skyline. Only a portion of the Konark Sun Temple at Konark in P",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Odisha"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-od-nayagarh-odisha-a714f077",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Vedic",
+   "subtitle": "ओडिशा · Nayagarh · Odisha",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:od/nayagarh/odisha",
+   "payload": {
+    "unit_id": "tehsil:od/nayagarh/odisha",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Vedic",
+     "desc_hi": "5 January 2016|url-status=live}}</ref> Baudhayana sutras|Baudhayana mentions Kalinga as not yet being influenced by Vedic traditions, implying it followed mostly tribal traditions. {{cite book|author=Suhas Chatterjee|title=Indian Civilization And Culture|url=https://books.google.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Odisha"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-od-nayagarh-odisha-4c34b981",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Baudhayana",
+   "subtitle": "ओडिशा · Nayagarh · Odisha",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:od/nayagarh/odisha",
+   "payload": {
+    "unit_id": "tehsil:od/nayagarh/odisha",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Baudhayana",
+     "desc_hi": "160105110846/https://books.google.com/books?id=_5seKkk3GkIC&pg=PA97|archive-date=5 January 2016|url-status=live}}</ref> Baudhayana sutras|Baudhayana mentions Kalinga as not yet being influenced by Vedic traditions, implying it followed mostly tribal traditions. {{cite book|author",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Odisha"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-03",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-od-subarnapur-48fde4e2",
    "kind": "region",

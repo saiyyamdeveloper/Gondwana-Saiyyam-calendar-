@@ -1,11 +1,11 @@
 {
- "id": "region:district-od-nayagarh-a9a54f19",
+ "id": "region:tehsil-od-nayagarh-odisha-b640dc97",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q7423140"
+  "source": "wikidata:Q752091"
  },
- "checked_at": "2026-10-03T23:59:25.729877+00:00",
+ "checked_at": "2026-10-03T23:59:00.476088+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"सरणकुल\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"कोणार्क सूर्य मंदिर\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Sarankul; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Sarankul"
+   "detail": "पृष्ठ मिला: Konark Sun Temple; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Konark%20Sun%20Temple"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q7423140",
-   "link": "https://www.wikidata.org/wiki/Q7423140"
+   "detail": "आइटम Q752091",
+   "link": "https://www.wikidata.org/wiki/Q752091"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Sarankul: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Konark Sun Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }
