@@ -1,11 +1,11 @@
 {
- "id": "region:district-od-puri-b015484b",
+ "id": "region:district-mp-agar-malwa-ef30c552",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q11096"
+  "source": "wikidata:Q134978687"
  },
- "checked_at": "2026-10-05T00:05:34.093335+00:00",
+ "checked_at": "2026-10-05T00:05:13.652269+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -20,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Mojokerto Regency; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Mojokerto%20Regency"
+   "detail": "पृष्ठ मिला: Baba Baijnath Temple, Agar; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Baba%20Baijnath%20Temple%2C%20Agar"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q11096",
-   "link": "https://www.wikidata.org/wiki/Q11096"
+   "detail": "आइटम Q134978687",
+   "link": "https://www.wikidata.org/wiki/Q134978687"
   },
   {
    "name": "internal-sources",
@@ -50,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Mojokerto Regency: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Baba Baijnath Temple, Agar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

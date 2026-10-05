@@ -1,9 +1,99 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-03T23:59:26.368210+00:00"
+  "updated": "2026-10-05T00:05:44.450516+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mp-agar-malwa-ef30c552",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Baba Baijnath Temple, Agar",
+   "subtitle": "मध्य प्रदेश · Agar Malwa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/agar-malwa",
+   "payload": {
+    "unit_id": "district:mp/agar-malwa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Baba Baijnath Temple, Agar",
+     "desc_hi": "d%e0%a4%a5%e0%a4%b2/ |website=जिला आगर मालवा, मध्य प्रदेश शासन - भारत |language=hi |access-date=2 August 2024}}</ref> * Baba Baijnath Temple, Agar * Chausath Yogini Temple * Kevdaswami Bhairavnath Temple * Maa Tulja Bhawani Temple * Manshapurn Ganapati Chipiya G",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Agar_Malwa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-05",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-agar-malwa-46c74d09",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bagalamukhi Temple, Nalkheda",
+   "subtitle": "मध्य प्रदेश · Agar Malwa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/agar-malwa",
+   "payload": {
+    "unit_id": "district:mp/agar-malwa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bagalamukhi Temple, Nalkheda",
+     "desc_hi": "* Bagalamukhi Temple, Nalkheda {{cite web |title=पर्यटक स्थल |url=https://agarmalwa.nic.in/%e0%a4%aa%e0%a4%b0%e0%a5%8d%e0%a4%af%e0%a4%9f%e0%a4%95-%e0%a4%b8%e0%a5%8d%e0%a4%a5%e0%a4%b2/ |website=जिला आगर मालवा, मध्य प्र",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Agar_Malwa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-05",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-od-subarnapur-birmaharajpur-a487dc74",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Patali Srikhetra",
+   "subtitle": "ओडिशा · Subarnapur · Birmaharajpur",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:od/subarnapur/birmaharajpur",
+   "payload": {
+    "unit_id": "tehsil:od/subarnapur/birmaharajpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Patali Srikhetra",
+     "desc_hi": "* Patali Srikhetra , Kotsamalai {{Cite web |url=http://subarnapur.nic.in/patalishrikhetra.htm#Note/ |title=Patali shrikhetra |access-date=11 July 2009 |archive-url=https://web.archive.org/web/20090410073642/http://subarnapur.nic.in/pat",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Birmaharajpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-05",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:tehsil-od-nayagarh-odisha-2fa46b9e",
    "kind": "region",

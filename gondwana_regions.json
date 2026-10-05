@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-10-03T23:58:56+00:00",
+  "updated": "2026-10-05T00:05:11+00:00",
   "coverage": {
    "states": 29,
    "districts": 776,
-   "tehsils": 23,
+   "tehsils": 29,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -8763,6 +8763,54 @@
    "parent": "district:jh/west-singhbhum",
    "entities": [],
    "source_admin": "https://en.wikipedia.org/wiki/West_Singhbhum"
+  },
+  {
+   "id": "tehsil:mp/agar-malwa/agar-malwa",
+   "level": "tehsil",
+   "name_hi": "Agar Malwa",
+   "parent": "district:mp/agar-malwa",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Agar_Malwa"
+  },
+  {
+   "id": "tehsil:mp/agar-malwa/badod",
+   "level": "tehsil",
+   "name_hi": "Badod",
+   "parent": "district:mp/agar-malwa",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Agar_Malwa"
+  },
+  {
+   "id": "tehsil:mp/agar-malwa/nalkheda",
+   "level": "tehsil",
+   "name_hi": "Nalkheda",
+   "parent": "district:mp/agar-malwa",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Agar_Malwa"
+  },
+  {
+   "id": "tehsil:mp/agar-malwa/soyat-kalan",
+   "level": "tehsil",
+   "name_hi": "Soyat Kalan",
+   "parent": "district:mp/agar-malwa",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Agar_Malwa"
+  },
+  {
+   "id": "tehsil:mp/agar-malwa/susner",
+   "level": "tehsil",
+   "name_hi": "Susner",
+   "parent": "district:mp/agar-malwa",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Agar_Malwa"
+  },
+  {
+   "id": "tehsil:mp/agar-malwa/tehsils",
+   "level": "tehsil",
+   "name_hi": "tehsils",
+   "parent": "district:mp/agar-malwa",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Agar_Malwa"
   },
   {
    "id": "tehsil:od/nayagarh/odisha",
