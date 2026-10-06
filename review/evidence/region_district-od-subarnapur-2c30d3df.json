@@ -5,7 +5,7 @@
   "death": null,
   "source": null
  },
- "checked_at": "2026-10-05T00:05:27.313033+00:00",
+ "checked_at": "2026-10-06T01:50:41.175231+00:00",
  "score": 0,
  "verdict": "nosource",
  "checks": [
@@ -14,13 +14,6 @@
    "ok": false,
    "pts": 0,
    "detail": "कोई पृष्ठ नहीं मिला",
-   "link": ""
-  },
-  {
-   "name": "wiki-en-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"Subarnapur district\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {

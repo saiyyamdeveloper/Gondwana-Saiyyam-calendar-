@@ -1,9 +1,549 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-05T00:05:44.450516+00:00"
+  "updated": "2026-10-06T01:50:41.827552+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mp-bhind-16db8843",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Vankhandeshwar Temple",
+   "subtitle": "मध्य प्रदेश · Bhind",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/bhind",
+   "payload": {
+    "unit_id": "district:mp/bhind",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Vankhandeshwar Temple",
+     "desc_hi": "* Ater Fort, it was built by Bhadauria kings Badan Singh, Maha Singh and Bakhat Singh between 1664 and 1668. * Vankhandeshwar Mahadev Temple|Vankhandeshwar Temple : It is located in Bhind town. It is a Shiv Mandir built by the king, Prathwiraj Chauhan in 1175 AD. It is told that ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bhind"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-bhind-256c55ce",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bhadauria",
+   "subtitle": "मध्य प्रदेश · Bhind",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/bhind",
+   "payload": {
+    "unit_id": "district:mp/bhind",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bhadauria",
+     "desc_hi": "* Ater Fort, it was built by Bhadauria kings Badan Singh, Maha Singh and Bakhat Singh between 1664 and 1668. * Vankhandeshwar Mahadev Temple|Vankhandeshwar Temple : It is located in Bhind town. It is a Shiv Mandir built by the king, Prathwiraj Chauhan in 1175 AD",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bhind"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-barwani-875e366e",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Eid al-Fitr",
+   "subtitle": "मध्य प्रदेश · Barwani",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/barwani",
+   "payload": {
+    "unit_id": "district:mp/barwani",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Eid al-Fitr",
+     "desc_hi": "Ganesh Utsav , Navratri , Dussehra , Deepavali , Muharram , Gudi Padwa , Gangaur , Bhai Dooj , Eid al-Fitr and Eid al-Adha , Christmas and Naga Panchami are all celebrated with equal enthusiasm. Barwani is known for ( ) (glimpse or view) during Ganesh Utsav and Tajiye du",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Barwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-barwani-61ad3856",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Bhai Dooj",
+   "subtitle": "मध्य प्रदेश · Barwani",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/barwani",
+   "payload": {
+    "unit_id": "district:mp/barwani",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Bhai Dooj",
+     "desc_hi": "ksha Bandhan , Ganesh Utsav , Navratri , Dussehra , Deepavali , Muharram , Gudi Padwa , Gangaur , Bhai Dooj , Eid al-Fitr and Eid al-Adha , Christmas and Naga Panchami are all celebrated with equal enthusiasm. Barwani is known for ( ) (glimpse or view) during Ganesh Utsa",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Barwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-barwani-b53f3949",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Gangaur",
+   "subtitle": "मध्य प्रदेश · Barwani",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/barwani",
+   "payload": {
+    "unit_id": "district:mp/barwani",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Gangaur",
+     "desc_hi": "[Holi , Raksha Bandhan , Ganesh Utsav , Navratri , Dussehra , Deepavali , Muharram , Gudi Padwa , Gangaur , Bhai Dooj , Eid al-Fitr and Eid al-Adha , Christmas and Naga Panchami are all celebrated with equal enthusiasm. Barwani is known for ( ) (glimpse or view) durin",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Barwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-barwani-ced1b5de",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Gudi Padwa",
+   "subtitle": "मध्य प्रदेश · Barwani",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/barwani",
+   "payload": {
+    "unit_id": "district:mp/barwani",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Gudi Padwa",
+     "desc_hi": "r festivals of Holi , Raksha Bandhan , Ganesh Utsav , Navratri , Dussehra , Deepavali , Muharram , Gudi Padwa , Gangaur , Bhai Dooj , Eid al-Fitr and Eid al-Adha , Christmas and Naga Panchami are all celebrated with equal enthusiasm. Barwani is known for ( ) (glimps",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Barwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-barwani-d8daee80",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Muharram",
+   "subtitle": "मध्य प्रदेश · Barwani",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/barwani",
+   "payload": {
+    "unit_id": "district:mp/barwani",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Muharram",
+     "desc_hi": "The major festivals of Holi , Raksha Bandhan , Ganesh Utsav , Navratri , Dussehra , Deepavali , Muharram , Gudi Padwa , Gangaur , Bhai Dooj , Eid al-Fitr and Eid al-Adha , Christmas and Naga Panchami are all celebrated with equal enthusiasm. Barwani is known for ({{lang|hi|झ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Barwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-barwani-75a54229",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Deepavali",
+   "subtitle": "मध्य प्रदेश · Barwani",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/barwani",
+   "payload": {
+    "unit_id": "district:mp/barwani",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Deepavali",
+     "desc_hi": "The major festivals of Holi , Raksha Bandhan , Ganesh Utsav , Navratri , Dussehra , Deepavali , Muharram , Gudi Padwa , Gangaur , Bhai Dooj , Eid al-Fitr and Eid al-Adha , Christmas and Naga Panchami are all celebrated with equal enthusiasm. Barwani is known for {{transliteration",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Barwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-barwani-98f09c10",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Ganesh Utsav",
+   "subtitle": "मध्य प्रदेश · Barwani",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/barwani",
+   "payload": {
+    "unit_id": "district:mp/barwani",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Ganesh Utsav",
+     "desc_hi": "The major festivals of Holi , Raksha Bandhan , Ganesh Utsav , Navratri , Dussehra , Deepavali , Muharram , Gudi Padwa , Gangaur , Bhai Dooj , Eid al-Fitr and Eid al-Adha , Christmas and Naga Panchami are all celebrated with equal enthusiasm. Barwan",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Barwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-barwani-d9f624de",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Raksha Bandhan",
+   "subtitle": "मध्य प्रदेश · Barwani",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/barwani",
+   "payload": {
+    "unit_id": "district:mp/barwani",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Raksha Bandhan",
+     "desc_hi": "The major festivals of Holi , Raksha Bandhan , Ganesh Utsav , Navratri , Dussehra , Deepavali , Muharram , Gudi Padwa , Gangaur , Bhai Dooj , Eid al-Fitr and Eid al-Adha , Christmas and Naga Panchami are all celebrated with equa",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Barwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-ashoknagar-5e0d4875",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ashok Nagar, Eluru",
+   "subtitle": "मध्य प्रदेश · Ashoknagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/ashoknagar",
+   "payload": {
+    "unit_id": "district:mp/ashoknagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ashok Nagar, Eluru",
+     "desc_hi": "ok Nagar, Allahabad , Uttar Pradesh * Ashok Nagar, Chennai , Tamil Nadu ** Ashok Nagar metro station , Chennai * Ashok Nagar, Eluru , West Bengal * Ashok Nagar, Hyderabad , Telangana * Ashok Nagar, Mumbai , Maharashtra * Ashok Nagar Ajmer , Rajasthan",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ashoknagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-ashoknagar-376d0222",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ashok Nagar, Chennai",
+   "subtitle": "मध्य प्रदेश · Ashoknagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/ashoknagar",
+   "payload": {
+    "unit_id": "district:mp/ashoknagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ashok Nagar, Chennai",
+     "desc_hi": "agar (Vidhan Sabha constituency) ** Ashoknagar Road railway station * Ashok Nagar, Allahabad , Uttar Pradesh * Ashok Nagar, Chennai , Tamil Nadu ** Ashok Nagar metro station , Chennai * Ashok Nagar, Eluru , West Bengal * Ashok Nagar, Hyderabad , Telangana * Ashok Nagar, Mumbai , ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ashoknagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-ashoknagar-451cbb62",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ashok Nagar, Allahabad",
+   "subtitle": "मध्य प्रदेश · Ashoknagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/ashoknagar",
+   "payload": {
+    "unit_id": "district:mp/ashoknagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ashok Nagar, Allahabad",
+     "desc_hi": "on * Ashoknagar Kalyangarh ** Ashoknagar (Vidhan Sabha constituency) ** Ashoknagar Road railway station * Ashok Nagar, Allahabad , Uttar Pradesh * Ashok Nagar, Chennai , Tamil Nadu ** Ashok Nagar metro station , Chennai * Ashok Nagar, Eluru , West Bengal * Ashok Nagar, Hyderabad ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ashoknagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-ashoknagar-a56dd1b5",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ashoknagar Kalyangarh",
+   "subtitle": "मध्य प्रदेश · Ashoknagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/ashoknagar",
+   "payload": {
+    "unit_id": "district:mp/ashoknagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ashoknagar Kalyangarh",
+     "desc_hi": "hsil , subdisctrict in the district ** Ashok Nagar (Vidhan Sabha constituency) ** Ashoknagar railway station * Ashoknagar Kalyangarh ** Ashoknagar (Vidhan Sabha constituency) ** Ashoknagar Road railway station * Ashok Nagar, Allahabad , Uttar Pradesh * Ashok Nagar, Chennai , Tami",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ashoknagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-ashoknagar-1437eb35",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ashok Nagar (Vidhan Sabha constituency)",
+   "subtitle": "मध्य प्रदेश · Ashoknagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/ashoknagar",
+   "payload": {
+    "unit_id": "district:mp/ashoknagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ashok Nagar (Vidhan Sabha constituency)",
+     "desc_hi": "r district , district of Madhya Pradesh centred on the city *** Ashoknagar tehsil , subdisctrict in the district ** Ashok Nagar (Vidhan Sabha constituency) ** Ashoknagar railway station * Ashoknagar Kalyangarh ** Ashoknagar (Vidhan Sabha constituency) ** Ashoknagar Road railway s",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ashoknagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-ashoknagar-b2c2123f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ashoknagar, Madhya Pradesh",
+   "subtitle": "मध्य प्रदेश · Ashoknagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/ashoknagar",
+   "payload": {
+    "unit_id": "district:mp/ashoknagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ashoknagar, Madhya Pradesh",
+     "desc_hi": "* Ashok Nagar (Delhi) , neighborhood of West Delhi, Delhi, India ** New Ashok Nagar metro station * Ashoknagar, Madhya Pradesh , city in Madhya Pradesh ** Ashoknagar district , district of Madhya Pradesh centred on the city *** Ashoknagar tehsil , subdisctrict in the district ** ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ashoknagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-ashoknagar-cdcb627a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "New Ashok Nagar metro station",
+   "subtitle": "मध्य प्रदेश · Ashoknagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/ashoknagar",
+   "payload": {
+    "unit_id": "district:mp/ashoknagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "New Ashok Nagar metro station",
+     "desc_hi": "* Ashok Nagar (Delhi) , neighborhood of West Delhi, Delhi, India ** New Ashok Nagar metro station * Ashoknagar, Madhya Pradesh , city in Madhya Pradesh ** Ashoknagar district , district of Madhya Pradesh centred on the city *** Ashoknagar tehsil , subdisctrict in the district ** ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ashoknagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-ashoknagar-10080d78",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ashok Nagar (Delhi)",
+   "subtitle": "मध्य प्रदेश · Ashoknagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/ashoknagar",
+   "payload": {
+    "unit_id": "district:mp/ashoknagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ashok Nagar (Delhi)",
+     "desc_hi": "* Ashok Nagar (Delhi) , neighborhood of West Delhi, Delhi, India ** New Ashok Nagar metro station * Ashoknagar, Madhya Pradesh , city in Madhya Pradesh ** Ashoknagar district , district of Madhya Pradesh centred on the city *** [",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ashoknagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mp-agar-malwa-ef30c552",
    "kind": "region",

@@ -1,11 +1,11 @@
 {
- "id": "region:tehsil-od-nayagarh-odisha-4b2aee97",
+ "id": "region:district-mp-barwani-d8daee80",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q171771"
+  "source": "wikidata:Q1952053"
  },
- "checked_at": "2026-10-06T01:50:36.758420+00:00",
+ "checked_at": "2026-10-06T01:50:18.405167+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"भुवनेश्वर\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"हुसैनी ब्राह्मण\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Bhubaneswar; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Bhubaneswar"
+   "detail": "पृष्ठ मिला: Muharram; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Muharram"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q171771",
-   "link": "https://www.wikidata.org/wiki/Q171771"
+   "detail": "आइटम Q1952053",
+   "link": "https://www.wikidata.org/wiki/Q1952053"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Bhubaneswar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Muharram: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

@@ -1,11 +1,11 @@
 {
- "id": "region:tehsil-od-nayagarh-odisha-a714f077",
+ "id": "region:district-mp-bhind-256c55ce",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q36858"
+  "source": "wikidata:Q36672887"
  },
- "checked_at": "2026-10-06T01:50:37.568257+00:00",
+ "checked_at": "2026-10-06T01:50:14.643357+00:00",
  "score": 15,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"वैदिक गणित (पुस्तक)\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"पंकज भदौरिया\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,7 +27,7 @@
    "name": "wiki-en-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"Vedas\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"Rajput clans\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -41,8 +41,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q36858",
-   "link": "https://www.wikidata.org/wiki/Q36858"
+   "detail": "आइटम Q36672887",
+   "link": "https://www.wikidata.org/wiki/Q36672887"
   },
   {
    "name": "internal-sources",
@@ -63,6 +63,6 @@
  "sources_domains": [
   "wikidata.org"
  ],
- "summary_hi": "Vedic: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+ "summary_hi": "Bhadauria: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
  "llm": null
 }
