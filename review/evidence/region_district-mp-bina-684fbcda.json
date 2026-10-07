@@ -1,11 +1,11 @@
 {
- "id": "region:district-mp-bhind-256c55ce",
+ "id": "region:district-mp-bina-684fbcda",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q36672887"
+  "source": "wikidata:Q858501"
  },
- "checked_at": "2026-10-07T00:56:36.587992+00:00",
+ "checked_at": "2026-10-07T00:56:32.090573+00:00",
  "score": 15,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"पंकज भदौरिया\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"बीना\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,7 +27,7 @@
    "name": "wiki-en-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"Rajput clans\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"Bina, Madhya Pradesh\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -41,8 +41,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q36672887",
-   "link": "https://www.wikidata.org/wiki/Q36672887"
+   "detail": "आइटम Q858501",
+   "link": "https://www.wikidata.org/wiki/Q858501"
   },
   {
    "name": "internal-sources",
@@ -63,6 +63,6 @@
  "sources_domains": [
   "wikidata.org"
  ],
- "summary_hi": "Bhadauria: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+ "summary_hi": "Bina-Etawa: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
  "llm": null
 }

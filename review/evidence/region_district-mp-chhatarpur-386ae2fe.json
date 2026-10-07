@@ -1,11 +1,11 @@
 {
- "id": "region:district-mp-barwani-61ad3856",
+ "id": "region:district-mp-chhatarpur-386ae2fe",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q31023"
+  "source": "wikidata:Q167298"
  },
- "checked_at": "2026-10-07T00:56:37.714579+00:00",
+ "checked_at": "2026-10-07T00:56:17.472343+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"कावेरी प्रियम\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"लक्ष्मी मंदिर, खजुराहो\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Bhai Dooj; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Bhai%20Dooj"
+   "detail": "पृष्ठ मिला: Khajuraho Group of Monuments; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Khajuraho%20Group%20of%20Monuments"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q31023",
-   "link": "https://www.wikidata.org/wiki/Q31023"
+   "detail": "आइटम Q167298",
+   "link": "https://www.wikidata.org/wiki/Q167298"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Bhai Dooj: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Khajuraho Group of Monuments: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

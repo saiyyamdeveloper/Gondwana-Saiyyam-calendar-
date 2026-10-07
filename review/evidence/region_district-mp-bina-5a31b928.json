@@ -1,11 +1,11 @@
 {
- "id": "region:district-mp-bhind-16db8843",
+ "id": "region:district-mp-bina-5a31b928",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q124830267"
+  "source": "wikidata:Q2339034"
  },
- "checked_at": "2026-10-07T00:56:36.110424+00:00",
+ "checked_at": "2026-10-07T00:56:35.630231+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -20,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Vankhandeshwar Mahadev Temple; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Vankhandeshwar%20Mahadev%20Temple"
+   "detail": "पृष्ठ मिला: Binə, Baku; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Bin%C9%99%2C%20Baku"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q124830267",
-   "link": "https://www.wikidata.org/wiki/Q124830267"
+   "detail": "आइटम Q2339034",
+   "link": "https://www.wikidata.org/wiki/Q2339034"
   },
   {
    "name": "internal-sources",
@@ -50,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Vankhandeshwar Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Binə, Baku: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

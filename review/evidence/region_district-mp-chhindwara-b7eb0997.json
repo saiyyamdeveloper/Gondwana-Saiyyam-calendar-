@@ -1,11 +1,11 @@
 {
- "id": "region:district-mp-bhind-16db8843",
+ "id": "region:district-mp-chhindwara-b7eb0997",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q124830267"
+  "source": "wikidata:Q108672845"
  },
- "checked_at": "2026-10-07T00:56:36.110424+00:00",
+ "checked_at": "2026-10-07T00:56:07.620589+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -20,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Vankhandeshwar Mahadev Temple; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Vankhandeshwar%20Mahadev%20Temple"
+   "detail": "पृष्ठ मिला: Deogarh Fort; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Deogarh%20Fort"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q124830267",
-   "link": "https://www.wikidata.org/wiki/Q124830267"
+   "detail": "आइटम Q108672845",
+   "link": "https://www.wikidata.org/wiki/Q108672845"
   },
   {
    "name": "internal-sources",
@@ -50,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Vankhandeshwar Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Deogarh Fort: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

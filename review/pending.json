@@ -1,9 +1,1029 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-06T01:50:41.827552+00:00"
+  "updated": "2026-10-07T00:56:38.749351+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mp-damoh-59c0ad25",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Gangadhar Rao of Mangarh",
+   "subtitle": "मध्य प्रदेश · Damoh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/damoh",
+   "payload": {
+    "unit_id": "district:mp/damoh",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Gangadhar Rao of Mangarh",
+     "desc_hi": "Under the leadership of Thakur Kishore Singh of Hindoria , Raja Devi Singh of Singrampur, Pancham Singh of Karijog, King of mangarh|Gangadhar Rao of Mangarh , Raghunath Rao, Mejban Singh, and Govind Rao were among those who took part in the 1857 revolt . Damoh suffered from famin",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Damoh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-damoh-cec29cc0",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Thakur Kishore Singh of Hindoria",
+   "subtitle": "मध्य प्रदेश · Damoh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/damoh",
+   "payload": {
+    "unit_id": "district:mp/damoh",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Thakur Kishore Singh of Hindoria",
+     "desc_hi": "ory-detail.htm?7299}}</ref> Damoh took part in the struggle for independence from the British. Under the leadership of Thakur Kishore Singh of Hindoria , Raja Devi Singh of Singrampur, Pancham Singh of Karijog, King of mangarh|Gangadhar Rao of Mangarh , Raghunath Rao, Mejban Sing",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Damoh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhindwara-308a49af",
+   "kind": "region",
+   "subtype": "place",
+   "title": "[[Deogarh Fort]]:",
+   "subtitle": "मध्य प्रदेश · Chhindwara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhindwara",
+   "payload": {
+    "unit_id": "district:mp/chhindwara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "[[Deogarh Fort]]:",
+     "desc_hi": "* ' Deogarh Fort : ' This historical fort is south of Chhindwara beyond Mohkhed . It is built on a hill which is fortified by a deep valley clothed with dense reserve forest. The fort is approachable up to its foo",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhindwara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhindwara-ef1ec306",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Dakshineswar Kali Temple",
+   "subtitle": "मध्य प्रदेश · Chhindwara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhindwara",
+   "payload": {
+    "unit_id": "district:mp/chhindwara",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Dakshineswar Kali Temple",
+     "desc_hi": "nter of Bengali culture in Chhindwara. Established in 1995, the temple hasunique architecture that resembles the famous Dakshineswar Kali Temple near Kolkata. Devotees from all of religions and castes come for worship at the temple.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhindwara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhindwara-5ea1c8ee",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kali Bari Chhindwara",
+   "subtitle": "मध्य प्रदेश · Chhindwara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhindwara",
+   "payload": {
+    "unit_id": "district:mp/chhindwara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kali Bari Chhindwara",
+     "desc_hi": "hhindwara.org/ | title=Chhindwara - Birthplace of H.H. Shri Mataji Nirmala Devi | archive-date=2009-06-02}}</ref> * ' Kali Bari Chhindwara : ' Kali Bari Chhindwara is a temple dedicated to Goddess Kali and the center of Bengali culture in Chhindwara. Established in 1995, the temp",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhindwara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhindwara-ad219b1d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Nirmala Srivastava",
+   "subtitle": "मध्य प्रदेश · Chhindwara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhindwara",
+   "payload": {
+    "unit_id": "district:mp/chhindwara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Nirmala Srivastava",
+     "desc_hi": "* ' Sahaja Yoga ' Thousands of followers of Sahaja Yoga come every year to Chhindwara to visit the birthplace of Nirmala Srivastava , founder of Sahaja Yoga. She was born on 21 March 1923 to a Christian family in Chhindwara, India. {{cite web| url=http://www.chhindwara.org | arch",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhindwara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhindwara-01101adf",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Sahaja Yoga",
+   "subtitle": "मध्य प्रदेश · Chhindwara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhindwara",
+   "payload": {
+    "unit_id": "district:mp/chhindwara",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Sahaja Yoga",
+     "desc_hi": ", music, dance, celebrations, the deities worshiped by them, religious activities, herbal collections, and so on. * ' Sahaja Yoga ' Thousands of followers of Sahaja Yoga come every year to Chhindwara to visit the birthplace of Nirmala Srivastava , founder of Sahaja Yoga. She was ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhindwara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhindwara-2aa280be",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mughals",
+   "subtitle": "मध्य प्रदेश · Chhindwara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhindwara",
+   "payload": {
+    "unit_id": "district:mp/chhindwara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mughals",
+     "desc_hi": "ond. It was the capital of Gondwana dynasty until the 18th century. The architecture is somewhat similar to that of the Mughal architecture|Mughals . * The 'Tribal Museum ' opened in Chhindwara on 20 April 1954 and acquired 'State Museum' status in 1975. On 8 September 1997 the T",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhindwara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhindwara-ebdf1c0d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mohkhed",
+   "subtitle": "मध्य प्रदेश · Chhindwara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhindwara",
+   "payload": {
+    "unit_id": "district:mp/chhindwara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mohkhed",
+     "desc_hi": "on|date=August 2024}} * ' Deogarh Fort : ' This historical fort is south of Chhindwara beyond Mohkhed . It is built on a hill which is fortified by a deep valley clothed with dense reserve forest. The fort is approachable up to its foot by motor road. Deogarh Fort was built by Ki",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhindwara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhindwara-b7eb0997",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Deogarh Fort",
+   "subtitle": "मध्य प्रदेश · Chhindwara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhindwara",
+   "payload": {
+    "unit_id": "district:mp/chhindwara",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Deogarh Fort",
+     "desc_hi": "* ' Deogarh Fort : ' This historical fort is south of Chhindwara beyond Mohkhed . It is built on a hill which is fortified by a deep valley clothed with dense reserve forest. The fort is approachable up to its foot b",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhindwara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhatarpur-387f2f54",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jatashankar",
+   "subtitle": "मध्य प्रदेश · Chhatarpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhatarpur",
+   "payload": {
+    "unit_id": "district:mp/chhatarpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jatashankar",
+     "desc_hi": "tury * Hanuman Tauria , a Hanuman temple * Bambar Baini , Ancient Durga temple of on a hill in Lavkushnagar * Jatashankar , a cave temple dedicated to Shiva * Bageshwar Dham , a famous temple dedicated to Lord Hanuman led by Dhirendra Krishna Shastri",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhatarpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhatarpur-fa7b9be5",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Lavkushnagar",
+   "subtitle": "मध्य प्रदेश · Chhatarpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhatarpur",
+   "payload": {
+    "unit_id": "district:mp/chhatarpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Lavkushnagar",
+     "desc_hi": "s built in 11th century * Hanuman Tauria , a Hanuman temple * Bambar Baini , Ancient Durga temple of on a hill in Lavkushnagar * Jatashankar , a cave temple dedicated to Shiva * Bageshwar Dham , a famous temple dedicated to Lord Hanuman led by Dhirendra Krishna Shastri",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhatarpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhatarpur-2e37bf8e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bambar Baini",
+   "subtitle": "मध्य प्रदेश · Chhatarpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhatarpur",
+   "payload": {
+    "unit_id": "district:mp/chhatarpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bambar Baini",
+     "desc_hi": "and Jain temples * Nainagiri , group of Jain temples built in 11th century * Hanuman Tauria , a Hanuman temple * Bambar Baini , Ancient Durga temple of on a hill in Lavkushnagar * Jatashankar , a cave temple dedicated to Shiva * Bageshwar Dham , a famous temple dedicated to Lord ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhatarpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhatarpur-d27bb1a3",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Hanuman Tauria",
+   "subtitle": "मध्य प्रदेश · Chhatarpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhatarpur",
+   "payload": {
+    "unit_id": "district:mp/chhatarpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Hanuman Tauria",
+     "desc_hi": "f monuments is a group of Hindu temples and Jain temples * Nainagiri , group of Jain temples built in 11th century * Hanuman Tauria , a Hanuman temple * Bambar Baini , Ancient Durga temple of on a hill in Lavkushnagar * Jatashankar , a cave temple dedicated to Shiva * Bageshwar D",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhatarpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhatarpur-dd4cc598",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Nainagiri",
+   "subtitle": "मध्य प्रदेश · Chhatarpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhatarpur",
+   "payload": {
+    "unit_id": "district:mp/chhatarpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Nainagiri",
+     "desc_hi": "s * Khajuraho Group of Monuments|Khajuraho , group of monuments is a group of Hindu temples and Jain temples * Nainagiri , group of Jain temples built in 11th century * Hanuman Tauria , a Hanuman temple * Bambar Baini , Ancient Durga temple of on a hill in Lavkushnagar * Jatashan",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhatarpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhatarpur-fbace184",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Khajuraho",
+   "subtitle": "मध्य प्रदेश · Chhatarpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhatarpur",
+   "payload": {
+    "unit_id": "district:mp/chhatarpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Khajuraho",
+     "desc_hi": "KandariyaMahadeva.jpg|thumb| Kandariya Mahadeva Temple , the largest temple in Khajuraho Group of Monuments * Khajuraho Group of Monuments|Khajuraho , group of monuments is a group of Hindu temples and Jain temples * Nainagiri , group of Jain temples built in 11th century * Hanum",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhatarpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhatarpur-386ae2fe",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Khajuraho Group of Monuments",
+   "subtitle": "मध्य प्रदेश · Chhatarpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhatarpur",
+   "payload": {
+    "unit_id": "district:mp/chhatarpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Khajuraho Group of Monuments",
+     "desc_hi": "File:Khajuraho.KandariyaMahadeva.jpg|thumb| Kandariya Mahadeva Temple , the largest temple in Khajuraho Group of Monuments * Khajuraho Group of Monuments|Khajuraho , group of monuments is a group of Hindu temples and Jain temples * Nainagiri , group of Jain temples built in 11th ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhatarpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-chhatarpur-0f9c88d7",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|[[Kandariya Mahadeva Temple",
+   "subtitle": "मध्य प्रदेश · Chhatarpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/chhatarpur",
+   "payload": {
+    "unit_id": "district:mp/chhatarpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|[[Kandariya Mahadeva Temple",
+     "desc_hi": "File:Khajuraho.KandariyaMahadeva.jpg|thumb| Kandariya Mahadeva Temple , the largest temple in Khajuraho Group of Monuments * Khajuraho Group of Monuments|Khajuraho , group of monuments is a group of Hindu temples and Jain tem",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chhatarpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-burhanpur-3c850fdd",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Asirgarh Fort",
+   "subtitle": "मध्य प्रदेश · Burhanpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/burhanpur",
+   "payload": {
+    "unit_id": "district:mp/burhanpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Asirgarh Fort",
+     "desc_hi": "/www.nivalink.com/things-to-do/dargah-e-hakimi-burhanpur|website = Nivalink.com|access-date = 19 October 2015}}</ref> * Asirgarh Fort – The fort built is notable for its historical architecture. This fort during its prime time was difficult to win because of being built at a grea",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Burhanpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-burhanpur-f2d441be",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dargah",
+   "subtitle": "मध्य प्रदेश · Burhanpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/burhanpur",
+   "payload": {
+    "unit_id": "district:mp/burhanpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dargah",
+     "desc_hi": "/city-guide/burhanpur-tourism|website = Burhanpuronline.in|access-date = 19 October 2015}}</ref> Church, a world-famous Abdul Qadir Hakimuddin|Dargah {{Cite web|title = Things to Do - Dargah E Hakimi Burhanpur, Burhanpur, Madhya Pradesh|url = http://www.nivalink.com/things-to-do/",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Burhanpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-burhanpur-c5be5434",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Masjid",
+   "subtitle": "मध्य प्रदेश · Burhanpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/burhanpur",
+   "payload": {
+    "unit_id": "district:mp/burhanpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Masjid",
+     "desc_hi": "ome of a very diverse population, Burhanpur has a notable Gurdwara|Gurudwara , Masjid ,",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Burhanpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-burhanpur-bb936218",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gurudwara",
+   "subtitle": "मध्य प्रदेश · Burhanpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/burhanpur",
+   "payload": {
+    "unit_id": "district:mp/burhanpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gurudwara",
+     "desc_hi": "itors to Burhanpur. The city has four small ghats. Being the home of a very diverse population, Burhanpur has a notable Gurdwara|Gurudwara , Masjid , {{Cite web|title = Burhanpur Tourism, Tourist Places in Burhanpur, Sightseeing Burhanpur|url = http://www.burhanpuronline.in/city-",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Burhanpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-burhanpur-65f32aa7",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Utavali",
+   "subtitle": "मध्य प्रदेश · Burhanpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/burhanpur",
+   "payload": {
+    "unit_id": "district:mp/burhanpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Utavali",
+     "desc_hi": "d consequently has many visitor attractions of historical interest. It has three rivers, the Tapti River|Tapti , the Utavali River|Utavali and the Mohna, with several natural sights for visitors to Burhanpur. The city has four small ghats. Being the home of a very diverse populat",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Burhanpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-burhanpur-1251b07a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Tapti",
+   "subtitle": "मध्य प्रदेश · Burhanpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/burhanpur",
+   "payload": {
+    "unit_id": "district:mp/burhanpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Tapti",
+     "desc_hi": "19 October 2015}}</ref> and consequently has many visitor attractions of historical interest. It has three rivers, the Tapti River|Tapti , the Utavali River|Utavali and the Mohna, with several natural sights for visitors to Burhanpur. The city has four small ghats. Being the home",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Burhanpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-burhanpur-3cc746b6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|[[Bibi Ki Masjid",
+   "subtitle": "मध्य प्रदेश · Burhanpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/burhanpur",
+   "payload": {
+    "unit_id": "district:mp/burhanpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|[[Bibi Ki Masjid",
+     "desc_hi": "File:Dargah -e-Hakimi garden, Burhanpur.jpg|Dargah -e-Hakimi garden|thumb File:Annual Report of the Archaeological Survey of India 1913-14 Plate VIa (page 74 crop).jpg|thumb| Bibi Ki Masjid Burhanpur was ruled by several dynasties, {{Cite web|title = History of Burhanpur, British",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Burhanpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-burhanpur-bd0879fc",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dargah -e-Hakimi garden|thumb",
+   "subtitle": "मध्य प्रदेश · Burhanpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/burhanpur",
+   "payload": {
+    "unit_id": "district:mp/burhanpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dargah -e-Hakimi garden|thumb",
+     "desc_hi": "File:Dargah -e-Hakimi garden, Burhanpur.jpg|Dargah -e-Hakimi garden|thumb File:Annual Report of the Archaeological Survey of India 1913-14 Plate VIa (page 74 crop).jpg|thumb| Bibi Ki Masjid Burhanpur was ruled by several dynasties",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Burhanpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-bina-6fd296cc",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bina, North Carolina",
+   "subtitle": "मध्य प्रदेश · Bina",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/bina",
+   "payload": {
+    "unit_id": "district:mp/bina",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bina, North Carolina",
+     "desc_hi": "desh, India ** Bina Junction railway station * Bina River (India) , Madhya Pradesh, India * Bíňa , Slovakia * Bina, North Carolina , US * Bi'ina , Israel",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bina"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-bina-4755ac1a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bíňa",
+   "subtitle": "मध्य प्रदेश · Bina",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/bina",
+   "payload": {
+    "unit_id": "district:mp/bina",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bíňa",
+     "desc_hi": "Colony , Madhya Pradesh, India ** Bina Junction railway station * Bina River (India) , Madhya Pradesh, India * Bíňa , Slovakia * Bina, North Carolina , US * Bi'ina , Israel",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bina"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-bina-dd3dbf7d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bina River (India)",
+   "subtitle": "मध्य प्रदेश · Bina",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/bina",
+   "payload": {
+    "unit_id": "district:mp/bina",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bina River (India)",
+     "desc_hi": "uency , Madhaya Pradesh, India * Bina Railway Colony , Madhya Pradesh, India ** Bina Junction railway station * Bina River (India) , Madhya Pradesh, India * Bíňa , Slovakia * Bina, North Carolina , US * Bi'ina , Israel",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bina"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-bina-63965ed7",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bina Railway Colony",
+   "subtitle": "मध्य प्रदेश · Bina",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/bina",
+   "payload": {
+    "unit_id": "district:mp/bina",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bina Railway Colony",
+     "desc_hi": ", Bavaria, Germany * Bina-Etawa , Madhya Pradesh, India * Bina Assembly constituency , Madhaya Pradesh, India * Bina Railway Colony , Madhya Pradesh, India ** Bina Junction railway station * Bina River (India) , Madhya Pradesh, India * Bíňa , Slovakia * Bina, North Carolina , US ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bina"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-bina-684fbcda",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bina-Etawa",
+   "subtitle": "मध्य प्रदेश · Bina",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/bina",
+   "payload": {
+    "unit_id": "district:mp/bina",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bina-Etawa",
+     "desc_hi": "* Binə, Baku , Azerbaijan * Binə, Khojavend , Azerbaijan * Bina (river) , Bavaria, Germany * Bina-Etawa , Madhya Pradesh, India * Bina Assembly constituency , Madhaya Pradesh, India * Bina Railway Colony , Madhya Pradesh, India ** Bina Junction railway station * Bina River (India",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bina"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-bina-5c541719",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bina (river)",
+   "subtitle": "मध्य प्रदेश · Bina",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/bina",
+   "payload": {
+    "unit_id": "district:mp/bina",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bina (river)",
+     "desc_hi": "* Binə, Baku , Azerbaijan * Binə, Khojavend , Azerbaijan * Bina (river) , Bavaria, Germany * Bina-Etawa , Madhya Pradesh, India * Bina Assembly constituency , Madhaya Pradesh, India * Bina Railway Colony , Madhya Pradesh, India ** Bina Junction railway station * Bina River (India",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bina"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-bina-1f0febf9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Binə, Khojavend",
+   "subtitle": "मध्य प्रदेश · Bina",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/bina",
+   "payload": {
+    "unit_id": "district:mp/bina",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Binə, Khojavend",
+     "desc_hi": "* Binə, Baku , Azerbaijan * Binə, Khojavend , Azerbaijan * Bina (river) , Bavaria, Germany * Bina-Etawa , Madhya Pradesh, India * Bina Assembly constituency , Madhaya Pradesh, India * Bina Railway Colony , Madhya Pradesh, India ** Bina Junction railwa",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bina"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-bina-5a31b928",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Binə, Baku",
+   "subtitle": "मध्य प्रदेश · Bina",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/bina",
+   "payload": {
+    "unit_id": "district:mp/bina",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Binə, Baku",
+     "desc_hi": "* Binə, Baku , Azerbaijan * Binə, Khojavend , Azerbaijan * Bina (river) , Bavaria, Germany * Bina-Etawa , Madhya Pradesh, India * Bina Assembly constituency , Madhaya Pradesh, India * Bina Railway Colony , Madhya Pradesh, In",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bina"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mp-bhind-16db8843",
    "kind": "region",

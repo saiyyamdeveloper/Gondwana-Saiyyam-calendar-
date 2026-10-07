@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-06T01:50:12+00:00",
-  "progress": "78/834 done, 84 blocked"
+  "updated": "2026-10-07T00:55:59+00:00",
+  "progress": "83/834 done, 85 blocked"
  },
  "jobs": [
   {
@@ -1234,32 +1234,54 @@
   {
    "unit": "district:mp/bhopal",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-07T00:55:53+00:00"
   },
   {
    "unit": "district:mp/bina",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-07T00:55:54+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/burhanpur",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-07T00:55:54+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/chhatarpur",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-07T00:55:56+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/chhindwara",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-07T00:55:57+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/damoh",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-07T00:55:58+00:00",
+   "children": 0,
+   "entities_queued": 2,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/datia",
