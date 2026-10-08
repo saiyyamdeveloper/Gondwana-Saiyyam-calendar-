@@ -1,11 +1,11 @@
 {
- "id": "region:district-mp-burhanpur-3c850fdd",
+ "id": "region:district-mp-dewas-6f41c0c3",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q3630501"
+  "source": "wikidata:Q117421"
  },
- "checked_at": "2026-10-08T01:12:32.258861+00:00",
+ "checked_at": "2026-10-08T01:12:12.905876+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"असीरगढ़\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"ये लम्हे जुदाई के\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Asirgarh Fort; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Asirgarh%20Fort"
+   "detail": "पृष्ठ मिला: Natha Sampradaya; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Natha%20Sampradaya"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q3630501",
-   "link": "https://www.wikidata.org/wiki/Q3630501"
+   "detail": "आइटम Q117421",
+   "link": "https://www.wikidata.org/wiki/Q117421"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Asirgarh Fort: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Nath: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

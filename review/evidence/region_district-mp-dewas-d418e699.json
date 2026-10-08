@@ -1,11 +1,11 @@
 {
- "id": "region:district-mp-burhanpur-3c850fdd",
+ "id": "region:district-mp-dewas-d418e699",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q3630501"
+  "source": "wikidata:Q1437"
  },
- "checked_at": "2026-10-08T01:12:32.258861+00:00",
+ "checked_at": "2026-10-08T01:12:09.299193+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"असीरगढ़\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"मंडावा\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Asirgarh Fort; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Asirgarh%20Fort"
+   "detail": "पृष्ठ मिला: Rajasthan; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Rajasthan"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q3630501",
-   "link": "https://www.wikidata.org/wiki/Q3630501"
+   "detail": "आइटम Q1437",
+   "link": "https://www.wikidata.org/wiki/Q1437"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Asirgarh Fort: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Rajasthan: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

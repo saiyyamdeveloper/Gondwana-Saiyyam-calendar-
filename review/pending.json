@@ -1,9 +1,219 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-07T00:56:38.749351+00:00"
+  "updated": "2026-10-08T01:12:47.569447+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mp-dhar-1de37090",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Deccan",
+   "subtitle": "मध्य प्रदेश · Dhar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/dhar",
+   "payload": {
+    "unit_id": "district:mp/dhar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Deccan",
+     "desc_hi": "s show that the city was circular in plan and surrounded by a series of tanks and moats, similar to Warangal in the Deccan . The circular ramparts of Dhar, unique in north India and an important legacy of the Paramāras, are unprotected and have been slowly dismantled by brick-mak",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dhar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-dhar-ee79afe7",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Warangal",
+   "subtitle": "मध्य प्रदेश · Dhar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/dhar",
+   "payload": {
+    "unit_id": "district:mp/dhar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Warangal",
+     "desc_hi": "century. Wall remains show that the city was circular in plan and surrounded by a series of tanks and moats, similar to Warangal in the Deccan . The circular ramparts of Dhar, unique in north India and an important legacy of the Paramāras, are unprotected and have been slowly dis",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dhar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-dewas-d418e699",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rajasthan",
+   "subtitle": "मध्य प्रदेश · Dewas",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/dewas",
+   "payload": {
+    "unit_id": "district:mp/dewas",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rajasthan",
+     "desc_hi": "numan . The original Kaila Devi Temple is located on the banks of the Kalisil river in the Karauli district of Rajasthan . The temple is devoted to the tutelary deity of the former princely rulers of the Karauli state, Kaila. {{Cite web |url=http://www.onlinedewas.com/temples.asp",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dewas"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-dewas-fb4c6eb1",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Karauli",
+   "subtitle": "मध्य प्रदेश · Dewas",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/dewas",
+   "payload": {
+    "unit_id": "district:mp/dewas",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Karauli",
+     "desc_hi": "on}} statue of Lord Hanuman . The original Kaila Devi Temple is located on the banks of the Kalisil river in the Karauli district of Rajasthan . The temple is devoted to the tutelary deity of the former princely rulers of the Karauli state, Kaila. {{Cite web |url=http://www.onlin",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dewas"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-dewas-3acc7258",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kaila Devi Temple",
+   "subtitle": "मध्य प्रदेश · Dewas",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/dewas",
+   "payload": {
+    "unit_id": "district:mp/dewas",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kaila Devi Temple",
+     "desc_hi": "as built by South Indian artists; it houses a statue of Lord Hanuman . The original Kaila Devi Temple is located on the banks of the Kalisil river in the Karauli district of Rajasthan . The temple is devoted to the tutelary deity of the former princely rulers of the Karauli state",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dewas"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-dewas-16d36436",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Hanuman",
+   "subtitle": "मध्य प्रदेश · Dewas",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/dewas",
+   "payload": {
+    "unit_id": "district:mp/dewas",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Hanuman",
+     "desc_hi": "Garg. This modern temple was built by South Indian artists; it houses a statue of Lord Hanuman . The original Kaila Devi Temple is located on the banks of the Kalisil river in the Karauli district of Rajasthan . The temple is devoted to the tutelary deity of the former princely r",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dewas"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-dewas-6f41c0c3",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Nath",
+   "subtitle": "मध्य प्रदेश · Dewas",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/dewas",
+   "payload": {
+    "unit_id": "district:mp/dewas",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Nath",
+     "desc_hi": "Shri Sheelnath Dhuni at the Tekri foothills is a place of worship for followers of Saint Sheelnath Maharaj's of Gorakh Nath Sumpradaya. Sheelnath Maharaj belonged to a royal family of Jaipur and later became a Yogi of Gorakh Nath Sumpradaya, who lived in Dewas in his old age. {{c",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dewas"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mp-damoh-59c0ad25",
    "kind": "region",

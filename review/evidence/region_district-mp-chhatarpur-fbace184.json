@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q1595036"
  },
- "checked_at": "2026-10-07T00:56:16.804482+00:00",
+ "checked_at": "2026-10-08T01:12:29.829441+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -27,8 +27,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Khajuraho; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Khajuraho"
+   "detail": "पृष्ठ मिला: Khajuraho Group of Monuments; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Khajuraho%20Group%20of%20Monuments"
   },
   {
    "name": "wikidata",

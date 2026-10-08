@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q32575276"
  },
- "checked_at": "2026-10-07T00:56:32.673760+00:00",
+ "checked_at": "2026-10-08T01:12:46.550264+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -27,8 +27,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Bina, Madhya Pradesh; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Bina%2C%20Madhya%20Pradesh"
+   "detail": "पृष्ठ मिला: Bina River (India); सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Bina%20River%20%28India%29"
   },
   {
    "name": "wikidata",

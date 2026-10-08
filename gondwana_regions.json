@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-10-07T00:55:59+00:00",
+  "updated": "2026-10-08T01:12:05+00:00",
   "coverage": {
    "states": 29,
    "districts": 776,
-   "tehsils": 29,
+   "tehsils": 34,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -8811,6 +8811,46 @@
    "parent": "district:mp/agar-malwa",
    "entities": [],
    "source_admin": "https://en.wikipedia.org/wiki/Agar_Malwa"
+  },
+  {
+   "id": "tehsil:mp/dindori/bajag",
+   "level": "tehsil",
+   "name_hi": "Bajag",
+   "parent": "district:mp/dindori",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dindori_district"
+  },
+  {
+   "id": "tehsil:mp/dindori/development-block",
+   "level": "tehsil",
+   "name_hi": "Development Block",
+   "parent": "district:mp/dindori",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dindori_district"
+  },
+  {
+   "id": "tehsil:mp/dindori/dindori",
+   "level": "tehsil",
+   "name_hi": "Dindori",
+   "parent": "district:mp/dindori",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dindori_district"
+  },
+  {
+   "id": "tehsil:mp/dindori/samnapur",
+   "level": "tehsil",
+   "name_hi": "Samnapur",
+   "parent": "district:mp/dindori",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dindori_district"
+  },
+  {
+   "id": "tehsil:mp/dindori/shahpura",
+   "level": "tehsil",
+   "name_hi": "Shahpura",
+   "parent": "district:mp/dindori",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dindori_district"
   },
   {
    "id": "tehsil:od/nayagarh/odisha",
