@@ -1,11 +1,11 @@
 {
- "id": "region:district-mp-chhatarpur-2e37bf8e",
+ "id": "region:district-mp-guna-e5a6f715",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q4853335"
+  "source": "wikidata:Q5618457"
  },
- "checked_at": "2026-10-09T01:21:00.049369+00:00",
+ "checked_at": "2026-10-09T01:20:42.331032+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -20,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Bambar Baini; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Bambar%20Baini"
+   "detail": "पृष्ठ मिला: Guna (woreda); सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Guna%20%28woreda%29"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q4853335",
-   "link": "https://www.wikidata.org/wiki/Q4853335"
+   "detail": "आइटम Q5618457",
+   "link": "https://www.wikidata.org/wiki/Q5618457"
   },
   {
    "name": "internal-sources",
@@ -50,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Bambar Baini: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Guna (woreda): स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

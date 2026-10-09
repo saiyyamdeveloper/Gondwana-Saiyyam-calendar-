@@ -1,11 +1,11 @@
 {
- "id": "region:district-mp-chhindwara-ebdf1c0d",
+ "id": "region:district-mp-gwalior-98a6b62a",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q65987895"
+  "source": "wikidata:Q2672112"
  },
- "checked_at": "2026-10-09T01:20:57.165207+00:00",
+ "checked_at": "2026-10-09T01:20:38.763264+00:00",
  "score": 15,
  "verdict": "weak",
  "checks": [
@@ -20,7 +20,7 @@
    "name": "wiki-en-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"Umranala\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"Garbhagriha\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -34,8 +34,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q65987895",
-   "link": "https://www.wikidata.org/wiki/Q65987895"
+   "detail": "आइटम Q2672112",
+   "link": "https://www.wikidata.org/wiki/Q2672112"
   },
   {
    "name": "internal-sources",
@@ -56,6 +56,6 @@
  "sources_domains": [
   "wikidata.org"
  ],
- "summary_hi": "Mohkhed: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+ "summary_hi": "garba griha: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
  "llm": null
 }

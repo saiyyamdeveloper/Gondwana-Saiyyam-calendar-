@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-08T01:12:05+00:00",
-  "progress": "86/839 done, 88 blocked"
+  "updated": "2026-10-09T01:20:34+00:00",
+  "progress": "88/839 done, 92 blocked"
  },
  "jobs": [
   {
@@ -1333,32 +1333,48 @@
   {
    "unit": "district:mp/garoth",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-09T01:20:28+00:00"
   },
   {
    "unit": "district:mp/gohad",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-09T01:20:29+00:00"
   },
   {
    "unit": "district:mp/guna",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-09T01:20:29+00:00",
+   "children": 0,
+   "entities_queued": 4,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/gwalior",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-09T01:20:31+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/harda",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-09T01:20:32+00:00"
   },
   {
    "unit": "district:mp/hoshangabad",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-09T01:20:34+00:00"
   },
   {
    "unit": "district:mp/indore",
@@ -1587,6 +1603,31 @@
   },
   {
    "unit": "tehsil:mp/agar-malwa/tehsils",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mp/dindori/bajag",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mp/dindori/development-block",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mp/dindori/dindori",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mp/dindori/samnapur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mp/dindori/shahpura",
    "task": "mine",
    "status": "pending"
   },
@@ -4627,31 +4668,6 @@
   },
   {
    "unit": "district:hr/yamunanagar",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:mp/dindori/dindori",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:mp/dindori/shahpura",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:mp/dindori/bajag",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:mp/dindori/samnapur",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:mp/dindori/development-block",
    "task": "mine",
    "status": "pending"
   }

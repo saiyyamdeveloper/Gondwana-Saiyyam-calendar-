@@ -1,9 +1,369 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-08T01:12:47.569447+00:00"
+  "updated": "2026-10-09T01:21:05.368096+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mp-gwalior-7acbb747",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Birla family",
+   "subtitle": "मध्य प्रदेश · Gwalior",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/gwalior",
+   "payload": {
+    "unit_id": "district:mp/gwalior",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Birla family",
+     "desc_hi": "signed as a facsimile of the Sun temple of Konark in Odisha, the temple was sponsored and built in the 1980s by the Birla family . {{cite book |title=Temples of Madhya Pradesh |publisher=Goodearth Publications |isbn=978-93-8026249-9 |page=49 |url=https://books.google.com/books?id",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gwalior"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-gwalior-3aae876c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Konark",
+   "subtitle": "मध्य प्रदेश · Gwalior",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/gwalior",
+   "payload": {
+    "unit_id": "district:mp/gwalior",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Konark",
+     "desc_hi": "he Sun Temple \"Vivsvaan mandir\" is dedicated to the sun god Surya . Designed as a facsimile of the Sun temple of Konark in Odisha, the temple was sponsored and built in the 1980s by the Birla family . {{cite book |title=Temples of Madhya Pradesh |publisher=Goodearth Publications ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gwalior"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-gwalior-cffbdd53",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Surya",
+   "subtitle": "मध्य प्रदेश · Gwalior",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/gwalior",
+   "payload": {
+    "unit_id": "district:mp/gwalior",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Surya",
+     "desc_hi": "Located in , the Sun Temple \"Vivsvaan mandir\" is dedicated to the sun god Surya . Designed as a facsimile of the Sun temple of Konark in Odisha, the temple was sponsored and built in the 1980s by the Birla family . {{cite book |title=Temples of Madhya Pradesh |publisher=Goodearth",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gwalior"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-gwalior-21e51a8f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "antarala",
+   "subtitle": "मध्य प्रदेश · Gwalior",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/gwalior",
+   "payload": {
+    "unit_id": "district:mp/gwalior",
+    "entity": {
+     "kind": "place",
+     "name_hi": "antarala",
+     "desc_hi": "eight of about 30 meters. The temple consists of a garba griha , that is, sanctum proper for the deity, and an antarala to enter into the temple. It can be approached by a flight of steps provided on the eastern side. The most striking feature of the temple is the wagon-vaulted r",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gwalior"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-gwalior-98a6b62a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "garba griha",
+   "subtitle": "मध्य प्रदेश · Gwalior",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/gwalior",
+   "payload": {
+    "unit_id": "district:mp/gwalior",
+    "entity": {
+     "kind": "place",
+     "name_hi": "garba griha",
+     "desc_hi": "he loftiest temple among all the buildings in Gwalior Fort with a height of about 30 meters. The temple consists of a garba griha , that is, sanctum proper for the deity, and an antarala to enter into the temple. It can be approached by a flight of steps provided on the eastern s",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gwalior"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-gwalior-fcb1f5b0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Garuda",
+   "subtitle": "मध्य प्रदेश · Gwalior",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/gwalior",
+   "payload": {
+    "unit_id": "district:mp/gwalior",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Garuda",
+     "desc_hi": "e of Prathihara Vishnu, and is filled with images of coiled serpents, passionate couples, river goddesses, and a flying Garuda . The temple architecture follows the Indo-Aryan and Nagara styles and is believed to be among the oldest constructions in the fort. The Telikā Mandir, o",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gwalior"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-gwalior-c8222ec1",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Teli-ka-Mandir",
+   "subtitle": "मध्य प्रदेश · Gwalior",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/gwalior",
+   "payload": {
+    "unit_id": "district:mp/gwalior",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Teli-ka-Mandir",
+     "desc_hi": "File:Teli ka Mandir (15699755834)2.jpg|thumb|Teli-ka-Mandir Teli Temple or in Hindi Teli Ka Mandir – A structure of about 100 feet, Teli Ka Mandir in Gwalior Fort distinguishes itself from the other compositions of its time because of",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gwalior"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-gwalior-e53a2cf0",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Tansen Sangeet Samaroh",
+   "subtitle": "मध्य प्रदेश · Gwalior",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/gwalior",
+   "payload": {
+    "unit_id": "district:mp/gwalior",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Tansen Sangeet Samaroh",
+     "desc_hi": "The Tansen Samaroh|Tansen Sangeet Samaroh (Tansen Music Festival) is celebrated every year on the Tansen Tomb in Gwalior during the month of December. {{cite web |url=http://travel.india.com/gwalior/activities/events-tansen-samaroh-in-g",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Gwalior"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-guna-e5a6f715",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Guna (woreda)",
+   "subtitle": "मध्य प्रदेश · Guna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/guna",
+   "payload": {
+    "unit_id": "district:mp/guna",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Guna (woreda)",
+     "desc_hi": "una (Lok Sabha constituency) ** Guna (Vidhan Sabha constituency) * Mount Guna , a shield volcano in Ethiopia * Guna (woreda) , a district of Ethiopia",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Guna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-guna-ae9d17e0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mount Guna",
+   "subtitle": "मध्य प्रदेश · Guna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/guna",
+   "payload": {
+    "unit_id": "district:mp/guna",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mount Guna",
+     "desc_hi": "ict ** Guna Junction railway station ** Guna (Lok Sabha constituency) ** Guna (Vidhan Sabha constituency) * Mount Guna , a shield volcano in Ethiopia * Guna (woreda) , a district of Ethiopia",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Guna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-guna-7dda8677",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Guna (Vidhan Sabha constituency)",
+   "subtitle": "मध्य प्रदेश · Guna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/guna",
+   "payload": {
+    "unit_id": "district:mp/guna",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Guna (Vidhan Sabha constituency)",
+     "desc_hi": "a , the capital city of the Guna District ** Guna Junction railway station ** Guna (Lok Sabha constituency) ** Guna (Vidhan Sabha constituency) * Mount Guna , a shield volcano in Ethiopia * Guna (woreda) , a district of Ethiopia",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Guna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-guna-51b390f9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Guna, India",
+   "subtitle": "मध्य प्रदेश · Guna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/guna",
+   "payload": {
+    "unit_id": "district:mp/guna",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Guna, India",
+     "desc_hi": "* Guna district , in Madhya Pradesh, India ** Guna, India , the capital city of the Guna District ** Guna Junction railway station ** Guna (Lok Sabha constituency) ** Guna (Vidhan Sabha constituency) * Mount Guna , a shield volcano in Ethiopia * Guna (woreda) , a d",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Guna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mp-dhar-1de37090",
    "kind": "region",

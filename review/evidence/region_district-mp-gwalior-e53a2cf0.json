@@ -1,19 +1,19 @@
 {
- "id": "region:district-mp-chhindwara-2aa280be",
+ "id": "region:district-mp-gwalior-e53a2cf0",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q1194651"
+  "source": null
  },
- "checked_at": "2026-10-09T01:20:56.493711+00:00",
- "score": 35,
+ "checked_at": "2026-10-09T01:20:40.627852+00:00",
+ "score": 20,
  "verdict": "weak",
  "checks": [
   {
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"खर्दा की लड़ाई\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"तानसेन समारोह\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Mughal Empire",
-   "link": "https://en.wikipedia.org/wiki/Mughal%20Empire"
+   "detail": "पृष्ठ मिला: Tansen; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Tansen"
   },
   {
    "name": "wikidata",
-   "ok": true,
-   "pts": 15,
-   "detail": "आइटम Q1194651",
-   "link": "https://www.wikidata.org/wiki/Q1194651"
+   "ok": false,
+   "pts": 0,
+   "detail": "विकिडेटा आइटम नहीं मिला",
+   "link": ""
   },
   {
    "name": "internal-sources",
@@ -54,9 +54,8 @@
  ],
  "conflicts": [],
  "sources_domains": [
-  "en.wikipedia.org",
-  "wikidata.org"
+  "en.wikipedia.org"
  ],
- "summary_hi": "Mughals: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Tansen Sangeet Samaroh: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
  "llm": null
 }

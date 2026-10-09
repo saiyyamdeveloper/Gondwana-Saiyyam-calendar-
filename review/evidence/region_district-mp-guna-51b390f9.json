@@ -1,11 +1,11 @@
 {
- "id": "region:district-mp-dewas-3acc7258",
+ "id": "region:district-mp-guna-51b390f9",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q12980457"
+  "source": "wikidata:Q2038816"
  },
- "checked_at": "2026-10-09T01:20:48.366045+00:00",
+ "checked_at": "2026-10-09T01:20:44.571025+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"जिरोली हीरा सिंह गाँव, कोइल (अलीगढ़)\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"गुना ज़िला\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Kaila Devi Temple; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Kaila%20Devi%20Temple"
+   "detail": "पृष्ठ मिला: Guna, India; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Guna%2C%20India"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q12980457",
-   "link": "https://www.wikidata.org/wiki/Q12980457"
+   "detail": "आइटम Q2038816",
+   "link": "https://www.wikidata.org/wiki/Q2038816"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Kaila Devi Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Guna, India: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }
