@@ -1,9 +1,189 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-09T01:21:05.368096+00:00"
+  "updated": "2026-10-10T01:08:30.800055+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mp-jaora-28b4e372",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Jagnath Mahadev Mandir",
+   "subtitle": "मध्य प्रदेश · Jaora",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/jaora",
+   "payload": {
+    "unit_id": "district:mp/jaora",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Jagnath Mahadev Mandir",
+     "desc_hi": "File:Shree Lakshmikant Mandir.jpg|thumb|Shree Lakshmikant Mandir File:IMG-20210512-WA0001.jpg|thumb|Jagnath Mahadev Mandir There are two city parks, Chota Baagh and Bada Baagh. The Hussain Tekri shrine on the edge of the town attracts thousands of visitors every year. Notable tem",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaora"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-jaora-62465401",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Shree Lakshmikant Mandir",
+   "subtitle": "मध्य प्रदेश · Jaora",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/jaora",
+   "payload": {
+    "unit_id": "district:mp/jaora",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Shree Lakshmikant Mandir",
+     "desc_hi": "File:Shree Lakshmikant Mandir.jpg|thumb|Shree Lakshmikant Mandir File:IMG-20210512-WA0001.jpg|thumb|Jagnath Mahadev Mandir There are two city parks, Chota Baagh and Bada Baagh. The Hussain Tekri shrine on the edge of the town attr",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaora"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-indore-9150e401",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Omkareshwar",
+   "subtitle": "मध्य प्रदेश · Indore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/indore",
+   "payload": {
+    "unit_id": "district:mp/indore",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Omkareshwar",
+     "desc_hi": "* Patalpani waterfall * Mandu, Madhya Pradesh|Mandu * Mahakaleshwar Jyotirlinga|Mahakal Temple * Omkareshwar Temple|Omkareshwar",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Indore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-indore-5fb34bcd",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mahakal Temple",
+   "subtitle": "मध्य प्रदेश · Indore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/indore",
+   "payload": {
+    "unit_id": "district:mp/indore",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mahakal Temple",
+     "desc_hi": "* Patalpani waterfall * Mandu, Madhya Pradesh|Mandu * Mahakaleshwar Jyotirlinga|Mahakal Temple * Omkareshwar Temple|Omkareshwar",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Indore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-indore-d60a7170",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mandu",
+   "subtitle": "मध्य प्रदेश · Indore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/indore",
+   "payload": {
+    "unit_id": "district:mp/indore",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mandu",
+     "desc_hi": "* Patalpani waterfall * Mandu, Madhya Pradesh|Mandu * Mahakaleshwar Jyotirlinga|Mahakal Temple * Omkareshwar Temple|Omkareshwar",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Indore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-indore-eccb29aa",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Patalpani waterfall",
+   "subtitle": "मध्य प्रदेश · Indore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/indore",
+   "payload": {
+    "unit_id": "district:mp/indore",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Patalpani waterfall",
+     "desc_hi": "* Patalpani waterfall * Mandu, Madhya Pradesh|Mandu * Mahakaleshwar Jyotirlinga|Mahakal Temple * Omkareshwar Temple|Omkareshwar",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Indore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mp-gwalior-7acbb747",
    "kind": "region",

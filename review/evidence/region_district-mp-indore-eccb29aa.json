@@ -1,21 +1,14 @@
 {
- "id": "region:district-mp-chhindwara-2aa280be",
+ "id": "region:district-mp-indore-eccb29aa",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q1194651"
+  "source": "wikidata:Q15653559"
  },
- "checked_at": "2026-10-10T01:08:26.473546+00:00",
+ "checked_at": "2026-10-10T01:08:06.570812+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
-  {
-   "name": "wiki-hi-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"खर्दा की लड़ाई\" नाम से मेल नहीं खाता — छोड़ा",
-   "link": ""
-  },
   {
    "name": "wiki-hi",
    "ok": false,
@@ -27,15 +20,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Mughal Empire",
-   "link": "https://en.wikipedia.org/wiki/Mughal%20Empire"
+   "detail": "पृष्ठ मिला: Patalpani Waterfall; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Patalpani%20Waterfall"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q1194651",
-   "link": "https://www.wikidata.org/wiki/Q1194651"
+   "detail": "आइटम Q15653559",
+   "link": "https://www.wikidata.org/wiki/Q15653559"
   },
   {
    "name": "internal-sources",
@@ -57,6 +50,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Mughals: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Patalpani waterfall: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }

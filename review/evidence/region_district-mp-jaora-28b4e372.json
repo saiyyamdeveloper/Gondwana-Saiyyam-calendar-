@@ -1,11 +1,11 @@
 {
- "id": "region:district-mp-damoh-59c0ad25",
+ "id": "region:district-mp-jaora-28b4e372",
  "dates": {
   "birth": null,
   "death": null,
   "source": null
  },
- "checked_at": "2026-10-10T01:08:21.913923+00:00",
+ "checked_at": "2026-10-10T01:08:02.481414+00:00",
  "score": 0,
  "verdict": "nosource",
  "checks": [
@@ -20,7 +20,7 @@
    "name": "wiki-en-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"Damoh\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"Kedarnath Temple\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -54,6 +54,6 @@
  ],
  "conflicts": [],
  "sources_domains": [],
- "summary_hi": "Gangadhar Rao of Mangarh: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+ "summary_hi": "thumb|Jagnath Mahadev Mandir: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
  "llm": null
 }

@@ -1,11 +1,11 @@
 {
- "id": "region:district-mp-dewas-16d36436",
+ "id": "region:district-mp-indore-5fb34bcd",
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q196846"
+  "source": "wikidata:Q56278170"
  },
- "checked_at": "2026-10-10T01:08:20.765873+00:00",
+ "checked_at": "2026-10-10T01:08:04.246372+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"हनुमान टिब्बा\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"महाकाल मंदिर दार्जिलिंग\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -27,15 +27,15 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Hanuman; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Hanuman"
+   "detail": "पृष्ठ मिला: Mahakala",
+   "link": "https://en.wikipedia.org/wiki/Mahakala"
   },
   {
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q196846",
-   "link": "https://www.wikidata.org/wiki/Q196846"
+   "detail": "आइटम Q56278170",
+   "link": "https://www.wikidata.org/wiki/Q56278170"
   },
   {
    "name": "internal-sources",
@@ -57,6 +57,6 @@
   "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Hanuman: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Mahakal Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }
