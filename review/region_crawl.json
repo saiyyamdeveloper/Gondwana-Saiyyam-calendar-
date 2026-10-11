@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-10T01:08:01+00:00",
-  "progress": "90/839 done, 96 blocked"
+  "updated": "2026-10-11T00:20:58+00:00",
+  "progress": "93/839 done, 99 blocked"
  },
  "jobs": [
   {
@@ -1425,32 +1425,50 @@
   {
    "unit": "district:mp/khandwa",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-11T00:20:54+00:00"
   },
   {
    "unit": "district:mp/khargone",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-11T00:20:54+00:00",
+   "children": 0,
+   "entities_queued": 5,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/lakhnadon",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-11T00:20:55+00:00",
+   "children": 0,
+   "entities_queued": 1,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/maihar",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-11T00:20:56+00:00"
   },
   {
    "unit": "district:mp/mandla",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-11T00:20:57+00:00",
+   "children": 0,
+   "entities_queued": 5,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/mandsaur",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-11T00:20:58+00:00"
   },
   {
    "unit": "district:mp/mauganj",

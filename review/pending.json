@@ -1,9 +1,339 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-10T01:08:30.800055+00:00"
+  "updated": "2026-10-11T00:21:45.638034+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mp-mandla-6486df11",
+   "kind": "region",
+   "subtype": "revolutionary",
+   "title": "Sohagpur",
+   "subtitle": "मध्य प्रदेश · Mandla",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): revolutionary उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/mandla",
+   "payload": {
+    "unit_id": "district:mp/mandla",
+    "entity": {
+     "kind": "revolutionary",
+     "name_hi": "Sohagpur",
+     "desc_hi": "d during the Revolt of 1857 , when the chiefs of Ramgarh, Ambikapur|Ramgarh , Shahpura, Dindori|Shahpura , and Sohagpur joined the rebels, taking with them their Gond retainers. British control was restored in early 1858. The Saugor and Nerbudda Territories, including Mandla Dist",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mandla"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-mandla-40f9514e",
+   "kind": "region",
+   "subtype": "revolutionary",
+   "title": "Shahpura",
+   "subtitle": "मध्य प्रदेश · Mandla",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): revolutionary उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/mandla",
+   "payload": {
+    "unit_id": "district:mp/mandla",
+    "entity": {
+     "kind": "revolutionary",
+     "name_hi": "Shahpura",
+     "desc_hi": "disturbed, except for a brief period during the Revolt of 1857 , when the chiefs of Ramgarh, Ambikapur|Ramgarh , Shahpura, Dindori|Shahpura , and Sohagpur joined the rebels, taking with them their Gond retainers. British control was restored in early 1858. The Saugor and Nerbudda",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mandla"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-mandla-e0dc573d",
+   "kind": "region",
+   "subtype": "revolutionary",
+   "title": "Ramgarh",
+   "subtitle": "मध्य प्रदेश · Mandla",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): revolutionary उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/mandla",
+   "payload": {
+    "unit_id": "district:mp/mandla",
+    "entity": {
+     "kind": "revolutionary",
+     "name_hi": "Ramgarh",
+     "desc_hi": "he district was not subsequently disturbed, except for a brief period during the Revolt of 1857 , when the chiefs of Ramgarh, Ambikapur|Ramgarh , Shahpura, Dindori|Shahpura , and Sohagpur joined the rebels, taking with them their Gond retainers. British control was restored in ea",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mandla"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-mandla-afee8158",
+   "kind": "region",
+   "subtype": "person",
+   "title": "British India",
+   "subtitle": "मध्य प्रदेश · Mandla",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/mandla",
+   "payload": {
+    "unit_id": "district:mp/mandla",
+    "entity": {
+     "kind": "person",
+     "name_hi": "British India",
+     "desc_hi": "shall took it by assault. Mandla and the surrounding district became part of the Saugor and Nerbudda Territories of British India . The peace of the district was not subsequently disturbed, except for a brief period during the Revolt of 1857 , when the chiefs of Ramgarh, Ambikapu",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mandla"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-mandla-757894cd",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Saugor and Nerbudda Territories",
+   "subtitle": "मध्य प्रदेश · Mandla",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/mandla",
+   "payload": {
+    "unit_id": "district:mp/mandla",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Saugor and Nerbudda Territories",
+     "desc_hi": "urrender, and a force under General Marshall took it by assault. Mandla and the surrounding district became part of the Saugor and Nerbudda Territories of British India . The peace of the district was not subsequently disturbed, except for a brief period during the Revolt of 1857",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mandla"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-lakhnadon-b92afe20",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jabalpur Airport",
+   "subtitle": "मध्य प्रदेश · Lakhnadon",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/lakhnadon",
+   "payload": {
+    "unit_id": "district:mp/lakhnadon",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jabalpur Airport",
+     "desc_hi": "rk cave surrounded by a small waterfall and holy pond. The town is reachable by Road or Railway. The Nearest Airport is Jabalpur Airport .",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Lakhnadon"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-khargone-6a63323d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gwaleshwar temple",
+   "subtitle": "मध्य प्रदेश · Khargone",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/khargone",
+   "payload": {
+    "unit_id": "district:mp/khargone",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gwaleshwar temple",
+     "desc_hi": "'Chaubara Dera 2 ' and 'Gwaleshwar temple ' are two 12th-century Jain temples built in Western Chalukya architecture . Chaubara Dera 2 houses three inscriptions dated 1170 CE, 1185 CE and 1165 CE. Gwaleshwar temple or popularly known as Pavagiri is an anci",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Khargone"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-khargone-34b344d8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chaubara Dera 2",
+   "subtitle": "मध्य प्रदेश · Khargone",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/khargone",
+   "payload": {
+    "unit_id": "district:mp/khargone",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chaubara Dera 2",
+     "desc_hi": "'Chaubara Dera 2 ' and 'Gwaleshwar temple ' are two 12th-century Jain temples built in Western Chalukya architecture . Chaubara Dera 2 houses three inscriptions dated 1170 CE, 1185 CE and 1165 CE. Gwaleshwar temple or popularly kn",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Khargone"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-khargone-a0667ffd",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Western Chalukya architecture",
+   "subtitle": "मध्य प्रदेश · Khargone",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/khargone",
+   "payload": {
+    "unit_id": "district:mp/khargone",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Western Chalukya architecture",
+     "desc_hi": "ple|Chaubara Dera No. 2}} 'Chaubara Dera 2 ' and 'Gwaleshwar temple ' are two 12th-century Jain temples built in Western Chalukya architecture . Chaubara Dera 2 houses three inscriptions dated 1170 CE, 1185 CE and 1165 CE. Gwaleshwar temple or popularly known as Pavagiri is an an",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Khargone"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-khargone-0ee28a9a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Navgrah ki Nagri",
+   "subtitle": "मध्य प्रदेश · Khargone",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/khargone",
+   "payload": {
+    "unit_id": "district:mp/khargone",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Navgrah ki Nagri",
+     "desc_hi": "very ancient 'Shri Navagraha Temple ' is situated on the banks of the Kunda river, due to which the city is known as 'Navgrah ki Nagri ' (City of Navagraha), Near 17 Kilometer, Oon is a very old village in which are 99 Bhumija-style temples built by emperor Ballaleshwar. Oon has ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Khargone"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-khargone-861ef597",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shri Navagraha Temple",
+   "subtitle": "मध्य प्रदेश · Khargone",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/khargone",
+   "payload": {
+    "unit_id": "district:mp/khargone",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shri Navagraha Temple",
+     "desc_hi": "Here the very ancient 'Shri Navagraha Temple ' is situated on the banks of the Kunda river, due to which the city is known as 'Navgrah ki Nagri ' (City of Navagraha), Near 17 Kilometer, Oon is a very old village in which are 99 Bhumija-style temples built",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Khargone"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mp-jaora-28b4e372",
    "kind": "region",
