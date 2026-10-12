@@ -3032,7 +3032,7 @@
  "region:district-mp-gwalior-7acbb747": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:20.589321+00:00",
+  "checked_at": "2026-10-12T00:42:15.820064+00:00",
   "summary_hi": "Birla family: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
@@ -3116,120 +3116,274 @@
  "region:district-mp-jaora-28b4e372": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-11T00:21:13.653090+00:00",
+  "checked_at": "2026-10-12T00:42:09.522705+00:00",
   "summary_hi": "thumb|Jagnath Mahadev Mandir: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-mp-jaora-62465401": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-11T00:21:14.341626+00:00",
+  "checked_at": "2026-10-12T00:42:10.219496+00:00",
   "summary_hi": "thumb|Shree Lakshmikant Mandir: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-mp-indore-9150e401": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:15.390161+00:00",
+  "checked_at": "2026-10-12T00:42:11.883065+00:00",
   "summary_hi": "Omkareshwar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-indore-5fb34bcd": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:17.538793+00:00",
+  "checked_at": "2026-10-12T00:42:12.878028+00:00",
   "summary_hi": "Mahakal Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-indore-d60a7170": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:18.531410+00:00",
+  "checked_at": "2026-10-12T00:42:13.851305+00:00",
   "summary_hi": "Mandu: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-indore-eccb29aa": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:19.543681+00:00",
+  "checked_at": "2026-10-12T00:42:14.846915+00:00",
   "summary_hi": "Patalpani waterfall: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-mandla-6486df11": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:00.681134+00:00",
+  "checked_at": "2026-10-12T00:41:59.041595+00:00",
   "summary_hi": "Sohagpur: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-mandla-40f9514e": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:01.682705+00:00",
+  "checked_at": "2026-10-12T00:41:59.980517+00:00",
   "summary_hi": "Shahpura: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-mandla-e0dc573d": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:03.190281+00:00",
+  "checked_at": "2026-10-12T00:42:00.993775+00:00",
   "summary_hi": "Ramgarh: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-mandla-afee8158": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:04.615761+00:00",
+  "checked_at": "2026-10-12T00:42:02.301138+00:00",
   "summary_hi": "British India: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-mandla-757894cd": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:05.805308+00:00",
+  "checked_at": "2026-10-12T00:42:03.359605+00:00",
   "summary_hi": "Saugor and Nerbudda Territories: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-lakhnadon-b92afe20": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:07.113573+00:00",
+  "checked_at": "2026-10-12T00:42:04.558587+00:00",
   "summary_hi": "Jabalpur Airport: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-khargone-6a63323d": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-11T00:21:07.769095+00:00",
+  "checked_at": "2026-10-12T00:42:05.199651+00:00",
   "summary_hi": "Gwaleshwar temple: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-mp-khargone-34b344d8": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:09.518724+00:00",
+  "checked_at": "2026-10-12T00:42:06.219500+00:00",
   "summary_hi": "Chaubara Dera 2: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-khargone-a0667ffd": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-11T00:21:11.485947+00:00",
+  "checked_at": "2026-10-12T00:42:07.286047+00:00",
   "summary_hi": "Western Chalukya architecture: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-khargone-0ee28a9a": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-11T00:21:12.133976+00:00",
+  "checked_at": "2026-10-12T00:42:07.932147+00:00",
   "summary_hi": "Navgrah ki Nagri: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-mp-khargone-861ef597": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-11T00:21:12.879166+00:00",
+  "checked_at": "2026-10-12T00:42:08.659325+00:00",
   "summary_hi": "Shri Navagraha Temple: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
+ },
+ "region:district-mp-niwari-cf2fe1f3": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-10-12T00:41:30.046674+00:00",
+  "summary_hi": "Raja Ram Mandir: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-mp-niwari-2d00d5fe": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:31.052427+00:00",
+  "summary_hi": "Orchha: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mp-niwari-f1210514": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:32.070321+00:00",
+  "summary_hi": "thumb: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mp-neemuch-dadcaa4e": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:33.081210+00:00",
+  "summary_hi": "Khor: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mp-neemuch-1be25d0f": {
+  "score": 20,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:35.062628+00:00",
+  "summary_hi": "Nav Toran Temple: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
+  "n_sources": 1
+ },
+ "region:district-mp-neemuch-d58bf8af": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:36.196622+00:00",
+  "summary_hi": "Bengal: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mp-neemuch-e5742872": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:37.203541+00:00",
+  "summary_hi": "Raj: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-mp-neemuch-d9baee5d": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:38.465620+00:00",
+  "summary_hi": "British crown: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-mp-narsinghpur-816e8a21": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-10-12T00:41:39.250926+00:00",
+  "summary_hi": "National Festival Mela: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-mp-narsinghpur-3b2b1ade": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-10-12T00:41:39.947937+00:00",
+  "summary_hi": "Fort of Chauragharh: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-mp-narsinghpur-bf3a92ba": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:41.577321+00:00",
+  "summary_hi": "Damaru Ghati: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mp-narsinghpur-39a4125e": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-10-12T00:41:42.285478+00:00",
+  "summary_hi": "Jhoteshwar (Paramhanshi ganga Ashram): स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-mp-narsinghpur-7db67274": {
+  "score": 20,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:45.152179+00:00",
+  "summary_hi": "[[Barman, Madhya Pradesh|Bramhan Ghat]]: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
+  "n_sources": 1
+ },
+ "region:district-mp-narsinghpur-c5acd345": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:46.218978+00:00",
+  "summary_hi": "Narsimha Mandir: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-mp-narsinghpur-31a81cb5": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:47.285158+00:00",
+  "summary_hi": "Narmada River: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mp-narsinghpur-9c6dd103": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-10-12T00:41:47.938201+00:00",
+  "summary_hi": "Bramhan Ghat: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-mp-morena-a9dde1ea": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-10-12T00:41:48.646685+00:00",
+  "summary_hi": "nineteenth (XIX) zone of Rome: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-mp-morena-b70c8dda": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:49.607181+00:00",
+  "summary_hi": "Casal Morena (zone of Rome): स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-mp-morena-dccde7da": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:50.608989+00:00",
+  "summary_hi": "Camp Morena: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mp-morena-1c16d334": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:52.375412+00:00",
+  "summary_hi": "Morena, San Diego: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mp-morena-6857c3b0": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:54.247453+00:00",
+  "summary_hi": "Morena (Vidhan Sabha constituency): स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mp-morena-f5ba363a": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-12T00:41:56.880048+00:00",
+  "summary_hi": "Morena, Madhya Pradesh: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
  }
 }

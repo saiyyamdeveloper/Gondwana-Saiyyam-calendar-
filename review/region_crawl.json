@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-11T00:20:58+00:00",
-  "progress": "93/839 done, 99 blocked"
+  "updated": "2026-10-12T00:41:28+00:00",
+  "progress": "97/839 done, 101 blocked"
  },
  "jobs": [
   {
@@ -1473,32 +1473,52 @@
   {
    "unit": "district:mp/mauganj",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-12T00:41:23+00:00"
   },
   {
    "unit": "district:mp/morena",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-12T00:41:23+00:00",
+   "children": 0,
+   "entities_queued": 6,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/narmadapuram",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-12T00:41:25+00:00"
   },
   {
    "unit": "district:mp/narsinghpur",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-12T00:41:26+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/neemuch",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-12T00:41:27+00:00",
+   "children": 0,
+   "entities_queued": 5,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/niwari",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-12T00:41:28+00:00",
+   "children": 0,
+   "entities_queued": 3,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/pandhurna",

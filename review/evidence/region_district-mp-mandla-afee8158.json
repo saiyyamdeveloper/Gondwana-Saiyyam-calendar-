@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q129286"
  },
- "checked_at": "2026-10-11T00:21:04.615761+00:00",
+ "checked_at": "2026-10-12T00:42:02.301138+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -27,8 +27,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: British Raj; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/British%20Raj"
+   "detail": "पृष्ठ मिला: Presidencies and provinces of British India; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Presidencies%20and%20provinces%20of%20British%20India"
   },
   {
    "name": "wikidata",

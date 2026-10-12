@@ -1,9 +1,669 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-11T00:21:45.638034+00:00"
+  "updated": "2026-10-12T00:42:15.824001+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mp-niwari-cf2fe1f3",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Raja Ram Mandir",
+   "subtitle": "मध्य प्रदेश · Niwari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/niwari",
+   "payload": {
+    "unit_id": "district:mp/niwari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Raja Ram Mandir",
+     "desc_hi": "* Orchha * Ram Raja Temple|Raja Ram Mandir",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Niwari_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-niwari-2d00d5fe",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Orchha",
+   "subtitle": "मध्य प्रदेश · Niwari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/niwari",
+   "payload": {
+    "unit_id": "district:mp/niwari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Orchha",
+     "desc_hi": "* Orchha * Ram Raja Temple|Raja Ram Mandir",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Niwari_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-niwari-f1210514",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb",
+   "subtitle": "मध्य प्रदेश · Niwari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/niwari",
+   "payload": {
+    "unit_id": "district:mp/niwari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb",
+     "desc_hi": "chive.org/web/20240311073300/https://indiatravel.com/orchha/ | access-date=2025-05-25 | archive-date=2024-03-11}}</ref> File:Lakshmi Temple, Orchha.jpg|thumb Lakshmi Mandir Orchha *Shri Ramraja Temple Orchha– It is a sacred Hindu pilgrimage and receives devotees in large numbers ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Niwari_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-neemuch-dadcaa4e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Khor",
+   "subtitle": "मध्य प्रदेश · Neemuch",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/neemuch",
+   "payload": {
+    "unit_id": "district:mp/neemuch",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Khor",
+     "desc_hi": ").jpg|thumb|Nova Toran Temple, Khor|alt=Nova Toran Temple, Khor Nava Toran temple or Nav Toran Temple at village Khor is in a ruined condition. It contains a proch, mahamandapa and garbhagriha and pradakshinapth. It has a Siva linga in the sanctum. The exterior is ornamented with",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Neemuch"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-neemuch-1be25d0f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Nav Toran Temple",
+   "subtitle": "मध्य प्रदेश · Neemuch",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/neemuch",
+   "payload": {
+    "unit_id": "district:mp/neemuch",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Nav Toran Temple",
+     "desc_hi": "ch near vikram Cement Campus (15).jpg|thumb|Nova Toran Temple, Khor|alt=Nova Toran Temple, Khor Nava Toran temple or Nav Toran Temple at village Khor is in a ruined condition. It contains a proch, mahamandapa and garbhagriha and pradakshinapth. It has a Siva linga in the sanctum.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Neemuch"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-neemuch-d58bf8af",
+   "kind": "region",
+   "subtype": "revolutionary",
+   "title": "Bengal",
+   "subtitle": "मध्य प्रदेश · Neemuch",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): revolutionary उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/neemuch",
+   "payload": {
+    "unit_id": "district:mp/neemuch",
+    "entity": {
+     "kind": "revolutionary",
+     "name_hi": "Bengal",
+     "desc_hi": "ogress and success. In 1857, Neemuch was the most southerly place to which the rebellion extended. A brigade of native Bengal troops were stationed at Neemuch, then mutinied and marched Delhi . European officers took refuge in the fort, and were later besieged by a rebel force fr",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Neemuch"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-neemuch-e5742872",
+   "kind": "region",
+   "subtype": "revolutionary",
+   "title": "Raj",
+   "subtitle": "मध्य प्रदेश · Neemuch",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): revolutionary उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/neemuch",
+   "payload": {
+    "unit_id": "district:mp/neemuch",
+    "entity": {
+     "kind": "revolutionary",
+     "name_hi": "Raj",
+     "desc_hi": "es in Malwa. After the end of rebellion and transfer of power directly to the British Monarchy|British crown in the British Raj|Raj , Neemuch has always climbed the stairs of progress and success. In 1857, Neemuch was the most southerly place to which the rebellion extended. A br",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Neemuch"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-neemuch-d9baee5d",
+   "kind": "region",
+   "subtype": "revolutionary",
+   "title": "British crown",
+   "subtitle": "मध्य प्रदेश · Neemuch",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): revolutionary उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/neemuch",
+   "payload": {
+    "unit_id": "district:mp/neemuch",
+    "entity": {
+     "kind": "revolutionary",
+     "name_hi": "British crown",
+     "desc_hi": "of 1857 and was the centre of disturbances in Malwa. After the end of rebellion and transfer of power directly to the British Monarchy|British crown in the British Raj|Raj , Neemuch has always climbed the stairs of progress and success. In 1857, Neemuch was the most southerly pla",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Neemuch"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-narsinghpur-816e8a21",
+   "kind": "region",
+   "subtype": "place",
+   "title": "National Festival Mela",
+   "subtitle": "मध्य प्रदेश · Narsinghpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/narsinghpur",
+   "payload": {
+    "unit_id": "district:mp/narsinghpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "National Festival Mela",
+     "desc_hi": "east-facing. These types of rocks are made by connecting thick limestone with small and big boulders. 'National Festival Mela ' is organised in Manegaon which is situated from District H.Q. on Narsinghpur road, every year from Republic day onwards. It is a one-week fate in which ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Narsinghpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-narsinghpur-3b2b1ade",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Fort of Chauragharh",
+   "subtitle": "मध्य प्रदेश · Narsinghpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/narsinghpur",
+   "payload": {
+    "unit_id": "district:mp/narsinghpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Fort of Chauragharh",
+     "desc_hi": "on the central railway's Itarsi–Jabalpur track. One huge Shivling is there, which found one small Shivling inside it. 'Fort of Chauragharh ' The fort of Chauragharh '( 'Chaugan) is situated on the peak of Satpuda mountain called Chauragarh near Chaugan village in Gadarwara tehsil",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Narsinghpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-narsinghpur-bf3a92ba",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Damaru Ghati",
+   "subtitle": "मध्य प्रदेश · Narsinghpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/narsinghpur",
+   "payload": {
+    "unit_id": "district:mp/narsinghpur",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Damaru Ghati",
+     "desc_hi": "ti Maharaj meditate and worship. On the Basant Panchami occasion, there are 7 days of Mela organized. 'Damaru Ghati ' Damaru Ghati is situated from Gadarwara railway. The station is on the central railway's Itarsi–Jabalpur track. One huge Shivling is there, which found one small ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Narsinghpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-narsinghpur-39a4125e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jhoteshwar (Paramhanshi ganga Ashram)",
+   "subtitle": "मध्य प्रदेश · Narsinghpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/narsinghpur",
+   "payload": {
+    "unit_id": "district:mp/narsinghpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jhoteshwar (Paramhanshi ganga Ashram)",
+     "desc_hi": "e get benefit out of this exhibition, and also avail the district out of 20% on different sale items. 'Jhoteshwar (Paramhanshi ganga Ashram) ' On the route of Mumbai - Hawrah Central railway track from Sridham railway station on the central railway track of Mumbai - Hawrah. There",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Narsinghpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-narsinghpur-7db67274",
+   "kind": "region",
+   "subtype": "place",
+   "title": "[[Barman, Madhya Pradesh|Bramhan Ghat]]",
+   "subtitle": "मध्य प्रदेश · Narsinghpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/narsinghpur",
+   "payload": {
+    "unit_id": "district:mp/narsinghpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "[[Barman, Madhya Pradesh|Bramhan Ghat]]",
+     "desc_hi": "1\"> </ref> ' Barman, Madhya Pradesh|Bramhan Ghat ' Bramhan Ghat, also known as Barman, is situated at mani Sagar N.H. 26 & 24, and away from Kareli railway station, and the bank of river Narmada. Lord Brahma's Yagya shala, R",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Narsinghpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-narsinghpur-c5acd345",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Narsimha Mandir",
+   "subtitle": "मध्य प्रदेश · Narsinghpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/narsinghpur",
+   "payload": {
+    "unit_id": "district:mp/narsinghpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Narsimha Mandir",
+     "desc_hi": "'Narsimha Mandir ' During the 18th century this temple was constructed by Jat Sardars and plane statue of Lord Narsimha, as a human avatar of Lord Vishnu having a lion's head. This is situated at District H.Q. This temple got its impor",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Narsinghpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-narsinghpur-31a81cb5",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Narmada River",
+   "subtitle": "मध्य प्रदेश · Narsinghpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/narsinghpur",
+   "payload": {
+    "unit_id": "district:mp/narsinghpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Narmada River",
+     "desc_hi": "Brahma's Yagya shala, Rani Durgawati temple, Elephant gate and Varahas statue are places of tourist interest there. The Narmada River flows in seven strains. It flows on the occasions of Makar Sankranti to Basant Panchami. Mela has been arranged in which District Administration a",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Narsinghpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-narsinghpur-9c6dd103",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bramhan Ghat",
+   "subtitle": "मध्य प्रदेश · Narsinghpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/narsinghpur",
+   "payload": {
+    "unit_id": "district:mp/narsinghpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bramhan Ghat",
+     "desc_hi": "</ref> ' Barman, Madhya Pradesh|Bramhan Ghat ' Bramhan Ghat, also known as Barman, is situated at mani Sagar N.H. 26 & 24, and away from Kareli railway station, and the bank of river Narmada. Lord Brahma's Yagya shala, Rani",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Narsinghpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-morena-a9dde1ea",
+   "kind": "region",
+   "subtype": "place",
+   "title": "nineteenth (XIX) zone of Rome",
+   "subtitle": "मध्य प्रदेश · Morena",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/morena",
+   "payload": {
+    "unit_id": "district:mp/morena",
+    "entity": {
+     "kind": "place",
+     "name_hi": "nineteenth (XIX) zone of Rome",
+     "desc_hi": "g the town of Morena * Camp Morena , a United States Navy base in California * Casal Morena (zone of Rome) , the Zones of Rome|nineteenth (XIX) zone of Rome",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Morena"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-morena-b70c8dda",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Casal Morena (zone of Rome)",
+   "subtitle": "मध्य प्रदेश · Morena",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/morena",
+   "payload": {
+    "unit_id": "district:mp/morena",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Casal Morena (zone of Rome)",
+     "desc_hi": ", Madhya Pradesh, India, encompassing the town of Morena * Camp Morena , a United States Navy base in California * Casal Morena (zone of Rome) , the Zones of Rome|nineteenth (XIX) zone of Rome",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Morena"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-morena-dccde7da",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Camp Morena",
+   "subtitle": "मध्य प्रदेश · Morena",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/morena",
+   "payload": {
+    "unit_id": "district:mp/morena",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Camp Morena",
+     "desc_hi": "San Diego , California, a neighborhood * Morena district , Madhya Pradesh, India, encompassing the town of Morena * Camp Morena , a United States Navy base in California * Casal Morena (zone of Rome) , the Zones of Rome|nineteenth (XIX) zone of Rome",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Morena"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-morena-1c16d334",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Morena, San Diego",
+   "subtitle": "मध्य प्रदेश · Morena",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/morena",
+   "payload": {
+    "unit_id": "district:mp/morena",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Morena, San Diego",
+     "desc_hi": "India * Morena (Lok Sabha constituency) , Madhya Pradesh * Morena (Vidhan Sabha constituency) , Madhya Pradesh * Morena, San Diego , California, a neighborhood * Morena district , Madhya Pradesh, India, encompassing the town of Morena * Camp Morena , a United States Navy base in ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Morena"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-morena-6857c3b0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Morena (Vidhan Sabha constituency)",
+   "subtitle": "मध्य प्रदेश · Morena",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/morena",
+   "payload": {
+    "unit_id": "district:mp/morena",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Morena (Vidhan Sabha constituency)",
+     "desc_hi": "* Morena, Madhya Pradesh , a town in central India * Morena (Lok Sabha constituency) , Madhya Pradesh * Morena (Vidhan Sabha constituency) , Madhya Pradesh * Morena, San Diego , California, a neighborhood * Morena district , Madhya Pradesh, India, encompassing the town of Morena ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Morena"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-morena-f5ba363a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Morena, Madhya Pradesh",
+   "subtitle": "मध्य प्रदेश · Morena",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/morena",
+   "payload": {
+    "unit_id": "district:mp/morena",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Morena, Madhya Pradesh",
+     "desc_hi": "* Morena, Madhya Pradesh , a town in central India * Morena (Lok Sabha constituency) , Madhya Pradesh * Morena (Vidhan Sabha constituency) , Madhya Pradesh * Morena, San Diego , California, a neighborhood * Morena district , Ma",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Morena"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mp-mandla-6486df11",
    "kind": "region",
