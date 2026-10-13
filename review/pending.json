@@ -1,9 +1,129 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-12T00:42:15.824001+00:00"
+  "updated": "2026-10-13T02:41:05.338334+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mp-panna-f93d5661",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Panna State",
+   "subtitle": "मध्य प्रदेश · Panna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/panna",
+   "payload": {
+    "unit_id": "district:mp/panna",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Panna State",
+     "desc_hi": "Sagar Division of Madhya Pradesh ** Panna Assembly constituency ** Panna Airport ** Panna National Park ** Panna State , a former princely state of India",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Panna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-panna-20472d4c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Panna National Park",
+   "subtitle": "मध्य प्रदेश · Panna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/panna",
+   "payload": {
+    "unit_id": "district:mp/panna",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Panna National Park",
+     "desc_hi": "a district , a district in Sagar Division of Madhya Pradesh ** Panna Assembly constituency ** Panna Airport ** Panna National Park ** Panna State , a former princely state of India",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Panna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-panna-83824793",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Panna Airport",
+   "subtitle": "मध्य प्रदेश · Panna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/panna",
+   "payload": {
+    "unit_id": "district:mp/panna",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Panna Airport",
+     "desc_hi": "desh, India ** Panna district , a district in Sagar Division of Madhya Pradesh ** Panna Assembly constituency ** Panna Airport ** Panna National Park ** Panna State , a former princely state of India",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Panna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-panna-e6997e27",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Panna, Madhya Pradesh",
+   "subtitle": "मध्य प्रदेश · Panna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/panna",
+   "payload": {
+    "unit_id": "district:mp/panna",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Panna, Madhya Pradesh",
+     "desc_hi": "* Panna, Madhya Pradesh , a city in the state of Madhya Pradesh, India ** Panna district , a district in Sagar Division of Madhya Pradesh ** Panna Assembly constituency ** Panna Airport ** Panna National Park ** Panna Stat",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Panna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mp-niwari-cf2fe1f3",
    "kind": "region",

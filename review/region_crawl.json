@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-12T00:41:28+00:00",
-  "progress": "97/839 done, 101 blocked"
+  "updated": "2026-10-13T02:40:37+00:00",
+  "progress": "98/839 done, 106 blocked"
  },
  "jobs": [
   {
@@ -1523,32 +1523,46 @@
   {
    "unit": "district:mp/pandhurna",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-13T02:40:32+00:00"
   },
   {
    "unit": "district:mp/panna",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-13T02:40:32+00:00",
+   "children": 0,
+   "entities_queued": 4,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/pipariya",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-10-13T02:40:34+00:00"
   },
   {
    "unit": "district:mp/raisen",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-13T02:40:35+00:00"
   },
   {
    "unit": "district:mp/rajgarh",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-13T02:40:36+00:00"
   },
   {
    "unit": "district:mp/ratlam",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-13T02:40:36+00:00"
   },
   {
    "unit": "district:mp/rewa",
