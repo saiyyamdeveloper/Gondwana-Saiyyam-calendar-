@@ -1,9 +1,39 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-13T02:41:05.338334+00:00"
+  "updated": "2026-10-14T00:29:46.846525+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mp-sehore-dc382180",
+   "kind": "region",
+   "subtype": "revolutionary",
+   "title": "Company rule",
+   "subtitle": "मध्य प्रदेश · Sehore",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): revolutionary उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/sehore",
+   "payload": {
+    "unit_id": "district:mp/sehore",
+    "entity": {
+     "kind": "revolutionary",
+     "name_hi": "Company rule",
+     "desc_hi": "ries have been found in different forms and postures. During the Indian Rebellion of 1857 , Sehore revolted against Company rule in India|Company rule ; in response, Robert Hamilton led a detachment of the Bombay Army which restored Company control over the town from the rebels, ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sehore"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-14",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mp-panna-f93d5661",
    "kind": "region",
