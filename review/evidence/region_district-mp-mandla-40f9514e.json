@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q3823232"
  },
- "checked_at": "2026-10-14T00:29:40.228192+00:00",
+ "checked_at": "2026-10-15T00:01:58.372860+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -27,8 +27,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Shahpura; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Shahpura"
+   "detail": "पृष्ठ मिला: Shahpura State; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Shahpura%20State"
   },
   {
    "name": "wikidata",

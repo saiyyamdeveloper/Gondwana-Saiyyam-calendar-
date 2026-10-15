@@ -1,9 +1,129 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-14T00:29:46.846525+00:00"
+  "updated": "2026-10-15T00:02:05.436937+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mp-shajapur-573bfe74",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shahi Qila (Shajapur Fort)",
+   "subtitle": "मध्य प्रदेश · Shajapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/shajapur",
+   "payload": {
+    "unit_id": "district:mp/shajapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shahi Qila (Shajapur Fort)",
+     "desc_hi": "biz.com/en/mazar-e-yusufi-086521-53748 | title=Shajapur - Mazar e Yusufi &#124; 086521 53748 &#124; Shajapur }}</ref> * 'Shahi Qila (Shajapur Fort) ' - In 1640, Mughal emperor Shahjahan had built a grand fort here. This fort has many windows and rooms along with huge grounds.This",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Shajapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-shajapur-ca6ac6d9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dargah E Yasufi",
+   "subtitle": "मध्य प्रदेश · Shajapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/shajapur",
+   "payload": {
+    "unit_id": "district:mp/shajapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dargah E Yasufi",
+     "desc_hi": "hairav Baba's darshan. * Muradpur Hanumaan Mandir * Girwar Hanumaan Mandir * Parshavnath Mandir * Karedi Mata Mandir * 'Dargah E Yasufi ' - This Dargah is present in Shajapur city. Many people come here from far off places with their wishes. There are ample facilities available h",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Shajapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-shajapur-10c2dc23",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bhairav Tekri",
+   "subtitle": "मध्य प्रदेश · Shajapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/shajapur",
+   "payload": {
+    "unit_id": "district:mp/shajapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bhairav Tekri",
+     "desc_hi": "2%E0%A4%A6%E0%A4%BF%E0%A4%B0/|title=राजराजेश्वरी माता मंदिर &#124; जिला शाजापुर, मध्य प्रदेश शासन &#124; भारत}}</ref> * 'Bhairav Tekri ' - Bhairav Tekri, located in Shajapur, is 1,999 feet above sea level. From the top of the Tekri, a panoramic view of the area is visible. Devote",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Shajapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-shajapur-9b26b7d3",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rajrajeshwari Mata Mandir",
+   "subtitle": "मध्य प्रदेश · Shajapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/shajapur",
+   "payload": {
+    "unit_id": "district:mp/shajapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rajrajeshwari Mata Mandir",
+     "desc_hi": "* 'Rajrajeshwari Mata Mandir ' - This is Most Popular Place in Shajapur, Here is Devi Raj rajeshwari Devi idol. People go here in Navratri. Idols of Riddhi-Siddhi and Ganapati have also been installed in the temple. A well is also in the t",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Shajapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mp-sehore-dc382180",
    "kind": "region",

@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-14T00:29:22+00:00",
-  "progress": "99/839 done, 111 blocked"
+  "updated": "2026-10-15T00:01:34+00:00",
+  "progress": "100/839 done, 116 blocked"
  },
  "jobs": [
   {
@@ -1611,32 +1611,46 @@
   {
    "unit": "district:mp/shajapur",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-15T00:01:30+00:00",
+   "children": 0,
+   "entities_queued": 4,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/sheopur",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-15T00:01:31+00:00"
   },
   {
    "unit": "district:mp/shivpuri",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-15T00:01:32+00:00"
   },
   {
    "unit": "district:mp/sidhi",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-15T00:01:32+00:00"
   },
   {
    "unit": "district:mp/singrauli",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-15T00:01:33+00:00"
   },
   {
    "unit": "district:mp/sironj",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-15T00:01:34+00:00"
   },
   {
    "unit": "district:mp/tikamgarh",
