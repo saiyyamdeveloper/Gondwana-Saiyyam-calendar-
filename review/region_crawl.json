@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-15T00:01:34+00:00",
-  "progress": "100/839 done, 116 blocked"
+  "updated": "2026-10-15T23:45:12+00:00",
+  "progress": "102/839 done, 120 blocked"
  },
  "jobs": [
   {
@@ -1655,32 +1655,47 @@
   {
    "unit": "district:mp/tikamgarh",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-15T23:45:08+00:00",
+   "children": 0,
+   "entities_queued": 7,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mp/ujjain",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-15T23:45:08+00:00"
   },
   {
    "unit": "district:mp/umaria",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-15T23:45:09+00:00"
   },
   {
    "unit": "district:mp/vidisha",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-15T23:45:10+00:00"
   },
   {
    "unit": "tehsil:mp/agar-malwa/agar-malwa",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-15T23:45:11+00:00",
+   "children": 0,
+   "entities_queued": 2
   },
   {
    "unit": "tehsil:mp/agar-malwa/badod",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-15T23:45:12+00:00"
   },
   {
    "unit": "tehsil:mp/agar-malwa/nalkheda",

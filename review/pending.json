@@ -1,9 +1,279 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-15T00:02:05.436937+00:00"
+  "updated": "2026-10-15T23:45:42.051925+00:00"
  },
  "queue": [
+  {
+   "id": "region:tehsil-mp-agar-malwa-agar-malwa-ef30c552",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Baba Baijnath Temple, Agar",
+   "subtitle": "मध्य प्रदेश · Agar Malwa · Agar Malwa",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mp/agar-malwa/agar-malwa",
+   "payload": {
+    "unit_id": "tehsil:mp/agar-malwa/agar-malwa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Baba Baijnath Temple, Agar",
+     "desc_hi": "d%e0%a4%a5%e0%a4%b2/ |website=जिला आगर मालवा, मध्य प्रदेश शासन - भारत |language=hi |access-date=2 August 2024}}</ref> * Baba Baijnath Temple, Agar * Chausath Yogini Temple * Kevdaswami Bhairavnath Temple * Maa Tulja Bhawani Temple * Manshapurn Ganapati Chipiya G",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Agar_Malwa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mp-agar-malwa-agar-malwa-46c74d09",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bagalamukhi Temple, Nalkheda",
+   "subtitle": "मध्य प्रदेश · Agar Malwa · Agar Malwa",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mp/agar-malwa/agar-malwa",
+   "payload": {
+    "unit_id": "tehsil:mp/agar-malwa/agar-malwa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bagalamukhi Temple, Nalkheda",
+     "desc_hi": "* Bagalamukhi Temple, Nalkheda {{cite web |title=पर्यटक स्थल |url=https://agarmalwa.nic.in/%e0%a4%aa%e0%a4%b0%e0%a5%8d%e0%a4%af%e0%a4%9f%e0%a4%95-%e0%a4%b8%e0%a5%8d%e0%a4%a5%e0%a4%b2/ |website=जिला आगर मालवा, मध्य प्र",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Agar_Malwa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-tikamgarh-8354e962",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chandella",
+   "subtitle": "मध्य प्रदेश · Tikamgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/tikamgarh",
+   "payload": {
+    "unit_id": "district:mp/tikamgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chandella",
+     "desc_hi": "|Digambar Jain Atishay kshetra Paporaji at Sagar District|sagar road near tikamgarh File:Papauraji Bhoyra Idols.jpg| Chandella period idols of Lord Adinath belonging to 1145 AD in the underground chamber at Paporaji </gallery>",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Tikamgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-tikamgarh-41ed44e3",
+   "kind": "region",
+   "subtype": "place",
+   "title": "sagar",
+   "subtitle": "मध्य प्रदेश · Tikamgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/tikamgarh",
+   "payload": {
+    "unit_id": "district:mp/tikamgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "sagar",
+     "desc_hi": "] <gallery mode=\"packed\" widths=\"140\" heights=\"140\"> File:PaporaTemples.jpg|Digambar Jain Atishay kshetra Paporaji at Sagar District|sagar road near tikamgarh File:Papauraji Bhoyra Idols.jpg| Chandella period idols of Lord Adinath belonging to 1145 AD in the underground chamber a",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Tikamgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-tikamgarh-1b339061",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mahavira",
+   "subtitle": "मध्य प्रदेश · Tikamgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/tikamgarh",
+   "payload": {
+    "unit_id": "district:mp/tikamgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mahavira",
+     "desc_hi": "ver view at Kundeshwar, Tikamgarh * Paporaji , Famous Temple of Jain Culture, here's many temple dedicated to lord Mahavira <gallery mode=\"packed\" widths=\"140\" heights=\"140\"> File:PaporaTemples.jpg|Digambar Jain Atishay kshetra Paporaji at Sagar District|sagar road near tikamgarh",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Tikamgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-tikamgarh-c20a1068",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Paporaji",
+   "subtitle": "मध्य प्रदेश · Tikamgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/tikamgarh",
+   "payload": {
+    "unit_id": "district:mp/tikamgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Paporaji",
+     "desc_hi": "deshwar Temple Tikamgarh File:River view at Kundeshwar,tikamgarh.jpg|thumb|River view at Kundeshwar, Tikamgarh * Paporaji , Famous Temple of Jain Culture, here's many temple dedicated to lord Mahavira <gallery mode=\"packed\" widths=\"140\" heights=\"140\"> File:PaporaTemples.jpg|Digam",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Tikamgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-tikamgarh-078ed2a7",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|River view at Kundeshwar, Tikamgarh",
+   "subtitle": "मध्य प्रदेश · Tikamgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/tikamgarh",
+   "payload": {
+    "unit_id": "district:mp/tikamgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|River view at Kundeshwar, Tikamgarh",
+     "desc_hi": "ry 2019}} * Kundeshwar , Famous temple of God Shiva File:Kundeshwar temple.jpg|thumb|Kundeshwar Temple Tikamgarh File:River view at Kundeshwar,tikamgarh.jpg|thumb|River view at Kundeshwar, Tikamgarh * Paporaji , Famous Temple of Jain Culture, here's many temple dedicated to lord ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Tikamgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-tikamgarh-6bccce0a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Kundeshwar Temple Tikamgarh",
+   "subtitle": "मध्य प्रदेश · Tikamgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/tikamgarh",
+   "payload": {
+    "unit_id": "district:mp/tikamgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Kundeshwar Temple Tikamgarh",
+     "desc_hi": "f interest within 10&nbsp;km include: * Kundeshwar , Famous temple of God Shiva File:Kundeshwar temple.jpg|thumb|Kundeshwar Temple Tikamgarh File:River view at Kundeshwar,tikamgarh.jpg|thumb|River view at Kundeshwar, Tikamgarh * Paporaji , Famous Temple of Jain Culture, here's ma",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Tikamgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mp-tikamgarh-a3ade4b9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kundeshwar",
+   "subtitle": "मध्य प्रदेश · Tikamgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mp/tikamgarh",
+   "payload": {
+    "unit_id": "district:mp/tikamgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kundeshwar",
+     "desc_hi": "Places of interest within 10&nbsp;km include: * Kundeshwar , Famous temple of God Shiva File:Kundeshwar temple.jpg|thumb|Kundeshwar Temple Tikamgarh File:River view at Kundeshwar,tikamgarh.jpg|thumb|River view at Kundeshwar, Tikamgarh * Paporaji , Famous Temple of Jain Cul",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Tikamgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mp-shajapur-573bfe74",
    "kind": "region",
