@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-15T23:45:12+00:00",
-  "progress": "102/839 done, 120 blocked"
+  "updated": "2026-10-16T23:46:16+00:00",
+  "progress": "102/839 done, 126 blocked"
  },
  "jobs": [
   {
@@ -1700,32 +1700,44 @@
   {
    "unit": "tehsil:mp/agar-malwa/nalkheda",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-16T23:46:12+00:00"
   },
   {
    "unit": "tehsil:mp/agar-malwa/soyat-kalan",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-16T23:46:13+00:00"
   },
   {
    "unit": "tehsil:mp/agar-malwa/susner",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-16T23:46:14+00:00"
   },
   {
    "unit": "tehsil:mp/agar-malwa/tehsils",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-16T23:46:14+00:00"
   },
   {
    "unit": "tehsil:mp/dindori/bajag",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-16T23:46:15+00:00"
   },
   {
    "unit": "tehsil:mp/dindori/development-block",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-16T23:46:16+00:00"
   },
   {
    "unit": "tehsil:mp/dindori/dindori",

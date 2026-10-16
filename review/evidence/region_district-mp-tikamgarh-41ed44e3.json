@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q1006355"
  },
- "checked_at": "2026-10-15T23:45:17.212493+00:00",
+ "checked_at": "2026-10-16T23:46:21.042214+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"सागर, मध्य प्रदेश\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"कथाक्रम\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
