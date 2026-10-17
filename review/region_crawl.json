@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-16T23:46:16+00:00",
-  "progress": "102/839 done, 126 blocked"
+  "updated": "2026-10-17T23:19:16+00:00",
+  "progress": "102/839 done, 132 blocked"
  },
  "jobs": [
   {
@@ -1742,32 +1742,44 @@
   {
    "unit": "tehsil:mp/dindori/dindori",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-10-17T23:19:12+00:00"
   },
   {
    "unit": "tehsil:mp/dindori/samnapur",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-17T23:19:13+00:00"
   },
   {
    "unit": "tehsil:mp/dindori/shahpura",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-17T23:19:13+00:00"
   },
   {
    "unit": "district:ts/adilabad",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-17T23:19:14+00:00"
   },
   {
    "unit": "district:ts/armoor",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-17T23:19:15+00:00"
   },
   {
    "unit": "district:ts/bhadrachalam",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-17T23:19:15+00:00"
   },
   {
    "unit": "district:ts/bhadradri-kothagudem",
