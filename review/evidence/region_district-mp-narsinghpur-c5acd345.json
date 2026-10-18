@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q118414898"
  },
- "checked_at": "2026-10-17T23:19:39.173353+00:00",
+ "checked_at": "2026-10-18T23:33:01.921821+00:00",
  "score": 15,
  "verdict": "weak",
  "checks": [
@@ -20,7 +20,7 @@
    "name": "wiki-en-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"Nanded\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"Sadashiv Peth, Pune\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {

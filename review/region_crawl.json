@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-17T23:19:16+00:00",
-  "progress": "102/839 done, 132 blocked"
+  "updated": "2026-10-18T23:32:40+00:00",
+  "progress": "105/878 done, 135 blocked"
  },
  "jobs": [
   {
@@ -1784,32 +1784,47 @@
   {
    "unit": "district:ts/bhadradri-kothagudem",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-18T23:32:34+00:00",
+   "children": 12,
+   "entities_queued": 0
   },
   {
    "unit": "district:ts/east-godavari",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-18T23:32:36+00:00",
+   "children": 25,
+   "entities_queued": 8
   },
   {
    "unit": "district:ts/hanumakonda",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-18T23:32:36+00:00"
   },
   {
    "unit": "district:ts/jagtial",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-18T23:32:37+00:00"
   },
   {
    "unit": "district:ts/jangaon",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-18T23:32:38+00:00"
   },
   {
    "unit": "district:ts/jayashankar-bhupalpally",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-18T23:32:39+00:00",
+   "children": 2,
+   "entities_queued": 0
   },
   {
    "unit": "district:ts/jogulamba-gadwal",
@@ -4803,6 +4818,201 @@
   },
   {
    "unit": "district:hr/yamunanagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/bhadradri-kothagudem/revenue-divisions",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/bhadradri-kothagudem/bhadrachalam",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/bhadradri-kothagudem/kothagudem",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/bhadradri-kothagudem/mandal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/bhadradri-kothagudem/collector",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/bhadradri-kothagudem/manuguru",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/bhadradri-kothagudem/aswapuram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/bhadradri-kothagudem/pinapaka",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/bhadradri-kothagudem/burgampahad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/bhadradri-kothagudem/cherla",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/bhadradri-kothagudem/dummugudem",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/bhadradri-kothagudem/karakagudem",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/mandals",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/kovvur-division",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/chagallu",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/devarapalle",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/gopalapuram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/kovvur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/nallajerla",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/nidadavolu",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/peravali",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/tallapudi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/undrajavaram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/rajamahendravaram-division",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/anaparthi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/biccavolu",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/gokavaram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/kadiam",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/kapileswarapuram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/korukonda",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/mandapeta",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/rajamahendravaram-rural",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/rajamahendravaram-urban",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/rajanagaram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/rangampeta",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/rayavaram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/east-godavari/seethanagaram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/jayashankar-bhupalpally/revenue-divisions",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/jayashankar-bhupalpally/mandal",
    "task": "mine",
    "status": "pending"
   }

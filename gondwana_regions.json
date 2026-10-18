@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-10-17T23:19:16+00:00",
+  "updated": "2026-10-18T23:32:40+00:00",
   "coverage": {
    "states": 29,
    "districts": 776,
-   "tehsils": 34,
+   "tehsils": 73,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -8891,6 +8891,318 @@
    "parent": "district:od/subarnapur",
    "entities": [],
    "source_admin": "https://en.wikipedia.org/wiki/Subarnapur_district"
+  },
+  {
+   "id": "tehsil:ts/bhadradri-kothagudem/aswapuram",
+   "level": "tehsil",
+   "name_hi": "Aswapuram",
+   "parent": "district:ts/bhadradri-kothagudem",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem"
+  },
+  {
+   "id": "tehsil:ts/bhadradri-kothagudem/bhadrachalam",
+   "level": "tehsil",
+   "name_hi": "Bhadrachalam",
+   "parent": "district:ts/bhadradri-kothagudem",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem"
+  },
+  {
+   "id": "tehsil:ts/bhadradri-kothagudem/burgampahad",
+   "level": "tehsil",
+   "name_hi": "Burgampahad",
+   "parent": "district:ts/bhadradri-kothagudem",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem"
+  },
+  {
+   "id": "tehsil:ts/bhadradri-kothagudem/cherla",
+   "level": "tehsil",
+   "name_hi": "Cherla",
+   "parent": "district:ts/bhadradri-kothagudem",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem"
+  },
+  {
+   "id": "tehsil:ts/bhadradri-kothagudem/collector",
+   "level": "tehsil",
+   "name_hi": "collector",
+   "parent": "district:ts/bhadradri-kothagudem",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem"
+  },
+  {
+   "id": "tehsil:ts/bhadradri-kothagudem/dummugudem",
+   "level": "tehsil",
+   "name_hi": "Dummugudem",
+   "parent": "district:ts/bhadradri-kothagudem",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem"
+  },
+  {
+   "id": "tehsil:ts/bhadradri-kothagudem/karakagudem",
+   "level": "tehsil",
+   "name_hi": "Karakagudem",
+   "parent": "district:ts/bhadradri-kothagudem",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem"
+  },
+  {
+   "id": "tehsil:ts/bhadradri-kothagudem/kothagudem",
+   "level": "tehsil",
+   "name_hi": "Kothagudem",
+   "parent": "district:ts/bhadradri-kothagudem",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem"
+  },
+  {
+   "id": "tehsil:ts/bhadradri-kothagudem/mandal",
+   "level": "tehsil",
+   "name_hi": "mandal",
+   "parent": "district:ts/bhadradri-kothagudem",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem"
+  },
+  {
+   "id": "tehsil:ts/bhadradri-kothagudem/manuguru",
+   "level": "tehsil",
+   "name_hi": "Manuguru",
+   "parent": "district:ts/bhadradri-kothagudem",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem"
+  },
+  {
+   "id": "tehsil:ts/bhadradri-kothagudem/pinapaka",
+   "level": "tehsil",
+   "name_hi": "Pinapaka",
+   "parent": "district:ts/bhadradri-kothagudem",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem"
+  },
+  {
+   "id": "tehsil:ts/bhadradri-kothagudem/revenue-divisions",
+   "level": "tehsil",
+   "name_hi": "revenue divisions",
+   "parent": "district:ts/bhadradri-kothagudem",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Bhadradri_Kothagudem"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/anaparthi",
+   "level": "tehsil",
+   "name_hi": "Anaparthi",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/biccavolu",
+   "level": "tehsil",
+   "name_hi": "Biccavolu",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/chagallu",
+   "level": "tehsil",
+   "name_hi": "Chagallu",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/devarapalle",
+   "level": "tehsil",
+   "name_hi": "Devarapalle",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/gokavaram",
+   "level": "tehsil",
+   "name_hi": "Gokavaram",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/gopalapuram",
+   "level": "tehsil",
+   "name_hi": "Gopalapuram",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/kadiam",
+   "level": "tehsil",
+   "name_hi": "Kadiam",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/kapileswarapuram",
+   "level": "tehsil",
+   "name_hi": "Kapileswarapuram",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/korukonda",
+   "level": "tehsil",
+   "name_hi": "Korukonda",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/kovvur",
+   "level": "tehsil",
+   "name_hi": "Kovvur",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/kovvur-division",
+   "level": "tehsil",
+   "name_hi": "Kovvur Division",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/mandals",
+   "level": "tehsil",
+   "name_hi": "mandals",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/mandapeta",
+   "level": "tehsil",
+   "name_hi": "Mandapeta",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/nallajerla",
+   "level": "tehsil",
+   "name_hi": "Nallajerla",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/nidadavolu",
+   "level": "tehsil",
+   "name_hi": "Nidadavolu",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/peravali",
+   "level": "tehsil",
+   "name_hi": "Peravali",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/rajamahendravaram-division",
+   "level": "tehsil",
+   "name_hi": "Rajamahendravaram Division",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/rajamahendravaram-rural",
+   "level": "tehsil",
+   "name_hi": "Rajamahendravaram Rural",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/rajamahendravaram-urban",
+   "level": "tehsil",
+   "name_hi": "Rajamahendravaram Urban",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/rajanagaram",
+   "level": "tehsil",
+   "name_hi": "Rajanagaram",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/rangampeta",
+   "level": "tehsil",
+   "name_hi": "Rangampeta",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/rayavaram",
+   "level": "tehsil",
+   "name_hi": "Rayavaram",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/seethanagaram",
+   "level": "tehsil",
+   "name_hi": "Seethanagaram",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/tallapudi",
+   "level": "tehsil",
+   "name_hi": "Tallapudi",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/east-godavari/undrajavaram",
+   "level": "tehsil",
+   "name_hi": "Undrajavaram",
+   "parent": "district:ts/east-godavari",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/East_Godavari"
+  },
+  {
+   "id": "tehsil:ts/jayashankar-bhupalpally/mandal",
+   "level": "tehsil",
+   "name_hi": "mandal",
+   "parent": "district:ts/jayashankar-bhupalpally",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Jayashankar_Bhupalpally"
+  },
+  {
+   "id": "tehsil:ts/jayashankar-bhupalpally/revenue-divisions",
+   "level": "tehsil",
+   "name_hi": "revenue divisions",
+   "parent": "district:ts/jayashankar-bhupalpally",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Jayashankar_Bhupalpally"
   }
  ]
 }

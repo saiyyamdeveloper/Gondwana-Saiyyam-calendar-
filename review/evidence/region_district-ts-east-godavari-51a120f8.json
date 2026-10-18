@@ -1,0 +1,62 @@
+{
+ "id": "region:district-ts-east-godavari-51a120f8",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q3894578"
+ },
+ "checked_at": "2026-10-18T23:32:45.153816+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"विमानक्षेत्रों की सूची ICAO कोड अनुसार: P\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Hope Island; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Hope%20Island"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q3894578",
+   "link": "https://www.wikidata.org/wiki/Q3894578"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "Hope Island: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "llm": null
+}

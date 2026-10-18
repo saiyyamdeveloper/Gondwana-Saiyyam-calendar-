@@ -1,9 +1,249 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-17T23:19:44.714296+00:00"
+  "updated": "2026-10-18T23:33:01.925956+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-ts-east-godavari-ab5b2c4a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Papikondalu",
+   "subtitle": "तेलंगाना · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/east-godavari",
+   "payload": {
+    "unit_id": "district:ts/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Papikondalu",
+     "desc_hi": "* Havelock Bridge are located at Rajamahendravaram. * Ecotourism projects are located at: ** Maredumilli ** Papikondalu ** Rampa ** Tuni . * Talupulamma lova is a temple in East Godavari. </r",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-east-godavari-334c9804",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Maredumilli",
+   "subtitle": "तेलंगाना · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/east-godavari",
+   "payload": {
+    "unit_id": "district:ts/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Maredumilli",
+     "desc_hi": "Dowleswaram Barrage * Havelock Bridge are located at Rajamahendravaram. * Ecotourism projects are located at: ** Maredumilli ** Papikondalu ** Rampa ** Tuni . * Talupulamma lova is a temple in East Godavari. {{cite web|title=Tourist Places|url=http://eastgodavari.nic.in/|publishe",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-east-godavari-ddeb7436",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Havelock Bridge",
+   "subtitle": "तेलंगाना · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/east-godavari",
+   "payload": {
+    "unit_id": "district:ts/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Havelock Bridge",
+     "desc_hi": "al in Rajamahendravaram is the location of many plant nurseries. * Sir Arthur Cotton Museum * Dowleswaram Barrage * Havelock Bridge are located at Rajamahendravaram. * Ecotourism projects are located at: ** Maredumilli ** Papikondalu ** Rampa ** Tuni . * Talupulamma lova is a tem",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-east-godavari-1db37e6e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dowleswaram Barrage",
+   "subtitle": "तेलंगाना · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/east-godavari",
+   "payload": {
+    "unit_id": "district:ts/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dowleswaram Barrage",
+     "desc_hi": "[Kakinada . * Kadiam Mandal in Rajamahendravaram is the location of many plant nurseries. * Sir Arthur Cotton Museum * Dowleswaram Barrage * Havelock Bridge are located at Rajamahendravaram. * Ecotourism projects are located at: ** Maredumilli ** Papikondalu ** Rampa ** Tuni . * ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-east-godavari-35055329",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kakinada",
+   "subtitle": "तेलंगाना · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/east-godavari",
+   "payload": {
+    "unit_id": "district:ts/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kakinada",
+     "desc_hi": "|date=February 2019}} * Coringa Wildlife Sanctuary * NTR Beach * Hope Island (India)|Hope Island are located in Kakinada . * Kadiam Mandal in Rajamahendravaram is the location of many plant nurseries. * Sir Arthur Cotton Museum * Dowleswaram Barrage * Havelock Bridge are located ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-east-godavari-51a120f8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Hope Island",
+   "subtitle": "तेलंगाना · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/east-godavari",
+   "payload": {
+    "unit_id": "district:ts/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Hope Island",
+     "desc_hi": "Rajamahendravaram ** Samarlakota * Coringa Wildlife Sanctuary * NTR Beach * Hope Island (India)|Hope Island are located in Kakinada . * Kadiam Mandal in Rajamahendravaram is the location of many plant nurseries. * Sir Arthur Cotton Museum * Dowleswaram Barrage * Havelock Bridge a",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-east-godavari-30feabd8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Coringa Wildlife Sanctuary",
+   "subtitle": "तेलंगाना · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/east-godavari",
+   "payload": {
+    "unit_id": "district:ts/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Coringa Wildlife Sanctuary",
+     "desc_hi": "** Draksharamam ** Kotipalli ** Pithapuram ** Rajamahendravaram ** Samarlakota * Coringa Wildlife Sanctuary * NTR Beach * Hope Island (India)|Hope Island are located in Kakinada . * Kadiam Mandal in Rajamahendravaram is the location of many plant nurseries. * Sir Arthur Cotton Mu",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-east-godavari-6a3bdcfd",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumbnail|Vakalapudi beach at [[Kakinada",
+   "subtitle": "तेलंगाना · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/east-godavari",
+   "payload": {
+    "unit_id": "district:ts/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumbnail|Vakalapudi beach at [[Kakinada",
+     "desc_hi": "File:Vakalapudi beach.JPG|thumbnail|Vakalapudi beach at Kakinada East Godavari has many places worth visiting, such as temples and nurseries. * Historical temples are located at: ** Someswaram",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:tehsil-mp-agar-malwa-agar-malwa-ef30c552",
    "kind": "region",

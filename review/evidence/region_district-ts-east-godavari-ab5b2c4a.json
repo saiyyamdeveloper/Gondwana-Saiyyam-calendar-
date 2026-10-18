@@ -1,0 +1,55 @@
+{
+ "id": "region:district-ts-east-godavari-ab5b2c4a",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q138894553"
+ },
+ "checked_at": "2026-10-18T23:32:42.652327+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Papikonda National Park",
+   "link": "https://en.wikipedia.org/wiki/Papikonda%20National%20Park"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q138894553",
+   "link": "https://www.wikidata.org/wiki/Q138894553"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "Papikondalu: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "llm": null
+}
