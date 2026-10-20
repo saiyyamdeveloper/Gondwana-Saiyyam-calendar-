@@ -1,9 +1,519 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-18T23:33:01.925956+00:00"
+  "updated": "2026-10-20T00:32:46.072694+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-ts-mahabub-nagar-221b03b3",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Parsvanatha",
+   "subtitle": "तेलंगाना · Mahabub Nagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/mahabub-nagar",
+   "payload": {
+    "unit_id": "district:ts/mahabub-nagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Parsvanatha",
+     "desc_hi": "was around 18th century, since no efforts were being made to conserve it the rare structure the sculptures of Mahavira, Parsvanatha and few other historical importance had been moved to a local museum in Pillalamarri and some to the State Museum in the city. {{cite web|url=https:",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-mahabub-nagar-ee40b464",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Deccan Chronicle",
+   "subtitle": "तेलंगाना · Mahabub Nagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/mahabub-nagar",
+   "payload": {
+    "unit_id": "district:ts/mahabub-nagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Deccan Chronicle",
+     "desc_hi": "news/300918/the-last-of-the-2-brick-temples.html|title=The last of the 2 brick temples|date=30 September 2018|newspaper= Deccan Chronicle |access-date=15 November 2020}}</ref> The temple was around 18th century, since no efforts were being made to conserve it the rare structure t",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-mahabub-nagar-1b339061",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mahavira",
+   "subtitle": "तेलंगाना · Mahabub Nagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/mahabub-nagar",
+   "payload": {
+    "unit_id": "district:ts/mahabub-nagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mahavira",
+     "desc_hi": "e of burnt clay. The large bricks of the temple were plaster using the limestone. The principal deity of the temple was Mahavira . {{cite web|url=https://www.deccanchronicle.com/nation/in-other-news/300918/the-last-of-the-2-brick-temples.html|title=The last of the 2 brick temples",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-mahabub-nagar-6209f257",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Uttar Pradesh",
+   "subtitle": "तेलंगाना · Mahabub Nagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/mahabub-nagar",
+   "payload": {
+    "unit_id": "district:ts/mahabub-nagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Uttar Pradesh",
+     "desc_hi": "India other built during Gupta period is located at Bhitargaon under Kanpur Nagar district|Kanpur district , Uttar Pradesh . This temple was built using bricks made of burnt clay. The large bricks of the temple were plaster using the limestone. The principal deity of the temple w",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-mahabub-nagar-8c5d3670",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kanpur",
+   "subtitle": "तेलंगाना · Mahabub Nagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/mahabub-nagar",
+   "payload": {
+    "unit_id": "district:ts/mahabub-nagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kanpur",
+     "desc_hi": "emple is one of the two such structures in India other built during Gupta period is located at Bhitargaon under Kanpur Nagar district|Kanpur district , Uttar Pradesh . This temple was built using bricks made of burnt clay. The large bricks of the temple were plaster using the lim",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-mahabub-nagar-56a845bb",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bhitargaon",
+   "subtitle": "तेलंगाना · Mahabub Nagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/mahabub-nagar",
+   "payload": {
+    "unit_id": "district:ts/mahabub-nagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bhitargaon",
+     "desc_hi": "d 8th century. This temple is one of the two such structures in India other built during Gupta period is located at Bhitargaon under Kanpur Nagar district|Kanpur district , Uttar Pradesh . This temple was built using bricks made of burnt clay. The large bricks of the temple were ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-mahabub-nagar-2e24d92e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gupta period",
+   "subtitle": "तेलंगाना · Mahabub Nagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/mahabub-nagar",
+   "payload": {
+    "unit_id": "district:ts/mahabub-nagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gupta period",
+     "desc_hi": "temple was built between 7th and 8th century. This temple is one of the two such structures in India other built during Gupta period is located at Bhitargaon under Kanpur Nagar district|Kanpur district , Uttar Pradesh . This temple was built using bricks made of burnt clay. The l",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-khammam-31f21581",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Bonalu",
+   "subtitle": "तेलंगाना · Khammam",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/khammam",
+   "payload": {
+    "unit_id": "district:ts/khammam",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Bonalu",
+     "desc_hi": "ollapudi Srinivasa|last=Rao|newspaper=The Hindu|access-date=28 July 2015|date=2014-09-21}}</ref> Along with Bathukamma, Bonalu was also declared a state festival on 15 June 2014. {{cite news|url=http://timesofindia.indiatimes.com/city/hyderabad/Bonalu-Bathukamma-declared-state-fe",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Khammam"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-khammam-dde164ac",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Bathukamma",
+   "subtitle": "तेलंगाना · Khammam",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/khammam",
+   "payload": {
+    "unit_id": "district:ts/khammam",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Bathukamma",
+     "desc_hi": "Women in the city celebrate Bathukamma , a floral festival in which they worship the goddess with different flowers for nine days. {{cite news|url=https://www.thehindu.com/news/national/telangana/Bathukamma-Festivities-in-the-air/article60344769.ece|title=Bathu",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Khammam"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-karimnagar-38758937",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Telangana",
+   "subtitle": "तेलंगाना · Karimnagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/karimnagar",
+   "payload": {
+    "unit_id": "district:ts/karimnagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Telangana",
+     "desc_hi": "}}</ref> The bridge is part of the large Manair Riverfront project which has been proposed by the Chief minister of Telangana after his ministers visited Sabarmati riverfront in Ahmedabad on Sabarmati River|Sabarmati river. {{cite news | url=https://www.thehindu.com/news/cities/H",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Karimnagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-karimnagar-be833c48",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chief minister",
+   "subtitle": "तेलंगाना · Karimnagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/karimnagar",
+   "payload": {
+    "unit_id": "district:ts/karimnagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chief minister",
+     "desc_hi": "y | date=21 June 2023 }}</ref> The bridge is part of the large Manair Riverfront project which has been proposed by the Chief minister of Telangana after his ministers visited Sabarmati riverfront in Ahmedabad on Sabarmati River|Sabarmati river. {{cite news | url=https://www.theh",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Karimnagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-karimnagar-53849e56",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Manair River",
+   "subtitle": "तेलंगाना · Karimnagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/karimnagar",
+   "payload": {
+    "unit_id": "district:ts/karimnagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Manair River",
+     "desc_hi": "er park near LMD are another major part of the city's tourism. The Karimnagar Cable Bridge has been constructed on Maner River|Manair River between Housing Board Colony and Sadashivpalli, opened in 2023, it shortens the distance to Warangal by 7 KM. {{cite web | url=https://telan",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Karimnagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-karimnagar-597e4ebf",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Karimnagar Cable Bridge",
+   "subtitle": "तेलंगाना · Karimnagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/karimnagar",
+   "payload": {
+    "unit_id": "district:ts/karimnagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Karimnagar Cable Bridge",
+     "desc_hi": "The dam has boating facilities. Ujwala park and Deer park near LMD are another major part of the city's tourism. The Karimnagar Cable Bridge has been constructed on Maner River|Manair River between Housing Board Colony and Sadashivpalli, opened in 2023, it shortens the distance t",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Karimnagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-karimnagar-df7756e9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Lower Manair Dam (LMD)",
+   "subtitle": "तेलंगाना · Karimnagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/karimnagar",
+   "payload": {
+    "unit_id": "district:ts/karimnagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Lower Manair Dam (LMD)",
+     "desc_hi": "e:Deer Park at Karimnagar.JPG|thumb|Deer Park at Karimnagar File:Sunsetkarimnagar.jpg|thumb|View from Manair Dam Lower Manair Dam|Lower Manair Dam (LMD) is one of the largest dams in the state of Telangana. LMD is a major tourism spot for people of Karimnagar and the surrounding ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Karimnagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-karimnagar-7c1e17ca",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|View from Manair Dam",
+   "subtitle": "तेलंगाना · Karimnagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/karimnagar",
+   "payload": {
+    "unit_id": "district:ts/karimnagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|View from Manair Dam",
+     "desc_hi": "File:Cablebridge.jpg|thumb|Cable bridge File:Deer Park at Karimnagar.JPG|thumb|Deer Park at Karimnagar File:Sunsetkarimnagar.jpg|thumb|View from Manair Dam Lower Manair Dam|Lower Manair Dam (LMD) is one of the largest dams in the state of Telangana. LMD is a major tourism spot fo",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Karimnagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-karimnagar-96ee9917",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Deer Park at Karimnagar",
+   "subtitle": "तेलंगाना · Karimnagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/karimnagar",
+   "payload": {
+    "unit_id": "district:ts/karimnagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Deer Park at Karimnagar",
+     "desc_hi": "File:Cablebridge.jpg|thumb|Cable bridge File:Deer Park at Karimnagar.JPG|thumb|Deer Park at Karimnagar File:Sunsetkarimnagar.jpg|thumb|View from Manair Dam Lower Manair Dam|Lower Manair Dam (LMD) is one of the largest dams in the state of Telangana. LMD is a major to",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Karimnagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-karimnagar-bb94e388",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Cable bridge",
+   "subtitle": "तेलंगाना · Karimnagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/karimnagar",
+   "payload": {
+    "unit_id": "district:ts/karimnagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Cable bridge",
+     "desc_hi": "File:Cablebridge.jpg|thumb|Cable bridge File:Deer Park at Karimnagar.JPG|thumb|Deer Park at Karimnagar File:Sunsetkarimnagar.jpg|thumb|View from Manair Dam Lower Manair Dam|Lower Manair Dam (LMD) is one of the largest dams",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Karimnagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-ts-east-godavari-ab5b2c4a",
    "kind": "region",

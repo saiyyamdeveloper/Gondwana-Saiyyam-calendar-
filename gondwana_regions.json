@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-10-18T23:32:40+00:00",
+  "updated": "2026-10-20T00:32:15+00:00",
   "coverage": {
    "states": 29,
    "districts": 776,
-   "tehsils": 73,
+   "tehsils": 80,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -9203,6 +9203,62 @@
    "parent": "district:ts/jayashankar-bhupalpally",
    "entities": [],
    "source_admin": "https://en.wikipedia.org/wiki/Jayashankar_Bhupalpally"
+  },
+  {
+   "id": "tehsil:ts/jogulamba-gadwal/revenue-division",
+   "level": "tehsil",
+   "name_hi": "revenue division",
+   "parent": "district:ts/jogulamba-gadwal",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Jogulamba_Gadwal"
+  },
+  {
+   "id": "tehsil:ts/mahabub-nagar/addakal",
+   "level": "tehsil",
+   "name_hi": "Addakal",
+   "parent": "district:ts/mahabub-nagar",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+  },
+  {
+   "id": "tehsil:ts/mahabub-nagar/balanagar",
+   "level": "tehsil",
+   "name_hi": "Balanagar",
+   "parent": "district:ts/mahabub-nagar",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+  },
+  {
+   "id": "tehsil:ts/mahabub-nagar/bhoothpur",
+   "level": "tehsil",
+   "name_hi": "Bhoothpur",
+   "parent": "district:ts/mahabub-nagar",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+  },
+  {
+   "id": "tehsil:ts/mahabub-nagar/chinnachintakunta",
+   "level": "tehsil",
+   "name_hi": "Chinnachintakunta",
+   "parent": "district:ts/mahabub-nagar",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+  },
+  {
+   "id": "tehsil:ts/mahabub-nagar/mandal",
+   "level": "tehsil",
+   "name_hi": "mandal",
+   "parent": "district:ts/mahabub-nagar",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+  },
+  {
+   "id": "tehsil:ts/mahabub-nagar/revenue-divisions",
+   "level": "tehsil",
+   "name_hi": "revenue divisions",
+   "parent": "district:ts/mahabub-nagar",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
   }
  ]
 }

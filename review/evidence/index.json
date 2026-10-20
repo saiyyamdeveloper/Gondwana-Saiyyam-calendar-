@@ -3389,7 +3389,7 @@
  "region:district-mp-panna-f93d5661": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:52.355895+00:00",
+  "checked_at": "2026-10-20T00:32:46.068518+00:00",
   "summary_hi": "Panna State: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
@@ -3417,155 +3417,274 @@
  "region:district-mp-sehore-dc382180": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:51.884939+00:00",
+  "checked_at": "2026-10-20T00:32:45.227997+00:00",
   "summary_hi": "Company rule: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-shajapur-573bfe74": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-18T23:32:50.438206+00:00",
+  "checked_at": "2026-10-20T00:32:43.062759+00:00",
   "summary_hi": "Shahi Qila (Shajapur Fort): स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-mp-shajapur-ca6ac6d9": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-18T23:32:50.746413+00:00",
+  "checked_at": "2026-10-20T00:32:43.465382+00:00",
   "summary_hi": "Dargah E Yasufi: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-mp-shajapur-10c2dc23": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-18T23:32:50.999760+00:00",
+  "checked_at": "2026-10-20T00:32:43.955953+00:00",
   "summary_hi": "Bhairav Tekri: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-mp-shajapur-9b26b7d3": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-18T23:32:51.366335+00:00",
+  "checked_at": "2026-10-20T00:32:44.429779+00:00",
   "summary_hi": "Rajrajeshwari Mata Mandir: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:tehsil-mp-agar-malwa-agar-malwa-ef30c552": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:46.640006+00:00",
+  "checked_at": "2026-10-20T00:32:35.882646+00:00",
   "summary_hi": "Baba Baijnath Temple, Agar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mp-agar-malwa-agar-malwa-46c74d09": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:47.324069+00:00",
+  "checked_at": "2026-10-20T00:32:37.210482+00:00",
   "summary_hi": "Bagalamukhi Temple, Nalkheda: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-tikamgarh-8354e962": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:47.745413+00:00",
+  "checked_at": "2026-10-20T00:32:38.533706+00:00",
   "summary_hi": "Chandella: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-tikamgarh-41ed44e3": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:48.161952+00:00",
+  "checked_at": "2026-10-20T00:32:39.230998+00:00",
   "summary_hi": "sagar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-tikamgarh-1b339061": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:48.683557+00:00",
+  "checked_at": "2026-10-20T00:32:39.927140+00:00",
   "summary_hi": "Mahavira: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-tikamgarh-c20a1068": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:49.043955+00:00",
+  "checked_at": "2026-10-20T00:32:40.806298+00:00",
   "summary_hi": "Paporaji: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mp-tikamgarh-078ed2a7": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-18T23:32:49.437966+00:00",
+  "checked_at": "2026-10-20T00:32:41.324847+00:00",
   "summary_hi": "thumb|River view at Kundeshwar, Tikamgarh: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-mp-tikamgarh-6bccce0a": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-18T23:32:49.720415+00:00",
+  "checked_at": "2026-10-20T00:32:41.772412+00:00",
   "summary_hi": "thumb|Kundeshwar Temple Tikamgarh: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-mp-tikamgarh-a3ade4b9": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:50.107794+00:00",
+  "checked_at": "2026-10-20T00:32:42.555941+00:00",
   "summary_hi": "Kundeshwar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-east-godavari-ab5b2c4a": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:42.652327+00:00",
+  "checked_at": "2026-10-20T00:32:30.404292+00:00",
   "summary_hi": "Papikondalu: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-east-godavari-334c9804": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:43.276829+00:00",
+  "checked_at": "2026-10-20T00:32:31.096329+00:00",
   "summary_hi": "Maredumilli: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-east-godavari-ddeb7436": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:43.702602+00:00",
+  "checked_at": "2026-10-20T00:32:31.804977+00:00",
   "summary_hi": "Havelock Bridge: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-ts-east-godavari-1db37e6e": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:44.180461+00:00",
+  "checked_at": "2026-10-20T00:32:32.494129+00:00",
   "summary_hi": "Dowleswaram Barrage: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-east-godavari-35055329": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:44.580051+00:00",
+  "checked_at": "2026-10-20T00:32:33.178784+00:00",
   "summary_hi": "Kakinada: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-east-godavari-51a120f8": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:45.153816+00:00",
+  "checked_at": "2026-10-20T00:32:33.897554+00:00",
   "summary_hi": "Hope Island: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-east-godavari-30feabd8": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-10-18T23:32:45.757935+00:00",
+  "checked_at": "2026-10-20T00:32:34.697649+00:00",
   "summary_hi": "Coringa Wildlife Sanctuary: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-east-godavari-6a3bdcfd": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-10-18T23:32:46.170709+00:00",
+  "checked_at": "2026-10-20T00:32:35.212550+00:00",
   "summary_hi": "thumbnail|Vakalapudi beach at [[Kakinada: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-ts-mahabub-nagar-221b03b3": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:18.146819+00:00",
+  "summary_hi": "Parsvanatha: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-ts-mahabub-nagar-ee40b464": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:19.235401+00:00",
+  "summary_hi": "Deccan Chronicle: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-ts-mahabub-nagar-1b339061": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:19.909814+00:00",
+  "summary_hi": "Mahavira: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-ts-mahabub-nagar-6209f257": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:20.755065+00:00",
+  "summary_hi": "Uttar Pradesh: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-ts-mahabub-nagar-8c5d3670": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:21.416968+00:00",
+  "summary_hi": "Kanpur: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-ts-mahabub-nagar-56a845bb": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:22.056264+00:00",
+  "summary_hi": "Bhitargaon: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-ts-mahabub-nagar-2e24d92e": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:22.884117+00:00",
+  "summary_hi": "Gupta period: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-ts-khammam-31f21581": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:23.503208+00:00",
+  "summary_hi": "Bonalu: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-ts-khammam-dde164ac": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:24.134970+00:00",
+  "summary_hi": "Bathukamma: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-ts-karimnagar-38758937": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:24.899723+00:00",
+  "summary_hi": "Telangana: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-ts-karimnagar-be833c48": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:25.714778+00:00",
+  "summary_hi": "Chief minister: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-ts-karimnagar-53849e56": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:27.004155+00:00",
+  "summary_hi": "Manair River: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-ts-karimnagar-597e4ebf": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:27.701256+00:00",
+  "summary_hi": "Karimnagar Cable Bridge: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-ts-karimnagar-df7756e9": {
+  "score": 20,
+  "verdict": "weak",
+  "checked_at": "2026-10-20T00:32:28.225045+00:00",
+  "summary_hi": "Lower Manair Dam (LMD): स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
+  "n_sources": 1
+ },
+ "region:district-ts-karimnagar-7c1e17ca": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-10-20T00:32:28.708216+00:00",
+  "summary_hi": "thumb|View from Manair Dam: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-ts-karimnagar-96ee9917": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-10-20T00:32:29.177531+00:00",
+  "summary_hi": "thumb|Deer Park at Karimnagar: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-ts-karimnagar-bb94e388": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-10-20T00:32:29.773316+00:00",
+  "summary_hi": "thumb|Cable bridge: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  }
 }
