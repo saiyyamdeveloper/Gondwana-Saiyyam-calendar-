@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-20T00:32:15+00:00",
-  "progress": "109/885 done, 137 blocked"
+  "updated": "2026-10-20T00:33:23+00:00",
+  "progress": "111/885 done, 141 blocked"
  },
  "jobs": [
   {
@@ -1877,32 +1877,48 @@
   {
    "unit": "district:ts/mahabubabad",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-20T00:33:19+00:00"
   },
   {
    "unit": "district:ts/mahabubnagar",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-20T00:33:20+00:00"
   },
   {
    "unit": "district:ts/mancherial",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-20T00:33:20+00:00",
+   "children": 0,
+   "entities_queued": 3,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:ts/medak",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-20T00:33:22+00:00",
+   "children": 0,
+   "entities_queued": 6,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:ts/miryalaguda",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-20T00:33:22+00:00"
   },
   {
    "unit": "district:ts/mulugu",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-20T00:33:23+00:00"
   },
   {
    "unit": "district:ts/nagarkurnool",
@@ -2166,6 +2182,41 @@
   },
   {
    "unit": "tehsil:ts/jayashankar-bhupalpally/revenue-divisions",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/jogulamba-gadwal/revenue-division",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/mahabub-nagar/addakal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/mahabub-nagar/balanagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/mahabub-nagar/bhoothpur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/mahabub-nagar/chinnachintakunta",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/mahabub-nagar/mandal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/mahabub-nagar/revenue-divisions",
    "task": "mine",
    "status": "pending"
   },
@@ -5031,41 +5082,6 @@
   },
   {
    "unit": "district:hr/yamunanagar",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/jogulamba-gadwal/revenue-division",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/mahabub-nagar/revenue-divisions",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/mahabub-nagar/mandal",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/mahabub-nagar/addakal",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/mahabub-nagar/balanagar",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/mahabub-nagar/bhoothpur",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/mahabub-nagar/chinnachintakunta",
    "task": "mine",
    "status": "pending"
   }

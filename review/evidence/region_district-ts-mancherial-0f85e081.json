@@ -1,0 +1,55 @@
+{
+ "id": "region:district-ts-mancherial-0f85e081",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q23808225"
+ },
+ "checked_at": "2026-10-20T00:33:35.232762+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Gandhari khilla; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Gandhari%20khilla"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q23808225",
+   "link": "https://www.wikidata.org/wiki/Q23808225"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "Gandhari khilla: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "llm": null
+}

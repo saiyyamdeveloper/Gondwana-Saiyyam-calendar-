@@ -1,9 +1,279 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-20T00:32:46.072694+00:00"
+  "updated": "2026-10-20T00:33:47.065957+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-ts-medak-85994347",
+   "kind": "region",
+   "subtype": "place",
+   "title": "alt=Manjeera River|thumb|Manjeera River",
+   "subtitle": "तेलंगाना · Medak",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/medak",
+   "payload": {
+    "unit_id": "district:ts/medak",
+    "entity": {
+     "kind": "place",
+     "name_hi": "alt=Manjeera River|thumb|Manjeera River",
+     "desc_hi": "haeology and Museums}}</ref> File:Crocs at Manjeera sanctuary 1.jpg|alt=Manjeera Sanctuary|thumb|Manjeera Sanctuary File:Waterfowl at Manjeera Sanctuary.jpg|alt=Manjeera River|thumb|Manjeera River",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Medak"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-medak-ab16f8fc",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Hindu",
+   "subtitle": "तेलंगाना · Medak",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/medak",
+   "payload": {
+    "unit_id": "district:ts/medak",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Hindu",
+     "desc_hi": "of Medak|access-date=16 May 2014}}</ref> Ancient temple of Kuchadri Venkateshwara Swamy at Kuchanpally is a nearby Hindu worship centre. </ref> File:Crocs at Manjeera",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Medak"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-medak-e99b62de",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Kuchanpally",
+   "subtitle": "तेलंगाना · Medak",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/medak",
+   "payload": {
+    "unit_id": "district:ts/medak",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Kuchanpally",
+     "desc_hi": "rch of South India - Diocese of Medak|access-date=16 May 2014}}</ref> Ancient temple of Kuchadri Venkateshwara Swamy at Kuchanpally is a nearby Hindu worship centre. </re",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Medak"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-medak-9b722444",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Medak Fort",
+   "subtitle": "तेलंगाना · Medak",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/medak",
+   "payload": {
+    "unit_id": "district:ts/medak",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Medak Fort",
+     "desc_hi": "d for the nearby Pocharam Lake. Medak Cathedral sees over the Diocese of Medak, the single largest diocese in Asia. Medak Fort is a popular tourist attraction. The fort was originally constructed by the Kakatiya kings and later developed by the Qutb Shahi kings. {{cite web|url=ht",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Medak"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-medak-e7e6fe32",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Medak Cathedral",
+   "subtitle": "तेलंगाना · Medak",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/medak",
+   "payload": {
+    "unit_id": "district:ts/medak",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Medak Cathedral",
+     "desc_hi": "Pocharam Wildlife Sanctuary is a forest and wildlife sanctuary named for the nearby Pocharam Lake. Medak Cathedral sees over the Diocese of Medak, the single largest diocese in Asia. Medak Fort is a popular tourist attraction. The fort was originally constructed by the Kakatiya k",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Medak"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-medak-a4b772bb",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Pocharam Wildlife Sanctuary",
+   "subtitle": "तेलंगाना · Medak",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/medak",
+   "payload": {
+    "unit_id": "district:ts/medak",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Pocharam Wildlife Sanctuary",
+     "desc_hi": "Pocharam Wildlife Sanctuary is a forest and wildlife sanctuary named for the nearby Pocharam Lake. Medak Cathedral sees over the Diocese of Medak, the single largest diocese in Asia. Medak Fort is a popular tourist attraction. T",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Medak"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-mancherial-01bcdc67",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Singareni Thermal Power Plant",
+   "subtitle": "तेलंगाना · Mancherial",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/mancherial",
+   "payload": {
+    "unit_id": "district:ts/mancherial",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Singareni Thermal Power Plant",
+     "desc_hi": "its own article on the English Wikipedia ♦♦♦---> * Gandhari khilla , a hill fort * Sripada Yellampalli Project * Singareni Thermal Power Plant * Gadpur Jungle Safari",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mancherial"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-mancherial-ee586633",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Sripada Yellampalli Project",
+   "subtitle": "तेलंगाना · Mancherial",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/mancherial",
+   "payload": {
+    "unit_id": "district:ts/mancherial",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Sripada Yellampalli Project",
+     "desc_hi": "ce to this list if it already has its own article on the English Wikipedia ♦♦♦---> * Gandhari khilla , a hill fort * Sripada Yellampalli Project * Singareni Thermal Power Plant * Gadpur Jungle Safari",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mancherial"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-mancherial-0f85e081",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gandhari khilla",
+   "subtitle": "तेलंगाना · Mancherial",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/mancherial",
+   "payload": {
+    "unit_id": "district:ts/mancherial",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gandhari khilla",
+     "desc_hi": "<!---♦♦♦ Only add a place to this list if it already has its own article on the English Wikipedia ♦♦♦---> * Gandhari khilla , a hill fort * Sripada Yellampalli Project * Singareni Thermal Power Plant * Gadpur Jungle Safari",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mancherial"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-ts-mahabub-nagar-221b03b3",
    "kind": "region",
