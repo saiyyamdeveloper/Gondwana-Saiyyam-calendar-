@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-20T00:33:23+00:00",
-  "progress": "111/885 done, 141 blocked"
+  "updated": "2026-10-21T00:02:27+00:00",
+  "progress": "111/885 done, 147 blocked"
  },
  "jobs": [
   {
@@ -1923,32 +1923,44 @@
   {
    "unit": "district:ts/nagarkurnool",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-21T00:02:23+00:00"
   },
   {
    "unit": "district:ts/nalgonda",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-21T00:02:24+00:00"
   },
   {
    "unit": "district:ts/narayanpet",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-21T00:02:25+00:00"
   },
   {
    "unit": "district:ts/nirmal",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-21T00:02:26+00:00"
   },
   {
    "unit": "district:ts/nizamabad",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-21T00:02:26+00:00"
   },
   {
    "unit": "district:ts/peddapalli",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-21T00:02:27+00:00"
   },
   {
    "unit": "district:ts/rajanna-sircilla",

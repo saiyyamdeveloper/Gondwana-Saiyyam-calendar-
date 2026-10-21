@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q9422"
  },
- "checked_at": "2026-10-20T00:33:37.218385+00:00",
+ "checked_at": "2026-10-21T00:02:36.456478+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"इंद्रभूति गौतम\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"मत्स्य राज\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {

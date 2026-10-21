@@ -5,9 +5,9 @@
   "death": null,
   "source": null
  },
- "checked_at": "2026-10-20T00:33:44.049111+00:00",
- "score": 0,
- "verdict": "nosource",
+ "checked_at": "2026-10-21T00:02:44.381571+00:00",
+ "score": 20,
+ "verdict": "weak",
  "checks": [
   {
    "name": "wiki-hi",
@@ -18,10 +18,10 @@
   },
   {
    "name": "wiki-en",
-   "ok": false,
-   "pts": 0,
-   "detail": "कोई पृष्ठ नहीं मिला",
-   "link": ""
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Lower Manair Dam; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Lower%20Manair%20Dam"
   },
   {
    "name": "wikidata",
@@ -46,7 +46,9 @@
   }
  ],
  "conflicts": [],
- "sources_domains": [],
- "summary_hi": "Lower Manair Dam (LMD): स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+ "sources_domains": [
+  "en.wikipedia.org"
+ ],
+ "summary_hi": "Lower Manair Dam (LMD): स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
  "llm": null
 }

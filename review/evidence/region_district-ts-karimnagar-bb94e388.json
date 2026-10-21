@@ -5,7 +5,7 @@
   "death": null,
   "source": null
  },
- "checked_at": "2026-10-20T00:33:44.585347+00:00",
+ "checked_at": "2026-10-21T00:02:45.887909+00:00",
  "score": 0,
  "verdict": "nosource",
  "checks": [
@@ -14,6 +14,13 @@
    "ok": false,
    "pts": 0,
    "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Kessock Bridge\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
