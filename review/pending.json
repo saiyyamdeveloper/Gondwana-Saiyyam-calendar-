@@ -1,9 +1,129 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-21T00:02:55.256860+00:00"
+  "updated": "2026-10-22T00:08:14.011756+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-ts-vikarabad-1099166a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Musi River",
+   "subtitle": "तेलंगाना · Vikarabad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/vikarabad",
+   "payload": {
+    "unit_id": "district:ts/vikarabad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Musi River",
+     "desc_hi": "f> * Ananthagiri Hills , a forest region which is home to the Anantha Padmanabha Swamy temple. and the source of the Musi River (India)|Musi River . Telangana's second largest tuberculosis hospital is located in the Ananthagiri hills. *Kotepally dam which is situated around 20 ki",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Vikarabad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-vikarabad-48aa1f7a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ananthagiri Hills",
+   "subtitle": "तेलंगाना · Vikarabad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/vikarabad",
+   "payload": {
+    "unit_id": "district:ts/vikarabad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ananthagiri Hills",
+     "desc_hi": "al. <!-- Previous ref removed as an attack page --></ref> * Ananthagiri Hills , a forest region which is home to the Anantha Padmanabha Swamy temple. and the source of the Musi River (India)|Musi River . Telangana's second largest tuberculosis hospital is located in the Ananthagi",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Vikarabad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-vikarabad-90f2d302",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ananthagiri Temple",
+   "subtitle": "तेलंगाना · Vikarabad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/vikarabad",
+   "payload": {
+    "unit_id": "district:ts/vikarabad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ananthagiri Temple",
+     "desc_hi": "Ananthagiri, vujarabad district|Ananthagiri forest, in the vikarabad district of Telangana , India . * Ananthagiri Temple in the village of Ananthagiri, 6&nbsp;km far from Vikarabad Mandal. <!-- Previous ref removed as an attack page --></ref> * Ananthagiri Hills , a forest r",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Vikarabad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-vikarabad-38758937",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Telangana",
+   "subtitle": "तेलंगाना · Vikarabad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/vikarabad",
+   "payload": {
+    "unit_id": "district:ts/vikarabad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Telangana",
+     "desc_hi": "G 9371.jpg|250px|thumb|View of Ananthagiri, vujarabad district|Ananthagiri forest, in the vikarabad district of Telangana , India . * Ananthagiri Temple in the village of Ananthagiri, 6&nbsp;km far from Vikarabad Mandal. <!-- Previous ref removed as an attack page --></ref> *",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Vikarabad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-ts-medak-85994347",
    "kind": "region",

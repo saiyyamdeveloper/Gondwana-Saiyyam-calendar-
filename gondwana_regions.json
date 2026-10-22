@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-10-21T00:02:27+00:00",
+  "updated": "2026-10-22T00:07:44+00:00",
   "coverage": {
    "states": 29,
    "districts": 776,
-   "tehsils": 80,
+   "tehsils": 116,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -9259,6 +9259,294 @@
    "parent": "district:ts/mahabub-nagar",
    "entities": [],
    "source_admin": "https://en.wikipedia.org/wiki/Mahabub_Nagar_district"
+  },
+  {
+   "id": "tehsil:ts/rajanna-sircilla/boinpalli",
+   "level": "tehsil",
+   "name_hi": "Boinpalli",
+   "parent": "district:ts/rajanna-sircilla",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Rajanna_Sircilla"
+  },
+  {
+   "id": "tehsil:ts/rajanna-sircilla/chandurthi",
+   "level": "tehsil",
+   "name_hi": "Chandurthi",
+   "parent": "district:ts/rajanna-sircilla",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Rajanna_Sircilla"
+  },
+  {
+   "id": "tehsil:ts/rajanna-sircilla/ellanthakunta",
+   "level": "tehsil",
+   "name_hi": "Ellanthakunta",
+   "parent": "district:ts/rajanna-sircilla",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Rajanna_Sircilla"
+  },
+  {
+   "id": "tehsil:ts/rajanna-sircilla/gambhiraopet",
+   "level": "tehsil",
+   "name_hi": "Gambhiraopet",
+   "parent": "district:ts/rajanna-sircilla",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Rajanna_Sircilla"
+  },
+  {
+   "id": "tehsil:ts/rajanna-sircilla/konaraopeta",
+   "level": "tehsil",
+   "name_hi": "Konaraopeta",
+   "parent": "district:ts/rajanna-sircilla",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Rajanna_Sircilla"
+  },
+  {
+   "id": "tehsil:ts/rajanna-sircilla/mandal",
+   "level": "tehsil",
+   "name_hi": "mandal",
+   "parent": "district:ts/rajanna-sircilla",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Rajanna_Sircilla"
+  },
+  {
+   "id": "tehsil:ts/rajanna-sircilla/mustabad",
+   "level": "tehsil",
+   "name_hi": "Mustabad",
+   "parent": "district:ts/rajanna-sircilla",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Rajanna_Sircilla"
+  },
+  {
+   "id": "tehsil:ts/rajanna-sircilla/revenue-division",
+   "level": "tehsil",
+   "name_hi": "revenue division",
+   "parent": "district:ts/rajanna-sircilla",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Rajanna_Sircilla"
+  },
+  {
+   "id": "tehsil:ts/rajanna-sircilla/sircilla",
+   "level": "tehsil",
+   "name_hi": "Sircilla",
+   "parent": "district:ts/rajanna-sircilla",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Rajanna_Sircilla"
+  },
+  {
+   "id": "tehsil:ts/rajanna-sircilla/vemulawada",
+   "level": "tehsil",
+   "name_hi": "Vemulawada",
+   "parent": "district:ts/rajanna-sircilla",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Rajanna_Sircilla"
+  },
+  {
+   "id": "tehsil:ts/rajanna-sircilla/yellareddipet",
+   "level": "tehsil",
+   "name_hi": "Yellareddipet",
+   "parent": "district:ts/rajanna-sircilla",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Rajanna_Sircilla"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/amangal",
+   "level": "tehsil",
+   "name_hi": "Amangal",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/balapur",
+   "level": "tehsil",
+   "name_hi": "Balapur",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/chevella",
+   "level": "tehsil",
+   "name_hi": "Chevella",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/chowderguda",
+   "level": "tehsil",
+   "name_hi": "Chowderguda",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/farooqnagar",
+   "level": "tehsil",
+   "name_hi": "Farooqnagar",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/gandipet",
+   "level": "tehsil",
+   "name_hi": "Gandipet",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/hayathnagar",
+   "level": "tehsil",
+   "name_hi": "Hayathnagar",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/ibrahimpatnam",
+   "level": "tehsil",
+   "name_hi": "Ibrahimpatnam",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/kadthal",
+   "level": "tehsil",
+   "name_hi": "Kadthal",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/kandukur",
+   "level": "tehsil",
+   "name_hi": "Kandukur",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/keshampeta",
+   "level": "tehsil",
+   "name_hi": "Keshampeta",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/kondurg",
+   "level": "tehsil",
+   "name_hi": "Kondurg",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/kothur",
+   "level": "tehsil",
+   "name_hi": "Kothur",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/madgul",
+   "level": "tehsil",
+   "name_hi": "Madgul",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/maheswaram",
+   "level": "tehsil",
+   "name_hi": "Maheswaram",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/manchal",
+   "level": "tehsil",
+   "name_hi": "Manchal",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/mandal",
+   "level": "tehsil",
+   "name_hi": "mandal",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/moinabad",
+   "level": "tehsil",
+   "name_hi": "Moinabad",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/rajendranagar",
+   "level": "tehsil",
+   "name_hi": "Rajendranagar",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/revenue-divisions",
+   "level": "tehsil",
+   "name_hi": "revenue divisions",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/serilingampally",
+   "level": "tehsil",
+   "name_hi": "Serilingampally",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/shamshabad",
+   "level": "tehsil",
+   "name_hi": "Shamshabad",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/shankarpalle",
+   "level": "tehsil",
+   "name_hi": "Shankarpalle",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/talakondapalle",
+   "level": "tehsil",
+   "name_hi": "Talakondapalle",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
+  },
+  {
+   "id": "tehsil:ts/ranga-reddy/yacharam",
+   "level": "tehsil",
+   "name_hi": "Yacharam",
+   "parent": "district:ts/ranga-reddy",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Ranga_Reddy"
   }
  ]
 }
