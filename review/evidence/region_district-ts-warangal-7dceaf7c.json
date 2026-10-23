@@ -1,0 +1,55 @@
+{
+ "id": "region:district-ts-warangal-7dceaf7c",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q3523584"
+ },
+ "checked_at": "2026-10-23T00:04:50.805237+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Sammakka Saralamma Jatara; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Sammakka%20Saralamma%20Jatara"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q3523584",
+   "link": "https://www.wikidata.org/wiki/Q3523584"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "Sammakka Saralamma Jatara: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "llm": null
+}

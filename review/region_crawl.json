@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-22T00:07:44+00:00",
-  "progress": "114/921 done, 150 blocked"
+  "updated": "2026-10-23T00:04:47+00:00",
+  "progress": "115/921 done, 155 blocked"
  },
  "jobs": [
   {
@@ -2011,32 +2011,46 @@
   {
    "unit": "district:ts/wanaparthy",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-23T00:04:44+00:00"
   },
   {
    "unit": "district:ts/warangal",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-10-23T00:04:44+00:00",
+   "children": 0,
+   "entities_queued": 4,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "tehsil:ts/bhadradri-kothagudem/aswapuram",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-23T00:04:45+00:00"
   },
   {
    "unit": "tehsil:ts/bhadradri-kothagudem/bhadrachalam",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-23T00:04:45+00:00"
   },
   {
    "unit": "tehsil:ts/bhadradri-kothagudem/burgampahad",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-23T00:04:46+00:00"
   },
   {
    "unit": "tehsil:ts/bhadradri-kothagudem/cherla",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-23T00:04:47+00:00"
   },
   {
    "unit": "tehsil:ts/bhadradri-kothagudem/collector",
@@ -2245,6 +2259,186 @@
   },
   {
    "unit": "tehsil:ts/mahabub-nagar/revenue-divisions",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/rajanna-sircilla/boinpalli",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/rajanna-sircilla/chandurthi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/rajanna-sircilla/ellanthakunta",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/rajanna-sircilla/gambhiraopet",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/rajanna-sircilla/konaraopeta",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/rajanna-sircilla/mandal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/rajanna-sircilla/mustabad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/rajanna-sircilla/revenue-division",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/rajanna-sircilla/sircilla",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/rajanna-sircilla/vemulawada",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/rajanna-sircilla/yellareddipet",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/amangal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/balapur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/chevella",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/chowderguda",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/farooqnagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/gandipet",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/hayathnagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/ibrahimpatnam",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/kadthal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/kandukur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/keshampeta",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/kondurg",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/kothur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/madgul",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/maheswaram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/manchal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/mandal",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/moinabad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/rajendranagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/revenue-divisions",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/serilingampally",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/shamshabad",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/shankarpalle",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/talakondapalle",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ts/ranga-reddy/yacharam",
    "task": "mine",
    "status": "pending"
   },
@@ -5110,186 +5304,6 @@
   },
   {
    "unit": "district:hr/yamunanagar",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/rajanna-sircilla/revenue-division",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/rajanna-sircilla/sircilla",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/rajanna-sircilla/vemulawada",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/rajanna-sircilla/mandal",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/rajanna-sircilla/gambhiraopet",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/rajanna-sircilla/chandurthi",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/rajanna-sircilla/yellareddipet",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/rajanna-sircilla/konaraopeta",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/rajanna-sircilla/boinpalli",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/rajanna-sircilla/mustabad",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/rajanna-sircilla/ellanthakunta",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/revenue-divisions",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/mandal",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/chevella",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/amangal",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/gandipet",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/chowderguda",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/moinabad",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/hayathnagar",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/balapur",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/rajendranagar",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/farooqnagar",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/ibrahimpatnam",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/kandukur",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/serilingampally",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/keshampeta",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/shankarpalle",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/madgul",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/kadthal",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/shamshabad",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/kondurg",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/manchal",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/maheswaram",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/kothur",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/yacharam",
-   "task": "mine",
-   "status": "pending"
-  },
-  {
-   "unit": "tehsil:ts/ranga-reddy/talakondapalle",
    "task": "mine",
    "status": "pending"
   }

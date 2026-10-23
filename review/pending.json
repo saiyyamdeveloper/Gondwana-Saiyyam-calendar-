@@ -1,9 +1,129 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-22T00:08:14.011756+00:00"
+  "updated": "2026-10-23T00:05:16.868554+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-ts-warangal-f03f83ad",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Medaram",
+   "subtitle": "तेलंगाना · Warangal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/warangal",
+   "payload": {
+    "unit_id": "district:ts/warangal",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Medaram",
+     "desc_hi": "ivals are, Sammakka Saralamma Jatara (Medaram Jatara), a popular religious congregation in the honour of Goddess at Medaram of Warangal district .",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Warangal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-warangal-7dceaf7c",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Sammakka Saralamma Jatara",
+   "subtitle": "तेलंगाना · Warangal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/warangal",
+   "payload": {
+    "unit_id": "district:ts/warangal",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Sammakka Saralamma Jatara",
+     "desc_hi": "Bathukamma-declared-state-festivals/articleshow/36677768.cms|archive-date=28 February 2019}}</ref> Other festivals are, Sammakka Saralamma Jatara (Medaram Jatara), a popular religious congregation in the honour of Goddess at Medaram of Warangal district .",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Warangal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-warangal-31f21581",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Bonalu",
+   "subtitle": "तेलंगाना · Warangal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/warangal",
+   "payload": {
+    "unit_id": "district:ts/warangal",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Bonalu",
+     "desc_hi": "kamma-festivities-to-begin-from-sept-24/article6432089.ece|archive-date=29 February 2020}}</ref> Along with Bathukamma, Bonalu is also declared as a state festival on 15 June 2014. {{cite news|url=https://timesofindia.indiatimes.com/city/hyderabad/Bonalu-Bathukamma-declared-state",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Warangal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ts-warangal-dde164ac",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Bathukamma",
+   "subtitle": "तेलंगाना · Warangal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ts/warangal",
+   "payload": {
+    "unit_id": "district:ts/warangal",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Bathukamma",
+     "desc_hi": "Festivals in the city include, a floral festival of Bathukamma being celebrated by women of the city, worshiping the goddess with different flowers for nine days. {{cite news|url=https://www.thehindu.com/news/national/telangana/Bathukamma-Festivities-in-the-air/article60344769.ec",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Warangal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-ts-vikarabad-1099166a",
    "kind": "region",
