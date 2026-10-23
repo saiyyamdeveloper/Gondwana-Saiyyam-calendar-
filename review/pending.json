@@ -1,9 +1,69 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-10-23T00:05:16.868554+00:00"
+  "updated": "2026-10-23T23:55:33.512383+00:00"
  },
  "queue": [
+  {
+   "id": "region:tehsil-ts-bhadradri-kothagudem-collector-eaa5033c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Collector Parish, Argyle",
+   "subtitle": "तेलंगाना · Bhadradri Kothagudem · collector",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:ts/bhadradri-kothagudem/collector",
+   "payload": {
+    "unit_id": "tehsil:ts/bhadradri-kothagudem/collector",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Collector Parish, Argyle",
+     "desc_hi": "* Collector, New South Wales , a town in Australia * Collector Parish, Argyle , New South Wales, Australia",
+     "sources": [
+      "https://en.wikipedia.org/wiki/collector"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-ts-bhadradri-kothagudem-collector-d99047ad",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Collector, New South Wales",
+   "subtitle": "तेलंगाना · Bhadradri Kothagudem · collector",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:ts/bhadradri-kothagudem/collector",
+   "payload": {
+    "unit_id": "tehsil:ts/bhadradri-kothagudem/collector",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Collector, New South Wales",
+     "desc_hi": "* Collector, New South Wales , a town in Australia * Collector Parish, Argyle , New South Wales, Australia",
+     "sources": [
+      "https://en.wikipedia.org/wiki/collector"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-10-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-ts-warangal-f03f83ad",
    "kind": "region",
