@@ -3,9 +3,9 @@
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q104554559"
+  "source": "wikidata:Q112610162"
  },
- "checked_at": "2026-10-24T23:32:50.044385+00:00",
+ "checked_at": "2026-10-25T23:27:57.384295+00:00",
  "score": 15,
  "verdict": "weak",
  "checks": [
@@ -34,8 +34,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q104554559",
-   "link": "https://www.wikidata.org/wiki/Q104554559"
+   "detail": "आइटम Q112610162",
+   "link": "https://www.wikidata.org/wiki/Q112610162"
   },
   {
    "name": "internal-sources",

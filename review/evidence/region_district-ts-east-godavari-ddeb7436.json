@@ -3,17 +3,31 @@
  "dates": {
   "birth": null,
   "death": null,
-  "source": null
+  "source": "wikidata:Q79683945"
  },
- "checked_at": "2026-10-24T23:32:57.507130+00:00",
- "score": 0,
- "verdict": "nosource",
+ "checked_at": "2026-10-25T23:28:10.795261+00:00",
+ "score": 15,
+ "verdict": "weak",
  "checks": [
+  {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"भारत में पर्यटन\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
   {
    "name": "wiki-hi",
    "ok": false,
    "pts": 0,
    "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Old Godavari Bridge\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -25,10 +39,10 @@
   },
   {
    "name": "wikidata",
-   "ok": false,
-   "pts": 0,
-   "detail": "विकिडेटा आइटम नहीं मिला",
-   "link": ""
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q79683945",
+   "link": "https://www.wikidata.org/wiki/Q79683945"
   },
   {
    "name": "internal-sources",
@@ -46,7 +60,9 @@
   }
  ],
  "conflicts": [],
- "sources_domains": [],
- "summary_hi": "Havelock Bridge: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+ "sources_domains": [
+  "wikidata.org"
+ ],
+ "summary_hi": "Havelock Bridge: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
  "llm": null
 }
