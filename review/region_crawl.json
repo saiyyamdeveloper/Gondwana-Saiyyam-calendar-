@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-25T23:27:43+00:00",
-  "progress": "116/921 done, 172 blocked"
+  "updated": "2026-10-27T00:41:23+00:00",
+  "progress": "116/921 done, 178 blocked"
  },
  "jobs": [
   {
@@ -2182,32 +2182,44 @@
   {
    "unit": "tehsil:ts/east-godavari/kovvur-division",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-10-27T00:41:17+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/mandals",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-27T00:41:18+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/mandapeta",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-27T00:41:18+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/nallajerla",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-27T00:41:20+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/nidadavolu",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-27T00:41:21+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/peravali",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-27T00:41:22+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/rajamahendravaram-division",
