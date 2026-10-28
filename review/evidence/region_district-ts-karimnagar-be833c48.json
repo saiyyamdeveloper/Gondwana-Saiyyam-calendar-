@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q1670755"
  },
- "checked_at": "2026-10-27T00:41:47.083007+00:00",
+ "checked_at": "2026-10-28T00:40:08.475860+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -27,8 +27,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Chief Minister of Tamil Nadu; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Chief%20Minister%20of%20Tamil%20Nadu"
+   "detail": "पृष्ठ मिला: Chief minister (India); सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Chief%20minister%20%28India%29"
   },
   {
    "name": "wikidata",

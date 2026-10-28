@@ -1,11 +1,11 @@
 {
  "id": "region:district-ts-warangal-f03f83ad",
  "dates": {
-  "birth": "1979-08-07",
+  "birth": null,
   "death": null,
-  "source": "wikidata:Q6982231"
+  "source": "wikidata:Q6805144"
  },
- "checked_at": "2026-10-27T00:41:27.029351+00:00",
+ "checked_at": "2026-10-28T00:39:41.434093+00:00",
  "score": 15,
  "verdict": "weak",
  "checks": [
@@ -34,15 +34,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q6982231",
-   "link": "https://www.wikidata.org/wiki/Q6982231"
-  },
-  {
-   "name": "wd-birth_date",
-   "ok": true,
-   "pts": 0,
-   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 1979-08-07",
-   "link": ""
+   "detail": "आइटम Q6805144",
+   "link": "https://www.wikidata.org/wiki/Q6805144"
   },
   {
    "name": "internal-sources",
@@ -63,6 +56,6 @@
  "sources_domains": [
   "wikidata.org"
  ],
- "summary_hi": "Medaram: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, wd-birth_date।",
+ "summary_hi": "Medaram: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
  "llm": null
 }

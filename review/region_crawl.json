@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-27T00:41:23+00:00",
-  "progress": "116/921 done, 178 blocked"
+  "updated": "2026-10-28T00:39:37+00:00",
+  "progress": "116/921 done, 184 blocked"
  },
  "jobs": [
   {
@@ -2224,32 +2224,44 @@
   {
    "unit": "tehsil:ts/east-godavari/rajamahendravaram-division",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-10-28T00:39:32+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/rajamahendravaram-rural",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-10-28T00:39:33+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/rajamahendravaram-urban",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-10-28T00:39:34+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/rajanagaram",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-28T00:39:35+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/rangampeta",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-28T00:39:36+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/rayavaram",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-10-28T00:39:36+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/seethanagaram",
