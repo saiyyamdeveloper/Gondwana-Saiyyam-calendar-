@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-28T00:39:37+00:00",
-  "progress": "116/921 done, 184 blocked"
+  "updated": "2026-10-29T01:09:17+00:00",
+  "progress": "116/921 done, 190 blocked"
  },
  "jobs": [
   {
@@ -2266,32 +2266,44 @@
   {
    "unit": "tehsil:ts/east-godavari/seethanagaram",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-29T01:09:12+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/tallapudi",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-29T01:09:13+00:00"
   },
   {
    "unit": "tehsil:ts/east-godavari/undrajavaram",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-29T01:09:14+00:00"
   },
   {
    "unit": "tehsil:ts/jayashankar-bhupalpally/mandal",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-29T01:09:14+00:00"
   },
   {
    "unit": "tehsil:ts/jayashankar-bhupalpally/revenue-divisions",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-10-29T01:09:16+00:00"
   },
   {
    "unit": "tehsil:ts/jogulamba-gadwal/revenue-division",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-29T01:09:17+00:00"
   },
   {
    "unit": "tehsil:ts/mahabub-nagar/addakal",
