@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-10-30T01:16:10+00:00",
-  "progress": "116/921 done, 196 blocked"
+  "updated": "2026-10-31T00:57:46+00:00",
+  "progress": "116/921 done, 202 blocked"
  },
  "jobs": [
   {
@@ -2350,32 +2350,44 @@
   {
    "unit": "tehsil:ts/rajanna-sircilla/boinpalli",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-31T00:57:42+00:00"
   },
   {
    "unit": "tehsil:ts/rajanna-sircilla/chandurthi",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-31T00:57:43+00:00"
   },
   {
    "unit": "tehsil:ts/rajanna-sircilla/ellanthakunta",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-31T00:57:44+00:00"
   },
   {
    "unit": "tehsil:ts/rajanna-sircilla/gambhiraopet",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-31T00:57:44+00:00"
   },
   {
    "unit": "tehsil:ts/rajanna-sircilla/konaraopeta",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-31T00:57:45+00:00"
   },
   {
    "unit": "tehsil:ts/rajanna-sircilla/mandal",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-10-31T00:57:45+00:00"
   },
   {
    "unit": "tehsil:ts/rajanna-sircilla/mustabad",
