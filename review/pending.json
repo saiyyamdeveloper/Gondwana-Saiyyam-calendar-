@@ -1,9 +1,39 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-01T00:19:38.676953+00:00"
+  "updated": "2026-11-02T00:59:03.585232+00:00"
  },
  "queue": [
+  {
+   "id": "region:tehsil-ts-ranga-reddy-chevella-10685649",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Chevella Mandal",
+   "subtitle": "तेलंगाना · Ranga Reddy · Chevella",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:ts/ranga-reddy/chevella",
+   "payload": {
+    "unit_id": "tehsil:ts/ranga-reddy/chevella",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Chevella Mandal",
+     "desc_hi": "Holi, Sri Ramanavami, Shivaratri, Ugadi, Ganesh Chaturthi, Bakrid, Ramzan, which are the major festivals celebrated in Chevella Mandal .",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chevella"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-02",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:tehsil-ts-bhadradri-kothagudem-collector-eaa5033c",
    "kind": "region",

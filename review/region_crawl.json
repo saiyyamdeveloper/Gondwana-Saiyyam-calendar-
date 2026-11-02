@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-11-01T00:19:00+00:00",
-  "progress": "116/921 done, 208 blocked"
+  "updated": "2026-11-02T00:58:26+00:00",
+  "progress": "117/921 done, 213 blocked"
  },
  "jobs": [
   {
@@ -2434,32 +2434,45 @@
   {
    "unit": "tehsil:ts/ranga-reddy/balapur",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-11-02T00:58:22+00:00"
   },
   {
    "unit": "tehsil:ts/ranga-reddy/chevella",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-02T00:58:23+00:00",
+   "children": 0,
+   "entities_queued": 1
   },
   {
    "unit": "tehsil:ts/ranga-reddy/chowderguda",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-02T00:58:23+00:00"
   },
   {
    "unit": "tehsil:ts/ranga-reddy/farooqnagar",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-02T00:58:24+00:00"
   },
   {
    "unit": "tehsil:ts/ranga-reddy/gandipet",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-02T00:58:25+00:00"
   },
   {
    "unit": "tehsil:ts/ranga-reddy/hayathnagar",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-02T00:58:25+00:00"
   },
   {
    "unit": "tehsil:ts/ranga-reddy/ibrahimpatnam",
