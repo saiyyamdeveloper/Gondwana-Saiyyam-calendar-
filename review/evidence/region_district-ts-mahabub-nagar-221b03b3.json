@@ -3,24 +3,17 @@
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q112610162"
+  "source": null
  },
- "checked_at": "2026-11-03T03:00:46.819355+00:00",
- "score": 15,
- "verdict": "weak",
+ "checked_at": "2026-11-03T03:01:51.666406+00:00",
+ "score": 0,
+ "verdict": "nosource",
  "checks": [
   {
    "name": "wiki-hi",
    "ok": false,
    "pts": 0,
    "detail": "कोई पृष्ठ नहीं मिला",
-   "link": ""
-  },
-  {
-   "name": "wiki-en-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"Pārśvanātha\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
@@ -32,10 +25,10 @@
   },
   {
    "name": "wikidata",
-   "ok": true,
-   "pts": 15,
-   "detail": "आइटम Q112610162",
-   "link": "https://www.wikidata.org/wiki/Q112610162"
+   "ok": false,
+   "pts": 0,
+   "detail": "विकिडेटा आइटम नहीं मिला",
+   "link": ""
   },
   {
    "name": "internal-sources",
@@ -53,9 +46,7 @@
   }
  ],
  "conflicts": [],
- "sources_domains": [
-  "wikidata.org"
- ],
- "summary_hi": "Parsvanatha: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+ "sources_domains": [],
+ "summary_hi": "Parsvanatha: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
  "llm": null
 }
