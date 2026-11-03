@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-11-02T00:58:26+00:00",
-  "progress": "117/921 done, 213 blocked"
+  "updated": "2026-11-03T03:00:21+00:00",
+  "progress": "117/921 done, 219 blocked"
  },
  "jobs": [
   {
@@ -2477,32 +2477,44 @@
   {
    "unit": "tehsil:ts/ranga-reddy/ibrahimpatnam",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-03T03:00:17+00:00"
   },
   {
    "unit": "tehsil:ts/ranga-reddy/kadthal",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-03T03:00:17+00:00"
   },
   {
    "unit": "tehsil:ts/ranga-reddy/kandukur",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-03T03:00:19+00:00"
   },
   {
    "unit": "tehsil:ts/ranga-reddy/keshampeta",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-03T03:00:20+00:00"
   },
   {
    "unit": "tehsil:ts/ranga-reddy/kondurg",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-03T03:00:20+00:00"
   },
   {
    "unit": "tehsil:ts/ranga-reddy/kothur",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-03T03:00:21+00:00"
   },
   {
    "unit": "tehsil:ts/ranga-reddy/madgul",
