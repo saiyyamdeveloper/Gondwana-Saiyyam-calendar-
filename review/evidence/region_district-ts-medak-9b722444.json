@@ -3,10 +3,10 @@
  "dates": {
   "birth": null,
   "death": null,
-  "source": null
+  "source": "wikidata:Q6805001"
  },
- "checked_at": "2026-11-03T03:01:50.626357+00:00",
- "score": 20,
+ "checked_at": "2026-11-04T01:34:28.146041+00:00",
+ "score": 35,
  "verdict": "weak",
  "checks": [
   {
@@ -32,10 +32,10 @@
   },
   {
    "name": "wikidata",
-   "ok": false,
-   "pts": 0,
-   "detail": "विकिडेटा आइटम नहीं मिला",
-   "link": ""
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q6805001",
+   "link": "https://www.wikidata.org/wiki/Q6805001"
   },
   {
    "name": "internal-sources",
@@ -54,8 +54,9 @@
  ],
  "conflicts": [],
  "sources_domains": [
-  "en.wikipedia.org"
+  "en.wikipedia.org",
+  "wikidata.org"
  ],
- "summary_hi": "Medak Fort: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
+ "summary_hi": "Medak Fort: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
  "llm": null
 }
