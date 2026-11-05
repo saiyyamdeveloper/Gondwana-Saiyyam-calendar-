@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-11-04T01:34:20+00:00",
-  "progress": "117/921 done, 231 blocked"
+  "updated": "2026-11-05T01:41:57+00:00",
+  "progress": "120/935 done, 234 blocked"
  },
  "jobs": [
   {
@@ -2603,32 +2603,48 @@
   {
    "unit": "district:mh/ahmednagar",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-05T01:41:54+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mh/akola",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-05T01:41:55+00:00"
   },
   {
    "unit": "district:mh/amravati",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-05T01:41:55+00:00",
+   "children": 4,
+   "entities_queued": 0
   },
   {
    "unit": "district:mh/beed",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-05T01:41:56+00:00",
+   "children": 10,
+   "entities_queued": 0
   },
   {
    "unit": "district:mh/bhandara",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-05T01:41:56+00:00"
   },
   {
    "unit": "district:mh/buldhana",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-05T01:41:57+00:00"
   },
   {
    "unit": "district:mh/chandrapur",
@@ -5462,6 +5478,76 @@
   },
   {
    "unit": "district:hr/yamunanagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/amravati/cricket",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/amravati/first-class",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/amravati/vidarbha-cricket-team",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/amravati/rajasthan-cricket-team",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/beed/ambajogai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/beed/ashti",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/beed/dharur",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/beed/georai",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/beed/kaij",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/beed/majalgaon",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/beed/parli-vaijnath",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/beed/patoda",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/beed/wadwani",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:mh/beed/shirur-kasar",
    "task": "mine",
    "status": "pending"
   }

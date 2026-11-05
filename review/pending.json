@@ -1,9 +1,249 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-04T01:34:41.290081+00:00"
+  "updated": "2026-11-05T01:43:13.728145+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mh-ahmednagar-175229e6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shani",
+   "subtitle": "महाराष्ट्र · Ahmednagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/ahmednagar",
+   "payload": {
+    "unit_id": "district:mh/ahmednagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shani",
+     "desc_hi": "130906134350/http://mpkv.mah.nic.in/ |url-status=dead }} Official website</ref> * Shani Shingnapur - Temple of Lord Shani * Shri Munjaba Tample, Ukkadgaon – In Shrigonda Taluka about 60&nbsp;km from Ahmednagar main city. It has four big statue of Ganapati, Mahadev (Shankar), Vish",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ahmednagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-05",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-ahmednagar-7094b557",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shani Shingnapur",
+   "subtitle": "महाराष्ट्र · Ahmednagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/ahmednagar",
+   "payload": {
+    "unit_id": "district:mh/ahmednagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shani Shingnapur",
+     "desc_hi": "ive-url=https://web.archive.org/web/20130906134350/http://mpkv.mah.nic.in/ |url-status=dead }} Official website</ref> * Shani Shingnapur - Temple of Lord Shani * Shri Munjaba Tample, Ukkadgaon – In Shrigonda Taluka about 60&nbsp;km from Ahmednagar main city. It has four big statu",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ahmednagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-05",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-ahmednagar-905aeebf",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Amartithi",
+   "subtitle": "महाराष्ट्र · Ahmednagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/ahmednagar",
+   "payload": {
+    "unit_id": "district:mh/ahmednagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Amartithi",
+     "desc_hi": "d , the Samadhi of Shri Avatar Meher Baba , is a place of pilgrimage, particularly on the anniversary of his death, Amartithi . His later residence was at Meherazad (near Pimpalgaon village), approximately nine miles north of Ahmednagar. {{Cite web |url=http://mpkv.mah.nic.in/ |t",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ahmednagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-05",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-ahmednagar-779a7039",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Meherabad",
+   "subtitle": "महाराष्ट्र · Ahmednagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/ahmednagar",
+   "payload": {
+    "unit_id": "district:mh/ahmednagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Meherabad",
+     "desc_hi": "260px|Samadhi of Meher Baba File:Pimpari Gavali Deep CCT 1.jpg|thumb|Deep continuous contour trenches (CCT) * Meherabad , the Samadhi of Shri Avatar Meher Baba , is a place of pilgrimage, particularly on the anniversary of his death, Amartithi . His later residence was at Meheraz",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ahmednagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-05",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-ahmednagar-8e18b453",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Deep continuous contour trenches (CCT)",
+   "subtitle": "महाराष्ट्र · Ahmednagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/ahmednagar",
+   "payload": {
+    "unit_id": "district:mh/ahmednagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Deep continuous contour trenches (CCT)",
+     "desc_hi": "ntrance.jpg|thumb| Ahmednagar fort entrance File:Meher Baba Samadhi2.jpg|thumb|260px|Samadhi of Meher Baba File:Pimpari Gavali Deep CCT 1.jpg|thumb|Deep continuous contour trenches (CCT) * Meherabad , the Samadhi of Shri Avatar Meher Baba , is a place of pilgrimage, particularly ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ahmednagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-05",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-ahmednagar-07f30aa8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|260px|Samadhi of [[Meher Baba",
+   "subtitle": "महाराष्ट्र · Ahmednagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/ahmednagar",
+   "payload": {
+    "unit_id": "district:mh/ahmednagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|260px|Samadhi of [[Meher Baba",
+     "desc_hi": "at Khan's Dome.png|thumb|Salabat Khan's tomb File:Ahmednagar fort entrance.jpg|thumb| Ahmednagar fort entrance File:Meher Baba Samadhi2.jpg|thumb|260px|Samadhi of Meher Baba File:Pimpari Gavali Deep CCT 1.jpg|thumb|Deep continuous contour trenches (CCT) * Meherabad , the Samadhi ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ahmednagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-05",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-ahmednagar-fd44c6de",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|[[Ahmednagar fort",
+   "subtitle": "महाराष्ट्र · Ahmednagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/ahmednagar",
+   "payload": {
+    "unit_id": "district:mh/ahmednagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|[[Ahmednagar fort",
+     "desc_hi": "File:Salabat Khan's Dome.png|thumb|Salabat Khan's tomb File:Ahmednagar fort entrance.jpg|thumb| Ahmednagar fort entrance File:Meher Baba Samadhi2.jpg|thumb|260px|Samadhi of Meher Baba File:Pimpari Gavali Deep CCT 1.jpg|thumb|Deep continuous contour trenches (CCT) * Meheraba",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ahmednagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-05",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-ahmednagar-3aeded3f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Salabat Khan's tomb",
+   "subtitle": "महाराष्ट्र · Ahmednagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/ahmednagar",
+   "payload": {
+    "unit_id": "district:mh/ahmednagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Salabat Khan's tomb",
+     "desc_hi": "File:Salabat Khan's Dome.png|thumb|Salabat Khan's tomb File:Ahmednagar fort entrance.jpg|thumb| Ahmednagar fort entrance File:Meher Baba Samadhi2.jpg|thumb|260px|Samadhi of Meher Baba File:Pimpari Gavali Deep CCT 1.jpg|",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ahmednagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-05",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:tehsil-ts-ranga-reddy-chevella-10685649",
    "kind": "region",

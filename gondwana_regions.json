@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-11-04T01:34:20+00:00",
+  "updated": "2026-11-05T01:41:58+00:00",
   "coverage": {
    "states": 29,
    "districts": 776,
-   "tehsils": 116,
+   "tehsils": 130,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -8763,6 +8763,118 @@
    "parent": "district:jh/west-singhbhum",
    "entities": [],
    "source_admin": "https://en.wikipedia.org/wiki/West_Singhbhum"
+  },
+  {
+   "id": "tehsil:mh/amravati/cricket",
+   "level": "tehsil",
+   "name_hi": "cricket",
+   "parent": "district:mh/amravati",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Amravati"
+  },
+  {
+   "id": "tehsil:mh/amravati/first-class",
+   "level": "tehsil",
+   "name_hi": "first-class",
+   "parent": "district:mh/amravati",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Amravati"
+  },
+  {
+   "id": "tehsil:mh/amravati/rajasthan-cricket-team",
+   "level": "tehsil",
+   "name_hi": "Rajasthan cricket team",
+   "parent": "district:mh/amravati",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Amravati"
+  },
+  {
+   "id": "tehsil:mh/amravati/vidarbha-cricket-team",
+   "level": "tehsil",
+   "name_hi": "Vidarbha cricket team",
+   "parent": "district:mh/amravati",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Amravati"
+  },
+  {
+   "id": "tehsil:mh/beed/ambajogai",
+   "level": "tehsil",
+   "name_hi": "Ambajogai",
+   "parent": "district:mh/beed",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Beed"
+  },
+  {
+   "id": "tehsil:mh/beed/ashti",
+   "level": "tehsil",
+   "name_hi": "Ashti",
+   "parent": "district:mh/beed",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Beed"
+  },
+  {
+   "id": "tehsil:mh/beed/dharur",
+   "level": "tehsil",
+   "name_hi": "Dharur",
+   "parent": "district:mh/beed",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Beed"
+  },
+  {
+   "id": "tehsil:mh/beed/georai",
+   "level": "tehsil",
+   "name_hi": "Georai",
+   "parent": "district:mh/beed",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Beed"
+  },
+  {
+   "id": "tehsil:mh/beed/kaij",
+   "level": "tehsil",
+   "name_hi": "Kaij",
+   "parent": "district:mh/beed",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Beed"
+  },
+  {
+   "id": "tehsil:mh/beed/majalgaon",
+   "level": "tehsil",
+   "name_hi": "Majalgaon",
+   "parent": "district:mh/beed",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Beed"
+  },
+  {
+   "id": "tehsil:mh/beed/parli-vaijnath",
+   "level": "tehsil",
+   "name_hi": "Parli Vaijnath",
+   "parent": "district:mh/beed",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Beed"
+  },
+  {
+   "id": "tehsil:mh/beed/patoda",
+   "level": "tehsil",
+   "name_hi": "Patoda",
+   "parent": "district:mh/beed",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Beed"
+  },
+  {
+   "id": "tehsil:mh/beed/shirur-kasar",
+   "level": "tehsil",
+   "name_hi": "Shirur Kasar",
+   "parent": "district:mh/beed",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Beed"
+  },
+  {
+   "id": "tehsil:mh/beed/wadwani",
+   "level": "tehsil",
+   "name_hi": "Wadwani",
+   "parent": "district:mh/beed",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Beed"
   },
   {
    "id": "tehsil:mp/agar-malwa/agar-malwa",
