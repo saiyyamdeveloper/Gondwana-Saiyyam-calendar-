@@ -3571,28 +3571,28 @@
  "region:district-ts-mahabub-nagar-221b03b3": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:07.499398+00:00",
+  "checked_at": "2026-11-06T01:43:50.509032+00:00",
   "summary_hi": "Parsvanatha: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-ts-mahabub-nagar-ee40b464": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:08.921339+00:00",
+  "checked_at": "2026-11-06T01:43:51.210739+00:00",
   "summary_hi": "Deccan Chronicle: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-mahabub-nagar-1b339061": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:09.358432+00:00",
+  "checked_at": "2026-11-06T01:43:51.831880+00:00",
   "summary_hi": "Mahavira: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-mahabub-nagar-6209f257": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:09.822744+00:00",
+  "checked_at": "2026-11-06T01:43:52.599052+00:00",
   "summary_hi": "Uttar Pradesh: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
@@ -3690,197 +3690,253 @@
  "region:district-ts-medak-85994347": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-11-05T01:43:01.716498+00:00",
+  "checked_at": "2026-11-06T01:43:44.854146+00:00",
   "summary_hi": "alt=Manjeera River|thumb|Manjeera River: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-ts-medak-ab16f8fc": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:02.205162+00:00",
+  "checked_at": "2026-11-06T01:43:45.526690+00:00",
   "summary_hi": "Hindu: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-medak-e99b62de": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:02.550801+00:00",
+  "checked_at": "2026-11-06T01:43:46.076630+00:00",
   "summary_hi": "Kuchanpally: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-medak-9b722444": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:03.419675+00:00",
+  "checked_at": "2026-11-06T01:43:46.653751+00:00",
   "summary_hi": "Medak Fort: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-medak-e7e6fe32": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:04.379128+00:00",
+  "checked_at": "2026-11-06T01:43:47.347892+00:00",
   "summary_hi": "Medak Cathedral: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-medak-a4b772bb": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:04.838570+00:00",
+  "checked_at": "2026-11-06T01:43:48.004477+00:00",
   "summary_hi": "Pocharam Wildlife Sanctuary: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-mancherial-01bcdc67": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:05.790709+00:00",
+  "checked_at": "2026-11-06T01:43:48.697744+00:00",
   "summary_hi": "Singareni Thermal Power Plant: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-mancherial-ee586633": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:06.258919+00:00",
+  "checked_at": "2026-11-06T01:43:49.421348+00:00",
   "summary_hi": "Sripada Yellampalli Project: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-mancherial-0f85e081": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:07.111339+00:00",
+  "checked_at": "2026-11-06T01:43:49.984308+00:00",
   "summary_hi": "Gandhari khilla: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-vikarabad-1099166a": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:42:59.833198+00:00",
+  "checked_at": "2026-11-06T01:43:42.420011+00:00",
   "summary_hi": "Musi River: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-vikarabad-48aa1f7a": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:00.319145+00:00",
+  "checked_at": "2026-11-06T01:43:43.036320+00:00",
   "summary_hi": "Ananthagiri Hills: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-vikarabad-90f2d302": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:00.863589+00:00",
+  "checked_at": "2026-11-06T01:43:43.648295+00:00",
   "summary_hi": "Ananthagiri Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-vikarabad-38758937": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:43:01.368844+00:00",
+  "checked_at": "2026-11-06T01:43:44.367039+00:00",
   "summary_hi": "Telangana: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-warangal-f03f83ad": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:42:58.205708+00:00",
+  "checked_at": "2026-11-06T01:43:39.829247+00:00",
   "summary_hi": "Medaram: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-ts-warangal-7dceaf7c": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:42:58.623577+00:00",
+  "checked_at": "2026-11-06T01:43:40.509591+00:00",
   "summary_hi": "Sammakka Saralamma Jatara: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-warangal-31f21581": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:42:58.972864+00:00",
+  "checked_at": "2026-11-06T01:43:41.113020+00:00",
   "summary_hi": "Bonalu: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-ts-warangal-dde164ac": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:42:59.379718+00:00",
+  "checked_at": "2026-11-06T01:43:41.726730+00:00",
   "summary_hi": "Bathukamma: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-ts-bhadradri-kothagudem-collector-eaa5033c": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:42:57.254454+00:00",
+  "checked_at": "2026-11-06T01:43:38.513452+00:00",
   "summary_hi": "Collector Parish, Argyle: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-ts-bhadradri-kothagudem-collector-d99047ad": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:42:57.869181+00:00",
+  "checked_at": "2026-11-06T01:43:39.261780+00:00",
   "summary_hi": "Collector, New South Wales: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-ts-ranga-reddy-chevella-10685649": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:42:56.782647+00:00",
+  "checked_at": "2026-11-06T01:43:37.790001+00:00",
   "summary_hi": "Chevella Mandal: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mh-ahmednagar-175229e6": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:42:52.776530+00:00",
+  "checked_at": "2026-11-06T01:43:32.861890+00:00",
   "summary_hi": "Shani: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mh-ahmednagar-7094b557": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:42:54.334611+00:00",
+  "checked_at": "2026-11-06T01:43:33.477405+00:00",
   "summary_hi": "Shani Shingnapur: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mh-ahmednagar-905aeebf": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:42:54.685638+00:00",
+  "checked_at": "2026-11-06T01:43:34.139395+00:00",
   "summary_hi": "Amartithi: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-mh-ahmednagar-779a7039": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-05T01:42:55.043758+00:00",
+  "checked_at": "2026-11-06T01:43:34.742609+00:00",
   "summary_hi": "Meherabad: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mh-ahmednagar-8e18b453": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-11-05T01:42:55.387882+00:00",
+  "checked_at": "2026-11-06T01:43:35.279509+00:00",
   "summary_hi": "thumb|Deep continuous contour trenches (CCT): स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-mh-ahmednagar-07f30aa8": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-11-05T01:42:55.716407+00:00",
+  "checked_at": "2026-11-06T01:43:35.753574+00:00",
   "summary_hi": "thumb|260px|Samadhi of [[Meher Baba: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-mh-ahmednagar-fd44c6de": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-11-05T01:42:56.046010+00:00",
+  "checked_at": "2026-11-06T01:43:36.269951+00:00",
   "summary_hi": "thumb|[[Ahmednagar fort: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-mh-ahmednagar-3aeded3f": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-11-05T01:42:56.395588+00:00",
+  "checked_at": "2026-11-06T01:43:36.651956+00:00",
   "summary_hi": "thumb|Salabat Khan's tomb: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-mh-chandrapur-4db2afd9": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-06T01:43:26.963802+00:00",
+  "summary_hi": "murti: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mh-chandrapur-175229e6": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-06T01:43:27.605426+00:00",
+  "summary_hi": "Shani: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mh-chandrapur-763b8741": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-06T01:43:28.303730+00:00",
+  "summary_hi": "coconut: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mh-chandrapur-3e0aefb9": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-06T01:43:29.953613+00:00",
+  "summary_hi": "puja: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mh-chandrapur-16d36436": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-06T01:43:30.594633+00:00",
+  "summary_hi": "Hanuman: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-mh-chandrapur-e6d59f09": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-06T01:43:31.209525+00:00",
+  "summary_hi": "Ganesh: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date।",
+  "n_sources": 2
+ },
+ "region:district-mh-chandrapur-c1e60e35": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-11-06T01:43:31.814892+00:00",
+  "summary_hi": "Mandir: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-mh-chandrapur-78d22a41": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-11-06T01:43:32.264467+00:00",
+  "summary_hi": "thumb|Mahakali Mandir: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  }
 }

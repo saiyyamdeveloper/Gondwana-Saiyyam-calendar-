@@ -1,9 +1,249 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-05T01:43:13.728145+00:00"
+  "updated": "2026-11-06T01:43:52.603569+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mh-chandrapur-4db2afd9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "murti",
+   "subtitle": "महाराष्ट्र · Chandrapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/chandrapur",
+   "payload": {
+    "unit_id": "district:mh/chandrapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "murti",
+     "desc_hi": "d puja décor are sold near the temple. Near the rear entrance there is a Shani temple. Within the temple are two murti s (idols). One associated with Lingam|Shiv Ling is a standing idol decorated with red, yellow and orange cloths. The other is in a reclining position below the g",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandrapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-chandrapur-175229e6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shani",
+   "subtitle": "महाराष्ट्र · Chandrapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/chandrapur",
+   "payload": {
+    "unit_id": "district:mh/chandrapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shani",
+     "desc_hi": "t , flowers and cloth. Items for home décor and puja décor are sold near the temple. Near the rear entrance there is a Shani temple. Within the temple are two murti s (idols). One associated with Lingam|Shiv Ling is a standing idol decorated with red, yellow and orange cloths. Th",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandrapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-chandrapur-763b8741",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "coconut",
+   "subtitle": "महाराष्ट्र · Chandrapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/chandrapur",
+   "payload": {
+    "unit_id": "district:mh/chandrapur",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "coconut",
+     "desc_hi": "an temple. At the two temple entrances, there are small shops for puja (Hinduism)|puja (worship) supplies such as coconut , flowers and cloth. Items for home décor and puja décor are sold near the temple. Near the rear entrance there is a Shani temple. Within the temple are two m",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandrapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-chandrapur-3e0aefb9",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "puja",
+   "subtitle": "महाराष्ट्र · Chandrapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/chandrapur",
+   "payload": {
+    "unit_id": "district:mh/chandrapur",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "puja",
+     "desc_hi": "dir there is a small Ganesh temple and a Hanuman temple. At the two temple entrances, there are small shops for puja (Hinduism)|puja (worship) supplies such as coconut , flowers and cloth. Items for home décor and puja décor are sold near the temple. Near the rear entrance there ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandrapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-chandrapur-16d36436",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Hanuman",
+   "subtitle": "महाराष्ट्र · Chandrapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/chandrapur",
+   "payload": {
+    "unit_id": "district:mh/chandrapur",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Hanuman",
+     "desc_hi": "ntury. Tuesdays are a particularly significant day to visit. Within the mandir there is a small Ganesh temple and a Hanuman temple. At the two temple entrances, there are small shops for puja (Hinduism)|puja (worship) supplies such as coconut , flowers and cloth. Items for home d",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandrapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-chandrapur-e6d59f09",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Ganesh",
+   "subtitle": "महाराष्ट्र · Chandrapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/chandrapur",
+   "payload": {
+    "unit_id": "district:mh/chandrapur",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Ganesh",
+     "desc_hi": "nasty around the 16th century. Tuesdays are a particularly significant day to visit. Within the mandir there is a small Ganesh temple and a Hanuman temple. At the two temple entrances, there are small shops for puja (Hinduism)|puja (worship) supplies such as coconut , flowers and",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandrapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-chandrapur-c1e60e35",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mandir",
+   "subtitle": "महाराष्ट्र · Chandrapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/chandrapur",
+   "payload": {
+    "unit_id": "district:mh/chandrapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mandir",
+     "desc_hi": "g |Pathanpura gate of Chandrapur Fort }} ;Mahakali Mandir File:Mahakali temple.JPG|thumb|Mahakali Mandir Mahakali Mandir (temple) is an often frequented temple in Chandrapur. The ancient temple was built by Dhundya Ram Sah, of Gond Dynasty around the 16th century. Tuesdays are a ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandrapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-chandrapur-78d22a41",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Mahakali Mandir",
+   "subtitle": "महाराष्ट्र · Chandrapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/chandrapur",
+   "payload": {
+    "unit_id": "district:mh/chandrapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Mahakali Mandir",
+     "desc_hi": "pur Fort |File:Pathanpura gate and fort wall Chandrapur 01.jpg |Pathanpura gate of Chandrapur Fort }} ;Mahakali Mandir File:Mahakali temple.JPG|thumb|Mahakali Mandir Mahakali Mandir (temple) is an often frequented temple in Chandrapur. The ancient temple was built by Dhundya Ram ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chandrapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-06",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mh-ahmednagar-175229e6",
    "kind": "region",
