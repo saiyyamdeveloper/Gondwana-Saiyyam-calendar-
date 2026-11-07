@@ -1,9 +1,609 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-06T01:43:52.603569+00:00"
+  "updated": "2026-11-07T01:04:10.669040+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mh-nagpur-3db24767",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Buddhism",
+   "subtitle": "महाराष्ट्र · Nagpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/nagpur",
+   "payload": {
+    "unit_id": "district:mh/nagpur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Buddhism",
+     "desc_hi": "visit Deekshabhoomi to mark the Refuge in Buddhism|conversion ceremony of Ambedkar and his followers in Nagpur into Buddhism that took place on 14 October 1956. {{cite web |url=http://www.sangharakshita.org/_books/Ambedkar_and_Buddhism.pdf |title=Ambedkar.vp |website=Sangharakshi",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-nagpur-2c06acf1",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "conversion ceremony",
+   "subtitle": "महाराष्ट्र · Nagpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/nagpur",
+   "payload": {
+    "unit_id": "district:mh/nagpur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "conversion ceremony",
+     "desc_hi": "n the day of Vijayadashami , i.e. Dussehra, followers of B. R. Ambedkar|Ambedkar visit Deekshabhoomi to mark the Refuge in Buddhism|conversion ceremony of Ambedkar and his followers in Nagpur into Buddhism that took place on 14 October 1956. {{cite web |url=http://www.sangharaksh",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-nagpur-81b4c312",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Ambedkar",
+   "subtitle": "महाराष्ट्र · Nagpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/nagpur",
+   "payload": {
+    "unit_id": "district:mh/nagpur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Ambedkar",
+     "desc_hi": "ref name=\"Deekshabhoomi largest hollow stupa\"/> Every year on the day of Vijayadashami , i.e. Dussehra, followers of B. R. Ambedkar|Ambedkar visit Deekshabhoomi to mark the Refuge in Buddhism|conversion ceremony of Ambedkar and his followers in Nagpur into Buddhism that took plac",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-nagpur-5acc58ae",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Vijayadashami",
+   "subtitle": "महाराष्ट्र · Nagpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/nagpur",
+   "payload": {
+    "unit_id": "district:mh/nagpur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Vijayadashami",
+     "desc_hi": "ment|Buddhist movement is located in Nagpur. Every year on the day of Vijayadashami , i.e. Dussehra, followers of B. R. Ambedkar|Ambedkar visit Deekshabhoomi to mark the Refuge in Buddhism|conversion ceremony of Ambedkar and his followers in Nagpur into Buddhism that took place o",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-nagpur-e34db2c2",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Buddhist movement",
+   "subtitle": "महाराष्ट्र · Nagpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/nagpur",
+   "payload": {
+    "unit_id": "district:mh/nagpur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Buddhist movement",
+     "desc_hi": ":Diksha Bhumi.jpg|thumb|Deeksha Bhoomi Deekshabhoomi , the largest hollow stupa , and an important place of the Dalit Buddhist movement|Buddhist movement is located in Nagpur. Every year on the day of Vijayadashami , i.e. Dussehra, followers of B. R. Ambedkar|Ambedkar visit Deeks",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-nagpur-f227aef2",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "stupa",
+   "subtitle": "महाराष्ट्र · Nagpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/nagpur",
+   "payload": {
+    "unit_id": "district:mh/nagpur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "stupa",
+     "desc_hi": "File:Diksha Bhumi.jpg|thumb|Deeksha Bhoomi Deekshabhoomi , the largest hollow stupa , and an important place of the Dalit Buddhist movement|Buddhist movement is located in Nagpur. Every year on the day of Vijayadashami , i.e. Dussehra, followers of B. R. Amb",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-nagpur-8ebf92ad",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Deekshabhoomi",
+   "subtitle": "महाराष्ट्र · Nagpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/nagpur",
+   "payload": {
+    "unit_id": "district:mh/nagpur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Deekshabhoomi",
+     "desc_hi": "File:Diksha Bhumi.jpg|thumb|Deeksha Bhoomi Deekshabhoomi , the largest hollow stupa , and an important place of the Dalit Buddhist movement|Buddhist movement is located in Nagpur. Every year on the day of Vijayadashami , i",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-nagpur-77e68281",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "thumb|Deeksha Bhoomi",
+   "subtitle": "महाराष्ट्र · Nagpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/nagpur",
+   "payload": {
+    "unit_id": "district:mh/nagpur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "thumb|Deeksha Bhoomi",
+     "desc_hi": "File:Diksha Bhumi.jpg|thumb|Deeksha Bhoomi Deekshabhoomi , the largest hollow stupa , and an important place of the Dalit Buddhist movement|Buddhist movement is located in Nagpur.<ref name=\"Deekshabhoomi largest hollow stupa\"/",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-latur-3b3cb532",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Virat Hanuman Temple",
+   "subtitle": "महाराष्ट्र · Latur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/latur",
+   "payload": {
+    "unit_id": "district:mh/latur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Virat Hanuman Temple",
+     "desc_hi": "(8th century) File:Buddha Garden - Latur.jpg|thumb|Buddha statue at Buddha Garden Temple in Latur, Maharashtra File:Virat Hanuman Mandir Latur.jpg|thumb|Virat Hanuman Temple",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Latur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-latur-062dd695",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dantidurga",
+   "subtitle": "महाराष्ट्र · Latur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/latur",
+   "payload": {
+    "unit_id": "district:mh/latur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dantidurga",
+     "desc_hi": "tue 25-09-19 10-54-34-765.jpg|thumb| Jain statue from an underground basadi, Latur, commissioned during the reign of Dantidurga (8th century) File:Buddha Garden - Latur.jpg|thumb|Buddha statue at Buddha Garden Temple in Latur, Maharashtra File:Virat Hanuman Mandir Latur.jpg|thumb",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Latur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-latur-4cbad9fa",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|[[Jain",
+   "subtitle": "महाराष्ट्र · Latur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/latur",
+   "payload": {
+    "unit_id": "district:mh/latur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|[[Jain",
+     "desc_hi": "File:Ganj Golai.jpg|thumb|Ganj Golai File:Dantidurga (8th century) Jain Statue 25-09-19 10-54-34-765.jpg|thumb| Jain statue from an underground basadi, Latur, commissioned during the reign of Dantidurga (8th century) File:Buddha Garden - Latur.jpg|thumb|Buddha sta",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Latur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-latur-384d26da",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Ganj Golai",
+   "subtitle": "महाराष्ट्र · Latur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/latur",
+   "payload": {
+    "unit_id": "district:mh/latur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Ganj Golai",
+     "desc_hi": "File:Ganj Golai.jpg|thumb|Ganj Golai File:Dantidurga (8th century) Jain Statue 25-09-19 10-54-34-765.jpg|thumb| Jain statue from an underground basadi, Latur, commissioned during the reign of Dantidurga (8th century) File:B",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Latur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-kolhapur-6f0b43d0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "chhatrapati",
+   "subtitle": "महाराष्ट्र · Kolhapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/kolhapur",
+   "payload": {
+    "unit_id": "district:mh/kolhapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "chhatrapati",
+     "desc_hi": "ert|85|ft|m}} idol of the Lord Ganesh at the Chinmaya Mission (Top-Sambhapur). The Kolhapur Maybach car of the chhatrapati s of Kolhapur is displayed to the public during the annual Dusshera procession.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kolhapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-kolhapur-5ef9bece",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chinmaya Mission",
+   "subtitle": "महाराष्ट्र · Kolhapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/kolhapur",
+   "payload": {
+    "unit_id": "district:mh/kolhapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chinmaya Mission",
+     "desc_hi": "le complex * Rankala Lake * The Tara Rani equestrian statue * An idol of the Lord Ganesh at the Chinmaya Mission (Top-Sambhapur). The Kolhapur Maybach car of the chhatrapati s of Kolhapur is displayed to the public during the annual Dusshera procession.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kolhapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-kolhapur-e6d59f09",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ganesh",
+   "subtitle": "महाराष्ट्र · Kolhapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/kolhapur",
+   "payload": {
+    "unit_id": "district:mh/kolhapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ganesh",
+     "desc_hi": "* Temblai temple complex * Rankala Lake * The Tara Rani equestrian statue * An idol of the Lord Ganesh at the Chinmaya Mission (Top-Sambhapur). The Kolhapur Maybach car of the chhatrapati s of Kolhapur is displayed to the public during the annual Dusshera procession.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kolhapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-kolhapur-af78583a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Temblai",
+   "subtitle": "महाराष्ट्र · Kolhapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/kolhapur",
+   "payload": {
+    "unit_id": "district:mh/kolhapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Temblai",
+     "desc_hi": "ba Temple, Kolhapur * Mahalakshmi Temple, Kolhapur * Jyotiba Temple * Panhala Fort *Kaneri Math *New Palace * Temblai temple complex * Rankala Lake * The Tara Rani equestrian statue * An idol of the Lord Ganesh at the Chinmaya Mission (Top-Sambhapur). The Kolhapur Maybach car of ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kolhapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-kolhapur-a3545108",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Panhala Fort",
+   "subtitle": "महाराष्ट्र · Kolhapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/kolhapur",
+   "payload": {
+    "unit_id": "district:mh/kolhapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Panhala Fort",
+     "desc_hi": "temple kolhapur,maharashtra.jpg|thumb|Jyotiba Temple, Kolhapur * Mahalakshmi Temple, Kolhapur * Jyotiba Temple * Panhala Fort *Kaneri Math *New Palace * Temblai temple complex * Rankala Lake * The Tara Rani equestrian statue * An idol of the Lord Ganesh at the Chinmaya Mission (T",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kolhapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-kolhapur-4bdbb7f1",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jyotiba Temple",
+   "subtitle": "महाराष्ट्र · Kolhapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/kolhapur",
+   "payload": {
+    "unit_id": "district:mh/kolhapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jyotiba Temple",
+     "desc_hi": "ude: File:Jotiba temple kolhapur,maharashtra.jpg|thumb|Jyotiba Temple, Kolhapur * Mahalakshmi Temple, Kolhapur * Jyotiba Temple * Panhala Fort *Kaneri Math *New Palace * Temblai temple complex * Rankala Lake * The Tara Rani equestrian statue * An idol of the Lord Ganesh at the Ch",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kolhapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-kolhapur-d4b35c03",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mahalakshmi Temple, Kolhapur",
+   "subtitle": "महाराष्ट्र · Kolhapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/kolhapur",
+   "payload": {
+    "unit_id": "district:mh/kolhapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mahalakshmi Temple, Kolhapur",
+     "desc_hi": "</ref> Kolhapur's attractions include: File:Jotiba temple kolhapur,maharashtra.jpg|thumb|Jyotiba Temple, Kolhapur * Mahalakshmi Temple, Kolhapur * Jyotiba Temple * Panhala Fort *Kaneri Math *New Palace * Temblai temple complex * Rankala Lake * The Tara Rani equestrian statue * An",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kolhapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-kolhapur-7cbbcf70",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Jyotiba Temple, Kolhapur",
+   "subtitle": "महाराष्ट्र · Kolhapur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/kolhapur",
+   "payload": {
+    "unit_id": "district:mh/kolhapur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Jyotiba Temple, Kolhapur",
+     "desc_hi": "SP.pdf |date=4 October 2013 }} Urban India government website, PDF document p10.</ref> Kolhapur's attractions include: File:Jotiba temple kolhapur,maharashtra.jpg|thumb|Jyotiba Temple, Kolhapur * Mahalakshmi Temple, Kolhapur * Jyotiba Temple * Panhala Fort *Kaneri Math *New Palac",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kolhapur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-07",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mh-chandrapur-4db2afd9",
    "kind": "region",
