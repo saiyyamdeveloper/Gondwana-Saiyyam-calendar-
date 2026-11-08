@@ -1,0 +1,55 @@
+{
+ "id": "region:district-mh-palghar-36c8075b",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q6386791"
+ },
+ "checked_at": "2026-11-08T00:51:12.652613+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Kelwa Beach; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Kelwa%20Beach"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q6386791",
+   "link": "https://www.wikidata.org/wiki/Q6386791"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "Kelwa Beach: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "llm": null
+}

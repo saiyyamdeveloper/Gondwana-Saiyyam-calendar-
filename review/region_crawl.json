@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-11-07T01:03:51+00:00",
-  "progress": "124/935 done, 242 blocked"
+  "updated": "2026-11-08T00:51:11+00:00",
+  "progress": "126/935 done, 246 blocked"
  },
  "jobs": [
   {
@@ -2741,32 +2741,48 @@
   {
    "unit": "district:mh/nanded",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-08T00:51:07+00:00"
   },
   {
    "unit": "district:mh/nandurbar",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-08T00:51:08+00:00"
   },
   {
    "unit": "district:mh/nashik",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-08T00:51:09+00:00"
   },
   {
    "unit": "district:mh/osmanabad",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-08T00:51:09+00:00",
+   "children": 0,
+   "entities_queued": 5,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mh/palghar",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-08T00:51:10+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:mh/parbhani",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-08T00:51:10+00:00"
   },
   {
    "unit": "district:mh/pune",

@@ -1,9 +1,399 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-07T01:04:10.669040+00:00"
+  "updated": "2026-11-08T00:51:44.417529+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mh-palghar-36c8075b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kelwa Beach",
+   "subtitle": "महाराष्ट्र · Palghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/palghar",
+   "payload": {
+    "unit_id": "district:mh/palghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kelwa Beach",
+     "desc_hi": "[Bhavangad Fort * Fort Vasai * Gambhirgad * Jivdani Mata temple * Kaldurg Fort * Kamandurg Fort * Kelwa Beach * Mahalakshmi Temple, Dahanu|Mahalakshmi Temple * Shirgaon Fort * Tandulwadi Fort * Vajreshwari hot water spring",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-palghar-8da07957",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kamandurg Fort",
+   "subtitle": "महाराष्ट्र · Palghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/palghar",
+   "payload": {
+    "unit_id": "district:mh/palghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kamandurg Fort",
+     "desc_hi": "* Arnala fort * Bhavangad Fort * Fort Vasai * Gambhirgad * Jivdani Mata temple * Kaldurg Fort * Kamandurg Fort * Kelwa Beach * Mahalakshmi Temple, Dahanu|Mahalakshmi Temple * Shirgaon Fort * Tandulwadi Fort * Vajreshwari hot water spring",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-palghar-51e6b90a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kaldurg Fort",
+   "subtitle": "महाराष्ट्र · Palghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/palghar",
+   "payload": {
+    "unit_id": "district:mh/palghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kaldurg Fort",
+     "desc_hi": "ical order ♦♦♦---> * Arnala fort * Bhavangad Fort * Fort Vasai * Gambhirgad * Jivdani Mata temple * Kaldurg Fort * Kamandurg Fort * Kelwa Beach * Mahalakshmi Temple, Dahanu|Mahalakshmi Temple * Shirgaon Fort * Tandulwadi Fort * Vajreshwari hot water spring",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-palghar-f4ccb176",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jivdani Mata",
+   "subtitle": "महाराष्ट्र · Palghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/palghar",
+   "payload": {
+    "unit_id": "district:mh/palghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jivdani Mata",
+     "desc_hi": "keep the list in alphabetical order ♦♦♦---> * Arnala fort * Bhavangad Fort * Fort Vasai * Gambhirgad * Jivdani Mata temple * Kaldurg Fort * Kamandurg Fort * Kelwa Beach * Mahalakshmi Temple, Dahanu|Mahalakshmi Temple * Shirgaon Fort * Tandulwadi Fort * Vajreshwari hot water sprin",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-palghar-a791ed52",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gambhirgad",
+   "subtitle": "महाराष्ट्र · Palghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/palghar",
+   "payload": {
+    "unit_id": "district:mh/palghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gambhirgad",
+     "desc_hi": "> <!---♦♦♦ Please keep the list in alphabetical order ♦♦♦---> * Arnala fort * Bhavangad Fort * Fort Vasai * Gambhirgad * Jivdani Mata temple * Kaldurg Fort * Kamandurg Fort * Kelwa Beach * Mahalakshmi Temple, Dahanu|Mahalakshmi Temple * Shirgaon Fort * Tandulwadi Fort * Vajreshwa",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-palghar-6d18f37c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Fort Vasai",
+   "subtitle": "महाराष्ट्र · Palghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/palghar",
+   "payload": {
+    "unit_id": "district:mh/palghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Fort Vasai",
+     "desc_hi": "Wikipedia ♦♦♦---> <!---♦♦♦ Please keep the list in alphabetical order ♦♦♦---> * Arnala fort * Bhavangad Fort * Fort Vasai * Gambhirgad * Jivdani Mata temple * Kaldurg Fort * Kamandurg Fort * Kelwa Beach * Mahalakshmi Temple, Dahanu|Mahalakshmi Temple * Shirgaon Fort * Tandulwadi ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-palghar-3b81c0bd",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bhavangad Fort",
+   "subtitle": "महाराष्ट्र · Palghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/palghar",
+   "payload": {
+    "unit_id": "district:mh/palghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bhavangad Fort",
+     "desc_hi": "rticle on the English Wikipedia ♦♦♦---> <!---♦♦♦ Please keep the list in alphabetical order ♦♦♦---> * Arnala fort * Bhavangad Fort * Fort Vasai * Gambhirgad * Jivdani Mata temple * Kaldurg Fort * Kamandurg Fort * Kelwa Beach * Mahalakshmi Temple, Dahanu|Mahalakshmi Temple * Shirg",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-palghar-e76e3913",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Arnala fort",
+   "subtitle": "महाराष्ट्र · Palghar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/palghar",
+   "payload": {
+    "unit_id": "district:mh/palghar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Arnala fort",
+     "desc_hi": "eady has its own article on the English Wikipedia ♦♦♦---> <!---♦♦♦ Please keep the list in alphabetical order ♦♦♦---> * Arnala fort * Bhavangad Fort * Fort Vasai * Gambhirgad * Jivdani Mata temple * Kaldurg Fort * Kamandurg Fort * Kelwa Beach * Mahalakshmi Temple, Dahanu|Mahalaks",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Palghar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-osmanabad-a379255f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gora Kumbhar",
+   "subtitle": "महाराष्ट्र · Osmanabad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/osmanabad",
+   "payload": {
+    "unit_id": "district:mh/osmanabad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gora Kumbhar",
+     "desc_hi": "istorical Bhimashankar Mandir. It is about from Osmanabad. * Ter, Maharashtra|Ter is the birthplace of Gora Kumbhar , having the historical Mandir. It is about from Osmanabad. *Shri Datta Mandir Sansthan Ruibhar, Osmanabad: There is a temple of Lord Dattatreya amidst the quiet, s",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Osmanabad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-osmanabad-5370a079",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ter",
+   "subtitle": "महाराष्ट्र · Osmanabad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/osmanabad",
+   "payload": {
+    "unit_id": "district:mh/osmanabad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ter",
+     "desc_hi": "Osmanabad *Kond is the village that has the historical Bhimashankar Mandir. It is about from Osmanabad. * Ter, Maharashtra|Ter is the birthplace of Gora Kumbhar , having the historical Mandir. It is about from Osmanabad. *Shri Datta Mandir Sansthan Ruibhar, Osmanabad: There is a ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Osmanabad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-osmanabad-594de23c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dhoki",
+   "subtitle": "महाराष्ट्र · Osmanabad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/osmanabad",
+   "payload": {
+    "unit_id": "district:mh/osmanabad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dhoki",
+     "desc_hi": "e of military architecture and engineering in Maharashtra and was erected by Mahmud Gawan Vazir of Bahamani Sultanate. * Dhoki, Osmanabad|Dhoki is a major village that is nearby Osmanabad *Kond is the village that has the historical Bhimashankar Mandir. It is about from Osmanabad",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Osmanabad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-osmanabad-bb018983",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Paranda Fort",
+   "subtitle": "महाराष्ट्र · Osmanabad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/osmanabad",
+   "payload": {
+    "unit_id": "district:mh/osmanabad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Paranda Fort",
+     "desc_hi": "ulajpur is home to Aai Tulja Bhavani, the most visited palace by devotees from all over Maharashtra. * Naldurg Fort * Paranda Fort : a protected monument by the Archaeological Survey Of India. It is an example of military architecture and engineering in Maharashtra and was erecte",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Osmanabad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-osmanabad-b39167ea",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Naldurg Fort",
+   "subtitle": "महाराष्ट्र · Osmanabad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/osmanabad",
+   "payload": {
+    "unit_id": "district:mh/osmanabad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Naldurg Fort",
+     "desc_hi": "*Tuljapur: Tulajpur is home to Aai Tulja Bhavani, the most visited palace by devotees from all over Maharashtra. * Naldurg Fort * Paranda Fort : a protected monument by the Archaeological Survey Of India. It is an example of military architecture and engineering in Maharashtra an",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Osmanabad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-08",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mh-nagpur-3db24767",
    "kind": "region",
