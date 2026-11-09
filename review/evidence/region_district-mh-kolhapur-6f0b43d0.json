@@ -3,9 +3,9 @@
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q235884"
+  "source": "wikidata:Q592942"
  },
- "checked_at": "2026-11-08T00:51:37.384098+00:00",
+ "checked_at": "2026-11-09T01:08:28.788604+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -34,8 +34,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q235884",
-   "link": "https://www.wikidata.org/wiki/Q235884"
+   "detail": "आइटम Q592942",
+   "link": "https://www.wikidata.org/wiki/Q592942"
   },
   {
    "name": "internal-sources",

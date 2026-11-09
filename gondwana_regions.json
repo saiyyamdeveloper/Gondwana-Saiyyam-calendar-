@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-11-08T00:51:11+00:00",
+  "updated": "2026-11-09T01:08:06+00:00",
   "coverage": {
    "states": 29,
    "districts": 776,
-   "tehsils": 130,
+   "tehsils": 134,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -8875,6 +8875,38 @@
    "parent": "district:mh/beed",
    "entities": [],
    "source_admin": "https://en.wikipedia.org/wiki/Beed"
+  },
+  {
+   "id": "tehsil:mh/raigad/municipal-corporation-s",
+   "level": "tehsil",
+   "name_hi": "Municipal Corporation(s)",
+   "parent": "district:mh/raigad",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Raigad_district"
+  },
+  {
+   "id": "tehsil:mh/raigad/municipal-councils",
+   "level": "tehsil",
+   "name_hi": "Municipal Councils",
+   "parent": "district:mh/raigad",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Raigad_district"
+  },
+  {
+   "id": "tehsil:mh/raigad/nagar-panchayats",
+   "level": "tehsil",
+   "name_hi": "Nagar Panchayats",
+   "parent": "district:mh/raigad",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Raigad_district"
+  },
+  {
+   "id": "tehsil:mh/raigad/towns",
+   "level": "tehsil",
+   "name_hi": "Towns",
+   "parent": "district:mh/raigad",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Raigad_district"
   },
   {
    "id": "tehsil:mp/agar-malwa/agar-malwa",

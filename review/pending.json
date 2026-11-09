@@ -1,9 +1,339 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-08T00:51:44.417529+00:00"
+  "updated": "2026-11-09T01:08:30.147181+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mh-sangli-8fe3dfa1",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Khanapur Wild Life Reserve Forest",
+   "subtitle": "महाराष्ट्र · Sangli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/sangli",
+   "payload": {
+    "unit_id": "district:mh/sangli",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Khanapur Wild Life Reserve Forest",
+     "desc_hi": "Sagareshwar Wildlife Sanctuary|Sagareshwar Wild Life Sanctuary * Chandoli National Park * Dandoba Hill Station * Khanapur Wild Life Reserve Forest * Panchayatan Temple , Sangli * Bagetil Ganapati Temple , Sangli * Kundal Jain Hill Temple , Palus, Sangli * Zari Parshwanath Hill Te",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sangli"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-sangli-def67957",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chandoli National Park",
+   "subtitle": "महाराष्ट्र · Sangli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/sangli",
+   "payload": {
+    "unit_id": "district:mh/sangli",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chandoli National Park",
+     "desc_hi": "Narshimhapur , Kole, Sangli * Yashwantrao Chavan Sagareshwar Wildlife Sanctuary|Sagareshwar Wild Life Sanctuary * Chandoli National Park * Dandoba Hill Station * Khanapur Wild Life Reserve Forest * Panchayatan Temple , Sangli * Bagetil Ganapati Temple , Sangli * Kundal Jain Hill ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sangli"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-sangli-c0187d91",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Sagareshwar Wild Life Sanctuary",
+   "subtitle": "महाराष्ट्र · Sangli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/sangli",
+   "payload": {
+    "unit_id": "district:mh/sangli",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Sagareshwar Wild Life Sanctuary",
+     "desc_hi": "he Ancient Shiva Temple , Sangli * Shreekshetra Audumbar|Audumbar , Sangli * Jwala Narshimhapur , Kole, Sangli * Yashwantrao Chavan Sagareshwar Wildlife Sanctuary|Sagareshwar Wild Life Sanctuary * Chandoli National Park * Dandoba Hill Station * Khanapur Wild Life Reserve Forest *",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sangli"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-sangli-58a49197",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jwala Narshimhapur",
+   "subtitle": "महाराष्ट्र · Sangli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/sangli",
+   "payload": {
+    "unit_id": "district:mh/sangli",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jwala Narshimhapur",
+     "desc_hi": ", Aravade, Tasgaon * Ramling Bet Bahe Ancient Shiva Temple , Sangli * Shreekshetra Audumbar|Audumbar , Sangli * Jwala Narshimhapur , Kole, Sangli * Yashwantrao Chavan Sagareshwar Wildlife Sanctuary|Sagareshwar Wild Life Sanctuary * Chandoli National Park * Dandoba Hill Station * ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sangli"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-sangli-60b42b6d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Audumbar",
+   "subtitle": "महाराष्ट्र · Sangli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/sangli",
+   "payload": {
+    "unit_id": "district:mh/sangli",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Audumbar",
+     "desc_hi": "aripur, Sangli * Sri Sri Radha Gopal Mandir , Aravade, Tasgaon * Ramling Bet Bahe Ancient Shiva Temple , Sangli * Shreekshetra Audumbar|Audumbar , Sangli * Jwala Narshimhapur , Kole, Sangli * Yashwantrao Chavan Sagareshwar Wildlife Sanctuary|Sagareshwar Wild Life Sanctuary * Chan",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sangli"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-sangli-9114a980",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ramling Bet Bahe Ancient Shiva Temple",
+   "subtitle": "महाराष्ट्र · Sangli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/sangli",
+   "payload": {
+    "unit_id": "district:mh/sangli",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ramling Bet Bahe Ancient Shiva Temple",
+     "desc_hi": "* Sangameshwar Shiva Temple , Haripur, Sangli * Sri Sri Radha Gopal Mandir , Aravade, Tasgaon * Ramling Bet Bahe Ancient Shiva Temple , Sangli * Shreekshetra Audumbar|Audumbar , Sangli * Jwala Narshimhapur , Kole, Sangli * Yashwantrao Chavan Sagareshwar Wildlife Sanctuary|Sagares",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sangli"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-sangli-b041207b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Sri Sri Radha Gopal Mandir",
+   "subtitle": "महाराष्ट्र · Sangli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/sangli",
+   "payload": {
+    "unit_id": "district:mh/sangli",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Sri Sri Radha Gopal Mandir",
+     "desc_hi": "* Sangameshwar Shiva Temple , Haripur, Sangli * Sri Sri Radha Gopal Mandir , Aravade, Tasgaon * Ramling Bet Bahe Ancient Shiva Temple , Sangli * Shreekshetra Audumbar|Audumbar , Sangli * Jwala Narshimhapur , Kole, Sangli * Yashwantrao Chavan Sagareshwar Wildlife Sanctuary|S",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sangli"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-sangli-a4d16f11",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Sangameshwar Shiva Temple",
+   "subtitle": "महाराष्ट्र · Sangli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/sangli",
+   "payload": {
+    "unit_id": "district:mh/sangli",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Sangameshwar Shiva Temple",
+     "desc_hi": "* Sangameshwar Shiva Temple , Haripur, Sangli * Sri Sri Radha Gopal Mandir , Aravade, Tasgaon * Ramling Bet Bahe Ancient Shiva Temple , Sangli * Shreekshetra Audumbar|Audumbar , Sangli * Jwala Narshimhapur , Kole, Sangli * Ya",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sangli"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-pune-49a1ab7b",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Jnana Prabodhini",
+   "subtitle": "महाराष्ट्र · Pune",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/pune",
+   "payload": {
+    "unit_id": "district:mh/pune",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Jnana Prabodhini",
+     "desc_hi": "pathaks has become a cultural identity of Pune with there being over 150 such groups operating in and around Pune. Jnana Prabodhini , a social organisation in Pune is widely accredited for founding the tradition of Dhol-Tasha pathaks . {{Cite news |date=3 September 2017 |first=Ai",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Pune"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-pune-3288a371",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Lokamanya Bal Gangadhar Tilak",
+   "subtitle": "महाराष्ट्र · Pune",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/pune",
+   "payload": {
+    "unit_id": "district:mh/pune",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Lokamanya Bal Gangadhar Tilak",
+     "desc_hi": "Ganesh Chaturthi is widely and publicly celebrated in Pune. Bal Gangadhar Tilak|Lokamanya Bal Gangadhar Tilak started the public celebration of the festival as a means to circumvent the colonial British government ban on Hindu gatherings through its anti-public assembly legislati",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Pune"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-pune-b553151a",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Ganesh Chaturthi",
+   "subtitle": "महाराष्ट्र · Pune",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/pune",
+   "payload": {
+    "unit_id": "district:mh/pune",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Ganesh Chaturthi",
+     "desc_hi": "Ganesh Chaturthi is widely and publicly celebrated in Pune. Bal Gangadhar Tilak|Lokamanya Bal Gangadhar Tilak started the public celebration of the festival as a means to circumvent the colonial British government ban on Hindu gathe",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Pune"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-09",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mh-palghar-36c8075b",
    "kind": "region",

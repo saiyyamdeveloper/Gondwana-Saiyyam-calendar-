@@ -1,0 +1,82 @@
+{
+ "id": "region:district-mh-pune-3288a371",
+ "dates": {
+  "birth": "1856-07-23",
+  "death": "1920-09-01",
+  "source": "wikidata:Q312555"
+ },
+ "checked_at": "2026-11-09T01:08:14.251304+00:00",
+ "score": 15,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"बाल गंगाधर तिलक\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Bal Gangadhar Tilak\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q312555",
+   "link": "https://www.wikidata.org/wiki/Q312555"
+  },
+  {
+   "name": "wd-birth_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "जन्म-तिथि (विकिडेटा, दिन-सटीक): 1856-07-23",
+   "link": ""
+  },
+  {
+   "name": "wd-death_date",
+   "ok": true,
+   "pts": 0,
+   "detail": "मृत्यु-तिथि (विकिडेटा, दिन-सटीक): 1920-09-01",
+   "link": ""
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "wikidata.org"
+ ],
+ "summary_hi": "Lokamanya Bal Gangadhar Tilak: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata, wd-birth_date, wd-death_date।",
+ "llm": null
+}
