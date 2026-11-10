@@ -5,7 +5,7 @@
   "death": null,
   "source": null
  },
- "checked_at": "2026-11-10T03:43:35.729833+00:00",
+ "checked_at": "2026-11-10T03:44:42.424869+00:00",
  "score": 0,
  "verdict": "nosource",
  "checks": [
@@ -14,13 +14,6 @@
    "ok": false,
    "pts": 0,
    "detail": "कोई पृष्ठ नहीं मिला",
-   "link": ""
-  },
-  {
-   "name": "wiki-en-mismatch",
-   "ok": false,
-   "pts": 0,
-   "detail": "top-hit \"Sangli\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {

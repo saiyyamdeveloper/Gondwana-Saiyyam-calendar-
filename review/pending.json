@@ -1,9 +1,249 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-10T03:43:52.160534+00:00"
+  "updated": "2026-11-10T03:44:45.357730+00:00"
  },
  "queue": [
+  {
+   "id": "region:tehsil-mh-beed-ambajogai-312cf263",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Elephanta Caves",
+   "subtitle": "महाराष्ट्र · Beed · Ambajogai",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/ambajogai",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/ambajogai",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Elephanta Caves",
+     "desc_hi": "08-15 |publisher=Madhyam Publication |isbn=978-81-902787-7-5 |language=mr}}</ref> ( Shivleni Caves Hattikhana Caves, Elephanta Caves , Bhu-char-nath,) ' </ref> ' File:",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ambajogai"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-ambajogai-76ce2dcc",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shivleni Caves",
+   "subtitle": "महाराष्ट्र · Beed · Ambajogai",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/ambajogai",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/ambajogai",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shivleni Caves",
+     "desc_hi": "AQBAJ |title=मंदिराचे गाव |date=2024-08-15 |publisher=Madhyam Publication |isbn=978-81-902787-7-5 |language=mr}}</ref> ( Shivleni Caves Hattikhana Caves, Elephanta Caves , Bhu-char-nath,) ' {{Cite web |title=Elephant Caves – Marathwada Tourism Development Chamber (MTDC) |url=http",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ambajogai"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-ambajogai-cc358786",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Balaji",
+   "subtitle": "महाराष्ट्र · Beed · Ambajogai",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/ambajogai",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/ambajogai",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Balaji",
+     "desc_hi": ". Rama|Ram Temple ' # 'Butteenath (The God of Herbal Remedies) ' # 'Shri Kshirsagareshwar Temple ' # 'Shri Venkateswara|Balaji Temple ' # 'Shri Kedareshwar Temple (Lord Mahadev Temple) ' # 'Shri Bhucharnath Temple ' {{Cite book |last=रापतवार |first=सुदर्शन |url=https://play.googl",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ambajogai"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-ambajogai-e5d284b6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ram",
+   "subtitle": "महाराष्ट्र · Beed · Ambajogai",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/ambajogai",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/ambajogai",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ram",
+     "desc_hi": "kai Devi Temple (Lahan Jogai) ' # 'Shri Khoparnath Temple ' # 'Thorale and Dhakate Devghar (Temple) ' # 'Shri. Rama|Ram Temple ' # 'Butteenath (The God of Herbal Remedies) ' # 'Shri Kshirsagareshwar Temple ' # 'Shri Venkateswara|Balaji Temple ' # 'Shri Kedareshwar Temple (Lord Ma",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ambajogai"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-ambajogai-af430e50",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dasopant",
+   "subtitle": "महाराष्ट्र · Beed · Ambajogai",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/ambajogai",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/ambajogai",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dasopant",
+     "desc_hi": "evi Temple ' # 'Adyakavi Mukundraj|Mukundaraj Swami Temple ' # 'Shri Bada Hanuman Temple ' # 'Sarvagna Dasopant Temple ' # 'Shri Renukai Devi Temple (Lahan Jogai) ' # 'Shri Khoparnath Temple ' # 'Thorale and Dhakate Devghar (Temple) ' # 'Shri. Rama|Ram Temple ' # 'Butteenath (The",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ambajogai"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-ambajogai-16d36436",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Hanuman",
+   "subtitle": "महाराष्ट्र · Beed · Ambajogai",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/ambajogai",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/ambajogai",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Hanuman",
+     "desc_hi": "'Shri Yogeshvari|Yogeshwari Devi Temple ' # 'Adyakavi Mukundraj|Mukundaraj Swami Temple ' # 'Shri Bada Hanuman Temple ' # 'Sarvagna Dasopant Temple ' # 'Shri Renukai Devi Temple (Lahan Jogai) ' # 'Shri Khoparnath Temple ' # 'Thorale and Dhakate Devghar (Temple) ' # 'Shri. Rama|Ra",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ambajogai"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-ambajogai-431e8ed6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mukundaraj",
+   "subtitle": "महाराष्ट्र · Beed · Ambajogai",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/ambajogai",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/ambajogai",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mukundaraj",
+     "desc_hi": "# 'Shri Yogeshvari|Yogeshwari Devi Temple ' # 'Adyakavi Mukundraj|Mukundaraj Swami Temple ' # 'Shri Bada Hanuman Temple ' # 'Sarvagna Dasopant Temple ' # 'Shri Renukai Devi Temple (Lahan Jogai) ' # 'Shri Khoparnath Temple ' # 'Thorale and Dhakate Devghar (Temple) ' #",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ambajogai"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-ambajogai-54c1db1e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Yogeshwari",
+   "subtitle": "महाराष्ट्र · Beed · Ambajogai",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/ambajogai",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/ambajogai",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Yogeshwari",
+     "desc_hi": "# 'Shri Yogeshvari|Yogeshwari Devi Temple ' # 'Adyakavi Mukundraj|Mukundaraj Swami Temple ' # 'Shri Bada Hanuman Temple ' # 'Sarvagna Dasopant Temple ' # 'Shri Renukai Devi Temple (Lahan Jogai) ' # 'Shri Khoparnath Te",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ambajogai"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mh-washim-39a14132",
    "kind": "region",
