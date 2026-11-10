@@ -1,9 +1,279 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-09T01:08:30.147181+00:00"
+  "updated": "2026-11-10T03:43:52.160534+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-mh-washim-39a14132",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Nagpur kingdom",
+   "subtitle": "महाराष्ट्र · Washim",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/washim",
+   "payload": {
+    "unit_id": "district:mh/washim",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Nagpur kingdom",
+     "desc_hi": "an of Sabaji Bhosle and Nagpur kingdom#Janoji, Madhoji I, and Raghoji II Bhonsle (1755–1816)|Janoji Bhosle (king of Nagpur kingdom ). He constructed the temple in 1779 AD when he was the Subhedar at the Thanas of Bangladesh|thana of Karanja Lad|Karanja . The shrine is much revere",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Washim"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-washim-4c674835",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Balaji Mandir",
+   "subtitle": "महाराष्ट्र · Washim",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/washim",
+   "payload": {
+    "unit_id": "district:mh/washim",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Balaji Mandir",
+     "desc_hi": "es and ashes of the dead whose last rites are performed on its bank. the tirtha is also used for swimming purposes. * ' Balaji Temple, Ketkawla|Balaji Mandir ' The temple of Balaji is a considerably old temple in the town and was constructed by Bhavani Kaloo who rose to be the di",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Washim"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-washim-b8c8ce83",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Land and Revenue Settlement",
+   "subtitle": "महाराष्ट्र · Washim",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/washim",
+   "payload": {
+    "unit_id": "district:mh/washim",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Land and Revenue Settlement",
+     "desc_hi": "a day i. e., once in the morning, then in the afternoon and last in the evening. According to the British Raj ] era Permanent Settlement|Land and Revenue Settlement report of 1871, the tank used to supply all the drinking water required by the town but it has since lost its purit",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Washim"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-washim-0505b9ed",
+   "kind": "region",
+   "subtype": "place",
+   "title": "British Raj",
+   "subtitle": "महाराष्ट्र · Washim",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/washim",
+   "payload": {
+    "unit_id": "district:mh/washim",
+    "entity": {
+     "kind": "place",
+     "name_hi": "British Raj",
+     "desc_hi": "ple changes thrice in a day i. e., once in the morning, then in the afternoon and last in the evening. According to the British Raj ] era Permanent Settlement|Land and Revenue Settlement report of 1871, the tank used to supply all the drinking water required by the town but it ha",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Washim"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-washim-69b457db",
+   "kind": "region",
+   "subtype": "place",
+   "title": "parashakti",
+   "subtitle": "महाराष्ट्र · Washim",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/washim",
+   "payload": {
+    "unit_id": "district:mh/washim",
+    "entity": {
+     "kind": "place",
+     "name_hi": "parashakti",
+     "desc_hi": "It is said that the colour of the Lingam#Nomenclature and significance|shalunka , base of lingam also called parashakti , placed in the temple changes thrice in a day i. e., once in the morning, then in the afternoon and last in the evening. According to the British Raj ] era Per",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Washim"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-washim-7fbac09d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "lingam",
+   "subtitle": "महाराष्ट्र · Washim",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/washim",
+   "payload": {
+    "unit_id": "district:mh/washim",
+    "entity": {
+     "kind": "place",
+     "name_hi": "lingam",
+     "desc_hi": "ddle of the reservoir. It is said that the colour of the Lingam#Nomenclature and significance|shalunka , base of lingam also called parashakti , placed in the temple changes thrice in a day i. e., once in the morning, then in the afternoon and last in the evening. According to th",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Washim"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-washim-80fc2413",
+   "kind": "region",
+   "subtype": "place",
+   "title": "kundas",
+   "subtitle": "महाराष्ट्र · Washim",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/washim",
+   "payload": {
+    "unit_id": "district:mh/washim",
+    "entity": {
+     "kind": "place",
+     "name_hi": "kundas",
+     "desc_hi": "is situated in the northern quarters of the town. The sides are built up in cut stones. Now the tirtha comprises two Taanka|kundas , a reservoir for rainwater harvesting, one to the north and the other to the south. Recently one Shri Rama-Narayan Toshnival has constructed a small",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Washim"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-washim-bd396feb",
+   "kind": "region",
+   "subtype": "place",
+   "title": "tirtha",
+   "subtitle": "महाराष्ट्र · Washim",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/washim",
+   "payload": {
+    "unit_id": "district:mh/washim",
+    "entity": {
+     "kind": "place",
+     "name_hi": "tirtha",
+     "desc_hi": "and 'Mahashivratri' as devotees across the state visit the temple. * 'Padmatirth ' Washim is known to have had 108 Tirtha (Hinduism)|tirtha s , holy places or sacred springs, associated with different gods and rishis. The Padmatirtha is one of the chief tirthas created by Vishnu.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Washim"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-mh-wardha-9fde16f3",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Marathi Sahitya Sammelan",
+   "subtitle": "महाराष्ट्र · Wardha",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:mh/wardha",
+   "payload": {
+    "unit_id": "district:mh/wardha",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Marathi Sahitya Sammelan",
+     "desc_hi": "In 1969, Marathi Sahitya Sammelan , the conference on Marathi Literature, was held in Wardha city. It was presided over by the president of the Conference Purushottam Shivram Rege .",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Wardha"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-10",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-mh-sangli-8fe3dfa1",
    "kind": "region",
