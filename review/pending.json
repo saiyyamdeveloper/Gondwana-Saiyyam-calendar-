@@ -1,9 +1,249 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-10T03:44:45.357730+00:00"
+  "updated": "2026-11-11T01:23:54.332010+00:00"
  },
  "queue": [
+  {
+   "id": "region:tehsil-mh-beed-kaij-b8cc6057",
+   "kind": "region",
+   "subtype": "place",
+   "title": "urus",
+   "subtitle": "महाराष्ट्र · Beed · Kaij",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/kaij",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/kaij",
+    "entity": {
+     "kind": "place",
+     "name_hi": "urus",
+     "desc_hi": "ble wall with arched entrances. The dargah houses the tombs of Khvaja Mazubuddin, his wife, and his son Saif-ud-din. An 'urus ' is held annually on the 6th of Rabi-ul-Awwal, drawing over 3,000 devotees.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kaij"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-kaij-dc6753ec",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Khvaja Mazubuddin Dargah",
+   "subtitle": "महाराष्ट्र · Beed · Kaij",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/kaij",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/kaij",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Khvaja Mazubuddin Dargah",
+     "desc_hi": "-qiOTMXxmxxxVz3Z081VWw&cr=le_a7&hl=en&ved=1t:206134&ictx=111 |access-date=2024-11-26 |website=www.google.com}}</ref> * 'Khvaja Mazubuddin Dargah ' Situated on the outskirts of Kaij, this dargah is an architectural marvel built by the grandson of Qutbuddin. It features a courtyard",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kaij"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-kaij-ba75cebd",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gopalkrishna",
+   "subtitle": "महाराष्ट्र · Beed · Kaij",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/kaij",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/kaij",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gopalkrishna",
+     "desc_hi": "en pillars and a sanctum adorned with five arches. The temple also houses idols of 'Lakshmi ', 'Vyankatesh ', and 'Gopalkrishna '. {{Cite web |url=https://www.google.com/maps/uv?pb=!1s0x3bc53f77e4052053:0xe86ed9eaf57a81c4!3m1!7e115!4s/maps/place/Balaji+Mandir+kaij+beed/@18.710180",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kaij"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-kaij-ea5583d6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Vyankatesh",
+   "subtitle": "महाराष्ट्र · Beed · Kaij",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/kaij",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/kaij",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Vyankatesh",
+     "desc_hi": "ndap supported by wooden pillars and a sanctum adorned with five arches. The temple also houses idols of 'Lakshmi ', 'Vyankatesh ', and 'Gopalkrishna '. {{Cite web |url=https://www.google.com/maps/uv?pb=!1s0x3bc53f77e4052053:0xe86ed9eaf57a81c4!3m1!7e115!4s/maps/place/Balaji+Mandi",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kaij"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-kaij-1e0bd4f0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Lakshmi",
+   "subtitle": "महाराष्ट्र · Beed · Kaij",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/kaij",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/kaij",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Lakshmi",
+     "desc_hi": "a 30' x 30' mandap supported by wooden pillars and a sanctum adorned with five arches. The temple also houses idols of 'Lakshmi ', 'Vyankatesh ', and 'Gopalkrishna '. {{Cite web |url=https://www.google.com/maps/uv?pb=!1s0x3bc53f77e4052053:0xe86ed9eaf57a81c4!3m1!7e115!4s/maps/plac",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kaij"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-kaij-4c674835",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Balaji Mandir",
+   "subtitle": "महाराष्ट्र · Beed · Kaij",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/kaij",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/kaij",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Balaji Mandir",
+     "desc_hi": "ss-date=2024-11-26 |website=उद्धव स्वामी समाधी स्थळ · P37J+Q6V, Kaij, Maharashtra 431123, India |language=en}}</ref> * 'Balaji Mandir ' Located in the eastern part of Kaij, this temple is dedicated to Lord Balaji. Built by Balakrishna Maharaj, the temple features a 30' x 30' mand",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kaij"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-kaij-d2ab08e9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "utsav (festival)",
+   "subtitle": "महाराष्ट्र · Beed · Kaij",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/kaij",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/kaij",
+    "entity": {
+     "kind": "place",
+     "name_hi": "utsav (festival)",
+     "desc_hi": "Kaij, the samadhi is housed in a 10' x 10' math and features a hall supported by four pillars. The site hosts an annual 'utsav (festival) ' during Caitra Suddha Pratipada, funded by the Deshpande family. {{Cite web |title=उद्धव स्वामी समाधी स्थळ · P37J+Q6V, Kaij, Maharashtra 4311",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kaij"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-kaij-3fde22b9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Uddhav Swami Samadhi",
+   "subtitle": "महाराष्ट्र · Beed · Kaij",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/kaij",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/kaij",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Uddhav Swami Samadhi",
+     "desc_hi": "* 'Uddhav Swami Samadhi ' The samadhi of Uddhav Swami, a favorite disciple of Saint Ramdas Swami, is located at the center of Kaij. Constructed in 1797 by the Deshpande family of Kaij, the samadhi is housed in a 10' x 10' math and feature",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kaij"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-11",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:tehsil-mh-beed-ambajogai-312cf263",
    "kind": "region",
@@ -18859,6 +19099,39 @@
    },
    "status": "pending",
    "added": "2026-09-12",
+   "added_by": "automation:discover",
+   "isNew": true,
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "person:wd-Q108837775",
+   "kind": "person",
+   "subtype": "auto-discovered",
+   "title": "Alobo Naga",
+   "subtitle": "Naga people · विकिडेटा से स्वतः खोज",
+   "reason": "विकिडेटा जनजाति-माइनिंग (P172) से नई खोज — प्रकाशन पूर्व सत्यापन आवश्यक",
+   "source_file": "mahapurush_database.json",
+   "record_id": "wd-Q108837775",
+   "payload": {
+    "id": "wd-Q108837775",
+    "name_hi": "Alobo Naga",
+    "name_en": "Alobo Naga",
+    "birth": "1984",
+    "death": null,
+    "tribe_hi": "Naga people",
+    "category": "auto-discovered",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Alobo_Naga",
+     "https://www.wikidata.org/wiki/Q108837775"
+    ],
+    "verify": true,
+    "verify_note": "स्वतः-खोज: विकिडेटा P172=Naga people"
+   },
+   "status": "pending",
+   "added": "2026-11-11",
    "added_by": "automation:discover",
    "isNew": true,
    "decision": null,
