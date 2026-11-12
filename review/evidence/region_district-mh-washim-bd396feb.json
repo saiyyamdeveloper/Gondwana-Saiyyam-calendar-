@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q4458114"
  },
- "checked_at": "2026-11-11T01:23:45.079396+00:00",
+ "checked_at": "2026-11-12T02:24:04.761833+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -27,8 +27,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Tirtha; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Tirtha"
+   "detail": "पृष्ठ मिला: Raghavendra Tirtha; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Raghavendra%20Tirtha"
   },
   {
    "name": "wikidata",

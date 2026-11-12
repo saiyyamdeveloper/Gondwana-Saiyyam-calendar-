@@ -1,9 +1,249 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-11T01:23:54.332010+00:00"
+  "updated": "2026-11-12T02:24:08.075179+00:00"
  },
  "queue": [
+  {
+   "id": "region:tehsil-mh-beed-wadwani-46b35368",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Religious Shrines:",
+   "subtitle": "महाराष्ट्र · Beed · Wadwani",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/wadwani",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/wadwani",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Religious Shrines:",
+     "desc_hi": "ev temple situated on a mountain shaped like the \"OM\" symbol. * 'Chardari: ' Known for its ancient Hanuman temple. * 'Religious Shrines: ' Other local landmarks include Kotharban (Satavai Devi Temple), Khadki (Khandoba Temple), and Rui Pimpla (Gorakshnath Mandir).",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Wadwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-wadwani-223e2334",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chardari:",
+   "subtitle": "महाराष्ट्र · Beed · Wadwani",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/wadwani",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/wadwani",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chardari:",
+     "desc_hi": "he son of Hanuman. * 'Mainda: ' Features a Lord Mahadev temple situated on a mountain shaped like the \"OM\" symbol. * 'Chardari: ' Known for its ancient Hanuman temple. * 'Religious Shrines: ' Other local landmarks include Kotharban (Satavai Devi Temple), Khadki (Khandoba Temple),",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Wadwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-wadwani-9c2f092f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mainda:",
+   "subtitle": "महाराष्ट्र · Beed · Wadwani",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/wadwani",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/wadwani",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mainda:",
+     "desc_hi": "* 'Chinchwan: ' Located 5 km from the town, it features a temple dedicated to Makardhwaja , the son of Hanuman. * 'Mainda: ' Features a Lord Mahadev temple situated on a mountain shaped like the \"OM\" symbol. * 'Chardari: ' Known for its ancient Hanuman temple. * 'Religious Shrine",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Wadwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-wadwani-1a8558cf",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chinchwan:",
+   "subtitle": "महाराष्ट्र · Beed · Wadwani",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/wadwani",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/wadwani",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chinchwan:",
+     "desc_hi": "ishchandra Pimpri: ' Notable for housing a temple dedicated to Harishchandra , which is considered rare in India. * 'Chinchwan: ' Located 5 km from the town, it features a temple dedicated to Makardhwaja , the son of Hanuman. * 'Mainda: ' Features a Lord Mahadev temple situated o",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Wadwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-wadwani-c35f66d6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Raja Harishchandra Pimpri:",
+   "subtitle": "महाराष्ट्र · Beed · Wadwani",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/wadwani",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/wadwani",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Raja Harishchandra Pimpri:",
+     "desc_hi": "impacted during the 1993 Latur earthquake . Structural remnants of affected houses remain visible in the village. * 'Raja Harishchandra Pimpri: ' Notable for housing a temple dedicated to Harishchandra , which is considered rare in India. * 'Chinchwan: ' Located 5 km from the tow",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Wadwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-wadwani-52167884",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Salimba:",
+   "subtitle": "महाराष्ट्र · Beed · Wadwani",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/wadwani",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/wadwani",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Salimba:",
+     "desc_hi": "The Wadwani Taluka contains several sites of historical and religious significance: * 'Salimba: ' Located 5 km north of Wadwani, this village was impacted during the 1993 Latur earthquake . Structural remnants of affected houses remain visible in the village. * 'Raja Harishchandr",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Wadwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-wadwani-2c3c251e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Makardhwaja",
+   "subtitle": "महाराष्ट्र · Beed · Wadwani",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/wadwani",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/wadwani",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Makardhwaja",
+     "desc_hi": ", which is considered rare in India. * 'Chinchwan: ' Located 5 km from the town, it features a temple dedicated to Makardhwaja , the son of Hanuman. * 'Mainda: ' Features a Lord Mahadev temple situated on a mountain shaped like the \"OM\" symbol. * 'Chardari: ' Known for its ancien",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Wadwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:tehsil-mh-beed-wadwani-93d63d45",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Harishchandra",
+   "subtitle": "महाराष्ट्र · Beed · Wadwani",
+   "reason": "क्षेत्र-क्रॉलर (tehsil-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "tehsil:mh/beed/wadwani",
+   "payload": {
+    "unit_id": "tehsil:mh/beed/wadwani",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Harishchandra",
+     "desc_hi": "cted houses remain visible in the village. * 'Raja Harishchandra Pimpri: ' Notable for housing a temple dedicated to Harishchandra , which is considered rare in India. * 'Chinchwan: ' Located 5 km from the town, it features a temple dedicated to Makardhwaja , the son of Hanuman. ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Wadwani"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-12",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:tehsil-mh-beed-kaij-b8cc6057",
    "kind": "region",
