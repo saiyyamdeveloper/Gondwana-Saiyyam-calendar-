@@ -4173,7 +4173,7 @@
  "region:district-mh-sangli-8fe3dfa1": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-11-12T02:24:05.644679+00:00",
+  "checked_at": "2026-11-13T02:02:14.959644+00:00",
   "summary_hi": "Khanapur Wild Life Reserve Forest: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
@@ -4250,232 +4250,274 @@
  "region:district-mh-washim-39a14132": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:24:01.373923+00:00",
+  "checked_at": "2026-11-13T02:02:11.002391+00:00",
   "summary_hi": "Nagpur kingdom: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mh-washim-4c674835": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:24:01.833735+00:00",
+  "checked_at": "2026-11-13T02:02:11.383757+00:00",
   "summary_hi": "Balaji Mandir: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mh-washim-b8c8ce83": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:24:02.375811+00:00",
+  "checked_at": "2026-11-13T02:02:11.908512+00:00",
   "summary_hi": "Land and Revenue Settlement: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-mh-washim-0505b9ed": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:24:02.975314+00:00",
+  "checked_at": "2026-11-13T02:02:12.412557+00:00",
   "summary_hi": "British Raj: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mh-washim-69b457db": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:24:03.354602+00:00",
+  "checked_at": "2026-11-13T02:02:12.837865+00:00",
   "summary_hi": "parashakti: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mh-washim-7fbac09d": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:24:03.827524+00:00",
+  "checked_at": "2026-11-13T02:02:13.223410+00:00",
   "summary_hi": "lingam: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mh-washim-80fc2413": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:24:04.280028+00:00",
+  "checked_at": "2026-11-13T02:02:13.592488+00:00",
   "summary_hi": "kundas: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:district-mh-washim-bd396feb": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:24:04.761833+00:00",
+  "checked_at": "2026-11-13T02:02:14.014303+00:00",
   "summary_hi": "tirtha: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-mh-wardha-9fde16f3": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:24:05.247420+00:00",
+  "checked_at": "2026-11-13T02:02:14.564173+00:00",
   "summary_hi": "Marathi Sahitya Sammelan: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-ambajogai-312cf263": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:57.851683+00:00",
+  "checked_at": "2026-11-13T02:02:07.448661+00:00",
   "summary_hi": "Elephanta Caves: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-ambajogai-76ce2dcc": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:58.245556+00:00",
+  "checked_at": "2026-11-13T02:02:07.912587+00:00",
   "summary_hi": "Shivleni Caves: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-ambajogai-cc358786": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:58.951294+00:00",
+  "checked_at": "2026-11-13T02:02:08.297479+00:00",
   "summary_hi": "Balaji: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-ambajogai-e5d284b6": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:59.414216+00:00",
+  "checked_at": "2026-11-13T02:02:08.802015+00:00",
   "summary_hi": "Ram: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:tehsil-mh-beed-ambajogai-af430e50": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:59.798123+00:00",
+  "checked_at": "2026-11-13T02:02:09.374835+00:00",
   "summary_hi": "Dasopant: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-ambajogai-16d36436": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:24:00.221044+00:00",
+  "checked_at": "2026-11-13T02:02:09.796390+00:00",
   "summary_hi": "Hanuman: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-ambajogai-431e8ed6": {
   "score": 20,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:24:00.475414+00:00",
+  "checked_at": "2026-11-13T02:02:10.071988+00:00",
   "summary_hi": "Mukundaraj: स्कोर 20/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en।",
   "n_sources": 1
  },
  "region:tehsil-mh-beed-ambajogai-54c1db1e": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:24:00.869888+00:00",
+  "checked_at": "2026-11-13T02:02:10.511069+00:00",
   "summary_hi": "Yogeshwari: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-kaij-b8cc6057": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:54.445269+00:00",
+  "checked_at": "2026-11-13T02:02:03.854073+00:00",
   "summary_hi": "urus: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-kaij-dc6753ec": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-11-12T02:23:54.778284+00:00",
+  "checked_at": "2026-11-13T02:02:04.134848+00:00",
   "summary_hi": "Khvaja Mazubuddin Dargah: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:tehsil-mh-beed-kaij-ba75cebd": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:55.178331+00:00",
+  "checked_at": "2026-11-13T02:02:04.639906+00:00",
   "summary_hi": "Gopalkrishna: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-kaij-ea5583d6": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:55.685349+00:00",
+  "checked_at": "2026-11-13T02:02:05.088786+00:00",
   "summary_hi": "Vyankatesh: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-death_date।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-kaij-1e0bd4f0": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:56.078501+00:00",
+  "checked_at": "2026-11-13T02:02:05.499284+00:00",
   "summary_hi": "Lakshmi: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-kaij-4c674835": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:56.606314+00:00",
+  "checked_at": "2026-11-13T02:02:06.062833+00:00",
   "summary_hi": "Balaji Mandir: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-kaij-d2ab08e9": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:57.012480+00:00",
+  "checked_at": "2026-11-13T02:02:06.520687+00:00",
   "summary_hi": "utsav (festival): स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-kaij-3fde22b9": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-11-12T02:23:57.393270+00:00",
+  "checked_at": "2026-11-13T02:02:06.964959+00:00",
   "summary_hi": "Uddhav Swami Samadhi: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:tehsil-mh-beed-wadwani-46b35368": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:50.483492+00:00",
+  "checked_at": "2026-11-13T02:02:00.785319+00:00",
   "summary_hi": "Religious Shrines:: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:tehsil-mh-beed-wadwani-223e2334": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:50.803875+00:00",
+  "checked_at": "2026-11-13T02:02:01.252521+00:00",
   "summary_hi": "Chardari:: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:tehsil-mh-beed-wadwani-9c2f092f": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:52.125915+00:00",
+  "checked_at": "2026-11-13T02:02:01.688834+00:00",
   "summary_hi": "Mainda:: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-wadwani-1a8558cf": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:52.461299+00:00",
+  "checked_at": "2026-11-13T02:02:02.045941+00:00",
   "summary_hi": "Chinchwan:: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:tehsil-mh-beed-wadwani-c35f66d6": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-11-12T02:23:52.830375+00:00",
+  "checked_at": "2026-11-13T02:02:02.365945+00:00",
   "summary_hi": "Raja Harishchandra Pimpri:: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:tehsil-mh-beed-wadwani-52167884": {
   "score": 15,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:53.244527+00:00",
+  "checked_at": "2026-11-13T02:02:02.677338+00:00",
   "summary_hi": "Salimba:: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
   "n_sources": 1
  },
  "region:tehsil-mh-beed-wadwani-2c3c251e": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:53.616757+00:00",
+  "checked_at": "2026-11-13T02:02:03.046300+00:00",
   "summary_hi": "Makardhwaja: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:tehsil-mh-beed-wadwani-93d63d45": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-12T02:23:54.033223+00:00",
+  "checked_at": "2026-11-13T02:02:03.454929+00:00",
   "summary_hi": "Harishchandra: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date।",
   "n_sources": 2
+ },
+ "region:district-gj-bharuch-7a5642da": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-13T02:01:57.743639+00:00",
+  "summary_hi": "Mahi River: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-gj-bharuch-3b849698": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-11-13T02:01:58.124951+00:00",
+  "summary_hi": "Stambheshwar Mahadev: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-gj-aravalli-9bf4ce1d": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-13T02:01:58.643061+00:00",
+  "summary_hi": "Shamlaji: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-gj-aravalli-09469252": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-13T02:01:59.035357+00:00",
+  "summary_hi": "Modasa: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-gj-anand-60784362": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-13T02:01:59.891040+00:00",
+  "summary_hi": "Anand, Iran: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-gj-anand-eebaae55": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-11-13T02:02:00.339433+00:00",
+  "summary_hi": "Anand (Vidhan Sabha constituency): स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
  }
 }

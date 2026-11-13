@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q15777130"
  },
- "checked_at": "2026-11-12T02:23:53.244527+00:00",
+ "checked_at": "2026-11-13T02:02:02.677338+00:00",
  "score": 15,
  "verdict": "weak",
  "checks": [
@@ -27,7 +27,7 @@
    "name": "wiki-en-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"Southern Ndebele people\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"Wadwani\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {

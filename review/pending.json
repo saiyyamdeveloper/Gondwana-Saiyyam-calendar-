@@ -1,9 +1,189 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-12T02:24:08.075179+00:00"
+  "updated": "2026-11-13T02:02:14.964074+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-gj-bharuch-7a5642da",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mahi River",
+   "subtitle": "गुजरात · Bharuch",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/bharuch",
+   "payload": {
+    "unit_id": "district:gj/bharuch",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mahi River",
+     "desc_hi": "* Stambheshwar Mahadev – Kavi Kamboi ( from Bharuch) at the estuary of the Mahi River . This Shivalinga is flooded at high tides; not during low tides. {{Cite web |url=http://www.stambheshwarmahadev.org/ |title=Archived copy |access-date=17 October 2011 |archive-date=20 November ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bharuch"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-bharuch-3b849698",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Stambheshwar Mahadev",
+   "subtitle": "गुजरात · Bharuch",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/bharuch",
+   "payload": {
+    "unit_id": "district:gj/bharuch",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Stambheshwar Mahadev",
+     "desc_hi": "* Stambheshwar Mahadev – Kavi Kamboi ( from Bharuch) at the estuary of the Mahi River . This Shivalinga is flooded at high tides; not during low tides. {{Cite web |url=http://www.stambheshwarmahadev.org/",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bharuch"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-aravalli-9bf4ce1d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shamlaji",
+   "subtitle": "गुजरात · Aravalli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/aravalli",
+   "payload": {
+    "unit_id": "district:gj/aravalli",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shamlaji",
+     "desc_hi": "*Kakarai Temple Dadhaliya *Majum dam Modasa *Meshwo Dam Shamlaji *Sakariya Hanuman Temple *Shamliya Temple Shamlaji *Shyamal Van Shamlaji *Vatrak (Malpur)",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Aravalli_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-aravalli-09469252",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Modasa",
+   "subtitle": "गुजरात · Aravalli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/aravalli",
+   "payload": {
+    "unit_id": "district:gj/aravalli",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Modasa",
+     "desc_hi": "*Kakarai Temple Dadhaliya *Majum dam Modasa *Meshwo Dam Shamlaji *Sakariya Hanuman Temple *Shamliya Temple Shamlaji *Shyamal Van Shamlaji *Vatrak (Malpur)",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Aravalli_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-anand-60784362",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Anand, Iran",
+   "subtitle": "गुजरात · Anand",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/anand",
+   "payload": {
+    "unit_id": "district:gj/anand",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Anand, Iran",
+     "desc_hi": "t, India * Anand (Lok Sabha constituency) , Gujarat, India * Anand (Vidhan Sabha constituency) , Gujarat, India * Anand, Iran , a village",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Anand"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-anand-eebaae55",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Anand (Vidhan Sabha constituency)",
+   "subtitle": "गुजरात · Anand",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/anand",
+   "payload": {
+    "unit_id": "district:gj/anand",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Anand (Vidhan Sabha constituency)",
+     "desc_hi": "* Anand railway station * Anand district , Gujarat, India * Anand (Lok Sabha constituency) , Gujarat, India * Anand (Vidhan Sabha constituency) , Gujarat, India * Anand, Iran , a village",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Anand"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-13",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:tehsil-mh-beed-wadwani-46b35368",
    "kind": "region",
