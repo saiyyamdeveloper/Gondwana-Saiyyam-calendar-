@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-11-13T02:01:54+00:00",
-  "progress": "137/939 done, 271 blocked"
+  "updated": "2026-11-14T01:37:18+00:00",
+  "progress": "138/939 done, 276 blocked"
  },
  "jobs": [
   {
@@ -3057,32 +3057,46 @@
   {
    "unit": "district:gj/botad",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-14T01:37:14+00:00",
+   "children": 0,
+   "entities_queued": 5,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:gj/chhota-udaipur",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-14T01:37:15+00:00"
   },
   {
    "unit": "district:gj/dahod",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-14T01:37:15+00:00"
   },
   {
    "unit": "district:gj/dang",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-14T01:37:16+00:00"
   },
   {
    "unit": "district:gj/devbhoomi-dwarka",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-14T01:37:17+00:00"
   },
   {
    "unit": "district:gj/gandhinagar",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-14T01:37:18+00:00"
   },
   {
    "unit": "district:gj/gir-somnath",

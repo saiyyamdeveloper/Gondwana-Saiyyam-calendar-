@@ -1,9 +1,159 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-13T02:02:14.964074+00:00"
+  "updated": "2026-11-14T01:37:41.679602+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-gj-botad-7d67df82",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bhavnagar State",
+   "subtitle": "गुजरात · Botad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/botad",
+   "payload": {
+    "unit_id": "district:gj/botad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bhavnagar State",
+     "desc_hi": "* The Phatsar, located near the Satpura Hills. The lake was built by Krishna Kumar Singhji, maharaja of Bhavnagar State , and supplies water to most of the town. * Haran Kui, also known as the Spring or Well for Deer, was a fresh water spring existing on the northern side of the ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Botad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-14",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-botad-d610d723",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gadhada",
+   "subtitle": "गुजरात · Botad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/botad",
+   "payload": {
+    "unit_id": "district:gj/botad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gadhada",
+     "desc_hi": "the thanadar of Ranpur, Gujarat|Ranpur who died in battle with the Khuman and Vala Kathis at Ugamedi , near Gadhada . * The Phatsar, located near the Satpura Hills. The lake was built by Krishna Kumar Singhji, maharaja of Bhavnagar State , and supplies water to most of the town. ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Botad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-14",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-botad-87861a5c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ugamedi",
+   "subtitle": "गुजरात · Botad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/botad",
+   "payload": {
+    "unit_id": "district:gj/botad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ugamedi",
+     "desc_hi": "said to have been the thanadar of Ranpur, Gujarat|Ranpur who died in battle with the Khuman and Vala Kathis at Ugamedi , near Gadhada . * The Phatsar, located near the Satpura Hills. The lake was built by Krishna Kumar Singhji, maharaja of Bhavnagar State , and supplies water to ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Botad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-14",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-botad-45e2087f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ranpur",
+   "subtitle": "गुजरात · Botad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/botad",
+   "payload": {
+    "unit_id": "district:gj/botad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ranpur",
+     "desc_hi": "eeded|date=March 2023}} * The shrine and tomb of the Muslim saint Pir Hamir Khan, said to have been the thanadar of Ranpur, Gujarat|Ranpur who died in battle with the Khuman and Vala Kathis at Ugamedi , near Gadhada . * The Phatsar, located near the Satpura Hills. The lake was bu",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Botad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-14",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-botad-57016c30",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shri Damodardar Jagjivan shah clock tower",
+   "subtitle": "गुजरात · Botad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/botad",
+   "payload": {
+    "unit_id": "district:gj/botad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shri Damodardar Jagjivan shah clock tower",
+     "desc_hi": "* Shri Damodardar Jagjivan shah clock tower in Botad was considered as a prominent attraction once developments started taking place during the reign of Maharaja Krushna Kumar Singhaji and Takht Singhji (Bhavnagar State). The clock tower",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Botad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-14",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-gj-bharuch-7a5642da",
    "kind": "region",
