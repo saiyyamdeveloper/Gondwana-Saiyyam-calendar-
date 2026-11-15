@@ -1,9 +1,69 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-14T01:37:41.679602+00:00"
+  "updated": "2026-11-15T01:12:36.199289+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-gj-kheda-2734bb9a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Meldi Mata",
+   "subtitle": "गुजरात · Kheda",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/kheda",
+   "payload": {
+    "unit_id": "district:gj/kheda",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Meldi Mata",
+     "desc_hi": "There is one temple of Meldi Mata in Kheda, which holds an annual fair in February. Around 100,000 people visit Kheda for this event.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kheda"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-junagadh-661f6ca4",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "mela",
+   "subtitle": "गुजरात · Junagadh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/junagadh",
+   "payload": {
+    "unit_id": "district:gj/junagadh",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "mela",
+     "desc_hi": "i Mela is organized at the foot of Mount Girnar (Talati) in the month of Maha (9th day of the month of Maagha ). The mela lasts for the next five days. About 500,000 people visit Junagadh on this occasion. {{cite web |url=http://festivalsofindia.in/Bhavnath_Fair/ |title=Shivaratr",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Junagadh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-15",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-gj-botad-7d67df82",
    "kind": "region",
