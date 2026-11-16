@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q7285234"
  },
- "checked_at": "2026-11-15T01:12:20.829504+00:00",
+ "checked_at": "2026-11-16T01:18:05.564576+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -27,8 +27,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Raj-Ranpur; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Raj-Ranpur"
+   "detail": "पृष्ठ मिला: Ranpur; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Ranpur"
   },
   {
    "name": "wikidata",

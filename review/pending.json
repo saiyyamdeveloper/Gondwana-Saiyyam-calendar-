@@ -1,9 +1,249 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-15T01:12:36.199289+00:00"
+  "updated": "2026-11-16T01:18:21.463886+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-gj-mehsana-4e03bd5b",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "postmodernist",
+   "subtitle": "गुजरात · Mehsana",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/mehsana",
+   "payload": {
+    "unit_id": "district:gj/mehsana",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "postmodernist",
+     "desc_hi": "gh School, Kesharbai School and Mehsana district local board office. Dudhsagar Dairy plant is a Postmodern architecture|postmodernist building designed by Achyut Kanvinde . ===<span class=\"anchor\" id=\"Places of Worship\"></span>Places of worship=== File:Manoranjan Parshwanath Jaim",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mehsana"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-16",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-mehsana-62d53961",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Dudhsagar Dairy plant",
+   "subtitle": "गुजरात · Mehsana",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/mehsana",
+   "payload": {
+    "unit_id": "district:gj/mehsana",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Dudhsagar Dairy plant",
+     "desc_hi": "it Pathshala building, T. J. High School, Kesharbai School and Mehsana district local board office. Dudhsagar Dairy plant is a Postmodern architecture|postmodernist building designed by Achyut Kanvinde . ===<span class=\"anchor\" id=\"Places of Worship\"></span>Places of worship=== F",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mehsana"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-16",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-mehsana-3b9778bf",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Biladi Baug",
+   "subtitle": "गुजरात · Mehsana",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/mehsana",
+   "payload": {
+    "unit_id": "district:gj/mehsana",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Biladi Baug",
+     "desc_hi": "AQBAJ&pg=PT57|archive-date=24 August 2017|url-status=live}}</ref> There is another stepwell known as Bodashiyani Vav in Biladi Baug . It was constructed by Shah Virchandji Jadavji. {{Cite book |last=Bhojak |first=Kanaiyalal Amthalal |title=Mehsana: Prachin Arvachin |publisher=Meh",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mehsana"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-16",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-mehsana-2a307ea6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shrimali",
+   "subtitle": "गुजरात · Mehsana",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/mehsana",
+   "payload": {
+    "unit_id": "district:gj/mehsana",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shrimali",
+     "desc_hi": "An inscription dated 1674&nbsp;AD in Persian and Devanagari scripts states that it was commissioned by Shah Gokaldas of Shrimali Brahmin|Shrimali caste, Laghu Shakha, and his mother Manabai for public welfare. {{cite book|author=Purnima Mehta Bhatt|url=https://books.google.com/bo",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mehsana"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-16",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-mehsana-4c1a31ea",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Aurangzeb",
+   "subtitle": "गुजरात · Mehsana",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/mehsana",
+   "payload": {
+    "unit_id": "district:gj/mehsana",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Aurangzeb",
+     "desc_hi": "1904 by Sayajirao Gaekwad III. Boter Kothani Vav was constructed during the reign of Mughal emperor Aurangzeb . An inscription dated 1674&nbsp;AD in Persian and Devanagari scripts states that it was commissioned by Shah Gokaldas of Shrimali Brahmin|Shrimali caste, Laghu Shakha, a",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mehsana"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-16",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-mehsana-a9248c9a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Boter Kothani Vav",
+   "subtitle": "गुजरात · Mehsana",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/mehsana",
+   "payload": {
+    "unit_id": "district:gj/mehsana",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Boter Kothani Vav",
+     "desc_hi": "oter Kothani Vav Rajmahal, Mehsana|Rajmahal is a palace built in 1904 by Sayajirao Gaekwad III. Boter Kothani Vav was constructed during the reign of Mughal emperor Aurangzeb . An inscription dated 1674&nbsp;AD in Persian and Devanagari scripts states that it was commissioned by ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mehsana"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-16",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-mehsana-d7a4d272",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rajmahal",
+   "subtitle": "गुजरात · Mehsana",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/mehsana",
+   "payload": {
+    "unit_id": "district:gj/mehsana",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rajmahal",
+     "desc_hi": "File:Boter Kotha ni Vav Mehsana Stepwell 2.jpg|thumb|left| Boter Kothani Vav Rajmahal, Mehsana|Rajmahal is a palace built in 1904 by Sayajirao Gaekwad III. Boter Kothani Vav was constructed during the reign of Mughal emperor Aurangzeb . An inscription dated 1674&nbsp;AD in Persia",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mehsana"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-16",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-mehsana-74746f2c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|left|[[Boter Kothani Vav",
+   "subtitle": "गुजरात · Mehsana",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/mehsana",
+   "payload": {
+    "unit_id": "district:gj/mehsana",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|left|[[Boter Kothani Vav",
+     "desc_hi": "File:Boter Kotha ni Vav Mehsana Stepwell 2.jpg|thumb|left| Boter Kothani Vav Rajmahal, Mehsana|Rajmahal is a palace built in 1904 by Sayajirao Gaekwad III. Boter Kothani Vav was constructed during the reign of",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mehsana"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-16",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-gj-kheda-2734bb9a",
    "kind": "region",
