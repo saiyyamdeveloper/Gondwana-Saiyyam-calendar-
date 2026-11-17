@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-11-16T01:17:52+00:00",
-  "progress": "141/939 done, 285 blocked"
+  "updated": "2026-11-17T04:05:35+00:00",
+  "progress": "142/939 done, 290 blocked"
  },
  "jobs": [
   {
@@ -3191,32 +3191,46 @@
   {
    "unit": "district:gj/porbandar",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-17T04:05:30+00:00"
   },
   {
    "unit": "district:gj/rajkot",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-17T04:05:32+00:00",
+   "children": 0,
+   "entities_queued": 3,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:gj/sabarkantha",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-17T04:05:33+00:00"
   },
   {
    "unit": "district:gj/surat",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-17T04:05:33+00:00"
   },
   {
    "unit": "district:gj/surendranagar",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-17T04:05:34+00:00"
   },
   {
    "unit": "district:gj/tapi",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-17T04:05:34+00:00"
   },
   {
    "unit": "district:gj/vadodara",

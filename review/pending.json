@@ -1,9 +1,99 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-16T01:18:21.463886+00:00"
+  "updated": "2026-11-17T04:05:54.598029+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-gj-rajkot-df9ae460",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Makar Sankranti",
+   "subtitle": "गुजरात · Rajkot",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/rajkot",
+   "payload": {
+    "unit_id": "district:gj/rajkot",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Makar Sankranti",
+     "desc_hi": "festival. Holi is also celebrated with frolic and is widely enjoyed by most of the city folk. People also celebrate Makar Sankranti (Uttarayan) on 14 January by flying kites from their terraces. {{Cite web |date=2023-01-10 |title=Karuna Abhiyan: Rajkot collector flags off 9 ambul",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Rajkot"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-rajkot-e1e5fb6f",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Janmastami",
+   "subtitle": "गुजरात · Rajkot",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/rajkot",
+   "payload": {
+    "unit_id": "district:gj/rajkot",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Janmastami",
+     "desc_hi": "any highly religious Gujarati. The 'Janmastami Mela' is organised for five days at the Race Course grounds to celebrate Krishna Janmashtami|Janmastami . Diwali is one of the most important festival and is usually a week long holiday. Rajkot Municipal Corporation arranges the annu",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Rajkot"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-rajkot-ee241352",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Garba",
+   "subtitle": "गुजरात · Rajkot",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/rajkot",
+   "payload": {
+    "unit_id": "district:gj/rajkot",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Garba",
+     "desc_hi": "Garba (dance)|Garba is popular among both, men and women and is performed during the festival of Navratri. The dance starts before midnight and continues until dawn. Mata Ambe, who rides a lion, has a special reverential status with any",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Rajkot"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-gj-mehsana-4e03bd5b",
    "kind": "region",
