@@ -3,9 +3,9 @@
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q20594997"
+  "source": "wikidata:Q47783"
  },
- "checked_at": "2026-11-17T04:05:37.879200+00:00",
+ "checked_at": "2026-11-17T04:07:08.455727+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -27,8 +27,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q20594997",
-   "link": "https://www.wikidata.org/wiki/Q20594997"
+   "detail": "आइटम Q47783",
+   "link": "https://www.wikidata.org/wiki/Q47783"
   },
   {
    "name": "internal-sources",

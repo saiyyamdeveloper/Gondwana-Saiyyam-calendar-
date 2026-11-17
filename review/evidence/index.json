@@ -4481,7 +4481,7 @@
  "region:district-gj-bharuch-7a5642da": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:44.929429+00:00",
+  "checked_at": "2026-11-17T04:07:18.297641+00:00",
   "summary_hi": "Mahi River: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
@@ -4523,127 +4523,274 @@
  "region:district-gj-botad-7d67df82": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:42.737917+00:00",
+  "checked_at": "2026-11-17T04:07:15.364420+00:00",
   "summary_hi": "Bhavnagar State: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-botad-d610d723": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:43.195700+00:00",
+  "checked_at": "2026-11-17T04:07:15.904010+00:00",
   "summary_hi": "Gadhada: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-botad-87861a5c": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:43.611600+00:00",
+  "checked_at": "2026-11-17T04:07:16.448754+00:00",
   "summary_hi": "Ugamedi: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-botad-45e2087f": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:44.032554+00:00",
+  "checked_at": "2026-11-17T04:07:17.026208+00:00",
   "summary_hi": "Ranpur: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-botad-57016c30": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-11-17T04:05:44.425064+00:00",
+  "checked_at": "2026-11-17T04:07:17.539543+00:00",
   "summary_hi": "Shri Damodardar Jagjivan shah clock tower: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-gj-kheda-2734bb9a": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:41.462301+00:00",
+  "checked_at": "2026-11-17T04:07:13.932545+00:00",
   "summary_hi": "Meldi Mata: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-junagadh-661f6ca4": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:42.052755+00:00",
+  "checked_at": "2026-11-17T04:07:14.631261+00:00",
   "summary_hi": "mela: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-mehsana-4e03bd5b": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:37.879200+00:00",
+  "checked_at": "2026-11-17T04:07:08.455727+00:00",
   "summary_hi": "postmodernist: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-mehsana-62d53961": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:38.283867+00:00",
+  "checked_at": "2026-11-17T04:07:09.186659+00:00",
   "summary_hi": "Dudhsagar Dairy plant: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-mehsana-3b9778bf": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:38.724693+00:00",
+  "checked_at": "2026-11-17T04:07:09.882859+00:00",
   "summary_hi": "Biladi Baug: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-mehsana-2a307ea6": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:39.181721+00:00",
+  "checked_at": "2026-11-17T04:07:10.519677+00:00",
   "summary_hi": "Shrimali: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-death_date।",
   "n_sources": 2
  },
  "region:district-gj-mehsana-4c1a31ea": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:39.671370+00:00",
+  "checked_at": "2026-11-17T04:07:11.185193+00:00",
   "summary_hi": "Aurangzeb: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata, wd-birth_date, wd-death_date।",
   "n_sources": 2
  },
  "region:district-gj-mehsana-a9248c9a": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:40.179359+00:00",
+  "checked_at": "2026-11-17T04:07:11.980717+00:00",
   "summary_hi": "Boter Kothani Vav: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-mehsana-d7a4d272": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:40.650162+00:00",
+  "checked_at": "2026-11-17T04:07:12.651946+00:00",
   "summary_hi": "Rajmahal: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-mehsana-74746f2c": {
   "score": 0,
   "verdict": "nosource",
-  "checked_at": "2026-11-17T04:05:41.007138+00:00",
+  "checked_at": "2026-11-17T04:07:13.268722+00:00",
   "summary_hi": "thumb|left|[[Boter Kothani Vav: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
   "n_sources": 0
  },
  "region:district-gj-rajkot-df9ae460": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:36.480890+00:00",
+  "checked_at": "2026-11-17T04:07:06.254245+00:00",
   "summary_hi": "Makar Sankranti: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-rajkot-e1e5fb6f": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:36.960349+00:00",
+  "checked_at": "2026-11-17T04:07:07.131013+00:00",
   "summary_hi": "Janmastami: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
  },
  "region:district-gj-rajkot-ee241352": {
   "score": 35,
   "verdict": "weak",
-  "checked_at": "2026-11-17T04:05:37.383265+00:00",
+  "checked_at": "2026-11-17T04:07:07.735413+00:00",
   "summary_hi": "Garba: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
   "n_sources": 2
+ },
+ "region:district-rj-alwar-4888ce3a": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:06:52.067305+00:00",
+  "summary_hi": "tourist train: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-rj-alwar-0c9f4be6": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:06:52.809273+00:00",
+  "summary_hi": "Palace on Wheels: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-rj-alwar-3e53f19a": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:06:53.750512+00:00",
+  "summary_hi": "Guinness Book of Records: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-rj-alwar-68082a5c": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:06:54.424246+00:00",
+  "summary_hi": "luxury train: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-rj-alwar-5ae29786": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:06:55.833903+00:00",
+  "summary_hi": "The Times of India: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-rj-ajmer-7e1835f0": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:06:56.589289+00:00",
+  "summary_hi": "Brahma Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-rj-ajmer-3118f62a": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:06:57.382124+00:00",
+  "summary_hi": "Pushkar Lake: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-rj-ajmer-3b33424d": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:06:58.171639+00:00",
+  "summary_hi": "Pushkar: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-rj-ajmer-d0c6640f": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-11-17T04:06:58.658094+00:00",
+  "summary_hi": "Tomb of Khwaja Husain Ajmeri|thumb: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-rj-ajmer-74438dbb": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-11-17T04:06:59.141413+00:00",
+  "summary_hi": "thumb|Baradari on Lake [[Anasagar: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-rj-ajmer-b96c82fb": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:06:59.975422+00:00",
+  "summary_hi": "[[Nareli Jain Temple: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-rj-ajmer-777801ab": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-11-17T04:07:00.513333+00:00",
+  "summary_hi": "Akbari Fort and Museum|thumb: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-rj-ajmer-d4b88998": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-11-17T04:07:00.995954+00:00",
+  "summary_hi": "Dargah Sharif Ajmer|thumb: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-gj-valsad-80ccd777": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-11-17T04:07:01.443161+00:00",
+  "summary_hi": "thumb|Swaminarayan Temple, Tithal: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-gj-valsad-16b78a6c": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:07:02.050010+00:00",
+  "summary_hi": "Tithal: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-gj-valsad-3f6bed0e": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:07:02.663918+00:00",
+  "summary_hi": "Tithal Beach: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-gj-valsad-8532bbb7": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-11-17T04:07:03.172478+00:00",
+  "summary_hi": "thumb|Tithal Beach: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
+ },
+ "region:district-gj-valsad-b3a4640c": {
+  "score": 15,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:07:03.781173+00:00",
+  "summary_hi": "Agiyari: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
+  "n_sources": 1
+ },
+ "region:district-gj-valsad-f0d60ea8": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:07:04.551605+00:00",
+  "summary_hi": "Parsi: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-gj-valsad-b6bb5838": {
+  "score": 35,
+  "verdict": "weak",
+  "checked_at": "2026-11-17T04:07:05.143573+00:00",
+  "summary_hi": "Udvada: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+  "n_sources": 2
+ },
+ "region:district-gj-valsad-d1ef2326": {
+  "score": 0,
+  "verdict": "nosource",
+  "checked_at": "2026-11-17T04:07:05.577475+00:00",
+  "summary_hi": "thumb|Udvada Agiyari: स्कोर 0/100 (⚪ स्वतंत्र स्रोत नहीं)। मिले सबूत: कोई नहीं। विकिपीडिया/विकिडेटा पर प्रलेखन नहीं मिला — यह असत्य का प्रमाण नहीं (कई आदिवासी नायक ऑनलाइन अनुपलब्ध); आपकी जाँच निर्णायक।",
+  "n_sources": 0
  }
 }

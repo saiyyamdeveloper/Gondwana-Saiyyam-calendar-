@@ -1,9 +1,639 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-17T04:05:54.598029+00:00"
+  "updated": "2026-11-17T04:07:18.302537+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-rj-alwar-4888ce3a",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "tourist train",
+   "subtitle": "राजस्थान · Alwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/alwar",
+   "payload": {
+    "unit_id": "district:rj/alwar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "tourist train",
+     "desc_hi": "st steam locomotive in regular service. The Fairy Queen runs on the same route as the Palace on Wheels , the tourist train launched in 1982, and was awarded the National Tourism Award in 1999.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Alwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-alwar-0c9f4be6",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Palace on Wheels",
+   "subtitle": "राजस्थान · Alwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/alwar",
+   "payload": {
+    "unit_id": "district:rj/alwar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Palace on Wheels",
+     "desc_hi": "ords as the world's oldest steam locomotive in regular service. The Fairy Queen runs on the same route as the Palace on Wheels , the tourist train launched in 1982, and was awarded the National Tourism Award in 1999.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Alwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-alwar-3e53f19a",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Guinness Book of Records",
+   "subtitle": "राजस्थान · Alwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/alwar",
+   "payload": {
+    "unit_id": "district:rj/alwar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Guinness Book of Records",
+     "desc_hi": "2017|df=dmy-all}}</ref> operates as a tourist luxury train between Delhi and Alwar. In 1998 it was listed in the Guinness World Records|Guinness Book of Records as the world's oldest steam locomotive in regular service. The Fairy Queen runs on the same route as the Palace on Whee",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Alwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-alwar-68082a5c",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "luxury train",
+   "subtitle": "राजस्थान · Alwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/alwar",
+   "payload": {
+    "unit_id": "district:rj/alwar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "luxury train",
+     "desc_hi": "t-engine-gathers-fresh-steam/articleshow/57102920.cms|archive-date=5 June 2017|df=dmy-all}}</ref> operates as a tourist luxury train between Delhi and Alwar. In 1998 it was listed in the Guinness World Records|Guinness Book of Records as the world's oldest steam locomotive in reg",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Alwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-alwar-5ae29786",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "The Times of India",
+   "subtitle": "राजस्थान · Alwar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/alwar",
+   "payload": {
+    "unit_id": "district:rj/alwar",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "The Times of India",
+     "desc_hi": "rl=http://timesofindia.indiatimes.com/city/delhi/worlds-oldest-engine-gathers-fresh-steam/articleshow/57102920.cms|work= The Times of India |url-status=live|archive-url=https://web.archive.org/web/20170605072221/http://timesofindia.indiatimes.com/city/delhi/worlds-oldest-engine-g",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Alwar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-ajmer-7e1835f0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Brahma Temple",
+   "subtitle": "राजस्थान · Ajmer",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/ajmer",
+   "payload": {
+    "unit_id": "district:rj/ajmer",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Brahma Temple",
+     "desc_hi": "d pilgrimage destination and a satellite town of Ajmer city. It is famous for the Pushkar Lake and the 14th century Brahma Temple, Pushkar|Brahma Temple at Pushkar, dedicated to Brahmā|Brahma . According to the Padma Purana , Pushkar is an important pilgrimage site of Brahma, and",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ajmer"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-ajmer-3118f62a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Pushkar Lake",
+   "subtitle": "राजस्थान · Ajmer",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/ajmer",
+   "payload": {
+    "unit_id": "district:rj/ajmer",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Pushkar Lake",
+     "desc_hi": "m Ajmer, it is an important tourist and pilgrimage destination and a satellite town of Ajmer city. It is famous for the Pushkar Lake and the 14th century Brahma Temple, Pushkar|Brahma Temple at Pushkar, dedicated to Brahmā|Brahma . According to the Padma Purana , Pushkar is an im",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ajmer"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-ajmer-3b33424d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Pushkar",
+   "subtitle": "राजस्थान · Ajmer",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/ajmer",
+   "payload": {
+    "unit_id": "district:rj/ajmer",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Pushkar",
+     "desc_hi": "nasagar File:मक़बरा ख़्वाजा हुसैन अजमेरी रहमतुल्लाह अलैह अजमेर शरीफ .jpg|Tomb of Khwaja Husain Ajmeri|thumb * ' Pushkar ': Located a few kilometres from Ajmer, it is an important tourist and pilgrimage destination and a satellite town of Ajmer city. It is famous for the Pushkar L",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ajmer"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-ajmer-d0c6640f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Tomb of Khwaja Husain Ajmeri|thumb",
+   "subtitle": "राजस्थान · Ajmer",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/ajmer",
+   "payload": {
+    "unit_id": "district:rj/ajmer",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Tomb of Khwaja Husain Ajmeri|thumb",
+     "desc_hi": "in Temple is a recent addition to Ajmer|thumb File:Anasagar Lake, Ajmer.JPG|thumb|Baradari on Lake Anasagar File:मक़बरा ख़्वाजा हुसैन अजमेरी रहमतुल्लाह अलैह अजमेर शरीफ .jpg|Tomb of Khwaja Husain Ajmeri|thumb * ' Pushkar ': Located a few kilometres from Ajmer, it is an important t",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ajmer"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-ajmer-74438dbb",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Baradari on Lake [[Anasagar",
+   "subtitle": "राजस्थान · Ajmer",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/ajmer",
+   "payload": {
+    "unit_id": "district:rj/ajmer",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Baradari on Lake [[Anasagar",
+     "desc_hi": "kbari Fort and Museum|thumb File:Jain Temple-Ajmer.jpg| Nareli Jain Temple is a recent addition to Ajmer|thumb File:Anasagar Lake, Ajmer.JPG|thumb|Baradari on Lake Anasagar File:मक़बरा ख़्वाजा हुसैन अजमेरी रहमतुल्लाह अलैह अजमेर शरीफ .jpg|Tomb of Khwaja Husain Ajmeri|thumb * ' Pus",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ajmer"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-ajmer-b96c82fb",
+   "kind": "region",
+   "subtype": "place",
+   "title": "[[Nareli Jain Temple",
+   "subtitle": "राजस्थान · Ajmer",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/ajmer",
+   "payload": {
+    "unit_id": "district:rj/ajmer",
+    "entity": {
+     "kind": "place",
+     "name_hi": "[[Nareli Jain Temple",
+     "desc_hi": "agari Ayodhya in Ajmer Jain temple|Soniji Ki Nasiyan |thumb File:Akbar Fort.jpg|Akbari Fort and Museum|thumb File:Jain Temple-Ajmer.jpg| Nareli Jain Temple is a recent addition to Ajmer|thumb File:Anasagar Lake, Ajmer.JPG|thumb|Baradari on Lake Anasagar File:मक़बरा ख़्वाजा हुसैन ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ajmer"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-ajmer-777801ab",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Akbari Fort and Museum|thumb",
+   "subtitle": "राजस्थान · Ajmer",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/ajmer",
+   "payload": {
+    "unit_id": "district:rj/ajmer",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Akbari Fort and Museum|thumb",
+     "desc_hi": "opara Monument. File:Ayodhya Nagri.jpg| Swarna Nagari Ayodhya in Ajmer Jain temple|Soniji Ki Nasiyan |thumb File:Akbar Fort.jpg|Akbari Fort and Museum|thumb File:Jain Temple-Ajmer.jpg| Nareli Jain Temple is a recent addition to Ajmer|thumb File:Anasagar Lake, Ajmer.JPG|thumb|Bara",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ajmer"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-ajmer-d4b88998",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dargah Sharif Ajmer|thumb",
+   "subtitle": "राजस्थान · Ajmer",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/ajmer",
+   "payload": {
+    "unit_id": "district:rj/ajmer",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dargah Sharif Ajmer|thumb",
+     "desc_hi": "File:A view of ajmer city.jpg|View of Ajmer from Taragarh Fort, Ajmer|Taragarh Fort |thumb File:Dargah of moinuddin chishti.jpg|Dargah Sharif Ajmer|thumb File:Adhai Din-ka-Jhonpra Column detail (6134514518).jpg|thumb|291x291px|Remnants of Jain and Hindu temple in converted Adhai ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Ajmer"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-valsad-80ccd777",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Swaminarayan Temple, Tithal",
+   "subtitle": "गुजरात · Valsad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/valsad",
+   "payload": {
+    "unit_id": "district:gj/valsad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Swaminarayan Temple, Tithal",
+     "desc_hi": "thapan is located on the shore of the beach in Tithal town of Valsad district. The temple was established in 1982. File:Swaminarayan Temple.Tithal,Valsad.JPG|thumb|Swaminarayan Temple, Tithal Shri Swaminarayan Mandir, Tithal|Shri Swaminarayan Mandir is located on the shore of the",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Valsad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-valsad-16b78a6c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Tithal",
+   "subtitle": "गुजरात · Valsad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/valsad",
+   "payload": {
+    "unit_id": "district:gj/valsad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Tithal",
+     "desc_hi": "ire temple|Agiyari in India. File:Tithal_Beach_Sun_Set.JPG|thumb|Tithal Beach * Tithal Beach is located near Tithal town. The sand of the beach is black. Tithal Beach Festival and the International Kite Festival are also organised on the shore of the beach. * Shree Shirdi Saibaba",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Valsad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-valsad-3f6bed0e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Tithal Beach",
+   "subtitle": "गुजरात · Valsad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/valsad",
+   "payload": {
+    "unit_id": "district:gj/valsad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Tithal Beach",
+     "desc_hi": ", and Oldest Parsis|Parsi Fire temple|Agiyari in India. File:Tithal_Beach_Sun_Set.JPG|thumb|Tithal Beach * Tithal Beach is located near Tithal town. The sand of the beach is black. Tithal Beach Festival and the International Kite Festival are also organised on the shore of the be",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Valsad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-valsad-8532bbb7",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Tithal Beach",
+   "subtitle": "गुजरात · Valsad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/valsad",
+   "payload": {
+    "unit_id": "district:gj/valsad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Tithal Beach",
+     "desc_hi": "mb|Udvada Agiyari * Udvada , Valsad is the Primary, and Oldest Parsis|Parsi Fire temple|Agiyari in India. File:Tithal_Beach_Sun_Set.JPG|thumb|Tithal Beach * Tithal Beach is located near Tithal town. The sand of the beach is black. Tithal Beach Festival and the International Kite ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Valsad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-valsad-b3a4640c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Agiyari",
+   "subtitle": "गुजरात · Valsad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/valsad",
+   "payload": {
+    "unit_id": "district:gj/valsad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Agiyari",
+     "desc_hi": "le:Udvada Fire Temple 1905.JPG|thumb|Udvada Agiyari * Udvada , Valsad is the Primary, and Oldest Parsis|Parsi Fire temple|Agiyari in India. File:Tithal_Beach_Sun_Set.JPG|thumb|Tithal Beach * Tithal Beach is located near Tithal town. The sand of the beach is black. Tithal Beach Fe",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Valsad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-valsad-f0d60ea8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Parsi",
+   "subtitle": "गुजरात · Valsad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/valsad",
+   "payload": {
+    "unit_id": "district:gj/valsad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Parsi",
+     "desc_hi": "File:Udvada Fire Temple 1905.JPG|thumb|Udvada Agiyari * Udvada , Valsad is the Primary, and Oldest Parsis|Parsi Fire temple|Agiyari in India. File:Tithal_Beach_Sun_Set.JPG|thumb|Tithal Beach * Tithal Beach is located near Tithal town. The sand of the beach is black. Tithal Beach ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Valsad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-valsad-b6bb5838",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Udvada",
+   "subtitle": "गुजरात · Valsad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/valsad",
+   "payload": {
+    "unit_id": "district:gj/valsad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Udvada",
+     "desc_hi": "File:Udvada Fire Temple 1905.JPG|thumb|Udvada Agiyari * Udvada , Valsad is the Primary, and Oldest Parsis|Parsi Fire temple|Agiyari in India. File:Tithal_Beach_Sun_Set.JPG|thumb|Tithal Beach * Tithal Beach is located near Tithal town. The sand of the beach is black. Titha",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Valsad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-gj-valsad-d1ef2326",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Udvada Agiyari",
+   "subtitle": "गुजरात · Valsad",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:gj/valsad",
+   "payload": {
+    "unit_id": "district:gj/valsad",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Udvada Agiyari",
+     "desc_hi": "File:Udvada Fire Temple 1905.JPG|thumb|Udvada Agiyari * Udvada , Valsad is the Primary, and Oldest Parsis|Parsi Fire temple|Agiyari in India. File:Tithal_Beach_Sun_Set.JPG|thumb|Tithal Beach * Tithal Beach is locate",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Valsad"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-17",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-gj-rajkot-df9ae460",
    "kind": "region",
