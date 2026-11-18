@@ -1,9 +1,489 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-17T04:07:18.302537+00:00"
+  "updated": "2026-11-18T03:04:11.078156+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-rj-bikaner-bfcd39b5",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bishnoi",
+   "subtitle": "राजस्थान · Bikaner",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bikaner",
+   "payload": {
+    "unit_id": "district:rj/bikaner",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bishnoi",
+     "desc_hi": "Bishnoi community, a sect founded in the 15th century by Guru Jambheshwar , also known as Jambhoji. Followers of the Bishnoi faith adhere to 29 principles that promote environmental conservation and compassion towards all living beings. The temple is built over the samadhi (final",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bikaner"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bikaner-66e8337e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Guru Jambheshwar",
+   "subtitle": "राजस्थान · Bikaner",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bikaner",
+   "payload": {
+    "unit_id": "district:rj/bikaner",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Guru Jambheshwar",
+     "desc_hi": "India. It is considered the principal pilgrimage center of the Bishnoi community, a sect founded in the 15th century by Guru Jambheshwar , also known as Jambhoji. Followers of the Bishnoi faith adhere to 29 principles that promote environmental conservation and compassion towards",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bikaner"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bikaner-0194e9dd",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Nokha",
+   "subtitle": "राजस्थान · Bikaner",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bikaner",
+   "payload": {
+    "unit_id": "district:rj/bikaner",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Nokha",
+     "desc_hi": "Mukam Temple, also known as Mukti Dham Mukam, is a religious site located near Nokha, Bikaner|Nokha in the Bikaner district of Rajasthan, India. It is considered the principal pilgrimage center of the Bishnoi community, a sect founded in the 15th century by Guru Jambheshwar , als",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bikaner"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bikaner-c3319004",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Karni Mata",
+   "subtitle": "राजस्थान · Bikaner",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bikaner",
+   "payload": {
+    "unit_id": "district:rj/bikaner",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Karni Mata",
+     "desc_hi": "been devotees of Karni Mata, and the brevity of human life did not sufficiently satisfy their devotion. The shrine of Karni Mata can be found in the town of Deshnoke 30&nbsp;km south from Bikaner on the road to Jodhpur. Karni Mata is worshiped as an incarnation of Goddess Durga .",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bikaner"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bikaner-9a04c05f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Durga",
+   "subtitle": "राजस्थान · Bikaner",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bikaner",
+   "payload": {
+    "unit_id": "district:rj/bikaner",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Durga",
+     "desc_hi": "ner city and is dedicated to goddess Karni Mata, a famous mystic of her times, believed to be an incarnation of goddess Durga . The locals will be quick to point out that the creatures running around in the temple are not rats, they are kaaba . Kaabas are believed to be reincarna",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bikaner"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bikaner-6d7af7ec",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Deshnoke",
+   "subtitle": "राजस्थान · Bikaner",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bikaner",
+   "payload": {
+    "unit_id": "district:rj/bikaner",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Deshnoke",
+     "desc_hi": "File:Courtyard in the Temple of Karni Mata at Deshnoke.png|thumb| Karni Mata Temple of Deshnoke ( Bikaner district|Bikaner ) The Karni Mata (करणी माता) Temple or the Rat Temple of Rajasthan is situated around 30&nbsp;km away from the Bikaner city and is dedicated to goddess Karni",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bikaner"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bikaner-4e0c4822",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|[[Karni Mata Temple",
+   "subtitle": "राजस्थान · Bikaner",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bikaner",
+   "payload": {
+    "unit_id": "district:rj/bikaner",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|[[Karni Mata Temple",
+     "desc_hi": "File:Courtyard in the Temple of Karni Mata at Deshnoke.png|thumb| Karni Mata Temple of Deshnoke ( Bikaner district|Bikaner ) The Karni Mata (करणी माता) Temple or the Rat Temple of Rajasthan is situated around 30&nbsp;km away fr",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bikaner"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bikaner-59264531",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Junagarh Fort",
+   "subtitle": "राजस्थान · Bikaner",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bikaner",
+   "payload": {
+    "unit_id": "district:rj/bikaner",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Junagarh Fort",
+     "desc_hi": "d by the Department of Tourism, Government of Rajasthan. The festival begins with a procession of decorated camels from Junagarh Fort and continues with cultural events and competitions at Dr. Karni Singh Stadium in Bikaner. {{cite web |title=Welcome to Camel Festival of Bikaner ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bikaner"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-banswara-c9bd41aa",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Kushalgarh",
+   "subtitle": "राजस्थान · Banswara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/banswara",
+   "payload": {
+    "unit_id": "district:rj/banswara",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Kushalgarh",
+     "desc_hi": "imposed by the British and forced labour imposed by the princely states of Banswara, Santrampur , Dungarpur and Kushalgarh . Worried by the tribal revolt, the British decided to crush the uprising. From October 1913, Govindguru Banjara asked his followers to gather at Mangarh hil",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Banswara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-banswara-2515a68a",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Santrampur",
+   "subtitle": "राजस्थान · Banswara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/banswara",
+   "payload": {
+    "unit_id": "district:rj/banswara",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Santrampur",
+     "desc_hi": "}} The Bhils began opposing taxes imposed by the British and forced labour imposed by the princely states of Banswara, Santrampur , Dungarpur and Kushalgarh . Worried by the tribal revolt, the British decided to crush the uprising. From October 1913, Govindguru Banjara asked his ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Banswara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-banswara-5925540c",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Govind Guru Banjara",
+   "subtitle": "राजस्थान · Banswara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/banswara",
+   "payload": {
+    "unit_id": "district:rj/banswara",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Govind Guru Banjara",
+     "desc_hi": "uated of the Aravalli Range|Aravali mountains on the Rajasthan-Gujarat border. The tribals were led by their leader Govindgiri|Govind Guru Banjara who inspired them to throw off the yoke of British rule. Govind Guru Banjara, influenced by social reformers like Dayananda Saraswati",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Banswara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-banswara-91d28112",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Aravali",
+   "subtitle": "राजस्थान · Banswara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/banswara",
+   "payload": {
+    "unit_id": "district:rj/banswara",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Aravali",
+     "desc_hi": "e firing. British forces opened fire on tribals who had gathered in the Mangarh Hills|Mangarh hills situated of the Aravalli Range|Aravali mountains on the Rajasthan-Gujarat border. The tribals were led by their leader Govindgiri|Govind Guru Banjara who inspired them to throw off",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Banswara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-banswara-b508d651",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Mangarh",
+   "subtitle": "राजस्थान · Banswara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/banswara",
+   "payload": {
+    "unit_id": "district:rj/banswara",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Mangarh",
+     "desc_hi": "massacre in which 329 people were killed in the firing. British forces opened fire on tribals who had gathered in the Mangarh Hills|Mangarh hills situated of the Aravalli Range|Aravali mountains on the Rajasthan-Gujarat border. The tribals were led by their leader Govindgiri|Govi",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Banswara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-banswara-95d452f2",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Jallianwala Bagh massacre",
+   "subtitle": "राजस्थान · Banswara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/banswara",
+   "payload": {
+    "unit_id": "district:rj/banswara",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Jallianwala Bagh massacre",
+     "desc_hi": "strict was witness to a little-known Mangarh Massacre|massacre of around 1500 tribals by the British, echoing the Jallianwala Bagh massacre in which 329 people were killed in the firing. British forces opened fire on tribals who had gathered in the Mangarh Hills|Mangarh hills sit",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Banswara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-banswara-73f4b98d",
+   "kind": "region",
+   "subtype": "person",
+   "title": "massacre",
+   "subtitle": "राजस्थान · Banswara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/banswara",
+   "payload": {
+    "unit_id": "district:rj/banswara",
+    "entity": {
+     "kind": "person",
+     "name_hi": "massacre",
+     "desc_hi": "bamboo found in abundance in its forests. On 17 November 1913, Banswara district was witness to a little-known Mangarh Massacre|massacre of around 1500 tribals by the British, echoing the Jallianwala Bagh massacre in which 329 people were killed in the firing. British forces open",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Banswara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-banswara-82960335",
+   "kind": "region",
+   "subtype": "person",
+   "title": "bamboo",
+   "subtitle": "राजस्थान · Banswara",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/banswara",
+   "payload": {
+    "unit_id": "district:rj/banswara",
+    "entity": {
+     "kind": "person",
+     "name_hi": "bamboo",
+     "desc_hi": "rt of the region known as Vagad or Vagwar. The district was formerly a state ruled by the Maharavals, named for the bamboo found in abundance in its forests. On 17 November 1913, Banswara district was witness to a little-known Mangarh Massacre|massacre of around 1500 tribals by t",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Banswara"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-18",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-rj-alwar-4888ce3a",
    "kind": "region",

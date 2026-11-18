@@ -5,7 +5,7 @@
   "death": null,
   "source": null
  },
- "checked_at": "2026-11-17T04:07:03.172478+00:00",
+ "checked_at": "2026-11-18T03:04:08.349186+00:00",
  "score": 0,
  "verdict": "nosource",
  "checks": [
@@ -20,7 +20,7 @@
    "name": "wiki-en-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"Swanage\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"Sexton Blake bibliography part 2: 1912–1945\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
