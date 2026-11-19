@@ -1,9 +1,849 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-18T03:04:11.078156+00:00"
+  "updated": "2026-11-19T02:44:40.112158+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-rj-deeg-a894429b",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Mir bakhshi",
+   "subtitle": "राजस्थान · Deeg",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/deeg",
+   "payload": {
+    "unit_id": "district:rj/deeg",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Mir bakhshi",
+     "desc_hi": "The other significant structures of the fort include certain underground chambers, the tomb of Muhammad Shafi, a Mughal Mir bakhshi .",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deeg"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-deeg-8f467939",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Haveli",
+   "subtitle": "राजस्थान · Deeg",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/deeg",
+   "payload": {
+    "unit_id": "district:rj/deeg",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Haveli",
+     "desc_hi": "which access is possible through a bridge on the northern side linked with the only gate. A partially ruined palace or Haveli is the principal building of Deeg Fort. Some parts of the palace have been re-constructed in the 20th century to appear like the original palace. The pala",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deeg"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-deeg-4dd5e5a2",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Maharaja Jawahar Singh",
+   "subtitle": "राजस्थान · Deeg",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/deeg",
+   "payload": {
+    "unit_id": "district:rj/deeg",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Maharaja Jawahar Singh",
+     "desc_hi": "val in February/ March and the Avamasaya festival in September. There is a Jawahar exhibition fair, named after Jawahar Singh|Maharaja Jawahar Singh , held every year around September. The Deeg Palace museum is closed on Fridays. * [https://utsav.gov.in/view-event/deeg-festival D",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deeg"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-deeg-1fa0e005",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Avamasaya",
+   "subtitle": "राजस्थान · Deeg",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/deeg",
+   "payload": {
+    "unit_id": "district:rj/deeg",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Avamasaya",
+     "desc_hi": "Deeg Palace with its 900 fountains, which operate twice a year during Braj Holi festival in February/ March and the Avamasaya festival in September. There is a Jawahar exhibition fair, named after Jawahar Singh|Maharaja Jawahar Singh , held every year around September. The Deeg P",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deeg"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-deeg-17caf826",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Deeg Palace",
+   "subtitle": "राजस्थान · Deeg",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/deeg",
+   "payload": {
+    "unit_id": "district:rj/deeg",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Deeg Palace",
+     "desc_hi": "* Deeg Palace with its 900 fountains, which operate twice a year during Braj Holi festival in February/ March and the Avamasaya festival in September. There is a Jawahar exhibition fair, named after Jawahar Singh|Maharaja Jawaha",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Deeg"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-dausa-7dbbecc6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jhajhirampura",
+   "subtitle": "राजस्थान · Dausa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/dausa",
+   "payload": {
+    "unit_id": "district:rj/dausa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jhajhirampura",
+     "desc_hi": "nce of the then ruler Raoji and Jaiman purohits. It is situated at about 25&nbsp;km from Dausa. * 'Jhajhirampura ': Jhajhirampura is known for the natural water tank and temples of Rudra (Shiv), Balaji (Hanuman), Bhairav nath ji, Devnarayan chouhan ji temple and other religious g",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dausa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-dausa-e3bf9e27",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Khawaraoji",
+   "subtitle": "राजस्थान · Dausa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/dausa",
+   "payload": {
+    "unit_id": "district:rj/dausa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Khawaraoji",
+     "desc_hi": "o-detail/11779/33/29 |title= Tourist Places, District Dausa |website=District Dausa |access-date=15 July 2023}}</ref> * 'Khawaraoji ': Khawaraoji was the residence of the then ruler Raoji and Jaiman purohits. It is situated at about 25&nbsp;km from Dausa. * 'Jhajhirampura ': Jhaj",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dausa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-dausa-8c049789",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bhandarej",
+   "subtitle": "राजस्थान · Dausa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/dausa",
+   "payload": {
+    "unit_id": "district:rj/dausa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bhandarej",
+     "desc_hi": "towards Bandikui . The Chand Baori (Step Well) and Harshat Mata Temple are the important places to visit. * 'Bhandarej ': Bhandarej is known for the walls, sculptures, decorative latticework, and terracotta utensils found in the excavation. Bhandarej also has 18th-century step-we",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dausa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-dausa-c953d121",
+   "kind": "region",
+   "subtype": "place",
+   "title": "[[Abhaneri]]",
+   "subtitle": "राजस्थान · Dausa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/dausa",
+   "payload": {
+    "unit_id": "district:rj/dausa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "[[Abhaneri]]",
+     "desc_hi": "There are many places in and near Dausa to visit such as: * ' Abhaneri ': It is known for its post-Gupta or early medieval monuments. It is situated at about 33&nbsp;km from Dausa towards Bandikui . The Chand Baori (Step Well) and Harshat Mata Temple are the important places to v",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dausa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-dausa-50d3c33e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Harshat Mata Temple",
+   "subtitle": "राजस्थान · Dausa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/dausa",
+   "payload": {
+    "unit_id": "district:rj/dausa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Harshat Mata Temple",
+     "desc_hi": "eval monuments. It is situated at about 33&nbsp;km from Dausa towards Bandikui . The Chand Baori (Step Well) and Harshat Mata Temple are the important places to visit. * 'Bhandarej ': Bhandarej is known for the walls, sculptures, decorative latticework, and terracotta utensils fo",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dausa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-dausa-eccc53ed",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chand Baori",
+   "subtitle": "राजस्थान · Dausa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/dausa",
+   "payload": {
+    "unit_id": "district:rj/dausa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chand Baori",
+     "desc_hi": "for its post-Gupta or early medieval monuments. It is situated at about 33&nbsp;km from Dausa towards Bandikui . The Chand Baori (Step Well) and Harshat Mata Temple are the important places to visit. * 'Bhandarej ': Bhandarej is known for the walls, sculptures, decorative lattice",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dausa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-dausa-0509d5ee",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bandikui",
+   "subtitle": "राजस्थान · Dausa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/dausa",
+   "payload": {
+    "unit_id": "district:rj/dausa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bandikui",
+     "desc_hi": "] ': It is known for its post-Gupta or early medieval monuments. It is situated at about 33&nbsp;km from Dausa towards Bandikui . The Chand Baori (Step Well) and Harshat Mata Temple are the important places to visit. * 'Bhandarej ': Bhandarej is known for the walls, sculptures, d",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dausa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-dausa-e06ac989",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Abhaneri",
+   "subtitle": "राजस्थान · Dausa",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/dausa",
+   "payload": {
+    "unit_id": "district:rj/dausa",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Abhaneri",
+     "desc_hi": "There are many places in and near Dausa to visit such as: * ' Abhaneri ': It is known for its post-Gupta or early medieval monuments. It is situated at about 33&nbsp;km from Dausa towards Bandikui . The Chand Baori (Step Well) and Harshat Mata Temple are the important places to v",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dausa"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-chittorgarh-cffbdd53",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Surya",
+   "subtitle": "राजस्थान · Chittorgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/chittorgarh",
+   "payload": {
+    "unit_id": "district:rj/chittorgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Surya",
+     "desc_hi": "Kalika Mata Temple, Chittorgarh Fort|Kalika Mata Temple was originally built in the 8th century for Surya , the Sun God, and was later converted to a temple for the mother Goddess, Kali, in the 14th century. During the festival days of Navaratri , fairs are organised, and pilgrim",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chittorgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-chittorgarh-4305219a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kalika Mata Temple",
+   "subtitle": "राजस्थान · Chittorgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/chittorgarh",
+   "payload": {
+    "unit_id": "district:rj/chittorgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kalika Mata Temple",
+     "desc_hi": "Kalika Mata Temple, Chittorgarh Fort|Kalika Mata Temple was originally built in the 8th century for Surya , the Sun God, and was later converted to a temple for the mother Goddess, Kali, in the 14th century. During the festival days",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chittorgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-chittorgarh-2650b53d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|150px|Temple inside Chittorgarh fort",
+   "subtitle": "राजस्थान · Chittorgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/chittorgarh",
+   "payload": {
+    "unit_id": "district:rj/chittorgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|150px|Temple inside Chittorgarh fort",
+     "desc_hi": "File:Rana Kumbha Palace, Chittorgarh 36.jpg|thumb|150px|right|Chittorgarh fort inside File:Temple in Rajasthan.jpg|thumb|150px|Temple inside Chittorgarh fort",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chittorgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-chittorgarh-3a4b420d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|150px|right|Chittorgarh fort inside",
+   "subtitle": "राजस्थान · Chittorgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/chittorgarh",
+   "payload": {
+    "unit_id": "district:rj/chittorgarh",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|150px|right|Chittorgarh fort inside",
+     "desc_hi": "File:Rana Kumbha Palace, Chittorgarh 36.jpg|thumb|150px|right|Chittorgarh fort inside File:Temple in Rajasthan.jpg|thumb|150px|Temple inside Chittorgarh fort",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chittorgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-chittorgarh-a7b71408",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Jyestha",
+   "subtitle": "राजस्थान · Chittorgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/chittorgarh",
+   "payload": {
+    "unit_id": "district:rj/chittorgarh",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Jyestha",
+     "desc_hi": "a Bai Songara. His birth anniversary (Maharana Pratap Jayanti) is celebrated as a festival every year on the 3rd day of Jyeshtha (month)|Jyestha Shukla phase. Special puja and processions are held in his remembrance on Maharana Pratap Jayanti day. Several cultural programmes, suc",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chittorgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-chittorgarh-16312514",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Maharana Udai Singh II",
+   "subtitle": "राजस्थान · Chittorgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/chittorgarh",
+   "payload": {
+    "unit_id": "district:rj/chittorgarh",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Maharana Udai Singh II",
+     "desc_hi": "Maharana was born on May 9, 1540, in Kumbhalgarh in Rajsamand district of Rajasthan to Maharana Udai Singh II and Maharani Jaivanta Bai Songara. His birth anniversary (Maharana Pratap Jayanti) is celebrated as a festival every year on the 3rd day of Jyeshtha (month)|Jyestha Shukl",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chittorgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-chittorgarh-299ef084",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Rajsamand",
+   "subtitle": "राजस्थान · Chittorgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/chittorgarh",
+   "payload": {
+    "unit_id": "district:rj/chittorgarh",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Rajsamand",
+     "desc_hi": "Maharana was born on May 9, 1540, in Kumbhalgarh in Rajsamand district of Rajasthan to Maharana Udai Singh II and Maharani Jaivanta Bai Songara. His birth anniversary (Maharana Pratap Jayanti) is celebrated as a festival every year on the 3rd day of Jyeshtha (month)|Jyestha Shukl",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chittorgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-chittorgarh-1de9a341",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Kumbhalgarh",
+   "subtitle": "राजस्थान · Chittorgarh",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/chittorgarh",
+   "payload": {
+    "unit_id": "district:rj/chittorgarh",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Kumbhalgarh",
+     "desc_hi": "Maharana was born on May 9, 1540, in Kumbhalgarh in Rajsamand district of Rajasthan to Maharana Udai Singh II and Maharani Jaivanta Bai Songara. His birth anniversary (Maharana Pratap Jayanti) is celebrated as a festival every year on the 3rd day of Jyeshtha (mon",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chittorgarh"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bundi-e0a98284",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "folk music",
+   "subtitle": "राजस्थान · Bundi",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bundi",
+   "payload": {
+    "unit_id": "district:rj/bundi",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "folk music",
+     "desc_hi": "anfare-1161681.html |access-date=2025-11-07 |website=Deccan Herald |language=en}}</ref> First held in 1996, it involves Music of Rajasthan|folk music , an arts and crafts fair and traditional Rajasthani sports. {{Cite web |last=कोटा |first=दिनेश कश्यप |date=2022-11-08 |title=धूमध",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bundi"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bundi-24b4f4df",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Hindu calendar",
+   "subtitle": "राजस्थान · Bundi",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bundi",
+   "payload": {
+    "unit_id": "district:rj/bundi",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Hindu calendar",
+     "desc_hi": "l of Bundi Utsav occurs annually in the city, for three days in Kartika (month)|Kartik , the eighth month of the Hindu calendar . {{Cite web |title=Rajasthan: Bundi Utsav begins in Hadoti with fanfare |url=https://www.deccanherald.com/india/rajasthan-bundi-utsav-begins-in-hadoti-",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bundi"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bundi-a6b7ab8c",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Kartik",
+   "subtitle": "राजस्थान · Bundi",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bundi",
+   "payload": {
+    "unit_id": "district:rj/bundi",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Kartik",
+     "desc_hi": "The festival of Bundi Utsav occurs annually in the city, for three days in Kartika (month)|Kartik , the eighth month of the Hindu calendar . {{Cite web |title=Rajasthan: Bundi Utsav begins in Hadoti with fanfare |url=https://www.deccanherald.com/india/rajasthan-bundi-utsav-begins",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bundi"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bundi-5ea47d25",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Bundi Utsav",
+   "subtitle": "राजस्थान · Bundi",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bundi",
+   "payload": {
+    "unit_id": "district:rj/bundi",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Bundi Utsav",
+     "desc_hi": "The festival of Bundi Utsav occurs annually in the city, for three days in Kartika (month)|Kartik , the eighth month of the Hindu calendar . {{Cite web |title=Rajasthan: Bundi Utsav begins in Hadoti with fanfare |url=https://www.deccanherald.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bundi"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bundi-b74a2496",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Charbhuja Nath Temple",
+   "subtitle": "राजस्थान · Bundi",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bundi",
+   "payload": {
+    "unit_id": "district:rj/bundi",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Charbhuja Nath Temple",
+     "desc_hi": "including a partially submerged Varuna temple located in the middle of the artificial Nawal Sagar Lake ; and the Charbhuja Nath Temple , devoted to Charbhujanath , a four-armed form of Vishnu, and situated within the old city. {{Cite web |last=Bharat |first=E. T. V. |date=2020-03",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bundi"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bundi-415d0924",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Nawal Sagar Lake",
+   "subtitle": "राजस्थान · Bundi",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bundi",
+   "payload": {
+    "unit_id": "district:rj/bundi",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Nawal Sagar Lake",
+     "desc_hi": "di is home to several temples including a partially submerged Varuna temple located in the middle of the artificial Nawal Sagar Lake ; and the Charbhuja Nath Temple , devoted to Charbhujanath , a four-armed form of Vishnu, and situated within the old city. {{Cite web |last=Bharat",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bundi"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-bundi-723dba3d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Varuna",
+   "subtitle": "राजस्थान · Bundi",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/bundi",
+   "payload": {
+    "unit_id": "district:rj/bundi",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Varuna",
+     "desc_hi": "Bundi is home to several temples including a partially submerged Varuna temple located in the middle of the artificial Nawal Sagar Lake ; and the Charbhuja Nath Temple , devoted to Charbhujanath , a four-armed form of Vishnu, and situated within the old city. {{Cite web",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Bundi"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-19",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-rj-bikaner-bfcd39b5",
    "kind": "region",

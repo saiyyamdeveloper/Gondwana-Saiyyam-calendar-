@@ -1,0 +1,55 @@
+{
+ "id": "region:district-rj-dausa-e3bf9e27",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q6401058"
+ },
+ "checked_at": "2026-11-19T02:44:04.144395+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Khawaraoji; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Khawaraoji"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q6401058",
+   "link": "https://www.wikidata.org/wiki/Q6401058"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "Khawaraoji: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "llm": null
+}

@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q1749714"
  },
- "checked_at": "2026-11-18T03:03:53.530939+00:00",
+ "checked_at": "2026-11-19T02:44:29.203647+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -27,8 +27,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Nokha, Rohtas; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Nokha%2C%20Rohtas"
+   "detail": "पृष्ठ मिला: Nokha, Bikaner; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Nokha%2C%20Bikaner"
   },
   {
    "name": "wikidata",
