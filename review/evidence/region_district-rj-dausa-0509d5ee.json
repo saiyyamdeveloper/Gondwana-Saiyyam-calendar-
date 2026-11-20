@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q629203"
  },
- "checked_at": "2026-11-19T02:44:09.238334+00:00",
+ "checked_at": "2026-11-20T02:30:17.913374+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -27,8 +27,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Bandikui; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Bandikui"
+   "detail": "पृष्ठ मिला: Bandikui Junction; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Bandikui%20Junction"
   },
   {
    "name": "wikidata",

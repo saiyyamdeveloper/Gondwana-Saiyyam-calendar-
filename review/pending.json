@@ -1,9 +1,429 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-19T02:44:40.112158+00:00"
+  "updated": "2026-11-20T02:30:29.032123+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-rj-jaisalmer-07097e7d",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Desert Festival",
+   "subtitle": "राजस्थान · Jaisalmer",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jaisalmer",
+   "payload": {
+    "unit_id": "district:rj/jaisalmer",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Desert Festival",
+     "desc_hi": "15.jpg|left|thumb|Camel rides in Jaisalmer File:A jumping camel.jpg|thumb|A jumping camel in Desert Festival The Desert Festival of Jaisalmer features races, turban-tying and Mr. Desert competitions. It is held in the month of February every year. The festival showcases Rajasthan",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaisalmer"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jaisalmer-4a0a340d",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "thumb|A jumping camel in Desert Festival",
+   "subtitle": "राजस्थान · Jaisalmer",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jaisalmer",
+   "payload": {
+    "unit_id": "district:rj/jaisalmer",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "thumb|A jumping camel in Desert Festival",
+     "desc_hi": "File:Camel rides in Jaisalmer, Thar Desert 15.jpg|left|thumb|Camel rides in Jaisalmer File:A jumping camel.jpg|thumb|A jumping camel in Desert Festival The Desert Festival of Jaisalmer features races, turban-tying and Mr. Desert competitions. It is held in the month of February e",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaisalmer"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jaisalmer-22062c36",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "left|thumb|Camel rides in Jaisalmer",
+   "subtitle": "राजस्थान · Jaisalmer",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jaisalmer",
+   "payload": {
+    "unit_id": "district:rj/jaisalmer",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "left|thumb|Camel rides in Jaisalmer",
+     "desc_hi": "File:Camel rides in Jaisalmer, Thar Desert 15.jpg|left|thumb|Camel rides in Jaisalmer File:A jumping camel.jpg|thumb|A jumping camel in Desert Festival The Desert Festival of Jaisalmer features races, turban-tying and Mr. Desert",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaisalmer"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jaipur-d05b27e2",
+   "kind": "region",
+   "subtype": "place",
+   "title": "City Palace",
+   "subtitle": "राजस्थान · Jaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jaipur",
+   "payload": {
+    "unit_id": "district:rj/jaipur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "City Palace",
+     "desc_hi": "y 2015 |url-status=live }}</ref> Visitor attractions include the Albert Hall Museum , Hawa Mahal , Jal Mahal , City Palace, Jaipur|City Palace , Amer Fort , Jantar Mantar (Jaipur)|Jantar Mantar , Nahargarh Fort , Jaigarh Fort , Birla Mandir, Jaipur|Birla Mandir , Galtaji , Govind",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jaipur-ecf228fc",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jal Mahal",
+   "subtitle": "राजस्थान · Jaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jaipur",
+   "payload": {
+    "unit_id": "district:rj/jaipur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jal Mahal",
+     "desc_hi": "ive-date=11 July 2015 |url-status=live }}</ref> Visitor attractions include the Albert Hall Museum , Hawa Mahal , Jal Mahal , City Palace, Jaipur|City Palace , Amer Fort , Jantar Mantar (Jaipur)|Jantar Mantar , Nahargarh Fort , Jaigarh Fort , Birla Mandir, Jaipur|Birla Mandir , G",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jaipur-7af2e55f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Hawa Mahal",
+   "subtitle": "राजस्थान · Jaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jaipur",
+   "payload": {
+    "unit_id": "district:rj/jaipur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Hawa Mahal",
+     "desc_hi": "778821.cms |archive-date=11 July 2015 |url-status=live }}</ref> Visitor attractions include the Albert Hall Museum , Hawa Mahal , Jal Mahal , City Palace, Jaipur|City Palace , Amer Fort , Jantar Mantar (Jaipur)|Jantar Mantar , Nahargarh Fort , Jaigarh Fort , Birla Mandir, Jaipur|",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jaipur-80d90107",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Albert Hall Museum",
+   "subtitle": "राजस्थान · Jaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jaipur",
+   "payload": {
+    "unit_id": "district:rj/jaipur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Albert Hall Museum",
+     "desc_hi": "tions-hub/articleshow/44778821.cms |archive-date=11 July 2015 |url-status=live }}</ref> Visitor attractions include the Albert Hall Museum , Hawa Mahal , Jal Mahal , City Palace, Jaipur|City Palace , Amer Fort , Jantar Mantar (Jaipur)|Jantar Mantar , Nahargarh Fort , Jaigarh Fort",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jaipur-5ae29786",
+   "kind": "region",
+   "subtype": "place",
+   "title": "The Times of India",
+   "subtitle": "राजस्थान · Jaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jaipur",
+   "payload": {
+    "unit_id": "district:rj/jaipur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "The Times of India",
+     "desc_hi": "on-Centre-will-make-Pink-City-a-meetings-incentives-conferences-and-exhibitions-hub/articleshow/44778821.cms |newspaper= The Times of India |date=11 October 2014 |access-date=8 February 2016 |archive-url=https://web.archive.org/web/20150711114056/http://timesofindia.indiatimes.co",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jaipur-c2b4d1d7",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Raj Palace Hotel",
+   "subtitle": "राजस्थान · Jaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jaipur",
+   "payload": {
+    "unit_id": "district:rj/jaipur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Raj Palace Hotel",
+     "desc_hi": "ve-date=1 April 2015 |title=World's best destinations |access-date=28 March 2011 }}</ref> The Presidential Suite at the The Raj Palace|Raj Palace Hotel , billed at per night, was listed in second place on CNN's World's 15 most expensive hotel suites in 2012. {{cite news |author=A",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jaipur-1a7a4ce0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Golden Triangle",
+   "subtitle": "राजस्थान · Jaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jaipur",
+   "payload": {
+    "unit_id": "district:rj/jaipur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Golden Triangle",
+     "desc_hi": "[File:Nahargarh 080.jpg|thumb| Nahargarh Fort Jaipur is a major tourist destination in India forming a part of the Golden Triangle (India)|Golden Triangle . {{cite news |last1=Sharma |first1=Aman |title=Air India's Jaipur-Agra flight suffering losses |url=https://economictimes.in",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jaipur-8077a6c1",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|[[Nahargarh Fort",
+   "subtitle": "राजस्थान · Jaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jaipur",
+   "payload": {
+    "unit_id": "district:rj/jaipur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|[[Nahargarh Fort",
+     "desc_hi": "File:Nahargarh 080.jpg|thumb| Nahargarh Fort Jaipur is a major tourist destination in India forming a part of the Golden Triangle (India)|Golden Triangle . {{cite news |last1=Sharma |first1=Aman |title=Air India's Jaipur-Agra",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-dungarpur-ef673591",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Baneshwar fair",
+   "subtitle": "राजस्थान · dungarpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/dungarpur",
+   "payload": {
+    "unit_id": "district:rj/dungarpur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Baneshwar fair",
+     "desc_hi": "<!--DO NOT ADD FESTIVALS THAT DO NOT HAVE WIKIPEDIA ARTICLES--> * Baneshwar fair",
+     "sources": [
+      "https://en.wikipedia.org/wiki/dungarpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-dungarpur-c33e36d7",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Śvetāmbara",
+   "subtitle": "राजस्थान · dungarpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/dungarpur",
+   "payload": {
+    "unit_id": "district:rj/dungarpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Śvetāmbara",
+     "desc_hi": "T ADD PLACES THAT DO NOT HAVE WIKIPEDIA ARTICLES--> * Shrinathji Temple * 770 Years old Shree Gambhira Parshvanatha Śvetāmbara Jain Temple, Dungarpur File:Shree Gambhira Parshvanatha Śvetāmbara Jain Temple,Dungarpur.jpg|thumb|Shree Gambhira Parshvanatha Śvetāmbara Jain Temple, Du",
+     "sources": [
+      "https://en.wikipedia.org/wiki/dungarpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-dungarpur-a7696d43",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Parshvanatha",
+   "subtitle": "राजस्थान · dungarpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/dungarpur",
+   "payload": {
+    "unit_id": "district:rj/dungarpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Parshvanatha",
+     "desc_hi": "<!---DO NOT ADD PLACES THAT DO NOT HAVE WIKIPEDIA ARTICLES--> * Shrinathji Temple * 770 Years old Shree Gambhira Parshvanatha Śvetāmbara Jain Temple, Dungarpur File:Shree Gambhira Parshvanatha Śvetāmbara Jain Temple,Dungarpur.jpg|thumb|Shree Gambhira Parshvanatha Śvetāmbara Jain ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/dungarpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-20",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-rj-deeg-a894429b",
    "kind": "region",

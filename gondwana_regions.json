@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-11-19T02:43:54+00:00",
+  "updated": "2026-11-20T02:29:59+00:00",
   "coverage": {
    "states": 29,
    "districts": 776,
-   "tehsils": 134,
+   "tehsils": 142,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -9035,6 +9035,70 @@
    "parent": "district:od/subarnapur",
    "entities": [],
    "source_admin": "https://en.wikipedia.org/wiki/Subarnapur_district"
+  },
+  {
+   "id": "tehsil:rj/didwana-kuchaman/chhoti-khatu",
+   "level": "tehsil",
+   "name_hi": "Chhoti Khatu",
+   "parent": "district:rj/didwana-kuchaman",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Didwana_Kuchaman_district"
+  },
+  {
+   "id": "tehsil:rj/didwana-kuchaman/didwana",
+   "level": "tehsil",
+   "name_hi": "Didwana",
+   "parent": "district:rj/didwana-kuchaman",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Didwana_Kuchaman_district"
+  },
+  {
+   "id": "tehsil:rj/didwana-kuchaman/makrana",
+   "level": "tehsil",
+   "name_hi": "Makrana",
+   "parent": "district:rj/didwana-kuchaman",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Didwana_Kuchaman_district"
+  },
+  {
+   "id": "tehsil:rj/didwana-kuchaman/maulasar",
+   "level": "tehsil",
+   "name_hi": "Maulasar",
+   "parent": "district:rj/didwana-kuchaman",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Didwana_Kuchaman_district"
+  },
+  {
+   "id": "tehsil:rj/didwana-kuchaman/presently-tehsils-are-as-follows",
+   "level": "tehsil",
+   "name_hi": "Presently Tehsils are as follows:",
+   "parent": "district:rj/didwana-kuchaman",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Didwana_Kuchaman_district"
+  },
+  {
+   "id": "tehsil:rj/jaipur-rural/jaipur-city",
+   "level": "tehsil",
+   "name_hi": "Jaipur (city)",
+   "parent": "district:rj/jaipur-rural",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Jaipur_Rural_district"
+  },
+  {
+   "id": "tehsil:rj/jaipur-rural/jaipur-municipal-corporation",
+   "level": "tehsil",
+   "name_hi": "Jaipur Municipal Corporation",
+   "parent": "district:rj/jaipur-rural",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Jaipur_Rural_district"
+  },
+  {
+   "id": "tehsil:rj/jaipur-rural/jaipur-urban",
+   "level": "tehsil",
+   "name_hi": "Jaipur Urban",
+   "parent": "district:rj/jaipur-rural",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Jaipur_Rural_district"
   },
   {
    "id": "tehsil:ts/bhadradri-kothagudem/aswapuram",

@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-11-19T02:43:54+00:00",
-  "progress": "151/939 done, 299 blocked"
+  "updated": "2026-11-20T02:29:59+00:00",
+  "progress": "156/947 done, 300 blocked"
  },
  "jobs": [
   {
@@ -3379,32 +3379,52 @@
   {
    "unit": "district:rj/didwana-kuchaman",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-20T02:29:50+00:00",
+   "children": 5,
+   "entities_queued": 0
   },
   {
    "unit": "district:rj/dungarpur",
    "task": "tehsils+entities",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-20T02:29:52+00:00",
+   "children": 0,
+   "entities_queued": 3,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:rj/hanumangarh",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-20T02:29:53+00:00"
   },
   {
    "unit": "district:rj/jaipur",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-20T02:29:55+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:rj/jaipur-rural",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-20T02:29:56+00:00",
+   "children": 3,
+   "entities_queued": 0
   },
   {
    "unit": "district:rj/jaisalmer",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-20T02:29:59+00:00",
+   "children": 0,
+   "entities_queued": 3,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:rj/jalore",
@@ -5818,6 +5838,46 @@
   },
   {
    "unit": "district:hr/yamunanagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:rj/didwana-kuchaman/makrana",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:rj/didwana-kuchaman/didwana",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:rj/didwana-kuchaman/maulasar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:rj/didwana-kuchaman/chhoti-khatu",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:rj/didwana-kuchaman/presently-tehsils-are-as-follows",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:rj/jaipur-rural/jaipur-city",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:rj/jaipur-rural/jaipur-municipal-corporation",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:rj/jaipur-rural/jaipur-urban",
    "task": "mine",
    "status": "pending"
   }
