@@ -5,8 +5,8 @@
   "death": null,
   "source": "wikidata:Q4667324"
  },
- "checked_at": "2026-11-20T02:30:18.347940+00:00",
- "score": 35,
+ "checked_at": "2026-11-21T02:42:11.840340+00:00",
+ "score": 15,
  "verdict": "weak",
  "checks": [
   {
@@ -17,11 +17,18 @@
    "link": ""
   },
   {
+   "name": "wiki-en-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"Chand Baori\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
    "name": "wiki-en",
-   "ok": true,
-   "pts": 20,
-   "detail": "पृष्ठ मिला: Abhaneri; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Abhaneri"
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
   },
   {
    "name": "wikidata",
@@ -47,9 +54,8 @@
  ],
  "conflicts": [],
  "sources_domains": [
-  "en.wikipedia.org",
   "wikidata.org"
  ],
- "summary_hi": "Abhaneri: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "summary_hi": "Abhaneri: स्कोर 15/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wikidata।",
  "llm": null
 }

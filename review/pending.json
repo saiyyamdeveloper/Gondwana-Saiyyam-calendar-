@@ -1,9 +1,399 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-20T02:30:29.032123+00:00"
+  "updated": "2026-11-21T02:42:11.846468+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-rj-jodhpur-441416e0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Machia Biological Park",
+   "subtitle": "राजस्थान · Jodhpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jodhpur",
+   "payload": {
+    "unit_id": "district:rj/jodhpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Machia Biological Park",
+     "desc_hi": "are also within proximity to Mandore|Mandore Garden , Kaylana Lake|Kaylana Lake and Garden , Balsamand Lake , Machia Biological Park , Rao Jodha Desert Rock Park, Ratanada Ganesh Temple, Toorji Ka Jhalra, Sardar Samand Lake and Palace, Masooria Hills, Veer Durgadas Smarak (monume",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jodhpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jodhpur-fbaa007d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Balsamand Lake",
+   "subtitle": "राजस्थान · Jodhpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jodhpur",
+   "payload": {
+    "unit_id": "district:rj/jodhpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Balsamand Lake",
+     "desc_hi": "lock Tower. Tourists are also within proximity to Mandore|Mandore Garden , Kaylana Lake|Kaylana Lake and Garden , Balsamand Lake , Machia Biological Park , Rao Jodha Desert Rock Park, Ratanada Ganesh Temple, Toorji Ka Jhalra, Sardar Samand Lake and Palace, Masooria Hills, Veer Du",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jodhpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jodhpur-5ac1f81b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kaylana Lake and Garden",
+   "subtitle": "राजस्थान · Jodhpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jodhpur",
+   "payload": {
+    "unit_id": "district:rj/jodhpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kaylana Lake and Garden",
+     "desc_hi": "[Ghanta Ghar (Jodhpur)|Ghanta Ghar , or Clock Tower. Tourists are also within proximity to Mandore|Mandore Garden , Kaylana Lake|Kaylana Lake and Garden , Balsamand Lake , Machia Biological Park , Rao Jodha Desert Rock Park, Ratanada Ganesh Temple, Toorji Ka Jhalra, Sardar Samand",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jodhpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jodhpur-1a9578d0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mandore Garden",
+   "subtitle": "राजस्थान · Jodhpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jodhpur",
+   "payload": {
+    "unit_id": "district:rj/jodhpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mandore Garden",
+     "desc_hi": "Jaswant Thada , and the Ghanta Ghar (Jodhpur)|Ghanta Ghar , or Clock Tower. Tourists are also within proximity to Mandore|Mandore Garden , Kaylana Lake|Kaylana Lake and Garden , Balsamand Lake , Machia Biological Park , Rao Jodha Desert Rock Park, Ratanada Ganesh Temple, Toorji K",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jodhpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jodhpur-8cb16f1d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ghanta Ghar",
+   "subtitle": "राजस्थान · Jodhpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jodhpur",
+   "payload": {
+    "unit_id": "district:rj/jodhpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ghanta Ghar",
+     "desc_hi": "the city, the blue bylanes of the old city are also an attraction, Umaid Bhawan Palace , Jaswant Thada , and the Ghanta Ghar (Jodhpur)|Ghanta Ghar , or Clock Tower. Tourists are also within proximity to Mandore|Mandore Garden , Kaylana Lake|Kaylana Lake and Garden , Balsamand Lak",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jodhpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jodhpur-a2547974",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jaswant Thada",
+   "subtitle": "राजस्थान · Jodhpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jodhpur",
+   "payload": {
+    "unit_id": "district:rj/jodhpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jaswant Thada",
+     "desc_hi": "Fort which overlooks upon the city, the blue bylanes of the old city are also an attraction, Umaid Bhawan Palace , Jaswant Thada , and the Ghanta Ghar (Jodhpur)|Ghanta Ghar , or Clock Tower. Tourists are also within proximity to Mandore|Mandore Garden , Kaylana Lake|Kaylana Lake ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jodhpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jodhpur-9a2b7f4c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Umaid Bhawan Palace",
+   "subtitle": "राजस्थान · Jodhpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jodhpur",
+   "payload": {
+    "unit_id": "district:rj/jodhpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Umaid Bhawan Palace",
+     "desc_hi": "actions are Mehrangarh Fort which overlooks upon the city, the blue bylanes of the old city are also an attraction, Umaid Bhawan Palace , Jaswant Thada , and the Ghanta Ghar (Jodhpur)|Ghanta Ghar , or Clock Tower. Tourists are also within proximity to Mandore|Mandore Garden , Kay",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jodhpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jodhpur-62f145e3",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mehrangarh Fort",
+   "subtitle": "राजस्थान · Jodhpur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jodhpur",
+   "payload": {
+    "unit_id": "district:rj/jodhpur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mehrangarh Fort",
+     "desc_hi": "Jodhpur's most notable attractions are Mehrangarh Fort which overlooks upon the city, the blue bylanes of the old city are also an attraction, Umaid Bhawan Palace , Jaswant Thada , and the Ghanta Ghar (Jodhpur)|Ghanta Ghar , or Clock Tower. Tourists are also within",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jodhpur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jhalawar-4e8a2f43",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shitleshwar Mahadev Temple",
+   "subtitle": "राजस्थान · Jhalawar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jhalawar",
+   "payload": {
+    "unit_id": "district:rj/jhalawar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shitleshwar Mahadev Temple",
+     "desc_hi": "e with a true heart is fulfilled here. Recently Ram Mandir was built in front of Balaji Dham and opened to the public. * Shitleshwar Mahadev Temple",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jhalawar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jhalawar-a28b3260",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kolvi Caves",
+   "subtitle": "राजस्थान · Jhalawar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jhalawar",
+   "payload": {
+    "unit_id": "district:rj/jhalawar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kolvi Caves",
+     "desc_hi": "an.gov.in|language=en-IN|access-date=16 September 2017}}</ref> * Kalisindh Dam * Kalisindh Thermal Power Station * Kolvi Caves * Jhalrapatan#Temples|Sun temple, Jhalrapatan : The 11th/12th-century Sun temple of Jhalprapatan is situated in the centre of the town. The temple is int",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jhalawar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jhalawar-45be766f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kalisindh Thermal Power Station",
+   "subtitle": "राजस्थान · Jhalawar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jhalawar",
+   "payload": {
+    "unit_id": "district:rj/jhalawar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kalisindh Thermal Power Station",
+     "desc_hi": "sthan Tourism|website=tourism.rajasthan.gov.in|language=en-IN|access-date=16 September 2017}}</ref> * Kalisindh Dam * Kalisindh Thermal Power Station * Kolvi Caves * Jhalrapatan#Temples|Sun temple, Jhalrapatan : The 11th/12th-century Sun temple of Jhalprapatan is situated in the ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jhalawar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jhalawar-f878cec1",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kalisindh Dam",
+   "subtitle": "राजस्थान · Jhalawar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jhalawar",
+   "payload": {
+    "unit_id": "district:rj/jhalawar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kalisindh Dam",
+     "desc_hi": "in Jhalawar - Rajasthan Tourism|website=tourism.rajasthan.gov.in|language=en-IN|access-date=16 September 2017}}</ref> * Kalisindh Dam * Kalisindh Thermal Power Station * Kolvi Caves * Jhalrapatan#Temples|Sun temple, Jhalrapatan : The 11th/12th-century Sun temple of Jhalprapatan i",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jhalawar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-jhalawar-854fa647",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gagron Fort",
+   "subtitle": "राजस्थान · Jhalawar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/jhalawar",
+   "payload": {
+    "unit_id": "district:rj/jhalawar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gagron Fort",
+     "desc_hi": "* Gagron Fort , included in the UNESCO World Heritage List in 2013 {{Cite web|url=http://tourism.rajasthan.gov.in/jhalawar|title=Jhalawar Tourism: Tourist Places in Jhalawar - Rajasthan Tourism|website=tourism.rajasth",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Jhalawar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-21",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-rj-jaisalmer-07097e7d",
    "kind": "region",
