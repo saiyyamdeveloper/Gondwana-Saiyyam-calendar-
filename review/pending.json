@@ -1,9 +1,279 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-21T02:42:11.846468+00:00"
+  "updated": "2026-11-22T01:29:33.811629+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-rj-nagaur-d2b263fa",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Qazi Hamiduddin Nagauri",
+   "subtitle": "राजस्थान · Nagaur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/nagaur",
+   "payload": {
+    "unit_id": "district:rj/nagaur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Qazi Hamiduddin Nagauri",
+     "desc_hi": "ahi Jama Masjid '. There is 'Jubba ' 'Mubarak ' of Muhammad , which are said to possess holy relic brought by Qazi Hamiduddin Nagauri from Bukhara|Bukhara, Russia . Devotees from various parts of the country gather on urs of 'Quazi Sahab ' to celebrate the occasion. There is an a",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagaur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-nagaur-0b253138",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Muhammad",
+   "subtitle": "राजस्थान · Nagaur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/nagaur",
+   "payload": {
+    "unit_id": "district:rj/nagaur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Muhammad",
+     "desc_hi": "f Rajasthan . The village has many mosques, including 'Shahi Jama Masjid '. There is 'Jubba ' 'Mubarak ' of Muhammad , which are said to possess holy relic brought by Qazi Hamiduddin Nagauri from Bukhara|Bukhara, Russia . Devotees from various parts of the country gather on urs o",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagaur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-nagaur-d418e699",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rajasthan",
+   "subtitle": "राजस्थान · Nagaur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/nagaur",
+   "payload": {
+    "unit_id": "district:rj/nagaur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rajasthan",
+     "desc_hi": "is a village in Jayal tehsil of Nagaur district in the India n States and territories of India|state of Rajasthan . The village has many mosques, including 'Shahi Jama Masjid '. There is 'Jubba ' 'Mubarak ' of Muhammad , which are said to possess holy relic brought by Qazi Hamidu",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagaur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-nagaur-9ed39e2e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "state",
+   "subtitle": "राजस्थान · Nagaur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/nagaur",
+   "payload": {
+    "unit_id": "district:rj/nagaur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "state",
+     "desc_hi": "lso known as ' Rol Nagaur|Rol Sharif ', is a village in Jayal tehsil of Nagaur district in the India n States and territories of India|state of Rajasthan . The village has many mosques, including 'Shahi Jama Masjid '. There is 'Jubba ' 'Mubarak ' of Muhammad , which are said to p",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagaur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-nagaur-eb14271f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jayal",
+   "subtitle": "राजस्थान · Nagaur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/nagaur",
+   "payload": {
+    "unit_id": "district:rj/nagaur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jayal",
+     "desc_hi": "ome to a Sufi Music Festival. * ' Rol Nagaur|Rol ', also known as ' Rol Nagaur|Rol Sharif ', is a village in Jayal tehsil of Nagaur district in the India n States and territories of India|state of Rajasthan . The village has many mosques, including 'Shahi Jama Masjid '. There is ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagaur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-nagaur-e5d31363",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rol Sharif",
+   "subtitle": "राजस्थान · Nagaur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/nagaur",
+   "payload": {
+    "unit_id": "district:rj/nagaur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rol Sharif",
+     "desc_hi": "rnal and internal, serve as venue, stage and home to a Sufi Music Festival. * ' Rol Nagaur|Rol ', also known as ' Rol Nagaur|Rol Sharif ', is a village in Jayal tehsil of Nagaur district in the India n States and territories of India|state of Rajasthan . The village has many mosq",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagaur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-nagaur-e5640a09",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rol",
+   "subtitle": "राजस्थान · Nagaur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/nagaur",
+   "payload": {
+    "unit_id": "district:rj/nagaur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rol",
+     "desc_hi": "e fort's buildings and spaces, both external and internal, serve as venue, stage and home to a Sufi Music Festival. * ' Rol Nagaur|Rol ', also known as ' Rol Nagaur|Rol Sharif ', is a village in Jayal tehsil of Nagaur district in the India n States and territories of India|state ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagaur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-nagaur-77c50469",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Nagaur Fort",
+   "subtitle": "राजस्थान · Nagaur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/nagaur",
+   "payload": {
+    "unit_id": "district:rj/nagaur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Nagaur Fort",
+     "desc_hi": "File:Nagaur Fort.JPG|thumb|Nagaur Fort *Nagaur Fort is one of the finest examples of Rajput-Mughal architecture. {{cite web|last=Abraham|first=Melissa|title=India's Vibrant Cultural Heritage Comes to Life at Nagaur Fort|",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nagaur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-kotputli-behror-c8e195b9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dainik Bhaskar",
+   "subtitle": "राजस्थान · Kotputli-Behror",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/kotputli-behror",
+   "payload": {
+    "unit_id": "district:rj/kotputli-behror",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dainik Bhaskar",
+     "desc_hi": "m, Neemrana It is located in Joshihera, Neemrana. </ref> {{Cite web |date=2019-11-05 |title=बाबा खेतानाथ : अहीरवाल",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kotputli-Behror_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-22",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-rj-jodhpur-441416e0",
    "kind": "region",
