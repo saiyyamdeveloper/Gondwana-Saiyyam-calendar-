@@ -1,9 +1,879 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-22T01:29:33.811629+00:00"
+  "updated": "2026-11-23T01:54:48.054234+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-rj-sri-ganganagar-ee38d3e2",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chhatargarh",
+   "subtitle": "राजस्थान · Sri Ganganagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sri-ganganagar",
+   "payload": {
+    "unit_id": "district:rj/sri-ganganagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chhatargarh",
+     "desc_hi": "ri Village. It is approximately from Anupgarh , from Rawla Mandi , from Chhatargarh and south-west of Sri Ganganagar.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sri_Ganganagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sri-ganganagar-f4a0e61a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rawla Mandi",
+   "subtitle": "राजस्थान · Sri Ganganagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sri-ganganagar",
+   "payload": {
+    "unit_id": "district:rj/sri-ganganagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rawla Mandi",
+     "desc_hi": "road, about one kilometre from Rojhri Village. It is approximately from Anupgarh , from Rawla Mandi , from Chhatargarh and south-west of Sri Ganganagar.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sri_Ganganagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sri-ganganagar-be119974",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Anupgarh",
+   "subtitle": "राजस्थान · Sri Ganganagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sri-ganganagar",
+   "payload": {
+    "unit_id": "district:rj/sri-ganganagar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Anupgarh",
+     "desc_hi": "he right side of Anupgarh-Bikaner road, about one kilometre from Rojhri Village. It is approximately from Anupgarh , from Rawla Mandi , from Chhatargarh and south-west of Sri Ganganagar.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sri_Ganganagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sri-ganganagar-16d36436",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Hanuman",
+   "subtitle": "राजस्थान · Sri Ganganagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sri-ganganagar",
+   "payload": {
+    "unit_id": "district:rj/sri-ganganagar",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Hanuman",
+     "desc_hi": "w of Rojhri temple. * Rojhri Dham is a complex of religious sites dedicated to the worship of the Hindu deity Hanuman . The temple of Hanuman is on the right side of Anupgarh-Bikaner road, about one kilometre from Rojhri Village. It is approximately from Anupgarh , from Rawla Man",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sri_Ganganagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sri-ganganagar-fd119ccd",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Hindu deity",
+   "subtitle": "राजस्थान · Sri Ganganagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sri-ganganagar",
+   "payload": {
+    "unit_id": "district:rj/sri-ganganagar",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Hindu deity",
+     "desc_hi": "le|An inside view of Rojhri temple. * Rojhri Dham is a complex of religious sites dedicated to the worship of the Hindu deity Hanuman . The temple of Hanuman is on the right side of Anupgarh-Bikaner road, about one kilometre from Rojhri Village. It is approximately from Anupgarh ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sri_Ganganagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sri-ganganagar-85aabf65",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Rojhri Dham",
+   "subtitle": "राजस्थान · Sri Ganganagar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sri-ganganagar",
+   "payload": {
+    "unit_id": "district:rj/sri-ganganagar",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Rojhri Dham",
+     "desc_hi": "x from Ram Kutia. File:Rojhri Inside temple.jpg|thumb|alt=Rojhri Inside temple|An inside view of Rojhri temple. * Rojhri Dham is a complex of religious sites dedicated to the worship of the Hindu deity Hanuman . The temple of Hanuman is on the right side of Anupgarh-Bikaner road,",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sri_Ganganagar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sikar-07cf49af",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Nehru Park",
+   "subtitle": "राजस्थान · Sikar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sikar",
+   "payload": {
+    "unit_id": "district:rj/sikar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Nehru Park",
+     "desc_hi": "e=History |url=https://laxmangarh.in/history |access-date=2025-01-02 |website=Laxmangarh Fort |language=en-gb}}</ref> * 'Nehru Park ': One of the largest parks in Sikar. * 'Smriti van: ' one of the biggest park * 'Bheruji Temple, Reengus ': A renowned pilgrimage site dedicated to",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sikar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sikar-a4fdb594",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Lachhmangarh Fort",
+   "subtitle": "राजस्थान · Sikar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sikar",
+   "payload": {
+    "unit_id": "district:rj/sikar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Lachhmangarh Fort",
+     "desc_hi": "hed-the-temple-of-harsh-nath-shivji-sikar-rajasthan-latest-news-update-127664761.html |website=Dainik Bhaskar}}</ref> * 'Lachhmangarh Fort ': built by Rao Raja Laxman Singh in 1805. </ref> * 'Nehru Park ': One of the larges",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sikar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sikar-1f884433",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|[[Laxmangarh Fort",
+   "subtitle": "राजस्थान · Sikar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sikar",
+   "payload": {
+    "unit_id": "district:rj/sikar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|[[Laxmangarh Fort",
+     "desc_hi": ", Sikar, made in 973 AD File:Khatu Shyam Temple.jpg|thumb|Khatu Shyam Temple in Khatoo village, Sikar district File:Laxmangarh Fort, Rajasthan.jpg|thumb| Laxmangarh Fort , Rajasthan, built in 1862 AD",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sikar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sikar-48d0f56f",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|[[Harshnath|Harshnath Temple",
+   "subtitle": "राजस्थान · Sikar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sikar",
+   "payload": {
+    "unit_id": "district:rj/sikar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|[[Harshnath|Harshnath Temple",
+     "desc_hi": "229.html |access-date=2025-01-02 |website=News18 हिंदी |language=hi}}</ref> File:Bawdi.jpg|thumb|Bawdi at Fatehpur File:Harshnath Temple Sikar outer view.JPG|thumb| Harshnath|Harshnath Temple , Sikar, made in 973 AD File:Khatu Shyam Temple.jpg|thumb|Khatu Shyam Temple in Khatoo v",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sikar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sikar-5f820563",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Bawdi at Fatehpur",
+   "subtitle": "राजस्थान · Sikar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sikar",
+   "payload": {
+    "unit_id": "district:rj/sikar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Bawdi at Fatehpur",
+     "desc_hi": "-bheruji-temple-of-sikar-is-miraculous-7677229.html |access-date=2025-01-02 |website=News18 हिंदी |language=hi}}</ref> File:Bawdi.jpg|thumb|Bawdi at Fatehpur File:Harshnath Temple Sikar outer view.JPG|thumb| Harshnath|Harshnath Temple , Sikar, made in 973 AD File:Khatu Shyam Temp",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sikar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sikar-6a0b51c9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bhairava",
+   "subtitle": "राजस्थान · Sikar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sikar",
+   "payload": {
+    "unit_id": "district:rj/sikar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bhairava",
+     "desc_hi": "'Smriti van: ' one of the biggest park * 'Bheruji Temple, Reengus ': A renowned pilgrimage site dedicated to Lord Bhairava . {{Cite web |date=2023-09-26 |title=शेखावाटी का प्राचीन भेरुजी का वार्षिक मेला जहां लाखों की संख्या में आते है श्रद्धालु |url=https://hindi.news18.com/news/",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sikar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sikar-64e2b7d6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Harshnath Temple",
+   "subtitle": "राजस्थान · Sikar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sikar",
+   "payload": {
+    "unit_id": "district:rj/sikar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Harshnath Temple",
+     "desc_hi": "le is dedicated to Lord Krishna’s incarnation, Khatu Shyam Ji. It attracts devotees from all parts of the country. * ' Harshnath Temple ': Located about 11 kilo-meters from Sikar, this ancient temple dedicated to Lord Shiva dates back to 973 CE. It offers a hilly area scene with ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sikar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sikar-547491d7",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Khatu Shyam Temple",
+   "subtitle": "राजस्थान · Sikar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sikar",
+   "payload": {
+    "unit_id": "district:rj/sikar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Khatu Shyam Temple",
+     "desc_hi": "Sikar, a city rich in cultural heritage, offers several fascinating places to visit: * ' Khatu Shyam Temple ': A renowned pilgrimage site, this temple is dedicated to Lord Krishna’s incarnation, Khatu Shyam Ji. It attracts devotees from all parts of the country. * ' Harshnath Tem",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sikar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sawai-madhopur-d4dfa3d4",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jainism",
+   "subtitle": "राजस्थान · Sawai Madhopur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sawai-madhopur",
+   "payload": {
+    "unit_id": "district:rj/sawai-madhopur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jainism",
+     "desc_hi": "the Pancharatha style with main shrine housing the idol of Shri Rishabhanatha Ji, the first Tirthankara of Jainism . {{cite web | url=http://asijaipurcircle.nic.in/Alanpur%20-%20Jain%20temple.html# | title=ALANPUR JAIN TEMPLE | access-date=October 5, 2020 | publisher= Archaeologi",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sawai_Madhopur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sawai-madhopur-b07382ea",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Tirthankara",
+   "subtitle": "राजस्थान · Sawai Madhopur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sawai-madhopur",
+   "payload": {
+    "unit_id": "district:rj/sawai-madhopur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Tirthankara",
+     "desc_hi": "iod. It is built in the Pancharatha style with main shrine housing the idol of Shri Rishabhanatha Ji, the first Tirthankara of Jainism . {{cite web | url=http://asijaipurcircle.nic.in/Alanpur%20-%20Jain%20temple.html# | title=ALANPUR JAIN TEMPLE | access-date=October 5, 2020 | pu",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sawai_Madhopur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sawai-madhopur-d812c9b8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rishabhanatha",
+   "subtitle": "राजस्थान · Sawai Madhopur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sawai-madhopur",
+   "payload": {
+    "unit_id": "district:rj/sawai-madhopur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rishabhanatha",
+     "desc_hi": "s back to the early medieval period. It is built in the Pancharatha style with main shrine housing the idol of Shri Rishabhanatha Ji, the first Tirthankara of Jainism . {{cite web | url=http://asijaipurcircle.nic.in/Alanpur%20-%20Jain%20temple.html# | title=ALANPUR JAIN TEMPLE | ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sawai_Madhopur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sawai-madhopur-cb1de9f5",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Pancharatha",
+   "subtitle": "राजस्थान · Sawai Madhopur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sawai-madhopur",
+   "payload": {
+    "unit_id": "district:rj/sawai-madhopur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Pancharatha",
+     "desc_hi": "in temple is located in Alanpur, Sawai Madhopur. The temple dates back to the early medieval period. It is built in the Pancharatha style with main shrine housing the idol of Shri Rishabhanatha Ji, the first Tirthankara of Jainism . {{cite web | url=http://asijaipurcircle.nic.in/",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sawai_Madhopur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sawai-madhopur-ad7db04e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|Chamatkarji Jain temple",
+   "subtitle": "राजस्थान · Sawai Madhopur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sawai-madhopur",
+   "payload": {
+    "unit_id": "district:rj/sawai-madhopur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|Chamatkarji Jain temple",
+     "desc_hi": "File:Chamatkarji Jain temple (3).jpg|thumb|Chamatkarji Jain temple Chamatkar Ji Jain temple is located in Alanpur, Sawai Madhopur. The temple dates back to the early medieval period. It is built in the Pancharatha style with main s",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sawai_Madhopur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sawai-madhopur-7b20bb8b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Meena",
+   "subtitle": "राजस्थान · Sawai Madhopur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sawai-madhopur",
+   "payload": {
+    "unit_id": "district:rj/sawai-madhopur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Meena",
+     "desc_hi": "Chauth Ka Barwara , near the city of Sawai Madhopur. Chauth Mata is the Kuladevata|Kuldevi (ancestral deity) of Meena community of Rajasthan. {{Cite web |title=Karwa Chauth: देश का एकमात्र चौथ माता का मंदिर, जहां करवा चौथ पर उमड़ते हैं हजारों श्रद्धालु |url=https://zeenews.india.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sawai_Madhopur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sawai-madhopur-887eb20d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kuldevi",
+   "subtitle": "राजस्थान · Sawai Madhopur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sawai-madhopur",
+   "payload": {
+    "unit_id": "district:rj/sawai-madhopur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kuldevi",
+     "desc_hi": "Chauth Mata Temple is located in Chauth Ka Barwara , near the city of Sawai Madhopur. Chauth Mata is the Kuladevata|Kuldevi (ancestral deity) of Meena community of Rajasthan. {{Cite web |title=Karwa Chauth: देश का एकमात्र चौथ माता का मंदिर, जहां करवा चौथ पर उमड़ते हैं हजारों श्रद",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sawai_Madhopur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-sawai-madhopur-91565348",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Chauth Ka Barwara",
+   "subtitle": "राजस्थान · Sawai Madhopur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/sawai-madhopur",
+   "payload": {
+    "unit_id": "district:rj/sawai-madhopur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Chauth Ka Barwara",
+     "desc_hi": "Chauth Mata Temple is located in Chauth Ka Barwara , near the city of Sawai Madhopur. Chauth Mata is the Kuladevata|Kuldevi (ancestral deity) of Meena community of Rajasthan. {{Cite web |title=Karwa Chauth: देश का एकमात्र चौथ माता का मंदिर, जहां करवा चौथ पर",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Sawai_Madhopur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-salumbar-ce486d94",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Salumber District Map",
+   "subtitle": "राजस्थान · Salumbar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/salumbar",
+   "payload": {
+    "unit_id": "district:rj/salumbar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Salumber District Map",
+     "desc_hi": "File:Salumbar district map.jpg|thumb|280x280px| 'Salumber District Map ' Salumbar is located at . [http://www.fallingrain.com/world/IN/24/Salumbar.html Falling Rain Genomics, Inc - Salumber]</ref> It has an average elevation of 262&nbsp;metres (859&nbsp",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Salumbar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-salumbar-59366cc0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|280x280px| '''Salumber District Map'''",
+   "subtitle": "राजस्थान · Salumbar",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/salumbar",
+   "payload": {
+    "unit_id": "district:rj/salumbar",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|280x280px| '''Salumber District Map'''",
+     "desc_hi": "File:Salumbar district map.jpg|thumb|280x280px| 'Salumber District Map ' Salumbar is located at . [http://www.fallingrain.com/world/IN/24/Salumbar.html Falling Rain Genomics, Inc - Salumber]</ref> It has",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Salumbar"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-rajsamand-b618b043",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dayalshah Fort (Jain Temple):",
+   "subtitle": "राजस्थान · Rajsamand",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/rajsamand",
+   "payload": {
+    "unit_id": "district:rj/rajsamand",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dayalshah Fort (Jain Temple):",
+     "desc_hi": "s historic temple is one of the seven primary shrines ( Peethas ) of the Pushtimarg tradition. * 'Dayalshah Fort (Jain Temple): ' A hilltop Jain temple and fortification built by Dayalshah, a minister of Maharana Raj Singh I.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Rajsamand"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-rajsamand-e943dca8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "[[Rajsamand Lake]] & Nau Chauki:",
+   "subtitle": "राजस्थान · Rajsamand",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/rajsamand",
+   "payload": {
+    "unit_id": "district:rj/rajsamand",
+    "entity": {
+     "kind": "place",
+     "name_hi": "[[Rajsamand Lake]] & Nau Chauki:",
+     "desc_hi": "Located about north of Udaipur , Rajsamand is surrounded by the Aravalli hills. * ' Rajsamand Lake & Nau Chauki: ' A 17th-century artificial lake measuring approximately in length and in width. Its white-marble embankment in Rajnagar, known as Nau Chauki , feature",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Rajsamand"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-rajsamand-9e7ff3b0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dwarkadhish Temple, Kankroli",
+   "subtitle": "राजस्थान · Rajsamand",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/rajsamand",
+   "payload": {
+    "unit_id": "district:rj/rajsamand",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dwarkadhish Temple, Kankroli",
+     "desc_hi": "wn as Nau Chauki , features ornate pavilions and the Raj Prashasti stone inscriptions. * ' Dwarkadhish Temple, Kankroli : ' Situated on the southern embankment in Kankroli, this historic temple is one of the seven primary shrines ( Peethas ) of the Pushtimarg tradition. * 'Dayals",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Rajsamand"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-rajsamand-e44cb0f8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Rajsamand Lake",
+   "subtitle": "राजस्थान · Rajsamand",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/rajsamand",
+   "payload": {
+    "unit_id": "district:rj/rajsamand",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Rajsamand Lake",
+     "desc_hi": "Located about north of Udaipur , Rajsamand is surrounded by the Aravalli hills. * ' Rajsamand Lake & Nau Chauki: ' A 17th-century artificial lake measuring approximately in length and in width. Its white-marble embankment in Rajnagar, known as Nau Chauki , features o",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Rajsamand"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-rajsamand-f285ed84",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Udaipur",
+   "subtitle": "राजस्थान · Rajsamand",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/rajsamand",
+   "payload": {
+    "unit_id": "district:rj/rajsamand",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Udaipur",
+     "desc_hi": "Located about north of Udaipur , Rajsamand is surrounded by the Aravalli hills. * ' Rajsamand Lake & Nau Chauki: ' A 17th-century artificial lake measuring approximately in length and in width. Its white-",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Rajsamand"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-23",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-rj-nagaur-d2b263fa",
    "kind": "region",
