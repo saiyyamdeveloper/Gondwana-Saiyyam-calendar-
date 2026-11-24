@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-11-23T01:54:21+00:00",
-  "progress": "165/947 done, 309 blocked"
+  "updated": "2026-11-24T05:26:52+00:00",
+  "progress": "166/947 done, 314 blocked"
  },
  "jobs": [
   {
@@ -3573,32 +3573,46 @@
   {
    "unit": "district:rj/tonk",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-24T05:26:49+00:00"
   },
   {
    "unit": "district:rj/udaipur",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-24T05:26:50+00:00",
+   "children": 0,
+   "entities_queued": 8,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "tehsil:rj/didwana-kuchaman/chhoti-khatu",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-24T05:26:50+00:00"
   },
   {
    "unit": "tehsil:rj/didwana-kuchaman/didwana",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-24T05:26:51+00:00"
   },
   {
    "unit": "tehsil:rj/didwana-kuchaman/makrana",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-24T05:26:51+00:00"
   },
   {
    "unit": "tehsil:rj/didwana-kuchaman/maulasar",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-24T05:26:52+00:00"
   },
   {
    "unit": "tehsil:rj/didwana-kuchaman/presently-tehsils-are-as-follows",

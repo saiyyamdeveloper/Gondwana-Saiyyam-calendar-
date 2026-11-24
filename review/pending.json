@@ -1,9 +1,249 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-23T01:54:48.054234+00:00"
+  "updated": "2026-11-24T05:27:18.522147+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-rj-udaipur-4a718230",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Nathdwara",
+   "subtitle": "राजस्थान · Udaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/udaipur",
+   "payload": {
+    "unit_id": "district:rj/udaipur",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Nathdwara",
+     "desc_hi": "re several charming places to see around Udaipur. {{collapsible list | expand = on | title = | hlist = on | bullets = | Nathdwara | Ranakpur | Chittorgarh | Haldighati | Kumbhalgarh | Mount Abu | Eklingji | Kumbhalgarh Wildlife Sanctuary | Kankroli and Rajsamand Lake | Rishabhdeo",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Udaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-udaipur-7e25ba26",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "World Music Festival",
+   "subtitle": "राजस्थान · Udaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/udaipur",
+   "payload": {
+    "unit_id": "district:rj/udaipur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "World Music Festival",
+     "desc_hi": "anising various national and international cultural events. Recently, Udaipur hosted the first edition of India's first Udaipur World Music Festival|World Music Festival , a two-day festival held on 13 and 14 February 2016. Performances were made by artists and musicians from mor",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Udaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-udaipur-ed97b526",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Gangaur Ghat",
+   "subtitle": "राजस्थान · Udaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/udaipur",
+   "payload": {
+    "unit_id": "district:rj/udaipur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Gangaur Ghat",
+     "desc_hi": "eve of the Gangaur festival, women decorate their palms and fingers with henna. Udaipur has a Ghat named after Gangaur. Gangaur Ghat or Gangori Ghat is situated on the waterfront of Lake Pichola. This ghat serves as a location for the celebration of some festivals, including the ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Udaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-udaipur-aacd88d6",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Chaitra",
+   "subtitle": "राजस्थान · Udaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/udaipur",
+   "payload": {
+    "unit_id": "district:rj/udaipur",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Chaitra",
+     "desc_hi": "a. Gangaur celebrates the marriage and is a symbol of conjugal and marital happiness. It is celebrated in the month of Chaitra (March–April), the first month of the Hindu calendar. This month marks the end of winter and the onset of spring. This festival is celebrated by women, w",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Udaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-udaipur-d7030370",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Parvati",
+   "subtitle": "राजस्थान · Udaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/udaipur",
+   "payload": {
+    "unit_id": "district:rj/udaipur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Parvati",
+     "desc_hi": "aceonwheels.org|url-status=dead}}</ref> \"gan\" is a synonym for Shiva and \"Gauri\" or \"gaur\" stands for Hindu Goddess Parvati , the wife of Shiva. Gangaur celebrates the marriage and is a symbol of conjugal and marital happiness. It is celebrated in the month of Chaitra (March–Apri",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Udaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-udaipur-3fbff0e6",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Shiva",
+   "subtitle": "राजस्थान · Udaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/udaipur",
+   "payload": {
+    "unit_id": "district:rj/udaipur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Shiva",
+     "desc_hi": "ovember 2018|archive-date=17 November 2018|website=thepalaceonwheels.org|url-status=dead}}</ref> \"gan\" is a synonym for Shiva and \"Gauri\" or \"gaur\" stands for Hindu Goddess Parvati , the wife of Shiva. Gangaur celebrates the marriage and is a symbol of conjugal and marital happin",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Udaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-udaipur-66fc7b34",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Government of Rajasthan",
+   "subtitle": "राजस्थान · Udaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/udaipur",
+   "payload": {
+    "unit_id": "district:rj/udaipur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Government of Rajasthan",
+     "desc_hi": "an.gov.in/content/raj/udaipur/en/about-udaipur/festivals.html|title=Festivals|publisher=Official Website of Udaipur via Government of Rajasthan |archive-date=21 June 2015|access-date=21 June 2015|url-status=live}}</ref> In some form or the other it is celebrated all over Rajastha",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Udaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-rj-udaipur-b53f3949",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Gangaur",
+   "subtitle": "राजस्थान · Udaipur",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:rj/udaipur",
+   "payload": {
+    "unit_id": "district:rj/udaipur",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Gangaur",
+     "desc_hi": "Gangaur is one of the most important local Hindu festivals in Rajasthan. {{cite web|url=https://udaipur.rajasthan.gov.in/content/raj/udaipur/en/about-udaipur/festivals.html#|archive-url=https://web.archive.org/web/20150621222719/htt",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Udaipur"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-24",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-rj-sri-ganganagar-ee38d3e2",
    "kind": "region",
