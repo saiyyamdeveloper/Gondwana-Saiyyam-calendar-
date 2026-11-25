@@ -1,9 +1,129 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-24T05:27:18.522147+00:00"
+  "updated": "2026-11-25T04:29:59.789975+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-ap-anakapalli-052b0cda",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Nookambika Temple",
+   "subtitle": "आंध्र प्रदेश · Anakapalli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/anakapalli",
+   "payload": {
+    "unit_id": "district:ap/anakapalli",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Nookambika Temple",
+     "desc_hi": "* Bojjannakonda ancient Buddhist site * Nookambika Temple",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Anakapalli"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-25",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-anakapalli-b8cc2721",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bojjannakonda",
+   "subtitle": "आंध्र प्रदेश · Anakapalli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/anakapalli",
+   "payload": {
+    "unit_id": "district:ap/anakapalli",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bojjannakonda",
+     "desc_hi": "* Bojjannakonda ancient Buddhist site * Nookambika Temple",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Anakapalli"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-25",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-anakapalli-eb0a4a5e",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Kasimkota",
+   "subtitle": "आंध्र प्रदेश · Anakapalli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/anakapalli",
+   "payload": {
+    "unit_id": "district:ap/anakapalli",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Kasimkota",
+     "desc_hi": "e Indian Rebellion of 1857|Sepoy Mutiny , the French were attacked in Anakapalli in 1753. Bassi Dora was arrested at Kasimkota . Many freedom leaders visited Anakapalli, including Dr. B. R. Ambedkar and Mahatma Gandhi , who started the movement to boycott foreign goods in Anakapa",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Anakapalli"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-25",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-anakapalli-042302f4",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Sepoy Mutiny",
+   "subtitle": "आंध्र प्रदेश · Anakapalli",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/anakapalli",
+   "payload": {
+    "unit_id": "district:ap/anakapalli",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Sepoy Mutiny",
+     "desc_hi": "Before the Indian Rebellion of 1857|Sepoy Mutiny , the French were attacked in Anakapalli in 1753. Bassi Dora was arrested at Kasimkota . Many freedom leaders visited Anakapalli, including Dr. B. R. Ambedkar and Mahatma Gandhi , who start",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Anakapalli"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-25",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-rj-udaipur-4a718230",
    "kind": "region",

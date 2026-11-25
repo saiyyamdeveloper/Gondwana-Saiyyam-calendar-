@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-11-24T05:26:52+00:00",
+  "updated": "2026-11-25T04:29:40+00:00",
   "coverage": {
    "states": 29,
    "districts": 776,
-   "tehsils": 142,
+   "tehsils": 155,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -8619,6 +8619,110 @@
    "parent": "state:wb",
    "entities": [],
    "source_admin": "Wikipedia: List of districts of West Bengal"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/alluri-sitharama-raju",
+   "level": "tehsil",
+   "name_hi": "Alluri Sitharama Raju",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/ananthagiri",
+   "level": "tehsil",
+   "name_hi": "Ananthagiri",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/araku-valley",
+   "level": "tehsil",
+   "name_hi": "Araku Valley",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/chinthapalli",
+   "level": "tehsil",
+   "name_hi": "Chinthapalli",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/dumbriguda",
+   "level": "tehsil",
+   "name_hi": "Dumbriguda",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/ganagaraju-madugula",
+   "level": "tehsil",
+   "name_hi": "Ganagaraju Madugula",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/gudem-kotha-veedhi",
+   "level": "tehsil",
+   "name_hi": "Gudem Kotha Veedhi",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/hukumpeta",
+   "level": "tehsil",
+   "name_hi": "Hukumpeta",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/koyyuru",
+   "level": "tehsil",
+   "name_hi": "Koyyuru",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/munchingiputtu",
+   "level": "tehsil",
+   "name_hi": "Munchingiputtu",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/paderu",
+   "level": "tehsil",
+   "name_hi": "Paderu",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/paderu-revenue-division",
+   "level": "tehsil",
+   "name_hi": "Paderu revenue division",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/alluri-sitharama-raju/pedabayalu",
+   "level": "tehsil",
+   "name_hi": "Pedabayalu",
+   "parent": "district:ap/alluri-sitharama-raju",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
   },
   {
    "id": "tehsil:cg/kabirdham/bodla",

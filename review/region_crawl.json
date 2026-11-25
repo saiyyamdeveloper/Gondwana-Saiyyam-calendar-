@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-11-24T05:26:52+00:00",
-  "progress": "166/947 done, 314 blocked"
+  "updated": "2026-11-25T04:29:40+00:00",
+  "progress": "168/960 done, 318 blocked"
  },
  "jobs": [
   {
@@ -3617,32 +3617,47 @@
   {
    "unit": "tehsil:rj/didwana-kuchaman/presently-tehsils-are-as-follows",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-11-25T04:29:36+00:00"
   },
   {
    "unit": "tehsil:rj/jaipur-rural/jaipur-city",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-11-25T04:29:37+00:00"
   },
   {
    "unit": "tehsil:rj/jaipur-rural/jaipur-municipal-corporation",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-25T04:29:37+00:00"
   },
   {
    "unit": "tehsil:rj/jaipur-rural/jaipur-urban",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "पृष्ठ नहीं मिला",
+   "blocked_at": "2026-11-25T04:29:38+00:00"
   },
   {
    "unit": "district:ap/alluri-sitharama-raju",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-25T04:29:39+00:00",
+   "children": 13,
+   "entities_queued": 0
   },
   {
    "unit": "district:ap/anakapalli",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-25T04:29:40+00:00",
+   "children": 0,
+   "entities_queued": 4,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:ap/anantapur",
@@ -5946,6 +5961,71 @@
   },
   {
    "unit": "district:hr/yamunanagar",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/paderu",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/alluri-sitharama-raju",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/paderu-revenue-division",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/ananthagiri",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/araku-valley",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/chinthapalli",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/dumbriguda",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/ganagaraju-madugula",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/gudem-kotha-veedhi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/hukumpeta",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/koyyuru",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/munchingiputtu",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/pedabayalu",
    "task": "mine",
    "status": "pending"
   }
