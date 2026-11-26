@@ -3,8 +3,8 @@
   "title": "क्षेत्र-क्रॉल चैकलिस्ट (BFS) — jobs कभी नहीं मिटते; कोई इकाई नहीं छूटेगी",
   "created": "2026-09-13T06:21:37+00:00",
   "order": "ST-जनसंख्या प्राथमिकता → क्रमवार BFS",
-  "updated": "2026-11-25T04:29:40+00:00",
-  "progress": "168/960 done, 318 blocked"
+  "updated": "2026-11-26T03:42:44+00:00",
+  "progress": "170/983 done, 322 blocked"
  },
  "jobs": [
   {
@@ -3662,32 +3662,47 @@
   {
    "unit": "district:ap/anantapur",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-26T03:42:41+00:00"
   },
   {
    "unit": "district:ap/anantapuramu",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-26T03:42:41+00:00"
   },
   {
    "unit": "district:ap/annamayya",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-26T03:42:42+00:00"
   },
   {
    "unit": "district:ap/bapatla",
    "task": "mine",
-   "status": "pending"
+   "status": "blocked",
+   "note": "अनुभाग/उम्मीदवार नहीं मिले — आधिकारिक-डेटा चरण या मैन्युअल शोध",
+   "blocked_at": "2026-11-26T03:42:43+00:00"
   },
   {
    "unit": "district:ap/chittoor",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-26T03:42:43+00:00",
+   "children": 0,
+   "entities_queued": 2,
+   "children_note": "तहसील-सूची अनुभाग नहीं मिला — आधिकारिक-डेटा चरण में"
   },
   {
    "unit": "district:ap/dr-b-r-ambedkar-konaseema",
    "task": "mine",
-   "status": "pending"
+   "status": "done",
+   "done_at": "2026-11-26T03:42:44+00:00",
+   "children": 23,
+   "entities_queued": 8
   },
   {
    "unit": "district:ap/east-godavari",
@@ -3816,6 +3831,71 @@
   },
   {
    "unit": "district:ap/ysr-kadapa",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/alluri-sitharama-raju",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/ananthagiri",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/araku-valley",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/chinthapalli",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/dumbriguda",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/ganagaraju-madugula",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/gudem-kotha-veedhi",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/hukumpeta",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/koyyuru",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/munchingiputtu",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/paderu",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/paderu-revenue-division",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/alluri-sitharama-raju/pedabayalu",
    "task": "mine",
    "status": "pending"
   },
@@ -5965,67 +6045,117 @@
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/paderu",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/amalapuram",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/alluri-sitharama-raju",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/kothapeta",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/paderu-revenue-division",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/ramachandrapuram",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/ananthagiri",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/mandals",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/araku-valley",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/amalapuram-revenue-division",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/chinthapalli",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/allavaram",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/dumbriguda",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/i-polavaram",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/ganagaraju-madugula",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/katrenikona",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/gudem-kotha-veedhi",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/malikipuram",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/hukumpeta",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/mamidikuduru",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/koyyuru",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/mummidivaram",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/munchingiputtu",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/razole",
    "task": "mine",
    "status": "pending"
   },
   {
-   "unit": "tehsil:ap/alluri-sitharama-raju/pedabayalu",
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/sakhinetipalle",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/uppalaguptam",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/kothapeta-revenue-division",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/ainavilli",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/alumuru",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/ambajipeta",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/atreyapuram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/p-gannavaram",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/ravulapalem",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/ramachandrapuram-revenue-division",
+   "task": "mine",
+   "status": "pending"
+  },
+  {
+   "unit": "tehsil:ap/dr-b-r-ambedkar-konaseema/k-gangavaram",
    "task": "mine",
    "status": "pending"
   }

@@ -1,9 +1,309 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-25T04:29:59.789975+00:00"
+  "updated": "2026-11-26T03:43:16.165795+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-ap-dr-b-r-ambedkar-konaseema-690fa27b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Draksharamam",
+   "subtitle": "आंध्र प्रदेश · Dr. B. R. Ambedkar Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/dr-b-r-ambedkar-konaseema",
+   "payload": {
+    "unit_id": "district:ap/dr-b-r-ambedkar-konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Draksharamam",
+     "desc_hi": "8680.ece |access-date=2024-01-08 |work=The Hindu |language=en-IN |issn=0971-751X}}</ref> and Bhimeswara Swamy Temple in Draksharamam Welcome to East Godavari District Web Portal India |url=https://eastgodavari.ap.gov.in/temples/lord-bhimeswara-swami-temple-draksharama/ |access-da",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-dr-b-r-ambedkar-konaseema-a85065ba",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Lakshmi Narasimha Temple",
+   "subtitle": "आंध्र प्रदेश · Dr. B. R. Ambedkar Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/dr-b-r-ambedkar-konaseema",
+   "payload": {
+    "unit_id": "district:ap/dr-b-r-ambedkar-konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Lakshmi Narasimha Temple",
+     "desc_hi": "eastgodavari.ap.gov.in/temples/sri-bala-balaji-devasthanam-appanapalli/ |access-date=2024-01-08 |language=en-US}}</ref> Lakshmi Narasimha Temple, Antarvedi|Lakshmi Narasimha Temple in Antarvedi , {{Cite news |last=Naidu |first=T. Appala |date=2023-02-01 |title=Antarvedi Kalyanots",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-dr-b-r-ambedkar-konaseema-481b4e9d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Appanapalli",
+   "subtitle": "आंध्र प्रदेश · Dr. B. R. Ambedkar Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/dr-b-r-ambedkar-konaseema",
+   "payload": {
+    "unit_id": "district:ap/dr-b-r-ambedkar-konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Appanapalli",
+     "desc_hi": "ple-sri-vigneswara-swami-temple-ainavilli/ |access-date=2024-01-08 |language=en-US}}</ref> Lord Venkateshwara Temple in Appanapalle|Appanapalli , Welcome to East Godavari District Web Portal India |url=https://eastgodavari.ap.gov.in/temples/sri-bala-balaji-devasthanam-appanapalli",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-dr-b-r-ambedkar-konaseema-1016df65",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ainavilli",
+   "subtitle": "आंध्र प्रदेश · Dr. B. R. Ambedkar Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/dr-b-r-ambedkar-konaseema",
+   "payload": {
+    "unit_id": "district:ap/dr-b-r-ambedkar-konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ainavilli",
+     "desc_hi": "|language=en-IN |issn=0971-751X}}</ref> Among the district's religious landmarks, Sri Vighneswara Swamy Devasthanam in Ainavilli , Welcome to East Godavari District Web Portal India |url=https://eastgodavari.ap.gov.in/temples/sri-siddi-vinayaka-swam",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-dr-b-r-ambedkar-konaseema-f40b0f1e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dindi",
+   "subtitle": "आंध्र प्रदेश · Dr. B. R. Ambedkar Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/dr-b-r-ambedkar-konaseema",
+   "payload": {
+    "unit_id": "district:ap/dr-b-r-ambedkar-konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dindi",
+     "desc_hi": "-01-08 |language=en-US}}</ref> Additionally, the Andhra Pradesh Tourism Development Corporation operates resorts in Dindi, East Godavari district|Dindi , providing tourists with the opportunity to indulge in the scenic beauty of the Konaseema backwaters. {{Cite news |date=2012-01",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-dr-b-r-ambedkar-konaseema-9b16c117",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Adurru",
+   "subtitle": "आंध्र प्रदेश · Dr. B. R. Ambedkar Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/dr-b-r-ambedkar-konaseema",
+   "payload": {
+    "unit_id": "district:ap/dr-b-r-ambedkar-konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Adurru",
+     "desc_hi": "/ |access-date=2024-01-08 |language=en-US}}</ref> A notable 2nd-century CE Buddhist archaeological site can be found in Adurru village. Welcome to East Godavari District Web Portal India |url=https://eastgodavari.ap.gov.in/tourist-place/adurru/ |access-date=2024-01-08 |language=e",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-dr-b-r-ambedkar-konaseema-f19325fa",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Odalarevu",
+   "subtitle": "आंध्र प्रदेश · Dr. B. R. Ambedkar Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/dr-b-r-ambedkar-konaseema",
+   "payload": {
+    "unit_id": "district:ap/dr-b-r-ambedkar-konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Odalarevu",
+     "desc_hi": "dkar Konaseema district boasts numerous tourist attractions, including the picturesque Antarvedi , Chirra Yanam, and Odalarevu beaches. {{Cite news |author=Staff Reporter |date=2021-03-06 |title=Student feared drowned at Antarvedi beach |url=https://www.thehindu.com/news/national",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-dr-b-r-ambedkar-konaseema-2120a8f9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Antarvedi",
+   "subtitle": "आंध्र प्रदेश · Dr. B. R. Ambedkar Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/dr-b-r-ambedkar-konaseema",
+   "payload": {
+    "unit_id": "district:ap/dr-b-r-ambedkar-konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Antarvedi",
+     "desc_hi": "Dr. B. R. Ambedkar Konaseema district boasts numerous tourist attractions, including the picturesque Antarvedi , Chirra Yanam, and Odalarevu beaches. {{Cite news |author=Staff Reporter |date=2021-03-06 |title=Student feared drowned at Antarvedi beach |url=https://www.thehindu.com",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-chittoor-2c5a2f3f",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Kanuma festival",
+   "subtitle": "आंध्र प्रदेश · Chittoor",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/chittoor",
+   "payload": {
+    "unit_id": "district:ap/chittoor",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Kanuma festival",
+     "desc_hi": "chittoor/the-chittoor-ganga-jatara-story-1402993.html |work=Andhra Jyothy |date=2025 |access-date=2025-10-25}}</ref> * 'Kanuma festival ': Celebrated during Sankranti, this festival features decorated bulls paraded through the streets. In some areas, the bulls are also chased as ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chittoor"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-chittoor-b6974229",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Chittoor Gangamma Jatara",
+   "subtitle": "आंध्र प्रदेश · Chittoor",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/chittoor",
+   "payload": {
+    "unit_id": "district:ap/chittoor",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Chittoor Gangamma Jatara",
+     "desc_hi": "Chittoor district is known for several local cultural festivals celebrated on a grand scale. * 'Chittoor Gangamma Jatara ': This annual festival commemorates the killing of a vassal by the goddess Gangamma. The festival is marked by traditional rituals and large-scale community p",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Chittoor"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-26",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-ap-anakapalli-052b0cda",
    "kind": "region",

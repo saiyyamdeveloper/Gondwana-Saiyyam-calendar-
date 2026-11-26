@@ -18,11 +18,11 @@
    "place": "धार्मिक/दर्शन स्थल",
    "story": "लोक-कथा (बुजुर्ग-वाणी)"
   },
-  "updated": "2026-11-25T04:29:40+00:00",
+  "updated": "2026-11-26T03:42:44+00:00",
   "coverage": {
    "states": 29,
    "districts": 776,
-   "tehsils": 155,
+   "tehsils": 178,
    "posts": 0,
    "panchayats": 0,
    "villages": 0,
@@ -8723,6 +8723,190 @@
    "parent": "district:ap/alluri-sitharama-raju",
    "entities": [],
    "source_admin": "https://en.wikipedia.org/wiki/Alluri_Sitharama_Raju_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/ainavilli",
+   "level": "tehsil",
+   "name_hi": "Ainavilli",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/allavaram",
+   "level": "tehsil",
+   "name_hi": "Allavaram",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/alumuru",
+   "level": "tehsil",
+   "name_hi": "Alumuru",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/amalapuram",
+   "level": "tehsil",
+   "name_hi": "Amalapuram",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/amalapuram-revenue-division",
+   "level": "tehsil",
+   "name_hi": "Amalapuram revenue division",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/ambajipeta",
+   "level": "tehsil",
+   "name_hi": "Ambajipeta",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/atreyapuram",
+   "level": "tehsil",
+   "name_hi": "Atreyapuram",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/i-polavaram",
+   "level": "tehsil",
+   "name_hi": "I. Polavaram",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/k-gangavaram",
+   "level": "tehsil",
+   "name_hi": "K. Gangavaram",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/katrenikona",
+   "level": "tehsil",
+   "name_hi": "Katrenikona",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/kothapeta",
+   "level": "tehsil",
+   "name_hi": "Kothapeta",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/kothapeta-revenue-division",
+   "level": "tehsil",
+   "name_hi": "Kothapeta revenue division",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/malikipuram",
+   "level": "tehsil",
+   "name_hi": "Malikipuram",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/mamidikuduru",
+   "level": "tehsil",
+   "name_hi": "Mamidikuduru",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/mandals",
+   "level": "tehsil",
+   "name_hi": "mandals",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/mummidivaram",
+   "level": "tehsil",
+   "name_hi": "Mummidivaram",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/p-gannavaram",
+   "level": "tehsil",
+   "name_hi": "P. Gannavaram",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/ramachandrapuram",
+   "level": "tehsil",
+   "name_hi": "Ramachandrapuram",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/ramachandrapuram-revenue-division",
+   "level": "tehsil",
+   "name_hi": "Ramachandrapuram revenue division",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/ravulapalem",
+   "level": "tehsil",
+   "name_hi": "Ravulapalem",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/razole",
+   "level": "tehsil",
+   "name_hi": "Razole",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/sakhinetipalle",
+   "level": "tehsil",
+   "name_hi": "Sakhinetipalle",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
+  },
+  {
+   "id": "tehsil:ap/dr-b-r-ambedkar-konaseema/uppalaguptam",
+   "level": "tehsil",
+   "name_hi": "Uppalaguptam",
+   "parent": "district:ap/dr-b-r-ambedkar-konaseema",
+   "entities": [],
+   "source_admin": "https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_Konaseema_district"
   },
   {
    "id": "tehsil:cg/kabirdham/bodla",

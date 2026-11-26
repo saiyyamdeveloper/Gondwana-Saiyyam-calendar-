@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q9232"
  },
- "checked_at": "2026-11-25T04:29:54.255280+00:00",
+ "checked_at": "2026-11-26T03:43:14.200478+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -13,7 +13,7 @@
    "name": "wiki-hi-mismatch",
    "ok": false,
    "pts": 0,
-   "detail": "top-hit \"ऋषभदेव\" नाम से मेल नहीं खाता — छोड़ा",
+   "detail": "top-hit \"जय जिनेन्द्र\" नाम से मेल नहीं खाता — छोड़ा",
    "link": ""
   },
   {
