@@ -1,9 +1,579 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-26T03:43:16.165795+00:00"
+  "updated": "2026-11-27T03:43:43.671686+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-ap-khammam-31f21581",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "Bonalu",
+   "subtitle": "आंध्र प्रदेश · Khammam",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/khammam",
+   "payload": {
+    "unit_id": "district:ap/khammam",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "Bonalu",
+     "desc_hi": "last=Rao|newspaper=The Hindu|access-date=28 July 2015|url-access=limited|date=2014-09-21}}</ref> Along with Bathukamma, Bonalu was also declared a state festival on 15 June 2014. {{cite news|url=http://timesofindia.indiatimes.com/city/hyderabad/Bonalu-Bathukamma-declared-state-fe",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Khammam"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-khammam-dde164ac",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Bathukamma",
+   "subtitle": "आंध्र प्रदेश · Khammam",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/khammam",
+   "payload": {
+    "unit_id": "district:ap/khammam",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Bathukamma",
+     "desc_hi": "Women in the city celebrate Bathukamma , a floral festival in which they worship the goddess with different flowers for nine days. {{cite news|url=https://www.thehindu.com/news/national/telangana/Bathukamma-Festivities-in-the-air/article60344769.ece|archive-url",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Khammam"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-kakinada-e17d80ce",
+   "kind": "region",
+   "subtype": "place",
+   "title": "State Protected Monuments",
+   "subtitle": "आंध्र प्रदेश · Kakinada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/kakinada",
+   "payload": {
+    "unit_id": "district:ap/kakinada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "State Protected Monuments",
+     "desc_hi": "ion-757129 |access-date=3 November 2024 |website= The Hans India |language=en}}</ref> It is recognized as one of the List of State Protected Monuments in Andhra Pradesh|State Protected Monuments by the Archaeological Survey of India (ASI) in Andhra Pradesh. {{Cite web |title=Prot",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kakinada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-kakinada-def46e3b",
+   "kind": "region",
+   "subtype": "place",
+   "title": "The Hans India",
+   "subtitle": "आंध्र प्रदेश · Kakinada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/kakinada",
+   "payload": {
+    "unit_id": "district:ap/kakinada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "The Hans India",
+     "desc_hi": "andhra-pradesh/kakinada-ancient-temple-in-sarpavaram-in-pitiable-condition-757129 |access-date=3 November 2024 |website= The Hans India |language=en}}</ref> It is recognized as one of the List of State Protected Monuments in Andhra Pradesh|State Protected Monuments by the Archaeo",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kakinada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-kakinada-b4f55d01",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Bhavanarayana Swamy temple",
+   "subtitle": "आंध्र प्रदेश · Kakinada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/kakinada",
+   "payload": {
+    "unit_id": "district:ap/kakinada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Bhavanarayana Swamy temple",
+     "desc_hi": "ess=subscription|work=The Hindu}}</ref> Kakinada beach is meant for its mild blue waters and cold breeze all the day. Bhavanarayana Temple, Sarpavaram|Bhavanarayana Swamy temple in Sarpavaram in Kakinada suburbs is a historic temple renowned for its mythological significance, int",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kakinada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-kakinada-79153ef8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Konaseema",
+   "subtitle": "आंध्र प्रदेश · Kakinada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/kakinada",
+   "payload": {
+    "unit_id": "district:ap/kakinada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Konaseema",
+     "desc_hi": "Coringa Wildlife Sanctuary , part of the Godavari delta, Hope Island, India , a sandspit formed by the Godavari, Konaseema , scenic Godavari delta islands. It is the second-largest mangrove forest in India after Sundarbans. Uppada beach is primarily considered as Kakinada beach w",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kakinada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-kakinada-691a63f8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Hope Island, India",
+   "subtitle": "आंध्र प्रदेश · Kakinada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/kakinada",
+   "payload": {
+    "unit_id": "district:ap/kakinada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Hope Island, India",
+     "desc_hi": "forest 28.jpg|thumb|217x217px|Coringa wildlife sanctuary Coringa Wildlife Sanctuary , part of the Godavari delta, Hope Island, India , a sandspit formed by the Godavari, Konaseema , scenic Godavari delta islands. It is the second-largest mangrove forest in India after Sundarbans.",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kakinada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-kakinada-30feabd8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Coringa Wildlife Sanctuary",
+   "subtitle": "आंध्र प्रदेश · Kakinada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/kakinada",
+   "payload": {
+    "unit_id": "district:ap/kakinada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Coringa Wildlife Sanctuary",
+     "desc_hi": "File:Coringa national park Mangrove forest 28.jpg|thumb|217x217px|Coringa wildlife sanctuary Coringa Wildlife Sanctuary , part of the Godavari delta, Hope Island, India , a sandspit formed by the Godavari, Konaseema , scenic Godavari delta islands. It is the second-largest mangro",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kakinada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-kakinada-72b5c6d8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumb|217x217px|Coringa wildlife sanctuary",
+   "subtitle": "आंध्र प्रदेश · Kakinada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/kakinada",
+   "payload": {
+    "unit_id": "district:ap/kakinada",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumb|217x217px|Coringa wildlife sanctuary",
+     "desc_hi": "File:Coringa national park Mangrove forest 28.jpg|thumb|217x217px|Coringa wildlife sanctuary Coringa Wildlife Sanctuary , part of the Godavari delta, Hope Island, India , a sandspit formed by the Godavari, Konaseema , scenic G",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kakinada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-kakinada-ddaff224",
+   "kind": "region",
+   "subtype": "festival",
+   "title": "thumb|[[Kakinada Kaja",
+   "subtitle": "आंध्र प्रदेश · Kakinada",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): festival उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/kakinada",
+   "payload": {
+    "unit_id": "district:ap/kakinada",
+    "entity": {
+     "kind": "festival",
+     "name_hi": "thumb|[[Kakinada Kaja",
+     "desc_hi": "File:Andhra Telangana Sweets - Kakinada Kaja.jpg|thumb| Kakinada Kaja , a sweet delicacy of Kakinada|195x195px Kakinada Beach Festival (also Sagara Sambaralu) is a music festival held in Kakinada. {{cite we",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kakinada"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-eluru-b6513ed3",
+   "kind": "region",
+   "subtype": "person",
+   "title": "Nizam State",
+   "subtitle": "आंध्र प्रदेश · Eluru",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): person उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/eluru",
+   "payload": {
+    "unit_id": "district:ap/eluru",
+    "entity": {
+     "kind": "person",
+     "name_hi": "Nizam State",
+     "desc_hi": "g of the Mughal Empire (1857).png}} Mughal Empire 1687–1724 * Nizam State 1724–1753 * French Indies Company|French East India Company 1753–1759 * Northern Circars|Northe",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Eluru"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-east-godavari-ab5b2c4a",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Papikondalu",
+   "subtitle": "आंध्र प्रदेश · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/east-godavari",
+   "payload": {
+    "unit_id": "district:ap/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Papikondalu",
+     "desc_hi": "* Havelock Bridge are located at Rajamahendravaram. * Ecotourism projects are located at: ** Maredumilli ** Papikondalu ** Rampa ** Tuni . * Talupulamma lova is a temple in East Godavari. </r",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-east-godavari-334c9804",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Maredumilli",
+   "subtitle": "आंध्र प्रदेश · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/east-godavari",
+   "payload": {
+    "unit_id": "district:ap/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Maredumilli",
+     "desc_hi": "Dowleswaram Barrage * Havelock Bridge are located at Rajamahendravaram. * Ecotourism projects are located at: ** Maredumilli ** Papikondalu ** Rampa ** Tuni . * Talupulamma lova is a temple in East Godavari. {{cite web|title=Tourist Places|url=http://eastgodavari.nic.in/|publishe",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-east-godavari-ddeb7436",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Havelock Bridge",
+   "subtitle": "आंध्र प्रदेश · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/east-godavari",
+   "payload": {
+    "unit_id": "district:ap/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Havelock Bridge",
+     "desc_hi": "al in Rajamahendravaram is the location of many plant nurseries. * Sir Arthur Cotton Museum * Dowleswaram Barrage * Havelock Bridge are located at Rajamahendravaram. * Ecotourism projects are located at: ** Maredumilli ** Papikondalu ** Rampa ** Tuni . * Talupulamma lova is a tem",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-east-godavari-1db37e6e",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Dowleswaram Barrage",
+   "subtitle": "आंध्र प्रदेश · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/east-godavari",
+   "payload": {
+    "unit_id": "district:ap/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Dowleswaram Barrage",
+     "desc_hi": "[Kakinada . * Kadiam Mandal in Rajamahendravaram is the location of many plant nurseries. * Sir Arthur Cotton Museum * Dowleswaram Barrage * Havelock Bridge are located at Rajamahendravaram. * Ecotourism projects are located at: ** Maredumilli ** Papikondalu ** Rampa ** Tuni . * ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-east-godavari-35055329",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Kakinada",
+   "subtitle": "आंध्र प्रदेश · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/east-godavari",
+   "payload": {
+    "unit_id": "district:ap/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Kakinada",
+     "desc_hi": "|date=February 2019}} * Coringa Wildlife Sanctuary * NTR Beach * Hope Island (India)|Hope Island are located in Kakinada . * Kadiam Mandal in Rajamahendravaram is the location of many plant nurseries. * Sir Arthur Cotton Museum * Dowleswaram Barrage * Havelock Bridge are located ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-east-godavari-51a120f8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Hope Island",
+   "subtitle": "आंध्र प्रदेश · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/east-godavari",
+   "payload": {
+    "unit_id": "district:ap/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Hope Island",
+     "desc_hi": "Rajamahendravaram ** Samarlakota * Coringa Wildlife Sanctuary * NTR Beach * Hope Island (India)|Hope Island are located in Kakinada . * Kadiam Mandal in Rajamahendravaram is the location of many plant nurseries. * Sir Arthur Cotton Museum * Dowleswaram Barrage * Havelock Bridge a",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-east-godavari-30feabd8",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Coringa Wildlife Sanctuary",
+   "subtitle": "आंध्र प्रदेश · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/east-godavari",
+   "payload": {
+    "unit_id": "district:ap/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Coringa Wildlife Sanctuary",
+     "desc_hi": "** Draksharamam ** Kotipalli ** Pithapuram ** Rajamahendravaram ** Samarlakota * Coringa Wildlife Sanctuary * NTR Beach * Hope Island (India)|Hope Island are located in Kakinada . * Kadiam Mandal in Rajamahendravaram is the location of many plant nurseries. * Sir Arthur Cotton Mu",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-east-godavari-6a3bdcfd",
+   "kind": "region",
+   "subtype": "place",
+   "title": "thumbnail|Vakalapudi beach at [[Kakinada",
+   "subtitle": "आंध्र प्रदेश · East Godavari",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/east-godavari",
+   "payload": {
+    "unit_id": "district:ap/east-godavari",
+    "entity": {
+     "kind": "place",
+     "name_hi": "thumbnail|Vakalapudi beach at [[Kakinada",
+     "desc_hi": "File:Vakalapudi beach.JPG|thumbnail|Vakalapudi beach at Kakinada East Godavari has many places worth visiting, such as temples and nurseries. * Historical temples are located at: ** Someswaram",
+     "sources": [
+      "https://en.wikipedia.org/wiki/East_Godavari"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-27",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-ap-dr-b-r-ambedkar-konaseema-690fa27b",
    "kind": "region",

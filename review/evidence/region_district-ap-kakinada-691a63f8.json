@@ -1,0 +1,62 @@
+{
+ "id": "region:district-ap-kakinada-691a63f8",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q11683774"
+ },
+ "checked_at": "2026-11-27T03:43:17.336253+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi-mismatch",
+   "ok": false,
+   "pts": 0,
+   "detail": "top-hit \"श्रीलंका क्रिकेट टीम का वेस्ट इंडीज दौरा 2020–21\" नाम से मेल नहीं खाता — छोड़ा",
+   "link": ""
+  },
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Hope Island (India); सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Hope%20Island%20%28India%29"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q11683774",
+   "link": "https://www.wikidata.org/wiki/Q11683774"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "Hope Island, India: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "llm": null
+}

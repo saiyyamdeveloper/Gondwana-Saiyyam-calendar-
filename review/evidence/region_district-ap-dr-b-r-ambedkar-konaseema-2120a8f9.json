@@ -5,7 +5,7 @@
   "death": null,
   "source": "wikidata:Q4771056"
  },
- "checked_at": "2026-11-26T03:42:54.974047+00:00",
+ "checked_at": "2026-11-27T03:43:34.972816+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -27,8 +27,8 @@
    "name": "wiki-en",
    "ok": true,
    "pts": 20,
-   "detail": "पृष्ठ मिला: Antarvedi; सारांश में नाम-टोकन ✓",
-   "link": "https://en.wikipedia.org/wiki/Antarvedi"
+   "detail": "पृष्ठ मिला: Lakshmi Narasimha Temple, Antarvedi; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Lakshmi%20Narasimha%20Temple%2C%20Antarvedi"
   },
   {
    "name": "wikidata",

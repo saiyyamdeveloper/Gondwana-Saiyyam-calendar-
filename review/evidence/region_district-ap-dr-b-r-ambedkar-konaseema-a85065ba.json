@@ -3,9 +3,9 @@
  "dates": {
   "birth": null,
   "death": null,
-  "source": "wikidata:Q24949503"
+  "source": "wikidata:Q6479889"
  },
- "checked_at": "2026-11-26T03:42:47.491701+00:00",
+ "checked_at": "2026-11-27T03:43:29.517138+00:00",
  "score": 35,
  "verdict": "weak",
  "checks": [
@@ -34,8 +34,8 @@
    "name": "wikidata",
    "ok": true,
    "pts": 15,
-   "detail": "आइटम Q24949503",
-   "link": "https://www.wikidata.org/wiki/Q24949503"
+   "detail": "आइटम Q6479889",
+   "link": "https://www.wikidata.org/wiki/Q6479889"
   },
   {
    "name": "internal-sources",
