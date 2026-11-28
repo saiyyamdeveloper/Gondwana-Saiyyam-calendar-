@@ -1,9 +1,699 @@
 {
  "meta": {
   "title": "गोंडवाना समीक्षा-कतार",
-  "updated": "2026-11-27T03:43:43.671686+00:00"
+  "updated": "2026-11-28T03:27:26.335935+00:00"
  },
  "queue": [
+  {
+   "id": "region:district-ap-nandyal-3fbff0e6",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Shiva",
+   "subtitle": "आंध्र प्रदेश · Nandyal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/nandyal",
+   "payload": {
+    "unit_id": "district:ap/nandyal",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Shiva",
+     "desc_hi": "ne of the twelve Jyotirlingas of Shiva and as one of the fifty two Shakta pithas , centres of the Hindu goddess. Shiva is worshiped as Mallikarjuna and is represented by the lingam. His consort Parvati is depicted as Bhramaramba. This temple is in Nandyal district and is 163 km f",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nandyal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-nandyal-9f86f97e",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Shakta pithas",
+   "subtitle": "आंध्र प्रदेश · Nandyal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/nandyal",
+   "payload": {
+    "unit_id": "district:ap/nandyal",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Shakta pithas",
+     "desc_hi": "m and Shaktism as this temple is referred to as one of the twelve Jyotirlingas of Shiva and as one of the fifty two Shakta pithas , centres of the Hindu goddess. Shiva is worshiped as Mallikarjuna and is represented by the lingam. His consort Parvati is depicted as Bhramaramba. T",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nandyal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-nandyal-0505b6fc",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Jyotirlingas",
+   "subtitle": "आंध्र प्रदेश · Nandyal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/nandyal",
+   "payload": {
+    "unit_id": "district:ap/nandyal",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Jyotirlingas",
+     "desc_hi": "nam is significant to the Hindu sects of both Shaivism and Shaktism as this temple is referred to as one of the twelve Jyotirlingas of Shiva and as one of the fifty two Shakta pithas , centres of the Hindu goddess. Shiva is worshiped as Mallikarjuna and is represented by the ling",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nandyal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-nandyal-cf6a100d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Srisailam",
+   "subtitle": "आंध्र प्रदेश · Nandyal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/nandyal",
+   "payload": {
+    "unit_id": "district:ap/nandyal",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Srisailam",
+     "desc_hi": "Srisailam temple also 'Sri Bhramaramba Mallikarjuna Swamy ' Devasthanam is significant to the Hindu sects of both Shaivism and Shaktism as this temple is referred to as one of the twelve Jyotirlingas of Shiva and as one of the f",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nandyal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-nandyal-909ebeb9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Lord Shiva",
+   "subtitle": "आंध्र प्रदेश · Nandyal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/nandyal",
+   "payload": {
+    "unit_id": "district:ap/nandyal",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Lord Shiva",
+     "desc_hi": "mple , which is considered the most significant and largest of the Nava Nandulu shrines. These temples is dedicated to Lord Shiva and shaivism. The list of Nava Nandulu in their traditional, practical geographic route order: 1. Prathama Nandi: Situated on a lane of Nandyal and Bo",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nandyal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-nandyal-203c87af",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mahanandiswara Swamy Temple",
+   "subtitle": "आंध्र प्रदेश · Nandyal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/nandyal",
+   "payload": {
+    "unit_id": "district:ap/nandyal",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mahanandiswara Swamy Temple",
+     "desc_hi": "inent pilgrimage village located east of the Nallamala Hills in the Nandyal district . It is home to the ancient Mahanandiswara Swamy Temple , which is considered the most significant and largest of the Nava Nandulu shrines. These temples is dedicated to Lord Shiva and shaivism. ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nandyal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-nandyal-b077d157",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Nallamala",
+   "subtitle": "आंध्र प्रदेश · Nandyal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/nandyal",
+   "payload": {
+    "unit_id": "district:ap/nandyal",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Nallamala",
+     "desc_hi": "Mahanandi is a prominent pilgrimage village located east of the Nallamala Hills in the Nandyal district . It is home to the ancient Mahanandiswara Swamy Temple , which is considered the most significant and largest of the Nava Nandulu shrines. These temples is dedicated to Lord S",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nandyal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-nandyal-f4d9e0ab",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Mahanandi",
+   "subtitle": "आंध्र प्रदेश · Nandyal",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/nandyal",
+   "payload": {
+    "unit_id": "district:ap/nandyal",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Mahanandi",
+     "desc_hi": "Mahanandi is a prominent pilgrimage village located east of the Nallamala Hills in the Nandyal district . It is home to the ancient Mahanandiswara Swamy Temple , which is considered the most significant and largest of the Nava",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Nandyal"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-krishna-b3c63590",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Subhadra",
+   "subtitle": "आंध्र प्रदेश · Krishna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/krishna",
+   "payload": {
+    "unit_id": "district:ap/krishna",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Subhadra",
+     "desc_hi": "800 CE, with Jagannath worshipped as a regional form associated with Krishna, along with Balarama|Baladeva and Subhadra . South Indian states—such as Tamil Nadu, Karnataka, Andhra Pradesh, and Kerala—have many major Krishna temples, including Vithoba Temple and Guruvayur Temple ,",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Krishna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-krishna-fa0177db",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Baladeva",
+   "subtitle": "आंध्र प्रदेश · Krishna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/krishna",
+   "payload": {
+    "unit_id": "district:ap/krishna",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Baladeva",
+     "desc_hi": "the tradition since about 800 CE, with Jagannath worshipped as a regional form associated with Krishna, along with Balarama|Baladeva and Subhadra . South Indian states—such as Tamil Nadu, Karnataka, Andhra Pradesh, and Kerala—have many major Krishna temples, including Vithoba Tem",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Krishna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-krishna-dfa4785f",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Puri",
+   "subtitle": "आंध्र प्रदेश · Krishna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/krishna",
+   "payload": {
+    "unit_id": "district:ap/krishna",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Puri",
+     "desc_hi": "year=1992|publisher=Bharatiya Vidya Bhavan|pages=2–5}}</ref> The popular Jagannath Temple, Puri|Jagannath temple in Puri (city)|Puri , Odisha, has been particularly significant within the tradition since about 800 CE, with Jagannath worshipped as a regional form associated with K",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Krishna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-krishna-ee2bc714",
+   "kind": "region",
+   "subtype": "belief",
+   "title": "Jagannath temple",
+   "subtitle": "आंध्र प्रदेश · Krishna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): belief उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/krishna",
+   "payload": {
+    "unit_id": "district:ap/krishna",
+    "entity": {
+     "kind": "belief",
+     "name_hi": "Jagannath temple",
+     "desc_hi": "ttps://books.google.com/books?id=1XLXAAAAMAAJ |year=1992|publisher=Bharatiya Vidya Bhavan|pages=2–5}}</ref> The popular Jagannath Temple, Puri|Jagannath temple in Puri (city)|Puri , Odisha, has been particularly significant within the tradition since about 800 CE, with Jagannath ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Krishna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-krishna-c2ddfab9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Guruvayoorappan",
+   "subtitle": "आंध्र प्रदेश · Krishna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/krishna",
+   "payload": {
+    "unit_id": "district:ap/krishna",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Guruvayoorappan",
+     "desc_hi": ".com/books?id=cKnGJGOEQukC |year=2004|publisher=Indiana University Press|isbn=978-0-253-34417-5|pages=16–22}}</ref> and Guruvayurappan|Guruvayoorappan in Kerala. {{cite book|author=Kunissery Ramakrishnier Vaidyanathan|title=Sri Krishna, the Lord of Guruvayur |url=https://books.go",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Krishna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-krishna-6e9749ed",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Shrinathji",
+   "subtitle": "आंध्र प्रदेश · Krishna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/krishna",
+   "payload": {
+    "unit_id": "district:ap/krishna",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Shrinathji",
+     "desc_hi": "na are seen in his different forms, such as Jagannath a in Odisha, Vithoba in Maharashtra, Shrinathji in Rajasthan, {{cite book|author=Tryna Lyons|title=The Artists of Nathdwara: The Practice of Painting in Rajasthan |url=https://books.google.com/books?id=cKnGJGOEQukC |year=2004|",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Krishna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-krishna-b1fecd6c",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Vithoba",
+   "subtitle": "आंध्र प्रदेश · Krishna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/krishna",
+   "payload": {
+    "unit_id": "district:ap/krishna",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Vithoba",
+     "desc_hi": "}} Regional variations in the iconography of Krishna are seen in his different forms, such as Jagannath a in Odisha, Vithoba in Maharashtra, Shrinathji in Rajasthan, {{cite book|author=Tryna Lyons|title=The Artists of Nathdwara: The Practice of Painting in Rajasthan |url=https://",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Krishna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-krishna-1f8e722d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Jagannath",
+   "subtitle": "आंध्र प्रदेश · Krishna",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/krishna",
+   "payload": {
+    "unit_id": "district:ap/krishna",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Jagannath",
+     "desc_hi": "{Sfn|Hardy|1987|pp=387–392}} Regional variations in the iconography of Krishna are seen in his different forms, such as Jagannath a in Odisha, Vithoba in Maharashtra, Shrinathji in Rajasthan, {{cite book|author=Tryna Lyons|title=The Artists of Nathdwara: The Practice of Painting ",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Krishna"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-konaseema-ce6965c6",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Muramalla",
+   "subtitle": "आंध्र प्रदेश · Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/konaseema",
+   "payload": {
+    "unit_id": "district:ap/konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Muramalla",
+     "desc_hi": "m include: * Ainavilli * Antarvedi * Ryali * Gudapalli * Mandapalli * Vadapalli * Appanapalli * Muramalla * Palivela * Vanapalli * Kundaleswaram",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Konaseema"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-konaseema-481b4e9d",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Appanapalli",
+   "subtitle": "आंध्र प्रदेश · Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/konaseema",
+   "payload": {
+    "unit_id": "district:ap/konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Appanapalli",
+     "desc_hi": "laces. Some of them include: * Ainavilli * Antarvedi * Ryali * Gudapalli * Mandapalli * Vadapalli * Appanapalli * Muramalla * Palivela * Vanapalli * Kundaleswaram",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Konaseema"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-konaseema-e95d8b13",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Vadapalli",
+   "subtitle": "आंध्र प्रदेश · Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/konaseema",
+   "payload": {
+    "unit_id": "district:ap/konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Vadapalli",
+     "desc_hi": "ncient pilgrim places. Some of them include: * Ainavilli * Antarvedi * Ryali * Gudapalli * Mandapalli * Vadapalli * Appanapalli * Muramalla * Palivela * Vanapalli * Kundaleswaram",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Konaseema"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-konaseema-153859a0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Gudapalli",
+   "subtitle": "आंध्र प्रदेश · Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/konaseema",
+   "payload": {
+    "unit_id": "district:ap/konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Gudapalli",
+     "desc_hi": "Konaseema has many ancient pilgrim places. Some of them include: * Ainavilli * Antarvedi * Ryali * Gudapalli * Mandapalli * Vadapalli * Appanapalli * Muramalla * Palivela * Vanapalli * Kundaleswaram",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Konaseema"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-konaseema-efbbb4c0",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ryali",
+   "subtitle": "आंध्र प्रदेश · Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/konaseema",
+   "payload": {
+    "unit_id": "district:ap/konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ryali",
+     "desc_hi": "Konaseema has many ancient pilgrim places. Some of them include: * Ainavilli * Antarvedi * Ryali * Gudapalli * Mandapalli * Vadapalli * Appanapalli * Muramalla * Palivela * Vanapalli * Kundaleswaram",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Konaseema"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-konaseema-2120a8f9",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Antarvedi",
+   "subtitle": "आंध्र प्रदेश · Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/konaseema",
+   "payload": {
+    "unit_id": "district:ap/konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Antarvedi",
+     "desc_hi": "Konaseema has many ancient pilgrim places. Some of them include: * Ainavilli * Antarvedi * Ryali * Gudapalli * Mandapalli * Vadapalli * Appanapalli * Muramalla * Palivela * Vanapalli * Kundaleswaram",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Konaseema"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
+  {
+   "id": "region:district-ap-konaseema-1016df65",
+   "kind": "region",
+   "subtype": "place",
+   "title": "Ainavilli",
+   "subtitle": "आंध्र प्रदेश · Konaseema",
+   "reason": "क्षेत्र-क्रॉलर (district-अनुभाग-खनन): place उम्मीदवार — प्रकाशन पूर्व मानव-सत्यापन आवश्यक",
+   "source_file": "gondwana_regions.json",
+   "record_id": "district:ap/konaseema",
+   "payload": {
+    "unit_id": "district:ap/konaseema",
+    "entity": {
+     "kind": "place",
+     "name_hi": "Ainavilli",
+     "desc_hi": "Konaseema has many ancient pilgrim places. Some of them include: * Ainavilli * Antarvedi * Ryali * Gudapalli * Mandapalli * Vadapalli * Appanapalli * Muramalla * Palivela * Vanapalli * Kundaleswaram",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Konaseema"
+     ],
+     "added": "crawl",
+     "verify": true
+    }
+   },
+   "status": "pending",
+   "added": "2026-11-28",
+   "added_by": "region-crawl",
+   "decision": null,
+   "decided_by": null,
+   "decided_at": null,
+   "note": ""
+  },
   {
    "id": "region:district-ap-khammam-31f21581",
    "kind": "region",

@@ -1,0 +1,55 @@
+{
+ "id": "region:district-ap-nandyal-9f86f97e",
+ "dates": {
+  "birth": null,
+  "death": null,
+  "source": "wikidata:Q138819124"
+ },
+ "checked_at": "2026-11-28T03:26:49.116326+00:00",
+ "score": 35,
+ "verdict": "weak",
+ "checks": [
+  {
+   "name": "wiki-hi",
+   "ok": false,
+   "pts": 0,
+   "detail": "कोई पृष्ठ नहीं मिला",
+   "link": ""
+  },
+  {
+   "name": "wiki-en",
+   "ok": true,
+   "pts": 20,
+   "detail": "पृष्ठ मिला: Shakta pithas; सारांश में नाम-टोकन ✓",
+   "link": "https://en.wikipedia.org/wiki/Shakta%20pithas"
+  },
+  {
+   "name": "wikidata",
+   "ok": true,
+   "pts": 15,
+   "detail": "आइटम Q138819124",
+   "link": "https://www.wikidata.org/wiki/Q138819124"
+  },
+  {
+   "name": "internal-sources",
+   "ok": false,
+   "pts": 5,
+   "detail": "sources[] खाली",
+   "link": ""
+  },
+  {
+   "name": "internal-category",
+   "ok": false,
+   "pts": 5,
+   "detail": "श्रेणी नहीं",
+   "link": ""
+  }
+ ],
+ "conflicts": [],
+ "sources_domains": [
+  "en.wikipedia.org",
+  "wikidata.org"
+ ],
+ "summary_hi": "Shakta pithas: स्कोर 35/100 (🟠 कमज़ोर सबूत)। मिले सबूत: wiki-en, wikidata।",
+ "llm": null
+}
